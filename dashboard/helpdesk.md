@@ -315,7 +315,7 @@ Best for teams already running on Google Workspace or personal Gmail with a `sup
 
 ### Option 2: Connect Outlook / Microsoft 365 (OAuth)
 
-> **Coming soon.** Outlook OAuth is in operator bring-up. Until it's enabled on your WebNesting account, use Option 3 (vanity subdomain) or Option 5 (IMAP with an Outlook app password) instead.
+> **Coming soon.** Outlook OAuth is not yet available. In the meantime, use Option 3 (vanity subdomain) or Option 5 (IMAP with an Outlook app password) instead.
 
 When available, the flow is identical to Gmail OAuth — pick **Microsoft 365 / Outlook** as the inbound source, authorize through Microsoft, and replies thread cleanly through your existing Outlook conversations.
 
