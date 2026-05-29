@@ -1,6 +1,6 @@
 # Welcome to WebNesting
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-05-28 11:09pm
 
 Thanks for choosing WebNesting! This guide will help you get comfortable with the platform and show you everything you need to know to start building your website.
 
@@ -66,7 +66,7 @@ The Builder opens in its own view so you can focus entirely on designing your pa
 ## How to Log In
 
 1. Open your browser and go to your site's address. Your address will look something like **yoursite.webnesting.site**.
-2. Add your **admin path** to the end of the address. The default admin path is **/sandbox**, so your login address would be something like **yoursite.webnesting.site/sandbox**. (Your admin path may be different if it was changed during setup -- check your account portal for the exact address.)
+2. Add your **admin path** to the end of the address. The default admin path is **/admin**, so your login address would be something like **yoursite.webnesting.site/admin**. (Your admin path is chosen during setup and may be different -- check your account portal for the exact address.)
 3. You will see a login screen. Enter your **email address** and **password**.
 
 ![The WebNesting login screen](../images/getting-started/login-page.png)

@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-05-28 11:09pm
 
 Welcome to WebNesting! This guide will get you up and running in about 10 minutes. Follow these steps to set up your site, make your first edits, and publish your changes.
 
@@ -8,7 +8,7 @@ Welcome to WebNesting! This guide will get you up and running in about 10 minute
 
 ## Step 1: Log In and Complete Setup
 
-1. Go to your site address and add your **admin path** to the end. The default is **/sandbox** (for example: **yoursite.webnesting.site/sandbox**). Your admin path may be different if it was customized -- check your account portal for the exact address.
+1. Go to your site address and add your **admin path** to the end. The default is **/admin** (for example: **yoursite.webnesting.site/admin**). Your admin path is chosen during setup and may be different -- check your account portal for the exact address.
 2. Log in with your email and password.
 3. If this is your first time, a welcome wizard will appear. Fill in your site name, pick a starter template, and choose your theme and colors.
 4. Once setup is complete, you will land on your dashboard -- the home base for managing your site.
