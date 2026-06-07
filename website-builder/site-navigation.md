@@ -118,7 +118,7 @@ Breadcrumbs are especially helpful on sites with many pages or deep page hierarc
 To add breadcrumbs to a page:
 
 1. Open the page in the Website Builder.
-2. Drag a **Breadcrumbs** component from the **Navigation** category in the left sidebar onto the page.
+2. Drag a **Breadcrumbs** component from the **Content** category in the left sidebar onto the page.
 3. Place it near the top of the content area, below the header.
 
 The breadcrumbs will automatically generate based on the page's position in your site hierarchy. For details on adding components, see **[Adding Components to Your Page](adding-components.md)**.

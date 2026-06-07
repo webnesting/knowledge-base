@@ -8,7 +8,7 @@ Your WebNesting account is the key to everything you build. This guide walks you
 
 ## Logging In to Your Account
 
-1. Go to your site's login page by adding your admin path to your site address (for example: **yoursite.webnesting.site/admin**). The admin path is chosen during setup and defaults to **/admin** -- check your account portal if yours is different.
+1. Go to the WebNesting app sign-in page.
 2. Enter your **email address** in the first field.
 3. Enter your **password** in the second field.
 4. If you want to stay signed in, check the **Remember Me** box.

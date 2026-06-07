@@ -81,16 +81,17 @@ Modules are add-on features with flat monthly fees. You are only charged for mod
 | Forms | $10/month | Build custom forms for contact, surveys, and registrations |
 | E-Commerce (Store) | $20/month | Adds an online store with products and orders |
 | Widget Builder | $20/month | Lets you create custom interactive elements |
-| API Access | $50/month | Allows external software to connect to your site |
+
 | Remove WebNesting Branding | $5/month | Removes the "Powered by WebNesting" text from your footer |
 
 Workspace-level products are billed separately at the workspace level (see [Workspace Products](workspace-products.md)):
 
 | Product | Monthly Cost | What It Does |
 |---------|-------------|--------------|
-| Marketing | $25/month base + per-email pricing | Email campaigns, contacts, automations |
+| Marketing | $20/month base + per-email pricing | Email campaigns, contacts, automations |
 | Helpdesk | $15/month base + $0.15/ticket (25 free) | Tickets, SLA, knowledge base |
 | Tasks | $10/month base + per-task and per-project usage | Projects, tasks, boards, timelines |
+| API & AI Access | $10/month base + per-request, data-transfer, and active-token usage | Programmatic API access plus bring-your-own-AI assistant |
 
 > **Tip:** Module fees are the same every month regardless of how much you use the module. If the Articles module is enabled, it costs $5/month whether you have 2 articles or 200.
 

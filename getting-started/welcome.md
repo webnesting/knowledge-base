@@ -65,9 +65,9 @@ The Builder opens in its own view so you can focus entirely on designing your pa
 
 ## How to Log In
 
-1. Open your browser and go to your site's address. Your address will look something like **yoursite.webnesting.site**.
-2. Add your **admin path** to the end of the address. The default admin path is **/admin**, so your login address would be something like **yoursite.webnesting.site/admin**. (Your admin path is chosen during setup and may be different -- check your account portal for the exact address.)
-3. You will see a login screen. Enter your **email address** and **password**.
+1. Open your browser and go to the WebNesting app and sign in with your **email address** and **password**.
+2. Once you're signed in, open the **workspace** that contains your site.
+3. From the workspace's **Sites** list, click your site to open its dashboard. All of your sites are managed from the same place once you're signed in -- you no longer go to a separate per-site web address to log in.
 
 ![The WebNesting login screen](../images/getting-started/login-page.png)
 

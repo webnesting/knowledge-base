@@ -43,14 +43,14 @@ Some optional features are available as add-ons. These have a flat monthly rate,
 | Forms module | $10/month |
 | Store module | $20/month |
 | Widget Builder | $20/month |
-| API Access | $50/month |
+| API & AI Access | $10/month |
 | Remove Branding | $5/month |
 
 Workspace-level products are also available on a separate monthly rate:
 
 | Product | Monthly Cost |
 |---------|-------------|
-| Marketing | $25/month |
+| Marketing | $20/month |
 | Helpdesk | $15/month |
 | Tasks | $10/month |
 

@@ -2,7 +2,7 @@
 
 **Last verified:** 2026-05-11 9:00am
 
-WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Three products are available, and you only pay for the ones you use.
+WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Four products are available, and you only pay for the ones you use.
 
 ---
 
@@ -47,6 +47,14 @@ Project and task management for your team. When you enable Tasks, you get:
 - **Time tracking** -- Log time spent on tasks
 - **Milestones and tags** -- Mark key deadlines and organize tasks with tags
 - **Task comments** -- Discuss work and see activity history on every task
+
+### API & AI Access
+
+Programmatic access to your workspace for developers and AI assistants. When you enable API & AI Access, you get:
+
+- **API tokens** -- Create access tokens so external software can read and update your content
+- **Bring-your-own-AI** -- Connect an AI assistant to work with your workspace data
+- **Usage controls** -- Free monthly allowances for API requests, data transfer, and active tokens, with optional add-ons for higher rate limits and extended audit-log retention
 
 ---
 
@@ -93,6 +101,14 @@ Here is how pricing works for each product:
 - Base monthly fee for having Tasks enabled
 - Additional charge per active task (with a free tier)
 - Additional charge per project (with a free tier)
+
+### API & AI Access Pricing
+
+- Base monthly fee for having API & AI Access enabled
+- Additional charge per API request (with a free tier)
+- Additional charge for data transfer (with a free tier)
+- Additional charge per active API token (with a free tier)
+- Optional add-ons for a higher rate limit and extended audit-log retention
 
 > **Tip:** Usage charges include generous free tiers, so you can get started without paying anything beyond the base fee. You will only see additional charges once you exceed the free allowances.
 

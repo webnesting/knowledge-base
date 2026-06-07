@@ -28,7 +28,7 @@ You can filter the list by status (Active, Provisioning, Failed) using the filte
 The admin dashboard is where you manage content, change the design, and adjust settings for a specific site.
 
 1. Find the site you want to manage in the workspace **Sites** list.
-2. Click the admin panel link (labeled with your site's admin path, such as **Sandbox**) next to that site.
+2. Click the admin panel link next to that site.
 3. You'll be taken directly to the admin dashboard.
 
 You're automatically signed in. There's no need to enter your email and password again.

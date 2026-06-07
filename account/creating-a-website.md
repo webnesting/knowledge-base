@@ -53,7 +53,7 @@ Once you submit the form:
 
 Once your site has been created, you'll see it in your workspace's **Sites** list. From there, you have two options:
 
-- **Click the admin panel link** (labeled with your site's admin path, such as **Sandbox**) to go to your site's admin dashboard. This is where you'll manage content, design your pages, and adjust settings.
+- **Click the admin panel link** to go to your site's admin dashboard. This is where you'll manage content, design your pages, and adjust settings.
 - **Click the web address** to see your live site as visitors will see it.
 
 > **Tip:** Your site is live right away, but it starts with a blank slate. Head to the admin dashboard to start adding content and making it your own.
