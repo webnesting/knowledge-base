@@ -42,6 +42,7 @@ Welcome to the WebNesting help center. These guides will help you build and mana
 | [Account Security](dashboard/account-security.md) | Passwords, two-factor authentication, SSO, and keeping your account safe |
 | [Activity Logs](dashboard/activity-logs.md) | View a history of changes made to your site |
 | [Workspace Products](dashboard/workspace-products.md) | Enable and manage workspace products (Marketing, Helpdesk, Tasks) |
+| [Integrations](dashboard/integrations.md) | Connect Google, Microsoft, and GitHub — one page for all your connected apps |
 | [Helpdesk](dashboard/helpdesk.md) | Manage support tickets, knowledge base, SLA policies, and customer satisfaction |
 | [Tasks and Projects](dashboard/tasks-and-projects.md) | Organize work with projects, tasks, views, time tracking, and team collaboration |
 | [Contacts Management](dashboard/contacts-management.md) | Manage your audience database with lists, tags, companies, and custom fields |
