@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-07-16 3:13pm
 
 WebNesting uses simple, usage-based pricing. This guide explains how pricing works, how to view your usage and bills, and how to pay.
 
@@ -17,7 +17,7 @@ WebNesting charges based on what you actually use -- things like the number of p
 Every site comes with free resources to get you started:
 
 - **5 free pages** -- Your first 5 pages are included at no charge. Ad-hoc and system pages (like your homepage) are always free.
-- **1 GB of free media storage** -- Store images, documents, and other files.
+- **250 MB of free storage** -- Covers your media library, helpdesk attachments, and form uploads across your whole workspace.
 - **3 free site users** -- Add up to three users to your site at no cost.
 
 Many small sites fit entirely within the free tier.
@@ -30,7 +30,7 @@ When you go beyond the free tier, you pay for what you use:
 |----------|------|----------------|
 | Pages | $0.50/page/month | First 5 pages free |
 | Site Users | $15/user/month | First 3 users free |
-| Media Storage | $25/GB/month | First 1 GB free |
+| Storage | $10/GB/month | First 250 MB free |
 
 ### Module add-ons
 
@@ -129,4 +129,4 @@ If a bill isn't paid by the due date, a late fee may be applied to the balance. 
 
 If your usage stays within the free tier for a given month, your bill will be $0. These bills are automatically marked as paid, so you don't need to do anything.
 
-> **Tip:** With 5 free pages, 1 GB of storage, and 3 free site users, many personal and small business sites fit within the free tier. You might not owe anything at all!
+> **Tip:** With 5 free pages, 250 MB of storage, and 3 free site users, many personal and small business sites fit within the free tier. You might not owe anything at all!

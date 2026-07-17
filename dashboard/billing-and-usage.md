@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-07-16 3:13pm
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -22,7 +22,7 @@ You are billed once a month. Each bill covers the previous month's usage and sho
 Every WebNesting site comes with a few things at no charge:
 
 - **Your first 5 pages** -- You can have up to 5 pages on your site before any page charges apply. This includes any type of page (regular pages, article pages, event pages, etc.).
-- **Your first 1 GB of media storage** -- The first gigabyte of images, videos, and file uploads is free.
+- **Your first 250 MB of storage** -- Everything we store for you (media library files, helpdesk attachments, and files visitors upload through your forms) is measured together across your whole workspace, and the first 250 MB is free.
 - **Your first 3 site users** -- You can have up to three site users (admin or otherwise) before per-user charges apply.
 
 These free allowances apply automatically. You do not need to do anything to activate them. If you stay within these limits, you will not see those items on your bill at all.
@@ -50,15 +50,15 @@ Ad-hoc pages (special utility pages) are always free and do not count toward you
 
 > **Tip:** You can see your current page count in your dashboard. If you are looking to reduce costs, consider removing pages you no longer need.
 
-### Media Storage
+### Storage
 
-**$25 per GB per month** (first 1 GB free)
+**$10 per GB per month** (first 250 MB free)
 
-Media storage covers all the images, videos, documents, and other files you upload to your site. The first gigabyte is included for free.
+Storage is one meter for your whole workspace. It covers everything we store for you: your media library (images, videos, documents), helpdesk ticket attachments, and files visitors upload through your forms. You are billed once for storage no matter how many sites you have.
 
-**Example:** If your media library contains 2.5 GB of files, the first 1 GB is free, and you pay for 1.5 GB. That is 1.5 x $25 = $37.50 per month for storage.
+**Example:** If you are storing 2.25 GB of files in total, the first 0.25 GB is free, and you pay for 2 GB. That is 2 x $10 = $20.00 per month for storage.
 
-> **Tip:** Keep your storage costs down by deleting old files you no longer use and by optimizing images before uploading. Smaller image files mean less storage used.
+> **Tip:** You can see and manage every stored file from the Media Manager -- helpdesk attachments and form uploads appear under the "Workspace Storage" folder in its sidebar. Deleting files you no longer need lowers your bill immediately.
 
 ### Site Users
 
@@ -90,7 +90,7 @@ Workspace-level products are billed separately at the workspace level (see [Work
 |---------|-------------|--------------|
 | Marketing | $20/month base + per-email pricing | Email campaigns, contacts, automations |
 | Helpdesk | $15/month base + $0.15/ticket (25 free) | Tickets, SLA, knowledge base |
-| Tasks | $10/month base + per-task and per-project usage | Projects, tasks, boards, timelines |
+| Tasks | $10/month base + $0.30/active task (25 free) | Projects, tasks, boards, timelines -- projects themselves are free |
 | API & AI Access | $10/month base + per-request, data-transfer, and active-token usage | Programmatic API access plus bring-your-own-AI assistant |
 
 > **Tip:** Module fees are the same every month regardless of how much you use the module. If the Articles module is enabled, it costs $5/month whether you have 2 articles or 200.
@@ -157,7 +157,7 @@ Here is a quick summary of what is tracked:
 | Resource | How It Is Counted |
 |----------|-------------------|
 | Pages | Total number of pages on your site at any given time |
-| Media storage | Total size of all files in your media library |
+| Storage | Everything we store for you across your workspace -- media library, helpdesk attachments, and form uploads |
 | Admin users | Number of people with admin access to your site |
 | Modules | Whether each module is turned on or off |
 
@@ -175,7 +175,7 @@ Here are some practical ways to keep your WebNesting bill manageable.
 
 ### Take Advantage of Free Allowances
 
-Remember that your first 5 pages, first 1 GB of storage, and first additional admin user are all free. For a simple website, you may not owe anything beyond the modules you choose to enable.
+Remember that your first 5 pages, first 250 MB of storage, and first additional admin user are all free. For a simple website, you may not owe anything beyond the modules you choose to enable.
 
 ### Only Enable Modules You Need
 
