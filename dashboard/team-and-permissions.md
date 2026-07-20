@@ -110,7 +110,7 @@ After creating the role, you will be taken to the permissions editor where you c
 
 ## Setting Permissions for a Role
 
-Permissions control what actions a role can perform on each type of content on your site. Each content type (like Pages, Articles, Media, etc.) has five permission levels:
+Permissions control what actions a role can perform on each type of content on your site. Each content type (like Pages, Articles, Files, etc.) has five permission levels:
 
 ### Browse
 
@@ -130,7 +130,7 @@ Allows the person to edit existing items. For example, Update permission on Page
 
 ### Delete
 
-Allows the person to remove items. For example, Delete permission on Media lets them delete uploaded files.
+Allows the person to remove items. For example, Delete permission on Files lets them delete uploaded files.
 
 ### How to Set Permissions
 

@@ -1,116 +1,114 @@
-# Media Library
+# Files (File Manager)
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-07-18 2:18pm
 
-The Media Library is where all your uploaded files live -- images, videos, documents, and more. Think of it as your website's file cabinet. Anything you upload here can be used across your entire site, from page backgrounds to blog post images.
+The File Manager is where every file in your workspace lives — images, videos, documents, helpdesk email attachments, and files visitors upload through your forms. Think of it as your workspace's file cabinet: one place, organized in folders, just like the files on your computer.
 
 ---
 
-## What the Media Library Is
+## Where to Find Your Files
 
-The Media Library stores every file you upload to your WebNesting site. Instead of uploading the same image or file over and over, you upload it once to the library and then use it wherever you need it.
+There are two ways to open the File Manager:
 
-This keeps your site organized and makes it easy to reuse files across different pages and sections.
+- **The Files page** — Click **Files** in the left sidebar of your workspace. This opens the full-page File Manager, best for organizing, uploading, and cleaning up.
+- **The picker** — Whenever you choose an image or file somewhere (in the website builder, in a page's settings, or when attaching files to a [Helpdesk](helpdesk.md) reply), the same File Manager opens as a popup so you can pick a file.
 
-![The Media Manager showing uploaded images with search, upload, and external media options](../images/dashboard/media-manager.png)
+Both show the same files and folders.
+
+![The File Manager showing uploaded images with search, upload, and external media options](../images/dashboard/media-manager.png)
+
+---
+
+## How Your Files Are Organized
+
+Everything starts at **Root** — the top of your workspace's file tree. Inside it you'll see:
+
+- **A folder for each of your sites** — files that belong to a specific website.
+- **Your own folders** — create as many as you like, nested however you like.
+- **Managed folders** (marked with a small lock) — folders WebNesting creates and manages for you:
+  - **Helpdesk** — attachments from emails your customers send to your support inbox land here automatically.
+  - **Form Uploads** — files visitors upload through your forms, organized by form.
+
+Managed folders can't be renamed or deleted (files land in them automatically), but you can open them, download from them, and even store your own files in them.
 
 ---
 
 ## Uploading Files
 
-You can add new files to your Media Library at any time.
+1. Open **Files** from the left sidebar.
+2. Navigate to the folder you want the files in (or stay at Root).
+3. Click **Upload files** and choose one or more files — or simply drag files from your computer into the window.
+4. Watch the progress bar; your files appear as soon as they finish.
 
-1. Open your WebNesting dashboard.
-2. Click **Media** in the left sidebar to open the Media Library.
-3. Click the **Upload** button.
-4. Choose one or more files from your computer.
-5. Wait for the upload to finish. You will see a progress indicator for each file.
-6. Once complete, your files will appear in the library.
-
-You can also drag and drop files directly into the Media Library window for a quicker upload.
-
-> **Tip:** You can upload multiple files at once. Select several files from your computer, or drag a group of files into the upload area.
+> **Tip:** Files you upload into the Helpdesk or Form Uploads folders are automatically kept private, since those folders usually hold customer information.
 
 ---
 
-## Browsing and Searching Your Media
+## Working with Folders
 
-As your library grows, you will need ways to find files quickly.
-
-### Browsing
-
-1. Open the **Media Library** from the left sidebar.
-2. Scroll through your files. They are displayed as thumbnail previews so you can see what each file looks like at a glance.
-3. Click on any file to view its details.
-
-### Searching
-
-1. Use the **Search** bar at the top of the Media Library.
-2. Type a file name, keyword, or description.
-3. The library will filter to show only matching files.
-
-> **Tip:** Give your files clear, descriptive names before uploading them. A file named `team-photo-2024.jpg` is much easier to find later than `IMG_4382.jpg`.
+- **Create a folder:** Click the **+** next to "Folders" in the sidebar. The new folder is created wherever you're currently browsing.
+- **Rename a folder:** Hover over the folder in the sidebar and click the pencil. Everything inside moves with it.
+- **Delete a folder:** Hover over the folder and click the ×. You'll be asked what should happen to the files inside:
+  - **Keep files (move them up one level)** — the folder disappears, the files don't.
+  - **Delete files too** — removes the folder and everything in it.
 
 ---
 
-## Viewing File Details and Previews
+## Moving and Renaming Files
 
-Every file in your library has a detail view where you can see more information about it.
+- **Drag and drop:** Drag any file onto a folder — either a folder tile in the main area or a folder in the sidebar tree. Select several files first to move them together.
+- **The Move button:** Click a file, then click **Move** in the detail panel and pick a destination from the folder list.
+- **Rename:** Click a file, then click the pencil next to its filename in the detail panel. Renaming changes how the file appears in your library — links to it keep working.
 
-1. Open the **Media Library**.
-2. Click on any file.
-3. A detail panel will open showing:
-   - A preview of the file (for images and videos).
-   - The file name.
-   - The file type and size.
-   - The date it was uploaded.
-   - The web address (URL) of the file.
-   - Where the file is currently used on your site.
+When you select more than one file, a bar appears above the grid with **Move to folder…** and **Delete** for the whole selection.
 
 ---
 
-## Editing File Information
+## Viewing File Details
 
-You can update the information attached to each file, which helps with organization and accessibility.
+Click any file to open its detail panel, showing:
 
-1. Open the **Media Library**.
-2. Click on the file you want to edit.
-3. In the detail panel, update any of the following:
-   - **Alt Text** -- A short description of the image. This is read aloud by screen readers for visitors who cannot see the image, and it helps search engines understand your content.
-   - **Title** -- A name for the file used for internal reference.
-   - **Description** -- A longer note about the file, useful for keeping track of what it is or where it should be used.
-4. Save your changes.
+- A preview of the file.
+- Editable **Title**, **Alt Text**, and **Description** (changes save automatically).
+- The file's name, size, type, and upload date.
+- Where the file came from — for example "Email attachment (Helpdesk)" or "Form upload".
+- Its virus-scan status.
+- **Referenced by** — the helpdesk tickets or form submissions this file is attached to, with links to jump straight there.
 
-> **Tip:** Always add alt text to your images. It makes your site more accessible to people using screen readers, and it can improve your search engine ranking. Describe what the image shows in a few simple words, like "Woman working at a laptop in a coffee shop."
-
----
-
-## Deleting Media Files
-
-If you no longer need a file, you can remove it from your library.
-
-1. Open the **Media Library**.
-2. Click on the file you want to delete.
-3. Click the **Delete** button in the detail panel.
-4. Confirm that you want to delete the file.
-
-**Important:** If the file is currently used on any page of your site, deleting it will remove it from those pages as well. A broken image or missing file will appear in its place. Check where a file is used before deleting it.
-
-> **Tip:** Before deleting a file, look at the "Used On" information in the file's detail panel. This tells you which pages or components are currently using the file.
+> **Tip:** Always add alt text to your images. It makes your site more accessible to people using screen readers, and it can improve your search engine ranking.
 
 ---
 
-## How Uploaded Media Is Used on Your Site
+## Private and Public Files
 
-Files from the Media Library can be used in many places across your website:
+Every file is either **public** or **private**:
 
-- **Page content** -- Add images, videos, and files to any page through the Website Builder.
-- **Backgrounds** -- Use images as backgrounds for sections, rows, or the entire page.
-- **Components** -- Many components (like image galleries, sliders, and cards) pull their content from the Media Library.
-- **Site settings** -- Your logo, favicon, and social sharing image are all stored in the Media Library.
-- **Blog posts and articles** -- Feature images, inline images, and downloadable attachments all come from your library.
+- **Public** files can appear on your published websites — page images, backgrounds, downloads.
+- **Private** files (marked with a lock) are never publicly reachable. Helpdesk attachments and form uploads are always private; you can also make your own uploads private from the detail panel.
 
-When you add media to a page in the builder, you will be able to browse your Media Library and pick the file you want.
+When you're picking a file for a public page (for example in the website builder), private files appear greyed out — they can't be placed on a public site.
+
+---
+
+## Virus Scanning
+
+Every file is scanned for viruses, but the rules differ by where it came from:
+
+- **Files from outside** — helpdesk email attachments and form uploads — stay locked until their scan comes back clean. While scanning (or if a scan flags a problem), they show a badge and can't be downloaded or picked.
+- **Files you upload** are usable immediately — the scan runs in the background, and a file is only locked afterwards if something is found.
+
+Either way, a flagged file is quarantined everywhere at once.
+
+---
+
+## Deleting Files
+
+1. Click the file you want to delete.
+2. Click **Delete** in the detail panel and confirm.
+
+If the file is attached to a helpdesk ticket or a form submission, WebNesting keeps a small record so the ticket or submission can show "Attachment was deleted" instead of breaking — but the file itself (and its storage usage) is gone.
+
+**Important:** If a file is used on a page of your site, deleting it will leave a broken image or missing file in its place. Check the file's "Referenced by" list first.
 
 ---
 
@@ -130,7 +128,9 @@ WebNesting supports a wide range of file types:
 - WebM
 
 ### Documents
-- PDF
+- PDF, Word, Excel, PowerPoint
+- Plain text and CSV
+- ZIP archives
 
 > **Tip:** When in doubt, JPEG and PNG are the safest choices for images. Use JPEG for photographs and PNG for graphics with transparent backgrounds.
 
@@ -142,24 +142,21 @@ Large, unoptimized images are one of the most common reasons websites load slowl
 
 ### Resize Before Uploading
 
-If your image is 4000 pixels wide but it only appears in a 600-pixel-wide space on your page, resize it before uploading. For most page images, 1200 pixels wide is a good target. Hero images and full-width banners may need to be 1600-1920 pixels wide. This keeps images sharp on high-resolution screens without being unnecessarily large.
+If your image is 4000 pixels wide but it only appears in a 600-pixel-wide space on your page, resize it before uploading. For most page images, 1200 pixels wide is a good target. Hero images and full-width banners may need to be 1600-1920 pixels wide.
 
 ### Choose the Right Format
 
-- **JPEG** -- Best for photographs and complex images with many colors. Keeps file sizes small.
-- **PNG** -- Best for graphics, logos, and images that need transparent backgrounds. File sizes are usually larger than JPEG.
-- **WebP** -- A modern format that offers excellent quality at smaller file sizes. Most browsers support it.
-- **SVG** -- Perfect for logos, icons, and simple graphics. SVG files are very small and stay sharp at any size.
+- **JPEG** -- Best for photographs and complex images with many colors.
+- **PNG** -- Best for graphics, logos, and images that need transparent backgrounds.
+- **WebP** -- A modern format that offers excellent quality at smaller file sizes. WebNesting converts uploaded images to WebP automatically where possible.
+- **SVG** -- Perfect for logos, icons, and simple graphics.
 
 ### Compress Your Images
 
-Use a free online tool to compress your images before uploading. Compression reduces file size without a noticeable loss in quality. Some popular free tools include:
-
-- TinyPNG (works for JPEG and PNG)
-- Squoosh (works for many formats)
+Use a free online tool like TinyPNG or Squoosh to compress images before uploading.
 
 ### Use Descriptive File Names
 
-Instead of `image1.jpg`, name your file something meaningful like `homepage-hero-banner.jpg`. This helps with organization and can improve your search engine ranking.
+Instead of `image1.jpg`, name your file something meaningful like `homepage-hero-banner.jpg`. Easier to search for, better for your ranking.
 
-> **Tip:** Aim to keep most images under 300 KB. Hero images and full-width banners can be up to 500 KB. Thumbnails and icons should be under 100 KB.
+> **Tip:** Aim to keep most images under 300 KB. Hero images and full-width banners can be up to 500 KB.

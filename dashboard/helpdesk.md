@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-05-16 12:35pm
+**Last verified:** 2026-07-18 2:18pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -127,6 +127,25 @@ Internal notes are visible only to your team. The customer never sees them. Use 
 To add a comment, open a ticket and type your message in the comment area. Choose whether it is a reply (customer-visible) or an internal note (team-only) before sending.
 
 > **Important:** Double-check whether you are writing a reply or an internal note before sending. Replies are visible to the customer, so make sure internal discussions stay in internal notes.
+
+### Attaching Files to a Reply
+
+You can send files with a reply, just like in Gmail or Outlook:
+
+- **Attach** — upload files straight from your computer. They're kept private in your workspace's Files (in the Helpdesk folder) and emailed with your reply.
+- **From Files** — pick files already in your workspace's [Files](media-library.md), including private ones.
+
+Attached files appear as small chips under the message box — click the **×** on a chip to remove one before sending. When you hit Reply, the files are emailed to the customer as real attachments and appear in the ticket conversation. A reply can even be attachments-only, with no text.
+
+A few things to know:
+
+- Files on one reply are limited to **15 MB total** — for bigger files, share a link instead.
+- Once a reply is sent, its attachments can't be removed (the email has already left) — though deleting the file from Files later removes the stored copy.
+- Attachments start uploading the moment you add them, so if you navigate away mid-compose, your message is saved as a **draft** with its files — send or discard it from the conversation.
+
+### Ticket Files (Internal)
+
+The ticket sidebar has a **Files** section for attaching workspace files to the ticket itself — reference material, logs, screenshots for your team. These are internal only and are **never emailed** to the customer. Remove one anytime with the **×** next to it.
 
 ---
 

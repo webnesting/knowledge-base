@@ -58,7 +58,7 @@ Storage is one meter for your whole workspace. It covers everything we store for
 
 **Example:** If you are storing 2.25 GB of files in total, the first 0.25 GB is free, and you pay for 2 GB. That is 2 x $10 = $20.00 per month for storage.
 
-> **Tip:** You can see and manage every stored file from the Media Manager -- helpdesk attachments and form uploads appear under the "Workspace Storage" folder in its sidebar. Deleting files you no longer need lowers your bill immediately.
+> **Tip:** You can see and manage every stored file from the File Manager -- helpdesk attachments and form uploads appear under the "Workspace Storage" folder in its sidebar. Deleting files you no longer need lowers your bill immediately.
 
 ### Site Users
 
