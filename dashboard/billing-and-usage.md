@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-07-16 3:13pm
+**Last verified:** 2026-08-28 9:29am
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -58,7 +58,7 @@ Storage is one meter for your whole workspace. It covers everything we store for
 
 **Example:** If you are storing 2.25 GB of files in total, the first 0.25 GB is free, and you pay for 2 GB. That is 2 x $10 = $20.00 per month for storage.
 
-> **Tip:** You can see and manage every stored file from the File Manager -- helpdesk attachments and form uploads appear under the "Workspace Storage" folder in its sidebar. Deleting files you no longer need lowers your bill immediately.
+> **Tip:** You can see and manage every stored file from the File Manager (click **Files** in the top bar) -- helpdesk attachments live in the managed **Helpdesk** folder and visitor uploads in **Form Uploads**. Deleting files you no longer need lowers your bill immediately.
 
 ### Site Users
 

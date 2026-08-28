@@ -1,6 +1,6 @@
 # Files (File Manager)
 
-**Last verified:** 2026-07-18 2:18pm
+**Last verified:** 2026-08-28 9:29am
 
 The File Manager is where every file in your workspace lives — images, videos, documents, helpdesk email attachments, and files visitors upload through your forms. Think of it as your workspace's file cabinet: one place, organized in folders, just like the files on your computer.
 
@@ -10,8 +10,8 @@ The File Manager is where every file in your workspace lives — images, videos,
 
 There are two ways to open the File Manager:
 
-- **The Files page** — Click **Files** in the left sidebar of your workspace. This opens the full-page File Manager, best for organizing, uploading, and cleaning up.
-- **The picker** — Whenever you choose an image or file somewhere (in the website builder, in a page's settings, or when attaching files to a [Helpdesk](helpdesk.md) reply), the same File Manager opens as a popup so you can pick a file.
+- **The Files button** — Click **Files** in the top bar of your workspace. It opens the File Manager from anywhere, for organizing, uploading, and cleaning up.
+- **The picker** — Whenever you choose an image or file somewhere (in the website builder, in a page's settings, or when attaching files to a [Helpdesk](helpdesk.md) reply), the same File Manager opens so you can pick a file.
 
 Both show the same files and folders.
 
@@ -35,7 +35,7 @@ Managed folders can't be renamed or deleted (files land in them automatically), 
 
 ## Uploading Files
 
-1. Open **Files** from the left sidebar.
+1. Open **Files** from the top bar.
 2. Navigate to the folder you want the files in (or stay at Root).
 3. Click **Upload files** and choose one or more files — or simply drag files from your computer into the window.
 4. Watch the progress bar; your files appear as soon as they finish.
