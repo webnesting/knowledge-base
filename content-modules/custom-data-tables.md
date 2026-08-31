@@ -1,6 +1,6 @@
 # Custom Data Tables
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 Custom data tables let you store and organize any kind of information on your website. Think of them like spreadsheets -- you create a table, set up columns for the information you want to track, and then add rows of data. That data can then be displayed on your website however you like.
 
@@ -49,7 +49,7 @@ Here is how to set up a custom data table from scratch.
 ### Step 1 -- Go to the Database Section
 
 1. Log in to your WebNesting dashboard.
-2. Go to **Database** in the left sidebar of your dashboard.
+2. In the site menu, open **Settings** and click **Database Tables**.
 3. Click to open it. You will see a list of all existing data tables.
 
 ### Step 2 -- Create a New Table
@@ -140,7 +140,7 @@ For just a year.
 ### Image
 
 **Image**
-For a photo or graphic. When you add an entry, you will be able to pick an image from your Media Library.
+For a photo or graphic. When you add an entry, you will be able to pick an image from your File Manager.
 
 *Use it for:* Team member photos, product images, portfolio thumbnails, logos.
 

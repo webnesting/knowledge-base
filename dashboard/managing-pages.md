@@ -1,6 +1,6 @@
 # Managing Pages
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 
@@ -154,6 +154,10 @@ If you no longer need a page, you can delete it.
 
 The page will be removed from your page list and will no longer be visible on your site.
 
+### Pages That Cannot Be Deleted
+
+Some pages are essential to your site working properly -- your homepage, your "page not found" page, and other built-in pages. These are protected: you will not be able to delete or unpublish them, so they cannot be removed by accident.
+
 ### Restoring a Deleted Page
 
 Accidentally deleted a page? You may be able to bring it back.
@@ -163,7 +167,7 @@ Accidentally deleted a page? You may be able to bring it back.
 3. Click **Restore**.
 4. The page will return to your page list as a draft.
 
-> **Tip:** Deleted pages are kept for 30 days before being permanently removed. If you are unsure about deleting a page, consider switching it to draft status instead.
+> **Tip:** Deleted pages are kept, not purged on a timer, so you can restore one long after you removed it. If you are unsure about deleting a page, consider switching it to draft status instead -- that hides it from visitors while keeping it in your normal page list.
 
 ---
 
@@ -171,11 +175,11 @@ Accidentally deleted a page? You may be able to bring it back.
 
 The Website Builder is where you design and edit the actual content of your pages -- adding text, images, buttons, sections, and more.
 
-1. Go to the **Pages** section.
-2. Find the page you want to design.
-3. Click the **Open in Builder** button (or double-click the page).
-4. The Website Builder will open with your page loaded and ready to edit.
+1. In the site menu on the left, click **Website Builder** (at the bottom of the panel, next to **Widgets**).
+2. Once the builder opens, click **Pages** in the icon rail on the right.
+3. Click the page you want to design.
+4. The page loads on the canvas, ready to edit.
 
-From the builder, you can visually add and arrange content on the page. When you are finished, save your work and return to the dashboard.
+From the builder, you can visually add and arrange content. When you are finished, save your work.
 
-> **Tip:** You can also open the Website Builder directly from the dashboard's top navigation bar. Once inside, you can switch between pages without going back to the dashboard.
+> **Tip:** You never need to come back here to switch pages -- the builder's Pages panel lets you jump between pages, and create new ones, without leaving it.

@@ -1,6 +1,6 @@
 # Welcome to WebNesting
 
-**Last verified:** 2026-05-28 11:09pm
+**Last verified:** 2026-08-31 12:10pm
 
 Thanks for choosing WebNesting! This guide will help you get comfortable with the platform and show you everything you need to know to start building your website.
 
@@ -24,7 +24,7 @@ Here is a quick look at what the platform offers:
 - **Customize your look** -- Choose a theme, pick your colors, and add your logo
 - **Edit text and images directly** -- Click on any text or image on your page and change it right there
 - **Manage your content** -- Organize blog posts, team members, products, and other content types using built-in modules
-- **Upload and organize media** -- Store your images and files in the built-in media library
+- **Upload and organize media** -- Store your images and files in the built-in File Manager
 - **Control who has access** -- Set permissions for team members who help manage your site
 - **Track how your site is doing** -- View visitor stats and site health from your dashboard
 - **Publish when you are ready** -- Preview your changes first, then publish them live with one click

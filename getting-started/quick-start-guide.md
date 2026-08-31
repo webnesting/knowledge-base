@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-**Last verified:** 2026-05-28 11:09pm
+**Last verified:** 2026-08-31 12:10pm
 
 Welcome to WebNesting! This guide will get you up and running in about 10 minutes. Follow these steps to set up your site, make your first edits, and publish your changes.
 
@@ -17,33 +17,33 @@ Welcome to WebNesting! This guide will get you up and running in about 10 minute
 
 ---
 
-## Step 2: Open the Web-Builder
+## Step 2: Open the Website Builder
 
-1. From your dashboard, look for **Web-Builder** in the navigation menu.
+1. From your site menu, look for **Website Builder** at the bottom of the panel.
 2. Click it to open the visual editor.
-3. The Web-Builder will load your homepage in the main editing area, with a toolbar on the left and controls along the top.
+3. The Website Builder loads your homepage in the main editing area, with controls along the top and a panel rail down the right side.
 
-> **Tip:** The left sidebar has tabs for pages, components, styles, and element settings. You will use these tabs throughout this guide.
+> **Tip:** The icon rail on the right opens panels for Pages, Add (components), Settings, Styles, Layers, and Audit. You will use these throughout this guide.
 
-![The Web-Builder interface with the canvas, toolbar, and component palette](../images/getting-started/builder-first-open.png)
+![The Website Builder interface with the canvas, toolbar, and panel rail](../images/getting-started/builder-first-open.png)
 
 ---
 
 ## Step 3: Edit Your Homepage
 
 1. Click on any text on your page to select it. A cursor will appear and you can start typing to change the text.
-2. To swap an image, click on the image you want to replace, then use the settings panel to choose a new image from your media library.
+2. To swap an image, click on the image you want to replace, then use the settings panel to choose a new image from your files.
 3. To update a link, click on the linked text or button, then look for the link settings in the editing panel.
 4. Explore the page and make a few changes to get comfortable with the editor.
 
-> **Tip:** Your changes are saved automatically every few seconds. You will see a small save indicator in the toolbar.
+> **Tip:** Your changes are saved automatically a couple of seconds after you stop editing. The save pill in the toolbar shows whether you are Saved, Unsaved, or Saving.
 
 ---
 
 ## Step 4: Add a New Page
 
-1. In the builder, click the **Pages** icon in the left sidebar (it looks like a small document).
-2. Click the **New Page** button at the top of the pages panel.
+1. In the builder, click the **Pages** icon in the rail on the right (it looks like a small document).
+2. Click the **New page** button at the top of the pages panel.
 3. Enter a title for your page (for example, "About Us" or "Contact"), set the URL slug, and choose a layout.
 4. Save the page. It will appear in your pages list and you can start adding content to it right away.
 
@@ -54,7 +54,7 @@ Welcome to WebNesting! This guide will get you up and running in about 10 minute
 1. Go back to your dashboard by clicking your site name in the builder's main menu, or by navigating to your admin address.
 2. Open **Settings** from the navigation menu.
 3. Under **Content Items**, click **Image**.
-4. Upload your logo and favicon (the small icon that appears in browser tabs) by clicking the image areas and selecting files from your media library.
+4. Upload your logo and favicon (the small icon that appears in browser tabs) by clicking the image areas and selecting files from your files.
 5. Save your changes.
 
 > **Tip:** For the best results, use a logo image with a transparent background. Favicons should be square and at least 32x32 pixels.

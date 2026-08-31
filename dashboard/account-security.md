@@ -1,6 +1,6 @@
 # Your Account and Security
 
-**Last verified:** 2026-05-28 11:09pm
+**Last verified:** 2026-08-31 12:10pm
 
 Your WebNesting account is the key to everything you build. This guide walks you through signing in, protecting your account, and what to do if something goes wrong.
 
@@ -179,7 +179,7 @@ You can also go the other direction. If you are signed in to your WebNesting acc
 
 To sign out of your account:
 
-1. Look for the **Logout** option in your dashboard menu.
+1. Click your avatar in the top-right corner and choose **Sign out**.
 2. Click **Logout**.
 
 You will be returned to the login page. If you checked "Remember Me," you may still need to click Logout to fully end your session.

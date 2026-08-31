@@ -1,6 +1,6 @@
 # Navigating the Dashboard
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 The Dashboard is your home base for managing one site in WebNesting. It is where you handle that site's pages, settings, content, and analytics. (Workspace-level features like billing, team members, helpdesk, marketing, and tasks live in your workspace -- see the **Workspaces** card in your account portal.)
 
@@ -39,19 +39,25 @@ You can personalize which widgets appear and how they are arranged:
 
 ## The Top Toolbar
 
-The toolbar runs across the top of every page in the Dashboard. It contains your most-used controls.
+The toolbar runs across the top of every page. It holds the controls you reach for most.
 
-### What the Controls Do
+### On the left
 
-From left to right, here is what you will find:
+- **WebNesting logo and name** -- Takes you back to your workspace home.
+- **Workspace button** -- Shows the name of the workspace you are in. Click it to switch to a different workspace.
 
-- **Menu button** (the circular icon on the far left) -- Pins the left sidebar open so it stays visible. When not pinned, the sidebar expands on hover and collapses when your mouse moves away. On smaller screens, the sidebar hides automatically, and this button brings it back.
-- **Light/Dark mode toggle** (the contrast icon) -- Switches the Dashboard between a light background and a dark background. Click it once to switch. Click again to switch back. WebNesting remembers your choice.
-- **Page title** -- Shows the name of the section you are currently viewing (for example, "Pages" or "Settings").
-- **Your email address** -- Displayed on the right side. Click it to go to your account page.
-- **Log out button** -- The door icon on the far right. Click it to sign out of the Dashboard.
+### In the middle
 
-> **Tip:** Dark mode is not just a style preference -- if you work in a dimly lit room, dark mode can be easier on your eyes. Try both and see which you prefer.
+- **Search** -- Searches across your workspace: pages, content records, tickets, tasks, contacts, and more.
+
+### On the right
+
+- **Files** -- Opens the File Manager, where you can browse everything your workspace stores.
+- **Notification bell** -- Shows what needs your attention. Click through to your activity feed.
+- **⋮ menu** -- Quick links to **Billing**, **Usage**, **Workspace settings**, plus documentation and support.
+- **Your avatar** -- Opens a menu with **Manage Account**, an out-of-office setting, a **Dark mode** switch, and **Sign out**.
+
+> **Tip:** Dark mode lives in the avatar menu on the far right. It is not just a style preference -- if you work in a dimly lit room, dark mode can be easier on your eyes. Your choice is remembered.
 
 ---
 
@@ -59,16 +65,23 @@ From left to right, here is what you will find:
 
 The left sidebar is your main way to get around the Dashboard. It contains links to every section of your site management tools.
 
-### Opening and Closing the Sidebar
+### How the Sidebar Works
 
-- On **desktop**, the sidebar is collapsed by default, showing only small icons. **Hover** over the sidebar to expand it and see the full labels. Move your mouse away and it collapses again. If you want the sidebar to stay open, click the **menu button** (pin icon) in the top toolbar to pin it in place. Click the pin again to unpin it and return to hover behavior.
-- On **phones and tablets**, the sidebar tucks away automatically to give you more room. Tap the menu button to open it, then tap a link or tap outside the sidebar to close it.
+The sidebar has two parts: a narrow **icon rail** that is always visible, and a **panel** that opens beside it with the links for whichever area you are in.
 
-When the sidebar is collapsed, it shows only icons for each section. Hover over the sidebar to expand it and see the full labels.
+- **Hover** a rail icon to peek at its panel.
+- **Click** a rail icon to pin its panel open, so the page content makes room for it.
+- **Click the pinned icon again** to go back to peeking.
 
-### Sidebar Sections
+On phones and tablets, tap a rail icon to open its panel, then tap a link or tap outside the panel to close it.
 
-The sidebar is organized into several main areas. Some sections expand to show sub-items when you click on them. Here is what each one leads to:
+### What Is on the Rail
+
+- **Home** -- Your workspace overview, recent activity, and account links
+- **Sites** -- Every site in the workspace; expand one to reach that site's own menu
+- **Contacts** -- Your workspace contact database
+- **Marketing**, **Helpdesk**, **Tasks** -- These appear only if the matching workspace product is enabled
+- **Settings** (pinned at the bottom) -- Workspace settings, database, members and permissions, teams, activity log, integrations, and your billing and usage pages
 
 ---
 
@@ -81,7 +94,7 @@ This is where you manage all the pages on your website.
 - **View your pages** -- See a list of every page on your site
 - **Create new pages** -- Add a new page and give it a title and URL
 - **Edit page settings** -- Change a page's title, URL, visibility, and SEO information
-- **Open in Builder** -- Jump into the visual Web-Builder to design any page
+- **Design your pages** -- Open the **Website Builder** from the bottom of the site menu, then pick any page from its Pages panel
 - **Delete pages** -- Remove pages you no longer need
 - **View deleted pages** -- Access a list of pages you have deleted, with the option to restore them
 
@@ -89,11 +102,11 @@ This is where you manage all the pages on your website.
 
 ---
 
-### Web-Builder
+### Website Builder
 
-The Web-Builder is where you visually design your pages. Clicking this link opens the full-screen page editor.
+The Website Builder is where you visually design your pages. Clicking this link opens the full-screen page editor.
 
-In the Web-Builder, you can:
+In the Website Builder, you can:
 
 - **Drag and drop components** onto your page (text, images, buttons, cards, dividers, and more)
 - **Click on any element** to edit its content directly
@@ -102,9 +115,9 @@ In the Web-Builder, you can:
 - **Save your work** as a draft without publishing
 - **Publish your changes** to make them live on your site
 
-The Web-Builder has its own set of tools and toolbars. You will find a Save button and a Preview button at the top, along with controls for managing your page's components.
+The Website Builder has its own toolbar with Save, Publish, Preview, undo/redo, and device-size controls, plus a panel rail down the right side for adding components, styling them, and managing pages.
 
-> **Tip:** The Web-Builder uses a draft-and-publish system. This means you can make changes and save them without visitors seeing anything until you click Publish. Take your time getting things right.
+> **Tip:** The Website Builder uses a draft-and-publish system. This means you can make changes and save them without visitors seeing anything until you click Publish. Take your time getting things right.
 
 ---
 
@@ -125,14 +138,15 @@ To change a setting:
 
 ---
 
-### Media
+### Files
 
-The Media section is your file library. This is where all your uploaded images, documents, and other files are stored and organized.
+Your files live at the workspace level, shared by every site. Click **Files** in the top bar to open the File Manager.
 
-- **Browse your files** -- See all uploaded media in a visual grid
-- **Upload new files** -- Drag files from your computer or click the upload button
+- **Browse your files** -- A folder tree covering your uploads, helpdesk email attachments, and files visitors submit through your forms
+- **Upload new files** -- Drag files from your computer, or upload into any folder
+- **Organize** -- Drag files between folders, rename files and folders, and select several at once to move or delete
 - **Search and filter** -- Find files quickly by name or type
-- **Use in your pages** -- When editing a page in the Builder, you can pull images directly from your media library
+- **Use in your pages** -- When editing a page in the Builder, you can pull images directly from your files
 
 > **Tip:** Upload your images before you start building pages. That way, they are ready to use when you need them in the Builder.
 
@@ -148,7 +162,7 @@ Examples of modules include:
 - **Event** -- Create events with dates, showings, and ticket options
 - **Store** -- Set up products and an online shop
 - **Form** -- Build custom forms for contact, registration, and feedback
-- **Marketing Contact** -- Collect and manage email subscribers, mailing lists, and campaigns
+- **Marketing** -- A workspace product for collecting and managing email subscribers, mailing lists, and campaigns
 - And more, depending on your plan
 
 To manage modules:
@@ -159,7 +173,7 @@ To manage modules:
 
 When you enable a module, it creates its own section in the sidebar. For example, enabling the Article module adds an "Article" section where you can create and manage articles.
 
-Each module may also add components to the Web-Builder, letting you display that module's content on your pages (like an article list or a product grid).
+Each module may also add components to the Website Builder, letting you display that module's content on your pages (like an article list or a product grid).
 
 ---
 
@@ -235,17 +249,19 @@ You can also navigate using any links within the page content. For example, clic
 |--------------|----------|
 | See my site stats | Dashboard home screen |
 | Create or edit a page | Pages |
-| Design my page visually | Web-Builder |
-| Upload images | Media |
-| Change my site name or logo | Settings > Site |
+| Design my page visually | Website Builder |
+| Build a reusable content block | Widgets |
+| Upload or organize files | **Files** in the top bar |
+| Change my site name or logo | Settings > Site Config / Content Items |
 | Change my theme or colors | Settings > Theme |
 | Add a blog or other feature | Modules |
 | See who is visiting my site | Analytics |
 | Set up a URL redirect | Redirects |
-| Manage team access | Permissions |
-| Check recent activity | Logs |
-| Switch to dark mode | Click the contrast icon in the top toolbar |
-| Log out | Click the door icon in the top toolbar |
+| Manage team access | Settings > Members & Permissions |
+| See my bill or usage | Settings > Plans & Billing / Usage |
+| Check recent activity | Settings > Activity Log |
+| Switch to dark mode | Avatar menu (top right) > Dark mode |
+| Log out | Avatar menu (top right) > Sign out |
 
 ---
 
@@ -254,8 +270,8 @@ You can also navigate using any links within the page content. For example, clic
 Now that you know your way around the Dashboard, you are ready to start building. Here are some suggestions:
 
 - **Go to Pages** and review the pages that were created by your starter template. Open one in the Builder to see how it is put together.
-- **Go to Media** and upload your logo, photos, and any other images you want to use on your site.
+- **Click Files** in the top bar and upload your logo, photos, and any other images you want to use on your site.
 - **Go to Settings** and make sure your site name, logo, and SEO information are set the way you want.
-- **Open the Web-Builder** and start making the site your own. Replace the sample text and images with your real content.
+- **Open the Website Builder** and start making the site your own. Replace the sample text and images with your real content.
 
 > **Tip:** You do not have to do everything at once. Start with one page, get it looking the way you want, and then move on to the next. Building a website is a step-by-step process, and WebNesting is designed to let you work at your own pace.

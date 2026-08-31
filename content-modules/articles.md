@@ -1,6 +1,6 @@
 # Articles and Blog Posts
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 The Articles module gives your website a full blog and news section. Use it to share company updates, how-to guides, industry news, or anything else you want to write about. Articles are one of the best ways to keep your website fresh and attract new visitors.
 
@@ -21,7 +21,7 @@ The Articles module costs $5/month. Each article also counts as a page for billi
 Before you can start writing articles, you need to turn on the Articles module.
 
 1. Log in to your WebNesting dashboard.
-2. Click **Modules** in the left sidebar.
+2. In the site menu, open **Settings** and click **Modules**.
 3. Find **Article** in the list of available modules.
 4. Click the **Enable** button next to it.
 5. The module will activate right away.
@@ -84,7 +84,7 @@ A featured image appears at the top of your article and in article lists. It is 
 
 1. Find the **Image** section in the article editor.
 2. Click to open the media picker.
-3. Choose an image from your Media Library, or upload a new one.
+3. Choose an image from your File Manager, or upload a new one.
 4. The image will be attached to your article.
 
 > **Tip:** Choose an eye-catching image that relates to your article's topic. Articles with images get more clicks and look more professional in lists.

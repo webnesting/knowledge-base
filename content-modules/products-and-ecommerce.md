@@ -1,6 +1,6 @@
 # Products and E-Commerce
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 The E-Commerce module turns your WebNesting website into an online store. You can list products, manage orders, and give your customers a place to browse and buy -- all from the same dashboard you use to manage the rest of your site.
 
@@ -23,7 +23,7 @@ Together, these tools give you everything you need to sell products through your
 Before you can start selling, you need to turn on the E-Commerce module.
 
 1. Log in to your WebNesting dashboard.
-2. Click **Modules** in the left sidebar.
+2. In the site menu, open **Settings** and click **Modules**.
 3. Find **Store** in the list of available modules.
 4. Click the **Enable** button next to it.
 5. The module will activate right away.
@@ -70,7 +70,7 @@ A photo of your product. This is what customers see when browsing your store.
 
 1. Find the **Image** section in the product editor.
 2. Click to open the media picker.
-3. Choose an image from your Media Library, or upload a new one.
+3. Choose an image from your File Manager, or upload a new one.
 
 > **Tip:** Use clear, well-lit product photos. Show the product from its best angle. If possible, include multiple photos showing different views or the product in use.
 

@@ -1,6 +1,6 @@
 # Making Your Site Look Great on All Devices
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 Your visitors will view your website on all kinds of screens -- large desktop monitors, tablets, and small phone screens. Responsive design means your site automatically adjusts to look good on every device. This guide explains how WebNesting helps you create a site that works everywhere.
 
@@ -28,17 +28,17 @@ WebNesting lets you preview and customize your site for three device categories:
 
 ### Switching Between Device Views
 
-At the top of the builder, you will see the **Frame Sizer** -- a set of breakpoint controls that let you switch between device views.
+In the middle of the top toolbar you will find the device controls that resize your preview.
 
 1. Look at the top toolbar of the builder.
-2. You will see breakpoint indicators (labeled like XS, SM, MD, LG, XL).
-3. Click on a breakpoint to resize the preview frame to that screen width.
+2. You will see buttons for **Mobile**, **Tablet**, **Laptop**, **Desktop**, and **Auto**. Click one to jump straight to that device width. (**Auto** simply follows the space available on your screen.)
+3. Next to them is a **breakpoint picker** for finer control, listing each band -- XS, SM, MD, LG, XL -- and whether the rule applies above or below that width. There is also a box for typing an exact width in pixels.
 4. Your page will update to show how it looks at that size.
 5. To go back to the full desktop view, click the auto/reset option.
 
 The preview frame will resize to match the selected breakpoint, so you can see exactly what your visitors will see on that device.
 
-> **Tip:** The label at the top of the builder shows which breakpoint you are currently viewing and the current screen width in pixels.
+> **Tip:** The breakpoint picker always shows which breakpoint you are currently authoring at, and the width box shows the exact pixel width of the preview.
 
 ---
 
@@ -85,16 +85,16 @@ You can customize almost any style property for each device size.
 
 ### Changing a Style for a Specific Device
 
-1. Switch to the device view you want to customize (for example, mobile) using the frame sizer.
+1. Switch to the device view you want to customize (for example, mobile) using the device buttons.
 2. Select the element you want to change.
-3. In the Styler, change the property you want to adjust (font size, padding, width, etc.).
+3. In the **Styles** panel, change the property you want to adjust (font size, padding, width, etc.).
 4. The change will only apply to that device size and smaller.
 
 ### Making Text Smaller on Mobile
 
-1. Switch to the mobile view using the frame sizer.
+1. Switch to the mobile view using the device buttons.
 2. Select your heading or text element.
-3. In the Styler, find the font size setting.
+3. In the **Styles** panel, find the font size setting.
 4. Reduce the font size to something that fits comfortably on a small screen.
 
 ### Stacking Columns on Narrow Screens
@@ -103,7 +103,7 @@ If you have items arranged side by side (using Flex), they might be too cramped 
 
 1. Switch to the mobile view.
 2. Select the container that has its display set to Flex.
-3. In the Styler, click the gear icon next to Flex.
+3. In the **Styles** panel, click the gear icon next to Flex.
 4. Change the direction from **Row** (side by side) to **Column** (stacked vertically).
 
 Now on phones, those items will stack on top of each other instead of being squeezed side by side.
@@ -114,7 +114,7 @@ Sometimes you want an element to appear on desktop but not on mobile, or vice ve
 
 1. Switch to the device view where you want to hide the element.
 2. Select the element.
-3. In the Styler, find the **Layout** section.
+3. In the **Styles** panel, find the **Layout** section.
 4. Set the display to **None**.
 
 This hides the element on that device size without deleting it. It will still appear on other device sizes.
@@ -123,7 +123,7 @@ This hides the element on that device size without deleting it. It will still ap
 
 ## The Breakpoint Indicator
 
-When you are working in the Styler, you may notice small colored badges or dots next to certain properties. These are **breakpoint indicators**. They tell you that a property has custom values set for specific device sizes.
+When you are working in the **Styles** panel, you may notice small colored badges or dots next to certain properties. These are **breakpoint indicators**. They tell you that a property has custom values set for specific device sizes.
 
 For example, if you see a badge on a font-size property, it means that font size has been customized for one or more breakpoints (like a different size on mobile).
 
@@ -139,9 +139,9 @@ For example, if you see a badge on a font-size property, it means that font size
 
 ## Previewing Your Site on Different Screen Sizes
 
-Beyond the frame sizer in the builder, you should also preview your site in a real browser.
+Beyond the device buttons in the builder, you should also preview your site in a real browser.
 
-### Using the Frame Sizer
+### Using the Device Buttons
 
 1. Click through the different breakpoint sizes in the top toolbar.
 2. Watch how your content reflows as the preview gets narrower or wider.
@@ -233,5 +233,5 @@ Large, dramatic headlines on desktop, and more modest sizes on mobile.
 1. **Design for desktop first.** Get your layout, colors, and content looking great on a large screen.
 2. **Switch to tablet view.** Check if anything looks too wide, too narrow, or out of place. Adjust as needed.
 3. **Switch to mobile view.** Stack columns, reduce font sizes, increase button sizes, and simplify where needed.
-4. **Preview at each size.** Use the frame sizer to scan through all breakpoints and make sure transitions look smooth.
+4. **Preview at each size.** Use the device buttons and breakpoint picker to scan through all breakpoints and make sure transitions look smooth.
 5. **Test on real devices.** Open your published site on a phone and tablet to confirm everything works as expected.

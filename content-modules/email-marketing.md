@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-05-16 12:35pm
+**Last verified:** 2026-08-31 12:10pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -193,13 +193,13 @@ When you set up forms with the Forms module, you can map form fields to custom f
 
 ## Collecting Signups on Your Website
 
-The Email Marketing module includes a **Marketing Signup** component that you can add to any page using the Website Builder. This gives your visitors a simple, clean way to subscribe to your newsletter or mailing list.
+The Email Marketing product includes an **Email Signup** component that you can add to any page using the Website Builder. This gives your visitors a simple, clean way to subscribe to your newsletter or mailing list.
 
 ### Adding a Signup Form to a Page
 
 1. Open the page where you want the signup form in the **Website Builder**.
-2. Open the component panel.
-3. Look for **Marketing Signup** under the **Module Driven Items** group.
+2. Open the **Add** panel from the rail on the right.
+3. Look for **Email Signup** under the **Module Driven Items** group.
 4. Drag the component onto your page.
 5. Save your page.
 
@@ -213,9 +213,33 @@ You can customize the signup form through the component settings in the builder:
 - **Show Name Fields** -- Toggle this on to add first name and last name fields alongside the email field. Useful if you want to personalize your communications.
 - **Button Text** -- Change the button label from the default "Subscribe" to something else, like "Join Our Newsletter" or "Sign Me Up."
 - **Success Message** -- Customize the message visitors see after subscribing. The default is "Thank you for subscribing!" You can change this to anything you like.
+- **Email field hint** -- Change the placeholder text shown inside the email box before a visitor types.
+
+Everything you change here previews live on the canvas as you type, so you can see the finished form before you save.
 - **Placeholder Text** -- Change the placeholder text inside the email field. The default is "Enter your email."
 
 > **Tip:** Keep the signup form simple. In most cases, just asking for an email address gets more signups than asking for a name and email. You can always collect more information later.
+
+---
+
+## Campaigns and Templates
+
+Campaigns are the emails you send; templates are reusable starting points you can build a campaign from. Both live under **Marketing** in your workspace sidebar -- **Campaigns** and **Templates**.
+
+### Designing an email
+
+Both the campaign editor and the template editor use the same visual builder you use to build web pages: drag-and-drop blocks, a styling panel, and a live canvas. What you design is what gets delivered, because each block's styles are applied directly to it.
+
+1. Open **Marketing → Campaigns** (or **Templates**) in your workspace sidebar.
+2. Create a new one, or open an existing one.
+3. Design the email on the canvas, dragging blocks from the **Add** panel and styling them in the **Styles** panel.
+4. Save your work.
+
+### Conditional blocks
+
+You can show or hide part of an email depending on the recipient -- for example, showing a different offer to contacts on a particular list. Set the rules on the block, and each recipient sees only the content that matches them.
+
+> **Tip:** Send yourself a test before sending to a real list. It is the fastest way to catch a broken link or an image that did not load.
 
 ---
 
@@ -460,7 +484,7 @@ Give people a reason to subscribe. Mention what they will get: exclusive updates
 
 ### Use Multiple Entry Points
 
-Do not rely on just one signup form. Add the Marketing Signup component to several pages. If you have the Forms module, use contact forms and registration forms as another way to collect subscribers.
+Do not rely on just one signup form. Add the Email Signup component to several pages. If you have the Forms module, use contact forms and registration forms as another way to collect subscribers.
 
 ### Keep Your Lists Clean
 

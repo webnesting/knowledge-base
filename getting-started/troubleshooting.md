@@ -1,6 +1,6 @@
 # Troubleshooting and Common Issues
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 Every website owner runs into the occasional hiccup. The good news is that most issues have simple fixes. This guide walks you through the most common problems you might encounter and how to solve them quickly.
 
@@ -91,7 +91,7 @@ If images on your site appear broken or are not showing up, here are the most co
 
 Every site has a maximum file size for uploads. If your image exceeds that limit, it will not upload or display properly.
 
-1. Open the **Media Library** from your dashboard.
+1. Open **Files** from your dashboard.
 2. Check the maximum upload size shown on the upload screen.
 3. If your image is too large, resize it using an image editor before uploading it again.
 
@@ -101,18 +101,18 @@ WebNesting supports the most common image formats: **JPG**, **PNG**, **GIF**, **
 
 1. Check the file extension of your image.
 2. If it is not one of the supported formats, convert it to JPG or PNG using any image editing tool or free online converter.
-3. Upload the converted image to your **Media Library**.
+3. Upload the converted image to your **Files**.
 
-### Image Was Deleted from the Media Library
+### Image Was Deleted from the File Manager
 
-If you (or a team member) deleted an image from the Media Library, any page that used that image will show a broken image.
+If you (or a team member) deleted an image from the File Manager, any page that used that image will show a broken image.
 
-1. Open the **Media Library** and search for the image.
+1. Open **Files** and search for the image.
 2. If it is no longer there, upload the image again.
 3. Open the affected page in the **Website Builder**.
 4. Select the broken image element and replace it with the newly uploaded file.
 
-> **Tip:** Before deleting files from the Media Library, check if they are being used on any pages. Deleting a file that is in use will break those pages. For more on managing your files, see [Media Library](../dashboard/media-library.md).
+> **Tip:** Before deleting files from the File Manager, check if they are being used on any pages. Deleting a file that is in use will break those pages. For more on managing your files, see [Files (File Manager)](../dashboard/media-library.md).
 
 ---
 
@@ -161,7 +161,7 @@ You are looking for a feature -- like a blog, events calendar, or online store -
 
 Many features in WebNesting are provided by modules that you need to turn on.
 
-1. Open your dashboard and click **Modules** in the left sidebar.
+1. Open your site menu, open **Settings**, and click **Modules**.
 2. Browse the list of available modules.
 3. Find the one you need and click to enable it.
 4. Once enabled, the module's section will appear in your sidebar, and its components will become available in the builder.
@@ -258,7 +258,7 @@ Pages with many large images take longer to load in the builder.
 2. Use compressed image formats like JPG or WebP for photographs.
 3. Use PNG only when you need transparency.
 
-For more on managing images, see [Media Library](../dashboard/media-library.md).
+For more on managing images, see [Files (File Manager)](../dashboard/media-library.md).
 
 ### Clear Your Browser Cache
 
@@ -307,5 +307,5 @@ Now that you know how to handle the most common issues, here are some guides tha
 
 - [Saving and Publishing Your Site](../website-builder/saving-and-publishing.md) -- Understand the difference between saving and publishing so your changes always go live when you want them to.
 - [Making Your Site Look Great on All Devices](../website-builder/responsive-design.md) -- Learn how to design for every screen size so your pages never look broken on mobile.
-- [Media Library](../dashboard/media-library.md) -- Manage your images and files effectively to avoid broken images and slow load times.
+- [Files (File Manager)](../dashboard/media-library.md) -- Manage your images and files effectively to avoid broken images and slow load times.
 - [Modules and Features](../dashboard/modules-and-features.md) -- Explore all the features available for your site and learn how to enable them.

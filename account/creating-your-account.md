@@ -1,6 +1,6 @@
 # Creating Your Account
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 Welcome to WebNesting! Getting started takes just a few minutes. This guide walks you through creating your account and getting ready to build your first website.
 
@@ -8,8 +8,8 @@ Welcome to WebNesting! Getting started takes just a few minutes. This guide walk
 
 ## Signing Up
 
-1. Go to [WebNesting.com](https://webnesting.com).
-2. Click the **Sign Up** button.
+1. Go to [webnesting.app](https://webnesting.app).
+2. Click the **Sign Up** button. (Starting from [WebNesting.com](https://webnesting.com) works too -- it sends you to the same place.)
 3. Fill in the registration form:
    - **First Name** -- Your first name.
    - **Last Name** -- Your last name.

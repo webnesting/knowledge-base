@@ -1,6 +1,6 @@
 # Team and Permissions
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 WebNesting lets you invite other people to help manage your website. You control exactly what each person can see and do by assigning them roles with specific permissions.
 
@@ -8,17 +8,23 @@ WebNesting lets you invite other people to help manage your website. You control
 
 ---
 
+## Where Team Management Lives
+
+Team members, roles, and permissions are all managed **at the workspace level**, in one place, and apply across every site in that workspace.
+
+To get there: open your workspace, click **Settings** at the bottom of the icon rail, then **Members & Permissions**.
+
+---
+
 ## Inviting Team Members
 
-You can give other people access to your site's dashboard by inviting them via email.
-
-1. Go to **Permissions** in your dashboard menu.
-2. Look for the **Grant Access** section.
+1. Go to **Settings → Members & Permissions**.
+2. Click **+ Invite Member**.
 3. Enter the person's email address.
-4. Enter the same email address again to confirm it.
-5. Click **Grant Access**.
+4. Optionally, select one or more permission roles to assign to them.
+5. Send the invitation.
 
-The person will receive an email invitation with a link to join your site. The invitation is valid for one hour. If an invitation expires, you can invite the same person again by sending a new invitation.
+The person will receive an email invitation valid for 7 days. If it expires, you can send a new one.
 
 > **Tip:** The person you invite will need a WebNesting account. If they do not have one yet, they can create one when they accept your invitation.
 
@@ -26,30 +32,22 @@ The person will receive an email invitation with a link to join your site. The i
 
 ## Viewing Your Current Team Members
 
-To see who currently has access to your site:
-
-1. Go to **Permissions** in your dashboard menu.
-2. You will see a list of all team members who have access to your site.
-3. Any pending invitations (people who have not yet accepted) will also be shown.
+1. Go to **Settings → Members & Permissions**.
+2. The **Members** list shows everyone who has access, along with their roles.
+3. Any pending invitations (people who have not yet accepted) are shown too.
 
 ---
 
 ## Removing Team Members
 
-If you need to revoke someone's access to your site:
-
-1. Go to **Permissions** in your dashboard menu.
+1. Go to **Settings → Members & Permissions**.
 2. Find the person you want to remove.
-3. Click the **Revoke Access** button next to their name.
-4. Their access will be removed immediately.
+3. Click **Remove** next to their name and confirm.
+4. Their access is removed immediately.
 
-To cancel a pending invitation that has not been accepted yet:
+To cancel a pending invitation that has not been accepted yet, find it in the same list and **Revoke** it.
 
-1. Go to **Permissions** in your dashboard menu.
-2. Find the pending invitation.
-3. Click **Revoke** next to the pending email address.
-
-> **Tip:** Removing someone's access does not delete any content they created. All pages, articles, and other content will remain on your site.
+> **Tip:** Removing someone's access does not delete any content they created. All pages, articles, and other content remain on your site.
 
 ---
 
@@ -57,9 +55,9 @@ To cancel a pending invitation that has not been accepted yet:
 
 Roles determine what a team member can do on your site. Each role comes with a set of permissions that control access to different areas.
 
-### Site Owner
+### Workspace Owner
 
-The site owner has full, unrestricted access to everything. This is the person who created the site. Owner access cannot be limited or revoked, and the owner does not need a role assigned -- full access is always granted automatically.
+The workspace owner has full, unrestricted access to everything. This is the person who created the workspace. Owner access cannot be limited or revoked, and the owner does not need a role assigned -- full access is always granted automatically.
 
 What the owner can do:
 - Access all content, settings, and features
@@ -98,7 +96,7 @@ For example, you might create:
 
 To create a new role:
 
-1. Go to **Permissions** in your dashboard menu.
+1. Go to **Settings → Members & Permissions**.
 2. Click the **Create Role** button.
 3. Give your role a name (for example, "Editor" or "Content Reviewer").
 4. Add a description so you remember what this role is for.
@@ -134,9 +132,9 @@ Allows the person to remove items. For example, Delete permission on Files lets 
 
 ### How to Set Permissions
 
-1. Go to **Permissions** in your dashboard menu.
+1. Go to **Settings → Members & Permissions**.
 2. Click on the role you want to edit.
-3. You will see a grid showing every content type on your site along the left side, and the five permission levels across the top.
+3. You will see a grid showing every feature area along the left side, and the five permission levels across the top.
 4. Check the boxes to grant permission, or uncheck them to remove permission.
 5. Click **Save** when you are finished.
 
@@ -148,7 +146,7 @@ Allows the person to remove items. For example, Delete permission on Files lets 
 
 After you invite someone to your site, you can assign them one or more roles:
 
-1. Go to **Permissions** in your dashboard menu.
+1. Go to **Settings → Members & Permissions**.
 2. Find the team member in the list.
 3. Click the **Edit Roles** button next to their name.
 4. You will see a list of all available roles. Check the roles you want to assign to this person.
@@ -160,25 +158,9 @@ A team member can have multiple roles. Their permissions are combined -- they ge
 
 ---
 
-## Workspace-Level Team Management
+## Membership Levels
 
-If you manage multiple websites through a workspace, you can invite team members at the workspace level. Workspace members can access all sites within the workspace based on their permissions.
-
-### Inviting Workspace Members
-
-1. Go to your **Workspace** dashboard.
-2. Click **Permissions** in the workspace menu.
-3. Enter the person's email address in the invite form.
-4. Optionally, select one or more permission roles to assign to them.
-5. Click **Send Invitation**.
-
-The person will receive an email invitation that is valid for 7 days. If the invitation expires, you can send a new one.
-
-> **Tip:** If the person does not have a WebNesting account yet, they can create one when they accept the invitation.
-
-### Workspace Roles
-
-Workspace members have one of three membership levels:
+Separately from the roles you create, every workspace member has one of three membership levels:
 
 - **Owner** — The person who created the workspace. Has full, unrestricted access to everything. Cannot be removed or restricted.
 - **Admin** — Can manage workspace settings and most features. Access can be customized with permission roles.
@@ -216,7 +198,7 @@ The permission matrix gives you fine-grained control over what each role can do.
 
 ### Editing Role Permissions
 
-1. Go to **Permissions** in your workspace.
+1. Go to **Settings → Members & Permissions**.
 2. Click on the role you want to configure.
 3. You will see the permission matrix with all feature areas listed.
 4. Check or uncheck boxes to grant or remove specific permissions.
@@ -247,7 +229,7 @@ Each permission for a member can be set to one of three states:
 
 ### Setting Overrides for a Member
 
-1. Go to **Permissions** in your workspace.
+1. Go to **Settings → Members & Permissions**.
 2. Find the team member in the members list.
 3. Click **Edit Overrides**.
 4. For each feature area, choose Allow, Deny, or Inherit for each action level.

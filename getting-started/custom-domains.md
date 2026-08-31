@@ -1,6 +1,6 @@
 # Connecting a Custom Domain
 
-**Last verified:** 2026-05-16 12:35pm
+**Last verified:** 2026-08-31 12:10pm
 
 A custom domain gives your website its own professional web address, like `www.yourcompany.com`, instead of the default WebNesting address. This guide walks you through the full setup process.
 
@@ -32,7 +32,7 @@ To connect a custom domain, you will need:
 Before you update any settings, you need to know your current WebNesting site address. This is the address that your custom domain will point to.
 
 1. Open your WebNesting Dashboard.
-2. Click **Settings** in the left sidebar.
+2. In the site menu, open **Settings** and click **Site Settings**.
 3. Look for your current site address. It will look something like `yoursite.webnesting.site`.
 4. Write this address down or copy it -- you will need it in a later step.
 

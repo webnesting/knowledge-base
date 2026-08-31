@@ -1,6 +1,6 @@
 # WebNesting User Documentation
 
-**Last verified:** 2026-05-16 10:17am
+**Last verified:** 2026-08-31 12:10pm
 
 Welcome to the WebNesting help center. These guides will help you build and manage your website.
 
@@ -31,7 +31,7 @@ Welcome to the WebNesting help center. These guides will help you build and mana
 | Guide | Description |
 |-------|-------------|
 | [Managing Pages](dashboard/managing-pages.md) | Create, edit, organize, and publish pages |
-| [Media Library](dashboard/media-library.md) | Upload and manage images, videos, and files |
+| [Files (File Manager)](dashboard/media-library.md) | Browse, organize, and manage every file your workspace stores |
 | [Site Settings](dashboard/site-settings.md) | SEO, Google Analytics, social media profiles, logo, and favicon |
 | [URL Redirects](dashboard/url-redirects.md) | Set up redirects for moved or renamed pages |
 | [Modules and Features](dashboard/modules-and-features.md) | Enable add-on features like articles, events, and e-commerce |
@@ -43,6 +43,7 @@ Welcome to the WebNesting help center. These guides will help you build and mana
 | [Activity Logs](dashboard/activity-logs.md) | View a history of changes made to your site |
 | [Workspace Products](dashboard/workspace-products.md) | Enable and manage workspace products (Marketing, Helpdesk, Tasks) |
 | [Integrations](dashboard/integrations.md) | Connect Google, Microsoft, and GitHub — one page for all your connected apps |
+| [Connecting an AI Tool](dashboard/connecting-ai-tools.md) | Connect Claude, ChatGPT, Cursor, or another AI assistant to your workspace |
 | [Helpdesk](dashboard/helpdesk.md) | Manage support tickets, knowledge base, SLA policies, and customer satisfaction |
 | [Tasks and Projects](dashboard/tasks-and-projects.md) | Organize work with projects, tasks, views, time tracking, and team collaboration |
 | [Contacts Management](dashboard/contacts-management.md) | Manage your audience database with lists, tags, companies, and custom fields |

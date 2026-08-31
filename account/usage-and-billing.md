@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-07-16 3:13pm
+**Last verified:** 2026-08-31 12:10pm
 
 WebNesting uses simple, usage-based pricing. This guide explains how pricing works, how to view your usage and bills, and how to pay.
 
@@ -17,7 +17,7 @@ WebNesting charges based on what you actually use -- things like the number of p
 Every site comes with free resources to get you started:
 
 - **5 free pages** -- Your first 5 pages are included at no charge. Ad-hoc and system pages (like your homepage) are always free.
-- **250 MB of free storage** -- Covers your media library, helpdesk attachments, and form uploads across your whole workspace.
+- **250 MB of free storage** -- Covers your own uploads, helpdesk attachments, and form uploads across your whole workspace.
 - **3 free site users** -- Add up to three users to your site at no cost.
 
 Many small sites fit entirely within the free tier.
@@ -43,7 +43,7 @@ Some optional features are available as add-ons. These have a flat monthly rate,
 | Forms module | $10/month |
 | Store module | $20/month |
 | Widget Builder | $20/month |
-| API & AI Access | $10/month |
+| API & AI Access (REST API tokens) | $10/month |
 | Remove Branding | $5/month |
 
 Workspace-level products are also available on a separate monthly rate:
@@ -64,7 +64,7 @@ Some of these products also include per-unit usage (e.g. tickets, contacts, task
 
 1. Go to your **account portal** and open the **Workspaces** card.
 2. Open the workspace whose usage you want to see.
-3. Click **Usage** in the workspace sidebar.
+3. Click **Settings** at the bottom of the left icon rail, then **Usage** under **Billing**. (The **⋮** menu in the top bar has a shortcut to **Usage** too.)
 
 ### What you'll see
 
@@ -90,19 +90,19 @@ If you have more than one website, you can see how much each site is using. This
 
 1. Go to your **account portal** and open the **Workspaces** card.
 2. Open the workspace whose bills you want to see.
-3. Click **Billing** in the workspace sidebar.
+3. Click **Settings** at the bottom of the left icon rail, then **Plans & Billing** under **Billing**. (The **⋮** menu in the top bar has a shortcut to **Billing** too.)
 
 ### What you'll see
 
 Your billing period runs from the 1st to the last day of each month. Bills are generated on the 1st of the following month and are due by the 15th.
 
-Your monthly invoices are listed by month. Each invoice includes:
+Your monthly invoices are listed by month. Each invoice reads like a receipt:
 
-- **Line items** showing charges for each site.
-- **Credits** that reduce your bill (if any apply).
-- A **total** showing what you owe.
+- **Line items** first, each showing its Charge, Credits, and Net amount.
+- **Per-table totals** so each group of charges adds up on its own.
+- A **Subtotal → Credits → Fees → Total** summary at the bottom.
 
-This breakdown makes it easy to understand exactly what you're being charged for.
+Anything still outstanding appears in a banner at the top of the Billing page, so unpaid invoices never hide in your history.
 
 ---
 
@@ -115,13 +115,19 @@ When you have an outstanding balance, you'll see a **Pay Bill** button.
 3. Your payment is processed securely through Stripe.
 4. You'll see a confirmation once your payment goes through.
 
+If several invoices are outstanding, you can pay one at a time or settle all of them at once with a single card payment and a single receipt.
+
+### Autopay
+
+To stop thinking about bills altogether, turn on autopay under **Billing → Settings**. Your bill is then paid automatically each month and late fees never apply to you.
+
 > **Tip:** Your payment information is handled by Stripe, a trusted payment processor. WebNesting never sees or stores your full card number.
 
 ---
 
 ## What Happens If You Don't Pay
 
-If a bill isn't paid by the due date, a late fee may be applied to the balance. To avoid this, pay your bill promptly when it arrives.
+If a bill isn't paid by the due date (the 15th), it is automatically marked overdue. You'll get an email reminder, and a one-time 5% late fee is added to the outstanding balance. Turning on autopay avoids this entirely.
 
 ---
 

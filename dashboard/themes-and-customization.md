@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -36,6 +36,10 @@ A warm, refined look with gentle green accents. This light theme uses softer bac
 
 A dark, sophisticated design with cyan-blue accents. This modern dark theme is eye-catching and gives your site a sleek, high-end feel. It works well for technology companies, portfolios, creative agencies, and anyone who wants a bold, contemporary look.
 
+### Bold Deco
+
+An art deco editorial style with dramatic serif typography and rich burgundy-and-gold tones. This light theme has real personality and makes a strong first impression. It suits restaurants, event venues, publications, luxury brands, and anyone who wants their site to feel designed rather than templated.
+
 > **Tip:** You can preview each theme on your actual site before committing. Take your time and try them all to see which one fits your brand best.
 
 ---
@@ -56,7 +60,7 @@ When you first set up your site, a theme selection screen appears after you choo
 
 You are not locked into your initial theme choice. To change your theme at any time:
 
-1. Go to **Settings** in the left sidebar of your Dashboard.
+1. In the site menu, open **Settings** and click **Site Settings**.
 2. Look for the **Theme** section.
 3. Select a different theme.
 4. Save your changes.

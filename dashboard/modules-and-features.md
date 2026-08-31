@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -21,7 +21,7 @@ You only pay for the modules you actually use. If you do not need a blog, do not
 To see all the modules you can add to your site:
 
 1. Log in to your dashboard.
-2. Look for **Modules** in the left-hand menu.
+2. In the site menu on the left, open **Settings** and click **Modules**.
 3. You will see a list of all available modules, showing which ones are currently turned on and which are off.
 
 ![The modules list showing available features with enable/disable toggles](../images/dashboard/modules.png)
@@ -34,7 +34,7 @@ Each module shows its name, a short description of what it does, and its monthly
 
 Turning on a module takes just a few seconds:
 
-1. Go to **Modules** in your dashboard menu.
+1. Go to **Settings → Modules** in your site menu.
 2. Find the module you want to enable.
 3. Click the **Enable** button next to it.
 4. The module will activate immediately.
@@ -49,7 +49,7 @@ Once a module is enabled, new menu items will appear in your dashboard. For exam
 
 If you no longer need a module:
 
-1. Go to **Modules** in your dashboard menu.
+1. Go to **Settings → Modules** in your site menu.
 2. Find the module you want to turn off.
 3. Click the **Disable** button next to it.
 4. The module will be deactivated.
@@ -124,18 +124,18 @@ When you enable the Events module, you also get support for event showings and t
 
 ### Email Marketing (Workspace Product)
 
-**Monthly cost:** $25/month base + per-email pricing once you exceed the free allowance
+**Monthly cost:** $20/month base + per-email pricing once you exceed the free allowance
 
 Email marketing is a **workspace product**, not a site module. You enable it at the workspace level and it works across every site in the workspace.
 
 What you get when you enable it:
 - A **Marketing** section in your workspace sidebar for managing contacts, lists, tags, campaigns, templates, and settings
-- A **Marketing Signup** component in the website builder for adding newsletter signup forms to any page
+- An **Email Signup** component in the website builder for adding newsletter signup forms to any page
 - Contact import from CSV files
 - Double opt-in email confirmation
 - Automatic unsubscribe handling
 
-Per-email pricing applies once you exceed 500 emails per month (roughly $2/month per 1,000 emails after that). Workspace contacts are billed separately as part of the workspace contacts product.
+Your first **10,000 marketing emails each month are free**. After that, sending costs **$0.70 per 1,000 emails**. Workspace contacts are billed separately, once for the whole workspace, at $10 per 1,000 contacts per month (first 50 free).
 
 > **Tip:** If you also have the Forms module enabled on your site, form submissions can automatically create workspace contacts -- no manual data entry needed. See the [Email Marketing guide](../content-modules/email-marketing.md) and [Workspace Products](workspace-products.md) for details.
 
@@ -154,26 +154,27 @@ What you get when you enable it:
 
 > **Tip:** When both Forms and Email Marketing are enabled, form submissions automatically flow into your marketing contacts. This is one of the easiest ways to grow your email list.
 
-### API Access
+### API & AI Access (Workspace Product)
 
-**Monthly cost:** $50/month
+**Monthly cost:** $10/month base + usage
 
-API Access enables a REST API for your site, allowing external applications and services to read and write your site's data programmatically. This is useful for integrations with other tools, mobile apps, or custom automations.
+API & AI Access is a **workspace product**, not a site module -- you enable it once at the workspace level and it covers every site in the workspace. It gives you access tokens for the REST API, so your own code and other systems can read and write your content programmatically.
 
-What you can do with the API:
+What you can do with it:
 
-- **Read content** -- Pull pages, articles, products, events, and other content from your site into external applications.
-- **Write content** -- Create or update content on your site from external tools, such as syncing product information from an inventory system.
-- **Integrate with other platforms** -- Connect your WebNesting site to CRM systems, email marketing tools, custom mobile apps, or other business software.
+- **Read content** -- Pull pages, articles, products, events, and other content from your sites into external applications.
+- **Write content** -- Create or update content from external tools, such as syncing product information from an inventory system.
+- **Integrate with other platforms** -- Connect WebNesting to CRM systems, marketing tools, custom mobile apps, or other business software.
 
 Common use cases:
 
 - Displaying your WebNesting content on a separate mobile app or kiosk
 - Syncing product data between your online store and a point-of-sale system
-- Automatically creating articles or events from an external content management workflow
-- Building a custom dashboard that pulls data from multiple sources including your website
+- Automatically creating articles or events from an external content workflow
 
-> **Tip:** The API module is a technical feature that typically requires a developer to set up and use. If you are interested in connecting your site to other tools but are not sure how, reach out to your developer or contact WebNesting support for guidance.
+Beyond the base fee you are charged for API requests (first 50,000 each month free), data transfer (first 1 GB each month free), and active API tokens (first 5 free). Two optional add-ons are available: a higher rate limit and extended audit-log retention.
+
+> **Tip:** Connecting an AI assistant (Claude, ChatGPT, Cursor, and similar) is a **separate, free** feature -- it does not need this product and is not metered. See [Connecting an AI Tool](connecting-ai-tools.md).
 
 ### Widget Builder
 

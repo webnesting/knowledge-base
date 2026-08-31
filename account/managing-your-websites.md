@@ -1,6 +1,6 @@
 # Managing Your Websites
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 The **Sites** page inside a workspace is where you manage all your sites. This guide covers everything you need to know about viewing, opening, editing, and deleting your websites.
 

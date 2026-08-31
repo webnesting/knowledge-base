@@ -1,6 +1,6 @@
 # Creating a Website
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 Ready to build your first site? This guide walks you through creating a new website on WebNesting.
 
@@ -56,13 +56,15 @@ Once your site has been created, you'll see it in your workspace's **Sites** lis
 - **Click the admin panel link** to go to your site's admin dashboard. This is where you'll manage content, design your pages, and adjust settings.
 - **Click the web address** to see your live site as visitors will see it.
 
-> **Tip:** Your site is live right away, but it starts with a blank slate. Head to the admin dashboard to start adding content and making it your own.
+> **Tip:** Your site is live right away, but it starts nearly empty. Head to the admin dashboard to pick a theme and starter template, then start adding your own content.
 
 ---
 
 ## Setting Up Your Site for the First Time
 
-When you open your site's admin dashboard for the first time, a setup wizard will guide you through the basics. It helps you configure your site's name, description, and other essential settings.
+When you open your site's admin dashboard for the first time, a setup wizard guides you through the basics: your site name, business name, and the SEO title and description search engines will show. It also lets you pick a theme, a color palette, and a starter template to build from.
+
+See [Setting Up Your Site](../getting-started/setting-up-your-site.md) for a full walkthrough.
 
 ---
 

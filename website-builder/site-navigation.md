@@ -1,6 +1,6 @@
 # Setting Up Site Navigation
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 Navigation is how visitors find their way around your website. Good navigation helps people quickly get to the pages they need, whether they are browsing on a desktop or a phone. This guide covers how navigation works in WebNesting, how to control which pages appear in your menus, and tips for creating a clear, easy-to-use navigation structure.
 
@@ -22,7 +22,7 @@ The header navigation is the main menu at the top of your site. It is usually th
 
 ### How to Add a Page to the Header Menu
 
-1. Open the **Website Builder** and go to the **Pages** panel in the left sidebar.
+1. Open the **Website Builder** and click **Pages** in the panel rail on the right.
 2. Click the **document icon** next to the page you want to include in the header.
 3. In the page properties, find the **Menu Visibility** checkboxes.
 4. Check the **Header** box.
@@ -36,7 +36,7 @@ The order of items in your header navigation matches the order of pages in your 
 
 To change the navigation order:
 
-1. Open the **Pages** panel in the left sidebar.
+1. Open the **Pages** panel from the rail on the right.
 2. Rearrange your pages by dragging them into the order you want.
 3. The header navigation will update to match the new order.
 
@@ -118,19 +118,19 @@ Breadcrumbs are especially helpful on sites with many pages or deep page hierarc
 To add breadcrumbs to a page:
 
 1. Open the page in the Website Builder.
-2. Drag a **Breadcrumbs** component from the **Content** category in the left sidebar onto the page.
+2. Open the **Add** panel and drag a **Breadcrumbs** component from the **Containers and Accessibility Elements** group onto the page.
 3. Place it near the top of the content area, below the header.
 
 The breadcrumbs will automatically generate based on the page's position in your site hierarchy. For details on adding components, see **[Adding Components to Your Page](adding-components.md)**.
 
 ### Sitemap Component
 
-The Sitemap component displays a complete list of all the pages on your site. It is useful for creating a dedicated sitemap page that helps visitors find what they are looking for and helps search engines discover all your content.
+The Site Map component displays a complete list of all the pages on your site. It is useful for creating a dedicated sitemap page that helps visitors find what they are looking for and helps search engines discover all your content.
 
 To add a sitemap:
 
 1. Open the page where you want the sitemap to appear.
-2. Drag a **Sitemap** component from the **Text** category in the left sidebar onto the page.
+2. Open the **Add** panel and drag a **Site Map** component from the **Content** group onto the page.
 3. The component will automatically list all your published pages.
 
 > **Tip:** A dedicated sitemap page is a nice touch for larger websites. Link to it from your footer so visitors always have a way to see everything your site offers.

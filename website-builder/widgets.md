@@ -1,6 +1,6 @@
 # Custom Widgets
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 Widgets are reusable content blocks that you create once and use across multiple pages on your site. Instead of rebuilding the same section over and over, you build it once as a widget, and then place it wherever you need it.
 
@@ -40,33 +40,36 @@ Once enabled, you will see widget options appear in the Website Builder.
 
 ## Creating a New Widget
 
-### Step 1: Open the Widget Builder
+There are two ways to create a widget. Both end up in the same place.
 
-1. Go to your **Dashboard**.
-2. Open the **Website Builder**.
-3. In the left sidebar, click the **Pages** panel.
-4. Scroll down to the **Widgets** section at the bottom of the page list.
-5. If you do not have any widgets yet, you will see a message that says "No widgets found." That is normal -- you are about to create your first one.
+### From the Widgets page
 
-Alternatively, you can manage your widgets from the Dashboard by going to the Widget module in the sidebar. From there, you can create a new widget, which will open the Widget Builder.
+1. Open the site you want to work on.
+2. In the site menu on the left, click **Widgets** (it sits at the bottom of the panel, next to **Website Builder**).
+3. Click **New Widget**.
+4. Give your widget a **name**. Choose something descriptive so you can find it easily later -- for example "Contact Block", "Page Header", or "Sidebar Newsletter Signup".
+5. Save. Your widget appears in the list.
+6. Click **Edit in builder** on its row to start designing it.
 
-### Step 2: Create the Widget Entry
+### From the builder, while you are working
 
-1. From the Widget module in the Dashboard, click the button to create a new widget.
-2. Give your widget a **name**. Choose something descriptive so you can find it easily later. For example: "Contact Block," "Page Header," or "Sidebar Newsletter Signup."
-3. Optionally, assign a **group** to help organize your widgets if you plan to create many of them.
-4. Save the widget entry.
+1. In the Website Builder, open the **Add** panel from the rail on the right.
+2. Find the **My Widgets** group.
+3. Click the **+** on the group header and enter a name.
+4. The new widget appears as a tile you can drop onto any page.
 
-### Step 3: Design Your Widget
+---
 
-Once the widget is created, you can open it in the Widget Builder. The Widget Builder works just like the regular Website Builder -- you have access to all the same tools and components.
+## Designing Your Widget
 
-1. Click on your widget from the **Widgets** section in the left sidebar of the builder, or click the widget icon next to your widget in the Dashboard module list.
-2. The builder will load with a blank canvas for your widget.
-3. Add components by dragging them from the **Components** panel on the left.
+The Widget Builder works just like the regular Website Builder -- same canvas, same components, same styling tools.
+
+1. Open your widget with **Edit in builder**.
+2. The builder loads with a blank canvas for your widget.
+3. Add components by dragging them from the **Add** panel.
 4. Style and arrange your content just like you would on a regular page.
-5. When you are done, **save** your widget using the Save button or by pressing **Ctrl+S** (Windows) or **Cmd+S** (Mac).
-6. **Publish** the widget to make it available for use on your live pages.
+5. **Save** with the Save button or **Ctrl+S** (Windows) / **Cmd+S** (Mac).
+6. **Publish** the widget to make it available on your live pages.
 
 > **Tip:** Keep your widgets focused on a single purpose. A widget that does one thing well is more useful than one that tries to do everything.
 
@@ -79,13 +82,13 @@ Once you have created and saved a widget, it becomes available as a component yo
 ### Finding Your Widgets
 
 1. Open the **Website Builder** for the page you want to edit.
-2. Look at the **Components** panel in the left sidebar.
-3. Scroll down to the **My Widgets** section. You will see a list of all the widgets you have created, each listed by the name you gave it.
+2. Click **Add** in the panel rail on the right.
+3. Scroll to the **My Widgets** group. Every widget you have created is listed there by name.
 
 ### Adding a Widget to a Page
 
-1. Find the widget you want in the **My Widgets** section.
-2. **Click and hold** on the widget name, then **drag it** onto your page canvas.
+1. Find the widget you want in the **My Widgets** group.
+2. **Click and hold** on the widget tile, then **drag it** onto your page canvas.
 3. Drop it where you want it to appear.
 4. The widget content will load onto your page automatically.
 
@@ -99,11 +102,10 @@ That is it. The widget and all its content will appear on your page exactly as y
 
 When you need to update a widget, you edit it in the Widget Builder -- not on the individual pages where it appears.
 
-1. Open the **Website Builder**.
-2. In the left sidebar, click the **Pages** panel and scroll down to the **Widgets** section.
-3. Click on the widget you want to edit.
-4. Make your changes in the Widget Builder.
-5. **Save** and **Publish** the widget.
+1. Open the **Widgets** page from your site menu.
+2. Find the widget you want and click **Edit in builder**.
+3. Make your changes.
+4. **Save** and **Publish** the widget.
 
 ### How Changes Affect Your Pages
 
@@ -121,10 +123,8 @@ This is one of the biggest advantages of using widgets. Change it once, and it c
 
 You can see all your widgets in two places:
 
-- **In the Website Builder:** Open the left sidebar, click the Pages panel, and scroll down to the Widgets section. All your widgets are listed there by name.
-- **In the Dashboard:** Go to the Widget module in the sidebar to see a full list of your widgets with additional details.
-
-From the Dashboard module view, you can also edit widget details like its name and group.
+- **On the Widgets page:** Click **Widgets** in your site menu for the full list, with **Edit in builder** and **Delete** actions on each row.
+- **In the Website Builder:** Open the **Add** panel and look under **My Widgets**. Every widget is listed there, ready to drag onto a page.
 
 ### Editing Widget Details
 

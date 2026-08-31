@@ -1,10 +1,10 @@
 # Database Tables
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
-The Database section is where you define the structure of your own custom content types. Think of it as creating a spreadsheet -- you choose what columns it has, what kind of information each column holds, and how different tables relate to each other.
+The **Database Tables** section (in your site menu, under **Settings**) is where you define the structure of your own custom content types. Think of it as creating a spreadsheet -- you choose what columns it has, what kind of information each column holds, and how different tables relate to each other.
 
-This is different from the built-in content modules (like Articles or Events) that come ready to use. The Database section lets you create something entirely new that is specific to your needs.
+This is different from the built-in content modules (like Articles or Events) that come ready to use. Database Tables lets you create something entirely new that is specific to your needs.
 
 ---
 
@@ -42,7 +42,7 @@ Setting up a new table is straightforward. You will give it a name and some basi
 
 ### Step 1 -- Name Your Table
 
-1. Go to the **Database** section.
+1. Go to **Settings → Database Tables** in your site menu.
 2. Click **Create New Table**.
 3. Fill in the following:
    - **Display Name** -- A friendly name for your table. This is what you will see in menus and lists. For example, "Team Members" or "Client Testimonials."
@@ -102,7 +102,7 @@ When adding a column, you choose the type of data it will hold. Here is what eac
 
 **Image:**
 
-- **Image** -- Lets you attach a picture from your media library. Perfect for profile photos, product images, or logos.
+- **Image** -- Lets you attach a picture from your files. Perfect for profile photos, product images, or logos.
 
 **Component:**
 
@@ -144,7 +144,7 @@ You can change your table's settings or modify its columns at any time.
 
 ### Editing Table Settings
 
-1. Go to the **Database** section.
+1. Go to **Settings → Database Tables** in your site menu.
 2. Click on the table you want to change.
 3. From the menu, select **Edit Table**.
 4. Update the display name, description, or parent table.
@@ -152,7 +152,7 @@ You can change your table's settings or modify its columns at any time.
 
 ### Editing Columns
 
-1. Go to the **Database** section.
+1. Go to **Settings → Database Tables** in your site menu.
 2. Click on the table you want to change.
 3. You will see all columns listed with their current settings.
 4. Update any column's display name, default value, required status, or list visibility.
@@ -229,7 +229,7 @@ You can also choose whether the relationship allows one or many connections:
 
 ### Deleting a Table
 
-1. Go to the **Database** section.
+1. Go to **Settings → Database Tables** in your site menu.
 2. Find the table you want to delete.
 3. Click the menu icon next to the table and select **Delete**.
 4. The table will be moved to the trash.
@@ -238,7 +238,7 @@ Note that some tables cannot be deleted. Tables that are part of built-in module
 
 ### Viewing Deleted Tables
 
-1. Go to the **Database** section.
+1. Go to **Settings → Database Tables** in your site menu.
 2. Click **View Deleted Tables** from the menu.
 3. You will see a list of all tables that have been removed.
 

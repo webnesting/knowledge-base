@@ -1,6 +1,6 @@
 # Files (File Manager)
 
-**Last verified:** 2026-08-28 9:29am
+**Last verified:** 2026-08-31 12:10pm
 
 The File Manager is where every file in your workspace lives — images, videos, documents, helpdesk email attachments, and files visitors upload through your forms. Think of it as your workspace's file cabinet: one place, organized in folders, just like the files on your computer.
 

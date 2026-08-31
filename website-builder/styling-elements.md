@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -8,7 +8,7 @@ Every element on your page -- text, images, buttons, sections -- can be customiz
 
 ## What Is the Styler?
 
-The Styler is the panel on the right side of the builder. It controls how things look -- colors, spacing, size, shadows, and more.
+The Styler is the **Styles** panel, opened from the icon rail on the right side of the builder. It controls how things look -- colors, spacing, size, shadows, and more.
 
 Think of the Styler as a set of dials and switches for each element on your page. Select something, and the Styler shows you all the ways you can customize it.
 
@@ -20,10 +20,10 @@ Think of the Styler as a set of dials and switches for each element on your page
 
 1. Open your page in the Website Builder.
 2. Click on any element on your page (a heading, image, section, button, etc.).
-3. The Styler panel appears on the right side of the screen.
+3. Click **Styles** in the panel rail on the right. (The button is greyed out until something is selected.)
 4. You will see different sections you can expand, like Spacing, Layout, Position, and more.
 
-> **Tip:** If you do not see the Styler, make sure you have clicked directly on an element. Clicking on empty space will deselect everything.
+> **Tip:** If the **Styles** button is greyed out, nothing is selected. Click directly on an element -- clicking empty space deselects everything.
 
 ---
 

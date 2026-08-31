@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -22,14 +22,14 @@ Projects group related tasks together. For example, you might create a project f
 
 To create a new project:
 
-1. Go to the **Tasks** section in your workspace sidebar.
+1. Click **Tasks** in your workspace sidebar, then **All Projects** under **Projects**.
 2. Click **New Project**.
 3. Give your project a name and optionally add a description.
 4. Choose a color and icon to make the project easy to identify at a glance.
 5. Set a start date and target date if you want to define the project's timeline.
 6. Click **Create**.
 
-Your new project appears in the sidebar, and you can start adding tasks right away.
+Your new project appears in your project list, and you can start adding tasks right away.
 
 ### Project Statuses
 

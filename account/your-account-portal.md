@@ -1,6 +1,6 @@
 # Your Account Portal
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 Your account portal is where you manage personal account details and jump into your workspaces. Workspaces are where your websites, billing, usage, team members, and workspace-level features live.
 

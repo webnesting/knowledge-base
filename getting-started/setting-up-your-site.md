@@ -1,6 +1,6 @@
 # Setting Up Your Site
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 The first time you log in to your new WebNesting site, a setup wizard will guide you through the essentials. This page walks you through each step so you know exactly what to expect.
 
@@ -156,7 +156,7 @@ Now that your site is set up, you will want to add your own logo and favicon (th
 
 ### Adding Your Logo
 
-1. From your Dashboard, go to **Settings** in the left sidebar.
+1. In the site menu, open **Settings** and click **Site Settings**.
 2. Under **Content Items**, click **Image**.
 3. Find the **Logo** field.
 4. Click the upload area or browse button to select your logo image from your computer.
@@ -178,7 +178,7 @@ Your logo will appear in your site's header area, replacing the default text.
 
 If you ever want to change your site name or any of the details you set up during the wizard:
 
-1. Go to **Settings** in the Dashboard sidebar.
+1. In the site menu, open **Settings** and click **Site Settings**.
 2. Under **Site Config**, click **Sandbox Config** for site name and business name, or **Search Engine Optimization (DEFAULTS)** for SEO title and description.
 3. Update the fields as needed.
 4. Save your changes.
@@ -189,7 +189,7 @@ If you ever want to change your site name or any of the details you set up durin
 
 You are not locked into your initial theme choice. To change your theme or colors at any time:
 
-1. Go to **Settings** in the Dashboard sidebar.
+1. In the site menu, open **Settings** and click **Site Settings**.
 2. Look for the **Theme** section.
 3. Select a different theme or adjust your color palette.
 4. Save your changes.
@@ -203,7 +203,7 @@ Your site will update immediately with the new look.
 Your site is set up and looking great. Here are your next steps:
 
 - **[Navigating the Dashboard](navigating-the-dashboard.md)** -- Learn your way around the Dashboard and discover all the tools at your disposal.
-- **Edit your pages** -- Open the Web-Builder to start replacing the sample content with your own text, images, and layout.
-- **Upload media** -- Add your photos, graphics, and files to the media library so they are ready to use on your pages.
+- **Edit your pages** -- Open the Website Builder to start replacing the sample content with your own text, images, and layout.
+- **Upload files** -- Click **Files** in the top bar and add your photos, graphics, and documents so they are ready to use on your pages.
 
 > **Tip:** The sample content from your template is there to show you what is possible and give you a starting structure. Feel free to change everything -- the text, images, layout, and colors are all yours to customize.

@@ -1,8 +1,20 @@
 # Making Your Site Accessible
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 Accessibility means making sure everyone can use your website, regardless of how they browse the web. Some visitors use screen readers, some navigate with a keyboard instead of a mouse, and some have difficulty seeing certain colors. This guide explains what accessibility is, why it matters, and how you can make your WebNesting site welcoming to all visitors.
+
+---
+
+## Check Your Page with Site Audit
+
+The builder has a built-in **Audit** panel that checks the page you are working on and scores it in four categories: **Performance**, **Accessibility**, **Best Practices**, and **SEO**.
+
+1. Open the page in the **Website Builder**.
+2. Click **Audit** in the panel rail on the right.
+3. Run the audit and review the findings. Each one points at the element it is about, so you can jump straight to the problem and fix it.
+
+Running the audit before you publish is the quickest way to catch issues while you can still do something about them, rather than discovering them later.
 
 ---
 

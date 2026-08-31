@@ -1,6 +1,6 @@
 # Activity Logs
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 Activity logs keep a record of everything that happens on your site. Every time someone makes a change -- whether it is editing a page, updating settings, or managing team members -- it is recorded in the activity log.
 
@@ -112,7 +112,7 @@ In addition to workspace-level events, the log also shows activity from all your
 ### Viewing the Workspace Activity Log
 
 1. Go to your **Workspace** dashboard.
-2. Click **Activity** in the workspace menu.
+2. Click **Settings** at the bottom of the icon rail, then **Activity Log**.
 3. You will see a chronological list of all activity across your workspace and sites.
 
 Each entry shows:

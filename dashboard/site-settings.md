@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -9,7 +9,7 @@ Site Settings is where you control the behind-the-scenes details of your website
 ## Where to Find Site Settings
 
 1. Open your WebNesting dashboard.
-2. Click **Settings** in the left sidebar.
+2. In the site menu, open **Settings** and click **Site Settings**.
 3. You will see several sections organized by category. Click on any section to expand it and make changes.
 
 ![The site settings page with categories for SEO, Google, Social Media, and more](../images/dashboard/site-settings.png)
@@ -24,7 +24,7 @@ SEO stands for Search Engine Optimization. These settings help search engines li
 
 This is the name that appears in browser tabs and in search engine results for pages that do not have their own custom title.
 
-1. Go to **Settings** and open the **SEO** section.
+1. Go to **Site Settings** and open the **Search Engine Optimization (DEFAULTS)** section.
 2. Find the **Default Page Title** field.
 3. Enter a clear, descriptive title for your website. For example: "Smith & Co. Accounting -- Tax Services in Portland."
 4. Save your changes.
@@ -46,7 +46,7 @@ This is the short summary that appears below your site's title in search engine 
 When someone shares a link to your site on social media (Facebook, LinkedIn, X, etc.), this image will appear alongside the link. It is sometimes called an OG image (Open Graph image).
 
 1. In the **SEO** section, find the **Social Sharing Image** setting.
-2. Click to choose an image from your Media Library, or upload a new one.
+2. Click to choose an image from your File Manager, or upload a new one.
 3. Save your changes.
 
 > **Tip:** Use an image that is at least 1200 x 630 pixels for the best results across all platforms.
@@ -87,7 +87,7 @@ WebNesting supports two ways to connect Google Analytics:
 
 **Option 1 -- Connect with a Google account (recommended).** This uses OAuth to authorize WebNesting to read your GA4 property data so it can show analytics charts directly in your site dashboard.
 
-1. Go to **Settings** and open the **Third Party** section, then click **Google Config Settings**.
+1. Go to **Site Settings** and open the **Third Party Config Settings** section, then click **Google Config Settings**.
 2. Click the **Connect Google Account** button next to Google Analytics.
 3. Sign in with the Google account that owns your GA4 property and approve the requested access.
 4. Pick the GA4 property you want to connect from the list.
@@ -136,7 +136,7 @@ Add your social media links so they can appear in your site's header, footer, or
 
 ### Adding Your Social Media Links
 
-1. Go to **Settings** and open the **Third Party** section, then click **Social Config Settings**.
+1. Go to **Site Settings** and open the **Third Party Config Settings** section, then click **Social Config Settings**.
 2. You will see fields for each supported platform.
 3. Paste the full URL of your profile for each platform. For example: `https://www.instagram.com/yourcompany`.
 4. Save your changes.
@@ -165,9 +165,9 @@ These are the key images that represent your brand across your website and beyon
 
 Your logo appears in your site's header and anywhere else your theme displays it.
 
-1. Go to **Settings** and open the **Content Items** section, then click **Image**.
+1. Go to **Site Settings** and open the **Content Items** section, then click **Image**.
 2. Find the **Logo** field.
-3. Click to choose an image from your Media Library, or upload a new one.
+3. Click to choose an image from your File Manager, or upload a new one.
 4. Save your changes.
 
 > **Tip:** Upload your logo as a PNG file with a transparent background. This ensures it looks good on any background color. SVG format also works well for logos.
@@ -177,7 +177,7 @@ Your logo appears in your site's header and anywhere else your theme displays it
 A favicon is the tiny icon that appears in browser tabs next to your page title. It also shows up in bookmark lists and on mobile home screens.
 
 1. In the **Image** section under Content Items, find the **Favicon** field.
-2. Click to choose an image from your Media Library, or upload a new one.
+2. Click to choose an image from your File Manager, or upload a new one.
 3. Save your changes.
 
 > **Tip:** Favicons should be square and simple. A good size is 512 x 512 pixels. Complex images will be hard to see at such a small size, so use a simple icon or the first letter of your brand name.
@@ -187,7 +187,7 @@ A favicon is the tiny icon that appears in browser tabs next to your page title.
 This is the same image described in the SEO section above. It appears when someone shares a link to your site on social media.
 
 1. In the **Image** section under Content Items, find the **Social Sharing Image** field.
-2. Click to choose an image from your Media Library, or upload a new one.
+2. Click to choose an image from your File Manager, or upload a new one.
 3. Save your changes.
 
 This image can also be set in the SEO section. They point to the same setting, so you only need to set it in one place.
@@ -202,7 +202,7 @@ These settings control foundational aspects of how your website works. They are 
 
 SSL makes your site secure by encrypting the connection between your visitors and your website. When SSL is active, your site address starts with `https://` instead of `http://`, and visitors see a lock icon in their browser.
 
-1. Go to **Settings** and open the **Site Config** section, then click **Sandbox Config**.
+1. Go to **Site Settings** and open the **Site Config** section, then click **Sandbox Config**.
 2. Find the **SSL / HTTPS** setting.
 3. Make sure it is turned on.
 4. Save your changes.
@@ -250,7 +250,7 @@ A custom domain is a web address you own, like `www.yourcompany.com`. Using your
 
 ### How to Add a Custom Domain
 
-1. Go to **Settings** in your dashboard.
+1. Go to **Settings → Site Settings** in your site menu.
 2. Open the **Domain** section.
 3. Enter your custom domain name (for example, `www.yourcompany.com`).
 4. Save your changes.

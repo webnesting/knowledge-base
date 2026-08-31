@@ -1,6 +1,6 @@
 # Saving and Publishing Your Site
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 All your hard work designing and building your site leads to this: getting it live for the world to see. This guide explains the difference between saving and publishing, how to use undo and redo, and all the keyboard shortcuts that make your workflow faster.
 
@@ -40,7 +40,7 @@ Your work saves instantly without needing to click anything.
 
 ### Option 3: Auto-Save
 
-WebNesting automatically saves your work as you go. After you make changes and pause for a few seconds, the builder quietly saves your progress in the background. You may notice a small auto-save indicator in the toolbar when this happens.
+WebNesting automatically saves your work as you go. About two and a half seconds after you stop editing, the builder quietly saves your progress in the background. If you keep editing without pausing, it saves anyway at least every ten seconds. The save pill in the top toolbar shows the current state: **Unsaved**, **Saving…**, or **Saved**.
 
 Auto-save is a safety net. It protects you from losing work if your internet connection drops or if you accidentally close the browser. But you should still save manually before important milestones, just to be safe.
 
@@ -56,8 +56,9 @@ When you are happy with your changes and ready for visitors to see them, it is t
 
 1. Look at the top toolbar of the builder.
 2. Click the **Publish** button.
-3. Confirm that you want to publish.
-4. Your changes will go live within moments.
+3. Your changes go live within moments. (There is no extra confirmation step, so publish when you mean to.)
+
+Publishing saves and promotes everything at once -- your page and its shared header/footer are published together.
 
 ### What Happens When You Publish
 
@@ -89,9 +90,13 @@ Changed your mind about undoing? You can redo to bring the change back:
 - **On Windows:** Press **Ctrl + Y** or **Ctrl + Shift + Z**
 - **On Mac:** Press **Cmd + Y** or **Cmd + Shift + Z**
 
-### How Many Steps Can You Undo?
+### How Much Can You Undo?
 
-The builder keeps up to **50 steps** of history. This means you can undo up to 50 recent actions. After that, the oldest actions are no longer available to undo.
+The builder keeps your full editing history for the current session, so you can keep stepping back through the changes you have made since opening the page.
+
+Rapid changes are grouped sensibly: typing a sentence or dragging a slider counts as one undo step rather than dozens of tiny ones.
+
+**When teammates are editing with you, undo only affects your own changes.** Pressing Cmd+Z will never roll back something a teammate did.
 
 > **Tip:** Undo history resets when you close the builder or navigate to a different page. If you are about to make a big change and are not sure about it, save your work first. That way, if you change your mind later, you can always go back.
 
@@ -106,8 +111,11 @@ Keyboard shortcuts let you work faster by using key combinations instead of clic
 | Action | Windows | Mac |
 |--------|---------|-----|
 | Save | Ctrl + S | Cmd + S |
+| Publish | Ctrl + Shift + S | Cmd + Shift + S |
 | Undo | Ctrl + Z | Cmd + Z |
 | Redo | Ctrl + Y or Ctrl + Shift + Z | Cmd + Y or Cmd + Shift + Z |
+
+Save and Publish work even while you are typing, so you never have to click away first.
 
 ### Editing Shortcuts
 
@@ -116,11 +124,23 @@ Keyboard shortcuts let you work faster by using key combinations instead of clic
 | Copy | Ctrl + C | Cmd + C |
 | Cut | Ctrl + X | Cmd + X |
 | Paste | Ctrl + V | Cmd + V |
-| Delete | Delete key | Delete key |
+| Duplicate | Ctrl + D | Cmd + D |
+| Delete | Delete or Backspace | Delete or Backspace |
+| Move up/down among siblings | Alt + ↑ / ↓ | Option + ↑ / ↓ |
+
+### Selection and Navigation Shortcuts
+
+| Action | Windows | Mac |
+|--------|---------|-----|
+| Deselect | Escape | Escape |
+| Next / previous element | Tab / Shift + Tab | Tab / Shift + Tab |
+| Move selection to a sibling, parent, or child | Arrow keys | Arrow keys |
+| Zoom the canvas | Ctrl + scroll | Cmd + scroll |
 
 ### How Copy, Cut, and Paste Work
 
-- **Copy** duplicates the currently selected element. The copy is stored temporarily and ready to be pasted.
+- **Copy** puts the currently selected element on the clipboard, ready to be pasted.
+- **Duplicate** makes a copy right away, without needing to paste.
 - **Cut** removes the currently selected element from the page and stores it for pasting. This is like copying and deleting in one step.
 - **Paste** places the copied or cut element at the current position.
 - **Delete** removes the currently selected element from the page permanently. Unlike cut, it does not store the element for pasting.
@@ -140,7 +160,7 @@ Do not wait until you are "finished" to save. Save after every meaningful change
 Before hitting publish, do a final check:
 
 - **Read through your text.** Look for typos, missing words, and awkward phrasing.
-- **Check all device sizes.** Switch through desktop, tablet, and mobile views in the frame sizer.
+- **Check all device sizes.** Switch through the Desktop, Tablet, and Mobile buttons in the top toolbar.
 - **Click your links.** Make sure every button and link goes to the right place.
 - **Check your images.** Make sure images load and look correct at all sizes.
 
@@ -184,4 +204,6 @@ The auto-save feature saves your work periodically, so you should not lose much 
 
 ### Can other people see my draft changes?
 
-No. Draft changes are only visible to you in the builder. Visitors to your site will continue to see the last published version until you publish again.
+Your **visitors** cannot -- they continue to see the last published version until you publish again.
+
+Your **teammates** can. The draft belongs to the site, so anyone on your team with builder access opens the same draft you saved. If you are both in the builder on the same page at the same time, you will see each other's cursors and edits live.

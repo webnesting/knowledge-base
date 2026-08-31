@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Four products are available, and you only pay for the ones you use.
 
@@ -83,24 +83,24 @@ Each product has two types of costs:
 
 Here is how pricing works for each product:
 
+**Contacts are shared across products.** Marketing, Helpdesk, and your site forms all draw on the same workspace contact database, so contacts are billed once for the whole workspace -- not once per product. Your first 50 contacts are free.
+
 ### Marketing Pricing
 
 - Base monthly fee for having Marketing enabled
-- Additional charge per contact (your first contacts are free)
-- Additional charge per email sent (your first emails are free)
+- Additional charge per email sent (your first emails each month are free)
 
 ### Helpdesk Pricing
 
 - Base monthly fee for having Helpdesk enabled
-- Additional charge per ticket (with a free tier)
-- Additional charge per contact (with a free tier)
-- Additional charge per knowledge base article (with a free tier)
+- Additional charge per ticket, counted when the ticket is created (with a free tier)
+- Your knowledge base and internal docs are included -- there is no per-article charge
 
 ### Tasks Pricing
 
 - Base monthly fee for having Tasks enabled
 - Additional charge per active task (with a free tier)
-- Additional charge per project (with a free tier)
+- Projects are free -- their tasks are already covered by the active-task charge
 
 ### API & AI Access Pricing
 

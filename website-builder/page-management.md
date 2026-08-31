@@ -1,23 +1,23 @@
 # Managing Pages in the Builder
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 The Website Builder is where you design and edit your pages visually. But it is also where you can switch between pages, create new ones, and manage how they are organized -- all without leaving the builder. This guide covers everything you need to know about working with pages inside the builder.
 
 ---
 
-![The Pages panel in the builder sidebar showing page hierarchy](../images/website-builder/pages-panel.png)
+![The Pages panel in the builder showing page hierarchy](../images/website-builder/pages-panel.png)
 
 ## The Pages Panel
 
-The pages panel is your home base for navigating between pages while you work in the builder. It is located in the left sidebar.
+The pages panel is your home base for navigating between pages while you work in the builder. It lives in the panel rail down the **right** side of the screen.
 
 ### Opening the Pages Panel
 
 1. Open the Website Builder.
-2. Look at the left sidebar. You will see a set of icons.
+2. Look at the column of icons down the right side. 
 3. Click the **Pages** icon (it looks like a small document).
-4. The pages panel will slide open, showing a list of all your pages.
+4. The pages panel opens, showing a list of all your pages. Click the icon again to pin the panel open so it stays put while you work.
 
 The panel shows your pages organized into groups. Pages are grouped by their content type -- for example, your main site pages will be in one group, and blog articles or other module-based pages will be in their own groups. You may also see an "Ad Hoc" group for special standalone pages.
 
@@ -27,14 +27,14 @@ The panel shows your pages organized into groups. Pages are grouped by their con
 
 You can jump to any page on your site directly from the builder.
 
-1. Open the **Pages** panel in the left sidebar.
+1. Open the **Pages** panel.
 2. Browse the list of pages.
 3. Click the name of the page you want to edit.
 4. The builder will load that page in the main editing area.
 
 The page you are currently editing is highlighted in the list so you always know which one you are working on.
 
-> **Tip:** You can also see the current page name in the top toolbar. This is a quick way to confirm which page you are editing.
+> **Tip:** In Canvas View you can skip switching altogether -- add several pages as frames and edit them side by side on one canvas.
 
 ---
 
@@ -63,11 +63,11 @@ You do not need to go back to the dashboard to add a page. You can create one ri
 
 ### Creating a Top-Level Page
 
-1. Open the **Pages** panel in the left sidebar.
-2. Click the **New Page** button at the top of the panel.
+1. Open the **Pages** panel.
+2. Click the **New page** button at the top of the panel.
 3. A form will appear where you can set the page details (title, URL, layout, and more).
 4. Fill in the information and save.
-5. Your new page will appear in the pages list and you can start editing it immediately.
+5. Any unsaved canvas work is saved first, then you land straight on the new page, ready to edit.
 
 ### Creating a Child Page (Sub-Page)
 
@@ -92,7 +92,7 @@ Each page has a set of properties that control its title, URL, layout, and other
 
 1. Open the **Pages** panel.
 2. Find the page you want to edit.
-3. Click the **document icon** next to the page name.
+3. Click the **settings icon** next to the page name.
 4. A window will open showing all of the page's settings.
 
 ### Page Title
@@ -120,12 +120,12 @@ The URL slug is the part of the web address that comes after your domain. For ex
 Layouts control the overall structure of your page -- where the header appears, where the main content goes, and what the footer looks like. Every page is assigned a layout.
 
 1. Open the page properties.
-2. Find the **Layout** field.
-3. Browse the available layouts from the dropdown. Layouts are organized into groups.
-4. Select the layout you want.
-5. Save your changes.
+2. Find the **Layout** field. It is searchable, so you can type to filter a long list.
+3. Browse the available layouts. Layouts are organized into groups.
+4. Select the layout you want. As you pick, the page behind the window previews under the new layout so you can see the change before committing.
+5. Click **Save** to make it real, or **Cancel** to put everything back exactly as it was.
 
-The page will update to use the new layout structure.
+> **Tip:** If the layout you want does not exist yet, just type a new name into the Layout picker -- it will be created for you when you save.
 
 ### Menu Visibility
 
@@ -148,7 +148,7 @@ You can assign an icon image to a page. This icon may appear in navigation menus
 
 1. Open the page properties.
 2. Find the **Page Icon** field.
-3. Click to open the media library and select an image.
+3. Click to open the file picker and select an image.
 4. Save your changes.
 
 ### Lock Page
@@ -171,7 +171,7 @@ Your site's navigation menus are built automatically from your pages. Understand
 The main navigation menu at the top of your site is generated from your pages list. Any page with the **Header** menu visibility checkbox turned on will appear in the header navigation.
 
 1. Open the **Pages** panel in the builder.
-2. Click the **document icon** next to a page to open its properties.
+2. Click the **settings icon** next to a page to open its properties.
 3. Under **Menu Visibility**, check or uncheck **Header** to control whether the page appears in the main navigation.
 
 Pages appear in the navigation in the same order they appear in your pages list. To change the order of your navigation items, rearrange your pages in the dashboard.

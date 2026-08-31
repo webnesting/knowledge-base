@@ -1,6 +1,6 @@
 # Glossary of Terms
 
-**Last verified:** 2026-05-28 11:09pm
+**Last verified:** 2026-08-31 12:10pm
 
 This glossary explains common terms you will encounter while using WebNesting. If you come across a word you do not recognize, check here for a quick explanation.
 
@@ -14,11 +14,11 @@ This glossary explains common terms you will encounter while using WebNesting. I
 
 **Breakpoint** -- A specific screen width at which your site's layout adjusts to fit different devices. For example, your site may display three columns on a desktop but switch to a single column on a phone. WebNesting handles common breakpoints for you automatically.
 
-**Canvas** -- The main editing area in the Website Builder where you build and arrange your page. When you drag a component from the Component Palette, you drop it onto the Canvas.
+**Canvas** -- The main editing area in the Website Builder where you build and arrange your page. When you drag a component from the Add panel, you drop it onto the Canvas. In Canvas View you can lay several pages side by side as frames and pan and zoom between them.
 
 **Component** -- A building block in the Website Builder. Components include things like text blocks, images, buttons, sections, cards, and more. You build your pages by adding and arranging components.
 
-**Component Palette** -- The left sidebar in the Website Builder that lists all available components. You drag components from the palette onto the Canvas to add them to your page.
+**Add panel** (component palette) -- The panel in the Website Builder that lists all available components. Open it from the icon rail on the right, then drag components onto the Canvas to add them to your page.
 
 **Container** -- A layout component that holds other components inside it. Containers help you group and organize content on your page.
 
@@ -54,7 +54,7 @@ This glossary explains common terms you will encounter while using WebNesting. I
 
 **Slug** -- The part of a URL that identifies a specific page. For example, in `yoursite.com/about-us`, the slug is `about-us`. Slugs should be short, descriptive, and use hyphens between words.
 
-**Styler** -- The right panel in the Website Builder that controls how elements look. Use the Styler to change colors, spacing, fonts, borders, shadows, and other visual properties of a selected component.
+**Styler** -- The **Styles** panel in the Website Builder, which controls how elements look. Use it to change colors, spacing, fonts, borders, shadows, and other visual properties of a selected component. Open it from the icon rail on the right.
 
 **Theme** -- A set of colors, fonts, and design choices that define your site's overall visual style. Changing your theme updates the look of your entire site at once.
 
@@ -69,5 +69,5 @@ This glossary explains common terms you will encounter while using WebNesting. I
 ## Related Guides
 
 - **[Welcome to WebNesting](welcome.md)** -- An introduction to the platform
-- **[Builder Overview](../website-builder/builder-overview.md)** -- Learn about the Canvas, Component Palette, and Styler
+- **[Builder Overview](../website-builder/builder-overview.md)** -- Learn about the Canvas, the Add panel, and the Styles panel
 - **[Navigating the Dashboard](navigating-the-dashboard.md)** -- Tour of the Dashboard and where to find everything

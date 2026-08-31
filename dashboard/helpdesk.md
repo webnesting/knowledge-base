@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-07-18 2:18pm
+**Last verified:** 2026-08-31 12:10pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 

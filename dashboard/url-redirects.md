@@ -1,6 +1,6 @@
 # URL Redirects
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 Sometimes you need to change a page's web address, or you want to point an old address to a new one. Redirects make sure that anyone who visits the old address is automatically sent to the right place -- no dead ends, no error pages.
 
@@ -27,7 +27,7 @@ You can see all the redirects currently set up on your site.
 ![The URL Redirects page with options to create new redirects](../images/dashboard/url-redirects.png)
 
 1. Open your WebNesting dashboard.
-2. Click **Redirects** in the left sidebar (or find it under **Settings**).
+2. In the site menu, open **Settings** and click **URLs and Redirects**.
 3. You will see a list of all your current redirects, showing:
    - **Source URL** -- The old address that visitors might try to visit.
    - **Destination** -- Where they will be sent instead.

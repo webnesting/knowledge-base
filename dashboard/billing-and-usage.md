@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-08-28 9:29am
+**Last verified:** 2026-08-31 12:10pm
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -22,7 +22,7 @@ You are billed once a month. Each bill covers the previous month's usage and sho
 Every WebNesting site comes with a few things at no charge:
 
 - **Your first 5 pages** -- You can have up to 5 pages on your site before any page charges apply. This includes any type of page (regular pages, article pages, event pages, etc.).
-- **Your first 250 MB of storage** -- Everything we store for you (media library files, helpdesk attachments, and files visitors upload through your forms) is measured together across your whole workspace, and the first 250 MB is free.
+- **Your first 250 MB of storage** -- Everything we store for you (your own uploads, helpdesk attachments, and files visitors upload through your forms) is measured together across your whole workspace, and the first 250 MB is free.
 - **Your first 3 site users** -- You can have up to three site users (admin or otherwise) before per-user charges apply.
 
 These free allowances apply automatically. You do not need to do anything to activate them. If you stay within these limits, you will not see those items on your bill at all.
@@ -54,7 +54,7 @@ Ad-hoc pages (special utility pages) are always free and do not count toward you
 
 **$10 per GB per month** (first 250 MB free)
 
-Storage is one meter for your whole workspace. It covers everything we store for you: your media library (images, videos, documents), helpdesk ticket attachments, and files visitors upload through your forms. You are billed once for storage no matter how many sites you have.
+Storage is one meter for your whole workspace. It covers everything we store for you: your own uploads (images, videos, documents), helpdesk ticket attachments, and files visitors upload through your forms. You are billed once for storage no matter how many sites you have.
 
 **Example:** If you are storing 2.25 GB of files in total, the first 0.25 GB is free, and you pay for 2 GB. That is 2 x $10 = $20.00 per month for storage.
 
@@ -76,22 +76,23 @@ Modules are add-on features with flat monthly fees. You are only charged for mod
 
 | Module | Monthly Cost | What It Does |
 |--------|-------------|--------------|
-| Articles | $5/month base + $0.75/article (3 free) | Adds a blog/news section to your site |
+| Articles | $5/month | Adds a blog/news section to your site |
 | Events | $5/month | Adds event listings with dates and details |
 | Forms | $10/month | Build custom forms for contact, surveys, and registrations |
 | E-Commerce (Store) | $20/month | Adds an online store with products and orders |
 | Widget Builder | $20/month | Lets you create custom interactive elements |
-
 | Remove WebNesting Branding | $5/month | Removes the "Powered by WebNesting" text from your footer |
 
 Workspace-level products are billed separately at the workspace level (see [Workspace Products](workspace-products.md)):
 
 | Product | Monthly Cost | What It Does |
 |---------|-------------|--------------|
-| Marketing | $20/month base + per-email pricing | Email campaigns, contacts, automations |
-| Helpdesk | $15/month base + $0.15/ticket (25 free) | Tickets, SLA, knowledge base |
-| Tasks | $10/month base + $0.30/active task (25 free) | Projects, tasks, boards, timelines -- projects themselves are free |
-| API & AI Access | $10/month base + per-request, data-transfer, and active-token usage | Programmatic API access plus bring-your-own-AI assistant |
+| Marketing | $20/month base + $0.70 per 1,000 emails sent (first 10,000 each month free) | Email campaigns, contacts, automations |
+| Helpdesk | $15/month base + $0.15/ticket (first 25 each month free) | Tickets, SLA, knowledge base |
+| Tasks | $10/month base + $0.30/active task (first 25 free) | Projects, tasks, boards, timelines -- projects themselves are free |
+| API & AI Access | $10/month base + per-request, data-transfer, and active-token usage | Access tokens for the REST API. (Connecting an AI assistant is separate and free.) |
+
+Contacts are shared by every workspace product (Marketing, Helpdesk, and your site forms all use the same contact database), so they are billed once for the whole workspace: **$10 per 1,000 contacts per month, with your first 50 free.**
 
 > **Tip:** Module fees are the same every month regardless of how much you use the module. If the Articles module is enabled, it costs $5/month whether you have 2 articles or 200.
 
@@ -127,7 +128,9 @@ When you pay your bill, a small payment processing fee is added to cover credit 
 
 ### Late Payments
 
-If a bill is not paid by its due date, a 5% late fee is applied to the outstanding balance. To avoid late fees, make sure to pay your bill before the 15th of the month.
+If a bill is not paid by its due date (the 15th), it is automatically marked overdue. You get an email reminder and a one-time 5% late fee is added to the outstanding balance.
+
+The simplest way to never think about this is autopay: turn it on under **Billing → Settings** and your bill is paid automatically each month, so late fees never apply to you.
 
 ---
 
@@ -135,12 +138,10 @@ If a bill is not paid by its due date, a 5% late fee is applied to the outstandi
 
 To see your current and past bills:
 
-1. Go to your **Account** page.
-2. You will see your billing summary, showing any unpaid bills and their total amounts.
-3. Each bill shows a breakdown by site (if you have more than one) with:
-   - Individual charges for each service (pages, media, modules, etc.)
-   - Credits applied (for your free allowances)
-   - The net amount due
+1. Open the workspace you want to look at.
+2. Click **Settings** at the bottom of the left icon rail, then **Plans & Billing** under **Billing**. (You can also reach it from the **⋮** menu in the top bar → **Billing**.)
+3. You will see your billing summary. Anything outstanding appears in a banner at the top -- you can pay a single invoice on the spot, or settle every unpaid invoice at once with one card payment and one receipt.
+4. Each invoice reads like a receipt: line items first, each with a Charge / Credits / Net breakdown, per-table totals, and a Subtotal → Credits → Fees → Total summary at the bottom.
 
 If you have no unpaid bills, you will see an estimate of your current month's charges so far, along with a projection of what the full month might cost.
 
@@ -157,7 +158,7 @@ Here is a quick summary of what is tracked:
 | Resource | How It Is Counted |
 |----------|-------------------|
 | Pages | Total number of pages on your site at any given time |
-| Storage | Everything we store for you across your workspace -- media library, helpdesk attachments, and form uploads |
+| Storage | Everything we store for you across your workspace -- your uploads, helpdesk attachments, and form uploads |
 | Admin users | Number of people with admin access to your site |
 | Modules | Whether each module is turned on or off |
 
@@ -175,7 +176,7 @@ Here are some practical ways to keep your WebNesting bill manageable.
 
 ### Take Advantage of Free Allowances
 
-Remember that your first 5 pages, first 250 MB of storage, and first additional admin user are all free. For a simple website, you may not owe anything beyond the modules you choose to enable.
+Remember that your first 5 pages, first 250 MB of storage, and first 3 site users are all free. For a simple website, you may not owe anything beyond the modules you choose to enable.
 
 ### Only Enable Modules You Need
 
@@ -183,11 +184,11 @@ Each enabled module adds to your monthly bill. If you are not actively using a m
 
 > **Tip:** Disabling a module does not delete your content. Your blog posts, events, and products are saved and will reappear if you re-enable the module.
 
-### Manage Your Media Library
+### Manage Your Files
 
 Storage can add up if you upload large files. To keep your storage costs down:
 
-- Delete images and files you are no longer using on your site.
+- Delete images and files you are no longer using on your site. Click **Files** in the top bar to browse everything your workspace stores.
 - Resize large images before uploading. Photos straight from a camera can be 5-10 MB each, but a web-optimized version at 200-500 KB looks just as good on screen.
 - Remove duplicate files.
 
@@ -204,6 +205,6 @@ Get in the habit of reviewing your billing page once a month. This helps you cat
 ## Where to Go Next
 
 - **[Modules and Features](modules-and-features.md)** -- Learn more about each module and how to enable or disable them.
-- **[Media Library](media-library.md)** -- Learn how to manage your uploaded files and keep storage under control.
+- **[Files (File Manager)](media-library.md)** -- Learn how to manage your uploaded files and keep storage under control.
 - **[Managing Pages](managing-pages.md)** -- Learn how to create, edit, and organize your site's pages.
 - **[Team and Permissions](team-and-permissions.md)** -- Learn how to manage admin users and team access.

@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -17,13 +17,13 @@ You combine these components to create complete pages. A typical page might have
 ## How to Add a Component
 
 1. Open the **Website Builder** for the page you want to edit.
-2. Look at the **left sidebar** (the Component Palette). You will see a list of components organized into categories.
+2. Click **Add** in the panel rail on the **right** side of the screen. You will see every available component, organized into categories.
 3. Find the component you want to add.
 4. **Click and hold** on the component, then **drag it** onto the Canvas (the main area showing your page).
 5. Drop it where you want it to appear. You will see a visual guide showing you where the component will land.
 6. Release your mouse button to place it.
 
-The component will appear on your page immediately. You can now click on it to edit its content or style it using the right panel.
+The component will appear on your page immediately. You can now click on it to edit its content, or open the **Styles** panel to change how it looks.
 
 > **Tip:** If you are not sure which component to use, try adding one and see how it looks. You can always delete it or move it later.
 
@@ -31,63 +31,81 @@ The component will appear on your page immediately. You can now click on it to e
 
 ## Component Categories
 
-Components are organized into categories in the left sidebar. Here is what you will find in each one.
+Components are grouped into categories in the **Add** panel. The everyday building blocks come first; more specialist groups follow.
 
-![The Component Palette showing categories like Dynamic Content, Structure, Content, and Media](../images/website-builder/component-palette.png)
+![The Add panel showing component categories](../images/website-builder/component-palette.png)
 
 ### Structure
 
-Layout components help you organize and structure your page. They are containers that hold other components.
+Containers and dividers that hold and organize everything else.
 
-- **Section** -- A full-width area that acts as a major division of your page. Use sections to separate different parts of your content (like a hero area, a features section, and a contact section).
-- **Container** -- A box that holds other components inside it. Useful for grouping related content together and controlling its width.
+- **Container** -- A box that holds other components inside it. Useful for grouping related content and controlling its width.
+- **Grid** -- A multi-column arrangement for laying content out in rows and columns.
 - **Divider** -- A horizontal line that visually separates content on your page.
-- **Main** -- A primary content area, typically used once per page for the main body content.
+- **Header** and **Footer** -- The structural top and bottom regions of a layout.
+- **Module Driven Content** -- A container that repeats for each record from one of your content modules.
 
 ### Content
 
-These components are for adding written and interactive content to your page.
+Text, buttons, and other written or interactive content.
 
-- **Text Block** -- A flexible area for paragraphs, headings, and formatted text. This is the component you will use most often for writing content.
-- **Alert** -- A highlighted message box, great for important notices, warnings, or tips.
-- **Card** -- A self-contained block that combines an image, a heading, description text, and a button. Cards are great for team members, services, features, or any content that benefits from a visual summary.
-- **Accordion** -- Expandable sections that visitors can open and close by clicking. Perfect for FAQs, product details, or any content you want to keep organized without taking up too much space.
-- **Button** -- A clickable button that can link to another page, a section of your site, or an external website. You can customize the button text, color, size, and style.
-- **Header** -- The top section of your page, usually containing your logo and navigation menu. Typically used once per layout.
-- **Footer** -- The bottom section of your page, often containing contact information, links, and copyright text. Typically used once per layout.
-- **Breadcrumbs** -- A trail of links showing where the visitor is on your site (for example: Home > Services > Web Design). Helps visitors navigate back to previous pages.
-- **Sitemap** -- An automatically generated list of all the pages on your site.
-- **HTML Block** -- A container where you can write raw HTML code. Useful for embedding third-party widgets or custom content.
-- **Markdown Block** -- A text area that uses Markdown formatting. Useful if you prefer writing content in Markdown syntax.
+- **Balloon Text** -- A rich text area with a floating formatting toolbar. This is the one you will reach for most often.
+- **Inline Text** -- A short piece of text that flows inside a line, rather than forming its own block.
+- **Basic Text** -- A plain, unformatted text area.
+- **Markdown Block** -- A text area that uses Markdown formatting.
+- **HTML** -- A block where you can paste raw HTML, useful for embedding third-party widgets.
+- **Button** -- A clickable button linking to another page, a section of your site, or an external website.
+- **Alert** -- A highlighted message box, good for notices, warnings, or tips.
+- **Site Map** -- An automatically generated list of all the pages on your site.
 
 ### Media
 
-These components let you add visual content to your page.
+Visual content.
 
-- **Image** -- A single image. Click it to choose a picture from your media library or upload a new one.
-- **Slideshow** -- A rotating set of images that automatically transitions between slides. Great for showcasing multiple photos in one space.
+- **Image** -- A single image. Click it to pick a picture from your files or upload a new one.
+- **Slideshow** -- A rotating set of images that transitions between slides.
+- **Gallery** -- A grid of images you can reorder directly on the page.
+- **Full Page Image** -- A large, full-width image, good for hero areas.
+- **Card** -- A self-contained block combining an image, heading, description, and button.
+- **Cards** -- A row or grid of cards.
+
+### Containers and Accessibility Elements
+
+Semantic regions that describe what a part of your page *is*. Using these correctly helps screen readers and search engines understand your page.
+
+- **Main** -- The primary content area, used once per page.
+- **Section** -- A major division of your page.
+- **Article** -- A self-contained piece of content.
+- **Aside** -- Content tangentially related to the main content, like a sidebar.
+- **Breadcrumbs** -- A trail of links showing where the visitor is (for example: Home > Services > Web Design).
+- **Accordion Item** -- An expandable section visitors can open and close. Good for FAQs.
+
+### Function Blocks
+
+- **Foreach Loop** -- Repeats its contents once for every record in a set of content, so you can lay out a list of articles, products, or any other records.
 
 ### Module Driven Items
 
-These components display content from your site's built-in modules. They only appear if you have the related module enabled on your site.
+These display content from your site's modules, and only appear when the related module is enabled.
 
-- **Article List / Article Detail** -- Displays articles from your Articles module. The list shows multiple articles, and the detail shows a single full article.
-- **Event List / Event Detail** -- Displays events from your Events module. The list shows upcoming events, and the detail shows a single event with all its information.
-- **Product List / Product Detail** -- Displays products from your Products module. The list shows multiple products, and the detail shows a single product page.
-- **Form Embed** -- Embeds a form from your Forms module on the page. Requires the Forms module to be enabled.
-- **Marketing Signup** -- A newsletter signup form for collecting email subscribers. Requires the Email Marketing module to be enabled.
+- **Article List / Article Detail** -- Articles from your Articles module.
+- **Blog List / Blog Detail** -- Blog posts.
+- **Event List / Event Detail** -- Events from your Events module.
+- **Product List / Product Detail** -- Products from your Store module.
+- **Form** -- Embeds a form from your Forms module. Requires the Forms module.
+- **Email Signup** -- A newsletter signup form for collecting subscribers. Requires the Marketing product.
 
-> **Tip:** If you do not see these components, it means the related module is not enabled for your site. You can enable modules from the Dashboard under Modules.
+> **Tip:** If you do not see these components, the related module is not enabled. You can enable modules from the **Modules** section of your site menu.
 
 ### Plugins
 
-- **Google Maps** -- An embedded, interactive map that shows a specific location on your page. Google Maps is ideal for contact pages, store locators, or any page where visitors need to find a physical address. When you add a Google Maps component, you can configure the location by entering an address or coordinates. The map will display as an interactive, zoomable element that visitors can use to get directions. Your site may need a Google Maps API key configured by your administrator for the map to display properly.
+- **Google Maps** -- An embedded, interactive map showing a specific location. Ideal for contact pages and store locators. Configure the location by entering an address or coordinates. Your site may need a Google Maps API key configured for the map to display.
 
-- **Disqus Comments** -- A full-featured comments section powered by the Disqus platform. Adding a Disqus component to your page lets visitors leave comments, reply to each other, and engage in discussions. This is popular for blog posts, news articles, and community pages. To use Disqus, you need a Disqus account and a site shortname, which you configure in the component settings. Once set up, comments are managed through the Disqus moderation dashboard, where you can approve, remove, or respond to comments. Disqus handles spam filtering and user accounts automatically.
+- **Disqus Comments** -- A comments section powered by Disqus, letting visitors comment and reply. Popular for blog posts and news articles. You need a Disqus account and a site shortname, set in the component's settings. Comments are then managed from the Disqus moderation dashboard, which handles spam filtering and user accounts for you.
 
 ### My Widgets
 
-This category contains any custom, reusable components you have created and saved. Widgets let you build something once and use it across multiple pages. If you have not created any widgets yet, this section will be empty.
+Your own custom, reusable components. Build something once and use it across multiple pages. If you have not created any widgets yet, this group will be empty -- use the **+** on the group header to create one without leaving the builder.
 
 ---
 
@@ -117,7 +135,7 @@ For example, you might:
 
 To nest a component:
 
-1. Drag the component from the left sidebar.
+1. Drag the component from the **Add** panel.
 2. Drop it **inside** an existing container component on the Canvas.
 3. You will see a visual guide indicating that the component will be placed inside the container (rather than above or below it).
 
@@ -152,6 +170,8 @@ If you want a copy of something that already exists on your page:
 3. Click it to create an identical copy.
 
 The copy will appear right next to the original. You can then drag it to a different position and edit its content independently.
+
+> **Tip:** Cmd+D (Ctrl+D on Windows) duplicates the selected component instantly.
 
 ---
 

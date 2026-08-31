@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -48,7 +48,7 @@ Common uses for sections:
 
 #### Adding a Section
 
-1. In the builder, open the component panel on the left.
+1. In the builder, open the **Add** panel from the rail on the right.
 2. Look under **Structure** for the Section component.
 3. Drag it onto your page where you want it.
 4. The section will appear as an empty area, ready for you to add content inside it.
@@ -57,13 +57,13 @@ Common uses for sections:
 
 ### Groups and Containers
 
-A **Container** (also called an "empty container" in the component panel) is a box that holds other elements together. While a section spans the full width of your page, containers are used inside sections to group related content.
+A **Container** (listed under **Structure** in the **Add** panel) is a box that holds other elements together. While a section spans the full width of your page, containers are used inside sections to group related content.
 
 Think of a container like a box on a shelf. You might have one box for photos, another for documents, and another for supplies. Each container groups related items together.
 
 #### Adding a Container
 
-1. Open the component panel.
+1. Open the **Add** panel.
 2. Under **Structure**, find the Container component.
 3. Drag it into a section on your page.
 4. Now you can drag other components (text, images, buttons) into the container.
@@ -74,7 +74,7 @@ A **Divider** is a simple horizontal line that separates content visually. Use d
 
 #### Adding a Divider
 
-1. Open the component panel.
+1. Open the **Add** panel.
 2. Under **Structure**, find the Divider component.
 3. Drag it between the elements you want to separate.
 
@@ -93,7 +93,7 @@ The easiest way to put items next to each other is to use a Flex layout on a con
 1. Add a **Container** (or Section) to your page.
 2. Add the items you want side by side inside the container. For example, drag in two text blocks or a text block and an image.
 3. Select the container (not the items inside it).
-4. In the Styler on the right, find the **Layout** section.
+4. Open the **Styles** panel and find the **Layout** section.
 5. Click the **Flex** button.
 6. The items inside will now appear next to each other.
 
@@ -108,7 +108,7 @@ For evenly spaced columns, use the Grid layout.
 1. Add a **Container** to your page.
 2. Add the items you want in the grid inside the container.
 3. Select the container.
-4. In the Styler, find the **Layout** section.
+4. In the **Styles** panel, find the **Layout** section.
 5. Click the **Grid** button.
 6. Click the gear icon to set the number of columns and rows.
 
@@ -163,7 +163,7 @@ You can nest components several levels deep. The structure works like a family t
 
 ### How to Nest Components
 
-1. Drag a component from the component panel.
+1. Drag a component from the **Add** panel.
 2. Drop it on top of (or inside) a container or section on your page.
 3. The container will highlight to show it is ready to receive the new component.
 4. Release to drop it inside.

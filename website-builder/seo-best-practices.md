@@ -1,8 +1,20 @@
 # SEO Best Practices for Your Website
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 Search engine optimization (SEO) is one of the most powerful ways to bring visitors to your website. This guide covers practical, easy-to-follow steps you can take right inside WebNesting to help your site show up in Google and other search engines. No technical background required -- just a willingness to put in a little effort on each page you create.
+
+---
+
+## Check Your Page with Site Audit
+
+The builder has a built-in **Audit** panel that checks the page you are working on and scores it in four categories: **Performance**, **Accessibility**, **Best Practices**, and **SEO**.
+
+1. Open the page in the **Website Builder**.
+2. Click **Audit** in the panel rail on the right.
+3. Run the audit and review the findings. Each one points at the element it is about, so you can jump straight to the problem and fix it.
+
+Running the audit before you publish is the quickest way to catch issues while you can still do something about them, rather than discovering them later.
 
 ---
 

@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-05-11 9:00am
+**Last verified:** 2026-08-31 12:10pm
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -12,7 +12,7 @@ Before you can edit anything, you need to select it.
 
 1. Move your mouse over the component on the Canvas. A border or highlight will appear to show what you are about to select.
 2. **Click once** on the component.
-3. The component is now selected. You will see a visual indicator around it, and the right sidebar (Styler) will show styling options for that component.
+3. The component is now selected. You will see a visual indicator around it, and the **Styles** panel will show styling options for that component.
 
 Once a component is selected, you can edit its content, move it, delete it, or style it.
 
@@ -174,7 +174,7 @@ You can undo any content change by pressing Ctrl+Z (Cmd+Z on Mac).
 ### Selecting or Changing an Image
 
 1. Click on the image component on the Canvas.
-2. The **media picker** will open, showing your media library.
+2. The **media picker** will open, showing your files.
 3. Choose an image from your library, or upload a new one.
 4. The image on your page will update immediately.
 
@@ -352,24 +352,24 @@ You can add video to your pages within a text block:
 
 Videos from YouTube, Vimeo, and other major platforms will embed automatically when you paste the video URL. The video will display as a responsive player that adjusts to fit the available space, so it looks good on all screen sizes.
 
-You can also embed videos using the **HTML Block** component by pasting an embed code from YouTube, Vimeo, or any other video platform.
+You can also embed videos using the **HTML** component by pasting an embed code from YouTube, Vimeo, or any other video platform.
 
 > **Tip:** For the best viewing experience, use videos hosted on YouTube or Vimeo. These platforms handle video streaming and quality adjustment automatically, so your visitors always get smooth playback.
 
 ### Adding Maps
 
-1. Add a **Google Maps** component from the Plugins category in the left sidebar.
+1. Add a **Google Maps** component from the **Plugins** group in the **Add** panel.
 2. Drag it to where you want the map to appear on your page.
 3. Configure the location in the component settings.
 
-### Using the HTML Block
+### Using the HTML Component
 
-The HTML Block is a powerful tool for adding third-party content to your page. Any service that provides an embed code can be added using an HTML Block.
+The HTML component is a powerful tool for adding third-party content to your page. Any service that provides an embed code can be added using an HTML component.
 
-1. Add an **HTML Block** from the Code category in the left sidebar.
+1. Add an **HTML** component from the **Content** group in the **Add** panel.
 2. Paste the embed code provided by the third-party service.
 
-Common uses for the HTML Block include:
+Common uses for the HTML component include:
 
 - **Social media feeds** -- Embed your Instagram feed, X (Twitter) timeline, or Facebook page feed.
 - **Booking and scheduling widgets** -- Add appointment booking tools like Calendly or Acuity.
@@ -377,7 +377,7 @@ Common uses for the HTML Block include:
 - **Payment buttons** -- Add PayPal buttons or other payment widgets.
 - **Chat widgets** -- Embed live chat tools for customer support.
 
-To get an embed code, visit the third-party service and look for a "Share" or "Embed" option. Copy the code they provide and paste it directly into the HTML Block.
+To get an embed code, visit the third-party service and look for a "Share" or "Embed" option. Copy the code they provide and paste it directly into the HTML component.
 
 > **Tip:** If an embedded element does not look right, check that you copied the complete embed code. Most embed codes start with `<iframe` or `<script` -- make sure you have the entire snippet.
 
@@ -385,7 +385,7 @@ To get an embed code, visit the third-party service and look for a "Share" or "E
 
 The Markdown Block lets you write content using Markdown syntax -- a simple way to format text using plain characters.
 
-1. Add a **Markdown Block** from the Code category in the left sidebar.
+1. Add a **Markdown Block** from the **Content** group in the **Add** panel.
 2. Type or paste your Markdown-formatted content.
 
 Markdown is useful when you have pre-written content in Markdown format (for example, from a README file or documentation tool) and want to paste it directly into your page without reformatting.
@@ -399,7 +399,7 @@ Basic Markdown formatting:
 - `1. item` for numbered lists
 - `[link text](URL)` for links
 
-> **Tip:** Most users will find the regular Text Block easier to work with, since it has a visual toolbar for formatting. The Markdown Block is best for people who are already familiar with Markdown syntax.
+> **Tip:** Most users will find the regular Balloon Text component easier to work with, since it has a visual toolbar for formatting. The Markdown Block is best for people who are already familiar with Markdown syntax.
 
 ---
 
