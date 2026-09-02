@@ -1,6 +1,6 @@
 # URL Redirects
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-02 1:58pm
 
 Sometimes you need to change a page's web address, or you want to point an old address to a new one. Redirects make sure that anyone who visits the old address is automatically sent to the right place -- no dead ends, no error pages.
 
@@ -29,9 +29,9 @@ You can see all the redirects currently set up on your site.
 1. Open your WebNesting dashboard.
 2. In the site menu, open **Settings** and click **URLs and Redirects**.
 3. You will see a list of all your current redirects, showing:
-   - **Source URL** -- The old address that visitors might try to visit.
-   - **Destination** -- Where they will be sent instead.
-   - **Type** -- Whether the redirect is permanent or temporary.
+   - **Input Path** -- The old address that visitors might try to visit.
+   - **Target** -- Where they will be sent instead.
+   - **Type** -- Whether the redirect is a silent alias, permanent, or temporary.
 
 ---
 
@@ -43,36 +43,38 @@ Setting up a new redirect takes just a minute.
 2. Click the **New Redirect** button.
 3. Fill in the following fields:
 
-### Setting the Source URL (Old Address)
+### Setting the Input Path (Old Address)
 
 This is the address you want to redirect away from -- the old or incorrect URL.
 
-1. In the **Source URL** field, enter the path of the old page. You only need the part after your domain name. For example, if the full address was `yoursite.com/old-page`, just enter `/old-page`.
+1. In the **Input Path** field, enter the path of the old page. You only need the part after your domain name. For example, if the full address was `yoursite.com/old-page`, just enter `/old-page`.
 
-> **Tip:** Always start the source URL with a forward slash (`/`). For example: `/about-us`, `/services/consulting`, `/blog/old-post-title`.
+> **Tip:** Always start the input path with a forward slash (`/`). For example: `/about-us`, `/services/consulting`, `/blog/old-post-title`.
 
-### Setting the Destination (New Address)
+### Setting the Output (Where It Goes)
 
-This is where visitors will be sent when they visit the source URL.
+This is where visitors will be sent when they visit the old address.
 
-1. In the **Destination** field, enter the new address. You have two options:
-   - **A page on your site:** Enter the path, like `/new-page` or `/about`.
-   - **An external website:** Enter the full web address, like `https://www.example.com/page`.
+1. Open the **Output** menu. You can pick:
+   - **A page on your site:** Choose it from the list -- your Homepage and every other page appears there by name.
+   - **An external website:** Choose **External URL**, then enter the full web address, like `https://www.example.com/page`.
 
 ### Choosing the Redirect Type
 
-WebNesting offers two types of redirects. Here is what each one means in plain terms:
+WebNesting offers three types of redirect. Here is what each one means in plain terms:
 
-- **Permanent (301)** -- Use this when a page has moved for good and will not be coming back to the old address. This tells search engines to update their records and transfer the old page's search ranking to the new page. **This is the right choice most of the time.**
+- **Alias** -- The old address quietly shows the page in place, without sending the visitor anywhere. The web address in their browser stays exactly as they typed it. Use this when you want an old address to keep working indefinitely and don't want the URL to change on screen -- for example, keeping a memorable short address alive alongside the real page.
+
+- **Permanent (301)** -- Use this when a page has moved for good and will not be coming back to the old address. The visitor's browser is sent to the new page, and this tells search engines to update their records and transfer the old page's search ranking to the new page. **This is the right choice most of the time when a page has genuinely moved.**
 
 - **Temporary (302)** -- Use this when the change is only for a short while. For example, if you are redesigning a page and want to send visitors somewhere else during the update, a temporary redirect is appropriate. Search engines will keep the old address in their records.
 
-1. Select either **Permanent (301)** or **Temporary (302)**.
+1. Select **Alias**, **301 - Permanently Moved**, or **302 - Temporarily Moved**.
 
 ### Saving the Redirect
 
-1. After filling in all the fields, click **Save** or **Create Redirect**.
-2. The redirect takes effect immediately.
+1. After filling in all the fields, click **Create Redirect**.
+2. The redirect takes effect immediately and appears at the top of your redirects list.
 
 > **Tip:** After creating a redirect, test it by typing the old address into your browser. You should be automatically sent to the new destination. If the redirect does not appear to work right away, you may need to clear your browser cache or wait a few minutes before the redirect takes effect.
 
@@ -138,6 +140,14 @@ Once deleted, visitors who go to the old source URL will no longer be redirected
 **Situation:** You are redesigning your "Services" page and want to send visitors to a temporary "Coming Soon" page.
 
 **What to do:** Create a temporary (302) redirect from `/services` to `/coming-soon`. Remove or update the redirect once the new page is ready.
+
+---
+
+### Keeping a Short Address Alive
+
+**Situation:** You hand out `/welcome` on printed cards, but the real content lives on your homepage, and you want the short address to keep working without the URL changing when someone visits it.
+
+**What to do:** Create an **Alias** from `/welcome` to your homepage. Visitors who type `/welcome` see the homepage in place, and the address stays `/welcome` in their browser.
 
 ---
 
