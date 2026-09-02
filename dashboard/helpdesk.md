@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-02 9:00am
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -186,28 +186,28 @@ Each SLA policy defines two types of time targets:
 
 1. Go to the **SLA Policies** section in the Helpdesk settings.
 2. Click **Create** to add a new policy.
-3. Set your response time and resolution time targets for each priority level (Urgent, High, Normal, Low).
+3. Set your response time and resolution time targets.
 4. Save the policy.
 
-For example, you might set:
-
-- **Urgent** -- Respond within 1 hour, resolve within 4 hours
-- **High** -- Respond within 4 hours, resolve within 8 hours
-- **Normal** -- Respond within 8 hours, resolve within 24 hours
-- **Low** -- Respond within 24 hours, resolve within 48 hours
+The targets you enter apply to tickets of every priority. Your workspace also
+starts with a **Default SLA** policy that already gives the most pressing
+tickets tighter targets -- Urgent tickets are due for a reply in 1 hour and a
+resolution in 4, and High tickets in 2 hours and 8. Editing those per-priority
+targets yourself is not available yet.
 
 ### Business Hours
 
-SLA calculations can be based on your business hours rather than clock time. This means if a ticket comes in at 5:00 PM on Friday and your office opens at 9:00 AM on Monday, the SLA clock does not count the weekend.
+SLA targets can be counted in business hours rather than around the clock. This
+means if a ticket comes in at 5:00 PM on Friday and your office opens at 9:00 AM
+on Monday, the SLA clock does not count the weekend.
 
-To set up business hours:
+To use business hours, tick **Business hours only** when you create or edit an
+SLA policy. Your workspace comes with a standard Monday-to-Friday, 9:00 AM to
+5:00 PM schedule, and that is what the timers follow.
 
-1. Go to the **Business Hours** section in the Helpdesk settings.
-2. Define your working schedule (for example, Monday through Friday, 9:00 AM to 5:00 PM).
-3. Add any holidays when your team will not be working.
-4. Save your schedule.
-
-Once business hours are configured, SLA timers will only count time during your defined working hours.
+Setting your own working hours and holidays is not available yet -- if you need a
+different schedule, leave **Business hours only** switched off for now so targets
+are counted in ordinary clock time.
 
 > **Tip:** Even if you do not enforce SLAs strictly, setting response time goals gives your team a clear benchmark and helps you spot when tickets are taking too long.
 
