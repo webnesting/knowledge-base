@@ -1,6 +1,6 @@
 # Articles and Blog Posts
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-02 5:09pm
 
 The Articles module gives your website a full blog and news section. Use it to share company updates, how-to guides, industry news, or anything else you want to write about. Articles are one of the best ways to keep your website fresh and attract new visitors.
 
@@ -91,10 +91,10 @@ A featured image appears at the top of your article and in article lists. It is 
 
 ### Setting an Author
 
-If you have the Users module enabled, you can assign an author to each article.
+You can credit any of your team members as the author of an article.
 
 1. Look for the **Author** dropdown in the Article Settings section.
-2. Select the author from the list of users on your site.
+2. Choose the person from the list. It shows everyone on your team who has access to this website -- invite someone under **Team** first if the person you want is not listed.
 
 ### Setting the Publish Status
 

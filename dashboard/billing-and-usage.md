@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-02 5:09pm
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -23,7 +23,6 @@ Every WebNesting site comes with a few things at no charge:
 
 - **Your first 5 pages** -- You can have up to 5 pages on your site before any page charges apply. This includes any type of page (regular pages, article pages, event pages, etc.).
 - **Your first 250 MB of storage** -- Everything we store for you (your own uploads, helpdesk attachments, and files visitors upload through your forms) is measured together across your whole workspace, and the first 250 MB is free.
-- **Your first 3 site users** -- You can have up to three site users (admin or otherwise) before per-user charges apply.
 
 These free allowances apply automatically. You do not need to do anything to activate them. If you stay within these limits, you will not see those items on your bill at all.
 
@@ -60,13 +59,13 @@ Storage is one meter for your whole workspace. It covers everything we store for
 
 > **Tip:** You can see and manage every stored file from the File Manager (click **Files** in the top bar) -- helpdesk attachments live in the managed **Helpdesk** folder and visitor uploads in **Form Uploads**. Deleting files you no longer need lowers your bill immediately.
 
-### Site Users
+### People who sign up on your site
 
-**$15 per user per month** (first 3 users free)
+**No extra charge.**
 
-Site users include both admin team members and registered visitors. The first three users on your site are free; each additional user is charged at $15 per month.
+When someone creates an account on your site, they become one of your contacts -- the same list your forms, Marketing and Helpdesk already use. They are counted with your contacts (see below), not billed separately, and there is no per-person fee for letting people sign in.
 
-**Example:** If you have 5 users on your site (yourself plus 4 others), the first 3 are free, and the remaining 2 cost $15 each per month -- $30 total.
+Your team members are not charged either. Everyone you invite to help run your workspace is included.
 
 ---
 
@@ -176,7 +175,7 @@ Here are some practical ways to keep your WebNesting bill manageable.
 
 ### Take Advantage of Free Allowances
 
-Remember that your first 5 pages, first 250 MB of storage, and first 3 site users are all free. For a simple website, you may not owe anything beyond the modules you choose to enable.
+Remember that your first 5 pages and first 250 MB of storage are free, and letting people sign up on your site costs nothing extra. For a simple website, you may not owe anything beyond the modules you choose to enable.
 
 ### Only Enable Modules You Need
 

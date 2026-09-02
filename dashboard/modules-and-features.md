@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-02 5:09pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -192,6 +192,22 @@ What you get when you enable it:
 **Monthly cost:** $5/month
 
 The Remove Branding module removes WebNesting branding from your published website, giving it a fully custom, professional look.
+
+### Accounts
+
+**Monthly cost:** free
+
+Accounts let visitors create an account on your site and sign in. It is off until you turn it on, so a site without it has no sign-up form at all.
+
+What you get when you turn it on:
+- A **Login** and a **Register** page, created for you
+- The option to restrict any page to signed-in visitors only
+- Everyone who signs up appears in your **Contacts**, alongside the people who fill in your forms
+
+A few things worth knowing:
+- **One account works across all your websites.** If you run several sites in the same workspace, a person signs up once and uses the same password everywhere -- but they still have to confirm by email before they can sign in to each additional site, so one site's audience never quietly becomes another's.
+- **People who sign up are counted as contacts**, not as a separate charge. See [Billing and usage](billing-and-usage.md).
+- **Turning it off leaves your pages alone.** Your Login and Register pages stay exactly as you designed them; visitors just can't sign in any more. Nobody is removed from your contacts.
 
 ---
 
