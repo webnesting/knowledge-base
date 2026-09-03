@@ -1,8 +1,8 @@
 # Workspace Products
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-03 4:47pm
 
-WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Four products are available, and you only pay for the ones you use.
+WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Five products are available. Most are paid -- you only pay for the ones you use -- and one, **Internal Docs**, is completely free and switched on by default.
 
 ---
 
@@ -47,6 +47,14 @@ Project and task management for your team. When you enable Tasks, you get:
 - **Time tracking** -- Log time spent on tasks
 - **Milestones and tags** -- Mark key deadlines and organize tasks with tags
 - **Task comments** -- Discuss work and see activity history on every task
+
+### Internal Docs
+
+A private wiki for your team -- how-tos, runbooks, and onboarding notes that only your workspace members can read. **Internal Docs is free and switched on by default**, so it's ready the moment you open your workspace. It has its own section in the sidebar. You can turn it off any time to hide it, and turning it back on brings all your docs back exactly as they were -- nothing is ever deleted.
+
+- **A shared team wiki** -- Write and organize documentation in a familiar folder tree
+- **Always free** -- No base fee and no usage charges
+- **Optional GitHub sync** -- Keep your docs in a GitHub repository and edit them in either place
 
 ### API & AI Access
 
