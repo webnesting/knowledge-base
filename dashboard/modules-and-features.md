@@ -200,8 +200,8 @@ The Remove Branding module removes WebNesting branding from your published websi
 Accounts let visitors create an account on your site and sign in. It is off until you turn it on, so a site without it has no sign-up form at all.
 
 What you get when you turn it on:
-- A **Login** and a **Register** page, created for you with the sign-in and sign-up forms already on them
-- **Sign-in form** and **Sign-up form** components in the website builder, so you can put either form on any page you like — the sign-up form includes an email opt-in checkbox for your marketing
+- Starter pages created for you with the forms already on them: **Login**, **Register**, **Forgot Password**, **Reset Password**, **Account** (security settings and leaving the site), and **Sign-in Code** (for two-factor sign-in)
+- Every one of those forms is a **website builder component**, so you can move it to any page you like, rename the pages, and redesign everything — sign-in redirects and the links in confirmation emails follow your pages automatically. The sign-up form includes an email opt-in checkbox for your marketing
 - The option to restrict any page to signed-in visitors only
 - Everyone who signs up appears in your **Contacts**, alongside the people who fill in your forms
 
