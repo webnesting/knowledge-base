@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-02 8:05pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -16,7 +16,7 @@ Every contact you collect gets stored at the workspace level with their name, em
 
 Email Marketing is designed to work alongside your websites. Visitors can sign up through forms on your pages, and their information flows directly into your workspace contact database. If you also have the Forms module enabled on a site, form submissions can automatically create or update workspace contacts -- no manual data entry needed.
 
-Pricing: $25/month base plus per-email pricing once you exceed the free allowance (500 emails per month free; roughly $2/month per 1,000 emails after that). Workspace contacts are billed separately as part of the Contacts product (~$10/month per 1,000 contacts).
+Pricing: $20/month base plus per-email pricing once you exceed the free allowance -- your first **10,000 emails each month are free**, then sending costs **$0.70 per 1,000 emails**. Workspace contacts are billed separately, once for the whole workspace, at **$10 per 1,000 contacts per month (first 50 free)**.
 
 ---
 
@@ -234,6 +234,15 @@ Both the campaign editor and the template editor use the same visual builder you
 2. Create a new one, or open an existing one.
 3. Design the email on the canvas, dragging blocks from the **Add** panel and styling them in the **Styles** panel.
 4. Save your work.
+
+### Choosing who a campaign goes to
+
+Every campaign has a **Send to** setting on its Settings panel, with two kinds of audience:
+
+- **Whole workspace** -- reaches contacts whose Email Status is **Subscribed** (you can set that on each contact's page, under Marketing). This is the default.
+- **A single site** -- reaches only the people who opted in to email **on that site** (for example, by ticking the email opt-in box when they signed up there). The campaign also sends from that site's own domain, so it looks like it comes from the brand they know.
+
+Someone who unsubscribes stops getting email either way -- unsubscribing always applies everywhere, no matter which site they originally opted in on.
 
 ### Conditional blocks
 

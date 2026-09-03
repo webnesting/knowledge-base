@@ -1,6 +1,6 @@
 # Contacts Management
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-02 8:05pm
 
 Contacts are your audience database in WebNesting. Every person who submits a form on your website, signs up for your newsletter, or is imported from a spreadsheet becomes a contact. Use the Contacts system to keep track of who your audience is, organize them into lists, and connect them to your marketing, forms, and support tools.
 
@@ -83,10 +83,22 @@ Every contact record stores a set of standard information, plus any custom field
 
 If you use the Marketing product, each contact also has an email subscription status:
 
-- **Subscribed** -- The contact is receiving your marketing emails.
+- **Subscribed** -- The contact is receiving your workspace-wide marketing emails.
 - **Unsubscribed** -- The contact has opted out of marketing emails.
 - **Bounced** -- The contact's email address is not deliverable.
-- **Pending** -- The contact has signed up but has not yet confirmed their email (when double opt-in is enabled).
+- **Pending** -- The contact has not opted in to workspace-wide email (this is the starting status).
+
+You can change it with the **Email Status** control in the Marketing panel of the contact's page. Setting someone to **Subscribed** is what makes them reachable by workspace-wide campaigns, so only do it for people who have genuinely agreed to hear from you.
+
+### Sites This Person Belongs To
+
+When someone creates an account on one of your websites, they appear in your Contacts, and their page shows a **Sites** panel: which sites they belong to, when they joined, when they last signed in, and whether they opted in to marketing email on each site. Site opt-ins are separate from the workspace-wide Email Status above -- a campaign sent to one site's audience reaches the people who opted in on that site.
+
+- **Remove from this site** takes away their account on that one site and leaves the rest alone.
+- Removing them from their **last** site deletes the whole contact -- their login, marketing history, and record. The confirmation message tells you when that is about to happen.
+- **Download their data** (at the top of the page) gives you everything the workspace holds about one person, for when they ask for a copy of it.
+
+You can also filter your contact list by site, and **Export CSV** always exports exactly what the current filters show.
 
 ### Editing a Contact
 

@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-09-02 5:09pm
+**Last verified:** 2026-09-02 8:05pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -200,7 +200,8 @@ The Remove Branding module removes WebNesting branding from your published websi
 Accounts let visitors create an account on your site and sign in. It is off until you turn it on, so a site without it has no sign-up form at all.
 
 What you get when you turn it on:
-- A **Login** and a **Register** page, created for you
+- A **Login** and a **Register** page, created for you with the sign-in and sign-up forms already on them
+- **Sign-in form** and **Sign-up form** components in the website builder, so you can put either form on any page you like — the sign-up form includes an email opt-in checkbox for your marketing
 - The option to restrict any page to signed-in visitors only
 - Everyone who signs up appears in your **Contacts**, alongside the people who fill in your forms
 
