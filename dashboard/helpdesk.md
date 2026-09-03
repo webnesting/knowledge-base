@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-09-03 12:21am
+**Last verified:** 2026-09-03 8:59am
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -193,7 +193,7 @@ Each SLA policy defines two types of time targets:
 
 Your workspace starts with a **Default SLA** policy that already gives the most pressing tickets tighter targets -- Urgent tickets are due for a reply in 1 hour and a resolution in 4, and High tickets in 2 hours and 8.
 
-You can also adjust per-priority targets directly from the policy list without opening the full form: click **Targets** next to any policy to expand its priority ladder inline.
+You can also adjust per-priority targets directly from the policy list without opening the full form: click **Targets** next to any policy to expand its priority ladder inline, change the hours, then click **Save targets**.
 
 ### Business Hours
 
@@ -208,6 +208,10 @@ SLA targets can be counted in business hours rather than around the clock. This 
 5. Toggle each day on or off and set the opening and closing times.
 6. Add any holidays — they pause the clock the same way a weekend does.
 7. Save the schedule.
+
+As you edit, a note under the week shows what your hours mean in practice — for example, *"A ticket arriving Friday at 5:00 PM is due Monday at 1:00 PM."* The same note appears on the SLA policy form, so you can see the effect of a target before you save it.
+
+A schedule an SLA policy is using cannot be deleted. Its row shows **In use** instead of a Delete button, and hovering it names the policies you need to point elsewhere first.
 
 #### Connecting a schedule to an SLA policy
 
