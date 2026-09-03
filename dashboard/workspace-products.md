@@ -102,7 +102,7 @@ Here is how pricing works for each product:
 
 - Base monthly fee for having Helpdesk enabled
 - Additional charge per ticket, counted when the ticket is created (with a free tier)
-- Your knowledge base and internal docs are included -- there is no per-article charge
+- Your per-site knowledge base is included -- there is no per-article charge. (Internal Docs is a separate, always-free product -- see above.)
 
 ### Tasks Pricing
 
