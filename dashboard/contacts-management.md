@@ -1,6 +1,6 @@
 # Contacts Management
 
-**Last verified:** 2026-09-02 8:05pm
+**Last verified:** 2026-09-04 5:13pm
 
 Contacts are your audience database in WebNesting. Every person who submits a form on your website, signs up for your newsletter, or is imported from a spreadsheet becomes a contact. Use the Contacts system to keep track of who your audience is, organize them into lists, and connect them to your marketing, forms, and support tools.
 
@@ -89,6 +89,10 @@ If you use the Marketing product, each contact also has an email subscription st
 - **Pending** -- The contact has not opted in to workspace-wide email (this is the starting status).
 
 You can change it with the **Email Status** control in the Marketing panel of the contact's page. Setting someone to **Subscribed** is what makes them reachable by workspace-wide campaigns, so only do it for people who have genuinely agreed to hear from you.
+
+### Activity Timeline
+
+Each contact's page shows an **Activity** section — a running history of that person's interactions with you, newest first. It gathers the marketing emails they were sent, opened, and clicked; any support tickets they opened (with a link straight to the ticket); and the automations they entered. It's a quick way to see the whole relationship at a glance without hunting through Marketing and Helpdesk separately.
 
 ### Sites This Person Belongs To
 
