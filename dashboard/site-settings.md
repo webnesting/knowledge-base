@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-09-05 2:17pm
+**Last verified:** 2026-09-05 2:36pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -165,14 +165,14 @@ You can also add additional social platforms using the custom entry form on the 
 
 ## Site Images
 
-These are the key images that represent your brand across your website and beyond. They are found under **Content Items** in the Settings page.
+These are the key images that represent your brand across your website. They live on the **Site Images** page, under **Content Items** in Site Settings. Each image on the page says where it appears, and the pictures are shown two to a row.
 
 ### Setting Your Logo
 
 Your logo appears in your site's header and anywhere else your theme displays it.
 
-1. Go to **Site Settings** and open the **Content Items** section, then click **Image**.
-2. Find the **Logo** field.
+1. Go to **Site Settings**, open **Content Items**, and click **Site Images**.
+2. Find **Logo**.
 3. Click to choose an image from your File Manager, or upload a new one.
 4. Save your changes.
 
@@ -182,65 +182,64 @@ Your logo appears in your site's header and anywhere else your theme displays it
 
 A favicon is the tiny icon that appears in browser tabs next to your page title. It also shows up in bookmark lists and on mobile home screens.
 
-1. In the **Image** section under Content Items, find the **Favicon** field.
+1. On the **Site Images** page, find **Favicon**.
 2. Click to choose an image from your File Manager, or upload a new one.
 3. Save your changes.
 
 > **Tip:** Favicons should be square and simple. A good size is 512 x 512 pixels. Complex images will be hard to see at such a small size, so use a simple icon or the first letter of your brand name.
 
-### Setting the Social Sharing Image
+### Setting the Fallback Image
 
-This is the same image described in the SEO section above. It appears when someone shares a link to your site on social media.
+The **Fallback image** is used wherever something has no picture of its own -- an empty slideshow or gallery slot, for example.
 
-1. In the **Image** section under Content Items, find the **Social Sharing Image** field.
+1. On the **Site Images** page, find **Fallback image**.
 2. Click to choose an image from your File Manager, or upload a new one.
 3. Save your changes.
 
-This image can also be set in the SEO section. They point to the same setting, so you only need to set it in one place.
+The image that appears when someone shares a link to your site on social media is a separate setting -- see **Image** under [SEO Settings](#seo-settings) above.
+
+You can also add your own named images here with **Add** at the bottom of the page; your theme and content can then use them by name.
 
 ---
 
 ## Sandbox Settings
 
-These settings control foundational aspects of how your website works. They are found under **Site Config** in the Settings page.
+These settings control foundational aspects of how your website works -- its name, description, theme, status, and address preferences. They live on the **Sandbox Settings** page, under **Site Config** in Site Settings.
 
-### SSL Preferences (HTTPS)
+### Choosing a Theme
 
-SSL makes your site secure by encrypting the connection between your visitors and your website. When SSL is active, your site address starts with `https://` instead of `http://`, and visitors see a lock icon in their browser.
+**Theme** is a picker of the designs installed on WebNesting. Pick one and save; your site's colors and fonts are then customized on the **Themes** page (see [Themes and Customization](themes-and-customization.md)).
 
-1. Go to **Site Settings** and open the **Site Config** section, then click **Sandbox Config**.
-2. Find the **SSL / HTTPS** setting.
-3. Make sure it is turned on.
+### Secure (HTTPS) Addresses
+
+A secure address starts with `https://` instead of `http://`, and visitors see a lock icon in their browser.
+
+1. Go to **Site Settings**, open **Site Config**, and click **Sandbox Settings**.
+2. Find **Always use a secure (https://) address?**
+3. Choose **Yes -- always redirect to https://** once your domain's certificate is active. **Either works -- don't redirect** leaves both forms reachable.
 4. Save your changes.
 
-> **Tip:** SSL should always be turned on. It protects your visitors, builds trust, and is required by most search engines for good rankings.
+> **Tip:** Once your certificate is active, always redirect to https. It protects your visitors, builds trust, and is favored by search engines.
 
 ### WWW Preferences
 
-You can choose whether your site address uses "www" or not.
+You can choose whether your site address starts with "www." or not.
 
-- **With WWW:** `www.yoursite.webnesting.site`
-- **Without WWW:** `yoursite.webnesting.site`
-- **Allow either:** Both versions work without redirecting
+- **Yes -- always with www.:** `www.yoursite.com`
+- **No -- always without www.:** `yoursite.com`
+- **Either works -- don't redirect:** both versions work as typed
 
-Most modern sites use the non-www version. Choose whichever version you prefer and stick with it, so search engines do not see them as two different sites.
+Most modern sites use the non-www version. Choose whichever you prefer and stick with it, so search engines do not see them as two different sites.
 
-1. In the **Sandbox Config** section, find the **Include WWW in domain?** setting.
-2. Choose **Yes** (always use www), **No** (never use www), or **Allow either** (accept both without redirecting).
+1. On the **Sandbox Settings** page, find **Should your address start with "www."?**
+2. Pick one of the three options.
 3. Save your changes.
 
-If you choose Yes or No, WebNesting will automatically redirect visitors to your preferred version, so no one will land on the wrong one.
+If you choose Yes or No, WebNesting automatically redirects visitors who type the other form, so no one lands on the wrong one.
 
-### Custom Settings
+### All Settings (power-user view)
 
-Depending on your site's theme and configuration, you may see additional custom settings in this area. These could include things like:
-
-- Custom colors or branding options.
-- Footer text or copyright notices.
-- Cookie consent or privacy notices.
-- Other options specific to your site's theme.
-
-If you see a setting you are not sure about, hover over it or look for a help icon nearby for a brief explanation of what it does.
+**All Settings**, also under Site Config, lists every raw setting on your site in one place. Values there are saved exactly as typed, with no checks -- so if a setting has its own page (SEO Defaults, Site Images, Social, Google), edit it there instead. Use All Settings for the custom values you have added yourself.
 
 > **Tip:** After making changes to any settings, visit your live site in a new browser tab to confirm everything looks the way you expect.
 
