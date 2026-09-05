@@ -1,6 +1,6 @@
 # Welcome to WebNesting
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-05 3:01pm
 
 Thanks for choosing WebNesting! This guide will help you get comfortable with the platform and show you everything you need to know to start building your website.
 
@@ -66,7 +66,7 @@ The Builder opens in its own view so you can focus entirely on designing your pa
 ## How to Log In
 
 1. Open your browser and go to the WebNesting app and sign in with your **email address** and **password**.
-2. Once you're signed in, open the **workspace** that contains your site.
+2. Once you're signed in you land in your **workspace**. (If you belong to more than one, you land on the workspace list instead -- open the one that contains your site.)
 3. From the workspace's **Sites** list, click your site to open its dashboard. All of your sites are managed from the same place once you're signed in -- you no longer go to a separate per-site web address to log in.
 
 ![The WebNesting login screen](../images/getting-started/login-page.png)
