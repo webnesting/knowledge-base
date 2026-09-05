@@ -1,6 +1,6 @@
 # Navigating the Dashboard
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-05 4:58pm
 
 The Dashboard is your home base for managing one site in WebNesting. It is where you handle that site's pages, settings, content, and analytics. (Workspace-level features like billing, team members, helpdesk, marketing, and tasks live in your workspace -- see the **Workspaces** card in your account portal.)
 
@@ -27,7 +27,7 @@ Here are the types of widgets you may see on your home screen:
 
 You can personalize which widgets appear and how they are arranged:
 
-1. **Add widgets** -- Click the add button to browse available widgets and add new ones to your dashboard.
+1. **Add widgets** -- Click **Add Widget** to browse every available widget and add one to your dashboard. Widgets marked **Per site** show one site's data; if you have more than one site, the picker asks which site before the widget appears. Anything you remove can always be added back from the same list.
 2. **Remove widgets** -- Each widget has options to remove it if you do not need it.
 3. **Rearrange widgets** -- Drag and drop widgets to put them in the order that works best for you.
 4. **Resize widgets** -- Some widgets can be made wider or narrower to fit your preference.
