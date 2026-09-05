@@ -1,6 +1,6 @@
 # Activity Logs
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-05 2:44pm
 
 Activity logs keep a record of everything that happens on your site. Every time someone makes a change -- whether it is editing a page, updating settings, or managing team members -- it is recorded in the activity log.
 
@@ -145,6 +145,8 @@ The workspace activity log updates in real time. When a team member makes a chan
 Recent activity also appears in the notification bell at the top of your workspace dashboard. This gives you a quick glance at what has been happening without needing to open the full activity log.
 
 Click the bell icon to see recent activity. Click on any notification to view more details.
+
+The bell only shows what **other people** did (plus things that happen on their own, like an incoming ticket). Your own changes don't ring the bell -- you get a confirmation right where you made them -- but they are always in the full activity log.
 
 > **Tip:** The notification bell shows activity from all sites you have permission to access. If you do not see activity from a particular site, check with your workspace owner about your permissions.
 
