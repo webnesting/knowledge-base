@@ -1,6 +1,6 @@
 # Contacts Management
 
-**Last verified:** 2026-09-04 5:13pm
+**Last verified:** 2026-09-05 5:14pm
 
 Contacts are your audience database in WebNesting. Every person who submits a form on your website, signs up for your newsletter, or is imported from a spreadsheet becomes a contact. Use the Contacts system to keep track of who your audience is, organize them into lists, and connect them to your marketing, forms, and support tools.
 
@@ -102,7 +102,7 @@ When someone creates an account on one of your websites, they appear in your Con
 - Removing them from their **last** site deletes the whole contact -- their login, marketing history, and record. The confirmation message tells you when that is about to happen.
 - **Download their data** (at the top of the page) gives you everything the workspace holds about one person, for when they ask for a copy of it.
 
-You can also filter your contact list by site, and **Export CSV** always exports exactly what the current filters show.
+You can also filter your contact list by site. **Export CSV** always downloads exactly what the list is showing -- the same filters, search, and sort order -- and confirms what the file held ("Downloaded contacts.csv -- 23 contacts matching your filters"). The file includes each contact's email, name, phone, company, status, tags, sites, and the date they were added.
 
 ### Editing a Contact
 
