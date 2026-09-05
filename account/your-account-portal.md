@@ -1,6 +1,6 @@
 # Your Account Portal
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-05 3:14pm
 
 Your account portal is where you manage personal account details and jump into your workspaces. Workspaces are where your websites, billing, usage, team members, and workspace-level features live.
 
@@ -24,6 +24,7 @@ Keep your account safe with:
 
 - **Password changes** -- Update your password at any time.
 - **Two-factor authentication** -- Adds an extra layer of protection when you sign in.
+- **Where you're signed in** -- See every browser or device signed in to your account, and sign out any you don't recognize.
 - **Recovery codes** -- Backup codes you can use if you lose access to your two-factor method.
 
 > **Tip:** We recommend turning on two-factor authentication. It only takes a minute and makes your account much more secure.

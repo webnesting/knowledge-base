@@ -1,6 +1,6 @@
 # Your Account and Security
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-05 3:14pm
 
 Your WebNesting account is the key to everything you build. This guide walks you through signing in, protecting your account, and what to do if something goes wrong.
 
@@ -25,14 +25,30 @@ You will be taken to your dashboard after signing in.
 If you want to update your password, you can do so from your account security page.
 
 1. Sign in to your account.
-2. Go to **Account Security** in your settings.
-3. Enter your new password.
+2. Open the avatar menu (top right) and choose **Security** -- the **Change Password** section is at the top.
+3. Enter your current password, then your new password.
 4. Confirm your new password by typing it again.
-5. Save your changes.
+5. Click **Update Password**.
 
-Your new password must be at least 6 characters long.
+Your new password must be at least 8 characters long.
 
 > **Tip:** Use a mix of letters, numbers, and symbols to create a strong password. Avoid using the same password you use on other websites.
+
+---
+
+## Where You're Signed In
+
+The Security page also lists every browser or device that is currently signed in to your account -- which browser it is, its network address, when it last did something, and when it signed in. The one you are using right now is marked **This device**.
+
+If you see a device you don't recognize, or you signed in somewhere you no longer use:
+
+1. Open the avatar menu and choose **Security**.
+2. Under **Where You're Signed In**, open the row's menu (the **⋮** button) and click **Sign out**, then confirm.
+3. To sign out of every device except this one at once, click **Sign out everywhere else**.
+
+A signed-out device is logged out the next time it does anything; whoever is using it will have to sign in again. Your own device is never signed out from this list -- use **Sign out** in the avatar menu for that.
+
+> **Tip:** If you find a sign-in you don't recognize, change your password right after signing it out.
 
 ---
 
