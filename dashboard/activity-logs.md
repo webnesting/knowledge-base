@@ -1,6 +1,6 @@
 # Activity Logs
 
-**Last verified:** 2026-09-05 2:44pm
+**Last verified:** 2026-09-05 3:40pm
 
 Activity logs keep a record of everything that happens on your site. Every time someone makes a change -- whether it is editing a page, updating settings, or managing team members -- it is recorded in the activity log.
 
@@ -131,6 +131,8 @@ The workspace activity log includes several filters to help you find specific ac
 - **Resource** — Filter by the type of content (for example, only show page changes or only show permission changes)
 - **Date range** — Set a start and end date to narrow results to a specific time period
 - **Search** — Type keywords to search across all activity entries
+
+Filters apply the moment you pick them -- there is nothing to submit. If you use the same combination often, click **Save as view…** in the filter panel to keep it as a named view you can return to with one click.
 
 > **Tip:** Use the source filter to quickly see all changes made to a specific site, or set it to "Workspace" to see only workspace-level management activity.
 
