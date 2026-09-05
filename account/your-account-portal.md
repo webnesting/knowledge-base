@@ -1,6 +1,6 @@
 # Your Account Portal
 
-**Last verified:** 2026-09-05 3:14pm
+**Last verified:** 2026-09-05 6:23pm
 
 Your account portal is where you manage personal account details and jump into your workspaces. Workspaces are where your websites, billing, usage, team members, and workspace-level features live.
 
@@ -8,7 +8,7 @@ Your account portal is where you manage personal account details and jump into y
 
 ## The Account Portal Cards
 
-When you open your account portal, you'll see three cards:
+When you open your account portal, you'll see three cards. If you don't have a workspace yet -- for example, right after verifying a new account -- the portal leads with a **Create your first workspace** button above the cards, since a workspace is where everything else in WebNesting happens.
 
 ### Profile
 
