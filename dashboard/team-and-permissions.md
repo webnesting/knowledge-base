@@ -1,6 +1,6 @@
 # Team and Permissions
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-05 3:31pm
 
 WebNesting lets you invite other people to help manage your website. You control exactly what each person can see and do by assigning them roles with specific permissions.
 
@@ -21,10 +21,11 @@ To get there: open your workspace, click **Settings** at the bottom of the icon 
 1. Go to **Settings → Members & Permissions**.
 2. Click **+ Invite Member**.
 3. Enter the person's email address.
-4. Optionally, select one or more permission roles to assign to them.
-5. Send the invitation.
+4. Optionally, pick one or more roles. Each role card explains what it lets the person do, and you can change roles later from their member page.
+5. Optionally, add a personal message -- it goes out in the invitation email, in your words.
+6. Click **Send Invitation**.
 
-The person will receive an email invitation valid for 7 days. If it expires, you can send a new one.
+The person receives an email with an invite link that is valid for 7 days. If it expires, you can send a new one.
 
 > **Tip:** The person you invite will need a WebNesting account. If they do not have one yet, they can create one when they accept your invitation.
 
