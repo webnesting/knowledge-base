@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-05 2:17pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -20,58 +20,64 @@ Site Settings is where you control the behind-the-scenes details of your website
 
 SEO stands for Search Engine Optimization. These settings help search engines like Google understand your site and display it correctly in search results.
 
-### Default Page Title
+All of these live on the **SEO Defaults** page: go to **Site Settings** and click **SEO Defaults**.
+
+### Title
 
 This is the name that appears in browser tabs and in search engine results for pages that do not have their own custom title.
 
-1. Go to **Site Settings** and open the **Search Engine Optimization (DEFAULTS)** section.
-2. Find the **Default Page Title** field.
-3. Enter a clear, descriptive title for your website. For example: "Smith & Co. Accounting -- Tax Services in Portland."
-4. Save your changes.
+1. On the **SEO Defaults** page, find the **Title** field.
+2. Enter a clear, descriptive title for your website. For example: "Smith & Co. Accounting -- Tax Services in Portland."
+3. Save your changes.
+
+You can insert your site's name or the current page's title automatically by typing `{{ site.name }}` or `{{ page.title }}`. For example, `{{ site.name }} | {{ page.title }}` shows as "Smith & Co. Accounting | About Us" on your About Us page.
 
 > **Tip:** Keep your title under 60 characters so it does not get cut off in search results.
 
-### Default Meta Description
+### Description
 
 This is the short summary that appears below your site's title in search engine results. It helps visitors decide whether to click through to your site.
 
-1. In the **SEO** section, find the **Default Meta Description** field.
-2. Write a brief, compelling description of your website (one to two sentences).
+1. On the **SEO Defaults** page, find the **Description** field.
+2. Write a brief, compelling description of your website (one to two sentences). The same `{{ site.name }}` and `{{ page.title }}` shortcuts work here.
 3. Save your changes.
 
 > **Tip:** Write a description between 120 and 160 characters. Include your most important keywords naturally -- do not stuff keywords in unnaturally.
 
-### Default Social Sharing Image (OG Image)
+### Image (social sharing image)
 
-When someone shares a link to your site on social media (Facebook, LinkedIn, X, etc.), this image will appear alongside the link. It is sometimes called an OG image (Open Graph image).
+When someone shares a link to your site on social media (Facebook, LinkedIn, X, etc.), this image appears alongside the link for any page that has no image of its own. It is sometimes called an OG image (Open Graph image).
 
-1. In the **SEO** section, find the **Social Sharing Image** setting.
+1. On the **SEO Defaults** page, find the **Image** setting.
 2. Click to choose an image from your File Manager, or upload a new one.
 3. Save your changes.
 
 > **Tip:** Use an image that is at least 1200 x 630 pixels for the best results across all platforms.
 
-### Blocking Search Engines
+### Hiding Your Site from Search Engines
 
-If your site is not ready for the public yet (for example, if you are still building it), you can tell search engines not to list it in their results.
+If your site is not ready for the public yet (for example, if you are still building it), you can tell search engines not to list any of its pages.
 
-1. In the **SEO** section, look for the **Search Engine Visibility** or **Block Search Engines** option.
-2. Turn it on to hide your site from search engines.
+1. On the **SEO Defaults** page, find **Hide site from search engines**.
+2. Choose **Yes -- hide my whole site**. Because this affects every page, WebNesting asks you to confirm before it takes effect.
 3. Save your changes.
 
-**Important:** Remember to turn this off when your site is ready to launch. If you leave it on, visitors will not be able to find your site through Google or other search engines.
+While it is on, the setting shows a warning reminding you that the site is hidden, and your site tells search engines not to index it in two ways: its `robots.txt` file blocks everything, and every page carries a "noindex" instruction. Visitors can still open the site by typing its address.
 
-> **Tip:** This setting adds a note to your site that asks search engines not to index it. Most major search engines respect this, but it is a request, not a guarantee.
+**Important:** Remember to switch this back to **No** when your site is ready to launch. If you leave it on, people will not be able to find your site through Google or other search engines.
 
-### Sitemap Preferences
+> **Tip:** This is a request that search engines honor, not a lock. Most major search engines respect it, but it is not a guarantee, and pages already listed can take a while to drop out of results.
 
-A sitemap is a file that lists all the pages on your site. Search engines use it to find and index your content more efficiently.
+### Sitemap Address Preferences
 
-1. In the **SEO** section, look for **Sitemap** settings.
-2. Choose whether to automatically generate a sitemap for your site.
-3. Save your changes.
+A sitemap is a file that lists all the pages on your site (at `yoursite.com/sitemap.xml`). Search engines use it to find and index your content more efficiently. WebNesting generates it for you automatically and keeps it up to date whenever you add, change, or remove pages.
 
-In most cases, you should leave the automatic sitemap turned on. It updates itself whenever you add, change, or remove pages.
+Two settings control how the addresses inside it are written:
+
+- **Sitemap urls with ssl enabled** -- choose **Yes** if your site uses a secure `https://` address (recommended once your custom domain has its certificate).
+- **Sitemap urls with "www"** -- choose **Yes** if you want the listed addresses to start with `www.`
+
+Pick the form that matches how visitors actually reach your site so search engines see one consistent address for every page.
 
 ---
 

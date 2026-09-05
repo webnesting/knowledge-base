@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-09-04 11:19pm
+**Last verified:** 2026-09-05 2:17pm
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -43,7 +43,7 @@ Every page on your site counts toward your page total. This includes:
 - Product pages
 - Any other page type
 
-Ad-hoc pages (special utility pages) are always free and do not count toward your total.
+System pages (the built-in pages every site ships with, like the 404 page) are always free and do not count toward your total.
 
 **Example:** If your site has 15 pages, the first 5 are free, and you pay for the remaining 10. That is 10 x $0.50 = $5.00 per month for pages.
 

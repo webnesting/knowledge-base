@@ -1,6 +1,6 @@
 # Managing Pages in the Builder
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-05 2:17pm
 
 The Website Builder is where you design and edit your pages visually. But it is also where you can switch between pages, create new ones, and manage how they are organized -- all without leaving the builder. This guide covers everything you need to know about working with pages inside the builder.
 
@@ -19,7 +19,7 @@ The pages panel is your home base for navigating between pages while you work in
 3. Click the **Pages** icon (it looks like a small document).
 4. The pages panel opens, showing a list of all your pages. Click the icon again to pin the panel open so it stays put while you work.
 
-The panel shows your pages organized into groups. Pages are grouped by their content type -- for example, your main site pages will be in one group, and blog articles or other module-based pages will be in their own groups. You may also see an "Ad Hoc" group for special standalone pages.
+The panel shows your pages organized into groups. Pages are grouped by their content type -- for example, your main site pages will be in one group, and blog articles or other module-based pages will be in their own groups. You will also see a **System pages** group for the built-in pages every site needs (like the 404 "page not found" page) -- these can be edited but not deleted.
 
 ---
 

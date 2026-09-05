@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-09-02 5:09pm
+**Last verified:** 2026-09-05 2:17pm
 
 WebNesting uses simple, usage-based pricing. This guide explains how pricing works, how to view your usage and bills, and how to pay.
 
@@ -16,7 +16,7 @@ WebNesting charges based on what you actually use -- things like the number of p
 
 Every site comes with free resources to get you started:
 
-- **5 free pages** -- Your first 5 pages are included at no charge. Ad-hoc and system pages (like your homepage) are always free.
+- **5 free pages** -- Your first 5 pages are included at no charge. System pages (your homepage, the 404 page, and other built-in pages) are always free.
 - **250 MB of free storage** -- Covers your own uploads, helpdesk attachments, and form uploads across your whole workspace.
 
 Many small sites fit entirely within the free tier.
