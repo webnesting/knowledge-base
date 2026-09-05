@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-09-02 8:05pm
+**Last verified:** 2026-09-04 11:19pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -51,10 +51,10 @@ If you no longer need a module:
 
 1. Go to **Settings → Modules** in your site menu.
 2. Find the module you want to turn off.
-3. Click the **Disable** button next to it.
-4. The module will be deactivated.
+3. Click it to open the confirmation window, which explains exactly what will happen.
+4. Because disabling a module **permanently deletes all of its content**, you'll be asked to type the module's name to confirm. Type it, then click **Disable**.
 
-When you disable a module, its menu items will disappear from your dashboard. Your content is not deleted -- if you re-enable the module later, everything will still be there.
+> **Warning:** Disabling a module removes it from your site menu **and permanently deletes its stored content** -- for example, disabling Articles deletes every article. This can't be undone, so export or back up anything you want to keep first. If you re-enable the module later, it comes back empty. (Capabilities like Accounts and "Hide WebNesting branding" store no content, so turning them off deletes nothing.)
 
 > **Tip:** Disabling a module stops the monthly charge for it on your next billing cycle.
 
@@ -187,11 +187,11 @@ What you get when you enable it:
 - Tools for designing and configuring custom widgets
 - The ability to place widgets on any page of your site
 
-### Remove Branding
+### Hide WebNesting branding
 
 **Monthly cost:** $5/month
 
-The Remove Branding module removes WebNesting branding from your published website, giving it a fully custom, professional look.
+Turning this on hides the "Powered by WebNesting" badge on your published website, giving it a fully custom, professional look.
 
 ### Accounts
 

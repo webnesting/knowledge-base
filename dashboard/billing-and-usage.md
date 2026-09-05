@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-09-02 5:09pm
+**Last verified:** 2026-09-04 11:19pm
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -80,7 +80,7 @@ Modules are add-on features with flat monthly fees. You are only charged for mod
 | Forms | $10/month | Build custom forms for contact, surveys, and registrations |
 | E-Commerce (Store) | $20/month | Adds an online store with products and orders |
 | Widget Builder | $20/month | Lets you create custom interactive elements |
-| Remove WebNesting Branding | $5/month | Removes the "Powered by WebNesting" text from your footer |
+| Hide WebNesting branding | $5/month | Hides the "Powered by WebNesting" badge on your published site |
 
 Workspace-level products are billed separately at the workspace level (see [Workspace Products](workspace-products.md)):
 
