@@ -1,6 +1,6 @@
 # Managing Pages
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-06 4:12pm
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 
@@ -39,6 +39,8 @@ Adding a new page to your site takes just a few steps.
 6. Click **Create Page**.
 
 Your new page is now ready. It will start as a draft, so it will not be visible to the public until you publish it.
+
+Every page needs its own slug. If you enter one that another page already uses, you'll see a message under the field and can pick a different one.
 
 > **Tip:** Keep your URL slugs short and descriptive. Use lowercase letters and hyphens instead of spaces. For example, `our-team` is better than `Our Team Page 2024`. URL slugs should use lowercase letters and hyphens. Avoid special characters, spaces, or very long slugs.
 
@@ -154,9 +156,11 @@ If you no longer need a page, you can delete it.
 
 The page will be removed from your page list and will no longer be visible on your site.
 
-### Pages That Cannot Be Deleted
+### Pages That Cannot Be Deleted or Moved
 
 Some pages are essential to your site working properly -- your homepage, your "page not found" page, and other built-in pages. These are protected: you will not be able to delete or unpublish them, so they cannot be removed by accident.
+
+Their web address is fixed as well. When you open one of these pages, the **Page URI** field shows its current value with a note that it can't be changed, and you can't nest the page under another page (which would change its address). Everything else about the page -- its title, layout, content, and search settings -- can still be edited as usual.
 
 ### Restoring a Deleted Page
 
