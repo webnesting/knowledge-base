@@ -1,6 +1,6 @@
 # Creating a Website
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-05 9:10pm
 
 Ready to build your first site? This guide walks you through creating a new website on WebNesting.
 
@@ -23,15 +23,17 @@ You'll see a short form with a few fields to fill in.
 
 ### Choosing a site name
 
-Pick a name for your site. Your site name can include letters, numbers, and spaces. This name becomes part of your web address. For example, if you choose "my-bakery," your site will be at:
+Pick a name for your site -- this is what you'll see in your site list and in the builder. It can include letters, numbers, and spaces, for example "My Bakery".
+
+### Your site address
+
+As you type the name, the **Site address** field fills itself in (lowercase letters, numbers, and underscores) and the form shows the exact address your site will get, for example:
 
 **my-bakery.webnesting.site**
 
-> **Tip:** Keep your site name short and easy to remember. You can always connect a custom domain later if you want a different web address.
+You can change the address before creating the site; if you do and want it to follow the name again, click **Match the site name again**.
 
-### Setting your timezone
-
-Choose the timezone where you're located. This makes sure dates and times across your site are displayed correctly.
+> **Tip:** Keep the address short and easy to remember. You can always connect a custom domain later if you want a different web address.
 
 ### Connecting a custom domain (optional)
 
