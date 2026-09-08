@@ -1,6 +1,6 @@
 # Database Tables
 
-**Last verified:** 2026-09-05 2:36pm
+**Last verified:** 2026-09-08 6:43pm
 
 The **Database Tables** section (in your site menu, under **Settings**) is where you define the structure of your own custom content types. Think of it as creating a spreadsheet -- you choose what columns it has, what kind of information each column holds, and how different tables relate to each other.
 
@@ -47,7 +47,7 @@ Setting up a new table is straightforward. You will give it a name and some basi
 3. Fill in the following:
    - **Display Name** -- A friendly name for your table. This is what you will see in menus and lists. For example, "Team Members" or "Client Testimonials."
    - **Description** -- A short note about what this table is for. This is optional but helpful if you have many tables.
-   - **Parent table** -- Use this when entries belong under another table -- for example, "Chapters" under "Books", or "Team Members" under "Departments". For most tables, leave this set to "None."
+   - **Parent table** -- Use this when entries belong under another table -- for example, "Chapters" under "Books", or "Team Members" under "Departments". For most tables, leave this set to "None." If you pick one and change your mind, click the small **x** on the field to clear it.
    - **Advanced → Internal name** -- You can leave this alone. It is generated from the display name and used behind the scenes (in code and the API). It can only contain letters and numbers, and it can't be changed after the table is created.
 4. Set the **default permissions** for this table. These checkboxes control what team members with the default role can do:
    - **Browse** -- View the list of entries
@@ -147,8 +147,10 @@ You can change your table's settings or modify its columns at any time.
 1. Go to **Settings → Database Tables** in your site menu.
 2. Click on the table you want to change.
 3. From the menu, select **Edit Table**.
-4. Update the display name, description, or parent table.
+4. Update the display name or description.
 5. Click **Save Table**.
+
+The parent table is chosen when you create a table and cannot be changed afterwards -- entries already filed under it would be left without a home. If you need a different arrangement, create the table again with the parent you want.
 
 ### Editing Columns
 

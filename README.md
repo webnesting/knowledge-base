@@ -49,6 +49,7 @@ Welcome to the WebNesting help center. These guides will help you build and mana
 | [Contacts Management](dashboard/contacts-management.md) | Manage your audience database with lists, tags, companies, and custom fields |
 | [Marketing Automations](dashboard/marketing-automation.md) | Create automated workflows that send emails and update contacts when events happen |
 | [Database Tables](dashboard/database-management.md) | Create custom content structures with tables, columns, and relationships |
+| [Workspace Data Tables](dashboard/workspace-data-tables.md) | Add your own fields to workspace tables, create your own, and organise them into groups |
 
 ## Website Builder
 
