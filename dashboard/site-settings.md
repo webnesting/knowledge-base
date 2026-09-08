@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-09-05 2:36pm
+**Last verified:** 2026-09-08 9:23am
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -74,8 +74,8 @@ A sitemap is a file that lists all the pages on your site (at `yoursite.com/site
 
 Two settings control how the addresses inside it are written:
 
-- **Sitemap urls with ssl enabled** -- choose **Yes** if your site uses a secure `https://` address (recommended once your custom domain has its certificate).
-- **Sitemap urls with "www"** -- choose **Yes** if you want the listed addresses to start with `www.`
+- **Use secure (https) links in your sitemap** -- leave this on if your site uses a secure `https://` address (almost all do).
+- **Start sitemap links with "www."** -- turn this on only if your site's address includes `www.`
 
 Pick the form that matches how visitors actually reach your site so search engines see one consistent address for every page.
 
@@ -83,7 +83,7 @@ Pick the form that matches how visitors actually reach your site so search engin
 
 ## Google Settings
 
-WebNesting makes it easy to connect your site to Google's tools for tracking visitors and understanding how people use your site. These settings are found under **Third Party Config Settings** in the Settings page.
+WebNesting makes it easy to connect your site to Google's tools for tracking visitors and understanding how people use your site. These settings are found under **Third Party** in the Settings page.
 
 ### Connecting Google Analytics
 
@@ -93,14 +93,14 @@ WebNesting supports two ways to connect Google Analytics:
 
 **Option 1 -- Connect with a Google account (recommended).** This uses OAuth to authorize WebNesting to read your GA4 property data so it can show analytics charts directly in your site dashboard.
 
-1. Go to **Site Settings** and open the **Third Party Config Settings** section, then click **Google Config Settings**.
+1. Go to **Site Settings** and open the **Third Party** section, then click **Google Settings**.
 2. Click the **Connect Google Account** button next to Google Analytics.
 3. Sign in with the Google account that owns your GA4 property and approve the requested access.
 4. Pick the GA4 property you want to connect from the list.
 
 **Option 2 -- Add the tracking ID manually.** Use this if you only want WebNesting to inject the GA tracking snippet into your pages.
 
-1. In the **Google Config Settings** screen, find the **Analytics Tracking ID** field.
+1. In the **Google Settings** screen, find the **Analytics Tracking ID** field.
 2. Enter your Google Analytics tracking ID. The input shows a `UA-` prefix for legacy properties; for a modern GA4 property, your measurement ID looks like `G-XXXXXXXX`.
 3. Save your changes.
 
@@ -116,7 +116,7 @@ If you do not have a Google Analytics account yet:
 
 Google Tag Manager lets you manage multiple tracking tools (like Google Analytics, Facebook Pixel, and others) from a single place, without needing to edit your website directly.
 
-1. In the **Google Config Settings** section, find the **Tag Manager** field.
+1. In the **Google Settings** section, find the **Tag Manager** field.
 2. Enter your Tag Manager Container ID. It looks something like `GTM-XXXXXXX`.
 3. Save your changes.
 
@@ -126,7 +126,7 @@ Google Tag Manager lets you manage multiple tracking tools (like Google Analytic
 
 WebNesting includes its own simple analytics tool that shows you visitor statistics right inside your dashboard -- no external accounts needed.
 
-1. In the **Google Config Settings** section, find the **Built-In Analytics** toggle.
+1. In the **Google Settings** section, find the **Built-In Analytics** toggle.
 2. Turn it on.
 3. Save your changes.
 
@@ -142,7 +142,7 @@ Add your social media links so they can appear in your site's header, footer, or
 
 ### Adding Your Social Media Links
 
-1. Go to **Site Settings** and open the **Third Party Config Settings** section, then click **Social Config Settings**.
+1. Go to **Site Settings** and open the **Third Party** section, then click **Social Settings**.
 2. You will see fields for each supported platform.
 3. Paste the full URL of your profile for each platform. For example: `https://www.instagram.com/yourcompany`.
 4. Save your changes.
@@ -202,9 +202,9 @@ You can also add your own named images here with **Add** at the bottom of the pa
 
 ---
 
-## Sandbox Settings
+## Site Configuration
 
-These settings control foundational aspects of how your website works -- its name, description, theme, status, and address preferences. They live on the **Sandbox Settings** page, under **Site Config** in Site Settings.
+These settings control foundational aspects of how your website works -- its name, description, theme, status, and address preferences. They live on the **Site Configuration** page, under **Site Config** in Site Settings.
 
 ### Choosing a Theme
 
@@ -214,7 +214,7 @@ These settings control foundational aspects of how your website works -- its nam
 
 A secure address starts with `https://` instead of `http://`, and visitors see a lock icon in their browser.
 
-1. Go to **Site Settings**, open **Site Config**, and click **Sandbox Settings**.
+1. Go to **Site Settings**, open **Site Config**, and click **Site Configuration**.
 2. Find **Always use a secure (https://) address?**
 3. Choose **Yes -- always redirect to https://** once your domain's certificate is active. **Either works -- don't redirect** leaves both forms reachable.
 4. Save your changes.
@@ -231,7 +231,7 @@ You can choose whether your site address starts with "www." or not.
 
 Most modern sites use the non-www version. Choose whichever you prefer and stick with it, so search engines do not see them as two different sites.
 
-1. On the **Sandbox Settings** page, find **Should your address start with "www."?**
+1. On the **Site Configuration** page, find **Should your address start with "www."?**
 2. Pick one of the three options.
 3. Save your changes.
 

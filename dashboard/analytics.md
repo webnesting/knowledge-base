@@ -1,6 +1,6 @@
 # Analytics and Reports
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-08 9:23am
 
 Analytics help you understand how people find and use your website. WebNesting includes built-in analytics so you can see how many visitors your site gets, which pages are most popular, and where your traffic comes from -- all from your dashboard.
 
@@ -26,7 +26,7 @@ WebNesting includes a privacy-friendly analytics system that tracks your visitor
 
 Built-in analytics are enabled by default for all sites. To check or change this setting:
 
-1. In the site menu, open **Settings → Site Settings**, then open **Third Party Config Settings** and click **Google Config Settings**.
+1. In the site menu, open **Settings → Site Settings**, then open **Third Party** and click **Google Settings**.
 2. Look for the **Built-In Analytics** option.
 3. Make sure analytics tracking is turned on.
 

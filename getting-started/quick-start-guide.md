@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-08 9:23am
 
 Welcome to WebNesting! This guide will get you up and running in about 10 minutes. Follow these steps to set up your site, make your first edits, and publish your changes.
 
@@ -53,7 +53,7 @@ Welcome to WebNesting! This guide will get you up and running in about 10 minute
 
 1. Go back to your dashboard by clicking your site name in the builder's main menu, or by navigating to your admin address.
 2. Open **Settings** from the navigation menu.
-3. Under **Content Items**, click **Image**.
+3. Under **Content Items**, click **Site Images**.
 4. Upload your logo and favicon (the small icon that appears in browser tabs) by clicking the image areas and selecting files from your files.
 5. Save your changes.
 
