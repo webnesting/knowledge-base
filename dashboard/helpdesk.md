@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-09-05 6:32pm
+**Last verified:** 2026-09-09 4:36am
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -302,6 +302,25 @@ You can connect your websites to the Helpdesk to create customer-facing support 
 4. Save your settings.
 
 Once connected, the site can display a support portal where customers can browse knowledge base articles and submit new tickets.
+
+### Turning a Form on Your Site Into a Ticket
+
+A form on your website -- a contact form, a support request form, a "get a quote" form -- can open a Helpdesk ticket every time someone fills it in, instead of just sending you an email. The ticket is titled after the form, lists every answer the person gave, and follows the same SLA targets and business hours as a ticket that arrived any other way.
+
+This is set per form, and it is off until you switch it on. Turning it on for your contact form does not affect your newsletter signup.
+
+![The Routing tab on a form, with Create Contact and Create Helpdesk Ticket](../images/dashboard/form-workspace-routing.png)
+
+1. In the site menu, open **Forms** and click **Forms**.
+2. Open the form you want (or click **+ New Form** and then **Create** -- the Routing tab only appears once a form has been created).
+3. Open the **Routing** tab.
+4. Switch on **Create Helpdesk Ticket**.
+5. Two more options appear: **Assign to Team**, so the ticket lands with the right group, and **Priority**, which sets how urgently it starts. Leaving both alone sends it to your default queue at normal priority.
+6. Click **Save & Publish**.
+
+Seeing **Assign to Team** and **Priority** after the save is your confirmation -- those two only show while the switch is on.
+
+> **Tip:** The switch above it, **Create Contact**, is separate and can be used at the same time. It adds the person who submitted the form to your workspace contacts, and lets you add them to a list or apply a tag. For that to work, one of your form's fields needs its **Marketing Field** set to **Email**, so WebNesting knows which box holds the email address.
 
 ---
 
