@@ -1,6 +1,6 @@
 # Connecting an AI Tool
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-09 12:52pm
 
 You can connect an AI assistant — like Claude Desktop, Claude Code, or Cursor — directly to your WebNesting workspace. Once connected, you can ask the AI to look things up and make changes for you in plain language: "list my draft articles," "create a new event for next Friday," "what's my current usage this month." The AI works **as you**, with **your** permissions, and never sees your password.
 
@@ -70,13 +70,11 @@ Some older AI apps can only connect to tools running on your own computer (a "st
 
 ## Disconnecting
 
-You're always in control:
+A **Connected apps** page — where you'll see every AI tool you've connected and remove any one of them yourself — is still being built. Until it's ready, here's what's true today:
 
-1. Open **Workspace Settings → Connected apps**.
-2. Find the AI app in the list — each shows its name, the workspaces it can reach, and when it last did something.
-3. Click **Disconnect**.
-
-The AI loses access immediately. The next time it tries to do anything, it's signed out and would have to be reconnected (with your approval) to work again. Disconnecting one app never affects your other connections or your own sign-in.
+- **Removing the connector inside your AI app** stops that app from using WebNesting, but it does **not** cancel the connection on our side. If you're switching tools, that's usually all you need. If you're worried about who can reach your workspace, it isn't enough on its own.
+- **A connection you stop using expires by itself.** Access is short-lived and renews quietly while the tool is in use; once it goes unused for 30 days, it stops working and the tool has to be reconnected with your approval.
+- **To cancel a connection right away** — a lost laptop, a tool you no longer trust — contact support and we'll revoke it for you immediately. Revoking one connection never affects your other connections or your own sign-in.
 
 ---
 
