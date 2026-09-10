@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-09-02 8:05pm
+**Last verified:** 2026-09-10 4:28am
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -237,12 +237,16 @@ Both the campaign editor and the template editor use the same visual builder you
 
 ### Choosing who a campaign goes to
 
-Every campaign has a **Send to** setting on its Settings panel, with two kinds of audience:
+Every campaign has a **Send to** setting on its **Details** tab, at the bottom of the **Campaign Details** panel, with two kinds of audience:
 
 - **Whole workspace** -- reaches contacts whose Email Status is **Subscribed** (you can set that on each contact's page, under Marketing). This is the default.
 - **A single site** -- reaches only the people who opted in to email **on that site** (for example, by ticking the email opt-in box when they signed up there). The campaign also sends from that site's own domain, so it looks like it comes from the brand they know.
 
 Someone who unsubscribes stops getting email either way -- unsubscribing always applies everywhere, no matter which site they originally opted in on.
+
+![The Send to setting on a campaign, showing a single site's audience selected](../images/content-modules/campaign-send-to-site-audience.png)
+
+> **Tip:** A contact you add by hand starts with an Email Status of **Pending**, not Subscribed, so they are not in the whole-workspace audience until you change it. Adding someone's address is not the same as them agreeing to hear from you.
 
 ### Conditional blocks
 
