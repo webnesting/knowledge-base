@@ -1,0 +1,27 @@
+# Line endings are a CORRECTNESS issue, not a style preference.
+#
+# Git for Windows ships `core.autocrlf=true` in its SYSTEM config, so a Windows clone
+# silently rewrites text files to CRLF. On a Windows box whose checkout lives inside a
+# WSL2 distro, containers read those same files, and a shell script with CRLF does not
+# fail gracefully:
+#
+#     /usr/bin/env: 'bash\r': No such file or directory
+#
+# Pinning eol=lf here overrides autocrlf for every developer, every tool and every OS,
+# because .gitattributes travels with the repo. That is the only layer that protects a
+# clone made by something nobody anticipated: measured 2026-09-11, the WebNesting VS Code
+# extension's own Clone Repository command - it runs host-side, so it shells out to
+# Windows git - produced a CRLF worktree inside the distro, and GitHub Desktop reported
+# that repo CLEAN because its git normalises on read and so hid its own damage, while VS
+# Code in the Remote-WSL window correctly showed 8 modified files.
+#
+# The machine-level belt for this is `core.autocrlf=false` in the host's global git
+# config, set by system/windows/bootstrap.ps1. This file is the braces, and it is the half
+# that still works for a developer who never ran that bootstrap.
+* text=auto eol=lf
+
+# Windows-side helpers keep CRLF, which is what PowerShell and Notepad expect. Listed
+# even where this repo has none today, so the rule is already correct if it gains one.
+*.ps1   text eol=crlf
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
