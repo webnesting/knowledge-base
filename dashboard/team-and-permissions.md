@@ -1,6 +1,6 @@
 # Team and Permissions
 
-**Last verified:** 2026-09-05 3:31pm
+**Last verified:** 2026-09-13 4:43pm (accepting an invitation: the link now opens account creation; existing accounts accept from the account page)
 
 WebNesting lets you invite other people to help manage your website. You control exactly what each person can see and do by assigning them roles with specific permissions.
 
@@ -170,10 +170,10 @@ Separately from the roles you create, every workspace member has one of three me
 ### Accepting or Declining Invitations
 
 When you receive a workspace invitation:
-- Click the link in the invitation email
-- You will be taken to the workspace where you can **Accept** or **Decline**
-- If you accept, you will immediately have access based on the roles assigned to you
-- If you decline, the invitation is removed and you will not have access
+- Click **Accept Invitation** in the email.
+- **New to WebNesting?** The link opens account creation with your email already filled in — the invitation is tied to that address, so leave it as it is. Enter your name and a password, then confirm your email from the message we send you. Once it's confirmed, you're in the workspace with the roles assigned to you.
+- **Already have an account?** Sign in instead. The invitation is waiting on your account page and in your workspaces list, where you can **Accept** or **Decline**.
+- If you decline, the invitation is removed and you will not have access.
 
 ### Pending Invitations
 
