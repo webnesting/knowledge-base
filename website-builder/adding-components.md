@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-09-13 5:00pm (palette renames of 2026-09-08: Main → Content area, the second Container → Blank box)
+**Last verified:** 2026-09-13 5:08pm (categories re-sorted to the live palette: Structure / Navigation / Content / Media / Module Driven; blocks that no longer exist removed; the account blocks named)
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -37,25 +37,31 @@ Components are grouped into categories in the **Add** panel. The everyday buildi
 
 ### Structure
 
-Containers and dividers that hold and organize everything else.
+The boxes that hold and organize everything else. Using them correctly also helps screen readers and search engines understand your page.
 
-- **Container** -- A box that holds other components inside it. Useful for grouping related content and controlling its width.
-- **Grid** -- A multi-column arrangement for laying content out in rows and columns.
+- **Content area** -- The primary content area, used once per page.
+- **Section** -- A major division of your page.
+- **Blank box** -- An empty box with no meaning of its own, for grouping or spacing other blocks.
 - **Divider** -- A horizontal line that visually separates content on your page.
-- **Header** and **Footer** -- The structural top and bottom regions of a layout.
-- **Module Driven Content** -- A container that repeats for each record from one of your content modules.
+
+### Navigation
+
+The parts that frame every page.
+
+- **Header** and **Footer** -- The top and bottom regions of a layout.
+- **Breadcrumbs** -- A trail of links showing where the visitor is (for example: Home > Services > Web Design).
 
 ### Content
 
 Text, buttons, and other written or interactive content.
 
-- **Balloon Text** -- A rich text area with a floating formatting toolbar. This is the one you will reach for most often.
-- **Inline Text** -- A short piece of text that flows inside a line, rather than forming its own block.
-- **Basic Text** -- A plain, unformatted text area.
+- **Inline Text** -- A rich text area with a floating formatting toolbar. This is the one you will reach for most often.
 - **Markdown Block** -- A text area that uses Markdown formatting.
 - **HTML** -- A block where you can paste raw HTML, useful for embedding third-party widgets.
 - **Button** -- A clickable button linking to another page, a section of your site, or an external website.
 - **Alert** -- A highlighted message box, good for notices, warnings, or tips.
+- **Card** -- A self-contained block combining an image, heading, description, and button.
+- **Accordion Item** -- An expandable section visitors can open and close. Good for FAQs.
 - **Site Map** -- An automatically generated list of all the pages on your site.
 
 ### Media
@@ -64,37 +70,17 @@ Visual content.
 
 - **Image** -- A single image. Click it to pick a picture from your files or upload a new one.
 - **Slideshow** -- A rotating set of images that transitions between slides.
-- **Gallery** -- A grid of images you can reorder directly on the page.
-- **Full Page Image** -- A large, full-width image, good for hero areas.
-- **Card** -- A self-contained block combining an image, heading, description, and button.
-- **Cards** -- A row or grid of cards.
-
-### Containers and Accessibility Elements
-
-Semantic regions that describe what a part of your page *is*. Using these correctly helps screen readers and search engines understand your page.
-
-- **Content area** -- The primary content area, used once per page.
-- **Section** -- A major division of your page.
-- **Blank box** -- An empty box with no meaning of its own, for grouping or spacing other blocks.
-- **Article** -- A self-contained piece of content.
-- **Aside** -- Content tangentially related to the main content, like a sidebar.
-- **Breadcrumbs** -- A trail of links showing where the visitor is (for example: Home > Services > Web Design).
-- **Accordion Item** -- An expandable section visitors can open and close. Good for FAQs.
-
-### Function Blocks
-
-- **Foreach Loop** -- Repeats its contents once for every record in a set of content, so you can lay out a list of articles, products, or any other records.
 
 ### Module Driven Items
 
 These display content from your site's modules, and only appear when the related module is enabled.
 
 - **Article List / Article Detail** -- Articles from your Articles module.
-- **Blog List / Blog Detail** -- Blog posts.
 - **Event List / Event Detail** -- Events from your Events module.
 - **Product List / Product Detail** -- Products from your Store module.
 - **Form** -- Embeds a form from your Forms module. Requires the Forms module.
 - **Email Signup** -- A newsletter signup form for collecting subscribers. Requires the Marketing product.
+- **Login Form**, **Registration Form**, **Forgot Password Form**, **Reset Password Form**, **Account Security** and **Two-Factor Code Form** -- The pages a visitor uses to sign up, sign in, reset a password and manage their account on your site.
 
 > **Tip:** If you do not see these components, the related module is not enabled. You can enable modules from the **Modules** section of your site menu.
 
