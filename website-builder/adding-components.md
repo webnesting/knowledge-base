@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-13 5:00pm (palette renames of 2026-09-08: Main → Content area, the second Container → Blank box)
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -73,8 +73,9 @@ Visual content.
 
 Semantic regions that describe what a part of your page *is*. Using these correctly helps screen readers and search engines understand your page.
 
-- **Main** -- The primary content area, used once per page.
+- **Content area** -- The primary content area, used once per page.
 - **Section** -- A major division of your page.
+- **Blank box** -- An empty box with no meaning of its own, for grouping or spacing other blocks.
 - **Article** -- A self-contained piece of content.
 - **Aside** -- Content tangentially related to the main content, like a sidebar.
 - **Breadcrumbs** -- A trail of links showing where the visitor is (for example: Home > Services > Web Design).
