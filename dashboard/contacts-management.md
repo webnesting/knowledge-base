@@ -1,6 +1,6 @@
 # Contacts Management
 
-**Last verified:** 2026-09-16 9:06am
+**Last verified:** 2026-09-16 9:48am
 
 Contacts are your audience database in WebNesting. Every person who submits a form on your website, signs up for your newsletter, or is imported from a spreadsheet becomes a contact. Use the Contacts system to keep track of who your audience is, organize them into lists, and connect them to your marketing, forms, and support tools.
 
@@ -179,6 +179,17 @@ Common tag examples: "VIP," "New Lead," "Attended Workshop," "Purchased," "Follo
 Tags are applied from the contact detail view. Open a contact, add or remove tags, and save. Each tag shows how many contacts currently have it applied, so you can see at a glance how your audience breaks down.
 
 > **Tip:** Use tag colors strategically. For example, use red for urgent follow-ups, green for completed actions, and blue for informational labels. This makes scanning your contact list much faster.
+
+### Merging Tags
+
+If you end up with duplicate or overlapping tags (like "VIP" and "Vip"), you can combine them into one:
+
+1. Go to the **Tags** area and click **Merge tags**.
+2. Choose the tags you want to combine.
+3. Choose which tag to keep.
+4. Click **Merge tags**.
+
+Every contact that had one of the merged tags keeps the tag you kept, and the other tags are deleted. This can't be undone, so double-check your choice before merging.
 
 ---
 
