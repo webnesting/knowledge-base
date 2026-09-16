@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-09-16 10:06am
+**Last verified:** 2026-09-16 10:29am
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -169,6 +169,10 @@ You can set an estimated number of hours for a task to help with planning. This 
 ### Completing and Reopening Tasks
 
 When a task is finished, change its status to a Done status to mark it as complete. If you need to revisit a completed task, you can reopen it by changing its status back to a To Do or In Progress status.
+
+### Deleting a Task
+
+To remove a task entirely, open it and click **Delete task** at the bottom of the details sidebar. You'll be asked to confirm — deleting a task also removes its subtasks, comments, and dependencies, and can't be undone. If you only want to hide a finished task, move it to a Done status instead.
 
 ---
 
