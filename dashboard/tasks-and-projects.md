@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-16 10:06am
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
