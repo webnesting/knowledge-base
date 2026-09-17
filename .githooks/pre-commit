@@ -1,0 +1,16 @@
+#!/usr/bin/env sh
+# WebNesting secret-scan pre-commit. See .gitleaks.toml.
+
+# Secret scan (gitleaks) — free-path prevention (ghas-security-remediation Phase 5).
+# Blocks a staged secret; FAILS OPEN (warns, never blocks) if gitleaks is absent,
+# so a missing tool can't break commits. Install: brew install gitleaks (mac) /
+# `apt-get install gitleaks` or system bootstrap. Allowlist FPs in .gitleaks.toml.
+if command -v gitleaks >/dev/null 2>&1; then
+    gitleaks git --staged --redact --no-banner || {
+        echo "pre-commit: gitleaks found a secret in the staged changes (above)." >&2
+        echo "  Remove it. If it is a false positive, add an allowlist entry to .gitleaks.toml." >&2
+        exit 1
+    }
+else
+    echo "pre-commit: WARNING - gitleaks not installed; staged secret scan SKIPPED (brew install gitleaks)." >&2
+fi

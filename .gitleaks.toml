@@ -1,0 +1,19 @@
+# WebNesting gitleaks config — pre-commit secret gate (free-path prevention).
+# Extends gitleaks' built-in ruleset; adds a minimal allowlist for the one
+# recurring false positive (Laravel env()/config() references) so the gate
+# doesn't cry wolf on normal commits. Deliberately NO broad value stopwords
+# (they would allowlist real secrets that merely contain the substring).
+title = "WebNesting"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "WebNesting false-positive allowlist"
+regexTarget = "line"
+regexes = [
+    # `env('FOO')` / `env("FOO")` — Laravel env references, never secret values.
+    '''env\(\s*['"][A-Z0-9_]+['"]''',
+    # `config('a.b.c')` — config-key references, never secret values.
+    '''config\(\s*['"][a-z0-9_.]+['"]''',
+]
