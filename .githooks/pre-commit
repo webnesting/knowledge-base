@@ -4,11 +4,11 @@
 # Secret scan (gitleaks) — free-path prevention (ghas-security-remediation Phase 5).
 # Blocks a staged secret; FAILS OPEN (warns, never blocks) if gitleaks is absent,
 # so a missing tool can't break commits. Install: brew install gitleaks (mac) /
-# `apt-get install gitleaks` or system bootstrap. Allowlist FPs in .gitleaks.toml.
+# `apt-get install gitleaks` or system bootstrap. A real FP gets a NARROW per-rule allowlist in .gitleaks.toml, never a whole-line one.
 if command -v gitleaks >/dev/null 2>&1; then
     gitleaks git --staged --redact --no-banner || {
         echo "pre-commit: gitleaks found a secret in the staged changes (above)." >&2
-        echo "  Remove it. If it is a false positive, add an allowlist entry to .gitleaks.toml." >&2
+        echo "  Remove it. If it is a false positive, add a NARROW per-rule allowlist to .gitleaks.toml (regexTarget match, proven with a sample) - never a whole-line exemption." >&2
         exit 1
     }
 else
