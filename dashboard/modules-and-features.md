@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-09-04 11:19pm
+**Last verified:** 2026-09-17 2:21pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -135,7 +135,7 @@ What you get when you enable it:
 - Double opt-in email confirmation
 - Automatic unsubscribe handling
 
-Your first **10,000 marketing emails each month are free**. After that, sending costs **$0.70 per 1,000 emails**. Workspace contacts are billed separately, once for the whole workspace, at $10 per 1,000 contacts per month (first 50 free).
+Your first **10,000 marketing emails each month are free**. After that, sending costs **$0.70 per 1,000 emails**. Workspace contacts are billed separately, once for the whole workspace, at $10 per 1,000 contacts per month (first 500 free).
 
 > **Tip:** If you also have the Forms module enabled on your site, form submissions can automatically create workspace contacts -- no manual data entry needed. See the [Email Marketing guide](../content-modules/email-marketing.md) and [Workspace Products](workspace-products.md) for details.
 

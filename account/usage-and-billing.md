@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-09-05 2:17pm
+**Last verified:** 2026-09-17 2:21pm
 
 WebNesting uses simple, usage-based pricing. This guide explains how pricing works, how to view your usage and bills, and how to pay.
 
@@ -17,7 +17,7 @@ WebNesting charges based on what you actually use -- things like the number of p
 Every site comes with free resources to get you started:
 
 - **5 free pages** -- Your first 5 pages are included at no charge. System pages (your homepage, the 404 page, and other built-in pages) are always free.
-- **250 MB of free storage** -- Covers your own uploads, helpdesk attachments, and form uploads across your whole workspace.
+- **2 GB of free storage** -- Covers your own uploads, helpdesk attachments, and form uploads across your whole workspace.
 
 Many small sites fit entirely within the free tier.
 
@@ -28,8 +28,8 @@ When you go beyond the free tier, you pay for what you use:
 | Resource | Rate | Free Allowance |
 |----------|------|----------------|
 | Pages | $0.50/page/month | First 5 pages free |
-| Storage | $10/GB/month | First 250 MB free |
-| Contacts | $10 per 1,000/month | First 50 free |
+| Storage | $1/GB/month | First 2 GB free |
+| Contacts | $10 per 1,000/month | First 500 free |
 
 People who create an account on your site are counted as contacts in the row above. There is no separate charge for letting them sign in, and your team members are always included.
 
@@ -136,4 +136,4 @@ If a bill isn't paid by the due date (the 15th), it is automatically marked over
 
 If your usage stays within the free tier for a given month, your bill will be $0. These bills are automatically marked as paid, so you don't need to do anything.
 
-> **Tip:** With 5 free pages, 250 MB of storage, and 50 free contacts, many personal and small business sites fit within the free tier. You might not owe anything at all!
+> **Tip:** With 5 free pages, 2 GB of storage, and 500 free contacts, many personal and small business sites fit within the free tier. You might not owe anything at all!

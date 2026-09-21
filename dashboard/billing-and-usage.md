@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-09-05 2:17pm
+**Last verified:** 2026-09-17 2:21pm
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -22,7 +22,7 @@ You are billed once a month. Each bill covers the previous month's usage and sho
 Every WebNesting site comes with a few things at no charge:
 
 - **Your first 5 pages** -- You can have up to 5 pages on your site before any page charges apply. This includes any type of page (regular pages, article pages, event pages, etc.).
-- **Your first 250 MB of storage** -- Everything we store for you (your own uploads, helpdesk attachments, and files visitors upload through your forms) is measured together across your whole workspace, and the first 250 MB is free.
+- **Your first 2 GB of storage** -- Everything we store for you (your own uploads, helpdesk attachments, and files visitors upload through your forms) is measured together across your whole workspace, and the first 2 GB is free.
 
 These free allowances apply automatically. You do not need to do anything to activate them. If you stay within these limits, you will not see those items on your bill at all.
 
@@ -51,7 +51,7 @@ System pages (the built-in pages every site ships with, like the 404 page) are a
 
 ### Storage
 
-**$10 per GB per month** (first 250 MB free)
+**$1 per GB per month** (first 2 GB free)
 
 Storage is one meter for your whole workspace. It covers everything we store for you: your own uploads (images, videos, documents), helpdesk ticket attachments, and files visitors upload through your forms. You are billed once for storage no matter how many sites you have.
 
@@ -87,11 +87,11 @@ Workspace-level products are billed separately at the workspace level (see [Work
 | Product | Monthly Cost | What It Does |
 |---------|-------------|--------------|
 | Marketing | $20/month base + $0.70 per 1,000 emails sent (first 10,000 each month free) | Email campaigns, contacts, automations |
-| Helpdesk | $15/month base + $0.15/ticket (first 25 each month free) | Tickets, SLA, knowledge base |
-| Tasks | $10/month base + $0.30/active task (first 25 free) | Projects, tasks, boards, timelines -- projects themselves are free |
+| Helpdesk | $15/month base + $0.05/ticket (first 25 each month free) | Tickets, SLA, knowledge base |
+| Tasks | $10/month base + $0.05/active task (first 25 free) | Projects, tasks, boards, timelines -- projects themselves are free |
 | API & AI Access | $10/month base + per-request, data-transfer, and active-token usage | Access tokens for the REST API. (Connecting an AI assistant is separate and free.) |
 
-Contacts are shared by every workspace product (Marketing, Helpdesk, and your site forms all use the same contact database), so they are billed once for the whole workspace: **$10 per 1,000 contacts per month, with your first 50 free.**
+Contacts are shared by every workspace product (Marketing, Helpdesk, and your site forms all use the same contact database), so they are billed once for the whole workspace: **$10 per 1,000 contacts per month, with your first 500 free.**
 
 > **Tip:** Module fees are the same every month regardless of how much you use the module. If the Articles module is enabled, it costs $5/month whether you have 2 articles or 200.
 
@@ -175,7 +175,7 @@ Here are some practical ways to keep your WebNesting bill manageable.
 
 ### Take Advantage of Free Allowances
 
-Remember that your first 5 pages and first 250 MB of storage are free, and letting people sign up on your site costs nothing extra. For a simple website, you may not owe anything beyond the modules you choose to enable.
+Remember that your first 5 pages and first 2 GB of storage are free, and letting people sign up on your site costs nothing extra. For a simple website, you may not owe anything beyond the modules you choose to enable.
 
 ### Only Enable Modules You Need
 

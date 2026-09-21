@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-09-03 4:47pm
+**Last verified:** 2026-09-17 2:21pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Five products are available. Most are paid -- you only pay for the ones you use -- and one, **Internal Docs**, is completely free and switched on by default.
 
@@ -91,7 +91,7 @@ Each product has two types of costs:
 
 Here is how pricing works for each product:
 
-**Contacts are shared across products.** Marketing, Helpdesk, and your site forms all draw on the same workspace contact database, so contacts are billed once for the whole workspace -- not once per product. Your first 50 contacts are free.
+**Contacts are shared across products.** Marketing, Helpdesk, and your site forms all draw on the same workspace contact database, so contacts are billed once for the whole workspace -- not once per product. Your first 500 contacts are free.
 
 ### Marketing Pricing
 
