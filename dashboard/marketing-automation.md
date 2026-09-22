@@ -1,6 +1,6 @@
 # Marketing Automations
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-22 5:03pm
 
 Marketing automations let you create set-it-and-forget-it workflows that send emails, update contacts, and perform actions automatically when something happens. Instead of manually sending a welcome email every time someone signs up, or remembering to tag contacts after an event, you build the workflow once and let it run on its own.
 
@@ -186,9 +186,10 @@ Contacts who are already in the automation will remain where they are. They will
 
 You can edit an automation at any time -- add steps, remove steps, change the trigger, or update email templates. If the automation is active, consider pausing it first to avoid unexpected behavior while you make changes.
 
-1. Click on the automation you want to edit.
-2. Make your changes.
-3. Save the automation.
+1. Click on the automation you want to edit. It opens showing its details, with a **Details** tab and a **Workflow** tab.
+2. Click **Edit**. The fields become editable in place.
+3. Make your changes — rename it or update its description on the **Details** tab; add, remove, or reorder steps on the **Workflow** tab.
+4. Click **Save** (or **Cancel** to discard).
 
 > **Important:** If you change the trigger on an active automation, only new trigger events will use the updated trigger. Contacts already enrolled will continue through their remaining steps.
 
