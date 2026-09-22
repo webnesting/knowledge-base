@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-09-17 2:21pm
+**Last verified:** 2026-09-22 11:51am
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Five products are available. Most are paid -- you only pay for the ones you use -- and one, **Internal Docs**, is completely free and switched on by default.
 
@@ -79,6 +79,10 @@ Turning on a product takes just a few seconds:
 Once a product is enabled, new menu items will appear in your workspace sidebar. For example, enabling Marketing adds sections for contacts, campaigns, and email templates.
 
 > **Tip:** Each product shows its base monthly cost and any usage-based charges before you enable it. Review the pricing details so there are no surprises.
+
+### Add a product from your home page
+
+Your WebNesting home page also highlights the products you are not using yet, each with its pricing. Click a product to turn it on. If you have more than one workspace, you can choose which workspaces to enable it on — one, several, or all — in a single step, and you will see the estimated added cost before you confirm. Workspaces where you already have the product, or where you do not have permission to manage products, are shown but cannot be changed from here. Once a product is active on every workspace you manage, it drops off the home page so you only ever see what you can still add.
 
 ---
 
