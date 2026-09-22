@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-09-22 9:39am
+**Last verified:** 2026-09-22 9:47am
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -152,6 +152,10 @@ Priority tells your team how urgent a task is. There are four levels:
 You can assign a task to any team member in your workspace. The assignee is the person responsible for completing the task. Assigned tasks appear in that person's My Work view.
 
 To assign a task, open it and select a team member from the assignee field. You can change the assignee at any time.
+
+### Moving a Task to a Project
+
+To move a task into a different project, open it and pick a project in the **Project** field in the details sidebar. The task's status switches to the new project's default status, and any team it inherited from its old project updates to match the new one.
 
 ### Dates
 
