@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-09-09 4:36am
+**Last verified:** 2026-09-22 9:57am
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -31,6 +31,15 @@ When you open the Helpdesk from your workspace sidebar, you will see a list of t
 - **Created** -- When the ticket was submitted
 
 You can sort and filter the list to find specific tickets. Use filters to show only tickets with a certain status, priority, assignee, or tag.
+
+Above the list, quick tabs let you switch what you're looking at with one click:
+
+- **Open** -- Tickets still being worked
+- **Unclaimed** -- Open tickets routed to a team that no one has picked up yet
+- **Closed** -- Resolved tickets
+- **All** -- Every ticket, regardless of status
+
+When you open the Helpdesk, you land on **Open** so you see live work first.
 
 ### Saved Views
 
