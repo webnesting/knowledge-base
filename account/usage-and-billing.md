@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-09-17 2:21pm
+**Last verified:** 2026-09-22 2:20pm
 
 WebNesting uses simple, usage-based pricing. This guide explains how pricing works, how to view your usage and bills, and how to pay.
 
@@ -44,7 +44,7 @@ Some optional features are available as add-ons. These have a flat monthly rate,
 | Forms module | $10/month |
 | Store module | $20/month |
 | Widget Builder | $20/month |
-| API & AI Access (REST API tokens) | $10/month |
+| API Access (REST API tokens) | $10/month |
 | Remove Branding | $5/month |
 
 Workspace-level products are also available on a separate monthly rate:

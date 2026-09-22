@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-09-22 11:44am
+**Last verified:** 2026-09-22 2:20pm
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -89,7 +89,7 @@ Workspace-level products are billed separately at the workspace level (see [Work
 | Marketing | $20/month base + $0.70 per 1,000 emails sent (first 10,000 each month free) | Email campaigns, contacts, automations |
 | Helpdesk | $15/month base + $0.05/ticket (first 25 each month free) | Tickets, SLA, knowledge base |
 | Tasks | $10/month base + $0.05/active task (first 25 free) | Projects, tasks, boards, timelines -- projects themselves are free |
-| API & AI Access | $10/month base + per-request, data-transfer, and active-token usage | Access tokens for the REST API. (Connecting an AI assistant is separate and free.) |
+| API Access | $10/month base + per-request, data-transfer, and active-token usage | Access tokens for the REST API. (Connecting an AI assistant is separate and free.) |
 
 Contacts are shared by every workspace product (Marketing, Helpdesk, and your site forms all use the same contact database), so they are billed once for the whole workspace: **$10 per 1,000 contacts per month, with your first 500 free.**
 

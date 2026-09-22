@@ -1,6 +1,6 @@
 # Connecting an AI Tool
 
-**Last verified:** 2026-09-09 12:52pm
+**Last verified:** 2026-09-22 2:20pm
 
 You can connect an AI assistant — like Claude Desktop, Claude Code, or Cursor — directly to your WebNesting workspace. Once connected, you can ask the AI to look things up and make changes for you in plain language: "list my draft articles," "create a new event for next Friday," "what's my current usage this month." The AI works **as you**, with **your** permissions, and never sees your password.
 
@@ -81,7 +81,7 @@ A **Connected apps** page — where you'll see every AI tool you've connected an
 ## Frequently Asked
 
 **Is this the same as the API plan?**
-No. Connecting an AI tool this way is free. The paid **API & AI Access** plan is a separate product for developers who paste an access token into their own code.
+No. Connecting an AI tool this way is free. The paid **API Access** plan is a separate product for developers who paste an access token into their own code.
 
 **Can a teammate's AI tool act as me?**
 No. Each connection is signed in as the person who approved it, acting only as themselves. There's no way to connect an AI tool "as" someone else.

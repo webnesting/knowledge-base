@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-09-22 11:51am
+**Last verified:** 2026-09-22 2:20pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Five products are available. Most are paid -- you only pay for the ones you use -- and one, **Internal Docs**, is completely free and switched on by default.
 
@@ -56,13 +56,14 @@ A private wiki for your team -- how-tos, runbooks, and onboarding notes that onl
 - **Always free** -- No base fee and no usage charges
 - **Optional GitHub sync** -- Keep your docs in a GitHub repository and edit them in either place
 
-### API & AI Access
+### API Access
 
-Programmatic access to your workspace for developers and AI assistants. When you enable API & AI Access, you get:
+Programmatic REST API access to your workspace for developers. When you enable API Access, you get:
 
-- **API tokens** -- Create access tokens so external software can read and update your content
-- **Bring-your-own-AI** -- Connect an AI assistant to work with your workspace data
+- **API tokens** -- Create scoped access tokens so external software, scripts, and integrations can read and update your content
 - **Usage controls** -- Free monthly allowances for API requests, data transfer, and active tokens, with optional add-ons for higher rate limits and extended audit-log retention
+
+> **Connecting an AI assistant (Claude, Cursor, or another MCP tool) is free and does not require API Access.** That is a separate, no-cost feature -- see [Connecting AI Tools](connecting-ai-tools.md).
 
 ---
 
@@ -114,9 +115,9 @@ Here is how pricing works for each product:
 - Additional charge per active task (with a free tier)
 - Projects are free -- their tasks are already covered by the active-task charge
 
-### API & AI Access Pricing
+### API Access Pricing
 
-- Base monthly fee for having API & AI Access enabled
+- Base monthly fee for having API Access enabled
 - Additional charge per API request (with a free tier)
 - Additional charge for data transfer (with a free tier)
 - Additional charge per active API token (with a free tier)

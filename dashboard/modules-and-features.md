@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-09-17 2:21pm
+**Last verified:** 2026-09-22 2:20pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -154,11 +154,11 @@ What you get when you enable it:
 
 > **Tip:** When both Forms and Email Marketing are enabled, form submissions automatically flow into your marketing contacts. This is one of the easiest ways to grow your email list.
 
-### API & AI Access (Workspace Product)
+### API Access (Workspace Product)
 
 **Monthly cost:** $10/month base + usage
 
-API & AI Access is a **workspace product**, not a site module -- you enable it once at the workspace level and it covers every site in the workspace. It gives you access tokens for the REST API, so your own code and other systems can read and write your content programmatically.
+API Access is a **workspace product**, not a site module -- you enable it once at the workspace level and it covers every site in the workspace. It gives you access tokens for the REST API, so your own code and other systems can read and write your content programmatically.
 
 What you can do with it:
 
