@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-09-16 10:29am
+**Last verified:** 2026-09-22 9:39am
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -205,8 +205,10 @@ When you set a dependency, you are saying that one task **blocks** another. The 
 To add a dependency:
 
 1. Open the task that is waiting on another task.
-2. Look for the **Dependencies** section.
-3. Add the task that needs to be completed first.
+2. Find the **Dependencies** section and click **Link dependency**.
+3. Choose whether this task is **blocked by** another task (something must finish first) or **blocks** it, pick the other task, and click **Link**.
+
+Each linked task appears as a row showing its current status, so you can see at a glance whether a blocking task is still open or already done — a finished blocker shows a green status. Click a linked task to open it.
 
 Dependencies are especially useful in the Timeline view, where you can see how tasks connect and how delays in one task might affect others downstream.
 
