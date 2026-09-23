@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-09-23 11:41am
+**Last verified:** 2026-09-23 11:55am
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -382,7 +382,7 @@ Best for teams already running on Google Workspace or personal Gmail with a `sup
 4. Choose **Gmail / Google Workspace** as the inbound source. Save → we'll open Google's OAuth consent screen.
 5. Authorize WebNesting to read + send. Helpdesk now receives every email at that address as a ticket; replies go out through your existing Gmail account.
 
-**Fastest setup — no DNS changes required.** Existing email history at that address can be imported into tickets in one click after OAuth completes.
+**Fastest setup — no DNS changes required.** Existing email history at that address can be imported into tickets in one click after OAuth completes. Importing is quiet: nobody is emailed about the old messages, they don't start SLA timers or automations, and conversations older than the window you choose come in already closed.
 
 ### Option 2: Connect Outlook / Microsoft 365 (OAuth)
 
@@ -469,6 +469,36 @@ Once you have a verified domain (Option 4) with DMARC enforcement, you can show 
 | VMC verified (logo + cert) | $1,500-$3,000/yr | Yahoo, La Poste, **Gmail, Apple Mail** |
 
 The BIMI section in the wizard tells you which tier you're currently at and what's needed to reach the next one.
+
+## Automatic Emails
+
+Besides the replies your team writes, the Helpdesk sends a few emails on its own. You choose which ones in **Helpdesk > Settings > Email**, under **Automatic emails to customers** and **Automatic emails to your team**. Each is a switch that saves as soon as you flip it, and each shows the exact wording your customers will get.
+
+**To your customers:**
+
+| Email | When it's sent | Never sent |
+|---|---|---|
+| **Confirm we got their email** | A customer emails you and a new ticket opens | For tickets your team starts, for form submissions (the form's own confirmation handles those), or to automated senders such as no-reply addresses, bounce messages, and out-of-office replies |
+| **Tell them when their ticket is resolved** | A ticket is marked resolved | For conversations your team started |
+
+**To your team:**
+
+| Email | Who gets it |
+|---|---|
+| **A ticket is assigned to someone** | The person it was assigned to (not when they assign it to themselves) |
+| **A customer replies** | The person the ticket is assigned to |
+
+Your team is also notified inside the app either way, so turning a team email off doesn't mean anyone misses anything.
+
+**Replies your team writes always go out.** Someone chose to send those, so no switch stops them.
+
+### Turning Off Automatic Emails for One Person
+
+Sometimes one contact shouldn't get automatic emails: a partner who emails you often, a shared mailbox, or someone who asked you to stop. Open their contact (**Contacts**, then click their name) and set **Helpdesk > Automatic Emails** to **Off**. They stop getting the confirmation and "resolved" emails; your team's replies still reach them.
+
+> **Tip:** Automatic emails also carry a standard "this is an automatic message" marker, so a customer's own out-of-office reply doesn't answer them and start a back-and-forth.
+
+---
 
 ---
 

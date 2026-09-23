@@ -1,6 +1,6 @@
 # Contacts Management
 
-**Last verified:** 2026-09-23 11:41am
+**Last verified:** 2026-09-23 11:55am
 
 Contacts are your audience database in WebNesting. Every person who submits a form on your website, signs up for your newsletter, or is imported from a spreadsheet becomes a contact. Use the Contacts system to keep track of who your audience is, organize them into lists, and connect them to your marketing, forms, and support tools.
 
@@ -89,6 +89,10 @@ If you use the Marketing product, each contact also has an email subscription st
 - **Pending** -- The contact has not opted in to workspace-wide email (this is the starting status).
 
 You can change it with the **Email Status** control in the Marketing panel of the contact's page. Setting someone to **Subscribed** is what makes them reachable by workspace-wide campaigns, so only do it for people who have genuinely agreed to hear from you.
+
+### Helpdesk Automatic Emails
+
+If you use the Helpdesk, each contact's page has a **Helpdesk** panel with an **Automatic Emails** setting. Set it to **Off** and that person stops getting the Helpdesk's automatic emails: the "we got your message" confirmation and the "your ticket is resolved" notice. Replies your team writes still reach them. The workspace-wide switches for these emails are in **Helpdesk > Settings > Email** (see [Helpdesk](helpdesk.md#automatic-emails)).
 
 ### Activity Timeline
 
