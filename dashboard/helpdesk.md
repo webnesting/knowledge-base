@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-09-22 9:57am
+**Last verified:** 2026-09-23 9:51am
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -240,13 +240,15 @@ Canned responses are pre-written replies you can save and reuse when responding 
 
 1. Go to the **Canned Responses** section in the Helpdesk settings.
 2. Click **Create** to add a new response.
-3. Give it a name and a shortcut (a short keyword you can type to quickly insert the response).
+3. Give it a name and a shortcut (a short keyword that helps you find the response quickly when you search the Canned Responses menu).
 4. Write the response text. Type `{{` anywhere in the body to insert a placeholder that fills itself in when you use the response: the customer's first name, last name, full name, or email; the ticket number or subject; or your own name. For example, "Hi {{first_name}}, thanks for reaching out about #{{ticket_number}}." If we don't know the customer's name, `{{first_name}}` becomes "there".
 5. Save the canned response.
 
 ### Using a Canned Response
 
-When replying to a ticket, you can insert a canned response by selecting it from the canned response menu or by typing its shortcut. The response text is inserted into your reply with any placeholders already filled in from that ticket -- the customer's name, the ticket number, your name -- so what you see is what will be sent. You can still edit it before sending.
+When replying to a ticket, open the **Canned Responses** menu below the reply box and pick a response. Type in the menu's search box to find one by its name or its shortcut. The response text goes into your reply with any placeholders already filled in from that ticket -- the customer's name, the ticket number, your name -- so what you see is what will be sent. You can still edit it before sending.
+
+> **Note:** Picking a canned response replaces whatever is already in the reply box, so choose the response first and add your own words after.
 
 > **Tip:** Create canned responses for your most frequently asked questions. Common examples include password reset instructions, refund policies, shipping information, and "Thank you for contacting us" greetings.
 
