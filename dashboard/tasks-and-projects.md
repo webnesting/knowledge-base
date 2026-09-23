@@ -87,6 +87,8 @@ This view is great for:
 
 The Timeline view shows your tasks on a horizontal timeline, similar to a Gantt chart. Tasks appear as bars spanning from their start date to their due date.
 
+Bars for open tasks are colored by priority (Urgent, High, Normal, Low). Finished tasks show as green when their status counts as Done, or dark gray when it counts as Closed. The legend under the timeline shows every color.
+
 This view is great for:
 
 - Understanding how tasks overlap and relate to each other in time
