@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-09-23 9:51am
+**Last verified:** 2026-09-23 10:02am
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -86,6 +86,18 @@ Every ticket has a status that shows where it is in the support process:
 - **Closed** -- The ticket is complete and no further action is needed
 
 To change a ticket's status, open the ticket and select the new status from the status dropdown. Update the status as you make progress so your team always knows where things stand.
+
+### Customizing Statuses and Categories
+
+Every status belongs to a **category**, and each category **counts as** one of three things: **Open** (still being worked on -- shows in the Open tab and your team's counts), **Done** (resolved), or **Closed** (finished without being resolved, like a duplicate). Tickets whose status counts as Done or Closed appear in the **Closed** tab.
+
+Go to **Helpdesk > Settings > Statuses** to change them:
+
+- **Add a status** -- click **+ Add status**, name it (for example "Waiting on Customer"), pick its **Category**, and choose a color.
+- **Edit a status** -- open the menu on its row and choose **Edit**. Moving a status into a category that counts differently moves every ticket in it too.
+- **Categories** -- click **+ Add category** to create one, give it a color, and choose what it **counts as**. Rename, recolor, or change an existing one from the menu on its row. A category that still has statuses can't be deleted.
+
+If you also use Tasks, a category can be shared by both: tick **Also use in Tasks**. Shared categories show a **Tasks** label, and changes to them apply in both places.
 
 ### Setting Priority
 

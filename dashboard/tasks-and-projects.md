@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-09-22 11:54am
+**Last verified:** 2026-09-23 10:02am
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -128,15 +128,28 @@ Every task has several properties you can set to keep your work organized.
 
 ### Status
 
-Each task has a status that shows where it is in your workflow. Statuses fall into three categories:
+Each task has a status that shows where it is in your workflow -- for example **To Do**, **In Progress**, or **Done**. Every status belongs to a **category**, and each category **counts as** one of three things:
 
-- **To Do** -- The task has not been started yet
-- **In Progress** -- Someone is actively working on the task
-- **Done** -- The task is finished
-
-You can customize the specific statuses available in each project. For example, you might add statuses like "In Review" or "Waiting for Feedback" under the In Progress category.
+- **Open** -- Still being worked on. Open tasks show in your task lists, My Work, and Unclaimed.
+- **Done** -- Finished, and the work was completed. Done tasks count toward a project's progress.
+- **Closed** -- Finished without being completed, like "won't do" or a duplicate.
 
 To change a task's status, click the status badge on the task and select a new status. You can also drag the task to a different column in the Board view.
+
+### Customizing Statuses and Categories
+
+Go to **Tasks > Settings > Global Statuses** to shape your workflow.
+
+**To add a status:**
+1. Click **+ Add status**.
+2. Give it a name (for example "Waiting for Feedback"), pick its **Category**, and choose a color.
+3. Click **Save**.
+
+**To change a status**, open the menu on its row and choose **Edit**. If you move a status into a category that counts differently, every task in that status moves with it -- for example, moving "Waiting for Feedback" into a category that counts as Closed closes those tasks.
+
+**Categories** are listed below your statuses. Click **+ Add category** to create one (for example "Blocked"), give it a color, and choose what it **counts as** -- Open, Done, or Closed. You can rename, recolor, or change what an existing category counts as from the menu on its row. A category that still has statuses in it can't be deleted; move its statuses to another category first.
+
+If you also use the Helpdesk, a category can be shared by both: tick **Also use in Helpdesk** when you create or edit it. Shared categories show a **Helpdesk** label, and changes to them apply in both places.
 
 ### Priority
 
@@ -172,7 +185,7 @@ You can set an estimated number of hours for a task to help with planning. This 
 
 ### Completing and Reopening Tasks
 
-When a task is finished, change its status to a Done status to mark it as complete. If you need to revisit a completed task, you can reopen it by changing its status back to a To Do or In Progress status.
+When a task is finished, change its status to one that counts as Done to mark it as complete. If you need to revisit a completed task, you can reopen it by changing its status back to one that counts as Open, such as To Do or In Progress.
 
 ### Deleting a Task
 
