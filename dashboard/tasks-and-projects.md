@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-09-23 10:02am
+**Last verified:** 2026-09-23 10:43am
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -38,6 +38,15 @@ Every project has one of three statuses:
 - **Active** -- The project is currently being worked on. This is the default status for new projects.
 - **Completed** -- The project is finished. You can mark a project as completed when all work is done.
 - **Archived** -- The project is no longer active but you want to keep it for reference. Archived projects are hidden from your main project list but can be viewed when you need them.
+
+### Project Settings
+
+Each project has its own settings page. Open the project and click the **gear icon** (Project settings) at the top right, next to the view switcher. The page has four tabs:
+
+- **General** -- The project's name, description, color, which view it opens in (Board, List, Timeline, or Calendar), start and target dates, its status (Active, Completed, or Archived), and the teams it belongs to. Click **Save** when you're done.
+- **Statuses** -- The steps tasks in this project move through. See [Customizing Statuses and Categories](#customizing-statuses-and-categories).
+- **Milestones** -- The project's key dates. See [Milestones](#milestones).
+- **Custom fields** -- Extra fields that appear only on this project's tasks. See [Custom Fields](#custom-fields).
 
 ---
 
@@ -140,7 +149,12 @@ To change a task's status, click the status badge on the task and select a new s
 
 ### Customizing Statuses and Categories
 
-Go to **Tasks > Settings > Global Statuses** to shape your workflow.
+Every project has its own list of statuses, so one project can use "To Do / Designing / Review / Done" while another uses "Open / Waiting on Client / Done".
+
+- **A project's statuses** are on its settings page: open the project, click the **gear icon**, and choose the **Statuses** tab. Changes there only affect that project.
+- **Your default statuses** are in **Tasks > Settings > Global Statuses**. A new project starts with a copy of this list; after that, changing the defaults does not change existing projects. Tasks that aren't in any project use these statuses too.
+
+The steps below work the same in both places.
 
 **To add a status:**
 1. Click **+ Add status**.
@@ -149,7 +163,7 @@ Go to **Tasks > Settings > Global Statuses** to shape your workflow.
 
 **To change a status**, open the menu on its row and choose **Edit**. If you move a status into a category that counts differently, every task in that status moves with it -- for example, moving "Waiting for Feedback" into a category that counts as Closed closes those tasks.
 
-**Categories** are listed below your statuses. Click **+ Add category** to create one (for example "Blocked"), give it a color, and choose what it **counts as** -- Open, Done, or Closed. You can rename, recolor, or change what an existing category counts as from the menu on its row. A category that still has statuses in it can't be deleted; move its statuses to another category first.
+**Categories** are shared across your whole workspace, so they are edited only in **Tasks > Settings > Global Statuses**, listed below your statuses. Click **+ Add category** to create one (for example "Blocked"), give it a color, and choose what it **counts as** -- Open, Done, or Closed. You can rename, recolor, or change what an existing category counts as from the menu on its row. A category that still has statuses in it can't be deleted; move its statuses to another category first.
 
 If you also use the Helpdesk, a category can be shared by both: tick **Also use in Helpdesk** when you create or edit it. Shared categories show a **Helpdesk** label, and changes to them apply in both places.
 
@@ -243,15 +257,30 @@ Milestones are key deadlines or checkpoints within a project. They mark importan
 
 Unlike tasks, milestones do not represent work to be done. They represent a point in time that your project is working toward.
 
-To add a milestone:
+Milestones belong to one project. To add a milestone:
 
-1. Open your project.
-2. Look for the **Milestones** section.
-3. Click **Add Milestone** and set a name and date.
+1. Open your project and click the **gear icon** (Project settings) at the top right.
+2. Choose the **Milestones** tab.
+3. Type a name, pick a target date, and click **Add**.
+
+To mark a milestone as reached, click the diamond next to its name -- it turns into a check mark and the name is crossed out. Click it again to reopen it. Use **Edit** or **Delete** on the milestone's row to change or remove it. A milestone whose date has passed while it's still open shows its date in red.
 
 Milestones appear on the Timeline view as markers, making it easy to see how your tasks relate to upcoming deadlines.
 
 > **Tip:** Use milestones to break a long project into phases. They give your team clear targets to work toward and make progress easier to measure.
+
+---
+
+## Custom Fields
+
+Custom fields let you track extra details on tasks, like a budget, a client name, or a link to a design file. They appear in the details sidebar when you open a task.
+
+- **Fields for every task** -- Go to **Tasks > Settings > Custom Fields**.
+- **Fields for one project only** -- Open the project, click the **gear icon**, and choose the **Custom fields** tab. These fields show only on that project's tasks, so a "Budget" field for one client project doesn't clutter everyone else's tasks.
+
+To add a field, click **Add Column**, give it a display name, choose its type (text, number, date, dropdown, and more), and click **Create Column**. Two projects can each have a field with the same name, but a project field can't share a name with a field every task already has.
+
+> **Note:** Adding or changing custom fields requires permission to change workspace settings. If you don't have it, you'll see a short note instead of the field editor -- ask a workspace owner or admin.
 
 ---
 
@@ -317,15 +346,14 @@ Each task also has an activity log that automatically records every change made 
 
 If you have a project structure you want to reuse -- for example, a recurring client onboarding process or a monthly reporting workflow -- you can clone an existing project.
 
-When you clone a project, a new project is created with the same structure. You can choose to include milestones in the clone. Task assignees, dates, and statuses start fresh in the new project so you can set them up for the new round of work.
+When you clone a project, a new project is created with the same setup: its description, color, and default view, its statuses, its milestones, and its own custom fields. Tasks are not copied, so the new project starts empty and ready for the new round of work.
 
 To clone a project:
 
-1. Open the project you want to duplicate.
-2. Look for the **Clone** option in the project settings or menu.
-3. Choose whether to include milestones.
-4. Give the new project a name.
-5. Click **Clone**.
+1. Click **Tasks** in your workspace sidebar, then **All Projects**.
+2. Click **Clone** on the project you want to duplicate.
+3. Give the new project a name.
+4. Click **Clone**.
 
 ---
 
