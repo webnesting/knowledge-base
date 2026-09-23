@@ -1,6 +1,6 @@
 # Navigating the Dashboard
 
-**Last verified:** 2026-09-08 9:23am
+**Last verified:** 2026-09-23 10:34am
 
 The Dashboard is your home base for managing one site in WebNesting. It is where you handle that site's pages, settings, content, and analytics. (Workspace-level features like billing, team members, helpdesk, marketing, and tasks live in your workspace -- see the **Workspaces** card in your account portal.)
 
@@ -65,6 +65,8 @@ The toolbar runs across the top of every page. It holds the controls you reach f
 
 The left sidebar is your main way to get around the Dashboard. It contains links to every section of your site management tools.
 
+The sidebar belongs to a workspace, so it only appears once you are inside one. Pages outside a workspace -- your home page listing all your workspaces, and your account pages -- use the full width with no sidebar. To reach your profile or security settings from anywhere, click your avatar (top right) and choose **Manage Account**.
+
 ### How the Sidebar Works
 
 The sidebar has two parts: a narrow **icon rail** that is always visible, and a **panel** that opens beside it with the links for whichever area you are in.
@@ -77,7 +79,7 @@ On phones and tablets, tap a rail icon to open its panel, then tap a link or tap
 
 ### What Is on the Rail
 
-- **Home** -- Your workspace overview, recent activity, and account links
+- **Home** -- Your workspace overview, recent activity, and a link back to all your workspaces
 - **Sites** -- Every site in the workspace; expand one to reach that site's own menu
 - **Contacts** -- Your workspace contact database
 - **Marketing**, **Helpdesk**, **Tasks** -- These appear only if the matching workspace product is enabled
@@ -237,7 +239,7 @@ Moving between sections is straightforward:
 
 1. Click any item in the **left sidebar** to go to that section.
 2. If a section has sub-items (shown by a small arrow), click the section name to expand it, then click the specific item you want.
-3. To go back to the Dashboard home screen, click the **WebNesting logo or name** at the top of the sidebar.
+3. To go back to the Dashboard home screen, click the **WebNesting logo or name** at the top left of the toolbar.
 
 You can also navigate using any links within the page content. For example, clicking a page name in the Pages section will open that page's settings.
 

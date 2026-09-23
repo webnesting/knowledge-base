@@ -1,6 +1,6 @@
 # Your Account Portal
 
-**Last verified:** 2026-09-05 6:23pm
+**Last verified:** 2026-09-23 10:34am
 
 Your account portal is where you manage personal account details and jump into your workspaces. Workspaces are where your websites, billing, usage, team members, and workspace-level features live.
 
@@ -12,11 +12,13 @@ When you open your account portal, you'll see three cards. If you don't have a w
 
 ### Profile
 
-This is where your personal information lives. You can view and update:
+This is where your personal information lives. The page opens with your account details (like when your account was created), then lets you update:
 
+- **Profile picture**
 - **First name** and **last name**
 - **Email address**
-- **Phone number**
+- **Phone number**, **date of birth**, and **gender**
+- **Timezone** -- used for scheduling and notifications
 
 ### Security
 
@@ -45,7 +47,7 @@ Lists every workspace you belong to. Click a workspace to open it. From inside a
 1. Go to your account portal.
 2. Click the **Profile** card.
 3. Change the information you want to update.
-4. Click **Save** to apply your changes.
+4. Click **Save Changes** at the bottom right to apply your changes.
 
 ---
 
@@ -74,4 +76,4 @@ These are three different places, and it's helpful to understand the difference.
 
 In short: the account portal is about **you**, a workspace is about a **group of sites and people**, and a site dashboard is about **one website**.
 
-> **Tip:** You can always get back to your account portal by clicking your name or avatar in the top-right corner of any page.
+> **Tip:** You can always get back to your account portal by clicking your avatar in the top-right corner of any page and choosing **Manage Account**. The account portal has no left sidebar -- the sidebar belongs to a workspace, so it appears once you open one.
