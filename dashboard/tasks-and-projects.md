@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-09-23 11:41am
+**Last verified:** 2026-09-23 12:16pm
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -293,24 +293,29 @@ Time tracking lets your team log the hours they spend on tasks. This is useful f
 To log time on a task:
 
 1. Open the task you worked on.
-2. Look for the **Time Tracking** section.
-3. Click **Log Time**.
-4. Enter the number of hours spent.
-5. Optionally add a description of what you worked on.
-6. Mark the time as **billable** if it should be billed to a client.
-7. Save your time entry.
+2. Find **Time Tracked** in the task's sidebar and click **Log Time**.
+3. Enter the **Hours** (quarter hours work, like 1.25) and the **Day** you did the work. The day starts as today.
+4. Optionally say **What was it for?**
+5. Tick **Billable** if the time should be billed to a client. The next time you log on the same task, this starts the way you left it.
+6. Click **Log Time**.
 
-You can log multiple time entries on the same task -- one for each work session.
+You can log several entries on the same task, one for each work session. Each entry shows who logged it and whether it's billable. To fix a mistake, open the **⋮** menu on the entry and choose **Edit** or **Delete**.
 
-### Time Reports
+### Estimates
 
-Time reports give you a summary of time logged across your workspace. You can filter time reports by:
+Enter an **Estimate (hours)** under Time Tracked to say how long a task should take. The sidebar then shows the time logged against it (for example, "3.5h of 8h estimated") with a bar that turns amber and then red as you approach and pass the estimate. Estimates also appear in the **Est. Hours** column of the task list.
 
-- **Team member** -- See how much time each person has logged
-- **Project** -- See how much time has been spent on a specific project
-- **Date range** -- Focus on a specific time period
+### Time Report
 
-Time reports help you understand where your team's effort is going and whether projects are staying on track.
+Open **Time Report** under **Reports** in the Tasks sidebar to see the hours your team logged.
+
+- **Totals** at the top: total, billable, and non-billable hours, and the number of entries.
+- **By Project** and **By Person** break the hours down. Time on tasks that aren't in a project shows as **No project**.
+- **Time Entries** lists every entry, newest first. Click a task name to open it, or use the **⋮** menu to edit or delete an entry.
+
+The report opens on **This month**. Click **Filters** to change the **Period** (this week, last week, this month, last month, the last 30 days, this year, all time, or your own dates), or to narrow it to one **Project**, one **Person**, or only billable or non-billable time. Filters apply as you pick them, and they're kept in the page address, so you can bookmark a report or send the link to a teammate.
+
+Click **Export CSV** to download every entry the report is showing as a spreadsheet (date, person, project, task, hours, billable, and notes), for invoicing or payroll. The download always includes every matching entry, not just the page on screen.
 
 ---
 
