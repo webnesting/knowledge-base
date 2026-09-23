@@ -1,6 +1,6 @@
 # Welcome to WebNesting
 
-**Last verified:** 2026-09-05 3:01pm
+**Last verified:** 2026-09-23 10:40am
 
 Thanks for choosing WebNesting! This guide will help you get comfortable with the platform and show you everything you need to know to start building your website.
 
@@ -71,10 +71,10 @@ The Builder opens in its own view so you can focus entirely on designing your pa
 
 ![The WebNesting login screen](../images/getting-started/login-page.png)
 
-4. Click the **Login** button.
+4. Click the **Sign in** button.
 5. If you have two-factor authentication turned on, you will be asked to enter a verification code. Check your authenticator app or email for the code, then enter it on the screen. You can set up two-factor authentication from the Security card in your account portal.
 
-> **Tip:** Check the "Remember Me" box on the login page if you want to stay logged in on this device. This saves you from typing your password every time.
+> **Tip:** Check the "Keep me signed in" box on the sign-in page if you want to stay logged in on this device. This saves you from typing your password every time.
 
 If you have forgotten your password, click **Forgot Password** on the login screen. You will receive an email with a link to create a new one.
 

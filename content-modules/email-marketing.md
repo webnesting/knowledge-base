@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-09-17 2:21pm
+**Last verified:** 2026-09-23 10:42am
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -367,9 +367,9 @@ Your website automatically includes an unsubscribe page at a special URL. When c
 
 The unsubscribe page shows:
 - Their email address.
-- An optional text field for feedback.
-- A button to confirm unsubscription.
-- A success message after unsubscribing.
+- Each of your mailing lists with a checkbox, so they can stay on some lists and leave others, and a **Save Preferences** button.
+- An **Unsubscribe from all communications** link, which opens an optional "Why are you unsubscribing?" box and an **Unsubscribe from Everything** button.
+- A confirmation message once they're done.
 
 > **Tip:** You cannot re-subscribe someone who has unsubscribed. They must sign up again themselves. This is a legal requirement in most countries.
 

@@ -1,6 +1,6 @@
 # Your Account and Security
 
-**Last verified:** 2026-09-05 3:14pm
+**Last verified:** 2026-09-23 10:40am
 
 Your WebNesting account is the key to everything you build. This guide walks you through signing in, protecting your account, and what to do if something goes wrong.
 
@@ -11,12 +11,12 @@ Your WebNesting account is the key to everything you build. This guide walks you
 1. Go to the WebNesting app sign-in page.
 2. Enter your **email address** in the first field.
 3. Enter your **password** in the second field.
-4. If you want to stay signed in, check the **Remember Me** box.
-5. Click the **Login** button.
+4. If you want to stay signed in, check the **Keep me signed in** box.
+5. Click the **Sign in** button.
 
 You will be taken to your dashboard after signing in.
 
-> **Tip:** If you check "Remember Me," you won't need to enter your password every time you visit. Only use this on devices you trust.
+> **Tip:** If you check "Keep me signed in," you won't need to enter your password every time you visit. Only use this on devices you trust.
 
 ---
 
@@ -109,17 +109,17 @@ That's it. The next time you sign in, a 6-digit code will be sent to your email.
 
 Once 2FA is turned on, the sign-in process adds one extra step:
 
-1. Enter your email and password as usual and click **Login**.
-2. You will see a verification screen asking for a code.
+1. Enter your email and password as usual and click **Sign in**.
+2. You will see an **Enter your sign-in code** screen.
 3. Get your code:
    - **If using an authenticator app:** Open the app on your phone and find the current 6-digit code.
    - **If using email:** Check your inbox for an email with your 6-digit code.
-4. Type the code into the **Verification Code** field.
-5. Click **Verify**.
+4. Type the code into the **6-digit code** field.
+5. Click **Verify and sign in**.
 
-If you have both methods enabled, you will see a link to switch between them. For example, if the page asks for your authenticator code, you can click **Use email code instead** to get a code by email.
+If you have both methods enabled, you will see a link to switch between them. For example, if the page asks for your authenticator code, you can click **Email me a code instead** to get a code by email, or **Use my authenticator app instead** to switch back.
 
-> **Tip:** If your email code doesn't arrive, click the **Resend Code** button at the bottom of the verification page to get a fresh code.
+> **Tip:** If your email code doesn't arrive, click **Send a new code** below the form to get a fresh one.
 
 ### Setting Your Preferred 2FA Method
 
@@ -137,9 +137,9 @@ When you set up the authenticator app, WebNesting generates **8 recovery codes**
 
 **To use a recovery code:**
 
-1. On the 2FA verification screen, click **Use a recovery code**.
-2. Enter one of your saved recovery codes.
-3. Click **Verify**.
+1. On the **Enter your sign-in code** screen, click **Can't get a code? Use a recovery code**.
+2. Enter one of your saved recovery codes in the **Recovery code** field.
+3. Click **Verify and sign in**.
 
 Each recovery code can only be used once. After using one, it is removed from your list. Store your recovery codes in a safe place, such as a password manager or a printed copy in a secure location.
 
@@ -196,11 +196,10 @@ You can also go the other direction. If you are signed in to your WebNesting acc
 To sign out of your account:
 
 1. Click your avatar in the top-right corner and choose **Sign out**.
-2. Click **Logout**.
 
-You will be returned to the login page. If you checked "Remember Me," you may still need to click Logout to fully end your session.
+You will be signed out and returned to the sign-in page -- this also ends "Keep me signed in" on that device.
 
-> **Tip:** Always log out when using a shared or public computer to keep your account safe.
+> **Tip:** Always sign out when using a shared or public computer to keep your account safe.
 
 ---
 
