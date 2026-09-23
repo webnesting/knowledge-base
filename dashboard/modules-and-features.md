@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-09-22 2:20pm
+**Last verified:** 2026-09-23 12:24pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -132,7 +132,6 @@ What you get when you enable it:
 - A **Marketing** section in your workspace sidebar for managing contacts, lists, tags, campaigns, templates, and settings
 - An **Email Signup** component in the website builder for adding newsletter signup forms to any page
 - Contact import from CSV files
-- Double opt-in email confirmation
 - Automatic unsubscribe handling
 
 Your first **10,000 marketing emails each month are free**. After that, sending costs **$0.70 per 1,000 emails**. Workspace contacts are billed separately, once for the whole workspace, at $10 per 1,000 contacts per month (first 500 free).

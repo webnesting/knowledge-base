@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-09-23 10:42am
+**Last verified:** 2026-09-23 12:24pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -70,7 +70,7 @@ At the top of your contact list, you will see filter tabs to quickly narrow down
 - **Subscribed** -- Contacts who are actively receiving your communications.
 - **Unsubscribed** -- Contacts who have opted out.
 - **Bounced** -- Contacts whose email addresses are not deliverable.
-- **Pending** -- Contacts who have signed up but have not yet confirmed their email (when double opt-in is enabled).
+- **Pending** -- Contacts who haven't agreed to workspace-wide marketing email yet (every contact starts here). They don't receive workspace-wide campaigns until you mark them **Subscribed** on their contact page.
 
 ### Creating a Contact Manually
 
@@ -316,38 +316,6 @@ For the smoothest import experience:
 
 ---
 
-## Double Opt-In
-
-Double opt-in is an extra confirmation step that ensures contacts genuinely want to receive your emails. When enabled, new contacts who sign up through your website will receive a confirmation email with a link they must click before they are fully subscribed.
-
-### How Double Opt-In Works
-
-1. A visitor signs up through your website (via the signup form or a regular form).
-2. Their status is set to **Pending** instead of Subscribed.
-3. They receive an email with a confirmation link.
-4. When they click the link, their status changes to **Subscribed**.
-5. If they do not click the link, they remain in Pending status and will not receive your marketing emails.
-
-### Enabling Double Opt-In
-
-1. Click **Settings** under the Marketing section.
-2. Find the **Double Opt-In** setting.
-3. Set it to enabled.
-4. Save your settings.
-
-### Why Use Double Opt-In?
-
-Double opt-in helps you in several ways:
-
-- **Better deliverability** -- Since every subscriber has confirmed their email, you are less likely to send to invalid addresses that cause bounces.
-- **Legal compliance** -- Many countries require explicit consent for marketing emails. Double opt-in provides clear proof of consent.
-- **Higher engagement** -- Confirmed subscribers are genuinely interested in your content, which leads to better open and click rates.
-- **Spam protection** -- Prevents people from signing up others without their consent.
-
-> **Tip:** Double opt-in is recommended for most websites. While it adds an extra step for subscribers, the contacts you get are higher quality and more engaged.
-
----
-
 ## Unsubscribe Handling
 
 Every contact has the right to unsubscribe from your communications. The Email Marketing module handles this automatically.
@@ -377,33 +345,11 @@ The unsubscribe page shows:
 
 ## Marketing Settings
 
-The Settings page lets you configure defaults for your email marketing. These settings affect how emails are sent and what information appears in them.
+Click **Settings** under the Marketing section. The page has three tabs:
 
-### Configuring Your Settings
-
-1. Click **Settings** under the Marketing section.
-2. Update any of the following:
-
-**Sender Information:**
-- **From Name** -- The name that appears in the "From" field of your emails. Use your business name or a person's name that recipients will recognize.
-- **From Email** -- The email address your marketing emails are sent from.
-- **Reply To** -- The email address that receives replies to your marketing emails. This can be different from the From email.
-- **Sending Domain** -- The domain used for signing your marketing emails. See [Setting Up Your Sending Domain](#setting-up-your-sending-domain) below.
-
-**Sending Limits:**
-- **Daily Limit** -- The maximum number of emails your site can send per day. This helps prevent accidental mass emails and keeps your sending reputation healthy.
-
-**Confirmation:**
-- **Double Opt-In** -- Enable or disable the double opt-in confirmation requirement for new subscribers.
-
-**Legal Compliance:**
-- **Company Name** -- Your business name, included in the footer of marketing emails as required by anti-spam laws.
-- **Company Address** -- Your physical mailing address, also required in marketing email footers by laws like CAN-SPAM.
-- **Unsubscribe Page** -- The page on your site where the unsubscribe link should point.
-
-3. Save your settings.
-
-> **Tip:** Anti-spam laws (like CAN-SPAM in the United States) require that marketing emails include your company name, physical address, and an unsubscribe link. Make sure to fill in the Company Name and Company Address fields.
+- **Senders** -- The addresses your campaigns and automations are sent from. Click **+ Add Sender** to set one up. It's the same setup as **Workspace Settings > Email**, so a sender you add in either place shows up in both. See [Setting Up Your Sending Domain](#setting-up-your-sending-domain) below.
+- **Email Footer** -- Your **Company Name** and **Company Address**. Anti-spam laws (like CAN-SPAM in the United States) require every marketing email to say who sent it and give a physical mailing address, so we add these to the bottom of every campaign and automation email, followed by **Unsubscribe** and **Manage Preferences** links. The tab shows a preview of that footer as you type, and a warning while either field is empty. Click **Save Settings** when you're done.
+- **Custom Fields** -- **Campaign Fields** are extra details you can fill in on every campaign. **Per-Recipient Fields** are details recorded for each person a campaign goes to. Click **Add Field** to create one; fields save as soon as you create them.
 
 ---
 
@@ -432,7 +378,7 @@ Marketing's sending domain uses the same domain-verification flow as Helpdesk's 
 4. Check the **I control DNS for this domain** confirmation box.
 5. We register your domain with our email provider and show you DNS records to publish — DKIM signing keys, a bounce subdomain (MAIL FROM), SPF, and DMARC.
 6. Publish at your DNS provider. Click **Verify now** until everything resolves (typically 5-15 minutes).
-7. Back in Marketing → Settings, set the **Sending Domain** to the verified domain.
+7. Once it's verified, your campaigns can send from it. You can also start this setup from **Marketing > Settings > Senders > + Add Sender**; it's the same setup.
 
 > **Full walkthrough:** See the [Helpdesk email setup guide](../dashboard/helpdesk.md#connecting-your-email) for the complete decision matrix (Options 0-5) and detailed DNS step-by-step. The same domain verification works for both Marketing and Helpdesk.
 
@@ -477,7 +423,7 @@ The Email Marketing module handles the unsubscribe link automatically. Make sure
 
 ### GDPR Compliance
 
-If you serve customers in the European Union, the General Data Protection Regulation (GDPR) requires explicit consent before sending marketing emails. Using double opt-in helps demonstrate that contacts have clearly and actively consented to receive your communications.
+If you serve customers in the European Union, the General Data Protection Regulation (GDPR) requires explicit consent before sending marketing emails. Only mark a contact **Subscribed** when they have clearly agreed to hear from you, and use signup forms that say what people are signing up for. WebNesting does not currently send a confirmation ("double opt-in") email when someone signs up.
 
 > **Tip:** While WebNesting provides tools to help with compliance, you are responsible for ensuring your email marketing practices meet the legal requirements in your jurisdiction. Consult a legal professional if you are unsure about your obligations.
 
