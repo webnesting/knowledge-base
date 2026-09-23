@@ -1,6 +1,6 @@
 # Marketing Automations
 
-**Last verified:** 2026-09-22 5:03pm
+**Last verified:** 2026-09-22 11:43pm
 
 Marketing automations let you create set-it-and-forget-it workflows that send emails, update contacts, and perform actions automatically when something happens. Instead of manually sending a welcome email every time someone signs up, or remembering to tag contacts after an event, you build the workflow once and let it run on its own.
 
@@ -104,6 +104,8 @@ Conditions can check things like:
 - **In list** -- Is the contact currently on a specific mailing list?
 
 This lets you create personalized experiences -- for example, sending a reminder only to contacts who did not open the first email, or offering a special deal to contacts who clicked a product link.
+
+> **Not switched on yet:** for now an automation stops when it reaches a Condition step -- any steps you place after it will not run. Keep your automations to a straight line of steps (emails, waits, tags, lists, field updates) until branching is turned on; you can still save a workflow that includes a condition, it just ends there.
 
 ### Add Tag
 
