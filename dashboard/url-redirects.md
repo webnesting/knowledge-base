@@ -1,6 +1,6 @@
 # URL Redirects
 
-**Last verified:** 2026-09-02 1:58pm
+**Last verified:** 2026-09-23 11:41am
 
 Sometimes you need to change a page's web address, or you want to point an old address to a new one. Redirects make sure that anyone who visits the old address is automatically sent to the right place -- no dead ends, no error pages.
 
@@ -86,7 +86,7 @@ You can change any redirect at any time.
 
 1. Go to the **Redirects** section.
 2. Find the redirect you want to change in the list.
-3. Click on it, or click the **Edit** button next to it.
+3. Click on it, or open the **⋮** menu at the end of its row and choose **Edit**.
 4. Update the source URL, destination, or redirect type as needed.
 5. Save your changes.
 
@@ -100,7 +100,7 @@ If a redirect is no longer needed, you can remove it.
 
 1. Go to the **Redirects** section.
 2. Find the redirect you want to remove.
-3. Click the **Delete** button next to it.
+3. Open the **⋮** menu at the end of its row and choose **Delete**.
 4. Confirm that you want to delete it.
 
 Once deleted, visitors who go to the old source URL will no longer be redirected. They will see your site's standard "Page Not Found" message instead.

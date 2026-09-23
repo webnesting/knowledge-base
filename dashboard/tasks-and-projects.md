@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-09-23 10:43am
+**Last verified:** 2026-09-23 11:41am
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -157,7 +157,7 @@ Every project has its own list of statuses, so one project can use "To Do / Desi
 The steps below work the same in both places.
 
 **To add a status:**
-1. Click **+ Add status**.
+1. Click **+ Add Status**.
 2. Give it a name (for example "Waiting for Feedback"), pick its **Category**, and choose a color.
 3. Click **Save**.
 
@@ -205,7 +205,7 @@ When a task is finished, change its status to one that counts as Done to mark it
 
 ### Deleting a Task
 
-To remove a task entirely, open it and click **Delete task** at the bottom of the details sidebar. You'll be asked to confirm — deleting a task also removes its subtasks, comments, and dependencies, and can't be undone. If you only want to hide a finished task, move it to a Done status instead.
+To remove a task entirely, open it and click **Delete Task** at the bottom of the details sidebar. You'll be asked to confirm — deleting a task also removes its subtasks, comments, and dependencies, and can't be undone. If you only want to hide a finished task, move it to a Done status instead.
 
 ---
 
@@ -263,7 +263,7 @@ Milestones belong to one project. To add a milestone:
 2. Choose the **Milestones** tab.
 3. Type a name, pick a target date, and click **Add**.
 
-To mark a milestone as reached, click the diamond next to its name -- it turns into a check mark and the name is crossed out. Click it again to reopen it. Use **Edit** or **Delete** on the milestone's row to change or remove it. A milestone whose date has passed while it's still open shows its date in red.
+To mark a milestone as reached, click the diamond next to its name -- it turns into a check mark and the name is crossed out. Click it again to reopen it. Open the **⋮** menu at the end of a milestone's row and choose **Edit** or **Delete** to change or remove it. A milestone whose date has passed while it's still open shows its date in red.
 
 Milestones appear on the Timeline view as markers, making it easy to see how your tasks relate to upcoming deadlines.
 

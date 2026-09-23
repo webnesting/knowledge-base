@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-09-23 10:02am
+**Last verified:** 2026-09-23 11:41am
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -93,9 +93,9 @@ Every status belongs to a **category**, and each category **counts as** one of t
 
 Go to **Helpdesk > Settings > Statuses** to change them:
 
-- **Add a status** -- click **+ Add status**, name it (for example "Waiting on Customer"), pick its **Category**, and choose a color.
+- **Add a status** -- click **+ Add Status**, name it (for example "Waiting on Customer"), pick its **Category**, and choose a color.
 - **Edit a status** -- open the menu on its row and choose **Edit**. Moving a status into a category that counts differently moves every ticket in it too.
-- **Categories** -- click **+ Add category** to create one, give it a color, and choose what it **counts as**. Rename, recolor, or change an existing one from the menu on its row. A category that still has statuses can't be deleted.
+- **Categories** -- click **+ Add Category** to create one, give it a color, and choose what it **counts as**. Rename, recolor, or change an existing one from the menu on its row. A category that still has statuses can't be deleted.
 
 If you also use Tasks, a category can be shared by both: tick **Also use in Tasks**. Shared categories show a **Tasks** label, and changes to them apply in both places.
 
@@ -232,7 +232,7 @@ SLA targets can be counted in business hours rather than around the clock. This 
 
 As you edit, a note under the week shows what your hours mean in practice — for example, *"A ticket arriving Friday at 5:00 PM is due Monday at 1:00 PM."* The same note appears on the SLA policy form, so you can see the effect of a target before you save it.
 
-A schedule an SLA policy is using cannot be deleted. Its row shows **In use** instead of a Delete button, and hovering it names the policies you need to point elsewhere first.
+A schedule an SLA policy is using cannot be deleted. Its row shows **In use**, its **⋮** menu has no **Delete**, and hovering **In use** names the policies you need to point elsewhere first.
 
 #### Connecting a schedule to an SLA policy
 
