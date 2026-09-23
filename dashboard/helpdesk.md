@@ -470,6 +470,8 @@ Once you have a verified domain (Option 4) with DMARC enforcement, you can show 
 
 The BIMI section in the wizard tells you which tier you're currently at and what's needed to reach the next one.
 
+---
+
 ## Automatic Emails
 
 Besides the replies your team writes, the Helpdesk sends a few emails on its own. You choose which ones in **Helpdesk > Settings > Email**, under **Automatic emails to customers** and **Automatic emails to your team**. Each is a switch that saves as soon as you flip it, and each shows the exact wording your customers will get.
@@ -497,8 +499,6 @@ Your team is also notified inside the app either way, so turning a team email of
 Sometimes one contact shouldn't get automatic emails: a partner who emails you often, a shared mailbox, or someone who asked you to stop. Open their contact (**Contacts**, then click their name) and set **Helpdesk > Automatic Emails** to **Off**. They stop getting the confirmation and "resolved" emails; your team's replies still reach them.
 
 > **Tip:** Automatic emails also carry a standard "this is an automatic message" marker, so a customer's own out-of-office reply doesn't answer them and start a back-and-forth.
-
----
 
 ---
 
