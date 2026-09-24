@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-09-24 9:19am
+**Last verified:** 2026-09-24 9:45am
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -178,7 +178,7 @@ WebNesting includes fields for the following social media platforms by default:
 - Instagram
 - Pinterest
 
-You can also add more platforms yourself — open **Add another network** at the bottom of the Social Settings page, and enter the network name and your handle or profile link. You only need to fill in the platforms you use. Leave the rest blank.
+You can also add more platforms yourself — open **Add another network** at the bottom of the Social Settings page, and enter the network name and your handle or profile link, then click **Add** (or just **Save Changes** — it saves the new network along with your other changes). Each network name can only be used once. You only need to fill in the platforms you use. Leave the rest blank.
 
 > **Tip:** A link works with or without the `https://` part, and a handle works with or without the `@`. Your site turns each one into a link to your profile.
 
