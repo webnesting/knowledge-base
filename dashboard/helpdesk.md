@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-09-23 10:50pm
+**Last verified:** 2026-09-24 8:04am
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -455,7 +455,17 @@ For Zoho, FastMail, ProtonMail (via Bridge), your own SMTP server, or any provid
 
 ### Multiple inboxes (`support@`, `billing@`, `careers@`)
 
-Add another inbox via the same wizard for each address. Each inbox has its own routing (which team handles tickets), its own inbound source, and its own signature and "we got your message" auto-reply. A ticket always answers from the inbox it arrived on: a customer who wrote to `billing@` gets the billing inbox's auto-reply, your replies go out from `billing@` with its signature, and the ticket is routed to the billing inbox's team. They all share the same workspace-level verified domains + sender identities, so domain-level DNS work only happens once.
+Add another inbox via the same wizard for each address. Each inbox has its own routing (which team handles tickets), its own inbound source, and its own signature and "we got your message" auto-reply. A ticket always answers from the inbox it arrived on: a customer who wrote to `billing@` gets the billing inbox's auto-reply, your replies go out from `billing@` with its signature, and the ticket is routed to the billing inbox's team. Inboxes on the same domain share its DNS setup, so you only publish the records once — and each inbox still sends from its own address.
+
+### Changing an inbox's address
+
+If an inbox uses your own verified domain, you can change the part of its address before the @ — for example from `support@acme.com` to `help@acme.com`:
+
+1. Go to **Settings → Email** and open the inbox (**⋮ → Edit Settings…**).
+2. Under **Email address customers see**, type the new name. The domain stays the one you verified, and the preview on the right shows the new **From:** line.
+3. Click **Save Changes**, then use **Send Test** on the inbox to confirm it works.
+
+Customers reply to this address, so before you switch, make sure mail sent to the new address reaches the inbox the same way mail to the old one does (for example, set up the same forwarding for it). Addresses from Gmail, Outlook, or IMAP accounts come from that account and aren't changed here, and a marketing inbox's sending address follows your domain.
 
 ### What happens when DNS setup isn't finished
 
