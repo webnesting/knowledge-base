@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-09-24 8:21am
+**Last verified:** 2026-09-24 8:53am
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -155,7 +155,7 @@ Add your social media links so they can appear in your site's header, footer, or
 
 1. Go to **Site Settings** and open the **Third Party** section, then click **Social Settings**.
 2. You will see fields for each supported platform.
-3. Paste the full URL of your profile for each platform. For example: `https://www.instagram.com/yourcompany`.
+3. For each platform, enter your handle (like `@yourcompany`) or paste the link to your profile (like `https://www.instagram.com/yourcompany`). Either works.
 4. Save your changes.
 
 ### Default Platforms
@@ -168,9 +168,9 @@ WebNesting includes fields for the following social media platforms by default:
 - Instagram
 - Pinterest
 
-You can also add more platforms yourself — open **Advanced** at the bottom of the Social Settings page, enter the network name and your profile handle. You only need to fill in the platforms you use. Leave the rest blank.
+You can also add more platforms yourself — open **Add another network** at the bottom of the Social Settings page, and enter the network name and your handle or profile link. You only need to fill in the platforms you use. Leave the rest blank.
 
-> **Tip:** Make sure to enter the complete URL for each profile, including the `https://` part. For example, use `https://www.facebook.com/yourpage` rather than just `facebook.com/yourpage`.
+> **Tip:** A link works with or without the `https://` part, and a handle works with or without the `@`. Your site turns each one into a link to your profile.
 
 ---
 
