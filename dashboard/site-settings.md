@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-09-24 9:45am
+**Last verified:** 2026-09-24 9:56am
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -104,56 +104,34 @@ Pick the form that matches how visitors actually reach your site so search engin
 
 ## Google Settings
 
-WebNesting makes it easy to connect your site to Google's tools for tracking visitors and understanding how people use your site. These settings are found under **Connections** in the Settings page.
+**Google Settings** (under **Connections** on the Settings page) adds Google's tracking code to your site and holds the reCAPTCHA keys that protect your forms from spam. It has two sections: **Visitor tracking** and **Spam protection**.
 
-### Connecting Google Analytics
+### Google Analytics and Tag Manager (Visitor tracking)
 
-Google Analytics shows you detailed information about your visitors -- how many people visit, where they come from, which pages they view, and more.
+- **Google Analytics ID** -- your GA4 measurement ID, from Google Analytics → **Admin** → **Data streams**. Type the part after `G-`; the box already shows the `G-`. WebNesting adds Google's tracking code to every page.
+- **Google Tag Manager container** -- your container ID, shown next to the container's name in Tag Manager. Type the part after `GTM-`. Click **Check** to ask Google whether that container exists and is published -- an unpublished container does nothing on your site.
 
-WebNesting supports two ways to connect Google Analytics:
+If you set a Tag Manager container, the Google Analytics ID is not used: add Google Analytics inside Tag Manager instead, so your visitors aren't counted twice.
 
-**Option 1 -- Connect with a Google account (recommended).** This uses OAuth to authorize WebNesting to read your GA4 property data so it can show analytics charts directly in your site dashboard.
+To see Google Analytics numbers inside WebNesting, connect Google Analytics under **Workspace Settings → Integrations** (see [Integrations](integrations.md)). That is separate from the tracking code on this page.
 
-1. Go to **Site Settings** and open the **Connections** section, then click **Google Settings**.
-2. Click the **Connect Google Account** button next to Google Analytics.
-3. Sign in with the Google account that owns your GA4 property and approve the requested access.
-4. Pick the GA4 property you want to connect from the list.
+> **Tip:** It can take 24 to 48 hours for data to start appearing in Google Analytics after you first add your ID.
 
-**Option 2 -- Add the tracking ID manually.** Use this if you only want WebNesting to inject the GA tracking snippet into your pages.
+### reCAPTCHA keys (Spam protection)
 
-1. In the **Google Settings** screen, find the **Analytics Tracking ID** field.
-2. Enter your Google Analytics tracking ID. The input shows a `UA-` prefix for legacy properties; for a modern GA4 property, your measurement ID looks like `G-XXXXXXXX`.
+reCAPTCHA stops bots from submitting your forms. A form uses these keys when its spam protection is set to reCAPTCHA.
+
+1. Go to [google.com/recaptcha/admin](https://www.google.com/recaptcha/admin) and register your site's domain.
+2. Copy the **Site key** into **reCAPTCHA site key**, and the **Secret key** into **reCAPTCHA secret key**.
 3. Save your changes.
 
-If you do not have a Google Analytics account yet:
+The secret key is stored encrypted and never shown again after you save -- the box says **Saved** instead. Leave it empty to keep the saved key, or type a new one to replace it. If the box says the saved key can't be read, enter it again.
 
-1. Go to [analytics.google.com](https://analytics.google.com).
-2. Sign in with your Google account and follow the steps to create a new GA4 property for your website.
-3. Copy the measurement ID and paste it into WebNesting, or use the **Connect Google Account** button to link it directly.
+To test your keys, submit one of your forms that uses reCAPTCHA. Google only accepts reCAPTCHA on the domains you registered, so it can't be tested from the settings page.
 
-> **Tip:** It can take 24 to 48 hours for data to start appearing in your Google Analytics dashboard after you first connect it.
+### WebNesting's Built-In Analytics
 
-### Google Tag Manager Setup
-
-Google Tag Manager lets you manage multiple tracking tools (like Google Analytics, Facebook Pixel, and others) from a single place, without needing to edit your website directly.
-
-1. In the **Google Settings** section, find the **Tag Manager** field.
-2. Enter your Tag Manager Container ID. It looks something like `GTM-XXXXXXX`.
-3. Save your changes.
-
-> **Tip:** If you are only using Google Analytics, you do not need Google Tag Manager. It is an optional tool for people who want to manage several tracking services at once.
-
-### Enabling WebNesting's Built-In Analytics
-
-WebNesting includes its own simple analytics tool that shows you visitor statistics right inside your dashboard -- no external accounts needed.
-
-1. In the **Google Settings** section, find the **Built-In Analytics** toggle.
-2. Turn it on.
-3. Save your changes.
-
-Once enabled, you will see visitor data directly on your WebNesting dashboard, including page views, visitor counts, and popular pages.
-
-> **Tip:** You can use WebNesting's built-in analytics alongside Google Analytics. They work independently and will not interfere with each other.
+WebNesting also has its own privacy-friendly visitor stats -- no Google account needed. Turn on **Enable first-party analytics** in **Site Configuration**, under **Analytics**. You can use it alongside Google Analytics; they work independently.
 
 ---
 
