@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-09-24 8:53am
+**Last verified:** 2026-09-24 9:02am
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -94,7 +94,7 @@ Pick the form that matches how visitors actually reach your site so search engin
 
 ## Google Settings
 
-WebNesting makes it easy to connect your site to Google's tools for tracking visitors and understanding how people use your site. These settings are found under **Third Party** in the Settings page.
+WebNesting makes it easy to connect your site to Google's tools for tracking visitors and understanding how people use your site. These settings are found under **Connections** in the Settings page.
 
 ### Connecting Google Analytics
 
@@ -104,7 +104,7 @@ WebNesting supports two ways to connect Google Analytics:
 
 **Option 1 -- Connect with a Google account (recommended).** This uses OAuth to authorize WebNesting to read your GA4 property data so it can show analytics charts directly in your site dashboard.
 
-1. Go to **Site Settings** and open the **Third Party** section, then click **Google Settings**.
+1. Go to **Site Settings** and open the **Connections** section, then click **Google Settings**.
 2. Click the **Connect Google Account** button next to Google Analytics.
 3. Sign in with the Google account that owns your GA4 property and approve the requested access.
 4. Pick the GA4 property you want to connect from the list.
@@ -153,7 +153,7 @@ Add your social media links so they can appear in your site's header, footer, or
 
 ### Adding Your Social Media Links
 
-1. Go to **Site Settings** and open the **Third Party** section, then click **Social Settings**.
+1. Go to **Site Settings** and open the **Connections** section, then click **Social Settings**.
 2. You will see fields for each supported platform.
 3. For each platform, enter your handle (like `@yourcompany`) or paste the link to your profile (like `https://www.instagram.com/yourcompany`). Either works.
 4. Save your changes.
@@ -176,13 +176,13 @@ You can also add more platforms yourself — open **Add another network** at the
 
 ## Site Images
 
-These are the key images that represent your brand across your website. They live on the **Site Images** page, under **Content Items** in Site Settings. Each image on the page says where it appears, and the pictures are shown two to a row.
+These are the key images that represent your brand across your website. They live on the **Site Images** page, under **Content** in Site Settings. Each image on the page says where it appears, and the pictures are shown two to a row.
 
 ### Setting Your Logo
 
 Your logo appears in your site's header and anywhere else your theme displays it.
 
-1. Go to **Site Settings**, open **Content Items**, and click **Site Images**.
+1. Go to **Site Settings**, open **Content**, and click **Site Images**.
 2. Find **Logo**.
 3. Click to choose an image from your File Manager, or upload a new one.
 4. Save your changes.
@@ -215,7 +215,21 @@ You can also add your own named images here with **Add** at the bottom of the pa
 
 ## Site Configuration
 
-These settings control foundational aspects of how your website works -- its name, description, theme, status, and address preferences. They live on the **Site Configuration** page, under **Site Config** in Site Settings.
+These settings control foundational aspects of how your website works -- its name, description, business name, theme, visibility, and web address. They live on the **Site Configuration** page, under **Your site** in Site Settings.
+
+### Launching Your Site (Visibility)
+
+A new website starts in **Coming soon** mode: visitors see a "Coming Soon" page instead of your site, while you keep building. When you are ready for people to see it:
+
+1. Go to **Site Settings**, open **Your site**, and click **Site Configuration**.
+2. Under **Visibility**, click the **Live** card.
+3. Save your changes.
+
+To take the site back down later, choose **Coming soon** and save. Either way, you always see your real site while you are signed in -- open it in a private browser window to see what visitors see.
+
+### Business Name
+
+**Business name** appears in the copyright line at the bottom of every page ("Copyright © 2026 Your Business"). Leave it blank to use your Site Name instead.
 
 ### Choosing a Theme
 
@@ -225,7 +239,7 @@ These settings control foundational aspects of how your website works -- its nam
 
 A secure address starts with `https://` instead of `http://`, and visitors see a lock icon in their browser.
 
-1. Go to **Site Settings**, open **Site Config**, and click **Site Configuration**.
+1. Go to **Site Settings**, open **Your site**, and click **Site Configuration**.
 2. Find **Always use a secure (https://) address?**
 3. Click the **Always secure** card once your domain's certificate is active -- anyone who types `http://` is sent to `https://`. **Either works** leaves both forms reachable.
 4. Save your changes.
@@ -250,7 +264,7 @@ If you choose **With "www."** or **Without "www."**, WebNesting automatically re
 
 ### All Settings (power-user view)
 
-**All Settings**, also under Site Config, lists every raw setting on your site in one place. Values there are saved exactly as typed, with no checks -- so if a setting has its own page (SEO Defaults, Site Images, Social, Google), edit it there instead. Use All Settings for the custom values you have added yourself.
+**All Settings**, under **Advanced**, lists every raw setting on your site in one place. Values there are saved exactly as typed, with no checks -- so if a setting has its own page (SEO Defaults, Site Images, Social, Google), edit it there instead. Use All Settings for the custom values you have added yourself -- the **Add your own setting** form at the bottom of the page is where you add them.
 
 > **Tip:** After making changes to any settings, visit your live site in a new browser tab to confirm everything looks the way you expect.
 

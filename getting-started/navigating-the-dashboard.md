@@ -1,6 +1,6 @@
 # Navigating the Dashboard
 
-**Last verified:** 2026-09-23 10:34am
+**Last verified:** 2026-09-24 9:02am
 
 The Dashboard is your home base for managing one site in WebNesting. It is where you handle that site's pages, settings, content, and analytics. (Workspace-level features like billing, team members, helpdesk, marketing, and tasks live in your workspace -- see the **Workspaces** card in your account portal.)
 
@@ -127,9 +127,10 @@ The Website Builder has its own toolbar with Save, Publish, Preview, undo/redo, 
 
 The Settings section is where you configure how your site works and looks. Settings are organized into groups, and you may see some or all of the following:
 
-- **Site Config** -- Your site name, SSL, and other foundational settings. Also includes SEO defaults (fallback title and description for pages that do not have their own)
-- **Content Items** -- Images that represent your brand, including your logo, favicon, and social sharing image. Also includes site messages and HTML blocks
-- **Third Party** -- Google Analytics tracking, Google Tag Manager, and social media profile links
+- **Your site** -- Your site's name, whether visitors can see it yet, its web address, and SEO defaults (the fallback title and description for pages that do not have their own)
+- **Content** -- The images that represent your brand (logo, favicon, and social sharing image) and the messages shown across your site
+- **Connections** -- Your social media profile links, Google Analytics, Google Tag Manager, and reCAPTCHA
+- **Advanced** -- Named image groups and HTML blocks your theme reads by name, and **All Settings**, every raw setting in one place
 
 To change a setting:
 
