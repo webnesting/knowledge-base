@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-09-23 9:51pm
+**Last verified:** 2026-09-24 11:02am
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -252,6 +252,15 @@ Someone who unsubscribes stops getting email either way -- unsubscribing always 
 You can show or hide part of an email depending on the recipient -- for example, showing a different offer to contacts on a particular list. Set the rules on the block, and each recipient sees only the content that matches them.
 
 > **Tip:** Send yourself a test before sending to a real list. It is the fastest way to catch a broken link or an image that did not load.
+
+### Seeing how a campaign did
+
+Open a campaign that has gone out and click its **Performance** tab:
+
+- **Results** -- how many people it went to, and how many received, opened and clicked it.
+- **A/B test** (A/B test campaigns only) -- each version with how many people it went to and its open and click rates. While the test is running, the version currently ahead is marked **Leading**. Once its wait time has passed, the version with the best score (open rate or click rate, whichever you chose) automatically goes to everyone who hasn't received the campaign yet, and is marked **Winner**. Don't want to wait? Click **Send to Everyone Else** on the version you want and confirm -- it goes out right away and the test ends.
+- **Links people clicked** -- every link in the email, how many times it was clicked, how many people clicked it, and its share of all clicks.
+- **Deliverability** -- how many emails bounced and how many people unsubscribed.
 
 ---
 
