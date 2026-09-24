@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-09-23 12:24pm
+**Last verified:** 2026-09-23 9:51pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -203,20 +203,19 @@ The Email Marketing product includes an **Email Signup** component that you can 
 4. Drag the component onto your page.
 5. Save your page.
 
-The signup form includes an email field and a subscribe button. Visitors enter their email, click subscribe, and they are added to your contact database.
+The signup form includes an email field and a subscribe button. Visitors enter their email, click subscribe, and they are added to your contact database and see your thank-you message. If you've turned on **Ask new subscribers to confirm by email** (see [Marketing Settings](#marketing-settings)), they're asked to check their email instead, and they start getting your marketing emails once they click the link in it.
 
 ### Customizing the Signup Form
 
 You can customize the signup form through the component settings in the builder:
 
-- **List** -- Choose which mailing list new subscribers are added to. If no list is selected, contacts are still created but will not be on any specific list.
-- **Show Name Fields** -- Toggle this on to add first name and last name fields alongside the email field. Useful if you want to personalize your communications.
-- **Button Text** -- Change the button label from the default "Subscribe" to something else, like "Join Our Newsletter" or "Sign Me Up."
-- **Success Message** -- Customize the message visitors see after subscribing. The default is "Thank you for subscribing!" You can change this to anything you like.
-- **Email field hint** -- Change the placeholder text shown inside the email box before a visitor types.
+- **Add subscribers to which list?** -- Choose which mailing list new subscribers are added to. Only regular lists appear here — a segment fills itself from its conditions, so people can't be added to one directly. If no list is selected, contacts are still created but will not be on any specific list.
+- **Button text** -- Change the button label from the default "Subscribe" to something else, like "Join Our Newsletter" or "Sign Me Up."
+- **Email field hint** -- The placeholder text shown inside the email box before a visitor types. The default is "Enter your email."
+- **Success message** -- Customize the message visitors see after subscribing. The default is "Thank you for subscribing!" You can change this to anything you like.
+- **Ask for name** -- Turn this on to add first name and last name fields above the email field. Useful if you want to personalize your communications.
 
 Everything you change here previews live on the canvas as you type, so you can see the finished form before you save.
-- **Placeholder Text** -- Change the placeholder text inside the email field. The default is "Enter your email."
 
 > **Tip:** Keep the signup form simple. In most cases, just asking for an email address gets more signups than asking for a name and email. You can always collect more information later.
 
@@ -345,11 +344,14 @@ The unsubscribe page shows:
 
 ## Marketing Settings
 
-Click **Settings** under the Marketing section. The page has three tabs:
+Click **Settings** under the Marketing section. The page has four tabs:
 
 - **Senders** -- The addresses your campaigns and automations are sent from. Click **+ Add Sender** to set one up. It's the same setup as **Workspace Settings > Email**, so a sender you add in either place shows up in both. See [Setting Up Your Sending Domain](#setting-up-your-sending-domain) below.
 - **Email Footer** -- Your **Company Name** and **Company Address**. Anti-spam laws (like CAN-SPAM in the United States) require every marketing email to say who sent it and give a physical mailing address, so we add these to the bottom of every campaign and automation email, followed by **Unsubscribe** and **Manage Preferences** links. The tab shows a preview of that footer as you type, and a warning while either field is empty. Click **Save Settings** when you're done.
 - **Custom Fields** -- **Campaign Fields** are extra details you can fill in on every campaign. **Per-Recipient Fields** are details recorded for each person a campaign goes to. Click **Add Field** to create one; fields save as soon as you create them.
+- **Signups & Sending** -- Tick **Ask new subscribers to confirm by email** to turn on "double opt-in." When a form or an **Email Signup** component on one of your sites adds someone to Marketing, they get a "Confirm your subscription" email first, and they receive your marketing emails only after clicking **Yes, subscribe me** in it — so nobody can sign up someone else, and your list stays clean. The tab shows the exact email they'll get. People who already confirmed, or who created an account on your site, aren't asked again.
+
+  The same tab has a **Daily Sending Limit**: enter the most marketing emails to send per day (campaigns and automations together), or leave it empty for no limit. It's handy while a new sending domain builds its reputation, or to spread a big campaign over several days. Anything over the limit isn't lost — it waits and goes out the next day, starting at midnight in your workspace's timezone. The tab shows how many emails went out today, and a campaign that's waiting says on its **Performance** tab when it will pick up again. Click **Save Settings** when you're done.
 
 ---
 
@@ -423,7 +425,7 @@ The Email Marketing module handles the unsubscribe link automatically. Make sure
 
 ### GDPR Compliance
 
-If you serve customers in the European Union, the General Data Protection Regulation (GDPR) requires explicit consent before sending marketing emails. Only mark a contact **Subscribed** when they have clearly agreed to hear from you, and use signup forms that say what people are signing up for. WebNesting does not currently send a confirmation ("double opt-in") email when someone signs up.
+If you serve customers in the European Union, the General Data Protection Regulation (GDPR) requires explicit consent before sending marketing emails. Only mark a contact **Subscribed** when they have clearly agreed to hear from you, and use signup forms that say what people are signing up for. To get proof that each subscriber asked to hear from you, turn on **Ask new subscribers to confirm by email** in **Marketing > Settings > Signups & Sending**: new subscribers then confirm by clicking a link we email them, and we record when and from where they signed up.
 
 > **Tip:** While WebNesting provides tools to help with compliance, you are responsible for ensuring your email marketing practices meet the legal requirements in your jurisdiction. Consult a legal professional if you are unsure about your obligations.
 

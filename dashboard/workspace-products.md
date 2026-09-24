@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-09-22 2:20pm
+**Last verified:** 2026-09-23 10:50pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Five products are available. Most are paid -- you only pay for the ones you use -- and one, **Internal Docs**, is completely free and switched on by default.
 
@@ -44,7 +44,7 @@ Project and task management for your team. When you enable Tasks, you get:
 - **Project organization** -- Group related work into projects
 - **Multiple views** -- Switch between Board (Kanban), List, Timeline, and Calendar views
 - **My Work** -- A personal hub showing all your assigned tasks across projects
-- **Time tracking** -- Log time spent on tasks
+- **Time tracking** -- Log time spent on tasks and Helpdesk tickets, by hand or with a start/stop timer
 - **Milestones and tags** -- Mark key deadlines and organize tasks with tags
 - **Task comments** -- Discuss work and see activity history on every task
 

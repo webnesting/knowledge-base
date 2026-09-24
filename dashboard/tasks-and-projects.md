@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-09-23 8:29pm
+**Last verified:** 2026-09-23 10:50pm
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -193,7 +193,7 @@ Tasks support two types of dates:
 - **Due date** -- When the task needs to be finished
 - **Start date** -- When work on the task should begin
 
-Both dates are optional. Tasks with due dates appear on the Calendar view and show on the Timeline view. Setting both a start date and due date lets the Timeline view display the task as a bar spanning the full duration of work.
+Both dates are optional, and you can set or change them any time from the task's details sidebar -- the due date shows **Overdue** once it has passed on a task that isn't finished. Tasks with due dates appear on the Calendar view and show on the Timeline view. Setting both a start date and due date lets the Timeline view display the task as a bar spanning the full duration of work.
 
 ### Estimated Hours
 
@@ -286,7 +286,7 @@ To add a field, click **Add Column**, give it a display name, choose its type (t
 
 ## Time Tracking
 
-Time tracking lets your team log the hours they spend on tasks. This is useful for understanding how long work actually takes, billing clients for hours worked, or improving future estimates.
+Time tracking lets your team log the hours they spend on tasks -- and on Helpdesk tickets, if you use the Helpdesk (see [Helpdesk](helpdesk.md)). This is useful for understanding how long work actually takes, billing clients for hours worked, or improving future estimates.
 
 ### Logging Time
 
@@ -301,6 +301,18 @@ To log time on a task:
 
 You can log several entries on the same task, one for each work session. Each entry shows who logged it and whether it's billable. To fix a mistake, open the **⋮** menu on the entry and choose **Edit** or **Delete**.
 
+You can change or delete only the time **you** logged. Workspace admins can change anyone's -- useful for fixing a timesheet before invoicing.
+
+### Using the Timer
+
+Rather than working out the hours afterwards, let the timer count them:
+
+1. Open the task and click **Start timer** under Time Tracked. The sidebar shows **Timer running** with the time so far.
+2. When you finish, click **Stop**. The Log Time form opens with the time filled in, rounded to the minute.
+3. Add a note or tick **Billable** if you like, then click **Log Time**. Nothing is logged until you do -- click **Cancel** to throw the time away.
+
+You can run timers on several tasks and tickets at once; each one stops on its own. A timer keeps running if you close the page or sign out, so you can pick it up later.
+
 ### Estimates
 
 Enter an **Estimate (hours)** under Time Tracked to say how long a task should take. The sidebar then shows the time logged against it (for example, "3.5h of 8h estimated") with a bar that turns amber and then red as you approach and pass the estimate. Estimates also appear in the **Est. Hours** column of the task list.
@@ -310,12 +322,12 @@ Enter an **Estimate (hours)** under Time Tracked to say how long a task should t
 Open **Time Report** under **Reports** in the Tasks sidebar to see the hours your team logged.
 
 - **Totals** at the top: total, billable, and non-billable hours, and the number of entries.
-- **By Project** and **By Person** break the hours down. Time on tasks that aren't in a project shows as **No project**.
-- **Time Entries** lists every entry, newest first. Click a task name to open it, or use the **⋮** menu to edit or delete an entry.
+- **By Project** and **By Person** break the hours down. Time on tasks that aren't in a project shows as **No project**, and time on Helpdesk tickets as its own **Helpdesk tickets** row.
+- **Time Entries** lists every entry, newest first. Click a task or ticket name to open it, or use the **⋮** menu to edit or delete an entry you're allowed to change.
 
-The report opens on **This month**. Click **Filters** to change the **Period** (this week, last week, this month, last month, the last 30 days, this year, all time, or your own dates), or to narrow it to one **Project**, one **Person**, or only billable or non-billable time. Filters apply as you pick them, and they're kept in the page address, so you can bookmark a report or send the link to a teammate.
+The report opens on **This month**. Click **Filters** to change the **Period** (this week, last week, this month, last month, the last 30 days, this year, all time, or your own dates), or to narrow it to one **Project**, one **Person**, only billable or non-billable time, or -- if you use the Helpdesk -- **Logged on** tasks only or Helpdesk tickets only. Filters apply as you pick them, and they're kept in the page address, so you can bookmark a report or send the link to a teammate.
 
-Click **Export CSV** to download every entry the report is showing as a spreadsheet (date, person, project, task, hours, billable, and notes), for invoicing or payroll. The download always includes every matching entry, not just the page on screen.
+Click **Export CSV** to download every entry the report is showing as a spreadsheet (date, person, project, task or ticket, hours, billable, and notes), for invoicing or payroll. The download always includes every matching entry, not just the page on screen.
 
 ---
 
@@ -337,7 +349,9 @@ Every task has a comment section where you and your team can discuss the work, s
 
 ### Comments
 
-To add a comment, open a task and scroll to the comments section. Type your message and click **Post**. Comments appear in chronological order so everyone can follow the conversation.
+To add a comment, open a task and scroll to the comments section. Type your message and click **Comment**. Comments appear in chronological order so everyone can follow the conversation.
+
+To change or remove a comment you wrote, click the **⋮** menu on it and choose **Edit** or **Delete**. Editing opens the comment in place — make your change and click **Save**, and the comment is marked **edited** so everyone knows it changed. Deleting asks you to confirm first and can't be undone. You can only edit or delete your own comments; if you @-mention someone new while editing, they're notified.
 
 ### Activity Log
 

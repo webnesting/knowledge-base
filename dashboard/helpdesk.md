@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-09-23 11:55am
+**Last verified:** 2026-09-23 10:50pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -149,6 +149,12 @@ To add a comment, open a ticket and type your message in the comment area. Choos
 
 > **Important:** Double-check whether you are writing a reply or an internal note before sending. Replies are visible to the customer, so make sure internal discussions stay in internal notes.
 
+### Editing and Deleting Your Notes
+
+To fix or remove an internal note you wrote, click the **⋮** menu on it and choose **Edit** or **Delete**. An edited note is marked **edited**, and anyone you newly @-mention while editing is notified. Deleting asks you to confirm and can't be undone.
+
+Replies can't be edited or deleted once they're sent — they've already been emailed to the customer, so the ticket always matches what's in their inbox. Messages from the customer can't be changed either. You can only edit or delete your own notes.
+
 ### Attaching Files to a Reply
 
 You can send files with a reply, just like in Gmail or Outlook:
@@ -162,11 +168,20 @@ A few things to know:
 
 - Files on one reply are limited to **15 MB total** — for bigger files, share a link instead.
 - Once a reply is sent, its attachments can't be removed (the email has already left) — though deleting the file from Files later removes the stored copy.
-- Attachments start uploading the moment you add them, so if you navigate away mid-compose, your message is saved as a **draft** with its files — send or discard it from the conversation.
+- Attachments start uploading the moment you add them, so if you navigate away mid-compose, your message is saved as a **draft** with its files — send, edit (from its **⋮** menu), or discard it from the conversation. Only the person who wrote a draft can send or discard it, since it goes out under their name.
 
 ### Ticket Files (Internal)
 
 The ticket sidebar has a **Files** section for attaching workspace files to the ticket itself — reference material, logs, screenshots for your team. These are internal only and are **never emailed** to the customer. Remove one anytime with the **×** next to it.
+
+### Time on Tickets
+
+The ticket sidebar has a **Time Tracked** section, so you can record how long a ticket took -- handy for billing support hours or seeing where your team's time goes.
+
+- Click **Log Time**, enter the hours and the day, optionally a note, tick **Billable** if it should be billed, and click **Log Time**.
+- Or click **Start timer**, work the ticket, then click **Stop** -- the Log Time form opens with the time filled in for you to save.
+
+You can change or delete only your own time; workspace admins can change anyone's. If your workspace also has **Tasks**, ticket time appears in its **Time Report** as its own **Helpdesk tickets** group, and you can filter the report to tickets only. See [Tasks and Projects](tasks-and-projects.md) for more on the timer and the report.
 
 ---
 
@@ -440,7 +455,7 @@ For Zoho, FastMail, ProtonMail (via Bridge), your own SMTP server, or any provid
 
 ### Multiple inboxes (`support@`, `billing@`, `careers@`)
 
-Add another inbox via the same wizard for each address. Each inbox has its own routing (which team handles tickets) and its own inbound source. They all share the same workspace-level verified domains + sender identities, so domain-level DNS work only happens once.
+Add another inbox via the same wizard for each address. Each inbox has its own routing (which team handles tickets), its own inbound source, and its own signature and "we got your message" auto-reply. A ticket always answers from the inbox it arrived on: a customer who wrote to `billing@` gets the billing inbox's auto-reply, your replies go out from `billing@` with its signature, and the ticket is routed to the billing inbox's team. They all share the same workspace-level verified domains + sender identities, so domain-level DNS work only happens once.
 
 ### What happens when DNS setup isn't finished
 
