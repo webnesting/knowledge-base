@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-09-24 9:02am
+**Last verified:** 2026-09-24 9:19am
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -54,6 +54,16 @@ This is the short summary that appears below your site's title in search engine 
 3. Save your changes.
 
 > **Tip:** Write a description between 120 and 160 characters. Include your most important keywords naturally -- do not stuff keywords in unnaturally.
+
+### Previewing How You Appear in Search
+
+Under the Title, Description and Image fields, **How it looks in search results** shows your site the way it appears in a search engine's results -- the web address, the title as a blue link, and the description underneath. It updates as you type, with `{{ site.name }}` and `{{ page.title }}` already filled in with their real values.
+
+- Use **Preview for** to see a different page. The title changes with each page's name wherever you used `{{ page.title }}`.
+- If a page has its own SEO title or description, the preview shows that instead, and says so -- the defaults only apply to pages without their own.
+- Titles longer than 60 characters and descriptions longer than 155 are cut off with "…", as search results usually do.
+
+Search engines sometimes shorten or rewrite what they show, so treat the preview as a close guide rather than an exact promise.
 
 ### Image (social sharing image)
 
