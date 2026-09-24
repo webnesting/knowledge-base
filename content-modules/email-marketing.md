@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-09-23 9:28pm
+**Last verified:** 2026-09-23 9:51pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -349,7 +349,9 @@ Click **Settings** under the Marketing section. The page has four tabs:
 - **Senders** -- The addresses your campaigns and automations are sent from. Click **+ Add Sender** to set one up. It's the same setup as **Workspace Settings > Email**, so a sender you add in either place shows up in both. See [Setting Up Your Sending Domain](#setting-up-your-sending-domain) below.
 - **Email Footer** -- Your **Company Name** and **Company Address**. Anti-spam laws (like CAN-SPAM in the United States) require every marketing email to say who sent it and give a physical mailing address, so we add these to the bottom of every campaign and automation email, followed by **Unsubscribe** and **Manage Preferences** links. The tab shows a preview of that footer as you type, and a warning while either field is empty. Click **Save Settings** when you're done.
 - **Custom Fields** -- **Campaign Fields** are extra details you can fill in on every campaign. **Per-Recipient Fields** are details recorded for each person a campaign goes to. Click **Add Field** to create one; fields save as soon as you create them.
-- **Signups & Sending** -- Tick **Ask new subscribers to confirm by email** to turn on "double opt-in." When a form or an **Email Signup** component on one of your sites adds someone to Marketing, they get a "Confirm your subscription" email first, and they receive your marketing emails only after clicking **Yes, subscribe me** in it — so nobody can sign up someone else, and your list stays clean. The tab shows the exact email they'll get. People who already confirmed, or who created an account on your site, aren't asked again. Click **Save Settings** when you're done.
+- **Signups & Sending** -- Tick **Ask new subscribers to confirm by email** to turn on "double opt-in." When a form or an **Email Signup** component on one of your sites adds someone to Marketing, they get a "Confirm your subscription" email first, and they receive your marketing emails only after clicking **Yes, subscribe me** in it — so nobody can sign up someone else, and your list stays clean. The tab shows the exact email they'll get. People who already confirmed, or who created an account on your site, aren't asked again.
+
+  The same tab has a **Daily Sending Limit**: enter the most marketing emails to send per day (campaigns and automations together), or leave it empty for no limit. It's handy while a new sending domain builds its reputation, or to spread a big campaign over several days. Anything over the limit isn't lost — it waits and goes out the next day, starting at midnight in your workspace's timezone. The tab shows how many emails went out today, and a campaign that's waiting says on its **Performance** tab when it will pick up again. Click **Save Settings** when you're done.
 
 ---
 
