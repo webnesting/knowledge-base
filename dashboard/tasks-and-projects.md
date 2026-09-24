@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-09-24 9:04am
+**Last verified:** 2026-09-24 9:21am
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -219,7 +219,9 @@ For tasks that involve multiple steps, you have two ways to break them down.
 
 Subtasks are full tasks nested under a parent task. Each subtask has its own status, priority, assignee, and all the other properties of a regular task. Use subtasks when the individual steps are substantial enough to track independently.
 
-To add a subtask, open a task and look for the subtask section. Click **Add Subtask** and fill in the details just like you would for any other task.
+To add a subtask, open the task and click **+ Link task**. Choose **Subtask**, then either pick **A task that already exists** (search every task in your workspace) or **A new task** (give it a title and a project), and click **Link task** or **Create and link**. Linking an existing task moves it under this one; it keeps its own project and status.
+
+To take a subtask back out, open the **⋮** menu on its row and choose **Remove from subtasks** -- it becomes a task of its own again (nothing is deleted).
 
 ### Checklists
 
@@ -239,13 +241,13 @@ When you set a dependency, you are saying that one task **blocks** another. The 
 
 To add a dependency:
 
-1. Open the task that is waiting on another task.
-2. Find the **Dependencies** section and click **Link dependency**.
-3. Choose whether this task is **blocked by** another task (something must finish first) or **blocks** it, pick the other task, and click **Link**.
+1. Open the task that is waiting on another task and click **+ Link task**.
+2. Choose **Blocked by** (something must finish first) or **Blocks** (another task is waiting on this one).
+3. Pick **A task that already exists** -- you can search every task in your workspace, in any project -- or **A new task** to create one right there, then click **Link task** (or **Create and link**).
 
 Linked tasks appear just like subtasks, under **Blocked by** and **Blocks** headings: each row shows the task's status, project, priority, assignee, and due date, and you can change them right there or tick the circle to complete it. Click a task's name to open it. To unlink one, open the **⋮** menu on its row and choose **Remove dependency**.
 
-You can also block a task on a **whole project**. In step 3, choose **Project** instead of Task and pick one — the task stays blocked until every task in that project is done. It appears under **Blocked by** with a running "N of M done" count that turns green once the project is finished.
+You can also block a task on a **whole project**. In step 2, choose **Waits on a whole project** and pick one — the task stays blocked until every task in that project is done. It appears under **Blocked by** with a running "N of M done" count that turns green once the project is finished.
 
 Dependencies are especially useful in the Timeline view, where you can see how tasks connect and how delays in one task might affect others downstream.
 
