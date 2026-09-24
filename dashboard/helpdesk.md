@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-09-24 8:47am
+**Last verified:** 2026-09-24 9:04am
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -174,6 +174,10 @@ A few things to know:
 ### Ticket Files (Internal)
 
 The ticket sidebar has a **Files** section for attaching workspace files to the ticket itself — reference material, logs, screenshots for your team. These are internal only and are **never emailed** to the customer. Remove one anytime with the **×** next to it.
+
+### Linked Tasks
+
+If your workspace also has **Tasks**, you can turn a ticket into work for your team. Click **+ Create Linked Task** in the ticket, pick a project, and click **Create** -- the task is named after the ticket and linked to it. Linked tasks show in the ticket just like a task's subtasks: status, project, priority, assignee, and due date, which you can change right there, or tick the circle to complete the task. Click a task's name to open it.
 
 ### Time on Tickets
 
