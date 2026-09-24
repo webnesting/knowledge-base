@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-09-23 8:29pm
+**Last verified:** 2026-09-23 10:38pm
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -337,7 +337,9 @@ Every task has a comment section where you and your team can discuss the work, s
 
 ### Comments
 
-To add a comment, open a task and scroll to the comments section. Type your message and click **Post**. Comments appear in chronological order so everyone can follow the conversation.
+To add a comment, open a task and scroll to the comments section. Type your message and click **Comment**. Comments appear in chronological order so everyone can follow the conversation.
+
+To change or remove a comment you wrote, click the **⋮** menu on it and choose **Edit** or **Delete**. Editing opens the comment in place — make your change and click **Save**, and the comment is marked **edited** so everyone knows it changed. Deleting asks you to confirm first and can't be undone. You can only edit or delete your own comments; if you @-mention someone new while editing, they're notified.
 
 ### Activity Log
 
