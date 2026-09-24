@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-09-24 8:09am
+**Last verified:** 2026-09-24 8:47am
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -94,8 +94,9 @@ Every status belongs to a **category**, and each category **counts as** one of t
 Go to **Helpdesk > Settings > Statuses** to change them:
 
 - **Add a status** -- click **+ Add Status**, name it (for example "Waiting on Customer"), pick its **Category**, and choose a color.
+- **Reorder statuses** -- drag a status up or down by the handle at the start of its row. Statuses show in this order everywhere: the status menu on a ticket, the ticket list, and the **Tickets by status** dashboard widget.
 - **Edit a status** -- open the menu on its row and choose **Edit**. Moving a status into a category that counts differently moves every ticket in it too.
-- **Categories** -- click **+ Add Category** to create one, give it a color, and choose what it **counts as**. Rename, recolor, or change an existing one from the menu on its row. A category that still has statuses can't be deleted.
+- **Categories** -- click **+ Add Category** to create one, give it a color, and choose what it **counts as**. Rename, recolor, or change an existing one from the menu on its row. A category that still has statuses can't be deleted. Drag categories by their handle to reorder the list.
 
 If you also use Tasks, a category can be shared by both: tick **Also use in Tasks**. Shared categories show a **Tasks** label, and changes to them apply in both places.
 

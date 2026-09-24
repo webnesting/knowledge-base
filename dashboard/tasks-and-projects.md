@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-09-23 10:50pm
+**Last verified:** 2026-09-24 8:47am
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -161,9 +161,11 @@ The steps below work the same in both places.
 2. Give it a name (for example "Waiting for Feedback"), pick its **Category**, and choose a color.
 3. Click **Save**.
 
+**To change the order**, drag a status up or down by the handle at the start of its row. Statuses show in this order everywhere -- the status menu on a task, the board's columns, and filters -- so put the ones still being worked on before the finished ones.
+
 **To change a status**, open the menu on its row and choose **Edit**. If you move a status into a category that counts differently, every task in that status moves with it -- for example, moving "Waiting for Feedback" into a category that counts as Closed closes those tasks.
 
-**Categories** are shared across your whole workspace, so they are edited only in **Tasks > Settings > Global Statuses**, listed below your statuses. Click **+ Add category** to create one (for example "Blocked"), give it a color, and choose what it **counts as** -- Open, Done, or Closed. You can rename, recolor, or change what an existing category counts as from the menu on its row. A category that still has statuses in it can't be deleted; move its statuses to another category first.
+**Categories** are shared across your whole workspace, so they are edited only in **Tasks > Settings > Global Statuses**, listed below your statuses. Click **+ Add category** to create one (for example "Blocked"), give it a color, and choose what it **counts as** -- Open, Done, or Closed. You can rename, recolor, or change what an existing category counts as from the menu on its row. A category that still has statuses in it can't be deleted; move its statuses to another category first. Drag categories by their handle to reorder the list.
 
 If you also use the Helpdesk, a category can be shared by both: tick **Also use in Helpdesk** when you create or edit it. Shared categories show a **Helpdesk** label, and changes to them apply in both places.
 
