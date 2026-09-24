@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-09-23 9:37pm
+**Last verified:** 2026-09-24 8:21am
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -70,12 +70,12 @@ When someone shares a link to your site on social media (Facebook, LinkedIn, X, 
 If your site is not ready for the public yet (for example, if you are still building it), you can tell search engines not to list any of its pages.
 
 1. On the **SEO Defaults** page, find **Hide site from search engines**.
-2. Choose **Yes -- hide my whole site**. Because this affects every page, WebNesting asks you to confirm before it takes effect.
+2. Click the **Hide my whole site** card. Because this affects every page, WebNesting asks you to confirm before it takes effect.
 3. Save your changes.
 
 While it is on, the setting shows a warning reminding you that the site is hidden, and your site tells search engines not to index it in two ways: its `robots.txt` file blocks everything, and every page carries a "noindex" instruction. Visitors can still open the site by typing its address.
 
-**Important:** Remember to switch this back to **No** when your site is ready to launch. If you leave it on, people will not be able to find your site through Google or other search engines.
+**Important:** Remember to switch this back to **List my site** when your site is ready to launch. If you leave it on, people will not be able to find your site through Google or other search engines.
 
 > **Tip:** This is a request that search engines honor, not a lock. Most major search engines respect it, but it is not a guarantee, and pages already listed can take a while to drop out of results.
 
@@ -83,7 +83,7 @@ While it is on, the setting shows a warning reminding you that the site is hidde
 
 A sitemap is a file that lists all the pages on your site (at `yoursite.com/sitemap.xml`). Search engines use it to find and index your content more efficiently. WebNesting generates it for you automatically and keeps it up to date whenever you add, change, or remove pages.
 
-Two settings control how the addresses inside it are written:
+Two on/off switches control how the addresses inside it are written:
 
 - **Use secure (https) links in your sitemap** -- leave this on if your site uses a secure `https://` address (almost all do).
 - **Start sitemap links with "www."** -- turn this on only if your site's address includes `www.`
@@ -227,7 +227,7 @@ A secure address starts with `https://` instead of `http://`, and visitors see a
 
 1. Go to **Site Settings**, open **Site Config**, and click **Site Configuration**.
 2. Find **Always use a secure (https://) address?**
-3. Choose **Yes -- always redirect to https://** once your domain's certificate is active. **Either works -- don't redirect** leaves both forms reachable.
+3. Click the **Always secure** card once your domain's certificate is active -- anyone who types `http://` is sent to `https://`. **Either works** leaves both forms reachable.
 4. Save your changes.
 
 > **Tip:** Once your certificate is active, always redirect to https. It protects your visitors, builds trust, and is favored by search engines.
@@ -236,17 +236,17 @@ A secure address starts with `https://` instead of `http://`, and visitors see a
 
 You can choose whether your site address starts with "www." or not.
 
-- **Yes -- always with www.:** `www.yoursite.com`
-- **No -- always without www.:** `yoursite.com`
-- **Either works -- don't redirect:** both versions work as typed
+- **With "www.":** `www.yoursite.com`
+- **Without "www.":** `yoursite.com`
+- **Either works:** both versions work as typed
 
 Most modern sites use the non-www version. Choose whichever you prefer and stick with it, so search engines do not see them as two different sites.
 
 1. On the **Site Configuration** page, find **Should your address start with "www."?**
-2. Pick one of the three options.
+2. Click one of the three cards.
 3. Save your changes.
 
-If you choose Yes or No, WebNesting automatically redirects visitors who type the other form, so no one lands on the wrong one.
+If you choose **With "www."** or **Without "www."**, WebNesting automatically redirects visitors who type the other form, so no one lands on the wrong one.
 
 ### All Settings (power-user view)
 
