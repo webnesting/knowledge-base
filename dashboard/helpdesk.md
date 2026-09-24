@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-09-23 11:55am
+**Last verified:** 2026-09-23 10:28pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -440,7 +440,7 @@ For Zoho, FastMail, ProtonMail (via Bridge), your own SMTP server, or any provid
 
 ### Multiple inboxes (`support@`, `billing@`, `careers@`)
 
-Add another inbox via the same wizard for each address. Each inbox has its own routing (which team handles tickets) and its own inbound source. They all share the same workspace-level verified domains + sender identities, so domain-level DNS work only happens once.
+Add another inbox via the same wizard for each address. Each inbox has its own routing (which team handles tickets), its own inbound source, and its own signature and "we got your message" auto-reply. A ticket always answers from the inbox it arrived on: a customer who wrote to `billing@` gets the billing inbox's auto-reply, your replies go out from `billing@` with its signature, and the ticket is routed to the billing inbox's team. They all share the same workspace-level verified domains + sender identities, so domain-level DNS work only happens once.
 
 ### What happens when DNS setup isn't finished
 
