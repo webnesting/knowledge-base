@@ -1,6 +1,6 @@
 # Team and Permissions
 
-**Last verified:** 2026-09-24 7:27am (walked the create-role flow end to end; added how roles bound a connected AI assistant)
+**Last verified:** 2026-09-24 10:51am (added Organizing Teams — walked drag, Move to…, Move Up / Down and the Parent team picker end to end)
 
 WebNesting lets you invite other people to help manage your website. You control exactly what each person can see and do by assigning them roles with specific permissions.
 
@@ -249,6 +249,20 @@ So the role you give someone is also the limit on what their AI assistant can re
 It also means your changes take effect straight away. If you untick a permission, or remove the person from the workspace entirely, their assistant loses that access on its very next request. There is no separate list of AI connections to find and clean up.
 
 > **Tip:** See [Connecting an AI Tool](connecting-ai-tools.md) for how someone connects one, and what it can and cannot do.
+
+---
+
+## Organizing Teams
+
+Teams group teammates so work can be routed to the right people — a ticket or task assigned to a team shows up for everyone in it. Teams can sit inside other teams (for example, **Frontend** and **Backend** inside **Engineering**). Manage them from **Settings > Teams** in your workspace sidebar.
+
+- **Add a team** — click **+ Add Team**. To add one inside an existing team, open that team's **⋮** menu and choose **Add Sub-Team**.
+- **Put teams in order** — drag a team by its grip (**⋮⋮** on the left of the row) up or down. The order you set is the order teams appear everywhere.
+- **Move a team inside another** — drag it to the right to place it inside the team above it, or to the left to move it back out.
+- **Prefer not to drag?** Open a team's **⋮** menu and choose **Move to…**: pick which team it should sit under (or **Top level**) and whether it goes first or last there. **Move Up** and **Move Down** in the same menu nudge it one place.
+- **From a team's own page** — open a team and change its **Parent team**, then click **Save Changes**.
+
+Every change saves right away. A team can't be placed inside itself or one of its own sub-teams.
 
 ---
 
