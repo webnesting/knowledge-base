@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-09-23 12:16pm
+**Last verified:** 2026-09-23 8:29pm
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -356,7 +356,7 @@ When you clone a project, a new project is created with the same setup: its desc
 To clone a project:
 
 1. Click **Tasks** in your workspace sidebar, then **All Projects**.
-2. Click **Clone** on the project you want to duplicate.
+2. Open the **⋮** menu in the corner of the project's card and choose **Clone**.
 3. Give the new project a name.
 4. Click **Clone**.
 

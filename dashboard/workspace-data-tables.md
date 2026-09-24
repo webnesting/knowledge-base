@@ -1,6 +1,6 @@
 # Workspace Data Tables
 
-**Last verified:** 2026-09-23 11:41am
+**Last verified:** 2026-09-23 8:29pm
 
 Your workspace keeps its own set of tables, separate from the ones inside each website. They hold the information your products share -- your contacts, your support tickets, your tasks and projects, your marketing campaigns. You will find them under **Settings → Database**.
 
@@ -68,7 +68,7 @@ Once you have a few tables of your own, groups keep the related ones together. A
 **To make a group:**
 
 1. Go to **Settings → Database** and scroll to **Table groups**.
-2. Click **New Group**.
+2. Click **+ New Group**, beside the **Table groups** heading.
 3. Give it a name, and a description if you want one.
 4. Click **Create Group**.
 
