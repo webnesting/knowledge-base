@@ -1,6 +1,6 @@
 # Your Account Portal
 
-**Last verified:** 2026-09-23 10:34am
+**Last verified:** 2026-09-23 8:38pm
 
 Your account portal is where you manage personal account details and jump into your workspaces. Workspaces are where your websites, billing, usage, team members, and workspace-level features live.
 
@@ -18,7 +18,7 @@ This is where your personal information lives. The page opens with your account 
 - **First name** and **last name**
 - **Email address**
 - **Phone number**, **date of birth**, and **gender**
-- **Timezone** -- used for scheduling and notifications
+- **Timezone** -- every date and time you see is shown in this timezone. If you leave it empty, your workspace's timezone is used. Due dates always show exactly as they were set, whatever your timezone.
 
 ### Security
 
