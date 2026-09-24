@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-09-23 10:38pm
+**Last verified:** 2026-09-23 10:50pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -173,6 +173,15 @@ A few things to know:
 ### Ticket Files (Internal)
 
 The ticket sidebar has a **Files** section for attaching workspace files to the ticket itself — reference material, logs, screenshots for your team. These are internal only and are **never emailed** to the customer. Remove one anytime with the **×** next to it.
+
+### Time on Tickets
+
+The ticket sidebar has a **Time Tracked** section, so you can record how long a ticket took -- handy for billing support hours or seeing where your team's time goes.
+
+- Click **Log Time**, enter the hours and the day, optionally a note, tick **Billable** if it should be billed, and click **Log Time**.
+- Or click **Start timer**, work the ticket, then click **Stop** -- the Log Time form opens with the time filled in for you to save.
+
+You can change or delete only your own time; workspace admins can change anyone's. If your workspace also has **Tasks**, ticket time appears in its **Time Report** as its own **Helpdesk tickets** group, and you can filter the report to tickets only. See [Tasks and Projects](tasks-and-projects.md) for more on the timer and the report.
 
 ---
 
