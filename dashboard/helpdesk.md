@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-09-24 8:04am
+**Last verified:** 2026-09-24 8:09am
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -396,6 +396,8 @@ Best for teams already running on Google Workspace or personal Gmail with a `sup
 3. Enter the email address customers send to (e.g. `support@yourcompany.com`).
 4. Choose **Gmail / Google Workspace** as the inbound source. Save → we'll open Google's OAuth consent screen.
 5. Authorize WebNesting to read + send. Helpdesk now receives every email at that address as a ticket; replies go out through your existing Gmail account.
+
+If you've already connected a Google account in this workspace that isn't powering another inbox, the wizard offers it under **Which account?** so you can skip Google's sign-in. The same choice appears if an inbox ever needs its account connected again: click **Connect Gmail** on the inbox in **Settings → Email** and pick the account, or choose **Connect a new account** to sign in. Each Google account can power one inbox.
 
 **Fastest setup — no DNS changes required.** Existing email history at that address can be imported into tickets in one click after OAuth completes. Importing is quiet: nobody is emailed about the old messages, they don't start SLA timers or automations, and conversations older than the window you choose come in already closed.
 
