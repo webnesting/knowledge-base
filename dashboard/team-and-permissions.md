@@ -1,6 +1,6 @@
 # Team and Permissions
 
-**Last verified:** 2026-09-13 4:43pm (accepting an invitation: the link now opens account creation; existing accounts accept from the account page)
+**Last verified:** 2026-09-24 7:27am (walked the create-role flow end to end; added how roles bound a connected AI assistant)
 
 WebNesting lets you invite other people to help manage your website. You control exactly what each person can see and do by assigning them roles with specific permissions.
 
@@ -240,6 +240,18 @@ Each permission for a member can be set to one of three states:
 
 ---
 
+## Roles Also Control AI Assistants
+
+If someone on your team connects an AI assistant to your workspace, it signs in as **them** and works with **their** permissions -- never its own. It can only do what that person can do.
+
+So the role you give someone is also the limit on what their AI assistant can reach. A support role that covers Helpdesk and nothing else gives their assistant exactly that much, and nothing more.
+
+It also means your changes take effect straight away. If you untick a permission, or remove the person from the workspace entirely, their assistant loses that access on its very next request. There is no separate list of AI connections to find and clean up.
+
+> **Tip:** See [Connecting an AI Tool](connecting-ai-tools.md) for how someone connects one, and what it can and cannot do.
+
+---
+
 ## Tips for Managing Team Access Securely
 
 Here are some best practices for keeping your site safe when working with a team:
@@ -252,7 +264,7 @@ Here are some best practices for keeping your site safe when working with a team
 
 - **Be careful with Delete permissions.** Deleting content is permanent. Only give Delete permissions to team members you trust to make those decisions.
 
-- **Remove access promptly.** When someone leaves your team, revoke their access right away. Do not wait until later.
+- **Remove access promptly.** When someone leaves your team, revoke their access right away. Do not wait until later. This also covers any AI assistant they had connected -- removing the person is what revokes it.
 
 - **Use workspace-level roles for multi-site teams.** If your team works across multiple sites, set permissions at the workspace level so you only need to manage access in one place.
 
