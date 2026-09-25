@@ -1,6 +1,6 @@
 # Contacts Management
 
-**Last verified:** 2026-09-25 10:13am
+**Last verified:** 2026-09-25 5:14pm
 
 Contacts are your audience database in WebNesting. Every person who submits a form on your website, signs up for your newsletter, or is imported from a spreadsheet becomes a contact. Use the Contacts system to keep track of who your audience is, organize them into lists, and connect them to your marketing, forms, and support tools.
 
@@ -60,6 +60,7 @@ For the smoothest import experience:
 - Make sure your file has a header row with column names (like "Email," "First Name," "Last Name").
 - The email column is required -- rows without a valid email address will be skipped.
 - Save your file in CSV format. Most spreadsheet applications (Excel, Google Sheets, Numbers) can export to CSV.
+- For a custom **Date & Time** field, write each value as year-month-day and a 24-hour time, like `2026-09-24 14:30`. It's read in your own timezone. The preview tells you about any value it can't read, and those are left empty.
 
 > **Tip:** Start with a small test import of five to ten contacts to make sure your column mapping is correct before importing your full list.
 
