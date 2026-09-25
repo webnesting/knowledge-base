@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-09-24 9:56am
+**Last verified:** 2026-09-25 10:13am
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -18,7 +18,7 @@ Site Settings is where you control the behind-the-scenes details of your website
 
 ## Site Timezone
 
-Your site's timezone decides which days this site counts in -- the days its analytics, form reports and published dates use. To change it, open **Site Settings**, click **Site Configuration**, and scroll to the **Timezone** section.
+Your site's timezone decides which days this site counts in -- the days its analytics, form reports and published dates use -- and it is the clock your pages show dates and times in, like a post's publish date. To change it, open **Site Settings**, click **Site Configuration**, and scroll to the **Timezone** section.
 
 - **Use workspace timezone** (the default for every new site) -- the site follows your workspace's timezone, and changes with it.
 - **A specific timezone** -- pick one when this site serves customers somewhere else, for example a client's site in another country.

@@ -1,6 +1,6 @@
 # Connecting an AI Tool
 
-**Last verified:** 2026-09-22 2:20pm
+**Last verified:** 2026-09-25 10:13am
 
 You can connect an AI assistant — like Claude Desktop, Claude Code, or Cursor — directly to your WebNesting workspace. Once connected, you can ask the AI to look things up and make changes for you in plain language: "list my draft articles," "create a new event for next Friday," "what's my current usage this month." The AI works **as you**, with **your** permissions, and never sees your password.
 
@@ -46,7 +46,7 @@ The AI is signed in as **your** WebNesting account, so:
 
 **It can:**
 
-- Read your content, sites, contacts, usage, and billing summary.
+- Read your content, sites, contacts, usage, and billing summary. It is told your timezone and each site's, so when it tells you when something happened, it can say it in your time.
 - Create and update content — pages, articles, events, products, and other module records.
 - Turn on a content module for a site — but only after it shows you the monthly price and you say yes.
 - Delete a record — but only after it describes what will be removed and you confirm.
