@@ -1,8 +1,8 @@
 # Workspace Products
 
-**Last verified:** 2026-09-23 10:50pm
+**Last verified:** 2026-09-25 7:12pm
 
-WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Five products are available. Most are paid -- you only pay for the ones you use -- and one, **Internal Docs**, is completely free and switched on by default.
+WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
 ---
 
@@ -15,6 +15,12 @@ Your workspace starts with the basics: website management, media, and team colla
 ---
 
 ## Available Products
+
+### Websites
+
+Build and publish websites. **Websites is switched on by default** in every workspace, and it has no monthly base fee of its own -- each website you create is billed as it always has been. It powers the **Sites** section of your sidebar, where your websites live.
+
+If your workspace doesn't build websites (for example, a team that only uses Helpdesk or Tasks), you can turn Websites off to hide the Sites section from the sidebar and the dashboard. You can only turn it off while the workspace has no websites -- delete them first, and WebNesting will tell you how many are left if you try too early. Turning Websites off never affects a published website, and you can turn it back on any time.
 
 ### Marketing
 
@@ -137,6 +143,8 @@ If you no longer need a product:
 4. You will be asked to confirm -- click **Disable** again to proceed.
 
 > **Important:** Disabling a product removes access to its features from your workspace sidebar. Your data is preserved and will be available if you re-enable the product later.
+
+> **Websites** can only be turned off once the workspace has no websites left. Turning it off hides the Sites section from your sidebar and dashboard.
 
 When you disable a product, the monthly charge stops from that point forward. You are only billed for the time the product was active.
 
