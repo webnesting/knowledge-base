@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-09-25 11:05am
+**Last verified:** 2026-09-25 5:21pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -249,7 +249,7 @@ SLA targets can be counted in business hours rather than around the clock. This 
 1. Go to the **Business Hours** tab in the Helpdesk settings.
 2. Click **+ Add schedule**.
 3. Name your schedule (e.g. "Standard support hours").
-4. Pick the time zone these hours are in -- the times you enter are read in that zone, wherever your customers happen to be.
+4. Pick the time zone these hours are in -- the times you enter are read in that zone, wherever your customers happen to be. **Use workspace timezone** (the default) follows your workspace's timezone, so the hours move with it if you change it.
 5. Toggle each day on or off and set the opening and closing times.
 6. Add any holidays — they pause the clock the same way a weekend does.
 7. Save the schedule.
