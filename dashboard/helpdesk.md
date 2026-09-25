@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-09-24 9:04am
+**Last verified:** 2026-09-25 11:05am
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -40,6 +40,10 @@ Above the list, quick tabs let you switch what you're looking at with one click:
 - **All** -- Every ticket, regardless of status
 
 When you open the Helpdesk, you land on **Open** so you see live work first.
+
+**Unclaimed** is worth a daily look. A ticket lands there when three things are true at the same time: it is still **open**, it has been **routed to a team**, and **no one person** is assigned to it. A ticket that is already assigned to someone has an owner, and a ticket with no team was never routed anywhere -- it is the gap between those two that goes quiet, because "the team" is not a person who replies.
+
+The number beside **Unclaimed** in the menu is how many there are across the workspace, and each of your teams further down the menu carries its own count too. That lets a team lead see just their own pile without changing any filters. Assigning a ticket to someone takes it out of the list straight away, and every count drops at the same time.
 
 ### Saved Views
 
