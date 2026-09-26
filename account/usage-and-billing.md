@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-09-26 2:59pm
+**Last verified:** 2026-09-22 2:20pm
 
 WebNesting uses simple, usage-based pricing. This guide explains how pricing works, how to view your usage and bills, and how to pay.
 
@@ -31,7 +31,7 @@ When you go beyond the free tier, you pay for what you use:
 | Storage | $1/GB/month | First 2 GB free |
 | Contacts | $10 per 1,000/month | First 500 free |
 
-Contacts are only billed while Marketing or Helpdesk is turned on. Without either product, your contacts cost nothing, however many you have. People who create an account on your site are counted as contacts in the row above. There is no separate charge for letting them sign in, and your team members are always included.
+People who create an account on your site are counted as contacts in the row above. There is no separate charge for letting them sign in, and your team members are always included.
 
 ### Module add-ons
 
