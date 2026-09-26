@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-09-24 11:02am
+**Last verified:** 2026-09-25 7:43pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -130,7 +130,7 @@ There are several ways contacts end up on a list:
 ### Viewing List Members
 
 1. Click on a list to open it.
-2. The list shows how many contacts are subscribed (the **Contact Count** field).
+2. The list shows how many contacts are on it (the **Contacts** column on the Lists page), including people you added by hand. Someone who unsubscribes from emails stays on the list and is still counted.
 3. To see which contacts are on a specific list, filter your contacts by that list.
 
 > **Tip:** Each list tracks its own subscriber count automatically. When contacts are added or removed, the count updates right away.
@@ -343,7 +343,7 @@ Your website automatically includes an unsubscribe page at a special URL. When c
 
 The unsubscribe page shows:
 - Their email address.
-- Each of your mailing lists with a checkbox, so they can stay on some lists and leave others, and a **Save Preferences** button.
+- Each of the mailing lists they are on, with a checkbox, so they can stay on some lists and leave others (or re-join one they left), and a **Save Preferences** button. Your other lists are never shown, and nobody can add themselves to a list from this page.
 - An **Unsubscribe from all communications** link, which opens an optional "Why are you unsubscribing?" box and an **Unsubscribe from Everything** button.
 - A confirmation message once they're done.
 
