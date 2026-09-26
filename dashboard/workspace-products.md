@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-09-26 4:48pm
+**Last verified:** 2026-09-26 5:32pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -78,7 +78,7 @@ Turning on a product takes just a few seconds:
 1. Go to your workspace dashboard.
 2. Click **Products** in the settings area.
 3. You will see all available products with their pricing.
-4. Click **Enable** on the product you want to activate.
+4. Click **Turn on** on the product you want to activate.
 5. The product will be available immediately in your workspace sidebar.
 
 Once a product is enabled, new menu items will appear in your workspace sidebar. For example, enabling Marketing adds sections for contacts, campaigns, and email templates.
@@ -136,23 +136,28 @@ Here is how pricing works for each product:
 If you no longer need a product:
 
 1. Go to **Products** in your workspace settings.
-2. Find the product you want to disable.
-3. Click **Disable**.
-4. You will be asked to confirm -- click **Disable** again to proceed.
+2. Find the product you want to turn off.
+3. Click **Turn off**.
+4. A confirmation window shows exactly what happens: how many of your tickets, campaigns or projects are kept, the date they would be deleted, and what stops while the product is off. Click **Turn off** again to proceed, or **Keep it on** to change your mind.
+
+The product's card then shows a banner counting down the days until its data is deleted, with two buttons:
+
+- **Turn back on** -- the product comes straight back with everything as you left it.
+- **Delete now** -- permanently deletes the product's data right away instead of waiting. You'll be asked to type your workspace name to confirm, because this can't be undone.
 
 > **Important:** Disabling a product removes it from your workspace for everyone on your team. Your data is **kept for 30 days**: enable the product again within that time and everything is back where you left it. After 30 days, the product's data is **permanently deleted**, and enabling it again starts it empty. Your contacts are never affected. **Internal Docs** is the exception -- it is free, so its documents are kept for as long as you like.
 
-> **Helpdesk and your sites' knowledge bases:** disabling Helpdesk still removes the public knowledge base from each of your sites straight away, and its articles are deleted then -- the confirmation window asks you to type your workspace name for that reason. Your tickets and other Helpdesk data are kept for 30 days as described above.
+> **Helpdesk and your sites' knowledge bases:** turning Helpdesk off still removes the public knowledge base from each of your sites straight away, and its articles are deleted then. Your tickets and other Helpdesk data are kept for 30 days as described above.
 
 > **Storage:** files the product stored (for example ticket attachments or campaign images) still count toward your workspace storage while they are being kept.
 
-> **Websites** has no **Disable** button -- it is always on, so the steps above don't apply to it.
+> **Websites** has no **Turn off** button -- it is always on, so the steps above don't apply to it.
 
 When you disable a product, the monthly charge stops from that point forward. You are only billed for the time the product was active.
 
 ### Disabling the same product more than twice in a month
 
-You can disable each product twice in a billing month and it turns off straight away. If you disable the same product a **third** time in the same month, it doesn't turn off right away: it keeps working normally -- and is billed as usual -- until the **1st of next month**, and turns off then. You are never charged for a day you can't use the product. The count starts over on the 1st of each month.
+You can turn each product off twice in a billing month and it turns off straight away -- the second time, the confirmation window warns you about the rule below. If you turn the same product off a **third** time in the same month, it doesn't turn off right away: it keeps working normally -- and is billed as usual -- until the **1st of next month**, and turns off then. Its card says when, and **Keep it on** cancels it. You are never charged for a day you can't use the product. The count starts over on the 1st of each month.
 
 ---
 
