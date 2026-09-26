@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-09-23 12:24pm
+**Last verified:** 2026-09-26 4:48pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -52,9 +52,9 @@ If you no longer need a module:
 1. Go to **Settings → Modules** in your site menu.
 2. Find the module you want to turn off.
 3. Click it to open the confirmation window, which explains exactly what will happen.
-4. Because disabling a module **permanently deletes all of its content**, you'll be asked to type the module's name to confirm. Type it, then click **Disable**.
+4. You'll be asked to type the module's name to confirm. Type it, then click **Disable**.
 
-> **Warning:** Disabling a module removes it from your site menu **and permanently deletes its stored content** -- for example, disabling Articles deletes every article. This can't be undone, so export or back up anything you want to keep first. If you re-enable the module later, it comes back empty. (Capabilities like Accounts and "Hide WebNesting branding" store no content, so turning them off deletes nothing.)
+> **Important:** Disabling a module removes it from your site menu. Its content is **kept for 30 days** -- enable the module again within that time and every article, event or product is back as you left it. After 30 days, the module's content is **permanently deleted**, and enabling it again starts it empty. (Capabilities like Accounts and "Hide WebNesting branding" store no content, so there is nothing to keep or delete.)
 
 > **Tip:** Disabling a module stops the monthly charge for it on your next billing cycle.
 

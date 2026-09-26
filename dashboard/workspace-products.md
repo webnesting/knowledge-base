@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-09-25 10:17pm
+**Last verified:** 2026-09-26 4:48pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -140,11 +140,19 @@ If you no longer need a product:
 3. Click **Disable**.
 4. You will be asked to confirm -- click **Disable** again to proceed.
 
-> **Important:** Disabling a product removes access to its features from your workspace sidebar. Your data is preserved and will be available if you re-enable the product later.
+> **Important:** Disabling a product removes it from your workspace for everyone on your team. Your data is **kept for 30 days**: enable the product again within that time and everything is back where you left it. After 30 days, the product's data is **permanently deleted**, and enabling it again starts it empty. Your contacts are never affected. **Internal Docs** is the exception -- it is free, so its documents are kept for as long as you like.
+
+> **Helpdesk and your sites' knowledge bases:** disabling Helpdesk still removes the public knowledge base from each of your sites straight away, and its articles are deleted then -- the confirmation window asks you to type your workspace name for that reason. Your tickets and other Helpdesk data are kept for 30 days as described above.
+
+> **Storage:** files the product stored (for example ticket attachments or campaign images) still count toward your workspace storage while they are being kept.
 
 > **Websites** has no **Disable** button -- it is always on, so the steps above don't apply to it.
 
 When you disable a product, the monthly charge stops from that point forward. You are only billed for the time the product was active.
+
+### Disabling the same product more than twice in a month
+
+You can disable each product twice in a billing month and it turns off straight away. If you disable the same product a **third** time in the same month, it doesn't turn off right away: it keeps working normally -- and is billed as usual -- until the **1st of next month**, and turns off then. You are never charged for a day you can't use the product. The count starts over on the 1st of each month.
 
 ---
 
@@ -158,8 +166,8 @@ Only workspace members with **Settings** edit permission can enable or disable p
 
 - **Enable only what you need.** Each enabled product adds to your monthly bill. If you are not actively using a product, disable it to save money.
 - **Try before you commit.** You can enable and disable products at any time. If you enable something and decide it is not for you, disable it and you will only be charged for the time it was active.
-- **Changes take effect immediately.** There is no waiting period when you enable or disable a product. New features appear (or disappear) right away.
-- **Your data is always safe.** Disabling a product does not delete your data. Everything is preserved and will be there if you re-enable it later.
+- **Changes take effect immediately.** Enabling a product, and your first two disables of it in a month, happen right away. A third disable in the same month waits until the 1st (see above).
+- **You have 30 days to change your mind.** Disabling a product keeps its data for 30 days. Enable it again within that time and nothing is lost; after that, its data is permanently deleted.
 - **All team members benefit.** When you enable a product, all workspace members with appropriate permissions can access it.
 
 ---
