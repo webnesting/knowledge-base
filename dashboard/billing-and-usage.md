@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-09-26 5:45pm
+**Last verified:** 2026-09-26 6:51pm
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 

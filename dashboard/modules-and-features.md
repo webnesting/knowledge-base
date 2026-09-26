@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-09-26 5:45pm
+**Last verified:** 2026-09-26 6:51pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -54,7 +54,7 @@ If you no longer need a module:
 3. Click its switch. A confirmation window explains exactly what will happen: how many entries are kept, the date they would be deleted, and that its pages come off your public site while it's off.
 4. Click **Turn off** to proceed, or **Keep it on** to change your mind.
 
-The module's row then shows a banner counting down the days until its content is deleted, with **Turn back on** (everything comes back as you left it) and **Delete now** (deletes the content right away -- you'll be asked to type your site's name, because this can't be undone). Clicking the switch of a turned-off module also turns it back on.
+The module's row then shows a banner counting down the days until its content is deleted, with **Turn back on** (everything comes back as you left it), **Download a copy** (we email you a link to a copy of the module's content and its pages, valid for 7 days) and **Delete now** (deletes the content right away -- you'll be asked to type your site's name, because this can't be undone). Clicking the switch of a turned-off module also turns it back on.
 
 > **Important:** Disabling a module removes it from your site menu. Its content is **kept for 30 days** -- enable the module again within that time and every article, event or product is back as you left it. After 30 days, the module's content is **permanently deleted**, and enabling it again starts it empty. (Capabilities like Accounts and "Hide WebNesting branding" store no content, so there is nothing to keep or delete.)
 
