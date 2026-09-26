@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-09-25 7:12pm
+**Last verified:** 2026-09-25 9:28pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -18,9 +18,7 @@ Your workspace starts with the basics: website management, media, and team colla
 
 ### Websites
 
-Build and publish websites. **Websites is switched on by default** in every workspace, and it has no monthly base fee of its own -- each website you create is billed as it always has been. It powers the **Sites** section of your sidebar, where your websites live.
-
-If your workspace doesn't build websites (for example, a team that only uses Helpdesk or Tasks), you can turn Websites off to hide the Sites section from the sidebar and the dashboard. You can only turn it off while the workspace has no websites -- delete them first, and WebNesting will tell you how many are left if you try too early. Turning Websites off never affects a published website, and you can turn it back on any time.
+Build and publish websites. **Websites is always on** -- it has no on/off switch and no monthly base fee of its own; each website you create is billed as it always has been. Use **Create site** on the Websites card to create a website -- including your first one. Once you have a website, the **Sites** section appears in your sidebar, where your websites live.
 
 ### Marketing
 
