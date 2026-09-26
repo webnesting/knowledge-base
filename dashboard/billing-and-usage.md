@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-09-22 2:20pm
+**Last verified:** 2026-09-26 5:45pm
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -56,6 +56,8 @@ System pages (the built-in pages every site ships with, like the 404 page) are a
 Storage is one meter for your whole workspace. It covers everything we store for you: your own uploads (images, videos, documents), helpdesk ticket attachments, and files visitors upload through your forms. You are billed once for storage no matter how many sites you have.
 
 **Example:** If you are storing 3 GB of files in total, the first 2 GB are free, and you pay for 1 GB. That is 1 x $1 = $1.00 per month for storage.
+
+Files belonging to a product you've turned off -- such as the attachments on your Helpdesk tickets -- still count toward storage while they're kept, and stop counting once they're deleted.
 
 > **Tip:** You can see and manage every stored file from the File Manager (click **Files** in the top bar) -- helpdesk attachments live in the managed **Helpdesk** folder and visitor uploads in **Form Uploads**. Deleting files you no longer need lowers your bill immediately.
 
@@ -117,7 +119,7 @@ You are never charged for time you did not use. If you enable or disable a featu
 
 **Example:** If you enable the Articles module on the 15th of a 30-day month, you are charged for roughly half the month -- about $2.50 instead of the full $5.
 
-This works the same way in reverse. If you disable a module partway through the month, you stop being charged for it from that point forward. Usage is pro-rated, so you only pay for the time a resource is active. If you add 10 pages halfway through the month, you are only charged for the days those pages exist.
+This works the same way in reverse. If you turn a module off partway through the month, you stop being charged for it from that point forward -- its content is kept for 30 days in case you turn it back on, and that costs nothing. Usage is pro-rated, so you only pay for the time a resource is active. If you add 10 pages halfway through the month, you are only charged for the days those pages exist.
 
 > **Tip:** Feel free to try out modules without worrying about being stuck with a full month's charge. If you enable something and disable it a few days later, you will only pay for those few days.
 

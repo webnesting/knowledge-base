@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-09-26 5:32pm
+**Last verified:** 2026-09-26 5:45pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -58,7 +58,7 @@ The module's row then shows a banner counting down the days until its content is
 
 > **Important:** Disabling a module removes it from your site menu. Its content is **kept for 30 days** -- enable the module again within that time and every article, event or product is back as you left it. After 30 days, the module's content is **permanently deleted**, and enabling it again starts it empty. (Capabilities like Accounts and "Hide WebNesting branding" store no content, so there is nothing to keep or delete.)
 
-> **Tip:** Disabling a module stops the monthly charge for it on your next billing cycle.
+> **Tip:** Turning a module off stops its charge straight away, even though its content is kept for 30 days -- you only pay for the time it was on.
 
 ---
 
