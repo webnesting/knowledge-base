@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-09-25 9:28pm
+**Last verified:** 2026-09-25 10:17pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -142,7 +142,7 @@ If you no longer need a product:
 
 > **Important:** Disabling a product removes access to its features from your workspace sidebar. Your data is preserved and will be available if you re-enable the product later.
 
-> **Websites** can only be turned off once the workspace has no websites left. Turning it off hides the Sites section from your sidebar and dashboard.
+> **Websites** has no **Disable** button -- it is always on, so the steps above don't apply to it.
 
 When you disable a product, the monthly charge stops from that point forward. You are only billed for the time the product was active.
 
