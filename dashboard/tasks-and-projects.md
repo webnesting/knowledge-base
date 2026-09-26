@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-09-24 9:21am
+**Last verified:** 2026-09-26 6:59pm (added "Turning Tasks Off"). Earlier 2026-09-24 9:21am
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -377,6 +377,12 @@ To clone a project:
 2. Open the **⋮** menu in the corner of the project's card and choose **Clone**.
 3. Give the new project a name.
 4. Click **Clone**.
+
+---
+
+## Turning Tasks Off
+
+If you turn Tasks off from **Settings → Products**, nobody on your team can open it any more, but nothing is deleted right away -- your projects, tasks, comments, and time entries are all **kept for 30 days**. Turn Tasks back on within that time and everything is exactly as you left it. After 30 days -- or if you choose **Delete now** -- it's permanently deleted. See [Workspace Products](workspace-products.md#disabling-a-product) for the full turn-off flow, including **Download a copy**.
 
 ---
 

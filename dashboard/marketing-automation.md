@@ -1,6 +1,6 @@
 # Marketing Automations
 
-**Last verified:** 2026-09-22 11:43pm
+**Last verified:** 2026-09-26 6:59pm (added "While Marketing Is Turned Off"). Earlier 2026-09-22 11:43pm
 
 Marketing automations let you create set-it-and-forget-it workflows that send emails, update contacts, and perform actions automatically when something happens. Instead of manually sending a welcome email every time someone signs up, or remembering to tag contacts after an event, you build the workflow once and let it run on its own.
 
@@ -229,6 +229,18 @@ If your workspace has the **Helpdesk** or **Tasks** products enabled, you can cr
 These triggers only appear when the corresponding product is enabled in your workspace. If you disable a product, automations using its triggers will stop processing new enrollments.
 
 > **Tip:** Cross-product automations are a great way to make sure nothing falls through the cracks. For example, you could automatically send a thank-you email every time a support ticket is resolved, without anyone having to remember to do it manually.
+
+---
+
+## While Marketing Is Turned Off
+
+Turning Marketing off from **Settings → Products** pauses everything it does in the background:
+
+- **Every automation pauses exactly where each contact was.** Nobody is skipped ahead or dropped -- when you turn Marketing back on, each contact simply continues from the step they were on.
+- **A campaign that was mid-send stops sending.** It's marked **Missed**, and the emails it already sent still count.
+- **Scheduled campaigns don't send while Marketing is off.** When you turn Marketing back on, any campaign whose send time already passed is marked **Missed while Marketing was off** instead of going out all at once at a surprise time -- open it to **send it now** or **reschedule** it for later.
+
+Your contacts, lists, tags, and templates are all kept -- see [Workspace Products](workspace-products.md#disabling-a-product) for the full 30-day turn-off flow, including **Delete now** and **Download a copy**.
 
 ---
 
