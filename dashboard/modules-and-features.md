@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:51pm
+**Last verified:** 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:51pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -58,7 +58,7 @@ The module's row then shows a banner counting down the days until its content is
 
 > **Important:** Disabling a module removes it from your site menu. Its content is **kept for 30 days** -- enable the module again within that time and every article, event or product is back as you left it. After 30 days, the module's content is **permanently deleted**, and enabling it again starts it empty. (Capabilities like Accounts and "Hide WebNesting branding" store no content, so there is nothing to keep or delete.)
 
-> **Tip:** Turning a module off stops its charge straight away, even though its content is kept for 30 days -- you only pay for the time it was on.
+> **Note:** Turning a module off stops its charge, and its content is kept for 30 days in case you turn it back on.
 
 ---
 
@@ -68,8 +68,8 @@ Modules use simple, predictable pricing. Each module has a flat monthly fee that
 
 Here is how it works:
 
-- **You are only charged for modules you have enabled.** If a module is off, it costs nothing.
-- **Charges are calculated based on how long a module is active.** If you enable a module halfway through the month, you only pay for the time it was on.
+- **You are only charged for modules you have enabled.**
+- **Charges are calculated by the hour while a module is on**, at the hourly rate shown when you turn it on.
 - **Module fees appear on your monthly bill.** You can see a breakdown of all charges in your billing section.
 
 > **Tip:** Visit the **Billing** section of your account to see exactly what you are being charged for each month.
@@ -139,7 +139,7 @@ What you get when you enable it:
 - Contact import from CSV files
 - Automatic unsubscribe handling
 
-**About 10,000 marketing emails each month are free.** After that, sending costs **$0.70 per 1,000 emails**. This free allowance builds up hour by hour while Marketing is turned on, so the exact amount follows the length of the month (a 31-day month earns a little more, February a little less), and turning Marketing off for a while only costs you the free amount you'd have built up in that time. Workspace contacts are billed separately, once for the whole workspace, at $10 per 1,000 contacts per month (first 500 free).
+**About 10,000 marketing emails each month are free.** After that, sending costs **$0.70 per 1,000 emails**. This free allowance builds up hour by hour while Marketing is turned on, so the exact amount follows the length of the month (a 31-day month earns a little more, February a little less). Marketing earns no free emails while it's off. Workspace contacts are billed separately, once for the whole workspace, at $10 per 1,000 contacts per month (first 500 free).
 
 > **Tip:** If you also have the Forms module enabled on your site, form submissions can automatically create workspace contacts -- no manual data entry needed. See the [Email Marketing guide](../content-modules/email-marketing.md) and [Workspace Products](workspace-products.md) for details.
 

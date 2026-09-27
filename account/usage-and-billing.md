@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (added "Turning a product or module off"). Earlier 2026-09-22 2:20pm
+**Last verified:** 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (added "Turning a product or module off"). Earlier 2026-09-22 2:20pm
 
 WebNesting uses simple, usage-based pricing. This guide explains how pricing works, how to view your usage and bills, and how to pay.
 
@@ -55,7 +55,7 @@ Workspace-level products are also available on a separate monthly rate:
 | Helpdesk | $15/month |
 | Tasks | $10/month |
 
-Some of these products also include per-unit usage (e.g. tickets, contacts, tasks) once you exceed the included free allowances. Free allowances that come with a product (like Marketing's free emails or Helpdesk's free tickets) build up hour by hour while that product is turned on, instead of all being granted the moment the month starts -- turning a product off for a while only costs you the free amount you would have built up during that time, never what you've already earned.
+Some of these products also include per-unit usage (e.g. tickets, contacts, tasks) once you exceed the included free allowances. Free allowances that come with a product (like Marketing's free emails or Helpdesk's free tickets) build up hour by hour while that product is turned on, instead of all being granted the moment the month starts. A product earns no free allowance while it's off.
 
 ### Turning a product or module off
 

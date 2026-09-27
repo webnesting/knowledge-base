@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-09-27 7:49pm (noted free credits build up hourly while a product is on). Earlier 2026-09-26 6:51pm
+**Last verified:** 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (noted free credits build up hourly while a product is on). Earlier 2026-09-26 6:51pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -98,7 +98,7 @@ Each product has two types of costs:
 - **Base monthly fee** -- A fixed monthly charge for having the product enabled.
 - **Usage charges** -- Additional costs based on how much you use certain features. These charges include free credits, so you will not be charged until you exceed the free tier.
 
-Free credits build up hour by hour while a product is turned on, rather than being handed out all at once when the month starts -- so turning a product off for a while only costs you the free amount you'd have built up during that time, and the exact free amount for a full month follows how many hours are in it (a 31-day month earns a little more than a 30-day one, February a little less). See [Billing and Usage](billing-and-usage.md) for the exact numbers.
+Free credits build up hour by hour while a product is turned on, rather than being handed out all at once when the month starts, and a product earns none while it's off. The exact free amount for a full month follows how many hours are in it (a 31-day month earns a little more than a 30-day one, February a little less). See [Billing and Usage](billing-and-usage.md) for the exact numbers.
 
 Here is how pricing works for each product:
 
@@ -156,7 +156,7 @@ The product's card then shows a banner counting down the days until its data is 
 
 > **Websites** has no **Turn off** button -- it is always on, so the steps above don't apply to it.
 
-When you disable a product, the monthly charge stops from that point forward. You are only billed for the time the product was active.
+When you disable a product, its charge and its free allowance both stop from that point forward.
 
 ### Disabling the same product more than twice in a month
 

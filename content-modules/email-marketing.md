@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-09-27 7:49pm (free-email allowance now described as hourly-earned, not a flat 10,000). Earlier 2026-09-25 7:43pm
+**Last verified:** 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free-email allowance now described as hourly-earned, not a flat 10,000). Earlier 2026-09-25 7:43pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -16,7 +16,7 @@ Every contact you collect gets stored at the workspace level with their name, em
 
 Email Marketing is designed to work alongside your websites. Visitors can sign up through forms on your pages, and their information flows directly into your workspace contact database. If you also have the Forms module enabled on a site, form submissions can automatically create or update workspace contacts -- no manual data entry needed.
 
-Pricing: $20/month base plus per-email pricing once you exceed the free allowance -- **about 10,000 emails each month are free**, then sending costs **$0.70 per 1,000 emails**. That free allowance builds up hour by hour while Marketing is turned on, so a 31-day month earns a little more than "10,000" and February a little less, and switching Marketing off for a while only costs you the free amount you'd have built up in that time. Workspace contacts are billed separately, once for the whole workspace, at **$10 per 1,000 contacts per month (first 500 free)**.
+Pricing: $20/month base plus per-email pricing once you exceed the free allowance -- **about 10,000 emails each month are free**, then sending costs **$0.70 per 1,000 emails**. That free allowance builds up hour by hour while Marketing is turned on, so a 31-day month earns a little more than "10,000" and February a little less. Marketing earns no free emails while it's off. Workspace contacts are billed separately, once for the whole workspace, at **$10 per 1,000 contacts per month (first 500 free)**.
 
 ---
 

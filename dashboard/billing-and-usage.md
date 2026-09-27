@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (fixed a stale claim: disabling a module keeps content for 30 days, not indefinitely). Earlier 2026-09-26 6:51pm
+**Last verified:** 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (fixed a stale claim: disabling a module keeps content for 30 days, not indefinitely). Earlier 2026-09-26 6:51pm
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -97,7 +97,7 @@ Workspace-level products are billed separately at the workspace level (see [Work
 
 Contacts are shared by every workspace product (Marketing, Helpdesk, and your site forms all use the same contact database), so they are billed once for the whole workspace: **$10 per 1,000 contacts per month, with your first 500 free.**
 
-These free amounts build up hour by hour while the product is turned on, rather than being granted all at once at the start of the month -- so the exact free amount you get follows the length of the month: a 30-day month earns a little less than the "about 10,000" figure, a 31-day month a little more, and February a little less still. Turning a product off for a while only costs you the free amount you would have built up during that time; it never takes back what you've already earned. While the current month is still in progress, your bill shows this free amount as an estimate (what you've earned so far, plus what you'll earn by month end if the product stays on) -- it's only final once the month closes.
+These free amounts build up hour by hour while the product is turned on, rather than being granted all at once at the start of the month -- so the exact free amount you get follows the length of the month: a 30-day month earns a little less than the "about 10,000" figure, a 31-day month a little more, and February a little less still. A product earns no free allowance while it's off. While the current month is still in progress, your bill shows this free amount as an estimate (what you've earned so far, plus what you'll earn by month end if the product stays on) -- it's only final once the month closes.
 
 > **Tip:** Module fees are the same every month regardless of how much you use the module. If the Articles module is enabled, it costs $5/month whether you have 2 articles or 200.
 
@@ -123,7 +123,7 @@ You are never charged for time you did not use. If you enable or disable a featu
 
 **Example:** If you enable the Articles module on the 15th of a 30-day month, you are charged for roughly half the month -- about $2.50 instead of the full $5.
 
-This works the same way in reverse. If you turn a module off partway through the month, you stop being charged for it from that point forward -- its content is kept for 30 days in case you turn it back on, and that costs nothing. Usage is pro-rated, so you only pay for the time a resource is active. If you add 10 pages halfway through the month, you are only charged for the days those pages exist.
+If you turn a module off, its charge stops from that point and its content is kept for 30 days in case you turn it back on. Pages, storage and contacts are measured by the hour, so pages you add partway through the month are charged from the time they exist.
 
 > **Tip:** Feel free to try out modules without worrying about being stuck with a full month's charge. If you enable something and disable it a few days later, you will only pay for those few days.
 
