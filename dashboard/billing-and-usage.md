@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-09-26 6:59pm (fixed a stale claim: disabling a module keeps content for 30 days, not indefinitely). Earlier 2026-09-26 6:51pm
+**Last verified:** 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (fixed a stale claim: disabling a module keeps content for 30 days, not indefinitely). Earlier 2026-09-26 6:51pm
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -21,7 +21,7 @@ You are billed once a month. Each bill covers the previous month's usage and sho
 
 Every WebNesting site comes with a few things at no charge:
 
-- **Your first 5 pages** -- You can have up to 5 pages on your site before any page charges apply. This includes any type of page (regular pages, article pages, event pages, etc.).
+- **Your first 5 pages** -- You can have up to 5 pages on your site before any page charges apply. This includes any type of page (regular pages, article pages, event pages, etc.). Turning on the Articles, Events, or Store module adds 10 more free pages to that site for as long as the module stays on -- so a site with Store gets 15 free pages, and 25 with Store and Articles both on.
 - **Your first 2 GB of storage** -- Everything we store for you (your own uploads, helpdesk attachments, and files visitors upload through your forms) is measured together across your whole workspace, and the first 2 GB is free.
 
 These free allowances apply automatically. You do not need to do anything to activate them. If you stay within these limits, you will not see those items on your bill at all.
@@ -34,7 +34,7 @@ Usage-based charges grow or shrink depending on your actual use. Here is what is
 
 ### Pages
 
-**$0.50 per page per month** (first 5 pages free)
+**$0.50 per page per month** (first 5 pages free, +10 more per page module turned on)
 
 Every page on your site counts toward your page total. This includes:
 - Regular pages (Home, About, Contact, etc.)
@@ -45,7 +45,9 @@ Every page on your site counts toward your page total. This includes:
 
 System pages (the built-in pages every site ships with, like the 404 page) are always free and do not count toward your total.
 
-**Example:** If your site has 15 pages, the first 5 are free, and you pay for the remaining 10. That is 10 x $0.50 = $5.00 per month for pages.
+Your free page allowance isn't fixed at 5 -- turning on the Articles, Events, or Store module gives that site 10 more free pages for as long as the module stays on, on top of the 5 every site gets. A site with just Store turned on has 15 free pages; with Store and Articles both on, 25.
+
+**Example:** If your site has 15 pages and no page modules (Articles, Events, or Store) turned on, the first 5 are free, and you pay for the remaining 10. That is 10 x $0.50 = $5.00 per month for pages. Turn on the Store module and those same 15 pages are all free, since Store's 10 extra free pages bring your allowance up to 15.
 
 > **Tip:** You can see your current page count in your dashboard. If you are looking to reduce costs, consider removing pages you no longer need.
 
@@ -88,20 +90,22 @@ Workspace-level products are billed separately at the workspace level (see [Work
 
 | Product | Monthly Cost | What It Does |
 |---------|-------------|--------------|
-| Marketing | $20/month base + $0.70 per 1,000 emails sent (first 10,000 each month free) | Email campaigns, contacts, automations |
-| Helpdesk | $15/month base + $0.05/ticket (first 25 each month free) | Tickets, SLA, knowledge base |
-| Tasks | $10/month base + $0.05/active task (first 25 free) | Projects, tasks, boards, timelines -- projects themselves are free |
-| API Access | $10/month base + per-request, data-transfer, and active-token usage | Access tokens for the REST API. (Connecting an AI assistant is separate and free.) |
+| Marketing | $20/month base + $0.70 per 1,000 emails sent (about 10,000 free each month) | Email campaigns, contacts, automations |
+| Helpdesk | $15/month base + $0.05/ticket (about 25 free each month) | Tickets, SLA, knowledge base |
+| Tasks | $10/month base + $0.05/active task (about 25 free each month) | Projects, tasks, boards, timelines -- projects themselves are free |
+| API Access | $10/month base + per-request, data-transfer, and active-token usage (about 50,000 requests and 1 GB of transfer free each month) | Access tokens for the REST API. (Connecting an AI assistant is separate and free.) |
 
 Contacts are shared by every workspace product (Marketing, Helpdesk, and your site forms all use the same contact database), so they are billed once for the whole workspace: **$10 per 1,000 contacts per month, with your first 500 free.**
+
+These free amounts build up hour by hour while the product is turned on, rather than being granted all at once at the start of the month -- so the exact free amount you get follows the length of the month: a 30-day month earns a little less than the "about 10,000" figure, a 31-day month a little more, and February a little less still. Turning a product off for a while only costs you the free amount you would have built up during that time; it never takes back what you've already earned. While the current month is still in progress, your bill shows this free amount as an estimate (what you've earned so far, plus what you'll earn by month end if the product stays on) -- it's only final once the month closes.
 
 > **Tip:** Module fees are the same every month regardless of how much you use the module. If the Articles module is enabled, it costs $5/month whether you have 2 articles or 200.
 
 ### A Note About Article and Event Content
 
-The Articles and Events module fees cover access to the feature itself. The actual content you create (each blog post, each event listing) counts as a page and is billed at the per-page rate.
+The Articles and Events module fees cover access to the feature itself. The actual content you create (each blog post, each event listing) counts as a page and is billed at the per-page rate. Turning either module on also raises your site's free page allowance by 10 (see [Pages](#pages) above), so the module's own content is often covered by the extra free pages it brings.
 
-**Example:** You enable the Articles module ($5/month) and create 10 blog posts. You are charged $5 for the module plus the per-page cost for those 10 article pages (after your free page allowance).
+**Example:** You enable the Articles module ($5/month), which raises your site's free pages from 5 to 15, and create 10 blog posts. Since 10 pages fit inside your new 15-page allowance, you are charged just the $5 module fee -- no per-page charges, as long as you don't have other pages pushing you over 15.
 
 ---
 
@@ -177,7 +181,7 @@ Here are some practical ways to keep your WebNesting bill manageable.
 
 ### Take Advantage of Free Allowances
 
-Remember that your first 5 pages and first 2 GB of storage are free, and letting people sign up on your site costs nothing extra. For a simple website, you may not owe anything beyond the modules you choose to enable.
+Remember that your first 5 pages (more if Articles, Events, or Store is turned on) and first 2 GB of storage are free, and letting people sign up on your site costs nothing extra. For a simple website, you may not owe anything beyond the modules you choose to enable.
 
 ### Only Enable Modules You Need
 

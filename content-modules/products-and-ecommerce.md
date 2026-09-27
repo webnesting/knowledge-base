@@ -1,6 +1,6 @@
 # Products and E-Commerce
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-27 7:49pm (noted Store grants 10 free pages while on)
 
 The E-Commerce module turns your WebNesting website into an online store. You can list products, manage orders, and give your customers a place to browse and buy -- all from the same dashboard you use to manage the rest of your site.
 
@@ -32,7 +32,7 @@ Once enabled, you will see a new **Store** section appear in your dashboard side
 
 > **Tip:** The E-Commerce module uses Stripe for payment processing. You will need to set up your Stripe account before you can accept payments. See the "Setting Up Stripe" section below for step-by-step instructions.
 
-The Store module costs $20/month.
+The Store module costs $20/month. Each product page also counts as a page for billing purposes -- but turning Store on also gives your site 10 more free pages for as long as it stays on. See [Billing and Usage](../dashboard/billing-and-usage.md#pages).
 
 ---
 

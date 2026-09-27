@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-09-26 6:51pm
+**Last verified:** 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:51pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -90,6 +90,7 @@ What you get when you enable it:
 - An **Articles** section in your dashboard to create and manage posts
 - A blog page on your published website where visitors can read your articles
 - Tools for organizing articles with categories and tags
+- 10 more free pages for this site, for as long as Articles stays on (see [Billing and Usage](billing-and-usage.md#pages))
 
 ### E-Commerce (Store)
 
@@ -102,6 +103,7 @@ What you get when you enable it:
 - Product pages on your published website
 - Order management tools
 - Support for product details like pricing, descriptions, and images
+- 10 more free pages for this site, for as long as Store stays on (see [Billing and Usage](billing-and-usage.md#pages))
 
 ### Events
 
@@ -113,6 +115,7 @@ What you get when you enable it:
 - An **Events** section in your dashboard
 - Event pages on your published website
 - Tools for adding event details like dates, times, and descriptions
+- 10 more free pages for this site, for as long as Events stays on (see [Billing and Usage](billing-and-usage.md#pages))
 
 ### Event Showings and Ticketing
 
@@ -136,7 +139,7 @@ What you get when you enable it:
 - Contact import from CSV files
 - Automatic unsubscribe handling
 
-Your first **10,000 marketing emails each month are free**. After that, sending costs **$0.70 per 1,000 emails**. Workspace contacts are billed separately, once for the whole workspace, at $10 per 1,000 contacts per month (first 500 free).
+**About 10,000 marketing emails each month are free.** After that, sending costs **$0.70 per 1,000 emails**. This free allowance builds up hour by hour while Marketing is turned on, so the exact amount follows the length of the month (a 31-day month earns a little more, February a little less), and turning Marketing off for a while only costs you the free amount you'd have built up in that time. Workspace contacts are billed separately, once for the whole workspace, at $10 per 1,000 contacts per month (first 500 free).
 
 > **Tip:** If you also have the Forms module enabled on your site, form submissions can automatically create workspace contacts -- no manual data entry needed. See the [Email Marketing guide](../content-modules/email-marketing.md) and [Workspace Products](workspace-products.md) for details.
 
@@ -173,7 +176,7 @@ Common use cases:
 - Syncing product data between your online store and a point-of-sale system
 - Automatically creating articles or events from an external content workflow
 
-Beyond the base fee you are charged for API requests (first 50,000 each month free), data transfer (first 1 GB each month free), and active API tokens (first 5 free). Two optional add-ons are available: a higher rate limit and extended audit-log retention.
+Beyond the base fee you are charged for API requests (about 50,000 each month free), data transfer (about 1 GB each month free), and active API tokens (first 5 free). The request and data-transfer allowances build up hour by hour while API Access is turned on, so they follow the length of the month rather than a fixed number. Two optional add-ons are available: a higher rate limit and extended audit-log retention.
 
 > **Tip:** Connecting an AI assistant (Claude, ChatGPT, Cursor, and similar) is a **separate, free** feature -- it does not need this product and is not metered. See [Connecting an AI Tool](connecting-ai-tools.md).
 

@@ -1,6 +1,6 @@
 # Events
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-27 7:49pm (noted Events grants 10 free pages while on)
 
 The Events module lets you create and manage event listings on your website. Whether you host workshops, classes, concerts, conferences, or community meetups, this module gives you the tools to promote your events and share all the important details with your visitors.
 
@@ -12,7 +12,7 @@ The Events module is an event management system built right into your website. W
 
 Events appear on your website just like any other page, but with all the extra details that make event pages useful: dates, times, and links to tickets. Past events are automatically sorted below upcoming events in your event listings. Visitors will see upcoming events first.
 
-The Events module costs $5/month.
+The Events module costs $5/month. Each event page also counts as a page for billing purposes -- but turning Events on also gives your site 10 more free pages for as long as it stays on. See [Billing and Usage](../dashboard/billing-and-usage.md#pages).
 
 ---
 

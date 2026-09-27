@@ -1,6 +1,6 @@
 # Articles and Blog Posts
 
-**Last verified:** 2026-09-02 5:09pm
+**Last verified:** 2026-09-27 7:49pm (noted Articles grants 10 free pages while on)
 
 The Articles module gives your website a full blog and news section. Use it to share company updates, how-to guides, industry news, or anything else you want to write about. Articles are one of the best ways to keep your website fresh and attract new visitors.
 
@@ -12,7 +12,7 @@ Think of the Articles module as your own built-in blogging tool. Once you turn i
 
 Each article you create gets its own page on your website, complete with a title, featured image, and the full article text. Each article automatically gets a URL based on its title. You can customize the URL slug when creating or editing the article. Your visitors can browse all your articles in one place, or you can display them on any page of your site.
 
-The Articles module costs $5/month. Each article also counts as a page for billing purposes.
+The Articles module costs $5/month. Each article also counts as a page for billing purposes -- but turning Articles on also gives your site 10 more free pages for as long as it stays on, so its own content is often covered by that extra allowance. See [Billing and Usage](../dashboard/billing-and-usage.md#pages).
 
 ---
 

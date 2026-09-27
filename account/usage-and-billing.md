@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-09-26 6:59pm (added "Turning a product or module off"). Earlier 2026-09-22 2:20pm
+**Last verified:** 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (added "Turning a product or module off"). Earlier 2026-09-22 2:20pm
 
 WebNesting uses simple, usage-based pricing. This guide explains how pricing works, how to view your usage and bills, and how to pay.
 
@@ -16,7 +16,7 @@ WebNesting charges based on what you actually use -- things like the number of p
 
 Every site comes with free resources to get you started:
 
-- **5 free pages** -- Your first 5 pages are included at no charge. System pages (your homepage, the 404 page, and other built-in pages) are always free.
+- **5 free pages** -- Your first 5 pages are included at no charge. System pages (your homepage, the 404 page, and other built-in pages) are always free. Turning on the Articles, Events, or Store module adds 10 more free pages to that site for as long as the module stays on -- so a site with Store gets 15 free pages, and 25 with Store and Articles both on.
 - **2 GB of free storage** -- Covers your own uploads, helpdesk attachments, and form uploads across your whole workspace.
 
 Many small sites fit entirely within the free tier.
@@ -27,7 +27,7 @@ When you go beyond the free tier, you pay for what you use:
 
 | Resource | Rate | Free Allowance |
 |----------|------|----------------|
-| Pages | $0.50/page/month | First 5 pages free |
+| Pages | $0.50/page/month | First 5 pages free, +10 more per page module you turn on (Articles, Events, Store) |
 | Storage | $1/GB/month | First 2 GB free |
 | Contacts | $10 per 1,000/month | First 500 free |
 
@@ -55,7 +55,7 @@ Workspace-level products are also available on a separate monthly rate:
 | Helpdesk | $15/month |
 | Tasks | $10/month |
 
-Some of these products also include per-unit usage (e.g. tickets, contacts, tasks) once you exceed the included free allowances.
+Some of these products also include per-unit usage (e.g. tickets, contacts, tasks) once you exceed the included free allowances. Free allowances that come with a product (like Marketing's free emails or Helpdesk's free tickets) build up hour by hour while that product is turned on, instead of all being granted the moment the month starts -- turning a product off for a while only costs you the free amount you would have built up during that time, never what you've already earned.
 
 ### Turning a product or module off
 
@@ -142,4 +142,4 @@ If a bill isn't paid by the due date (the 15th), it is automatically marked over
 
 If your usage stays within the free tier for a given month, your bill will be $0. These bills are automatically marked as paid, so you don't need to do anything.
 
-> **Tip:** With 5 free pages, 2 GB of storage, and 500 free contacts, many personal and small business sites fit within the free tier. You might not owe anything at all!
+> **Tip:** With 5 free pages (more if you have Articles, Events, or Store turned on), 2 GB of storage, and 500 free contacts, many personal and small business sites fit within the free tier. You might not owe anything at all!
