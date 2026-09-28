@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-09-28 12:12am (two-step turn-on shows costs before confirming; removed a turn-off reassurance line; API data transfer priced per GB — usage-billing-correctness Phase 6). Earlier 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:51pm
+**Last verified:** 2026-09-28 6:29pm (contacts $5 per 1,000). Earlier 2026-09-28 12:12am (two-step turn-on shows costs before confirming; removed a turn-off reassurance line; API data transfer priced per GB — usage-billing-correctness Phase 6). Earlier 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:51pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -138,7 +138,7 @@ What you get when you enable it:
 - Contact import from CSV files
 - Automatic unsubscribe handling
 
-**About 10,000 marketing emails each month are free.** After that, sending costs **$0.70 per 1,000 emails**. This free allowance builds up hour by hour while Marketing is turned on, so the exact amount follows the length of the month (a 31-day month earns a little more, February a little less). Marketing earns no free emails while it's off. Workspace contacts are billed separately, once for the whole workspace, at $10 per 1,000 contacts per month (first 500 free).
+**About 10,000 marketing emails each month are free.** After that, sending costs **$0.70 per 1,000 emails**. This free allowance builds up hour by hour while Marketing is turned on, so the exact amount follows the length of the month (a 31-day month earns a little more, February a little less). Marketing earns no free emails while it's off. Workspace contacts are billed separately, once for the whole workspace, at $5 per 1,000 contacts per month (first 500 free).
 
 > **Tip:** If you also have the Forms module enabled on your site, form submissions can automatically create workspace contacts -- no manual data entry needed. See the [Email Marketing guide](../content-modules/email-marketing.md) and [Workspace Products](workspace-products.md) for details.
 

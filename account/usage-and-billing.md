@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-09-28 12:45pm (Usage ranges: This Month / Last 3 Months / Last 12 Months / Custom; bill summary starts from the charges as shown). Earlier 2026-09-28 11:49am (Usage tab: counts only, Show / Where controls, how things are counted). Earlier 2026-09-28 11:21am (itemized charges list price + allowance; click a charge for its breakdown). Earlier 2026-09-28 11:02am (invoices now group charges by workspace/website with a Show itemized toggle — usage-billing-correctness Phase 7). Earlier 2026-09-28 12:12am (exact hourly rates; scheduled turn-off at month end vs turn off now; API data transfer priced per GB — usage-billing-correctness Phase 6). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (added "Turning a product or module off"). Earlier 2026-09-22 2:20pm
+**Last verified:** 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-28 12:45pm (Usage ranges: This Month / Last 3 Months / Last 12 Months / Custom; bill summary starts from the charges as shown). Earlier 2026-09-28 11:49am (Usage tab: counts only, Show / Where controls, how things are counted). Earlier 2026-09-28 11:21am (itemized charges list price + allowance; click a charge for its breakdown). Earlier 2026-09-28 11:02am (invoices now group charges by workspace/website with a Show itemized toggle — usage-billing-correctness Phase 7). Earlier 2026-09-28 12:12am (exact hourly rates; scheduled turn-off at month end vs turn off now; API data transfer priced per GB — usage-billing-correctness Phase 6). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (added "Turning a product or module off"). Earlier 2026-09-22 2:20pm
 
 WebNesting uses simple, usage-based pricing. This guide explains how pricing works, how to view your usage and bills, and how to pay.
 
@@ -29,7 +29,7 @@ When you go beyond the free tier, you pay for what you use:
 |----------|------|----------------|
 | Pages | $0.50/page/month | First 5 pages free, +10 more per page module you turn on (Articles, Events, Store) |
 | Storage | $1/GB/month | First 2 GB free |
-| Contacts | $10 per 1,000/month | First 500 free |
+| Contacts | $5 per 1,000/month | First 500 free |
 
 People who create an account on your site are counted as contacts in the row above. There is no separate charge for letting them sign in, and your team members are always included.
 
@@ -51,7 +51,7 @@ Workspace-level products are also available on a separate monthly rate. Each one
 
 | Product | Rate While On |
 |---------|---------------|
-| Marketing | $0.027397260273973/hour -- about $20.00/month |
+| Marketing | $0.013698630136986/hour -- about $10.00/month |
 | Helpdesk | $0.020547945205479/hour -- about $15.00/month |
 | Tasks | $0.013698630136986/hour -- about $10.00/month |
 | API Access | $0.013698630136986/hour -- about $10.00/month |
