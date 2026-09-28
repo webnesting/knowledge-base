@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-09-28 11:49am (Usage tab: counts only, Show / Where controls, how things are counted). Earlier 2026-09-28 11:21am (itemized charges list price + allowance; click a charge for its breakdown). Earlier 2026-09-28 11:02am (invoices now group charges by workspace/website with a Show itemized toggle — usage-billing-correctness Phase 7). Earlier 2026-09-28 12:12am (exact hourly rates; scheduled turn-off at month end vs turn off now; API data transfer priced per GB — usage-billing-correctness Phase 6). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (added "Turning a product or module off"). Earlier 2026-09-22 2:20pm
+**Last verified:** 2026-09-28 12:45pm (Usage ranges: This Month / Last 3 Months / Last 12 Months / Custom; bill summary starts from the charges as shown). Earlier 2026-09-28 11:49am (Usage tab: counts only, Show / Where controls, how things are counted). Earlier 2026-09-28 11:21am (itemized charges list price + allowance; click a charge for its breakdown). Earlier 2026-09-28 11:02am (invoices now group charges by workspace/website with a Show itemized toggle — usage-billing-correctness Phase 7). Earlier 2026-09-28 12:12am (exact hourly rates; scheduled turn-off at month end vs turn off now; API data transfer priced per GB — usage-billing-correctness Phase 6). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (added "Turning a product or module off"). Earlier 2026-09-22 2:20pm
 
 WebNesting uses simple, usage-based pricing. This guide explains how pricing works, how to view your usage and bills, and how to pay.
 
@@ -81,11 +81,11 @@ Some of these products also include per-unit usage (e.g. emails, tickets, active
 The Usage tab shows how much you use over time -- counts only, no prices. (Everything to do with money, including your free allowances and what this month will cost, is on the **Billing** page.)
 
 - **Show** picks one thing to chart at a time -- for example emails sent, tickets created, contacts or pages.
-- The chart covers every day of the range you picked, including days with nothing on them, so you can see exactly when things happened.
+- The chart covers every day of the range you picked, up to today, including days with nothing on them, so you can see exactly when things happened.
 
 ### Choosing date ranges
 
-Use the date picker to view a specific time period -- this month, last month, or a custom range across several months.
+Pick **This Month**, **Last 3 Months** or **Last 12 Months**, or **Custom** to choose a From and To month. Ranges are always whole months. In the current month, the chart stops at today -- days that haven't happened yet are never drawn as zero -- and for emails, tickets and API calls a lighter bar estimates the rest of the month.
 
 ### How things are counted
 
@@ -113,7 +113,7 @@ Your monthly invoices are listed by month. Each invoice groups its charges by yo
 
 - **Grouped totals** first -- your workspace and each website, collapsed to one line with a total for each.
 - Click a group's name to open it, or **Show itemized** to open every group -- each charge is listed with its price and free allowance. Click a charge to see exactly how it was worked out.
-- A **Subtotal → Credits → Fees → Total** summary at the bottom.
+- At the bottom, **Charges** (those amounts added up, each already after its free amount), the **Processing fee**, and the **Total**.
 
 Anything still outstanding appears in a banner at the top of the Billing page, so unpaid invoices never hide in your history.
 
