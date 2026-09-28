@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-09-26 6:59pm (added "Turning Helpdesk Off"). Earlier 2026-09-25 5:21pm
+**Last verified:** 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-26 6:59pm (added "Turning Helpdesk Off"). Earlier 2026-09-25 5:21pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -613,7 +613,8 @@ If you turn Helpdesk off from **Settings → Products**, here's exactly what hap
 - **Email to your WebNesting-hosted support address gets an automatic reply** letting the sender know it isn't being checked -- it does **not** silently disappear, and it does **not** become a ticket.
 - **Email to a connected Gmail, Outlook, or IMAP inbox just stays in that inbox.** It is not turned into a ticket while Helpdesk is off, and it is **not imported later** when you turn Helpdesk back on -- so if you need those messages, keep checking that mailbox directly in the meantime.
 - **Your site's knowledge base comes off the public site immediately** -- visitors can no longer browse your help articles. The articles themselves are kept with the rest of your Helpdesk data (tickets, canned responses, and so on) and come right back, exactly as they were, the moment you turn Helpdesk back on.
-- **Everything is kept for 30 days**, so turning it back on brings your tickets, teams, SLA policies, and knowledge base articles back exactly as you left them. After 30 days -- or if you choose **Delete now** -- it's all permanently deleted.
+- **Everything is permanently deleted after 30 days** -- your tickets, teams, SLA policies and knowledge base articles -- or right away if you choose **Delete now**. Turn Helpdesk back on before then to keep them.
+- **Your free tickets stop building up** while Helpdesk is off.
 
 See [Workspace Products](workspace-products.md#disabling-a-product) for the full turn-off flow: the confirmation window, the countdown banner, **Turn back on**, **Delete now**, and **Download a copy**.
 

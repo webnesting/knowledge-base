@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (added "Turning a product or module off"). Earlier 2026-09-22 2:20pm
+**Last verified:** 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (added "Turning a product or module off"). Earlier 2026-09-22 2:20pm
 
 WebNesting uses simple, usage-based pricing. This guide explains how pricing works, how to view your usage and bills, and how to pay.
 
@@ -59,7 +59,7 @@ Some of these products also include per-unit usage (e.g. tickets, contacts, task
 
 ### Turning a product or module off
 
-Turning off a module or a workspace product stops its charge **immediately** -- you only ever pay for the time it was on. Its data is kept for 30 days in case you turn it back on; while it's kept, any files it stored (like ticket attachments or campaign images) still count toward your storage total until they're deleted, either by you (**Delete now**) or automatically once the 30 days are up.
+Turning off a module or a workspace product stops its charge and its free allowance **immediately**. Its data is **permanently deleted after 30 days** unless you turn it back on before then; until then, any files it stored (like ticket attachments or campaign images) still count toward your storage total until they're deleted, either by you (**Delete now**) or automatically once the 30 days are up.
 
 **Turning the same workspace product off a third time in one billing month is different.** Your first two turn-offs of a product each month take effect right away. A third one doesn't -- the product keeps working, and keeps being billed, until the 1st of next month, when it finally turns off. This is a fairness rule, not a way to squeeze extra charges out of you: it exists so you can't flip a product on and off around the clock to dodge billing, and you're never charged for a day you can't actually use it. The count resets to zero on the 1st of each month.
 

@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (noted free credits build up hourly while a product is on). Earlier 2026-09-26 6:51pm
+**Last verified:** 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (noted free credits build up hourly while a product is on). Earlier 2026-09-26 6:51pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -148,7 +148,7 @@ The product's card then shows a banner counting down the days until its data is 
 - **Delete now** -- permanently deletes the product's data right away instead of waiting. You'll be asked to type your workspace name to confirm, because this can't be undone.
 - **Download a copy** -- makes a copy of the product's data (a spreadsheet file for each kind of record, plus attached files) and emails you a download link that works for 7 days. Your contacts are not included -- they stay in Contacts. You can download a copy any time the product is off, including right before you delete it.
 
-> **Important:** Disabling a product removes it from your workspace for everyone on your team. Your data is **kept for 30 days**: enable the product again within that time and everything is back where you left it. After 30 days, the product's data is **permanently deleted**, and enabling it again starts it empty. Your contacts are never affected. **Internal Docs** is the exception -- it is free, so its documents are kept for as long as you like.
+> **Important:** Disabling a product removes it from your workspace for everyone on your team, and its free allowance stops building up. Its data is **permanently deleted after 30 days** -- turn it back on before then if you want to keep it; turning it on after that starts it empty. Your contacts are never affected. **Internal Docs** is the exception -- it is free, so its documents are kept for as long as you like.
 
 > **Helpdesk and your sites' knowledge bases:** turning Helpdesk off takes the public knowledge base off each of your sites straight away, but its articles are kept with the rest of your Helpdesk data. Turn Helpdesk back on and the knowledge base returns to your sites as it was; if the 30 days run out (or you choose **Delete now**), the articles are deleted along with your tickets.
 

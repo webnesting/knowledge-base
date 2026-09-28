@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (fixed a stale claim: disabling a module keeps content for 30 days, not indefinitely). Earlier 2026-09-26 6:51pm
+**Last verified:** 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (fixed a stale claim: disabling a module keeps content for 30 days, not indefinitely). Earlier 2026-09-26 6:51pm
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -123,7 +123,7 @@ You are never charged for time you did not use. If you enable or disable a featu
 
 **Example:** If you enable the Articles module on the 15th of a 30-day month, you are charged for roughly half the month -- about $2.50 instead of the full $5.
 
-If you turn a module off, its charge stops from that point and its content is kept for 30 days in case you turn it back on. Pages, storage and contacts are measured by the hour, so pages you add partway through the month are charged from the time they exist.
+If you turn a module off, its charge stops, any extra free pages it adds stop counting, and its content is **permanently deleted after 30 days** unless you turn it back on before then. Pages, storage and contacts are measured by the hour, so pages you add partway through the month are charged from the time they exist.
 
 > **Tip:** Feel free to try out modules without worrying about being stuck with a full month's charge. If you enable something and disable it a few days later, you will only pay for those few days.
 
@@ -187,7 +187,7 @@ Remember that your first 5 pages (more if Articles, Events, or Store is turned o
 
 Each enabled module adds to your monthly bill. If you are not actively using a module, disable it. You can always turn it back on later, and your content will still be there.
 
-> **Tip:** Disabling a module doesn't delete your content right away. Your blog posts, events, and products are kept for 30 days and reappear exactly as they were if you re-enable the module within that time -- after 30 days (or if you choose **Delete now**), the content is permanently deleted. See [Modules and Features](modules-and-features.md#how-to-disable-a-module).
+> **Important:** Disabling a module permanently deletes its content -- blog posts, events, products -- after 30 days, or right away if you choose **Delete now**. Turn the module back on before then to keep it. See [Modules and Features](modules-and-features.md#how-to-disable-a-module).
 
 ### Manage Your Files
 
