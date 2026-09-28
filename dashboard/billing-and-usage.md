@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-09-28 12:12am (exact hourly rates, earned-so-far vs estimated, bill-line breakdowns, Cost calculator tab, carried balances, stock-vs-event usage split — usage-billing-correctness Phase 6). Earlier 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (fixed a stale claim: disabling a module keeps content for 30 days, not indefinitely). Earlier 2026-09-26 6:51pm
+**Last verified:** 2026-09-28 11:29am (receipt example fixed; a deleted ticket comes off the open month's bill; group titles open one group). Earlier 2026-09-28 11:02am (invoices now group charges by workspace/website with a Show itemized toggle — usage-billing-correctness Phase 7). Earlier 2026-09-28 12:12am (exact hourly rates, earned-so-far vs estimated, bill-line breakdowns, Cost calculator tab, carried balances, stock-vs-event usage split — usage-billing-correctness Phase 6). Earlier 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (fixed a stale claim: disabling a module keeps content for 30 days, not indefinitely). Earlier 2026-09-26 6:51pm
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -152,8 +152,8 @@ To see your current and past bills:
 1. Open the workspace you want to look at.
 2. Click **Settings** at the bottom of the left icon rail, then **Plans & Billing** under **Billing**. (You can also reach it from the **⋮** menu in the top bar → **Billing**.)
 3. You will see your billing summary. Anything outstanding appears in a banner at the top -- you can pay a single invoice on the spot, or settle every unpaid invoice at once with one card payment and one receipt.
-4. Each invoice reads like a receipt: line items first, each with a Charge / Credits / Net breakdown, per-table totals, and a Subtotal → Credits → Fees → Total summary at the bottom.
-5. **Click any line to see exactly how it was worked out.** A breakdown opens showing the math behind the amount (for example, "946 tickets − 244 free earned × $0.05 = $35.10"), a strip showing when the product was on this month, and -- for anything metered by events, like emails or tickets -- a chart of your usage against your free allowance with a projection to the end of the month.
+4. Each invoice groups its charges by your workspace and by each of your websites -- collapsed to one line with a total for each. Click a group's name to open just that group, or **Show itemized** to open them all -- each charge is listed underneath with its price and free allowance. A Subtotal → Credits → Fees → Total summary sits at the bottom.
+5. **Click any line to see exactly how it was worked out.** A breakdown opens showing the math behind the amount (for example, "40 tickets − 20 free earned × $0.05 = $1.00"), a strip showing when the product was on this month, and -- for anything metered by events, like emails or tickets -- a chart of your usage against your free allowance with a projection to the end of the month.
 
 If you have no unpaid bills, you will see an estimate of your current month's charges so far -- marked **Estimated credit** rather than a final number, since credits aren't final until the month closes on the 1st -- along with a projection of what the full month might cost.
 
@@ -186,7 +186,7 @@ Not everything is measured the same way -- it depends on whether what's being co
 
 **Example:** If you had 20 pages for the first half of the month and then added 10 more for the second half, your bill would reflect something between 20 and 30 pages, not the full 30 for the entire month.
 
-**Emails, tickets, and API calls are events.** Each email you send, ticket you create, or API call you make is counted and charged exactly once, at the moment it happens -- never averaged, never charged twice. This holds even if you turn the product off later that same month: an email you already sent stays billed at the same per-email price whether or not Marketing is still on by the time the month ends.
+**Emails, tickets, and API calls are events.** Each email you send, ticket you create, or API call you make is counted and charged exactly once, at the moment it happens -- never averaged, never charged twice. This holds even if you turn the product off later that same month: an email you already sent stays billed at the same per-email price whether or not Marketing is still on by the time the month ends. The one exception is tickets: a ticket counts only while it exists, so deleting one during the month takes it off that month's bill. Once a month has closed, its bill no longer changes.
 
 ---
 

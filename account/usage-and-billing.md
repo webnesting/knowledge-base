@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-09-28 12:12am (exact hourly rates; scheduled turn-off at month end vs turn off now; API data transfer priced per GB — usage-billing-correctness Phase 6). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (added "Turning a product or module off"). Earlier 2026-09-22 2:20pm
+**Last verified:** 2026-09-28 11:49am (Usage tab: counts only, Show / Where controls, how things are counted). Earlier 2026-09-28 11:21am (itemized charges list price + allowance; click a charge for its breakdown). Earlier 2026-09-28 11:02am (invoices now group charges by workspace/website with a Show itemized toggle — usage-billing-correctness Phase 7). Earlier 2026-09-28 12:12am (exact hourly rates; scheduled turn-off at month end vs turn off now; API data transfer priced per GB — usage-billing-correctness Phase 6). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (added "Turning a product or module off"). Earlier 2026-09-22 2:20pm
 
 WebNesting uses simple, usage-based pricing. This guide explains how pricing works, how to view your usage and bills, and how to pay.
 
@@ -78,20 +78,23 @@ Some of these products also include per-unit usage (e.g. emails, tickets, active
 
 ### What you'll see
 
-The Usage tab shows charts that track your resource usage over time. You can see at a glance how much you're using and whether your usage is growing or shrinking.
+The Usage tab shows how much you use over time -- counts only, no prices. (Everything to do with money, including your free allowances and what this month will cost, is on the **Billing** page.)
+
+- **Show** picks one thing to chart at a time -- for example emails sent, tickets created, contacts or pages.
+- The chart covers every day of the range you picked, including days with nothing on them, so you can see exactly when things happened.
 
 ### Choosing date ranges
 
-Use the date picker to view usage for a specific time period. You might want to see this month, last month, or a custom range.
+Use the date picker to view a specific time period -- this month, last month, or a custom range across several months.
 
-### Comparing to previous periods
+### How things are counted
 
-The charts let you spot trends by comparing your current usage to earlier periods. This helps you understand if your usage is going up, staying steady, or going down.
+- **Emails, tickets and API calls** add up: the number is everything that happened in the range.
+- **Contacts, active tasks, pages, storage and API tokens** are what you have right now (or, for a past range, what you had at its end) -- they don't add up day after day.
 
-### Usage by site
+### Usage by where it's used
 
-If you have more than one website, you can see how much each site is using. This makes it easy to understand which sites are driving your usage.
-
+The **Usage this period** table lists your workspace first, then each of your websites, so you can see which site is driving your usage. Use **Where** to narrow it to one website or your workspace.
 ---
 
 ## Viewing Your Bills
@@ -106,10 +109,10 @@ If you have more than one website, you can see how much each site is using. This
 
 Your billing period runs from the 1st to the last day of each month. Bills are generated on the 1st of the following month and are due by the 15th.
 
-Your monthly invoices are listed by month. Each invoice reads like a receipt:
+Your monthly invoices are listed by month. Each invoice groups its charges by your workspace and by each of your websites:
 
-- **Line items** first, each showing its Charge, Credits, and Net amount.
-- **Per-table totals** so each group of charges adds up on its own.
+- **Grouped totals** first -- your workspace and each website, collapsed to one line with a total for each.
+- Click a group's name to open it, or **Show itemized** to open every group -- each charge is listed with its price and free allowance. Click a charge to see exactly how it was worked out.
 - A **Subtotal → Credits → Fees → Total** summary at the bottom.
 
 Anything still outstanding appears in a banner at the top of the Billing page, so unpaid invoices never hide in your history.
