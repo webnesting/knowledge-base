@@ -1,6 +1,6 @@
 # Events
 
-**Last verified:** 2026-09-27 7:49pm (noted Events grants 10 free pages while on)
+**Last verified:** 2026-09-28 12:18am (turning on now shows a two-step cost confirmation, not a one-click Enable). Earlier 2026-09-27 7:49pm (noted Events grants 10 free pages while on)
 
 The Events module lets you create and manage event listings on your website. Whether you host workshops, classes, concerts, conferences, or community meetups, this module gives you the tools to promote your events and share all the important details with your visitors.
 
@@ -22,9 +22,9 @@ Before you can start creating events, you need to turn on the module.
 
 1. Log in to your WebNesting dashboard.
 2. In the site menu, open **Settings** and click **Modules**.
-3. Find **Event** in the list of available modules.
-4. Click the **Enable** button next to it.
-5. The module will activate right away.
+3. Find **Event** in the list of available modules and click **Turn on**.
+4. A window shows what it costs -- its rate and estimated monthly cost, plus the 10 free pages it earns your site while it's on -- before anything happens.
+5. Click **Enable** to confirm. The module activates right away.
 
 Once enabled, you will see a new **Event** section appear in your dashboard sidebar. You are ready to start creating events.
 

@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (added "Turning a product or module off"). Earlier 2026-09-22 2:20pm
+**Last verified:** 2026-09-28 12:12am (exact hourly rates; scheduled turn-off at month end vs turn off now; API data transfer priced per GB — usage-billing-correctness Phase 6). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (added "Turning a product or module off"). Earlier 2026-09-22 2:20pm
 
 WebNesting uses simple, usage-based pricing. This guide explains how pricing works, how to view your usage and bills, and how to pay.
 
@@ -47,21 +47,24 @@ Some optional features are available as add-ons. These have a flat monthly rate,
 | API Access (REST API tokens) | $10/month |
 | Remove Branding | $5/month |
 
-Workspace-level products are also available on a separate monthly rate:
+Workspace-level products are also available on a separate monthly rate. Each one also has an exact hourly rate -- the figure your bill actually multiplies by for every hour it's on:
 
-| Product | Monthly Cost |
-|---------|-------------|
-| Marketing | $20/month |
-| Helpdesk | $15/month |
-| Tasks | $10/month |
+| Product | Rate While On |
+|---------|---------------|
+| Marketing | $0.027397260273973/hour -- about $20.00/month |
+| Helpdesk | $0.020547945205479/hour -- about $15.00/month |
+| Tasks | $0.013698630136986/hour -- about $10.00/month |
+| API Access | $0.013698630136986/hour -- about $10.00/month |
 
-Some of these products also include per-unit usage (e.g. tickets, contacts, tasks) once you exceed the included free allowances. Free allowances that come with a product (like Marketing's free emails or Helpdesk's free tickets) build up hour by hour while that product is turned on, instead of all being granted the moment the month starts. A product earns no free allowance while it's off.
+Some of these products also include per-unit usage (e.g. emails, tickets, active tasks, API requests, API data transfer -- priced per GB) once you exceed the included free allowances. For emails, tickets, and API requests/data transfer, that free allowance builds up hour by hour while the product is turned on, instead of all being granted the moment the month starts -- so the exact amount for a given month follows how many hours are in it. A product earns no free allowance while it's off. Active tasks and API tokens work differently: their free amount is a fixed number (25 tasks, 5 tokens) that's simply always available while the product is on, not something that builds up over time. See [Billing and Usage](../dashboard/billing-and-usage.md) for the full breakdown, including how "earned so far" and "estimated by month end" work while the current month is still open.
 
 ### Turning a product or module off
 
-Turning off a module or a workspace product stops its charge and its free allowance **immediately**. Its data is **permanently deleted after 30 days** unless you turn it back on before then; until then, any files it stored (like ticket attachments or campaign images) still count toward your storage total until they're deleted, either by you (**Delete now**) or automatically once the 30 days are up.
+**A site module always turns off right away** -- it has no earned allowance worth keeping. Its data is **permanently deleted after 30 days** unless you turn it back on before then; until then, any files it stored still count toward your storage total until they're deleted, either by you (**Delete now**) or automatically once the 30 days are up.
 
-**Turning the same workspace product off a third time in one billing month is different.** Your first two turn-offs of a product each month take effect right away. A third one doesn't -- the product keeps working, and keeps being billed, until the 1st of next month, when it finally turns off. This is a fairness rule, not a way to squeeze extra charges out of you: it exists so you can't flip a product on and off around the clock to dodge billing, and you're never charged for a day you can't actually use it. The count resets to zero on the 1st of each month.
+**A workspace product gives you a choice.** The default, **Turn off on {date}**, schedules it for the end of the current billing month -- it keeps working, keeps being billed, and keeps earning its free allowance until then, so you don't give any of this month's allowance up. **Turn off now** stops it immediately instead, and gives up whatever free allowance it would otherwise have earned for the rest of the month. Either way, once it's off, its data is **permanently deleted after 30 days** unless you turn it back on, and any files it stored still count toward your storage total until deleted.
+
+**Turning the same workspace product off a third time in one billing month is different.** Your first two turn-offs of a product each month work as above. A third one has no choice of timing -- the product keeps working, and keeps being billed and earning its allowance, until the 1st of next month, when it finally turns off. This is a fairness rule, not a way to squeeze extra charges out of you: it exists so you can't flip a product on and off around the clock to dodge billing. The count resets to zero on the 1st of each month.
 
 ---
 

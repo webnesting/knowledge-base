@@ -1,6 +1,6 @@
 # Products and E-Commerce
 
-**Last verified:** 2026-09-27 7:49pm (noted Store grants 10 free pages while on)
+**Last verified:** 2026-09-28 12:18am (turning on now shows a two-step cost confirmation, not a one-click Enable). Earlier 2026-09-27 7:49pm (noted Store grants 10 free pages while on)
 
 The E-Commerce module turns your WebNesting website into an online store. You can list products, manage orders, and give your customers a place to browse and buy -- all from the same dashboard you use to manage the rest of your site.
 
@@ -24,9 +24,9 @@ Before you can start selling, you need to turn on the E-Commerce module.
 
 1. Log in to your WebNesting dashboard.
 2. In the site menu, open **Settings** and click **Modules**.
-3. Find **Store** in the list of available modules.
-4. Click the **Enable** button next to it.
-5. The module will activate right away.
+3. Find **Store** in the list of available modules and click **Turn on**.
+4. A window shows what it costs -- its rate and estimated monthly cost, plus the 10 free pages it earns your site while it's on -- before anything happens.
+5. Click **Enable** to confirm. The module activates right away.
 
 Once enabled, you will see a new **Store** section appear in your dashboard sidebar, with links to manage Products and Orders.
 

@@ -1,6 +1,6 @@
 # Articles and Blog Posts
 
-**Last verified:** 2026-09-27 7:49pm (noted Articles grants 10 free pages while on)
+**Last verified:** 2026-09-28 12:18am (turning on now shows a two-step cost confirmation, not a one-click Enable). Earlier 2026-09-27 7:49pm (noted Articles grants 10 free pages while on)
 
 The Articles module gives your website a full blog and news section. Use it to share company updates, how-to guides, industry news, or anything else you want to write about. Articles are one of the best ways to keep your website fresh and attract new visitors.
 
@@ -22,13 +22,13 @@ Before you can start writing articles, you need to turn on the Articles module.
 
 1. Log in to your WebNesting dashboard.
 2. In the site menu, open **Settings** and click **Modules**.
-3. Find **Article** in the list of available modules.
-4. Click the **Enable** button next to it.
-5. The module will activate right away.
+3. Find **Article** in the list of available modules and click **Turn on**.
+4. A window shows what it costs -- its rate and estimated monthly cost, plus the 10 free pages it earns your site while it's on -- before anything happens.
+5. Click **Enable** to confirm. The module activates right away.
 
 Once enabled, you will see a new **Article** section appear in your dashboard sidebar. This is where you will create and manage all your articles.
 
-> **Tip:** Enabling the Articles module takes just a few seconds. There is no setup or configuration needed -- you can start writing your first article immediately.
+> **Tip:** Enabling the Articles module takes just a few seconds. There is no setup or configuration needed -- you can start writing your first article as soon as you confirm.
 
 ---
 

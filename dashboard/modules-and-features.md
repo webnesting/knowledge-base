@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:51pm
+**Last verified:** 2026-09-28 12:12am (two-step turn-on shows costs before confirming; removed a turn-off reassurance line; API data transfer priced per GB — usage-billing-correctness Phase 6). Earlier 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:51pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -24,20 +24,20 @@ To see all the modules you can add to your site:
 2. In the site menu on the left, open **Settings** and click **Modules**.
 3. You will see a list of all available modules, showing which ones are currently turned on and which are off.
 
-![The modules list showing available features with enable/disable toggles](../images/dashboard/modules.png)
+![The modules list showing available modules with their pricing and enable/disable controls](../images/dashboard/modules.png)
 
-Each module shows its name, a short description of what it does, and its monthly cost.
+Each module is shown as a card with its name, a short description of what it does, and its pricing.
 
 ---
 
 ## How to Enable a Module
 
-Turning on a module takes just a few seconds:
+Turning on a module is a quick, two-step confirmation -- you see exactly what it costs before anything is turned on:
 
 1. Go to **Settings → Modules** in your site menu.
-2. Find the module you want to enable.
-3. Click the **Enable** button next to it.
-4. The module will activate immediately.
+2. Find the module you want to enable and click **Turn on**.
+3. A window shows what it costs (its rate and estimated monthly cost, plus any free pages it earns you) before anything happens.
+4. Click **Enable** to confirm, or **Cancel** to back out. Once you confirm, the module activates right away.
 
 Once a module is enabled, new menu items will appear in your dashboard. For example, enabling the Articles module adds an "Articles" section where you can create and manage blog posts.
 
@@ -50,11 +50,11 @@ Once a module is enabled, new menu items will appear in your dashboard. For exam
 If you no longer need a module:
 
 1. Go to **Settings → Modules** in your site menu.
-2. Find the module you want to turn off.
-3. Click its switch. A confirmation window explains exactly what will happen: how many entries are kept, the date they would be deleted, and that its pages come off your public site while it's off.
-4. Click **Turn off** to proceed, or **Keep it on** to change your mind.
+2. Find the module you want to turn off and click **Turn off**.
+3. A confirmation window explains exactly what will happen: how many entries are kept, the date they would be deleted, and that its pages come off your public site while it's off.
+4. Click **Turn off** again to proceed, or **Keep it on** to change your mind.
 
-The module's row then shows a banner counting down the days until its content is deleted, with **Turn back on** (restores the module and its content, as long as it's before the deletion date), **Download a copy** (we email you a link to a copy of the module's content and its pages, valid for 7 days) and **Delete now** (deletes the content right away -- you'll be asked to type your site's name, because this can't be undone). Clicking the switch of a turned-off module also turns it back on.
+The module's card then shows a banner counting down the days until its content is deleted, with **Turn back on** (restores the module and its content, as long as it's before the deletion date), **Download a copy** (we email you a link to a copy of the module's content and its pages, valid for 7 days) and **Delete now** (deletes the content right away -- you'll be asked to type your site's name, because this can't be undone). The card's own **Turn on** button does the same thing as **Turn back on**.
 
 > **Important:** Disabling a module removes it from your site menu, and any extra free pages it adds stop counting. Its content is **permanently deleted after 30 days** -- turn the module back on before then to keep it; turning it on after that starts it empty. (Capabilities like Accounts and "Hide WebNesting branding" store no content, so there is nothing to keep or delete.)
 
@@ -175,7 +175,7 @@ Common use cases:
 - Syncing product data between your online store and a point-of-sale system
 - Automatically creating articles or events from an external content workflow
 
-Beyond the base fee you are charged for API requests (about 50,000 each month free), data transfer (about 1 GB each month free), and active API tokens (first 5 free). The request and data-transfer allowances build up hour by hour while API Access is turned on, so they follow the length of the month rather than a fixed number. Two optional add-ons are available: a higher rate limit and extended audit-log retention.
+Beyond the base fee you are charged for API requests (about 50,000 each month free), data transfer -- **priced per GB** (about 1 GB each month free) -- and active API tokens (first 5 always free). The request and data-transfer allowances build up hour by hour while API Access is turned on, so they follow the length of the month rather than a fixed number; active tokens are a fixed free amount instead. Two optional add-ons are available: a higher rate limit and extended audit-log retention.
 
 > **Tip:** Connecting an AI assistant (Claude, ChatGPT, Cursor, and similar) is a **separate, free** feature -- it does not need this product and is not metered. See [Connecting an AI Tool](connecting-ai-tools.md).
 
@@ -225,4 +225,4 @@ When you turn on a module, a few things happen right away:
 
 There is no setup process or waiting time. Modules are ready to use the instant you enable them.
 
-> **Tip:** If you are not sure whether a module is right for you, enable it and try it out. You can always disable it later, and you will only be charged for the time it was active.
+> **Tip:** If you are not sure whether a module is right for you, enable it and try it out. If it's not a fit, disable it -- just remember its content is permanently deleted after 30 days unless you turn it back on.

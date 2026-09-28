@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (noted free credits build up hourly while a product is on). Earlier 2026-09-26 6:51pm
+**Last verified:** 2026-09-28 12:12am (scheduled turn-off at month end vs turn off now; removed a turn-off reassurance line; API data transfer priced per GB — usage-billing-correctness Phase 6). Earlier 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (noted free credits build up hourly while a product is on). Earlier 2026-09-26 6:51pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -125,7 +125,7 @@ Here is how pricing works for each product:
 
 - Base monthly fee for having API Access enabled
 - Additional charge per API request (with a free tier)
-- Additional charge for data transfer (with a free tier)
+- Additional charge for data transfer, **priced per GB** (with a free tier)
 - Additional charge per active API token (with a free tier)
 - Optional add-ons for a higher rate limit and extended audit-log retention
 
@@ -140,27 +140,30 @@ If you no longer need a product:
 1. Go to **Products** in your workspace settings.
 2. Find the product you want to turn off.
 3. Click **Turn off**.
-4. A confirmation window shows exactly what happens: how many of your tickets, campaigns or projects are kept, the date they would be deleted, and what stops while the product is off. Click **Turn off** again to proceed, or **Keep it on** to change your mind.
+4. A confirmation window states what happens up front: your data for it is **permanently deleted after 30 days** unless you turn it back on before then, and its free allowance stops building up. Below that it lists how many of your tickets, campaigns or projects are kept, and what stops while the product is off.
+5. Choose how: **Turn off on {date}** (the end of this billing month) is the default and keeps the product working -- and its free allowance still building up -- until then; **Turn off now** stops it right away instead, giving up whatever free allowance it would have earned for the rest of the month. **Keep it on** cancels and leaves everything as it was.
 
-The product's card then shows a banner counting down the days until its data is deleted, with two buttons:
+If you scheduled a turn-off, the product's card shows a banner naming the date, with a **Keep it on** button to cancel it any time before then.
+
+A site module works differently -- it has no free allowance worth keeping, so turning one off always takes effect right away (see [Modules and Features](modules-and-features.md#how-to-disable-a-module)).
+
+Once a product is off, its card shows a banner with:
 
 - **Turn back on** -- turns the product back on with its data, as long as it's before the deletion date.
 - **Delete now** -- permanently deletes the product's data right away instead of waiting. You'll be asked to type your workspace name to confirm, because this can't be undone.
 - **Download a copy** -- makes a copy of the product's data (a spreadsheet file for each kind of record, plus attached files) and emails you a download link that works for 7 days. Your contacts are not included -- they stay in Contacts. You can download a copy any time the product is off, including right before you delete it.
 
-> **Important:** Disabling a product removes it from your workspace for everyone on your team, and its free allowance stops building up. Its data is **permanently deleted after 30 days** -- turn it back on before then if you want to keep it; turning it on after that starts it empty. Your contacts are never affected. **Internal Docs** is the exception -- it is free, so its documents are kept for as long as you like.
+> **Important:** Disabling a product removes it from your workspace for everyone on your team once it's off. Its data is **permanently deleted after 30 days** after that -- turn it back on before then if you want to keep it; turning it on after that starts it empty. Your contacts are never affected. **Internal Docs** is the exception -- it is free, so its documents are kept for as long as you like.
 
-> **Helpdesk and your sites' knowledge bases:** turning Helpdesk off takes the public knowledge base off each of your sites straight away, but its articles are kept with the rest of your Helpdesk data. Turn Helpdesk back on and the knowledge base returns to your sites as it was; if the 30 days run out (or you choose **Delete now**), the articles are deleted along with your tickets.
+> **Helpdesk and your sites' knowledge bases:** once Helpdesk is off, the public knowledge base comes off each of your sites, but its articles are kept with the rest of your Helpdesk data. Turn Helpdesk back on and the knowledge base returns to your sites as it was; if the 30 days run out (or you choose **Delete now**), the articles are deleted along with your tickets.
 
 > **Storage:** files the product stored (for example ticket attachments or campaign images) still count toward your workspace storage while they are being kept.
 
 > **Websites** has no **Turn off** button -- it is always on, so the steps above don't apply to it.
 
-When you disable a product, its charge and its free allowance both stop from that point forward.
-
 ### Disabling the same product more than twice in a month
 
-You can turn each product off twice in a billing month and it turns off straight away -- the second time, the confirmation window warns you about the rule below. If you turn the same product off a **third** time in the same month, it doesn't turn off right away: it keeps working normally -- and is billed as usual -- until the **1st of next month**, and turns off then. Its card says when, and **Keep it on** cancels it. You are never charged for a day you can't use the product. The count starts over on the 1st of each month.
+Your first two turn-offs of a product in a billing month work as described above -- immediately if you choose **Turn off now**, or at the date you scheduled. The second time, the confirmation window also warns you about the rule below. If you turn the same product off a **third** time in the same month, there's no choice of timing: it keeps working normally -- and is billed as usual, still earning its free allowance -- until the **1st of next month**, and turns off then. Its card says when, and **Keep it on** cancels it. The count starts over on the 1st of each month.
 
 ---
 
@@ -173,9 +176,9 @@ Only workspace members with **Settings** edit permission can enable or disable p
 ## Tips
 
 - **Enable only what you need.** Each enabled product adds to your monthly bill. If you are not actively using a product, disable it to save money.
-- **Try before you commit.** You can enable and disable products at any time. If you enable something and decide it is not for you, disable it and you will only be charged for the time it was active.
-- **Changes take effect immediately.** Enabling a product, and your first two disables of it in a month, happen right away. A third disable in the same month waits until the 1st (see above).
-- **You have 30 days to change your mind.** Disabling a product keeps its data for 30 days. Enable it again within that time and nothing is lost; after that, its data is permanently deleted.
+- **Disabling has real consequences, so it isn't undone lightly.** Its data is **permanently deleted after 30 days** unless you turn it back on, and its free allowance stops building up while it's off. Weigh that before you turn something off, not after.
+- **Enabling takes effect immediately;** your first two disables of a product in a month can be immediate too, or scheduled for the end of the billing month (see [Disabling a Product](#disabling-a-product)). A third disable in the same month waits until the 1st either way (see above).
+- **30 days is your window to change your mind, not a guarantee.** Turn a disabled product back on within 30 days and nothing is lost; after that, its data is permanently deleted and starting it again means starting empty.
 - **All team members benefit.** When you enable a product, all workspace members with appropriate permissions can access it.
 
 ---
