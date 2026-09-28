@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:51pm
+**Last verified:** 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:51pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -54,7 +54,7 @@ If you no longer need a module:
 3. Click its switch. A confirmation window explains exactly what will happen: how many entries are kept, the date they would be deleted, and that its pages come off your public site while it's off.
 4. Click **Turn off** to proceed, or **Keep it on** to change your mind.
 
-The module's row then shows a banner counting down the days until its content is deleted, with **Turn back on** (everything comes back as you left it), **Download a copy** (we email you a link to a copy of the module's content and its pages, valid for 7 days) and **Delete now** (deletes the content right away -- you'll be asked to type your site's name, because this can't be undone). Clicking the switch of a turned-off module also turns it back on.
+The module's row then shows a banner counting down the days until its content is deleted, with **Turn back on** (restores the module and its content, as long as it's before the deletion date), **Download a copy** (we email you a link to a copy of the module's content and its pages, valid for 7 days) and **Delete now** (deletes the content right away -- you'll be asked to type your site's name, because this can't be undone). Clicking the switch of a turned-off module also turns it back on.
 
 > **Important:** Disabling a module removes it from your site menu, and any extra free pages it adds stop counting. Its content is **permanently deleted after 30 days** -- turn the module back on before then to keep it; turning it on after that starts it empty. (Capabilities like Accounts and "Hide WebNesting branding" store no content, so there is nothing to keep or delete.)
 

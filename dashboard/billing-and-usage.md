@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (fixed a stale claim: disabling a module keeps content for 30 days, not indefinitely). Earlier 2026-09-26 6:51pm
+**Last verified:** 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (fixed a stale claim: disabling a module keeps content for 30 days, not indefinitely). Earlier 2026-09-26 6:51pm
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -124,8 +124,6 @@ You are never charged for time you did not use. If you enable or disable a featu
 **Example:** If you enable the Articles module on the 15th of a 30-day month, you are charged for roughly half the month -- about $2.50 instead of the full $5.
 
 If you turn a module off, its charge stops, any extra free pages it adds stop counting, and its content is **permanently deleted after 30 days** unless you turn it back on before then. Pages, storage and contacts are measured by the hour, so pages you add partway through the month are charged from the time they exist.
-
-> **Tip:** Feel free to try out modules without worrying about being stuck with a full month's charge. If you enable something and disable it a few days later, you will only pay for those few days.
 
 ### Payment Processing
 

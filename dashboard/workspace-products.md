@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (noted free credits build up hourly while a product is on). Earlier 2026-09-26 6:51pm
+**Last verified:** 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (noted free credits build up hourly while a product is on). Earlier 2026-09-26 6:51pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -144,7 +144,7 @@ If you no longer need a product:
 
 The product's card then shows a banner counting down the days until its data is deleted, with two buttons:
 
-- **Turn back on** -- the product comes straight back with everything as you left it.
+- **Turn back on** -- turns the product back on with its data, as long as it's before the deletion date.
 - **Delete now** -- permanently deletes the product's data right away instead of waiting. You'll be asked to type your workspace name to confirm, because this can't be undone.
 - **Download a copy** -- makes a copy of the product's data (a spreadsheet file for each kind of record, plus attached files) and emails you a download link that works for 7 days. Your contacts are not included -- they stay in Contacts. You can download a copy any time the product is off, including right before you delete it.
 
