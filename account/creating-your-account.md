@@ -1,6 +1,6 @@
 # Creating Your Account
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-09-28 10:05pm
 
 Welcome to WebNesting! Getting started takes just a few minutes. This guide walks you through creating your account and getting ready to build your first website.
 
@@ -15,7 +15,8 @@ Welcome to WebNesting! Getting started takes just a few minutes. This guide walk
    - **Last Name** -- Your last name.
    - **Email** -- The email address you want to use for your account.
    - **Password** -- Choose a strong password (at least 8 characters, including a mix of letters and numbers).
-4. Click **Create Account**.
+4. Optionally, check **Send me product updates and tips** if you'd like occasional emails about new features. It's unchecked by default, and you can change your mind anytime from your account portal.
+5. Click **Create Account**.
 
 > **Note:** If the email address you entered is already registered, you will see a message letting you know an account already exists. You can sign in instead or use a different email.
 
