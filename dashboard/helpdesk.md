@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-26 6:59pm (added "Turning Helpdesk Off"). Earlier 2026-09-25 5:21pm
+**Last verified:** 2026-09-28 7:24pm (support address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-26 6:59pm (added "Turning Helpdesk Off"). Earlier 2026-09-25 5:21pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -374,6 +374,8 @@ Seeing **Assign to Team** and **Priority** after the save is your confirmation -
 ## Connecting Your Email
 
 There are **five ways** to set up email in Helpdesk, ranging from "zero DNS, working in 30 seconds" to "fully branded on your own infrastructure." The wizard at **Settings → Email → + Add inbox** walks you through whichever path fits.
+
+**Your support address always has to be one of these two things:** your WebNesting-hosted address, or a domain you've verified here. If you try to set up an inbox with an address on a domain nobody's verified for your workspace, you'll see "Use your workspace address or a domain you've verified in Email settings" and the save won't go through. This keeps anyone from receiving or sending support mail that looks like it came from a different company (including us).
 
 ### Which path do I pick?
 

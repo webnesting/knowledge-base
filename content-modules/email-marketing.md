@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free-email allowance now described as hourly-earned, not a flat 10,000). Earlier 2026-09-25 7:43pm
+**Last verified:** 2026-09-28 7:24pm (From address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free-email allowance now described as hourly-earned, not a flat 10,000). Earlier 2026-09-25 7:43pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -390,6 +390,8 @@ Marketing's sending domain uses the same domain-verification flow as Helpdesk's 
 5. We register your domain with our email provider and show you DNS records to publish — DKIM signing keys, a bounce subdomain (MAIL FROM), SPF, and DMARC.
 6. Publish at your DNS provider. Click **Verify now** until everything resolves (typically 5-15 minutes).
 7. Once it's verified, your campaigns can send from it. You can also start this setup from **Marketing > Settings > Senders > + Add Sender**; it's the same setup.
+
+**Your From address always has to be one of these two things:** your WebNesting-hosted address, or a domain you've verified here. If you try to save a From address on any other domain — in Marketing Settings or on an individual campaign — you'll see "Use your workspace address or a domain you've verified in Email settings" and the save won't go through. This keeps anyone from sending campaigns that look like they came from a different company (including us).
 
 > **Full walkthrough:** See the [Helpdesk email setup guide](../dashboard/helpdesk.md#connecting-your-email) for the complete decision matrix (Options 0-5) and detailed DNS step-by-step. The same domain verification works for both Marketing and Helpdesk.
 
