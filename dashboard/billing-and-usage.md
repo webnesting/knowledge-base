@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-28 12:45pm (summary starts from the charges as shown: Charges → Processing fee → Total). Earlier 2026-09-28 11:29am (receipt example fixed; a deleted ticket comes off the open month's bill; group titles open one group). Earlier 2026-09-28 11:02am (invoices now group charges by workspace/website with a Show itemized toggle — usage-billing-correctness Phase 7). Earlier 2026-09-28 12:12am (exact hourly rates, earned-so-far vs estimated, bill-line breakdowns, Cost calculator tab, carried balances, stock-vs-event usage split — usage-billing-correctness Phase 6). Earlier 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (fixed a stale claim: disabling a module keeps content for 30 days, not indefinitely). Earlier 2026-09-26 6:51pm
+**Last verified:** 2026-09-28 8:30pm (added "Credits, discounts and refunds" section — staff-client-money-operations Phase 7). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-28 12:45pm (summary starts from the charges as shown: Charges → Processing fee → Total). Earlier 2026-09-28 11:29am (receipt example fixed; a deleted ticket comes off the open month's bill; group titles open one group). Earlier 2026-09-28 11:02am (invoices now group charges by workspace/website with a Show itemized toggle — usage-billing-correctness Phase 7). Earlier 2026-09-28 12:12am (exact hourly rates, earned-so-far vs estimated, bill-line breakdowns, Cost calculator tab, carried balances, stock-vs-event usage split — usage-billing-correctness Phase 6). Earlier 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (fixed a stale claim: disabling a module keeps content for 30 days, not indefinitely). Earlier 2026-09-26 6:51pm
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -152,10 +152,22 @@ To see your current and past bills:
 1. Open the workspace you want to look at.
 2. Click **Settings** at the bottom of the left icon rail, then **Plans & Billing** under **Billing**. (You can also reach it from the **⋮** menu in the top bar → **Billing**.)
 3. You will see your billing summary. Anything outstanding appears in a banner at the top -- you can pay a single invoice on the spot, or settle every unpaid invoice at once with one card payment and one receipt.
-4. Each invoice groups its charges by your workspace and by each of your websites -- collapsed to one line with a total for each. Click a group's name to open just that group, or **Show itemized** to open them all -- each charge is listed underneath with its price and free allowance. Underneath, **Charges** adds up those amounts (each already has its free amount taken off), then the **Processing fee**, then your **Total**.
+4. Each invoice groups its charges by your workspace and by each of your websites -- collapsed to one line with a total for each. Click a group's name to open just that group, or **Show itemized** to open them all -- each charge is listed underneath with its price and free allowance. Underneath, **Charges** adds up those amounts (each already has its free amount taken off), then the **Processing fee**, then your **Total**, and a **Refunded** amount if any of this invoice has been refunded.
 5. **Click any line to see exactly how it was worked out.** A breakdown opens showing the math behind the amount (for example, "40 tickets − 20 free earned × $0.05 = $1.00"), a strip showing when the product was on this month, and -- for anything metered by events, like emails or tickets -- a chart of your usage against your free allowance with a projection to the end of the month.
 
 If you have no unpaid bills, you will see an estimate of your current month's charges so far -- marked **Estimated Total** rather than a final number, since free amounts aren't final until the month closes on the 1st. Click any charge to see its projection to the end of the month.
+
+### Credits, discounts and refunds
+
+If WebNesting support adds a credit or a discount to your account, or issues a refund, it always shows up as its own line on your invoice -- never mixed silently into another amount:
+
+- **Account credit applied** -- a dollar credit support has given you, drawn down against what you owe until it runs out.
+- **A product's name, then "discount"** (for example, "Helpdesk discount") -- a percentage or dollar discount on one product, or **Discount** for one that applies to your whole bill.
+- **Promotional discount** -- a limited-time offer applied automatically to eligible workspaces.
+- **Late fee waived** -- shown struck through against the late fee it cancels, if support waives one for you.
+- **Refunded** -- shown on the invoice's summary, and the invoice's status changes to **Refunded** once the full amount has been returned. A partial refund keeps the invoice's normal status and still shows the amount refunded.
+
+You'll get an email whenever a credit or a refund is added to your account. None of this ever changes your product prices or free allowances -- a credit, discount or refund is always a separate line, never a change to what things cost.
 
 ### Estimating Costs Before You Add Something
 

@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-28 12:45pm (Usage ranges: This Month / Last 3 Months / Last 12 Months / Custom; bill summary starts from the charges as shown). Earlier 2026-09-28 11:49am (Usage tab: counts only, Show / Where controls, how things are counted). Earlier 2026-09-28 11:21am (itemized charges list price + allowance; click a charge for its breakdown). Earlier 2026-09-28 11:02am (invoices now group charges by workspace/website with a Show itemized toggle — usage-billing-correctness Phase 7). Earlier 2026-09-28 12:12am (exact hourly rates; scheduled turn-off at month end vs turn off now; API data transfer priced per GB — usage-billing-correctness Phase 6). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (added "Turning a product or module off"). Earlier 2026-09-22 2:20pm
+**Last verified:** 2026-09-28 8:30pm (added "Credits, discounts and refunds" section — staff-client-money-operations Phase 7). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-28 12:45pm (Usage ranges: This Month / Last 3 Months / Last 12 Months / Custom; bill summary starts from the charges as shown). Earlier 2026-09-28 11:49am (Usage tab: counts only, Show / Where controls, how things are counted). Earlier 2026-09-28 11:21am (itemized charges list price + allowance; click a charge for its breakdown). Earlier 2026-09-28 11:02am (invoices now group charges by workspace/website with a Show itemized toggle — usage-billing-correctness Phase 7). Earlier 2026-09-28 12:12am (exact hourly rates; scheduled turn-off at month end vs turn off now; API data transfer priced per GB — usage-billing-correctness Phase 6). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (added "Turning a product or module off"). Earlier 2026-09-22 2:20pm
 
 WebNesting uses simple, usage-based pricing. This guide explains how pricing works, how to view your usage and bills, and how to pay.
 
@@ -113,9 +113,13 @@ Your monthly invoices are listed by month. Each invoice groups its charges by yo
 
 - **Grouped totals** first -- your workspace and each website, collapsed to one line with a total for each.
 - Click a group's name to open it, or **Show itemized** to open every group -- each charge is listed with its price and free allowance. Click a charge to see exactly how it was worked out.
-- At the bottom, **Charges** (those amounts added up, each already after its free amount), the **Processing fee**, and the **Total**.
+- At the bottom, **Charges** (those amounts added up, each already after its free amount), the **Processing fee**, the **Total**, and a **Refunded** amount if any of this invoice has been refunded.
 
 Anything still outstanding appears in a banner at the top of the Billing page, so unpaid invoices never hide in your history.
+
+### Credits, discounts and refunds
+
+WebNesting support can add a credit or a discount to your account, or issue a refund -- each always shows up as its own line on your invoice, such as "Account credit applied," "Helpdesk discount," "Promotional discount," or "Late fee waived" (shown struck through against the fee it cancels). A refund shows as a **Refunded** amount, and the invoice's status becomes **Refunded** once the full amount is returned -- a partial refund keeps the invoice's normal status. You'll get an email whenever a credit or a refund is added. None of this ever changes what your products cost.
 
 ---
 
