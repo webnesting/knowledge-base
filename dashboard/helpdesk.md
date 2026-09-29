@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-09-28 7:24pm (support address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-26 6:59pm (added "Turning Helpdesk Off"). Earlier 2026-09-25 5:21pm
+**Last verified:** 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (support address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-26 6:59pm (added "Turning Helpdesk Off"). Earlier 2026-09-25 5:21pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -447,6 +447,7 @@ Best for: **branded outbound replies + required for marketing campaigns from you
 1. Go to **Settings → Email → + Add inbox**, OR straight to **Settings → Email Domains**.
 2. Add your domain (e.g. `acme.com`) and confirm in the checkbox that you control DNS for that domain.
 3. We register the domain with our email provider and show you the DNS records to publish:
+   - **Domain ownership proof** (1 TXT record) — proves to us that YOU control this domain, even if it's already set up for sending somewhere else
    - **DKIM signing keys** (3 CNAME records)
    - **MAIL FROM subdomain** (1 MX + 1 TXT on `bounces.<yourdomain>`) — so recipients see `mailed-by: bounces.yourcompany.com` instead of `amazonses.com`
    - **SPF** (1 TXT on apex)

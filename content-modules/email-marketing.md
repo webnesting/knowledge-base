@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-09-28 7:24pm (From address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free-email allowance now described as hourly-earned, not a flat 10,000). Earlier 2026-09-25 7:43pm
+**Last verified:** 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (From address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free-email allowance now described as hourly-earned, not a flat 10,000). Earlier 2026-09-25 7:43pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -387,7 +387,7 @@ Marketing's sending domain uses the same domain-verification flow as Helpdesk's 
 2. Click **+ Add inbox** → pick **Marketing** as the product.
 3. Type the marketing sender address customers see (e.g. `campaigns@yourcompany.com` or `news@yourcompany.com`).
 4. Check the **I control DNS for this domain** confirmation box.
-5. We register your domain with our email provider and show you DNS records to publish — DKIM signing keys, a bounce subdomain (MAIL FROM), SPF, and DMARC.
+5. We register your domain with our email provider and show you DNS records to publish — a domain-ownership proof record, DKIM signing keys, a bounce subdomain (MAIL FROM), SPF, and DMARC. The ownership record proves the domain is really yours, even if it's already sending from somewhere else.
 6. Publish at your DNS provider. Click **Verify now** until everything resolves (typically 5-15 minutes).
 7. Once it's verified, your campaigns can send from it. You can also start this setup from **Marketing > Settings > Senders > + Add Sender**; it's the same setup.
 
