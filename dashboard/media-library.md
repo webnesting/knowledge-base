@@ -1,6 +1,6 @@
 # Files (File Manager)
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-10-01 3:25pm
 
 The File Manager is where every file in your workspace lives — images, videos, documents, helpdesk email attachments, and files visitors upload through your forms. Think of it as your workspace's file cabinet: one place, organized in folders, just like the files on your computer.
 
@@ -149,7 +149,7 @@ If your image is 4000 pixels wide but it only appears in a 600-pixel-wide space 
 - **JPEG** -- Best for photographs and complex images with many colors.
 - **PNG** -- Best for graphics, logos, and images that need transparent backgrounds.
 - **WebP** -- A modern format that offers excellent quality at smaller file sizes. WebNesting converts uploaded images to WebP automatically where possible.
-- **SVG** -- Perfect for logos, icons, and simple graphics.
+- **SVG** -- Perfect for logos, icons, and simple graphics. For your safety, any scripts hidden inside an SVG are removed when you upload it — the image itself looks the same.
 
 ### Compress Your Images
 

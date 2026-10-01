@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-10-01 3:14pm
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -378,6 +378,8 @@ Common uses for the HTML component include:
 - **Chat widgets** -- Embed live chat tools for customer support.
 
 To get an embed code, visit the third-party service and look for a "Share" or "Embed" option. Copy the code they provide and paste it directly into the HTML component.
+
+For your safety, code in this component doesn't run while you're editing or previewing your page — you'll see a placeholder that says "Custom code — hidden here for safety" instead. It runs as normal on your published site, so publish the page and visit it to check your embed.
 
 > **Tip:** If an embedded element does not look right, check that you copied the complete embed code. Most embed codes start with `<iframe` or `<script` -- make sure you have the entire snippet.
 
