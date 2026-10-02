@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-09-28 12:12am (scheduled turn-off at month end vs turn off now; removed a turn-off reassurance line; API data transfer priced per GB — usage-billing-correctness Phase 6). Earlier 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (noted free credits build up hourly while a product is on). Earlier 2026-09-26 6:51pm
+**Last verified:** 2026-10-02 6:13pm (home page keeps products that are already active everywhere, marked active). Earlier 2026-09-28 12:12am (scheduled turn-off at month end vs turn off now; removed a turn-off reassurance line; API data transfer priced per GB — usage-billing-correctness Phase 6). Earlier 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (noted free credits build up hourly while a product is on). Earlier 2026-09-26 6:51pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -87,7 +87,7 @@ Once a product is enabled, new menu items will appear in your workspace sidebar.
 
 ### Add a product from your home page
 
-Your WebNesting home page also highlights the products you are not using yet, each with its pricing. Click a product to turn it on. If you have more than one workspace, you can choose which workspaces to enable it on — one, several, or all — in a single step, and you will see the estimated added cost before you confirm. Workspaces where you already have the product, or where you do not have permission to manage products, are shown but cannot be changed from here. Once a product is active on every workspace you manage, it drops off the home page so you only ever see what you can still add.
+Your WebNesting home page also shows every product available to your workspaces, each with its pricing and where it is already active. Click a product to turn it on. If you have more than one workspace, you can choose which workspaces to enable it on — one, several, or all — in a single step, and you will see the estimated added cost before you confirm. Workspaces where you already have the product, or where you do not have permission to manage products, are shown but cannot be changed from here. Once a product is active on every workspace, its card says so (for example, **Active on all 2 workspaces**), and clicking it shows where it is active with a **View products** link for each workspace.
 
 ---
 
