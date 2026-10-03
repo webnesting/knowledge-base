@@ -1,6 +1,6 @@
 # Products and E-Commerce
 
-**Last verified:** 2026-09-28 12:18am (turning on now shows a two-step cost confirmation, not a one-click Enable). Earlier 2026-09-27 7:49pm (noted Store grants 10 free pages while on)
+**Last verified:** 2026-10-03 1:34am (online checkout is not available yet: no purchase button). Earlier 2026-09-28 12:18am (turning on now shows a two-step cost confirmation, not a one-click Enable). Earlier 2026-09-27 7:49pm (noted Store grants 10 free pages while on)
 
 The E-Commerce module turns your WebNesting website into an online store. You can list products, manage orders, and give your customers a place to browse and buy -- all from the same dashboard you use to manage the rest of your site.
 
@@ -30,7 +30,7 @@ Before you can start selling, you need to turn on the E-Commerce module.
 
 Once enabled, you will see a new **Store** section appear in your dashboard sidebar, with links to manage Products and Orders.
 
-> **Tip:** The E-Commerce module uses Stripe for payment processing. You will need to set up your Stripe account before you can accept payments. See the "Setting Up Stripe" section below for step-by-step instructions.
+> **Tip:** The E-Commerce module uses Stripe for payment processing. Online checkout on product pages is not available yet, so visitors cannot pay through your site today. See the "Setting Up Stripe" section below for what you can set up now.
 
 The Store module costs $20/month. Each product page also counts as a page for billing purposes -- but turning Store on also gives your site 10 more free pages for as long as it stays on. See [Billing and Usage](../dashboard/billing-and-usage.md#pages).
 
@@ -105,7 +105,7 @@ Use drafts when you are still working on a product listing. Switch to published 
 
 ## Managing Orders
 
-When a customer purchases a product from your site, an order is created. You can view and manage all orders from your dashboard.
+You can view and manage all orders from your dashboard, and add an order yourself.
 
 ### Viewing Incoming Orders
 
@@ -179,7 +179,7 @@ To accept payments, you need to connect your Stripe account:
 3. Enter your Stripe Publishable Key and Secret Key. You can find these in your Stripe Dashboard under Developers > API Keys.
 4. For testing, use your test mode keys. Switch to live keys when you are ready to accept real payments.
 
-When a visitor clicks the purchase button on a product page, they are taken to a secure Stripe checkout page to complete their payment.
+Product pages do not show a purchase button yet, so saving your keys does not start taking payments. Until online checkout is available, record sales yourself as orders in your dashboard.
 
 ---
 
