@@ -1,6 +1,6 @@
 # Integrations
 
-**Last verified:** 2026-09-02 9:15am
+**Last verified:** 2026-10-02 8:47pm
 
 Integrations connect WebNesting to the other tools you already use — your Google or Microsoft account for email and analytics, and GitHub for content. Everything lives on one page: **Workspace Settings → Integrations**. You can also reach the same page from a site's settings, where it shows just the connections that power that site.
 
@@ -45,6 +45,8 @@ Once connected, open the connection's **Content sync** feature to choose what ea
 Each row picks a repository, a branch, and optionally a folder within the repository. One GitHub connection can power several destinations.
 
 Syncing runs both ways automatically: push a Markdown file to your repository and the matching article updates within seconds — even while you're reading it — and saving an article in WebNesting commits the change back to your repository. Synced articles show a **Synced from GitHub · last synced …** line at the top so you can always see how fresh the content is.
+
+To bring everything up to date at once, click **Sync now** on the connection. It reads the whole repository again: new and changed files come in, and an Internal Docs article whose file you deleted or moved in the repository is removed, so your Internal Docs always match the repository.
 
 If you remove a repository from the app's access in GitHub, any setup rows using it pause automatically and show that access was revoked — re-grant the repository in GitHub to resume.
 
