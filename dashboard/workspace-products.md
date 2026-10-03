@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-10-02 6:13pm (home page keeps products that are already active everywhere, marked active). Earlier 2026-09-28 12:12am (scheduled turn-off at month end vs turn off now; removed a turn-off reassurance line; API data transfer priced per GB — usage-billing-correctness Phase 6). Earlier 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (noted free credits build up hourly while a product is on). Earlier 2026-09-26 6:51pm
+**Last verified:** 2026-10-03 12:30am (API Access lists the API reference (OpenAPI) button). Earlier 2026-10-02 6:13pm (home page keeps products that are already active everywhere, marked active). Earlier 2026-09-28 12:12am (scheduled turn-off at month end vs turn off now; removed a turn-off reassurance line; API data transfer priced per GB — usage-billing-correctness Phase 6). Earlier 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (noted free credits build up hourly while a product is on). Earlier 2026-09-26 6:51pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -66,6 +66,7 @@ Programmatic REST API access to your workspace for developers. When you enable A
 
 - **API tokens** -- Create scoped access tokens so external software, scripts, and integrations can read and update your content
 - **Usage controls** -- Free monthly allowances for API requests, data transfer, and active tokens, with optional add-ons for higher rate limits and extended audit-log retention
+- **API reference** -- The **API reference (OpenAPI)** button on the API Access page opens a description of every request a token can make, in the standard OpenAPI format that coding tools and AI assistants can read
 
 > **Connecting an AI assistant (Claude, Cursor, or another MCP tool) is free and does not require API Access.** That is a separate, no-cost feature -- see [Connecting AI Tools](connecting-ai-tools.md).
 
