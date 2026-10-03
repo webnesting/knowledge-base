@@ -1,6 +1,6 @@
 # Website Builder Overview
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-10-03 2:34pm
 
 The Website Builder is where you design and create your web pages. It is a visual editor -- meaning you can see exactly how your page will look as you build it. No coding required.
 
@@ -14,6 +14,10 @@ The Website Builder is where you design and create your web pages. It is a visua
 The Builder opens full-screen, giving you a complete workspace to design in.
 
 > **Tip:** The Builder opens on your homepage by default. Use its **Pages** panel to jump to whichever page you actually want to work on.
+
+### If you can view pages but not edit them
+
+If a workspace owner has let you view a site's pages without letting you change them, the Builder opens as a **View only** preview instead of the editing tools. You can read the page, click **Compare to published** to see the draft next to the live page, or click **Open in new tab**. **Close** takes you back to the site dashboard. To make changes, ask a workspace owner to give you edit access to the Website Builder.
 
 ---
 
