@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (From address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free-email allowance now described as hourly-earned, not a flat 10,000). Earlier 2026-09-25 7:43pm
+**Last verified:** 2026-10-03 1:21pm (forms create contacts only when Create Contact is on and a field is mapped to Email). Earlier 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (From address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free-email allowance now described as hourly-earned, not a flat 10,000). Earlier 2026-09-25 7:43pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -266,30 +266,38 @@ Open a campaign that has gone out and click its **Performance** tab:
 
 ## Form Integration
 
-If you have the **Forms** module enabled alongside Email Marketing, your form submissions can automatically create or update contacts. This means anyone who fills out a contact form, registration form, or any other form on your site can be added to your marketing database without any extra work.
+If you have the **Forms** module enabled, a form on your site can add everyone who fills it in to your contacts. It is a setting you turn on for each form; it does not happen on its own.
+
+### Turning It On
+
+Two things must be set on the form. If either is missing, submissions are still saved under the form's **Submissions** tab, but no contact is created and no warning appears.
+
+1. **Tell the form which field is the email address.** Open the form, open its email field, and set **Marketing Field** to **Email**.
+2. **Turn on Create Contact.** Open the form's **Routing** tab and tick **Create Contact**. The Routing tab only appears once the form has been created, so click **Create** first on a new form.
+
+Then click **Save & Publish**.
 
 ### How It Works
 
-When both modules are enabled, form submissions are automatically checked for contact information:
+When someone submits a form that has both settings:
 
-1. If the form has a field mapped to a marketing field (like email, first name, or phone), that information is extracted.
+1. The email address is read from the field whose **Marketing Field** is **Email**.
 2. If a contact with that email already exists, their record is updated with any new information.
-3. If the contact is new, a new contact record is created.
-4. If the form is configured with a marketing list, the contact is added to that list.
+3. If the contact is new, a new contact record is created, with the form shown as its source.
+4. If you chose lists under **Add to Lists** or tags under **Apply Tags** on the Routing tab, the contact gets them.
+
+A contact created this way starts with an email status of **Pending**. Filling in a contact form is not the same as agreeing to receive marketing emails.
 
 ### Mapping Form Fields to Contact Fields
 
-When building a form, each form field can be assigned a **marketing field key** that tells the system which contact field it corresponds to:
+Each form field has a **Marketing Field** setting that says which part of the contact the answer fills in:
 
-- **email** -- Maps to the contact's email address.
-- **first_name** -- Maps to the contact's first name.
-- **last_name** -- Maps to the contact's last name.
-- **phone** -- Maps to the contact's phone number.
-- Any other key maps to a custom field on the contact record.
+- **Email** -- The contact's email address. Required for a contact to be created.
+- **First Name** -- The contact's first name.
+- **Last Name** -- The contact's last name.
+- **Phone** -- The contact's phone number.
 
-If no fields are explicitly mapped, the system will still attempt to detect an email field automatically by looking for fields with the "email" field type.
-
-> **Tip:** You do not need to configure anything special for basic form-to-contact integration. If a form has an email field, the system will automatically create contacts from submissions when both modules are enabled.
+Setting a field's type to **Email** does not set its Marketing Field. Set both.
 
 ---
 

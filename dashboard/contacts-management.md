@@ -1,6 +1,6 @@
 # Contacts Management
 
-**Last verified:** 2026-09-25 5:14pm
+**Last verified:** 2026-10-03 1:21pm (forms create contacts only when turned on per form). Earlier 2026-09-25 5:14pm
 
 Contacts are your audience database in WebNesting. Every person who submits a form on your website, signs up for your newsletter, or is imported from a spreadsheet becomes a contact. Use the Contacts system to keep track of who your audience is, organize them into lists, and connect them to your marketing, forms, and support tools.
 
@@ -263,9 +263,9 @@ Contacts are not just a standalone address book. They connect to several other f
 
 ### Forms
 
-When a visitor submits a form on your website, a contact record is automatically created or updated with the information they provided. You do not need to set this up manually -- if a form collects an email address, the contact is created automatically.
+A form on your website can add everyone who fills it in to your contacts. You turn this on for each form: on the form's **Routing** tab tick **Create Contact**, and set the email field's **Marketing Field** to **Email**. Both are needed. See [Form Integration](../content-modules/email-marketing.md#form-integration) for the steps.
 
-Form fields can be mapped to contact fields so that names, phone numbers, and custom information flow directly into the right places on the contact record. The contact's source is recorded as "Form Submission" so you can see exactly how they found you.
+Form fields can be mapped to contact fields so that names, phone numbers, and custom information flow directly into the right places on the contact record. The contact's source shows the form they came from, so you can see exactly how they found you.
 
 ### Email Marketing
 
