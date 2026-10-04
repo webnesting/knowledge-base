@@ -1,6 +1,6 @@
 # Troubleshooting and Common Issues
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-10-04 1:37pm
 
 Every website owner runs into the occasional hiccup. The good news is that most issues have simple fixes. This guide walks you through the most common problems you might encounter and how to solve them quickly.
 
@@ -14,7 +14,7 @@ If you are having trouble signing in to your WebNesting dashboard, try these ste
 
 1. On the login page, click the **Forgot Password** link.
 2. Enter the email address you used to create your account.
-3. Check your email for a password reset link.
+3. Check your email for a password reset link. The page shows the same confirmation for every address, so if no email arrives, check that you entered the address you signed up with.
 4. Click the link and create a new password.
 
 ### Account Not Verified

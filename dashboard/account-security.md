@@ -1,6 +1,6 @@
 # Your Account and Security
 
-**Last verified:** 2026-09-23 11:41am
+**Last verified:** 2026-10-04 1:37pm
 
 Your WebNesting account is the key to everything you build. This guide walks you through signing in, protecting your account, and what to do if something goes wrong.
 
@@ -211,11 +211,12 @@ If you can't remember your password, you can reset it by email.
 2. Click the **Forgot Password** link (next to the Login button).
 3. Enter the **email address** you use for your account.
 4. Click **Send Password Reset Link**.
-5. Check your email inbox for a message from WebNesting.
-6. Click the **reset link** in the email.
-7. Type your **new password**.
-8. Type your new password once more in the **Confirm Password** field.
-9. Click **Reset Password**.
+5. You'll see the message **"If an account exists for that address, we've emailed a reset link."** The page shows this for every address, so it never reveals who has an account.
+6. Check your email inbox for a message from WebNesting.
+7. Click the **reset link** in the email.
+8. Type your **new password**.
+9. Type your new password once more in the **Confirm Password** field.
+10. Click **Reset Password**.
 
 You will be signed in automatically with your new password.
 

@@ -1,6 +1,6 @@
 # Connecting an AI Tool
 
-**Last verified:** 2026-09-25 10:13am
+**Last verified:** 2026-10-04 1:42pm
 
 You can connect an AI assistant — like Claude Desktop, Claude Code, or Cursor — directly to your WebNesting workspace. Once connected, you can ask the AI to look things up and make changes for you in plain language: "list my draft articles," "create a new event for next Friday," "what's my current usage this month." The AI works **as you**, with **your** permissions, and never sees your password.
 
@@ -27,6 +27,8 @@ The exact button labels vary by app, but the flow is always the same:
 3. Your browser opens to **WebNesting**. Sign in the way you normally do (your browser may already have you signed in).
 4. You'll see a short approval screen: **"Connect {your AI app} to act as you."** Pick **which workspaces** the AI may access — tick one or several. If you only have one workspace, it's selected for you.
 5. Click **Connect**. You're sent back to your AI app, which is now linked. That's it — no token to copy, nothing to keep secret.
+
+Changed your mind, or don't recognise the app asking? Click **Cancel** instead. You're sent back to the AI app, nothing is connected, and the app is told you said no.
 
 > **Tip:** start a new conversation in your AI app and ask "what can you do in WebNesting?" — it will tell you which workspaces and sites it can reach and what it's allowed to do.
 
@@ -72,7 +74,7 @@ Some older AI apps can only connect to tools running on your own computer (a "st
 
 A **Connected apps** page — where you'll see every AI tool you've connected and remove any one of them yourself — is still being built. Until it's ready, here's what's true today:
 
-- **Removing the connector inside your AI app** stops that app from using WebNesting, but it does **not** cancel the connection on our side. If you're switching tools, that's usually all you need. If you're worried about who can reach your workspace, it isn't enough on its own.
+- **Removing the connector inside your AI app** stops that app from using WebNesting. Some apps also tell WebNesting they've disconnected, which cancels the connection on our side straight away — but not every app does, and nothing on screen tells you which happened. If you're switching tools, removing the connector is usually all you need. If you're worried about who can reach your workspace, it isn't enough on its own.
 - **A connection you stop using expires by itself.** Access is short-lived and renews quietly while the tool is in use; once it goes unused for 30 days, it stops working and the tool has to be reconnected with your approval.
 - **To cancel a connection right away** — a lost laptop, a tool you no longer trust — contact support and we'll revoke it for you immediately. Revoking one connection never affects your other connections or your own sign-in.
 
