@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-10-11 10:00pm (billing-controls step 9: two offers on one product, offers that give bonus units or a credit). Earlier 2026-10-11 8:58pm (step 8 review: an earlier invoice that is not paid shows nothing as refunded until it is paid. Earlier 2026-10-11 8:41pm: billing-controls step 8: "Credit for an earlier month", the "Credit for {month}" invoice line). Earlier 2026-10-11 7:27pm (step 7 follow-up: a unit refund is valued at what was paid for the line; the refund lock; `markPaid`, `giveGrant` and discount-date refusals. "How a refund reaches you": card, account credit, product credit, and a refund of units from an earlier month). Earlier 2026-10-11 3:30pm ("Complimentary": a product or the whole account made free for a period, and its line on the bill). Earlier 2026-10-11 2:40pm ("Your price": a price set for your workspace, and its line on the bill). Earlier 2026-10-11 2:01pm (a discount is worked out on what the product still owes; fee-only and one-meter discount lines). Earlier 2026-10-11 1:14pm (an account credit is taken off last). Earlier 2026-10-04 9:28pm (carried balances always reach an unsent bill). Earlier 2026-09-28 8:30pm (added "Credits, discounts and refunds" section — staff-client-money-operations Phase 7). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-28 12:45pm (summary starts from the charges as shown: Charges → Processing fee → Total). Earlier 2026-09-28 11:29am (receipt example fixed; a deleted ticket comes off the open month's bill; group titles open one group). Earlier 2026-09-28 11:02am (invoices now group charges by workspace/website with a Show itemized toggle — usage-billing-correctness Phase 7). Earlier 2026-09-28 12:12am (exact hourly rates, earned-so-far vs estimated, bill-line breakdowns, Cost calculator tab, carried balances, stock-vs-event usage split — usage-billing-correctness Phase 6). Earlier 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (fixed a stale claim: disabling a module keeps content for 30 days, not indefinitely). Earlier 2026-09-26 6:51pm
+**Last verified:** 2026-10-11 11:58pm (billing-controls step 10: "Promotion codes", entering a code on the Billing page). Earlier 2026-10-11 10:00pm (billing-controls step 9: two offers on one product, offers that give bonus units or a credit). Earlier 2026-10-11 8:58pm (step 8 review: an earlier invoice that is not paid shows nothing as refunded until it is paid. Earlier 2026-10-11 8:41pm: billing-controls step 8: "Credit for an earlier month", the "Credit for {month}" invoice line). Earlier 2026-10-11 7:27pm (step 7 follow-up: a unit refund is valued at what was paid for the line; the refund lock; `markPaid`, `giveGrant` and discount-date refusals. "How a refund reaches you": card, account credit, product credit, and a refund of units from an earlier month). Earlier 2026-10-11 3:30pm ("Complimentary": a product or the whole account made free for a period, and its line on the bill). Earlier 2026-10-11 2:40pm ("Your price": a price set for your workspace, and its line on the bill). Earlier 2026-10-11 2:01pm (a discount is worked out on what the product still owes; fee-only and one-meter discount lines). Earlier 2026-10-11 1:14pm (an account credit is taken off last). Earlier 2026-10-04 9:28pm (carried balances always reach an unsent bill). Earlier 2026-09-28 8:30pm (added "Credits, discounts and refunds" section — staff-client-money-operations Phase 7). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-28 12:45pm (summary starts from the charges as shown: Charges → Processing fee → Total). Earlier 2026-09-28 11:29am (receipt example fixed; a deleted ticket comes off the open month's bill; group titles open one group). Earlier 2026-09-28 11:02am (invoices now group charges by workspace/website with a Show itemized toggle — usage-billing-correctness Phase 7). Earlier 2026-09-28 12:12am (exact hourly rates, earned-so-far vs estimated, bill-line breakdowns, Cost calculator tab, carried balances, stock-vs-event usage split — usage-billing-correctness Phase 6). Earlier 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (fixed a stale claim: disabling a module keeps content for 30 days, not indefinitely). Earlier 2026-09-26 6:51pm
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -197,6 +197,32 @@ Sometimes WebNesting gives you something that starts in the past: bonus units, a
 - The credit comes off what your next bill still owes, after everything else. If that bill owes less than the credit, the rest comes off the bill after it.
 - If the earlier invoice is not paid yet, you still pay it in full. It shows nothing as refunded. The credit shows up on the first bill after you pay it.
 - Once the earlier invoice is paid, it shows the same amount as refunded.
+
+### Promotion codes
+
+A promotion code is a code from WebNesting that gives your workspace an offer: a discount, bonus units or a credit.
+
+To use a code on a workspace you already have:
+
+1. Open the workspace, then **Settings** → **Plans & Billing**.
+2. On the **Current Period** tab, find **Promotion code** under your charges and click **Have a code?**
+3. Type the code and click **Check code**. You see what the code gives you, for example "20% off Marketing until Dec 31, 2026". Nothing is applied yet.
+4. Click **Apply to this workspace**. To try another code, click **Use a different code**.
+
+After you apply it, the offer shows on your invoice as its own line, or as a bonus or credit like any other. A discount is taken off what the product still owes, so a product that already costs nothing that month shows no discount line.
+
+You can also enter a code when you sign up or when you create a workspace. See [Creating Your Account](../account/creating-your-account.md).
+
+If a code is refused, the page says why:
+
+- **"That code is not valid. Check the spelling and try again."** The code does not exist, or it is for a different place. A sign-up code works only on the sign-up page.
+- **"… ended on …"** The offer or the code is over.
+- **"… is already applied to this workspace. A code works once for each workspace."** You already used it here.
+- **"This code has been fully used."** The offer had a limited number of uses and they are gone.
+- **"This code isn't available for this workspace."** The offer is for other workspaces, for example new ones only.
+- **"Too many tries. You can try again in … minutes."** After five wrong codes in 10 minutes, code entry is locked for a short time. Wait the number of minutes the message names, then try again.
+
+You need permission to manage billing in the workspace to see the **Promotion code** section.
 
 ### Your price
 
