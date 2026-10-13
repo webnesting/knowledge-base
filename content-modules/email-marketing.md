@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-10-13 3:39pm (the New Tag color starts grey; Email Design shows with saved templates; the email card; + Add Version). Earlier 2026-10-13 3:01pm (Sending a campaign: the three steps, the confirm, no send without a design; tag steps match the Tags page). Earlier 2026-10-13 1:29pm (Deliverability shows Marked as spam). Earlier 2026-10-13 1:25pm (contact steps and email statuses match the Contacts page). Earlier 2026-10-13 12:20pm (the unsubscribe link is not listed under Links people clicked). Earlier 2026-10-03 1:21pm (forms create contacts only when Create Contact is on and a field is mapped to Email). Earlier 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (From address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free-email allowance now described as hourly-earned, not a flat 10,000). Earlier 2026-09-25 7:43pm
+**Last verified:** 2026-10-13 4:50pm (Delete Version; A/B settings on Details; the unsaved-builder warning; Leading; the A/B send confirm). Earlier 2026-10-13 3:39pm (the New Tag color starts grey; Email Design shows with saved templates; the email card; + Add Version). Earlier 2026-10-13 3:01pm (Sending a campaign: the three steps, the confirm, no send without a design; tag steps match the Tags page). Earlier 2026-10-13 1:29pm (Deliverability shows Marked as spam). Earlier 2026-10-13 1:25pm (contact steps and email statuses match the Contacts page). Earlier 2026-10-13 12:20pm (the unsubscribe link is not listed under Links people clicked). Earlier 2026-10-03 1:21pm (forms create contacts only when Create Contact is on and a field is mapped to Email). Earlier 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (From address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free-email allowance now described as hourly-earned, not a flat 10,000). Earlier 2026-09-25 7:43pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -146,7 +146,7 @@ Common tag examples: "VIP," "New Lead," "Attended Workshop," "Purchased," "Follo
 
 ### Using Tags
 
-Tags are applied to contacts from the contact detail view: click **+ Add Tag** in the **Tags** panel. If your workspace has no tags yet, the panel says so and links to the **Tags** page. The **Tags** page shows how many contacts have each tag.
+Tags are applied to contacts from the contact detail view: click **+ Add Tag** in the **Tags** panel. If your workspace has no tags yet, the panel says so and links to the **Tags** page. Click the **×** on a tag to take it off the contact. The **Tags** page shows how many contacts have each tag.
 
 > **Tip:** Tags and lists serve different purposes. Use **lists** to group contacts for email sends (like "Newsletter Subscribers"). Use **tags** for organizational labels (like "VIP" or "Attended Event"). A contact can be on multiple lists and have multiple tags at the same time.
 
@@ -222,7 +222,7 @@ Campaigns are the emails you send; templates are reusable starting points you ca
 Both the campaign editor and the template editor use the same visual builder you use to build web pages: drag-and-drop blocks, a styling panel, and a live canvas. What you design is what gets delivered, because each block's styles are applied directly to it.
 
 1. Open **Marketing → Campaigns** (or **Templates**) in your workspace sidebar.
-2. Create a new one, or open an existing one.
+2. Create a new one, or open an existing one. A new one opens as soon as you create it.
 3. Design the email on the canvas, dragging blocks from the **Add** panel and styling them in the **Styles** panel.
 4. Save your work.
 
@@ -247,11 +247,19 @@ A campaign needs three things before it can go out. The **Setup Checklist** on t
 2. **Subject and design** -- on the **Email Content** tab, type a subject and press Enter, then build the email with **Edit Email Design**. If you have saved templates, you can pick one under **Email Design** instead. The email arrives the way the builder shows it: a white 600-pixel column on a light grey background.
 3. **Sender (optional)** -- leave it empty to send from your default address.
 
-Then open the **Send** tab and click **Send Now**. WebNesting asks you to confirm, and names the lists the campaign goes to. A sent campaign cannot be undone. **Schedule for Later** sends it at the date and time you pick.
+Then open the **Send** tab and click **Send Now**. WebNesting asks you to confirm, and names the lists the campaign goes to. For an A/B test, it also says that each version goes to part of the list first, and the winning version goes to everyone else later. A sent campaign cannot be undone. **Schedule for Later** sends it at the date and time you pick.
 
 If something is missing, **Send Now** stays greyed out, and the **Send** tab lists what to do first, for example "Design the email on the Email Content tab." A campaign with no design cannot be sent or scheduled.
 
-In an A/B test campaign, click **+ Add Version** on the **Email Content** tab to add another version of the email. Each version needs its own subject and design. The versions share the test send evenly.
+In an A/B test campaign, click **+ Add Version** on the **Email Content** tab to add another version of the email. Each version needs its own subject and design. The versions share the test send evenly. To remove the version you are looking at, click **Delete Version** and confirm.
+
+On the **Details** tab of an A/B test you set how the test runs, then click **Save**:
+
+- **Test group (% of the list)** -- the share of your list that gets a version first, from 10% to 100%. Each version goes to part of this group. Every version goes to at least one person, even on a small list. At 100%, everyone is in the test and no winner is sent later.
+- **Wait before picking (hours)** -- the hours between the test send and the winner going to everyone else, from 1 to 168.
+- **Pick the winner by** -- **Open rate** or **Click rate**.
+
+> **Warning:** Click **Save** in the email builder before you leave it. If you click **Back to Preview**, another version's tab or **+ Add Version** with changes that are not saved, WebNesting asks before it drops them.
 
 ### Conditional blocks
 
@@ -264,7 +272,7 @@ You can show or hide part of an email depending on the recipient -- for example,
 Open a campaign that has gone out and click its **Performance** tab:
 
 - **Results** -- how many people it went to, and how many received, opened and clicked it.
-- **A/B test** (A/B test campaigns only) -- each version with how many people it went to and its open and click rates. While the test is running, the version currently ahead is marked **Leading**. Once its wait time has passed, the version with the best score (open rate or click rate, whichever you chose) automatically goes to everyone who hasn't received the campaign yet, and is marked **Winner**. Don't want to wait? Click **Send to Everyone Else** on the version you want and confirm -- it goes out right away and the test ends.
+- **A/B test** (A/B test campaigns only) -- each version with how many people it went to and its open and click rates. While the test is running, the version currently ahead is marked **Leading**. No version is marked until someone opens (or clicks) one. Once its wait time has passed, the version with the best score (open rate or click rate, whichever you chose) automatically goes to everyone who hasn't received the campaign yet, and is marked **Winner**. Don't want to wait? Click **Send to Everyone Else** on the version you want and confirm -- it goes out right away and the test ends.
 - **Links people clicked** -- every link in the email except the unsubscribe link, how many times it was clicked, how many people clicked it, and its share of all clicks.
 - **Deliverability** -- how many emails bounced, how many people unsubscribed, and how many marked the email as spam (**Marked as spam**). A person who marks it as spam is unsubscribed.
 

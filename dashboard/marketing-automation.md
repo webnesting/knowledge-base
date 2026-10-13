@@ -1,6 +1,6 @@
 # Marketing Automations
 
-**Last verified:** 2026-09-26 6:59pm (added "While Marketing Is Turned Off"). Earlier 2026-09-22 11:43pm
+**Last verified:** 2026-10-13 4:50pm (create steps use the real labels; a new automation opens). Earlier 2026-09-26 6:59pm (added "While Marketing Is Turned Off"). Earlier 2026-09-22 11:43pm
 
 Marketing automations let you create set-it-and-forget-it workflows that send emails, update contacts, and perform actions automatically when something happens. Instead of manually sending a welcome email every time someone signs up, or remembering to tag contacts after an event, you build the workflow once and let it run on its own.
 
@@ -34,11 +34,12 @@ Each contact can only be in an automation once at a time. If the same trigger fi
 To create a new automation:
 
 1. Click **Marketing** in your workspace sidebar, then **Automations** under **Automation**.
-2. Click the **Create** button.
-3. Give your automation a name -- something descriptive like "Welcome Series" or "Post-Purchase Follow-Up."
-4. Choose a trigger (the event that starts the automation).
-5. Add your steps (emails, delays, conditions, and actions).
-6. Save the automation.
+2. Click **+ New Automation**.
+3. Give your automation a title -- something descriptive like "Welcome Series" or "Post-Purchase Follow-Up."
+4. Choose a **Trigger Type** (the event that starts the automation).
+5. Click **Create Automation**. The new automation opens.
+6. Add your steps (emails, delays, conditions, and actions) on its **Workflow** tab.
+7. Save the automation.
 
 Your automation starts in a **Paused** state. It will not run until you activate it.
 
