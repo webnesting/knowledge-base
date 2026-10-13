@@ -1,6 +1,6 @@
 # Contacts Management
 
-**Last verified:** 2026-10-13 1:09pm (Bounced is set by WebNesting, not picked). Earlier 2026-10-03 1:21pm
+**Last verified:** 2026-10-13 1:25pm (a spam complaint sets Unsubscribed; Activity shows bounces and spam). Earlier 2026-10-13 1:09pm (Bounced is set by WebNesting, not picked). Earlier 2026-10-03 1:21pm
 
 Contacts are your audience database in WebNesting. Every person who submits a form on your website, signs up for your newsletter, or is imported from a spreadsheet becomes a contact. Use the Contacts system to keep track of who your audience is, organize them into lists, and connect them to your marketing, forms, and support tools.
 
@@ -85,13 +85,15 @@ Every contact record stores a set of standard information, plus any custom field
 If you use the Marketing product, each contact also has an email subscription status:
 
 - **Subscribed** -- The contact is receiving your workspace-wide marketing emails.
-- **Unsubscribed** -- The contact has opted out of marketing emails.
+- **Unsubscribed** -- The contact has opted out of marketing emails, or marked one of your emails as spam.
 - **Bounced** -- The contact's email address is not deliverable.
 - **Pending** -- The contact has not opted in to workspace-wide email (this is the starting status).
 
 You can change it with the **Email Status** control in the Marketing panel of the contact's page. Setting someone to **Subscribed** is what makes them reachable by workspace-wide campaigns, so only do it for people who have genuinely agreed to hear from you.
 
-You can't pick **Bounced** yourself. WebNesting sets it when an email to the contact fails for good or the contact marks your email as spam, and campaigns then skip the contact. If the address was wrong and you have fixed it, you can set the status back to **Subscribed**.
+You can't pick **Bounced** yourself. WebNesting sets it when an email to the contact fails for good (the address does not exist), and campaigns then skip the contact. If the address was wrong and you have fixed it, you can set the status back to **Subscribed**. An email that fails only for now, for example because the mailbox is full, does not change the status.
+
+When a contact marks one of your emails as spam, WebNesting sets them to **Unsubscribed** and takes them off your lists, the same as if they had used the unsubscribe link. Campaigns skip them. The campaign still counts the complaint in its results.
 
 ### Helpdesk Automatic Emails
 
@@ -99,7 +101,7 @@ If you use the Helpdesk, each contact's page has a **Helpdesk** panel with an **
 
 ### Activity Timeline
 
-Each contact's page shows an **Activity** section — a running history of that person's interactions with you, newest first. It gathers the marketing emails they were sent, opened, and clicked; any support tickets they opened (with a link straight to the ticket); and the automations they entered. It's a quick way to see the whole relationship at a glance without hunting through Marketing and Helpdesk separately.
+Each contact's page shows an **Activity** section — a running history of that person's interactions with you, newest first. It gathers the marketing emails they were sent, opened, and clicked, any email that bounced, and any email they marked as spam; any support tickets they opened (with a link straight to the ticket); and the automations they entered. It's a quick way to see the whole relationship at a glance without hunting through Marketing and Helpdesk separately.
 
 ### Sites This Person Belongs To
 

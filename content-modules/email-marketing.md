@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-10-13 12:20pm (the unsubscribe link is not listed under Links people clicked). Earlier 2026-10-03 1:21pm (forms create contacts only when Create Contact is on and a field is mapped to Email). Earlier 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (From address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free-email allowance now described as hourly-earned, not a flat 10,000). Earlier 2026-09-25 7:43pm
+**Last verified:** 2026-10-13 1:25pm (contact steps and email statuses match the Contacts page). Earlier 2026-10-13 12:20pm (the unsubscribe link is not listed under Links people clicked). Earlier 2026-10-03 1:21pm (forms create contacts only when Create Contact is on and a field is mapped to Email). Earlier 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (From address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free-email allowance now described as hourly-earned, not a flat 10,000). Earlier 2026-09-25 7:43pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -58,40 +58,32 @@ Contacts are the heart of the Email Marketing module. Every person who signs up 
 
 ### Viewing Your Contacts
 
-1. Click **Contact** under the Marketing section in your sidebar.
+1. Go to the **Contacts** section in your workspace sidebar.
 2. You will see a list of all your contacts with their name, email, status, and source.
 3. Use the search bar to find a specific contact by name or email.
 
-### Filtering Contacts by Status
+### Email Status
 
-At the top of your contact list, you will see filter tabs to quickly narrow down your view:
+Each contact has an email status. You see and change it in the **Marketing** panel of the contact's page:
 
-- **All** -- Every contact in your database.
-- **Subscribed** -- Contacts who are actively receiving your communications.
-- **Unsubscribed** -- Contacts who have opted out.
-- **Bounced** -- Contacts whose email addresses are not deliverable.
-- **Pending** -- Contacts who haven't agreed to workspace-wide marketing email yet (every contact starts here). They don't receive workspace-wide campaigns until you mark them **Subscribed** on their contact page.
+- **Subscribed** -- The contact receives your workspace-wide campaigns.
+- **Unsubscribed** -- The contact opted out, or marked one of your emails as spam. Campaigns skip them.
+- **Bounced** -- Email to this address fails for good (the address does not exist). WebNesting sets this; you can't pick it. Campaigns skip them.
+- **Pending** -- The contact hasn't agreed to workspace-wide marketing email yet (every contact starts here). They don't receive workspace-wide campaigns until you mark them **Subscribed**.
+
+More detail: [Contacts](../dashboard/contacts-management.md#subscription-information).
 
 ### Creating a Contact Manually
 
-You can add contacts one at a time directly from your dashboard.
-
-1. Click **Contact** in the Marketing section.
-2. Click the **Create** button at the top of the page.
-3. Fill in the contact details:
-   - **Email** (required) -- The contact's email address.
-   - **First Name** -- The contact's first name.
-   - **Last Name** -- The contact's last name.
-   - **Phone** -- A phone number.
-   - **Status** -- Choose from Subscribed, Unsubscribed, Bounced, Complained, or Pending.
-   - **Source** -- Where this contact came from (for your reference).
-   - **Lead Score** -- A numeric score for ranking contacts (optional).
-4. Save the contact.
+1. Go to the **Contacts** section in your workspace sidebar.
+2. Click the **Create** button.
+3. Fill in the **Email** (required), and if you like the **First Name**, **Last Name** and **Phone**.
+4. Save the contact. A new contact is **Active**, with the email status **Pending**.
 
 ### Editing a Contact
 
-1. Click on any contact in your list to open their details.
-2. Update any of the fields -- name, phone, status, or lead score.
+1. Click on any contact in your list to open their page.
+2. Update any of the fields, or the email status in the **Marketing** panel.
 3. Save your changes.
 
 ### Deleting a Contact
