@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-10-13 4:50pm (Delete Version; A/B settings on Details; the unsaved-builder warning; Leading; the A/B send confirm). Earlier 2026-10-13 3:39pm (the New Tag color starts grey; Email Design shows with saved templates; the email card; + Add Version). Earlier 2026-10-13 3:01pm (Sending a campaign: the three steps, the confirm, no send without a design; tag steps match the Tags page). Earlier 2026-10-13 1:29pm (Deliverability shows Marked as spam). Earlier 2026-10-13 1:25pm (contact steps and email statuses match the Contacts page). Earlier 2026-10-13 12:20pm (the unsubscribe link is not listed under Links people clicked). Earlier 2026-10-03 1:21pm (forms create contacts only when Create Contact is on and a field is mapped to Email). Earlier 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (From address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free-email allowance now described as hourly-earned, not a flat 10,000). Earlier 2026-09-25 7:43pm
+**Last verified:** 2026-10-13 6:01pm (the A/B send confirm names the people not in the test; Send Now says why no one can get a campaign; no video or embed buttons in the email builder). Earlier 2026-10-13 4:50pm (Delete Version; A/B settings on Details; the unsaved-builder warning; Leading; the A/B send confirm). Earlier 2026-10-13 3:39pm (the New Tag color starts grey; Email Design shows with saved templates; the email card; + Add Version). Earlier 2026-10-13 3:01pm (Sending a campaign: the three steps, the confirm, no send without a design; tag steps match the Tags page). Earlier 2026-10-13 1:29pm (Deliverability shows Marked as spam). Earlier 2026-10-13 1:25pm (contact steps and email statuses match the Contacts page). Earlier 2026-10-13 12:20pm (the unsubscribe link is not listed under Links people clicked). Earlier 2026-10-03 1:21pm (forms create contacts only when Create Contact is on and a field is mapped to Email). Earlier 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (From address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free-email allowance now described as hourly-earned, not a flat 10,000). Earlier 2026-09-25 7:43pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -223,7 +223,7 @@ Both the campaign editor and the template editor use the same visual builder you
 
 1. Open **Marketing → Campaigns** (or **Templates**) in your workspace sidebar.
 2. Create a new one, or open an existing one. A new one opens as soon as you create it.
-3. Design the email on the canvas, dragging blocks from the **Add** panel and styling them in the **Styles** panel.
+3. Design the email on the canvas, dragging blocks from the **Add** panel and styling them in the **Styles** panel. The text toolbar in the email builder has no video or embed buttons, because email apps such as Gmail and Outlook remove videos and embedded frames. To point people to a video, add an image that links to it.
 4. Save your work.
 
 ### Choosing who a campaign goes to
@@ -247,7 +247,9 @@ A campaign needs three things before it can go out. The **Setup Checklist** on t
 2. **Subject and design** -- on the **Email Content** tab, type a subject and press Enter, then build the email with **Edit Email Design**. If you have saved templates, you can pick one under **Email Design** instead. The email arrives the way the builder shows it: a white 600-pixel column on a light grey background.
 3. **Sender (optional)** -- leave it empty to send from your default address.
 
-Then open the **Send** tab and click **Send Now**. WebNesting asks you to confirm, and names the lists the campaign goes to. For an A/B test, it also says that each version goes to part of the list first, and the winning version goes to everyone else later. A sent campaign cannot be undone. **Schedule for Later** sends it at the date and time you pick.
+Then open the **Send** tab and click **Send Now**. WebNesting asks you to confirm, and names the lists the campaign goes to. For an A/B test, it also says that each version goes to its share of the test group first, and after the wait the winning version goes to the people not in the test. On a list too small to split, everyone is in the test and no winner is sent. A sent campaign cannot be undone. **Schedule for Later** sends it at the date and time you pick.
+
+If no one on the lists can get the campaign, **Send Now** says why: the lists are empty, or no one on them is **Subscribed** (for a single-site campaign, no one opted in on that site). Change a contact's Email Status on their page, then send again.
 
 If something is missing, **Send Now** stays greyed out, and the **Send** tab lists what to do first, for example "Design the email on the Email Content tab." A campaign with no design cannot be sent or scheduled.
 
@@ -256,7 +258,7 @@ In an A/B test campaign, click **+ Add Version** on the **Email Content** tab to
 On the **Details** tab of an A/B test you set how the test runs, then click **Save**:
 
 - **Test group (% of the list)** -- the share of your list that gets a version first, from 10% to 100%. Each version goes to part of this group. Every version goes to at least one person, even on a small list. At 100%, everyone is in the test and no winner is sent later.
-- **Wait before picking (hours)** -- the hours between the test send and the winner going to everyone else, from 1 to 168.
+- **Wait before picking (hours)** -- the hours between the test send and the winner going to the people not in the test, from 1 to 168.
 - **Pick the winner by** -- **Open rate** or **Click rate**.
 
 > **Warning:** Click **Save** in the email builder before you leave it. If you click **Back to Preview**, another version's tab or **+ Add Version** with changes that are not saved, WebNesting asks before it drops them.
