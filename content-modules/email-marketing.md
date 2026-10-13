@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-10-13 3:01pm (Sending a campaign: the three steps, the confirm, no send without a design; tag steps match the Tags page). Earlier 2026-10-13 1:29pm (Deliverability shows Marked as spam). Earlier 2026-10-13 1:25pm (contact steps and email statuses match the Contacts page). Earlier 2026-10-13 12:20pm (the unsubscribe link is not listed under Links people clicked). Earlier 2026-10-03 1:21pm (forms create contacts only when Create Contact is on and a field is mapped to Email). Earlier 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (From address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free-email allowance now described as hourly-earned, not a flat 10,000). Earlier 2026-09-25 7:43pm
+**Last verified:** 2026-10-13 3:39pm (the New Tag color starts grey; Email Design shows with saved templates; the email card; + Add Version). Earlier 2026-10-13 3:01pm (Sending a campaign: the three steps, the confirm, no send without a design; tag steps match the Tags page). Earlier 2026-10-13 1:29pm (Deliverability shows Marked as spam). Earlier 2026-10-13 1:25pm (contact steps and email statuses match the Contacts page). Earlier 2026-10-13 12:20pm (the unsubscribe link is not listed under Links people clicked). Earlier 2026-10-03 1:21pm (forms create contacts only when Create Contact is on and a field is mapped to Email). Earlier 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (From address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free-email allowance now described as hourly-earned, not a flat 10,000). Earlier 2026-09-25 7:43pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -141,7 +141,7 @@ Common tag examples: "VIP," "New Lead," "Attended Workshop," "Purchased," "Follo
 2. Click **+ Add Tag**.
 3. Fill in the tag details:
    - **Name** (required) -- A short, descriptive label like "VIP" or "Newsletter Subscriber."
-   - **Color** (optional) -- Choose a color to make this tag easy to spot. A tag with no color is grey.
+   - **Color** (optional) -- It starts grey. Choose another color to make this tag easy to spot.
 4. Click **Create Tag**.
 
 ### Using Tags
@@ -244,12 +244,14 @@ Someone who unsubscribes stops getting email either way -- unsubscribing always 
 A campaign needs three things before it can go out. The **Setup Checklist** on the **Details** tab shows each one:
 
 1. **Recipients** -- tick at least one list on the **Details** tab, then click **Save**.
-2. **Subject and design** -- on the **Email Content** tab, type a subject and press Enter, then build the email with **Edit Email Design** or pick a template under **Email Design**.
+2. **Subject and design** -- on the **Email Content** tab, type a subject and press Enter, then build the email with **Edit Email Design**. If you have saved templates, you can pick one under **Email Design** instead. The email arrives the way the builder shows it: a white 600-pixel column on a light grey background.
 3. **Sender (optional)** -- leave it empty to send from your default address.
 
 Then open the **Send** tab and click **Send Now**. WebNesting asks you to confirm, and names the lists the campaign goes to. A sent campaign cannot be undone. **Schedule for Later** sends it at the date and time you pick.
 
 If something is missing, **Send Now** stays greyed out, and the **Send** tab lists what to do first, for example "Design the email on the Email Content tab." A campaign with no design cannot be sent or scheduled.
+
+In an A/B test campaign, click **+ Add Version** on the **Email Content** tab to add another version of the email. Each version needs its own subject and design. The versions share the test send evenly.
 
 ### Conditional blocks
 
