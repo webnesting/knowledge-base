@@ -1,6 +1,6 @@
 # Contacts Management
 
-**Last verified:** 2026-10-13 1:25pm (a spam complaint sets Unsubscribed; Activity shows bounces and spam). Earlier 2026-10-13 1:09pm (Bounced is set by WebNesting, not picked). Earlier 2026-10-03 1:21pm
+**Last verified:** 2026-10-13 1:29pm (a complaint counts under Marked as spam). Earlier 2026-10-13 1:25pm (a spam complaint sets Unsubscribed; Activity shows bounces and spam). Earlier 2026-10-13 1:09pm (Bounced is set by WebNesting, not picked). Earlier 2026-10-03 1:21pm
 
 Contacts are your audience database in WebNesting. Every person who submits a form on your website, signs up for your newsletter, or is imported from a spreadsheet becomes a contact. Use the Contacts system to keep track of who your audience is, organize them into lists, and connect them to your marketing, forms, and support tools.
 
@@ -93,7 +93,7 @@ You can change it with the **Email Status** control in the Marketing panel of th
 
 You can't pick **Bounced** yourself. WebNesting sets it when an email to the contact fails for good (the address does not exist), and campaigns then skip the contact. If the address was wrong and you have fixed it, you can set the status back to **Subscribed**. An email that fails only for now, for example because the mailbox is full, does not change the status.
 
-When a contact marks one of your emails as spam, WebNesting sets them to **Unsubscribed** and takes them off your lists, the same as if they had used the unsubscribe link. Campaigns skip them. The campaign still counts the complaint in its results.
+When a contact marks one of your emails as spam, WebNesting sets them to **Unsubscribed** and takes them off your lists, the same as if they had used the unsubscribe link. Campaigns skip them. The campaign's **Marked as spam** count on its **Performance** tab goes up by one.
 
 ### Helpdesk Automatic Emails
 

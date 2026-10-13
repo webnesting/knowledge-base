@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-10-13 1:25pm (contact steps and email statuses match the Contacts page). Earlier 2026-10-13 12:20pm (the unsubscribe link is not listed under Links people clicked). Earlier 2026-10-03 1:21pm (forms create contacts only when Create Contact is on and a field is mapped to Email). Earlier 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (From address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free-email allowance now described as hourly-earned, not a flat 10,000). Earlier 2026-09-25 7:43pm
+**Last verified:** 2026-10-13 1:29pm (Deliverability shows Marked as spam). Earlier 2026-10-13 1:25pm (contact steps and email statuses match the Contacts page). Earlier 2026-10-13 12:20pm (the unsubscribe link is not listed under Links people clicked). Earlier 2026-10-03 1:21pm (forms create contacts only when Create Contact is on and a field is mapped to Email). Earlier 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (From address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free-email allowance now described as hourly-earned, not a flat 10,000). Earlier 2026-09-25 7:43pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -252,7 +252,7 @@ Open a campaign that has gone out and click its **Performance** tab:
 - **Results** -- how many people it went to, and how many received, opened and clicked it.
 - **A/B test** (A/B test campaigns only) -- each version with how many people it went to and its open and click rates. While the test is running, the version currently ahead is marked **Leading**. Once its wait time has passed, the version with the best score (open rate or click rate, whichever you chose) automatically goes to everyone who hasn't received the campaign yet, and is marked **Winner**. Don't want to wait? Click **Send to Everyone Else** on the version you want and confirm -- it goes out right away and the test ends.
 - **Links people clicked** -- every link in the email except the unsubscribe link, how many times it was clicked, how many people clicked it, and its share of all clicks.
-- **Deliverability** -- how many emails bounced and how many people unsubscribed.
+- **Deliverability** -- how many emails bounced, how many people unsubscribed, and how many marked the email as spam (**Marked as spam**). A person who marks it as spam is unsubscribed.
 
 ---
 
