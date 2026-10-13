@@ -1,6 +1,6 @@
 # Contacts Management
 
-**Last verified:** 2026-10-03 1:21pm (forms create contacts only when turned on per form). Earlier 2026-09-25 5:14pm
+**Last verified:** 2026-10-13 1:09pm (Bounced is set by WebNesting, not picked). Earlier 2026-10-03 1:21pm
 
 Contacts are your audience database in WebNesting. Every person who submits a form on your website, signs up for your newsletter, or is imported from a spreadsheet becomes a contact. Use the Contacts system to keep track of who your audience is, organize them into lists, and connect them to your marketing, forms, and support tools.
 
@@ -90,6 +90,8 @@ If you use the Marketing product, each contact also has an email subscription st
 - **Pending** -- The contact has not opted in to workspace-wide email (this is the starting status).
 
 You can change it with the **Email Status** control in the Marketing panel of the contact's page. Setting someone to **Subscribed** is what makes them reachable by workspace-wide campaigns, so only do it for people who have genuinely agreed to hear from you.
+
+You can't pick **Bounced** yourself. WebNesting sets it when an email to the contact fails for good or the contact marks your email as spam, and campaigns then skip the contact. If the address was wrong and you have fixed it, you can set the status back to **Subscribed**.
 
 ### Helpdesk Automatic Emails
 
