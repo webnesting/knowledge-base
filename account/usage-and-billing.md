@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-09-28 8:30pm (added "Credits, discounts and refunds" section — staff-client-money-operations Phase 7). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-28 12:45pm (Usage ranges: This Month / Last 3 Months / Last 12 Months / Custom; bill summary starts from the charges as shown). Earlier 2026-09-28 11:49am (Usage tab: counts only, Show / Where controls, how things are counted). Earlier 2026-09-28 11:21am (itemized charges list price + allowance; click a charge for its breakdown). Earlier 2026-09-28 11:02am (invoices now group charges by workspace/website with a Show itemized toggle — usage-billing-correctness Phase 7). Earlier 2026-09-28 12:12am (exact hourly rates; scheduled turn-off at month end vs turn off now; API data transfer priced per GB — usage-billing-correctness Phase 6). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (added "Turning a product or module off"). Earlier 2026-09-22 2:20pm
+**Last verified:** 2026-10-12 8:08pm (billing-controls step 16: "What WebNesting gave you", "Promotion codes", the From WebNesting section of the Usage page, bonus units when a product turns off, a $0 bill shows as Closed). Earlier 2026-09-28 8:30pm (added "Credits, discounts and refunds" section — staff-client-money-operations Phase 7). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-28 12:45pm (Usage ranges: This Month / Last 3 Months / Last 12 Months / Custom; bill summary starts from the charges as shown). Earlier 2026-09-28 11:49am (Usage tab: counts only, Show / Where controls, how things are counted). Earlier 2026-09-28 11:21am (itemized charges list price + allowance; click a charge for its breakdown). Earlier 2026-09-28 11:02am (invoices now group charges by workspace/website with a Show itemized toggle — usage-billing-correctness Phase 7). Earlier 2026-09-28 12:12am (exact hourly rates; scheduled turn-off at month end vs turn off now; API data transfer priced per GB — usage-billing-correctness Phase 6). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (added "Turning a product or module off"). Earlier 2026-09-22 2:20pm
 
 WebNesting uses simple, usage-based pricing. This guide explains how pricing works, how to view your usage and bills, and how to pay.
 
@@ -62,7 +62,7 @@ Some of these products also include per-unit usage (e.g. emails, tickets, active
 
 **A site module always turns off right away** -- it has no earned allowance worth keeping. Its data is **permanently deleted after 30 days** unless you turn it back on before then; until then, any files it stored still count toward your storage total until they're deleted, either by you (**Delete now**) or automatically once the 30 days are up.
 
-**A workspace product gives you a choice.** The default, **Turn off on {date}**, schedules it for the end of the current billing month -- it keeps working, keeps being billed, and keeps earning its free allowance until then, so you don't give any of this month's allowance up. **Turn off now** stops it immediately instead, and gives up whatever free allowance it would otherwise have earned for the rest of the month. Either way, once it's off, its data is **permanently deleted after 30 days** unless you turn it back on, and any files it stored still count toward your storage total until deleted.
+**A workspace product gives you a choice.** The default, **Turn off on {date}**, schedules it for the end of the current billing month -- it keeps working, keeps being billed, and keeps earning its free allowance until then, so you don't give any of this month's allowance up. **Turn off now** stops it immediately instead, and gives up whatever free allowance it would otherwise have earned for the rest of the month. If WebNesting gave you monthly bonus units for the product, **Turn off now** gives up the bonus units for the rest of the month too, and the confirmation says how many. Bonus units or a credit you carry over are not used while the product is off, and they still end on their end date. Either way, once it's off, its data is **permanently deleted after 30 days** unless you turn it back on, and any files it stored still count toward your storage total until deleted.
 
 **Turning the same workspace product off a third time in one billing month is different.** Your first two turn-offs of a product each month work as above. A third one has no choice of timing -- the product keeps working, and keeps being billed and earning its allowance, until the 1st of next month, when it finally turns off. This is a fairness rule, not a way to squeeze extra charges out of you: it exists so you can't flip a product on and off around the clock to dodge billing. The count resets to zero on the 1st of each month.
 
@@ -95,6 +95,10 @@ Pick **This Month**, **Last 3 Months** or **Last 12 Months**, or **Custom** to c
 ### Usage by where it's used
 
 The **Usage this period** table lists your workspace first, then each of your websites, so you can see which site is driving your usage. Use **Where** to narrow it to one website or your workspace.
+
+### From WebNesting
+
+Under **Usage this period**, the **From WebNesting** section lists everything WebNesting gave your workspace for the month your date range ends in: bonus units, your price, discounts, promotions, credits and complimentary periods. For bonus units it shows how many you earned, used and have left, and when they end. Everything else says **On your invoice**, because this page shows counts and never money. A **Waiting** label means the product was off all month, so nothing was used and what you have left is kept. **Ends this week** means it ends in 7 days or less.
 ---
 
 ## Viewing Your Bills
@@ -117,9 +121,34 @@ Your monthly invoices are listed by month. Each invoice groups its charges by yo
 
 Anything still outstanding appears in a banner at the top of the Billing page, so unpaid invoices never hide in your history.
 
-### Credits, discounts and refunds
+### What WebNesting gave you
 
-WebNesting support can add a credit or a discount to your account, or issue a refund -- each always shows up as its own line on your invoice, such as "Account credit applied," "Helpdesk discount," "Promotional discount," or "Late fee waived" (shown struck through against the fee it cancels). A refund shows as a **Refunded** amount, and the invoice's status becomes **Refunded** once the full amount is returned -- a partial refund keeps the invoice's normal status. You'll get an email whenever a credit or a refund is added. None of this ever changes what your products cost.
+WebNesting can give your workspace something on top of your normal pricing. You always see what you were given, how much you used, and when it ends:
+
+- **Bonus units** -- extra units, for example 5,000 bonus emails a month. They are used after your free allowance. Monthly bonus units build up hour by hour while their product is on, and none build up while it is off.
+- **Your price** -- a price for your workspace that is lower than the list price. Wherever a price is shown, it carries the label **Your price** with the list price beside it.
+- **A discount or a promotion** -- a percentage or dollar amount off one product or your whole bill, worked out on what the product still owes after your free allowance.
+- **A credit** -- dollars for one product, or for your whole bill.
+- **Complimentary** -- one product, or your whole account, is not charged for a period. A complimentary account's invoice closes at $0.00 and sends no invoice email.
+- **A refund** -- back to your card, or as a credit for your next bill.
+
+Where you see it:
+
+- **On your invoice.** Each one is its own line, in a last group called **From WebNesting** (for example "Your price: Marketing Emails Sent", "20% off Marketing", "Marketing credit" or "Complimentary account"). Bonus units show right under the charge they cover, as "Bonus emails from WebNesting". "Late fee waived" shows struck through against the fee it cancels. A refund shows as a **Refunded** amount, and the invoice's status becomes **Refunded** once the full amount is returned -- a partial refund keeps the invoice's normal status.
+- **On the Usage page**, in the **From WebNesting** section (see [Viewing your usage](#viewing-your-usage)).
+- **In your email.** The workspace owner gets an email when something is given, 7 days before it ends, and if WebNesting ends it early.
+
+None of this ever changes what your products cost. The full explanation, with every line and email: [Billing and Usage](../dashboard/billing-and-usage.md#credits-discounts-and-refunds).
+
+### Promotion codes
+
+If you have a promotion code from WebNesting, enter it in one of three places. Each place has **Have a code?** (on the Create Workspace page, **Have another code?** when you already hold a sign-up code): select it, enter the code and select **Check code** to see what it gives you.
+
+- **When you sign up** -- the code is kept for the first workspace you create. See [Creating Your Account](creating-your-account.md).
+- **When you create a workspace** -- it is applied when you create the workspace.
+- **On the Billing page** -- on the **Current Period** tab, under **Promotion code**. Select **Apply to this workspace**.
+
+What a code gives shows on your invoice as its own line, or as bonus units or a credit. Details and the messages a refused code shows: [Promotion codes](../dashboard/billing-and-usage.md#promotion-codes).
 
 ---
 
@@ -150,6 +179,6 @@ If a bill isn't paid by the due date (the 15th), it is automatically marked over
 
 ## Free Months
 
-If your usage stays within the free tier for a given month, your bill will be $0. These bills are automatically marked as paid, so you don't need to do anything.
+If your usage stays within the free tier for a given month, your bill will be $0. These bills show as **Closed**, so you don't need to do anything.
 
 > **Tip:** With 5 free pages (more if you have Articles, Events, or Store turned on), 2 GB of storage, and 500 free contacts, many personal and small business sites fit within the free tier. You might not owe anything at all!

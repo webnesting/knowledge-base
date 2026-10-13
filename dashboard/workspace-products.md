@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-10-03 12:30am (API Access lists the API reference (OpenAPI) button). Earlier 2026-10-02 6:13pm (home page keeps products that are already active everywhere, marked active). Earlier 2026-09-28 12:12am (scheduled turn-off at month end vs turn off now; removed a turn-off reassurance line; API data transfer priced per GB — usage-billing-correctness Phase 6). Earlier 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (noted free credits build up hourly while a product is on). Earlier 2026-09-26 6:51pm
+**Last verified:** 2026-10-12 8:08pm (billing-controls step 16: the turn-off confirm's bonus and waiting lines, the waiting balances on an off card, Your price on the card). Earlier 2026-10-03 12:30am (API Access lists the API reference (OpenAPI) button). Earlier 2026-10-02 6:13pm (home page keeps products that are already active everywhere, marked active). Earlier 2026-09-28 12:12am (scheduled turn-off at month end vs turn off now; removed a turn-off reassurance line; API data transfer priced per GB — usage-billing-correctness Phase 6). Earlier 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (noted free credits build up hourly while a product is on). Earlier 2026-09-26 6:51pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -101,6 +101,8 @@ Each product has two types of costs:
 
 Free credits build up hour by hour while a product is turned on, rather than being handed out all at once when the month starts, and a product earns none while it's off. The exact free amount for a full month follows how many hours are in it (a 31-day month earns a little more than a 30-day one, February a little less). See [Billing and Usage](billing-and-usage.md) for the exact numbers.
 
+If WebNesting has set a lower price for your workspace, the product's card shows that price with a **Your price** label and the list price under it. See [Your price](billing-and-usage.md#your-price).
+
 Here is how pricing works for each product:
 
 **Contacts are shared across products.** Marketing, Helpdesk, and your site forms all draw on the same workspace contact database, so contacts are billed once for the whole workspace -- not once per product. Your first 500 contacts are free.
@@ -141,7 +143,7 @@ If you no longer need a product:
 1. Go to **Products** in your workspace settings.
 2. Find the product you want to turn off.
 3. Click **Turn off**.
-4. A confirmation window states what happens up front: your data for it is **permanently deleted after 30 days** unless you turn it back on before then, and its free allowance stops building up. Below that it lists how many of your tickets, campaigns or projects are kept, and what stops while the product is off.
+4. A confirmation window states what happens up front: your data for it is **permanently deleted after 30 days** unless you turn it back on before then, and its free allowance stops building up. Below that it lists how many of your tickets, campaigns or projects are kept, and what stops while the product is off. That list starts with what you give up this month, for example "You'd give up about 1,150 free emails this month." If WebNesting gave you bonus units for the product, a second line says how many of those you give up: "You'd give up about 1,200 bonus emails from WebNesting this month." For each balance you carry over from WebNesting (bonus units or a credit for the product), a line says it is not used while the product is off and still ends on its end date.
 5. Choose how: **Turn off on {date}** (the end of this billing month) is the default and keeps the product working -- and its free allowance still building up -- until then; **Turn off now** stops it right away instead, giving up whatever free allowance it would have earned for the rest of the month. **Keep it on** cancels and leaves everything as it was.
 
 If you scheduled a turn-off, the product's card shows a banner naming the date, with a **Keep it on** button to cancel it any time before then.
@@ -152,6 +154,7 @@ Once a product is off, its card shows a banner with:
 
 - **Turn back on** -- turns the product back on with its data, as long as it's before the deletion date.
 - **Delete now** -- permanently deletes the product's data right away instead of waiting. You'll be asked to type your workspace name to confirm, because this can't be undone.
+- **What is waiting** -- if WebNesting gave you bonus units or a credit for the product, the banner says so, for example "Your 2,000 bonus emails from WebNesting are waiting. They are not used while Marketing is off. They still end on Dec 31, 2026."
 - **Download a copy** -- makes a copy of the product's data (a spreadsheet file for each kind of record, plus attached files) and emails you a download link that works for 7 days. Your contacts are not included -- they stay in Contacts. You can download a copy any time the product is off, including right before you delete it.
 
 > **Important:** Disabling a product removes it from your workspace for everyone on your team once it's off. Its data is **permanently deleted after 30 days** after that -- turn it back on before then if you want to keep it; turning it on after that starts it empty. Your contacts are never affected. **Internal Docs** is the exception -- it is free, so its documents are kept for as long as you like.

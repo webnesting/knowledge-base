@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-10-12 5:18am (billing-controls step 13: "Emails about what WebNesting gave you"). Earlier 2026-10-11 11:58pm (billing-controls step 10: "Promotion codes", entering a code on the Billing page). Earlier 2026-10-11 10:00pm (billing-controls step 9: two offers on one product, offers that give bonus units or a credit). Earlier 2026-10-11 8:58pm (step 8 review: an earlier invoice that is not paid shows nothing as refunded until it is paid. Earlier 2026-10-11 8:41pm: billing-controls step 8: "Credit for an earlier month", the "Credit for {month}" invoice line). Earlier 2026-10-11 7:27pm (step 7 follow-up: a unit refund is valued at what was paid for the line; the refund lock; `markPaid`, `giveGrant` and discount-date refusals. "How a refund reaches you": card, account credit, product credit, and a refund of units from an earlier month). Earlier 2026-10-11 3:30pm ("Complimentary": a product or the whole account made free for a period, and its line on the bill). Earlier 2026-10-11 2:40pm ("Your price": a price set for your workspace, and its line on the bill). Earlier 2026-10-11 2:01pm (a discount is worked out on what the product still owes; fee-only and one-meter discount lines). Earlier 2026-10-11 1:14pm (an account credit is taken off last). Earlier 2026-10-04 9:28pm (carried balances always reach an unsent bill). Earlier 2026-09-28 8:30pm (added "Credits, discounts and refunds" section — staff-client-money-operations Phase 7). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-28 12:45pm (summary starts from the charges as shown: Charges → Processing fee → Total). Earlier 2026-09-28 11:29am (receipt example fixed; a deleted ticket comes off the open month's bill; group titles open one group). Earlier 2026-09-28 11:02am (invoices now group charges by workspace/website with a Show itemized toggle — usage-billing-correctness Phase 7). Earlier 2026-09-28 12:12am (exact hourly rates, earned-so-far vs estimated, bill-line breakdowns, Cost calculator tab, carried balances, stock-vs-event usage split — usage-billing-correctness Phase 6). Earlier 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (fixed a stale claim: disabling a module keeps content for 30 days, not indefinitely). Earlier 2026-09-26 6:51pm
+**Last verified:** 2026-10-12 8:08pm (billing-controls step 16: the "From WebNesting" invoice group and its line names, "Bonus units", "What WebNesting gave you" on the Usage page, every email about what WebNesting gave, the bigger allowance with Your price, the $0.00 complimentary invoice note). Earlier 2026-10-12 5:18am (billing-controls step 13: "Emails about what WebNesting gave you"). Earlier 2026-10-11 11:58pm (billing-controls step 10: "Promotion codes", entering a code on the Billing page). Earlier 2026-10-11 10:00pm (billing-controls step 9: two offers on one product, offers that give bonus units or a credit). Earlier 2026-10-11 8:58pm (step 8 review: an earlier invoice that is not paid shows nothing as refunded until it is paid. Earlier 2026-10-11 8:41pm: billing-controls step 8: "Credit for an earlier month", the "Credit for {month}" invoice line). Earlier 2026-10-11 7:27pm (step 7 follow-up: a unit refund is valued at what was paid for the line; the refund lock; `markPaid`, `giveGrant` and discount-date refusals. "How a refund reaches you": card, account credit, product credit, and a refund of units from an earlier month). Earlier 2026-10-11 3:30pm ("Complimentary": a product or the whole account made free for a period, and its line on the bill). Earlier 2026-10-11 2:40pm ("Your price": a price set for your workspace, and its line on the bill). Earlier 2026-10-11 2:01pm (a discount is worked out on what the product still owes; fee-only and one-meter discount lines). Earlier 2026-10-11 1:14pm (an account credit is taken off last). Earlier 2026-10-04 9:28pm (carried balances always reach an unsent bill). Earlier 2026-09-28 8:30pm (added "Credits, discounts and refunds" section — staff-client-money-operations Phase 7). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-28 12:45pm (summary starts from the charges as shown: Charges → Processing fee → Total). Earlier 2026-09-28 11:29am (receipt example fixed; a deleted ticket comes off the open month's bill; group titles open one group). Earlier 2026-09-28 11:02am (invoices now group charges by workspace/website with a Show itemized toggle — usage-billing-correctness Phase 7). Earlier 2026-09-28 12:12am (exact hourly rates, earned-so-far vs estimated, bill-line breakdowns, Cost calculator tab, carried balances, stock-vs-event usage split — usage-billing-correctness Phase 6). Earlier 2026-09-27 9:49pm (Turn back on / trial wording — no turn-off reassurance). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free pages/allowances updated for page-module grants + hourly-earned allowances). Earlier 2026-09-26 6:59pm (fixed a stale claim: disabling a module keeps content for 30 days, not indefinitely). Earlier 2026-09-26 6:51pm
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -152,26 +152,65 @@ To see your current and past bills:
 1. Open the workspace you want to look at.
 2. Click **Settings** at the bottom of the left icon rail, then **Plans & Billing** under **Billing**. (You can also reach it from the **⋮** menu in the top bar → **Billing**.)
 3. You will see your billing summary. Anything outstanding appears in a banner at the top -- you can pay a single invoice on the spot, or settle every unpaid invoice at once with one card payment and one receipt.
-4. Each invoice groups its charges by your workspace and by each of your websites -- collapsed to one line with a total for each. Click a group's name to open just that group, or **Show itemized** to open them all -- each charge is listed underneath with its price and free allowance. Underneath, **Charges** adds up those amounts (each already has its free amount taken off), then the **Processing fee**, then your **Total**, and a **Refunded** amount if any of this invoice has been refunded.
+4. Each invoice groups its charges by your workspace and by each of your websites, with a last group, **From WebNesting**, for anything WebNesting gave you -- collapsed to one line with a total for each. Click a group's name to open just that group, or **Show itemized** to open them all -- each charge is listed underneath with its price and free allowance. Underneath, **Charges** adds up those amounts (each already has its free amount taken off), then the **Processing fee**, then your **Total**, and a **Refunded** amount if any of this invoice has been refunded.
 5. **Click any line to see exactly how it was worked out.** A breakdown opens showing the math behind the amount (for example, "40 tickets − 20 free earned × $0.05 = $1.00"), a strip showing when the product was on this month, and -- for anything metered by events, like emails or tickets -- a chart of your usage against your free allowance with a projection to the end of the month.
 
 If you have no unpaid bills, you will see an estimate of your current month's charges so far -- marked **Estimated Total** rather than a final number, since free amounts aren't final until the month closes on the 1st. Click any charge to see its projection to the end of the month.
 
 ### Credits, discounts and refunds
 
-If WebNesting support adds a credit or a discount to your account, or issues a refund, it always shows up as its own line on your invoice -- never mixed silently into another amount:
+Anything WebNesting gives your workspace shows on your invoice -- never mixed silently into another amount. Most of it sits in one group at the end of the invoice, **From WebNesting**, one line for each thing, in the order the bill takes them: your price, complimentary, discounts and promotions, product credits, account credits, then credits for an earlier month. The detail under each line starts with the reason WebNesting gave.
 
-- **Account credit applied** -- a dollar credit support has given you, drawn down against what you owe until it runs out. It is taken off last, after your free allowance and any discount, so it is only used for what the bill still owes.
-- **A product's name, then "discount"** (for example, "Helpdesk discount") -- a percentage or dollar discount on one product, or **Discount** for one that applies to your whole bill. A discount can also be for one part of a product, and the line says which: "Marketing fee discount" is for the monthly fee only, and "Marketing Emails Sent discount" is for the emails only. A percentage is worked out on what that product still owes after your free allowance, not on its full price. For example, if Marketing comes to $25.26 and your free emails cover $6.90 of it, a 20% discount is 20% of the remaining $18.36, which is $3.67. A discount never takes more than its own product owes.
-- **Promotional discount** -- a limited-time offer applied automatically to eligible workspaces. A percentage offer is worked out the same way as a discount. If two offers cover the same product, WebNesting may apply only the larger one, so you always get the better of the two. An offer can also give you bonus units or a credit instead of a discount; you see those the same way as any other bonus or credit.
-- **Your price** (for example, "Your price: Marketing Emails Sent") -- WebNesting has set a price for your workspace that is lower than the list price. The charge above it is still shown at the list price, and this line takes off the difference. The line names both prices and the amount it covers, for example "$0.50 per 1,000 in place of $0.70 per 1,000 emails · 7,205 emails". It only applies to what you still owe after your free allowance, and it is taken off before any discount or credit.
-- **Complimentary** ("Complimentary Marketing" or "Complimentary account") -- WebNesting has made one product, or your whole account, free for a period. See [Complimentary](#complimentary) below.
+- **Your price** (for example, "Your price: Marketing Emails Sent") -- WebNesting has set a price for your workspace that is lower than the list price. The charge itself is still shown at the list price, and this line takes off the difference. The line names both prices and the amount it covers, for example "$0.50 per 1,000 in place of $0.70 per 1,000 emails · 7,205 emails". It only applies to what you still owe after your free allowance and any bonus units, and it is taken off before any discount or credit. See [Your price](#your-price).
+- **Complimentary** ("Complimentary Marketing" or "Complimentary account") -- WebNesting has made one product, or your whole account, free for a period. See [Complimentary](#complimentary).
+- **A discount** (for example, "20% off Marketing", "20% off the Marketing fee", "$5.00 off Marketing Emails Sent" or "10% off your bill") -- a percentage or dollar discount on one product, one part of a product, or your whole bill. The line under it says what the percentage was taken of, for example "20% of the $18.36 Marketing owes". A percentage is worked out on what that product still owes after your free allowance, bonus units and your price, not on its full price. For example, if Marketing comes to $25.26 and your free emails cover $6.90 of it, a 20% discount is 20% of the remaining $18.36, which is $3.67. A discount never takes more than its own product owes.
+- **A promotion** (for example, "Promotion: 20% off Marketing") -- an offer from WebNesting. If you entered a code for it, the line names the code. A percentage offer is worked out the same way as a discount. If two offers cover the same product, WebNesting may apply only the larger one. The other one still shows, at $0.00, with "Not applied: a larger discount on this product won." An offer can also give you bonus units or a credit instead of a discount; you see those the same way as any other bonus or credit.
+- **A credit** ("Marketing credit" or "Account credit") -- dollars WebNesting gave you. A product credit is used only on that product's charges. An account credit is used for whatever the whole bill still owes, after everything else. The line under it says what this bill used, what is left and when it ends, for example "$14.90 used, $5.10 left, carries over until Dec 31".
+- **Refund from WebNesting** -- a refund that support gave you as credit. See [How a refund reaches you](#how-a-refund-reaches-you).
+- **Credit for a month** (for example, "Credit for August: 3,000 bonus emails") -- WebNesting gave you something for a month that was already billed. See [Credit for an earlier month](#credit-for-an-earlier-month).
+
+**Bonus units** are not in that group. They show right under the charge they cover, as their own line, for example **Bonus emails from WebNesting**. Its amount is in units, not dollars, and the line under it says how many you earned and used this month. The charge above it says how many of its units were bonus units, for example "4,932 bonus". See [Bonus units](#bonus-units).
+
+Two more lines you may see:
+
 - **Late fee waived** -- shown struck through against the late fee it cancels, if support waives one for you.
 - **Refunded** -- shown on the invoice's summary, and the invoice's status changes to **Refunded** once the full amount has been returned. A partial refund keeps the invoice's normal status and still shows the amount refunded.
-- **Refund from WebNesting** -- a refund that support gave you as credit. See [How a refund reaches you](#how-a-refund-reaches-you) below.
-- **Credit for a month** (for example, "Credit for August: 3,000 bonus emails") -- WebNesting gave you something for a month that was already billed. See [Credit for an earlier month](#credit-for-an-earlier-month) below.
 
-None of this ever changes your product prices or free allowances -- a credit, discount or refund is always a separate line, never a change to what things cost.
+Older invoices, and an account credit you had before October 2026, can show the older names "Account credit applied", "Promotional discount", "Discount" or a product name followed by "discount" (for example, "Helpdesk discount"). They mean the same things.
+
+None of this ever changes your product prices or free allowances -- whatever WebNesting gives you is always a separate line, never a change to what things cost.
+
+### Bonus units
+
+Bonus units are extra units WebNesting gives your workspace on top of your free allowance -- for example 5,000 bonus emails a month. They are used after your free units, so you are charged only for what is left after both.
+
+- **Every month.** Monthly bonus units build up hour by hour while their product is on, the same way your free allowance does. For example, 5,000 bonus emails a month earn about 6.8 emails an hour while Marketing is on, and none while it is off. Unused ones either end with each month or carry over until the bonus ends; the email you get says which.
+- **All at once.** A one-time bonus is given in full the day it starts. It is used month by month until it runs out or ends.
+- **While a product is off.** Bonus units for Marketing, Helpdesk, Tasks or API Access are not used, and do not build up, while that product is off. What you have left waits for you and still ends on its end date.
+- **Things you have a number of.** A bonus on pages, contacts, storage, active tasks or API tokens is a fixed extra amount every month, on top of your free amount. It always ends with each month.
+- **Complimentary products.** If a product is complimentary, its bonus units are not needed and are not spent. Bonus units that carry over stay yours for a later month.
+
+You see your bonus units on the **Usage** page (see [What WebNesting gave you](#what-webnesting-gave-you)) and on your invoice, under the charge they cover. WebNesting emails you when a bonus is given, and again 7 days before it ends.
+
+### What WebNesting gave you
+
+The **Usage** page has a section called **From WebNesting**, under **Usage this period**. It lists everything WebNesting gave your workspace for the month your date range ends in:
+
+| Column | What it shows |
+|---|---|
+| **What you were given** | What it is, for example "Bonus from WebNesting: 5,000 emails a month", "Your price: Marketing Emails Sent", "Discount from WebNesting: 20% off Marketing", "Credit from WebNesting for Marketing" or "Complimentary: your whole account". The product it is for, and the reason WebNesting gave, are shown with it. |
+| **So far this month** (or the month's name, for an earlier month) | For bonus units, how many you earned and used, for example "2,466 emails earned · 1,200 used". For everything else, **On your invoice**. |
+| **Left** | The bonus units you have left. |
+| **Ends** | The end date, for example "Ends Dec 31" or "Carries over until Dec 31", or **No end date**. A credit for an earlier month says **One time**. |
+
+Some rows carry a label:
+
+- **Waiting** -- the product was off all month, so nothing was earned or used. What you have left is kept.
+- **Ends this week** -- it ends in 7 days or less.
+- **Not needed: Marketing was complimentary.** -- the product was complimentary, so the bonus units were not spent.
+
+The Usage page shows counts, never money. Every dollar amount -- a credit, a discount, your price, a complimentary period -- is on your invoice on the **Billing** page.
+
 
 ### Emails about what WebNesting gave you
 
@@ -185,13 +224,20 @@ WebNesting emails the workspace owner when it gives the workspace something. Eac
 | **You've received a credit for August** (or another month) | Bonus units were given for a month that is already billed. They come back as a credit on your next invoice. The email shows the amount and the price of that month. See [Credit for an earlier month](#credit-for-an-earlier-month). |
 | **You have a special price for …** | WebNesting set a lower price for your workspace. The email shows your price, the list price and the end date, if there is one. See [Your price](#your-price). |
 | **Your code … was applied** | A promotion code for a discount was applied to your workspace. The email says what the code gives you. See [Promotion codes](#promotion-codes). |
+| **A promotion was added to your account** | An offer from WebNesting now applies to your workspace, with no code needed. The email says what it gives you. |
+| **You have a 20% discount on Marketing** (or another amount, or on your whole bill) | WebNesting added a discount. It shows on your invoice as its own line. The email says when it ends. |
 | **Your account is complimentary** / **Marketing is complimentary on your account** | WebNesting covers your whole account, or one product. See [Complimentary](#complimentary). |
 | **Your bonus emails end in 7 days** | A reminder, sent once, 7 days before bonus units end. For a one-time bonus it says how many units are left. Units that are left on the end date are not kept. |
-| **Refund issued — …** | A refund was sent to your card. See [How a refund reaches you](#how-a-refund-reaches-you). |
+| **Your Marketing credit ends in 7 days** / **Your account credit ends in 7 days** | A reminder, sent once, 7 days before a credit ends, while some of it is left. It says how much is left. What is left on the end date is not kept. |
+| **Your price for … ends in 7 days** | A reminder that your price ends. After that date you pay the list price. |
+| **Your complimentary account ends in 7 days** / **Complimentary Marketing ends in 7 days** | A reminder that a complimentary period ends. After that date your invoice shows the normal charges. |
+| **Your promotion ends in 7 days** | A reminder that an offer ends. After that date your invoice shows the normal charges. |
+| **Your bonus has ended** (or credit, discount, special price, complimentary account or complimentary period) | WebNesting ended something before its end date. Your next invoice shows the normal charges. |
+| **Refund issued — …** | A refund was sent to your card. For a refund of units from an earlier month, it also says how many units and at what price. See [How a refund reaches you](#how-a-refund-reaches-you). |
 
 Every email has one button, **View Billing** or **View Usage**. It opens that page of your workspace after you sign in.
 
-Bonus units for pages, contacts and storage, and a discount that WebNesting adds for you, do not send an email. You can see them on your **Usage** page and on your bill.
+Something with no end date gets no reminder. If something is given with less than 7 days to go, the first email already names the end date, so no reminder follows.
 
 ### How a refund reaches you
 
@@ -250,6 +296,8 @@ If WebNesting has agreed a price with you that is lower than the list price, tha
 
 On your invoice the charge itself stays at the list price, and a separate **Your price** line takes off the difference (see above). The two together are what you pay.
 
+A price can come with a bigger free allowance, for example 5,000 more free emails a month. It works like monthly [bonus units](#bonus-units), and unused units end with each month. The **Usage** page lists it as "Your allowance from WebNesting".
+
 ### Complimentary
 
 WebNesting can make one product, or your whole account, complimentary for a period. Complimentary means you are not charged for it.
@@ -257,7 +305,7 @@ WebNesting can make one product, or your whole account, complimentary for a peri
 Your invoice still lists every charge, so you can see what you used. One line then takes those charges off:
 
 - **Complimentary** followed by the product's name (for example, "Complimentary Marketing") covers every charge for that product. Everything else on the invoice is billed as normal.
-- **Complimentary account** covers every charge on the invoice. The invoice closes at $0.00, nothing is charged to your card, and no invoice email is sent for it. You can still open the invoice under **Invoice History** on your Billing page.
+- **Complimentary account** covers every charge on the invoice. The invoice closes at $0.00, nothing is charged to your card, and no invoice email is sent for it. You can still open the invoice under **Invoice History** on your Billing page. It says "This invoice closed at $0.00. No invoice email was sent for it." above its charges.
 
 The line shows the reason WebNesting gave, and what it covers. If the complimentary period starts or ends partway through a month, the line covers only the usage inside that period and says which dates, for example "covers every Marketing charge from Sep 16". The usage outside those dates is billed as normal.
 
