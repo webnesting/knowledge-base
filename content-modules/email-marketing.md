@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-10-13 1:29pm (Deliverability shows Marked as spam). Earlier 2026-10-13 1:25pm (contact steps and email statuses match the Contacts page). Earlier 2026-10-13 12:20pm (the unsubscribe link is not listed under Links people clicked). Earlier 2026-10-03 1:21pm (forms create contacts only when Create Contact is on and a field is mapped to Email). Earlier 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (From address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free-email allowance now described as hourly-earned, not a flat 10,000). Earlier 2026-09-25 7:43pm
+**Last verified:** 2026-10-13 3:01pm (Sending a campaign: the three steps, the confirm, no send without a design; tag steps match the Tags page). Earlier 2026-10-13 1:29pm (Deliverability shows Marked as spam). Earlier 2026-10-13 1:25pm (contact steps and email statuses match the Contacts page). Earlier 2026-10-13 12:20pm (the unsubscribe link is not listed under Links people clicked). Earlier 2026-10-03 1:21pm (forms create contacts only when Create Contact is on and a field is mapped to Email). Earlier 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (From address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free-email allowance now described as hourly-earned, not a flat 10,000). Earlier 2026-09-25 7:43pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -137,16 +137,16 @@ Common tag examples: "VIP," "New Lead," "Attended Workshop," "Purchased," "Follo
 
 ### Creating a Tag
 
-1. Click **Marketing Tag** in the Marketing section.
-2. Click the **Create** button.
+1. Go to **Contacts → Tags**.
+2. Click **+ Add Tag**.
 3. Fill in the tag details:
    - **Name** (required) -- A short, descriptive label like "VIP" or "Newsletter Subscriber."
-   - **Color** -- Choose a color to make this tag easy to spot visually.
-4. Save the tag.
+   - **Color** (optional) -- Choose a color to make this tag easy to spot. A tag with no color is grey.
+4. Click **Create Tag**.
 
 ### Using Tags
 
-Tags are applied to contacts from the contact detail view. Each tag tracks how many contacts have it applied (the **Contact Count** field).
+Tags are applied to contacts from the contact detail view: click **+ Add Tag** in the **Tags** panel. If your workspace has no tags yet, the panel says so and links to the **Tags** page. The **Tags** page shows how many contacts have each tag.
 
 > **Tip:** Tags and lists serve different purposes. Use **lists** to group contacts for email sends (like "Newsletter Subscribers"). Use **tags** for organizational labels (like "VIP" or "Attended Event"). A contact can be on multiple lists and have multiple tags at the same time.
 
@@ -238,6 +238,18 @@ Someone who unsubscribes stops getting email either way -- unsubscribing always 
 ![The Send to setting on a campaign, showing a single site's audience selected](../images/content-modules/campaign-send-to-site-audience.png)
 
 > **Tip:** A contact you add by hand starts with an Email Status of **Pending**, not Subscribed, so they are not in the whole-workspace audience until you change it. Adding someone's address is not the same as them agreeing to hear from you.
+
+### Sending a campaign
+
+A campaign needs three things before it can go out. The **Setup Checklist** on the **Details** tab shows each one:
+
+1. **Recipients** -- tick at least one list on the **Details** tab, then click **Save**.
+2. **Subject and design** -- on the **Email Content** tab, type a subject and press Enter, then build the email with **Edit Email Design** or pick a template under **Email Design**.
+3. **Sender (optional)** -- leave it empty to send from your default address.
+
+Then open the **Send** tab and click **Send Now**. WebNesting asks you to confirm, and names the lists the campaign goes to. A sent campaign cannot be undone. **Schedule for Later** sends it at the date and time you pick.
+
+If something is missing, **Send Now** stays greyed out, and the **Send** tab lists what to do first, for example "Design the email on the Email Content tab." A campaign with no design cannot be sent or scheduled.
 
 ### Conditional blocks
 

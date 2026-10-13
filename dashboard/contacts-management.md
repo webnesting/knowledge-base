@@ -1,6 +1,6 @@
 # Contacts Management
 
-**Last verified:** 2026-10-13 2:05pm (a list the contact unsubscribed from is marked Unsubscribed on their page). Earlier 2026-10-13 1:29pm (a complaint counts under Marked as spam). Earlier 2026-10-13 1:25pm (a spam complaint sets Unsubscribed; Activity shows bounces and spam). Earlier 2026-10-13 1:09pm (Bounced is set by WebNesting, not picked). Earlier 2026-10-03 1:21pm
+**Last verified:** 2026-10-13 3:01pm (tag steps match the Tags page; the Tags panel links there when there are no tags; the Unsubscribed list shows when). Earlier 2026-10-13 2:05pm (a list the contact unsubscribed from is marked Unsubscribed on their page). Earlier 2026-10-13 1:29pm (a complaint counts under Marked as spam). Earlier 2026-10-13 1:25pm (a spam complaint sets Unsubscribed; Activity shows bounces and spam). Earlier 2026-10-13 1:09pm (Bounced is set by WebNesting, not picked). Earlier 2026-10-03 1:21pm
 
 Contacts are your audience database in WebNesting. Every person who submits a form on your website, signs up for your newsletter, or is imported from a spreadsheet becomes a contact. Use the Contacts system to keep track of who your audience is, organize them into lists, and connect them to your marketing, forms, and support tools.
 
@@ -93,7 +93,7 @@ You can change it with the **Email Status** control in the Marketing panel of th
 
 You can't pick **Bounced** yourself. WebNesting sets it when an email to the contact fails for good (the address does not exist), and campaigns then skip the contact. If the address was wrong and you have fixed it, you can set the status back to **Subscribed**. An email that fails only for now, for example because the mailbox is full, does not change the status.
 
-When a contact marks one of your emails as spam, WebNesting sets them to **Unsubscribed** and unsubscribes them from your lists, the same as if they had used the unsubscribe link. Campaigns skip them. The **Lists** panel on their page still names each list, marked **Unsubscribed**. The campaign's **Marked as spam** count on its **Performance** tab goes up by one.
+When a contact marks one of your emails as spam, WebNesting sets them to **Unsubscribed** and unsubscribes them from your lists, the same as if they had used the unsubscribe link. Campaigns skip them. The **Lists** panel on their page still names each list, marked **Unsubscribed**. Point at it to see when they unsubscribed. The campaign's **Marked as spam** count on its **Performance** tab goes up by one.
 
 ### Helpdesk Automatic Emails
 
@@ -176,16 +176,16 @@ Common tag examples: "VIP," "New Lead," "Attended Workshop," "Purchased," "Follo
 
 ### Creating a Tag
 
-1. Go to the **Tags** area within your Contacts section.
-2. Click the **Create** button.
+1. Go to **Contacts → Tags**.
+2. Click **+ Add Tag**.
 3. Fill in the tag details:
    - **Name** (required) -- A short, descriptive label like "VIP" or "Hot Lead."
-   - **Color** -- Choose a color to make this tag easy to spot visually when viewing your contact list.
-4. Save the tag.
+   - **Color** (optional) -- Choose a color to make this tag easy to spot when viewing your contact list. A tag with no color is grey.
+4. Click **Create Tag**.
 
 ### Applying Tags to Contacts
 
-Tags are applied from the contact detail view. Open a contact, add or remove tags, and save. Each tag shows how many contacts currently have it applied, so you can see at a glance how your audience breaks down.
+Tags are applied from the contact detail view. Open a contact and click **+ Add Tag** in the **Tags** panel. If your workspace has no tags yet, the panel says so and links to the **Tags** page. Each tag shows how many contacts currently have it applied, so you can see at a glance how your audience breaks down.
 
 > **Tip:** Use tag colors strategically. For example, use red for urgent follow-ups, green for completed actions, and blue for informational labels. This makes scanning your contact list much faster.
 
