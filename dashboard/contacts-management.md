@@ -1,6 +1,6 @@
 # Contacts Management
 
-**Last verified:** 2026-10-13 1:29pm (a complaint counts under Marked as spam). Earlier 2026-10-13 1:25pm (a spam complaint sets Unsubscribed; Activity shows bounces and spam). Earlier 2026-10-13 1:09pm (Bounced is set by WebNesting, not picked). Earlier 2026-10-03 1:21pm
+**Last verified:** 2026-10-13 2:05pm (a list the contact unsubscribed from is marked Unsubscribed on their page). Earlier 2026-10-13 1:29pm (a complaint counts under Marked as spam). Earlier 2026-10-13 1:25pm (a spam complaint sets Unsubscribed; Activity shows bounces and spam). Earlier 2026-10-13 1:09pm (Bounced is set by WebNesting, not picked). Earlier 2026-10-03 1:21pm
 
 Contacts are your audience database in WebNesting. Every person who submits a form on your website, signs up for your newsletter, or is imported from a spreadsheet becomes a contact. Use the Contacts system to keep track of who your audience is, organize them into lists, and connect them to your marketing, forms, and support tools.
 
@@ -93,7 +93,7 @@ You can change it with the **Email Status** control in the Marketing panel of th
 
 You can't pick **Bounced** yourself. WebNesting sets it when an email to the contact fails for good (the address does not exist), and campaigns then skip the contact. If the address was wrong and you have fixed it, you can set the status back to **Subscribed**. An email that fails only for now, for example because the mailbox is full, does not change the status.
 
-When a contact marks one of your emails as spam, WebNesting sets them to **Unsubscribed** and takes them off your lists, the same as if they had used the unsubscribe link. Campaigns skip them. The campaign's **Marked as spam** count on its **Performance** tab goes up by one.
+When a contact marks one of your emails as spam, WebNesting sets them to **Unsubscribed** and unsubscribes them from your lists, the same as if they had used the unsubscribe link. Campaigns skip them. The **Lists** panel on their page still names each list, marked **Unsubscribed**. The campaign's **Marked as spam** count on its **Performance** tab goes up by one.
 
 ### Helpdesk Automatic Emails
 
@@ -137,7 +137,7 @@ There are two types of lists:
 
 ### Manual Lists
 
-A manual list is a straightforward group of contacts. You explicitly add and remove contacts from the list. A contact stays on a manual list until you remove them.
+A manual list is a straightforward group of contacts. You explicitly add and remove contacts from the list. A contact stays on a manual list until you remove them or they unsubscribe. A contact who unsubscribes (with the unsubscribe link, or by marking one of your emails as spam) still shows the list on their page, marked **Unsubscribed**, and campaigns to that list skip them.
 
 Use manual lists when you want full control over who is in the group. For example:
 - "VIP Customers"
