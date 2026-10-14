@@ -1,6 +1,6 @@
 # Activity Logs
 
-**Last verified:** 2026-09-23 8:38pm
+**Last verified:** 2026-10-13 11:43pm
 
 Activity logs keep a record of everything that happens on your site. Every time someone makes a change -- whether it is editing a page, updating settings, or managing team members -- it is recorded in the activity log.
 
@@ -106,6 +106,7 @@ The workspace activity log captures everything that happens at the workspace lev
 - **Role management** — Creating, updating, or deleting permission roles
 - **Permission changes** — Updating role permissions, member role assignments, permission overrides
 - **Product changes** — Enabling or disabling workspace products (Marketing, Helpdesk, Tasks)
+- **Contact lists and tags** — Adding a contact to a list or taking it off, and tagging or untagging a contact. Each entry names the contact and the list or tag
 
 In addition to workspace-level events, the log also shows activity from all your individual sites, giving you a single view of everything happening across your workspace.
 

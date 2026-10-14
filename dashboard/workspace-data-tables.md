@@ -1,6 +1,6 @@
 # Workspace Data Tables
 
-**Last verified:** 2026-09-23 8:29pm
+**Last verified:** 2026-10-13 11:43pm
 
 Your workspace keeps its own set of tables, separate from the ones inside each website. They hold the information your products share -- your contacts, your support tickets, your tasks and projects, your marketing campaigns. You will find them under **Settings → Database**.
 
@@ -23,7 +23,7 @@ The list shows every table in your workspace:
 | **Group** | Which group the table belongs to, or a dash if it is not in one |
 | **Columns** | How many of your own fields you have added to it |
 
-Tables like **Contacts**, **Helpdesk Tickets** and **Tasks** came with your workspace. You can add your own fields to them, but you cannot rename or delete them -- other parts of the product depend on them existing.
+Tables like **Contacts**, and the tables of each product you have on, such as **Helpdesk Tickets** and **Tasks**, came with your workspace. You can add your own fields to them, but you cannot rename or delete them -- other parts of the product depend on them existing.
 
 ---
 
@@ -82,7 +82,7 @@ Each group you create also appears in the left-hand menu under **Table groups**,
 
 ## Where Products Fit In
 
-Marketing, Helpdesk, Tasks and Internal Docs are **products**, not groups. They are switched on and off under **Settings → Products**, and each brings its own tables with it. You will see those tables in the list here, with the product's name in the **Group** column, but you manage the products themselves on the Products page.
+Marketing, Helpdesk, Tasks and Internal Docs are **products**, not groups. They are switched on and off under **Settings → Products**, and each brings its own tables with it. While a product is on, you will see its tables in the list here, with the product's name in the **Group** column. When a product is off, its tables and its group are not shown. You manage the products themselves on the Products page.
 
 ---
 
