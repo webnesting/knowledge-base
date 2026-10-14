@@ -1,6 +1,6 @@
 # Database Tables
 
-**Last verified:** 2026-09-08 6:43pm
+**Last verified:** 2026-10-14 2:54pm (field names may hold numbers). Earlier 2026-09-08 6:43pm
 
 The **Database Tables** section (in your site menu, under **Settings**) is where you define the structure of your own custom content types. Think of it as creating a spreadsheet -- you choose what columns it has, what kind of information each column holds, and how different tables relate to each other.
 
@@ -81,7 +81,7 @@ Columns define what information each entry in your table contains. For example, 
 Each column has several settings you can configure:
 
 - **Display Name** -- The label that appears when adding or editing entries. For example, "Job Title" or "Phone Number."
-- **Field Name** -- The internal name used by the system. This is generated automatically from the display name using lowercase letters and underscores.
+- **Field Name** -- The internal name used by the system. This is generated automatically from the display name using lowercase letters, numbers and underscores.
 - **Type** -- The kind of data this column holds (see "Column Types" below).
 - **Default Value** -- A value that is filled in automatically when creating a new entry. Leave blank if you do not need a default.
 - **Multiple** -- Check this box if the column should accept more than one value. For example, a "Tags" column might allow multiple selections.

@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-10-13 9:50pm (the Performance tab updates while a campaign sends; the A/B note counts the people tested). Earlier 2026-10-13 7:59pm (Schedule Campaign says why it is greyed out). Earlier 2026-10-13 7:03pm (a ticked list saves at once; an empty template says so). Earlier 2026-10-13 6:13pm (a scheduled campaign with no one to send to goes back to a draft, with a notification). Earlier 2026-10-13 6:01pm (the A/B send confirm names the people not in the test; Send Now says why no one can get a campaign; no video or embed buttons in the email builder). Earlier 2026-10-13 4:50pm (Delete Version; A/B settings on Details; the unsaved-builder warning; Leading; the A/B send confirm). Earlier 2026-10-13 3:39pm (the New Tag color starts grey; Email Design shows with saved templates; the email card; + Add Version). Earlier 2026-10-13 3:01pm (Sending a campaign: the three steps, the confirm, no send without a design; tag steps match the Tags page). Earlier 2026-10-13 1:29pm (Deliverability shows Marked as spam). Earlier 2026-10-13 1:25pm (contact steps and email statuses match the Contacts page). Earlier 2026-10-13 12:20pm (the unsubscribe link is not listed under Links people clicked). Earlier 2026-10-03 1:21pm (forms create contacts only when Create Contact is on and a field is mapped to Email). Earlier 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (From address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free-email allowance now described as hourly-earned, not a flat 10,000). Earlier 2026-09-25 7:43pm
+**Last verified:** 2026-10-14 2:54pm (the Marketing menu, list, custom field and import steps). Earlier 2026-10-13 9:50pm (the Performance tab updates while a campaign sends; the A/B note counts the people tested). Earlier 2026-10-13 7:59pm (Schedule Campaign says why it is greyed out). Earlier 2026-10-13 7:03pm (a ticked list saves at once; an empty template says so). Earlier 2026-10-13 6:13pm (a scheduled campaign with no one to send to goes back to a draft, with a notification). Earlier 2026-10-13 6:01pm (the A/B send confirm names the people not in the test; Send Now says why no one can get a campaign; no video or embed buttons in the email builder). Earlier 2026-10-13 4:50pm (Delete Version; A/B settings on Details; the unsaved-builder warning; Leading; the A/B send confirm). Earlier 2026-10-13 3:39pm (the New Tag color starts grey; Email Design shows with saved templates; the email card; + Add Version). Earlier 2026-10-13 3:01pm (Sending a campaign: the three steps, the confirm, no send without a design; tag steps match the Tags page). Earlier 2026-10-13 1:29pm (Deliverability shows Marked as spam). Earlier 2026-10-13 1:25pm (contact steps and email statuses match the Contacts page). Earlier 2026-10-13 12:20pm (the unsubscribe link is not listed under Links people clicked). Earlier 2026-10-03 1:21pm (forms create contacts only when Create Contact is on and a field is mapped to Email). Earlier 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (From address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-28 6:29pm (Marketing $10/month, contacts $5 per 1,000). Earlier 2026-09-27 7:59pm (plain pricing wording — no turn-off reassurance). Earlier 2026-09-27 7:49pm (free-email allowance now described as hourly-earned, not a flat 10,000). Earlier 2026-09-25 7:43pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -38,17 +38,16 @@ Once enabled, you will see a new **Marketing** section appear in your workspace 
 
 ## Your Marketing Dashboard
 
-After enabling the product, your workspace sidebar will show a **Marketing** section with the following items:
+After enabling the product, the envelope icon in your workspace sidebar opens **Marketing**:
 
-- **Contact** -- Your main contact list. View, search, filter, and manage all your contacts.
-- **Marketing List** -- Mailing lists for organizing contacts into groups.
-- **Marketing Tag** -- Tags for labeling and categorizing contacts.
-- **Marketing Custom Field** -- Custom fields for tracking additional contact information.
-- **Marketing Campaign** -- Create and send email campaigns to your contacts and lists.
-- **Marketing Automation** -- Set up automated email workflows triggered by contact actions.
-- **Marketing Email Template** -- Create reusable email templates for campaigns and automations.
-- **Import** -- Import contacts from a CSV file.
-- **Settings** -- Configure your marketing defaults.
+- **Overview** -- Your marketing stats, recent campaigns and automations.
+- **Campaigns** -- Create and send email campaigns to your contacts and lists.
+- **Templates** -- Reusable email designs for campaigns and automations.
+- **Automations** -- Automated email workflows triggered by contact actions.
+- **Contacts** -- Everyone you can email.
+- **Settings** -- Your senders, email footer, custom campaign fields and sending limits.
+
+Your contacts' **Lists**, **Tags** and **Custom Fields** are under the people icon, **Contacts**.
 
 ---
 
@@ -102,13 +101,14 @@ Lists help you organize your contacts into groups so you can target the right pe
 
 ### Creating a List
 
-1. Click **Marketing List** in the Marketing section of your sidebar.
-2. Click the **Create** button.
+1. Go to **Contacts → Lists**.
+2. Click **+ Add List**.
 3. Fill in the list details:
    - **Title** (required) -- A name for the list, like "Monthly Newsletter" or "VIP Customers."
    - **Description** -- An internal description to help you remember what this list is for.
-   - **Type** -- Choose "Manual" for a standard list, or "Segment" for a dynamic list that automatically includes contacts matching certain criteria.
-4. Save the list.
+4. Click **Create List**.
+
+New lists are manual lists: you choose who is on them. A segment fills itself from its rules, and new segments can't be created from the Lists page yet.
 
 ### How Contacts Get Added to Lists
 
@@ -160,20 +160,16 @@ For example, a real estate agent might add a "Property Interest" field. A fitnes
 
 ### Creating a Custom Field
 
-1. Click **Marketing Custom Field** in the Marketing section.
-2. Click the **Create** button.
+1. Go to **Contacts → Custom Fields**.
+2. Click **+ Add Field**.
 3. Fill in the field details:
-   - **Field Key** (required) -- An internal identifier for the field (no spaces, use underscores). For example: `membership_level`.
-   - **Label** (required) -- The display name for the field. For example: "Membership Level."
-   - **Type** -- The kind of data this field stores:
-     - **Text** -- Any text (names, descriptions, notes).
-     - **Number** -- Numeric values (scores, quantities).
-     - **Date** -- A date.
-     - **Boolean** -- Yes or no (checkboxes, true/false flags).
-     - **Select** -- A dropdown with predefined options.
-   - **Required** -- Whether this field must be filled in for every contact.
-   - **Sort Order** -- Controls where this field appears relative to other custom fields.
-4. Save the custom field.
+   - **Display Name** (required) -- The name people see on the form, like "Membership Level" or "Preferred Language."
+   - **Field Name** (required) -- Fills itself in from the display name. It uses lowercase letters, numbers and underscores, like `membership_level` or `address_2`.
+   - **Type** -- The kind of data this field stores, such as **Text**, **Number**, **Date**, **Checkbox** or **Select Dropdown**.
+   - **Required** -- Tick it when every contact must have this field filled in.
+4. Click **Create Field**.
+
+To change or delete a field later, click its row (or press Enter on it) to open it.
 
 ### How Custom Fields Work
 
@@ -323,8 +319,8 @@ If you have an existing email list or customer database, you can import contacts
 
 ### How to Import
 
-1. Click **Import** under the Marketing section in your sidebar.
-2. Upload your CSV file (maximum 10 MB).
+1. Go to **Contacts** and click **Import CSV**.
+2. Click **Choose CSV File** and pick your file.
 3. Map your CSV columns to contact fields:
    - The system will show you the columns in your file and let you match each one to a contact field (email, first name, last name, phone, status, or any custom field).
 4. Choose how to handle duplicates:

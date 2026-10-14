@@ -1,6 +1,6 @@
 # Contacts Management
 
-**Last verified:** 2026-10-14 2:19pm (the import picks a file with **Choose CSV File**). Earlier 2026-10-14 1:31am (the Edit form has a Company picker). Earlier 2026-10-13 6:01pm (the Tags and Lists panels say when there is nothing left to add). Earlier 2026-10-13 4:50pm (the × on tag and list chips; + Add Company opens the new company). Earlier 2026-10-13 3:39pm (the New Tag color starts grey). Earlier 2026-10-13 3:01pm (tag steps match the Tags page; the Tags panel links there when there are no tags; the Unsubscribed list shows when). Earlier 2026-10-13 2:05pm (a list the contact unsubscribed from is marked Unsubscribed on their page). Earlier 2026-10-13 1:29pm (a complaint counts under Marked as spam). Earlier 2026-10-13 1:25pm (a spam complaint sets Unsubscribed; Activity shows bounces and spam). Earlier 2026-10-13 1:09pm (Bounced is set by WebNesting, not picked). Earlier 2026-10-03 1:21pm
+**Last verified:** 2026-10-14 2:54pm (new lists are manual; segment rows; the custom field steps). Earlier 2026-10-14 2:19pm (the import picks a file with **Choose CSV File**). Earlier 2026-10-14 1:31am (the Edit form has a Company picker). Earlier 2026-10-13 6:01pm (the Tags and Lists panels say when there is nothing left to add). Earlier 2026-10-13 4:50pm (the × on tag and list chips; + Add Company opens the new company). Earlier 2026-10-13 3:39pm (the New Tag color starts grey). Earlier 2026-10-13 3:01pm (tag steps match the Tags page; the Tags panel links there when there are no tags; the Unsubscribed list shows when). Earlier 2026-10-13 2:05pm (a list the contact unsubscribed from is marked Unsubscribed on their page). Earlier 2026-10-13 1:29pm (a complaint counts under Marked as spam). Earlier 2026-10-13 1:25pm (a spam complaint sets Unsubscribed; Activity shows bounces and spam). Earlier 2026-10-13 1:09pm (Bounced is set by WebNesting, not picked). Earlier 2026-10-03 1:21pm
 
 Contacts are your audience database in WebNesting. Every person who submits a form on your website, signs up for your newsletter, or is imported from a spreadsheet becomes a contact. Use the Contacts system to keep track of who your audience is, organize them into lists, and connect them to your marketing, forms, and support tools.
 
@@ -147,23 +147,18 @@ Use manual lists when you want full control over who is in the group. For exampl
 
 ### Segments
 
-A segment is a smart list that automatically includes contacts matching rules you define. Instead of adding contacts one by one, you set the criteria and the segment updates itself.
+A segment is a smart list that includes every contact who matches its rules. Nobody adds contacts to it by hand. Each segment on the Lists page shows its rules in a short line under its name, such as "Contacts who match all of 2 conditions."
 
-Use segments when you want the list to stay current without manual work. For example:
-- "All contacts added in the last 30 days"
-- "Contacts with a company in the Technology industry"
-- "Active contacts tagged as VIP"
+New segments can't be created from the Lists page yet, so new lists are always manual. A segment with no rules shows "No conditions yet, so this segment has no contacts."
 
 ### Creating a List
 
-1. Go to the **Lists** area within your Contacts section.
-2. Click the **Create** button.
+1. Go to **Contacts → Lists**.
+2. Click **+ Add List**.
 3. Fill in the list details:
-   - **Name** (required) -- A descriptive name for the list, like "Monthly Newsletter" or "Product Launch Invites."
+   - **Title** (required) -- A descriptive name for the list, like "Monthly Newsletter" or "Product Launch Invites."
    - **Description** -- An internal note to help you remember what this list is for.
-   - **Type** -- Choose "Manual" for a standard list you manage yourself, or "Segment" for a dynamic list that auto-populates based on rules.
-4. If you chose Segment, define the rules that determine which contacts are included.
-5. Save the list.
+4. Click **Create List**.
 
 > **Tip:** Lists and tags serve different purposes. Use **lists** to group contacts for a specific purpose, like sending an email campaign. Use **tags** for flexible labels that describe a characteristic, like "VIP" or "Attended Workshop." A contact can be on multiple lists and have multiple tags at the same time.
 
@@ -244,17 +239,15 @@ For example, a real estate agent might add a "Property Interest" field. A fitnes
 
 ### Creating a Custom Field
 
-1. Go to the **Custom Fields** area within your Contacts section.
-2. Click the **Create** button.
+1. Go to **Contacts → Custom Fields**.
+2. Click **+ Add Field**.
 3. Fill in the field details:
-   - **Label** (required) -- The display name for the field, like "Membership Level" or "Preferred Language."
-   - **Type** -- The kind of data this field stores:
-     - **Text** -- Any text (names, descriptions, notes).
-     - **Number** -- Numeric values (scores, quantities, amounts).
-     - **Date** -- A date value.
-     - **Boolean** -- A yes or no checkbox.
-     - **Dropdown** -- A menu with predefined options you define.
-4. Save the custom field.
+   - **Display Name** (required) -- The name people see on the form, like "Membership Level" or "Preferred Language."
+   - **Field Name** (required) -- Fills itself in from the display name. It uses lowercase letters, numbers and underscores, like `membership_level` or `address_2`.
+   - **Type** -- The kind of data this field stores, such as **Text**, **Number**, **Date**, **Checkbox** or **Select Dropdown**.
+4. Click **Create Field**.
+
+To change or delete a field later, click its row (or press Enter on it) to open it.
 
 ### How Custom Fields Work
 
@@ -324,7 +317,7 @@ You can combine multiple filters to get exactly the view you need. For example, 
 
 - **Use tags generously.** Tags are lightweight and flexible. Create tags for any characteristic that helps you understand your audience -- interests, lead quality, event attendance, purchase history, or anything else relevant to your business.
 
-- **Start with manual lists, add segments later.** If you are new to contact management, start by creating a few manual lists for your most important groups. Once you understand your audience better, create segments to automate the grouping.
+- **Start with a few manual lists.** Create lists for your most important groups first. Tags let you mark contacts in more flexible ways as you learn more about your audience.
 
 - **Let forms do the work.** Instead of adding contacts manually, set up forms on your website that collect the information you need. Contacts are created automatically from form submissions, saving you time and reducing data entry errors.
 

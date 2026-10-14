@@ -1,6 +1,6 @@
 # Custom Data Tables
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-10-14 2:54pm (field names may hold numbers). Earlier 2026-08-31 12:10pm
 
 Custom data tables let you store and organize any kind of information on your website. Think of them like spreadsheets -- you create a table, set up columns for the information you want to track, and then add rows of data. That data can then be displayed on your website however you like.
 
@@ -71,7 +71,7 @@ Columns define what information each entry in your table will hold. Think of col
 2. Click to add a new column.
 3. For each column, fill in:
    - **Display Name** -- The label for this column. This is what you will see when adding or editing entries. For example, "Full Name" or "Job Title."
-   - **Field Name** -- An internal name used by the system. This is generated automatically from the display name. It uses lowercase letters and underscores (like `full_name` or `job_title`).
+   - **Field Name** -- An internal name used by the system. This is generated automatically from the display name. It uses lowercase letters, numbers and underscores (like `full_name` or `address_2`), and never starts with a number.
    - **Type** -- What kind of information this column holds (see the section below for details).
 4. You can also set some optional settings for each column:
    - **Required** -- Check this if every entry must have a value in this column.

@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-10-14 1:09pm (button names in Title Case: **Start Timer**, **+ Link Task**, **Edit in Builder** and others). Earlier 2026-10-14 2:19am (archive a project; Esc cancels a milestone edit). Earlier 2026-10-14 1:31am (Restore on an archived or completed project). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-26 6:59pm (added "Turning Tasks Off"). Earlier 2026-09-24 9:21am
+**Last verified:** 2026-10-14 2:54pm (project fields: **+ Add Field** and **Create Field**). Earlier 2026-10-14 1:09pm (button names in Title Case: **Start Timer**, **+ Link Task**, **Edit in Builder** and others). Earlier 2026-10-14 2:19am (archive a project; Esc cancels a milestone edit). Earlier 2026-10-14 1:31am (Restore on an archived or completed project). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-26 6:59pm (added "Turning Tasks Off"). Earlier 2026-09-24 9:21am
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -282,7 +282,7 @@ Custom fields let you track extra details on tasks, like a budget, a client name
 - **Fields for every task** -- Go to **Tasks > Settings > Custom Fields**.
 - **Fields for one project only** -- Open the project, click the **gear icon**, and choose the **Custom Fields** tab. These fields show only on that project's tasks, so a "Budget" field for one client project doesn't clutter everyone else's tasks.
 
-To add a field, click **Add Column**, give it a display name, choose its type (text, number, date, dropdown, and more), and click **Create Column**. Two projects can each have a field with the same name, but a project field can't share a name with a field every task already has.
+To add a field, click **+ Add Field**, give it a display name, choose its type (text, number, date, dropdown, and more), and click **Create Field**. Two projects can each have a field with the same name, but a project field can't share a name with a field every task already has.
 
 > **Note:** Adding or changing custom fields requires permission to change workspace settings. If you don't have it, you'll see a short note instead of the field editor -- ask a workspace owner or admin.
 
