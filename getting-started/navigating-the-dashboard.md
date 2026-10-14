@@ -1,6 +1,6 @@
 # Navigating the Dashboard
 
-**Last verified:** 2026-10-14 1:32pm
+**Last verified:** 2026-10-14 1:47pm
 
 The Dashboard is your home base for managing one site in WebNesting. It is where you handle that site's pages, settings, content, and analytics. (Workspace-level features like billing, team members, helpdesk, marketing, and tasks live in your workspace -- see the **Workspaces** card in your account portal.)
 
@@ -54,8 +54,8 @@ The toolbar runs across the top of every page. It holds the controls you reach f
 
 - **Files** -- Opens the File Manager, where you can browse everything your workspace stores.
 - **Notification bell** -- Shows what needs your attention. Click through to your activity feed.
-- **⋮ menu** -- Quick links to **Billing**, **Usage**, **Workspace settings**, plus documentation and support.
-- **Your avatar** -- Opens a menu with **Manage Account**, an out-of-office setting, a **Dark mode** switch, and **Sign out**.
+- **⋮ menu** -- Quick links to **Billing**, **Usage**, **Workspace Settings**, plus documentation and support.
+- **Your avatar** -- Opens a menu with **Manage Account**, an out-of-office setting, a **Dark Mode** switch, and **Sign Out**.
 
 > **Tip:** Dark mode lives in the avatar menu on the far right. It is not just a style preference -- if you work in a dimly lit room, dark mode can be easier on your eyes. Your choice is remembered.
 
@@ -263,8 +263,8 @@ You can also navigate using any links within the page content. For example, clic
 | Manage team access | Settings > Members & Permissions |
 | See my bill or usage | Settings > Plans & Billing / Usage |
 | Check recent activity | Settings > Activity Log |
-| Switch to dark mode | Avatar menu (top right) > Dark mode |
-| Log out | Avatar menu (top right) > Sign out |
+| Switch to dark mode | Avatar menu (top right) > Dark Mode |
+| Log out | Avatar menu (top right) > Sign Out |
 
 ---
 
