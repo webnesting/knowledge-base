@@ -1,6 +1,6 @@
 # Activity Logs
 
-**Last verified:** 2026-10-13 11:43pm
+**Last verified:** 2026-10-14 3:52pm (an entry opens from the keyboard). Earlier 2026-10-13 11:43pm
 
 Activity logs keep a record of everything that happens on your site. Every time someone makes a change -- whether it is editing a page, updating settings, or managing team members -- it is recorded in the activity log.
 
@@ -122,7 +122,7 @@ Each entry shows:
 - **Source** — Whether it was a workspace-level action or which site it occurred on
 - **Resource** — The type of content or setting that was affected
 
-Click on any entry to expand it and see additional details about the action.
+Click on any entry to expand it and see additional details about the action. With the keyboard, press Tab until the entry's time is selected, then press Enter. Press Enter again to close it.
 
 ### Filtering the Workspace Activity Log
 
