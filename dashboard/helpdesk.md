@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (support address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-26 6:59pm (added "Turning Helpdesk Off"). Earlier 2026-09-25 5:21pm
+**Last verified:** 2026-10-14 12:58pm (the widget is **Tickets by Status**). Earlier 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (support address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-26 6:59pm (added "Turning Helpdesk Off"). Earlier 2026-09-25 5:21pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -98,7 +98,7 @@ Every status belongs to a **category**, and each category **counts as** one of t
 Go to **Helpdesk > Settings > Statuses** to change them:
 
 - **Add a status** -- click **+ Add Status**, name it (for example "Waiting on Customer"), pick its **Category**, and choose a color.
-- **Reorder statuses** -- drag a status up or down by the handle at the start of its row. Statuses show in this order everywhere: the status menu on a ticket, the ticket list, and the **Tickets by status** dashboard widget.
+- **Reorder statuses** -- drag a status up or down by the handle at the start of its row. Statuses show in this order everywhere: the status menu on a ticket, the ticket list, and the **Tickets by Status** dashboard widget.
 - **Edit a status** -- open the menu on its row and choose **Edit**. Moving a status into a category that counts differently moves every ticket in it too.
 - **Categories** -- click **+ Add Category** to create one, give it a color, and choose what it **counts as**. Rename, recolor, or change an existing one from the menu on its row. A category that still has statuses can't be deleted. Drag categories by their handle to reorder the list.
 
