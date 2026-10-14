@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-10-14 1:31am (Restore on an archived or completed project). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-26 6:59pm (added "Turning Tasks Off"). Earlier 2026-09-24 9:21am
+**Last verified:** 2026-10-14 2:19am (archive a project; Esc cancels a milestone edit). Earlier 2026-10-14 1:31am (Restore on an archived or completed project). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-26 6:59pm (added "Turning Tasks Off"). Earlier 2026-09-24 9:21am
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -37,7 +37,7 @@ Every project has one of three statuses:
 
 - **Active** -- The project is currently being worked on. This is the default status for new projects.
 - **Completed** -- The project is finished. You can mark a project as completed when all work is done.
-- **Archived** -- The project is no longer active but you want to keep it for reference. Archived projects are hidden from your main project list but can be viewed when you need them. To bring one back, pick **Archived** in the status list at the top of Projects, open the **⋮** menu in the corner of its card and choose **Restore**. It moves back to Active. A completed project has **Restore** too.
+- **Archived** -- The project is no longer active but you want to keep it for reference. Archived projects are hidden from your main project list but can be viewed when you need them. To archive a project, open the **⋮** menu in the corner of its card and choose **Archive**. A message then tells you it is in the Archived list. To bring one back, pick **Archived** in the status list at the top of Projects, open the **⋮** menu in the corner of its card and choose **Restore**. It moves back to Active. A completed project has **Restore** too.
 
 ### Project Settings
 
@@ -267,7 +267,7 @@ Milestones belong to one project. To add a milestone:
 2. Choose the **Milestones** tab.
 3. Type a name, pick a target date, and click **Add**.
 
-To mark a milestone as reached, click the diamond next to its name -- it turns into a check mark and the name is crossed out. Click it again to reopen it. Open the **⋮** menu at the end of a milestone's row and choose **Edit** or **Delete** to change or remove it. A milestone whose date has passed while it's still open shows its date in red.
+To mark a milestone as reached, click the diamond next to its name -- it turns into a check mark and the name is crossed out. Click it again to reopen it. Open the **⋮** menu at the end of a milestone's row and choose **Edit** or **Delete** to change or remove it. While you edit, **Save** keeps the change, and **Cancel** or the Esc key drops it. A milestone whose date has passed while it's still open shows its date in red.
 
 Milestones appear on the Timeline view as markers, making it easy to see how your tasks relate to upcoming deadlines.
 
