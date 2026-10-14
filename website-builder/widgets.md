@@ -1,6 +1,6 @@
 # Custom Widgets
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-10-14 1:09pm (button names in Title Case: **Start Timer**, **+ Link Task**, **Edit in Builder** and others). Earlier 2026-08-31 12:10pm
 
 Widgets are reusable content blocks that you create once and use across multiple pages on your site. Instead of rebuilding the same section over and over, you build it once as a widget, and then place it wherever you need it.
 
@@ -49,7 +49,7 @@ There are two ways to create a widget. Both end up in the same place.
 3. Click **New Widget**.
 4. Give your widget a **name**. Choose something descriptive so you can find it easily later -- for example "Contact Block", "Page Header", or "Sidebar Newsletter Signup".
 5. Save. Your widget appears in the list.
-6. Click **Edit in builder** on its row to start designing it.
+6. Click **Edit in Builder** on its row to start designing it.
 
 ### From the builder, while you are working
 
@@ -64,7 +64,7 @@ There are two ways to create a widget. Both end up in the same place.
 
 The Widget Builder works just like the regular Website Builder -- same canvas, same components, same styling tools.
 
-1. Open your widget with **Edit in builder**.
+1. Open your widget with **Edit in Builder**.
 2. The builder loads with a blank canvas for your widget.
 3. Add components by dragging them from the **Add** panel.
 4. Style and arrange your content just like you would on a regular page.
@@ -103,7 +103,7 @@ That is it. The widget and all its content will appear on your page exactly as y
 When you need to update a widget, you edit it in the Widget Builder -- not on the individual pages where it appears.
 
 1. Open the **Widgets** page from your site menu.
-2. Find the widget you want and click **Edit in builder**.
+2. Find the widget you want and click **Edit in Builder**.
 3. Make your changes.
 4. **Save** and **Publish** the widget.
 
@@ -123,7 +123,7 @@ This is one of the biggest advantages of using widgets. Change it once, and it c
 
 You can see all your widgets in two places:
 
-- **On the Widgets page:** Click **Widgets** in your site menu for the full list, with **Edit in builder** and **Delete** actions on each row.
+- **On the Widgets page:** Click **Widgets** in your site menu for the full list, with **Edit in Builder** and **Delete** actions on each row.
 - **In the Website Builder:** Open the **Add** panel and look under **My Widgets**. Every widget is listed there, ready to drag onto a page.
 
 ### Editing Widget Details

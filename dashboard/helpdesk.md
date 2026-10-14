@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-10-14 12:58pm (the widget is **Tickets by Status**). Earlier 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (support address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-26 6:59pm (added "Turning Helpdesk Off"). Earlier 2026-09-25 5:21pm
+**Last verified:** 2026-10-14 1:09pm (button names in Title Case: **Start Timer**, **+ Link Task**, **Edit in Builder** and others). Earlier 2026-10-14 12:58pm (the widget is **Tickets by Status**). Earlier 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (support address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-26 6:59pm (added "Turning Helpdesk Off"). Earlier 2026-09-25 5:21pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -188,7 +188,7 @@ If your workspace also has **Tasks**, you can turn a ticket into work for your t
 The ticket sidebar has a **Time Tracked** section, so you can record how long a ticket took -- handy for billing support hours or seeing where your team's time goes.
 
 - Click **Log Time**, enter the hours and the day, optionally a note, tick **Billable** if it should be billed, and click **Log Time**.
-- Or click **Start timer**, work the ticket, then click **Stop** -- the Log Time form opens with the time filled in for you to save.
+- Or click **Start Timer**, work the ticket, then click **Stop** -- the Log Time form opens with the time filled in for you to save.
 
 You can change or delete only your own time; workspace admins can change anyone's. If your workspace also has **Tasks**, ticket time appears in its **Time Report** as its own **Helpdesk tickets** group, and you can filter the report to tickets only. See [Tasks and Projects](tasks-and-projects.md) for more on the timer and the report.
 

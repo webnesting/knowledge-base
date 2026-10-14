@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-10-14 2:19am (archive a project; Esc cancels a milestone edit). Earlier 2026-10-14 1:31am (Restore on an archived or completed project). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-26 6:59pm (added "Turning Tasks Off"). Earlier 2026-09-24 9:21am
+**Last verified:** 2026-10-14 1:09pm (button names in Title Case: **Start Timer**, **+ Link Task**, **Edit in Builder** and others). Earlier 2026-10-14 2:19am (archive a project; Esc cancels a milestone edit). Earlier 2026-10-14 1:31am (Restore on an archived or completed project). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-26 6:59pm (added "Turning Tasks Off"). Earlier 2026-09-24 9:21am
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -41,12 +41,12 @@ Every project has one of three statuses:
 
 ### Project Settings
 
-Each project has its own settings page. Open the project and click the **gear icon** (Project settings) at the top right, next to the view switcher. The page has four tabs:
+Each project has its own settings page. Open the project and click the **gear icon** (**Project Settings**) at the top right, next to the view switcher. The page has four tabs:
 
 - **General** -- The project's name, description, color, which view it opens in (Board, List, Timeline, or Calendar), start and target dates, its status (Active, Completed, or Archived), and the teams it belongs to. Click **Save** when you're done.
 - **Statuses** -- The steps tasks in this project move through. See [Customizing Statuses and Categories](#customizing-statuses-and-categories).
 - **Milestones** -- The project's key dates. See [Milestones](#milestones).
-- **Custom fields** -- Extra fields that appear only on this project's tasks. See [Custom Fields](#custom-fields).
+- **Custom Fields** -- Extra fields that appear only on this project's tasks. See [Custom Fields](#custom-fields).
 
 ---
 
@@ -219,9 +219,9 @@ For tasks that involve multiple steps, you have two ways to break them down.
 
 Subtasks are full tasks nested under a parent task. Each subtask has its own status, priority, assignee, and all the other properties of a regular task. Use subtasks when the individual steps are substantial enough to track independently.
 
-To add a subtask, open the task and click **+ Link task**. Choose **Subtask**, then either pick **A task that already exists** (search every task in your workspace) or **A new task** (give it a title and a project), and click **Link task** or **Create and link**. Linking an existing task moves it under this one; it keeps its own project and status.
+To add a subtask, open the task and click **+ Link Task**. Choose **Subtask**, then either pick **A task that already exists** (search every task in your workspace) or **A new task** (give it a title and a project), and click **Link Task** or **Create and Link**. Linking an existing task moves it under this one; it keeps its own project and status.
 
-To take a subtask back out, open the **⋮** menu on its row and choose **Remove from subtasks** -- it becomes a task of its own again (nothing is deleted).
+To take a subtask back out, open the **⋮** menu on its row and choose **Remove from Subtasks** -- it becomes a task of its own again (nothing is deleted).
 
 ### Checklists
 
@@ -241,11 +241,11 @@ When you set a dependency, you are saying that one task **blocks** another. The 
 
 To add a dependency:
 
-1. Open the task that is waiting on another task and click **+ Link task**.
+1. Open the task that is waiting on another task and click **+ Link Task**.
 2. Choose **Blocked by** (something must finish first) or **Blocks** (another task is waiting on this one).
-3. Pick **A task that already exists** -- you can search every task in your workspace, in any project -- or **A new task** to create one right there, then click **Link task** (or **Create and link**).
+3. Pick **A task that already exists** -- you can search every task in your workspace, in any project -- or **A new task** to create one right there, then click **Link Task** (or **Create and Link**).
 
-Linked tasks appear just like subtasks, under **Blocked by** and **Blocks** headings: each row shows the task's status, project, priority, assignee, and due date, and you can change them right there or tick the circle to complete it. Click a task's name to open it. To unlink one, open the **⋮** menu on its row and choose **Remove dependency**.
+Linked tasks appear just like subtasks, under **Blocked by** and **Blocks** headings: each row shows the task's status, project, priority, assignee, and due date, and you can change them right there or tick the circle to complete it. Click a task's name to open it. To unlink one, open the **⋮** menu on its row and choose **Remove Dependency**.
 
 You can also block a task on a **whole project**. In step 2, choose **Waits on a whole project** and pick one — the task stays blocked until every task in that project is done. It appears under **Blocked by** with a running "N of M done" count that turns green once the project is finished.
 
@@ -263,7 +263,7 @@ Unlike tasks, milestones do not represent work to be done. They represent a poin
 
 Milestones belong to one project. To add a milestone:
 
-1. Open your project and click the **gear icon** (Project settings) at the top right.
+1. Open your project and click the **gear icon** (**Project Settings**) at the top right.
 2. Choose the **Milestones** tab.
 3. Type a name, pick a target date, and click **Add**.
 
@@ -280,7 +280,7 @@ Milestones appear on the Timeline view as markers, making it easy to see how you
 Custom fields let you track extra details on tasks, like a budget, a client name, or a link to a design file. They appear in the details sidebar when you open a task.
 
 - **Fields for every task** -- Go to **Tasks > Settings > Custom Fields**.
-- **Fields for one project only** -- Open the project, click the **gear icon**, and choose the **Custom fields** tab. These fields show only on that project's tasks, so a "Budget" field for one client project doesn't clutter everyone else's tasks.
+- **Fields for one project only** -- Open the project, click the **gear icon**, and choose the **Custom Fields** tab. These fields show only on that project's tasks, so a "Budget" field for one client project doesn't clutter everyone else's tasks.
 
 To add a field, click **Add Column**, give it a display name, choose its type (text, number, date, dropdown, and more), and click **Create Column**. Two projects can each have a field with the same name, but a project field can't share a name with a field every task already has.
 
@@ -311,7 +311,7 @@ You can change or delete only the time **you** logged. Workspace admins can chan
 
 Rather than working out the hours afterwards, let the timer count them:
 
-1. Open the task and click **Start timer** under Time Tracked. The sidebar shows **Timer running** with the time so far.
+1. Open the task and click **Start Timer** under Time Tracked. The sidebar shows **Timer running** with the time so far.
 2. When you finish, click **Stop**. The Log Time form opens with the time filled in, rounded to the minute.
 3. Add a note or tick **Billable** if you like, then click **Log Time**. Nothing is logged until you do -- click **Cancel** to throw the time away.
 
