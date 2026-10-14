@@ -1,6 +1,6 @@
 # Navigating the Dashboard
 
-**Last verified:** 2026-09-24 9:02am
+**Last verified:** 2026-10-14 1:32pm
 
 The Dashboard is your home base for managing one site in WebNesting. It is where you handle that site's pages, settings, content, and analytics. (Workspace-level features like billing, team members, helpdesk, marketing, and tasks live in your workspace -- see the **Workspaces** card in your account portal.)
 
@@ -48,7 +48,7 @@ The toolbar runs across the top of every page. It holds the controls you reach f
 
 ### In the middle
 
-- **Search** -- Searches across your workspace: pages, content records, tickets, tasks, contacts, and more.
+- **Search** -- Searches across your workspace: pages, content records, tickets, tasks, contacts, and more. Use the arrow keys to pick a result and press Enter to open it. Press Escape to close the list, and press it again to clear the box.
 
 ### On the right
 
