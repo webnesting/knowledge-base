@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-10-14 1:09pm (button names in Title Case: **Start Timer**, **+ Link Task**, **Edit in Builder** and others). Earlier 2026-10-14 12:58pm (the widget is **Tickets by Status**). Earlier 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (support address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-26 6:59pm (added "Turning Helpdesk Off"). Earlier 2026-09-25 5:21pm
+**Last verified:** 2026-10-14 2:14pm (the hosted address is `support@yourworkspace.webnesting.email`; **+ Add Inbox**). Earlier 2026-10-14 1:09pm (button names in Title Case: **Start Timer**, **+ Link Task**, **Edit in Builder** and others). Earlier 2026-10-14 12:58pm (the widget is **Tickets by Status**). Earlier 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (support address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-26 6:59pm (added "Turning Helpdesk Off"). Earlier 2026-09-25 5:21pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -373,7 +373,7 @@ Seeing **Assign to Team** and **Priority** after the save is your confirmation -
 
 ## Connecting Your Email
 
-There are **five ways** to set up email in Helpdesk, ranging from "zero DNS, working in 30 seconds" to "fully branded on your own infrastructure." The wizard at **Settings → Email → + Add inbox** walks you through whichever path fits.
+There are **five ways** to set up email in Helpdesk, ranging from "zero DNS, working in 30 seconds" to "fully branded on your own infrastructure." The wizard at **Settings → Email → + Add Inbox** walks you through whichever path fits.
 
 **Your support address always has to be one of these two things:** your WebNesting-hosted address, or a domain you've verified here. If you try to set up an inbox with an address on a domain nobody's verified for your workspace, you'll see "Use your workspace address or a domain you've verified in Email settings" and the save won't go through. This keeps anyone from receiving or sending support mail that looks like it came from a different company (including us).
 
@@ -394,7 +394,7 @@ Use this table to match your situation to a setup option. You can always change 
 
 ### Option 0: WebNesting-hosted (fastest)
 
-The default. Tickets arrive at `yourworkspace@webnesting.email` — a hosted address we manage. **No DNS changes, no account connections, no setup time.** Customers reply to `yourworkspace@webnesting.email`; their replies thread back into the original ticket.
+The default. Every workspace already has a hosted address we manage, `support@yourworkspace.webnesting.email`, and tickets sent to it arrive at once. **No DNS changes, no account connections, no setup time.** Customers reply to that address, and their replies thread back into the original ticket. **Settings → Email** shows your exact address. Before you add your first inbox, that page shows **+ Add My First Inbox** in place of **+ Add Inbox**.
 
 Trade-off: the address shows our brand (`@webnesting.email`) rather than yours. Good for trying things out or for internal-only support; upgrade to Options 1-4 whenever you want branded mail.
 
@@ -402,7 +402,7 @@ Trade-off: the address shows our brand (`@webnesting.email`) rather than yours. 
 
 Best for teams already running on Google Workspace or personal Gmail with a `support@yourcompany.com` address you've been using for a while.
 
-1. Go to **Settings → Email** → click **+ Add inbox**.
+1. Go to **Settings → Email** → click **+ Add Inbox**.
 2. Pick **Helpdesk** (or **Both** if you also want to send marketing from the same address).
 3. Enter the email address customers send to (e.g. `support@yourcompany.com`).
 4. Choose **Gmail / Google Workspace** as the inbound source. Save → we'll open Google's OAuth consent screen.
@@ -424,7 +424,7 @@ Best for: **you're setting up a brand-new branded support address, you don't wan
 
 Example: keep your existing Gmail at `you@yourcompany.com` for personal mail, but route support emails through `support@help.yourcompany.com` directly into Helpdesk.
 
-1. Go to **Settings → Email → + Add inbox**.
+1. Go to **Settings → Email → + Add Inbox**.
 2. Pick **Vanity subdomain on your own domain** as the inbound source.
 3. The wizard suggests `help.<yourdomain>` — accept it or pick `support`, `tickets`, `desk`, whatever you want.
 4. Save → the wizard shows you one MX record to publish at your DNS provider:
@@ -444,7 +444,7 @@ Example: keep your existing Gmail at `you@yourcompany.com` for personal mail, bu
 
 Best for: **branded outbound replies + required for marketing campaigns from your own domain.** Combine with any inbound option (0, 1, 2, 3, or 5) to get branded mail in both directions.
 
-1. Go to **Settings → Email → + Add inbox**, OR straight to **Settings → Email Domains**.
+1. Go to **Settings → Email → + Add Inbox**, OR straight to **Settings → Email Domains**.
 2. Add your domain (e.g. `acme.com`) and confirm in the checkbox that you control DNS for that domain.
 3. We register the domain with our email provider and show you the DNS records to publish:
    - **Domain ownership proof** (1 TXT record) — proves to us that YOU control this domain, even if it's already set up for sending somewhere else
@@ -461,7 +461,7 @@ This is the **strongest option for trust and deliverability**, but it does requi
 
 For Zoho, FastMail, ProtonMail (via Bridge), your own SMTP server, or any provider that supports IMAP. Also works for Gmail or Outlook if you'd rather use an app password than OAuth.
 
-1. Go to **Settings → Email → + Add inbox**.
+1. Go to **Settings → Email → + Add Inbox**.
 2. Pick **IMAP / SMTP (advanced)** as the inbound source.
 3. The wizard offers one-click presets for common providers (Gmail, Outlook, Fastmail, iCloud, Yahoo, ProtonMail) — pick one or fill in custom server + port + TLS.
 4. Enter your username + **app password** (not your regular account password — most providers block IMAP with the regular password for security).
