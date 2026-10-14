@@ -165,7 +165,7 @@ For example, a real estate agent might add a "Property Interest" field. A fitnes
 3. Fill in the field details:
    - **Display Name** (required) -- The name people see on the form, like "Membership Level" or "Preferred Language."
    - **Field Name** (required) -- Fills itself in from the display name. It uses lowercase letters, numbers and underscores, like `membership_level` or `address_2`.
-   - **Type** -- The kind of data this field stores, such as **Text**, **Number**, **Date**, **Checkbox** or **Select Dropdown**.
+   - **Type** -- The kind of data this field stores, such as **Text**, **Number**, **Date**, **Checkbox** or **Dropdown**.
    - **Required** -- Tick it when every contact must have this field filled in.
 4. Click **Create Field**.
 
