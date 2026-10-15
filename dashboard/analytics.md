@@ -1,6 +1,6 @@
 # Analytics and Reports
 
-**Last verified:** 2026-09-08 9:23am
+**Last verified:** 2026-10-15 6:45pm
 
 Analytics help you understand how people find and use your website. WebNesting includes built-in analytics so you can see how many visitors your site gets, which pages are most popular, and where your traffic comes from -- all from your dashboard.
 
@@ -126,9 +126,11 @@ If you use Google Analytics, you can connect it to your WebNesting dashboard to 
 
 ### How to Connect Your Google Analytics Account
 
+Connecting a Google account adds it to your workspace's integrations, so only the workspace owner and people whose role can add integrations (the Admin role, by default) can do it. Everyone else sees "Ask a workspace admin to connect Google Analytics." in the widget settings instead of the button.
+
 1. On your dashboard, look for the **Google Analytics** widget. If it is not on your dashboard yet, click the **Add Widget** button and select "Google Analytics" from the list.
 2. Open the widget's settings by clicking the settings icon (the gear icon).
-3. Click the **Connect Google Account** button.
+3. Click the **Connect Google Analytics** button.
 4. A window will open asking you to sign in to your Google account and grant permission. Follow the prompts to authorize the connection.
 5. Once connected, select which Google Analytics property you want to display.
 6. Choose which metrics you would like to see (sessions, users, pageviews, bounce rate, or average duration).
@@ -145,6 +147,8 @@ To disconnect Google Analytics:
 1. Open the Google Analytics widget's settings.
 2. Click **Disconnect**.
 3. The connection will be removed.
+
+Only the person who connected the account can disconnect it, and their role must still be allowed to remove integrations.
 
 ---
 
