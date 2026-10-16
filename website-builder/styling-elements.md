@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-10-15 9:39pm (Fine-Tuning Values with Your Keyboard; sections stay open; spacing presets 0 to 32). Earlier 2026-08-31 12:10pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -21,9 +21,29 @@ Think of the Styler as a set of dials and switches for each element on your page
 1. Open your page in the Website Builder.
 2. Click on any element on your page (a heading, image, section, button, etc.).
 3. Click **Styles** in the panel rail on the right. (The button is greyed out until something is selected.)
-4. You will see different sections you can expand, like Spacing, Layout, Position, and more.
+4. You will see different sections you can expand, like Spacing, Layout, Position, and more. The Styler remembers which sections you keep open or closed, on every page and every element, until you change them.
 
 > **Tip:** If the **Styles** button is greyed out, nothing is selected. Click directly on an element -- clicking empty space deselects everything.
+
+---
+
+## Fine-Tuning Values with Your Keyboard
+
+Every number and text box in the Styler works like a design tool.
+
+- **Type a value.** The page shows it after a short pause, so you see the result without it flickering on every key.
+- **Press Enter** to apply the value. If the box is inside a small editor (like a spacing value), the editor stays open.
+- **Press Esc** to go back to the value you started with. In a small editor, press Esc once to undo your typing and a second time to close the editor.
+- **Press the up or down arrow** to nudge a number by one step (for example 1px, or 0.1 for rem).
+- **Hold Shift** with the arrows for bigger steps (ten times as big), or **hold Alt** (Option on a Mac) for smaller steps (a tenth of a step).
+- **Scroll with the mouse wheel** over a box you are typing in to nudge it the same way. Hold Shift for bigger steps.
+- **Drag** a spacing value in the Spacing diagram, or a margin or padding handle on the page, to change it with your mouse. Hold Shift or Alt while you drag for bigger or finer steps. Press Esc while you drag to cancel.
+
+Each change is one step in your undo history. Press **Cmd+Z** (Ctrl+Z on Windows) once to undo the whole change, however you made it.
+
+> **Tip:** Hover over the **?** next to a length or number setting to see these keys as a reminder.
+
+> **Working with a teammate?** Esc only takes back your own change. If a teammate changes something while you type, their change stays.
 
 ---
 
@@ -73,9 +93,9 @@ Spacing controls how much room an element has around and inside it. Think of it 
 
 ### Quick Preset Values
 
-When you click a spacing value, you will see preset buttons like 0, 10, 20, 40, 60, and 100. These let you quickly set common spacing amounts without typing.
+When you click a spacing value, you will see preset buttons like 0, 4, 8, 16, 24, and 32. These let you quickly set common spacing amounts without typing.
 
-> **Tip:** Start with even, consistent spacing. Using the same spacing values throughout your page (like 20 for small gaps and 40 for large gaps) creates a clean, professional look.
+> **Tip:** Start with even, consistent spacing. Using the same spacing values throughout your page (like 16 for small gaps and 32 for large gaps) creates a clean, professional look.
 
 ---
 
