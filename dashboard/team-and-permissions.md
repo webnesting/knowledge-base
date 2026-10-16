@@ -1,6 +1,6 @@
 # Team and Permissions
 
-**Last verified:** 2026-09-24 10:51am (added Organizing Teams — walked drag, Move to…, Move Up / Down and the Parent team picker end to end)
+**Last verified:** 2026-10-15 8:30pm (removing a member removes their roles; a new invitation gives only its own roles). Earlier 2026-10-15 7:59pm (added Builder Access (Page Editor, Widget Editor, Custom Code) and when a permission change takes effect). Earlier 2026-09-24 10:51am (added Organizing Teams — walked drag, Move to…, Move Up / Down and the Parent team picker end to end)
 
 WebNesting lets you invite other people to help manage your website. You control exactly what each person can see and do by assigning them roles with specific permissions.
 
@@ -44,7 +44,9 @@ The person receives an email with an invite link that is valid for 7 days. If it
 1. Go to **Settings → Members & Permissions**.
 2. Find the person you want to remove.
 3. Click **Remove** next to their name and confirm.
-4. Their access is removed immediately.
+4. Their access is removed immediately, on every site in the workspace. Their roles and any member-specific permissions are removed too.
+
+If you invite the same person again later, they get only the roles in the new invitation, after they accept it.
 
 To cancel a pending invitation that has not been accepted yet, find it in the same list and **Revoke** it.
 
@@ -213,6 +215,20 @@ Permissions can be set at two levels:
 - **Per-site** — Applies only to a specific site
 
 When editing permissions for a role, use the site selector to switch between workspace-wide permissions and site-specific permissions. This is useful when you want a team member to have full access to one site but limited access to another.
+
+### Builder Access
+
+When you pick a site, the matrix has a **Builder Access** group. It sets what a role can do in the website builder on that site:
+
+| Row | What it controls |
+|-----|------------------|
+| Page Editor | Edit pages and layouts in the Web Builder. |
+| Widget Editor | Create and edit widgets in the Widget Builder. |
+| Custom Code | Add or change code in an HTML component. This code runs for every visitor to your site, so give it only to people you trust. |
+
+Admins have **Custom Code** on every site. Members and new roles you create do not, until you check **Edit** on the **Custom Code** row. Site owners always have it. To give one person Custom Code without changing their role, use a member override (below).
+
+A change to a permission takes effect the next time the person does something on the site.
 
 ---
 

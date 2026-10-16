@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-10-01 3:14pm
+**Last verified:** 2026-10-15 7:59pm (HTML component: who can change the code, the read-only and "Saving the block…" states, copy and paste). Earlier 2026-10-01 3:14pm
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -380,6 +380,16 @@ Common uses for the HTML component include:
 To get an embed code, visit the third-party service and look for a "Share" or "Embed" option. Copy the code they provide and paste it directly into the HTML component.
 
 For your safety, code in this component doesn't run while you're editing or previewing your page — you'll see a placeholder that says "Custom code — hidden here for safety" instead. It runs as normal on your published site, so publish the page and visit it to check your embed.
+
+#### Who can change the code
+
+Code in an HTML component runs for every visitor to your site, so only team members with the **Custom Code** permission can add or change it. Site owners and Admins have it. Members do not, until you give it to them in **Settings → Members & Permissions**, under **Builder Access** (see [Team and Permissions](../dashboard/team-and-permissions.md#builder-access)).
+
+- Without the permission, you can still add, move and style an HTML component. The code box shows the code but you cannot change it, and it says: "Only people with the Custom Code permission can change this code. Ask your site owner."
+- A new HTML component saves first. The code box says "Saving the block…" for a moment, then you can type.
+- The code saves when you click out of the code box.
+- When you copy and paste an HTML component, or duplicate it, the copy gets the code only if you have the permission. Otherwise the copy is empty.
+- Changing another block into an HTML component starts it empty.
 
 > **Tip:** If an embedded element does not look right, check that you copied the complete embed code. Most embed codes start with `<iframe` or `<script` -- make sure you have the entire snippet.
 
