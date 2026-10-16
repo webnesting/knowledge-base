@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-10-15 7:59pm (HTML component: who can change the code, the read-only and "Saving the block…" states, copy and paste). Earlier 2026-10-01 3:14pm
+**Last verified:** 2026-10-15 9:16pm (HTML component: the new code card wording). Earlier 2026-10-15 7:59pm (HTML component: who can change the code, the read-only and "Saving the block…" states, copy and paste). Earlier 2026-10-01 3:14pm
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -379,7 +379,7 @@ Common uses for the HTML component include:
 
 To get an embed code, visit the third-party service and look for a "Share" or "Embed" option. Copy the code they provide and paste it directly into the HTML component.
 
-For your safety, code in this component doesn't run while you're editing or previewing your page — you'll see a placeholder that says "Custom code — hidden here for safety" instead. It runs as normal on your published site, so publish the page and visit it to check your embed.
+For your safety, code in this component doesn't run while you're editing or previewing your page — you'll see a card that says "Custom code is hidden here for safety — it still runs on your published site." instead. It runs as normal on your published site, so publish the page and visit it to check your embed.
 
 #### Who can change the code
 
