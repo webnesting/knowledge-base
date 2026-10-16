@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-10-15 9:16pm (HTML component: the new code card wording). Earlier 2026-10-15 7:59pm (HTML component: who can change the code, the read-only and "Saving the block…" states, copy and paste). Earlier 2026-10-01 3:14pm
+**Last verified:** 2026-10-16 12:29am (HTML component: Preview with code, what the code does, leaving the code box with the keyboard). Earlier 2026-10-15 9:16pm (HTML component: the new code card wording). Earlier 2026-10-15 7:59pm (HTML component: who can change the code, the read-only and "Saving the block…" states, copy and paste). Earlier 2026-10-01 3:14pm
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -379,7 +379,9 @@ Common uses for the HTML component include:
 
 To get an embed code, visit the third-party service and look for a "Share" or "Embed" option. Copy the code they provide and paste it directly into the HTML component.
 
-For your safety, code in this component doesn't run while you're editing or previewing your page — you'll see a card that says "Custom code is hidden here for safety — it still runs on your published site." instead. It runs as normal on your published site, so publish the page and visit it to check your embed.
+For your safety, code in this component doesn't run while you're editing or previewing your page. You'll see a card that says "Custom code is hidden here for safety — it still runs on your published site." The card also lists what the code does, such as "Loads 1 outside script from widgets.example.com". The code runs as normal on your published site.
+
+To see your code run before you publish, click **Preview with code** on the card, or in the component settings. The preview opens over the block, at its own width, in an isolated frame. A few things work differently there: scripts that read cookies or saved data stop with an error, and visit counts don't run. Click **What works differently here** under the preview to see the list. Press **Esc** or click **Close preview** to close it. Anyone who can open the builder can preview, including team members who can't change the code.
 
 #### Who can change the code
 
@@ -388,6 +390,8 @@ Code in an HTML component runs for every visitor to your site, so only team memb
 - Without the permission, you can still add, move and style an HTML component. The code box shows the code but you cannot change it, and it says: "Only people with the Custom Code permission can change this code. Ask your site owner."
 - A new HTML component saves first. The code box says "Saving the block…" for a moment, then you can type.
 - The code saves when you click out of the code box.
+- In the code box, the **Tab** key adds an indent. To leave the code box with the keyboard, press **Esc**, then **Tab**.
+- If you can change the code, the link "Manage who has it in Permissions" under the code box opens the page where you choose who else has the permission.
 - When you copy and paste an HTML component, or duplicate it, the copy gets the code only if you have the permission. Otherwise the copy is empty.
 - Changing another block into an HTML component starts it empty.
 
