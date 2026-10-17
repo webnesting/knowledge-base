@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-10-17 4:50pm
+**Last verified:** 2026-10-17 6:18pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -170,6 +170,8 @@ Your changes stay in a draft until you publish them.
 - **Save Draft** keeps your changes without changing your live site.
 - **Publish** puts the code at the top and bottom of every page from the draft on your live site. Your CSS has its own **Save Draft** and **Publish** buttons (see [Your own CSS](#your-own-css)).
 
+Using the keyboard? After **Save Draft**, focus moves to **Publish**, so you can press **Enter** to publish. After **Publish**, focus moves to the line that says what is live. While a button works, focus stays on it.
+
 Each place shows a badge: **Live**, **Not live yet**, **Removed in your draft** or **No code**. A line above the places says when the draft was saved, and when and by whom the live code was published. Each place can hold up to 256 KB of code.
 
 ### Editing the code by hand
@@ -267,7 +269,7 @@ To restore an earlier version:
 3. Read the review. It says where the code lands and what changes in your draft, such as an outside script that goes away or a verification tag that comes back.
 4. Click **Restore to Draft**.
 
-A restore changes your draft only. Your live site keeps what it runs until you click **Publish**. A restore adds a new version, so you can always go back. If you have typed changes in a place that you have not saved, save them or undo them first. Restore stays off until you do.
+After the restore, focus moves to the new version's tile. A restore changes your draft only. Your live site keeps what it runs until you click **Publish**. A restore adds a new version, so you can always go back. If you have typed changes in a place that you have not saved, save them or undo them first. Restore stays off until you do.
 
 The security mode has its own history under **Report only or Enforce**. It shows each switch. To change the mode, use the button above it.
 
