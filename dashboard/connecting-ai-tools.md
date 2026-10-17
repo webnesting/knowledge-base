@@ -1,6 +1,6 @@
 # Connecting an AI Tool
 
-**Last verified:** 2026-10-17 4:19pm
+**Last verified:** 2026-10-17 6:25pm
 
 You can connect an AI assistant — like Claude Desktop, Claude Code, or Cursor — directly to your WebNesting workspace. Once connected, you can ask the AI to look things up and make changes for you in plain language: "list my draft articles," "create a new event for next Friday," "what's my current usage this month." The AI works **as you**, with **your** permissions, and never sees your password.
 
@@ -57,6 +57,9 @@ The AI is signed in as **your** WebNesting account, so:
 - Send a campaign's test email — always to your own email address, never to anyone else.
 - Send a campaign, schedule it, pick an A/B test's winning version, email a ticket reply, merge two tags, or remove a contact from a site — but only after it shows you exactly what will happen (who gets the email, what it says, what is removed) and you say yes.
 - Read your Help Desk, Tasks and campaign reports, and your Activity Log. A change the AI makes shows in the Activity Log with the name of the AI app, for example "via Claude Desktop".
+- Read and change your Site Settings: your social links, search and sharing text, Google tracking IDs, site messages, and your site's time zone. It sees the same settings you see in **Settings** and changes them one at a time by name. A secret, such as a reCAPTCHA key, is never shown to it. Hiding your whole site from search engines needs your yes first.
+- Add, change and list your **URLs and Redirects**: send an old address to a new page, show a page at a second address, or send visitors to another website. It checks that the page exists and that an outside address is a full web address, so a redirect never silently does nothing.
+- Remove a redirect — but only after it shows you the rule and you say yes. A removed redirect cannot be brought back, but the AI can add it again.
 - Create a new site — after it shows you the name and address and you say yes. Setting the site up takes a few minutes.
 - Turn on a workspace product, such as Help Desk or Tasks — but only after it shows you the monthly price and you say yes.
 
