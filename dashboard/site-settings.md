@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-10-17 1:15pm (Your own CSS). Earlier 2026-10-17 9:23am (added Custom Code; the SEO "Extra code for every page's <head>" setting moved there). Earlier 2026-09-25 10:13am
+**Last verified:** 2026-10-17 2:59pm (Security reports and Enforce). Earlier 2026-10-17 1:15pm (Your own CSS). Earlier 2026-10-17 9:23am (added Custom Code; the SEO "Extra code for every page's <head>" setting moved there). Earlier 2026-09-25 10:13am
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -206,6 +206,50 @@ Before you save, the page shows each part that will be removed, crossed out wher
 ### Code for one page only
 
 A page can have its own code and CSS too. Open the page in **Pages**, then scroll to its **Custom code** and **CSS for this page** sections. They work the same way. Your site's code runs first, then the page's own code. The page's CSS comes after your site's, so the page's rules win. See [Managing Pages](managing-pages.md#custom-code-for-one-page).
+
+### Security reports and Enforce
+
+Your live site has a security policy. It says which scripts may run on your pages. Scripts you add in Custom Code, and the scripts WebNesting adds, are allowed. Code the policy doesn't allow is code inside an HTML attribute, such as `onclick=`, code that builds more code from text (`eval`), and a script added to a page some other way.
+
+At first the policy is **Report only**. Nothing is blocked. When a visitor's browser finds something the policy would block, it sends a report.
+
+**Read the reports.**
+
+1. Open **Settings → Custom Code**.
+2. Scroll to **Security reports**.
+3. Click a report to see how to fix it.
+
+Each report says what would be blocked, on which page, where it came from, and how often. The list shows the last 7 days. It keeps the 200 most recent reports. Some reports are noise: a browser extension can cause one.
+
+**Fix code inside an attribute.** Move the code into a script, and give the element an `id`. For example, change this:
+
+```html
+<button type="button" onclick="location.hash = 'preorder-form'">Pre-order a loaf</button>
+```
+
+to this:
+
+```html
+<button type="button" id="preorder-button">Pre-order a loaf</button>
+<script>
+  document.getElementById('preorder-button').addEventListener('click', () => {
+    location.hash = 'preorder-form';
+  });
+</script>
+```
+
+**Switch to Enforce.** With **Enforce**, scripts the policy doesn't allow are blocked on your live site.
+
+1. Read the **Security reports** first. The switch is offered once you have looked at them.
+2. Under **Report only or Enforce**, click **Switch to Enforce…**.
+3. Read the list of scripts that will stop running, grouped by page.
+4. Click **Switch to Enforce**.
+
+After the switch, a report seen while Enforce is on shows **Blocked**.
+
+**Go back.** Click **Switch Back to Report Only**. It takes one click and needs no confirm. Nothing is blocked after that.
+
+A page's settings show the reports for that page only. You set Report only or Enforce for the whole site, in **Settings → Custom Code**.
 
 ### Who can change custom code
 
