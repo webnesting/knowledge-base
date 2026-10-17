@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-10-17 9:23am (added Custom Code; the SEO "Extra code for every page's <head>" setting moved there). Earlier 2026-09-25 10:13am
+**Last verified:** 2026-10-17 1:15pm (Your own CSS). Earlier 2026-10-17 9:23am (added Custom Code; the SEO "Extra code for every page's <head>" setting moved there). Earlier 2026-09-25 10:13am
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -137,7 +137,7 @@ WebNesting also has its own privacy-friendly visitor stats -- no Google account 
 
 ## Custom Code
 
-**Custom Code** adds code from other services to your live site: a verification tag from Google Search Console, Pinterest or Bing, an analytics or ad pixel, or a chat or booking widget. To open it, go to the site menu, open **Settings** and click **Custom Code**.
+**Custom Code** adds code from other services to your live site: a verification tag from Google Search Console, Pinterest or Bing, an analytics or ad pixel, or a chat or booking widget. It also holds your own CSS, which changes how your pages look. To open it, go to the site menu, open **Settings** and click **Custom Code**.
 
 > **Warning:** This code runs for every visitor to your live site. Paste only code from a service you trust.
 
@@ -168,7 +168,7 @@ If you put a verification tag at the bottom, the page warns you, because service
 Your changes stay in a draft until you publish them.
 
 - **Save Draft** keeps your changes without changing your live site.
-- **Publish** puts everything in the draft on your live site.
+- **Publish** puts the code at the top and bottom of every page from the draft on your live site. Your CSS has its own **Save Draft** and **Publish** buttons (see [Your own CSS](#your-own-css)).
 
 Each place shows a badge: **Live**, **Not live yet**, **Removed in your draft** or **No code**. A line above the places says when the draft was saved, and when and by whom the live code was published. Each place can hold up to 256 KB of code.
 
@@ -180,13 +180,36 @@ Click **Advanced: edit the code by hand** to open a code box for each place. Use
 
 Click **Preview with code** to see your Homepage run with the code in the boxes now, before you save it. The preview opens in place of the settings. Click **Close preview** to go back.
 
+### Your own CSS
+
+Under the code, **CSS for every page** holds your own style sheet. Use it to change how your pages look, for example a color, a font size or the spacing of a list.
+
+1. Open **Settings → Custom Code**.
+2. Scroll to **CSS for every page**.
+3. Type or paste your CSS in **Your CSS**. Paste the rules only, without a `<style>` tag.
+4. Click **Save Draft**.
+5. Click **Publish** to put it on your live site.
+
+Your CSS applies in the Web Builder too, so you see the change as you work. The builder shows your draft; your live site shows what you published. Publishing your CSS doesn't publish the code at the top or bottom of your pages, and publishing that code doesn't publish your CSS.
+
+A badge shows **Live**, **Not live yet**, **Removed in your draft** or **No CSS**, and a line says when and by whom the live CSS was published. A sheet can be up to 256 KB. Over that, the page says how many bytes to remove, and you can't save until it is smaller.
+
+**Parts that are removed when you save.** Some CSS can load or run code, so it is removed when you save:
+
+- `@import` -- it loads another style sheet from outside this field. Link a web font with your theme or the Web Builder instead.
+- `</style>` -- it would end the style sheet early.
+- `expression(`, `behavior:` and `-moz-binding:` -- they run script in old browsers.
+- A `url(` that is not a web address (`https://`, `http://` or a path on your site) or an image (`data:image/`), such as `javascript:`. Only the address is removed; the rest of the rule stays.
+
+Before you save, the page shows each part that will be removed, crossed out where it is in your CSS, with the reason. After you save, the same list stays on the page, under "Cleaned on save". Your other rules are saved as you typed them.
+
 ### Code for one page only
 
-A page can have its own code too. Open the page in **Pages**, then scroll to its **Custom code** section. It works the same way. Your site's code runs first, then the page's own code. See [Managing Pages](managing-pages.md#custom-code-for-one-page).
+A page can have its own code and CSS too. Open the page in **Pages**, then scroll to its **Custom code** and **CSS for this page** sections. They work the same way. Your site's code runs first, then the page's own code. The page's CSS comes after your site's, so the page's rules win. See [Managing Pages](managing-pages.md#custom-code-for-one-page).
 
 ### Who can change custom code
 
-Only people with the **Custom Code** permission can add or change this code. Site owners and Admins have it. People who may only view it see the code but cannot change it, and the page says: "Only people with the Custom Code permission can change this code. Ask your site owner." To give the permission, see [Team and Permissions](team-and-permissions.md#builder-access).
+Only people with the **Custom Code** permission can add or change this code and CSS. Site owners and Admins have it. People who may only view it see the code and CSS but cannot change them, and the page says: "Only people with the Custom Code permission can change this code. Ask your site owner." To give the permission, see [Team and Permissions](team-and-permissions.md#builder-access).
 
 > **Moved:** The SEO setting **Extra code for every page's `<head>`** is now part of Custom Code. Any code you had there was moved to **Top of every page**, and it is still live.
 

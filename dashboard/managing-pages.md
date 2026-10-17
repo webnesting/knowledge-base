@@ -1,6 +1,6 @@
 # Managing Pages
 
-**Last verified:** 2026-10-17 10:53am (Custom code on articles and other page items). Earlier 2026-10-17 9:23am (added Custom Code for One Page). Earlier 2026-10-17 8:37am
+**Last verified:** 2026-10-17 1:15pm (CSS for this page). Earlier 2026-10-17 10:53am (Custom code on articles and other page items). Earlier 2026-10-17 9:23am (added Custom Code for One Page). Earlier 2026-10-17 8:37am
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 
@@ -71,7 +71,9 @@ A page's settings have a **Custom code** section for code that should run on tha
 
 This section has its own **Save Draft** and **Publish** buttons. Publishing this code doesn't publish the page, and the page's **Save & Publish** doesn't publish this code.
 
-Your site's code runs first, then the page's own code. The section shows your site's live code at the top. Verification tags prove the whole site is yours, so they belong in **Settings → Custom Code**, not on one page. See [Site Settings](site-settings.md#custom-code).
+Your site's code runs first, then the page's own code. The section shows your site's live code at the top.
+
+Under it, **CSS for this page** holds CSS for this page only. It has its own **Save Draft** and **Publish** buttons, and it applies in the Web Builder too. This page's CSS comes after your site's CSS, so this page's rules win. Parts that can load or run code, such as `@import`, are removed when you save; see [Your own CSS](site-settings.md#your-own-css). Verification tags prove the whole site is yours, so they belong in **Settings → Custom Code**, not on one page. See [Site Settings](site-settings.md#custom-code).
 
 ---
 
