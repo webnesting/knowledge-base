@@ -1,6 +1,6 @@
 # Connecting an AI Tool
 
-**Last verified:** 2026-10-04 1:42pm
+**Last verified:** 2026-10-17 4:19pm
 
 You can connect an AI assistant — like Claude Desktop, Claude Code, or Cursor — directly to your WebNesting workspace. Once connected, you can ask the AI to look things up and make changes for you in plain language: "list my draft articles," "create a new event for next Friday," "what's my current usage this month." The AI works **as you**, with **your** permissions, and never sees your password.
 
@@ -52,13 +52,20 @@ The AI is signed in as **your** WebNesting account, so:
 - Create and update content — pages, articles, events, products, and other module records.
 - Turn on a content module for a site — but only after it shows you the monthly price and you say yes.
 - Delete a record — but only after it describes what will be removed and you confirm.
+- Work with your contacts, companies, lists and tags; your Marketing campaigns, automations and templates; your Help Desk tickets and settings; your Tasks projects, tasks and time; and your Internal Docs — the same things you can do on those pages.
+- Do what the buttons on those pages do: add a contact to a list, assign or close a ticket, add an internal note, mark a task done, start a timer, copy a campaign, and more.
+- Send a campaign's test email — always to your own email address, never to anyone else.
+- Send a campaign, schedule it, pick an A/B test's winning version, email a ticket reply, merge two tags, or remove a contact from a site — but only after it shows you exactly what will happen (who gets the email, what it says, what is removed) and you say yes.
+- Read your Help Desk, Tasks and campaign reports, and your Activity Log. A change the AI makes shows in the Activity Log with the name of the AI app, for example "via Claude Desktop".
+- Create a new site — after it shows you the name and address and you say yes. Setting the site up takes a few minutes.
+- Turn on a workspace product, such as Help Desk or Tasks — but only after it shows you the monthly price and you say yes.
 
 **It can't** (these always stay in your hands):
 
 - Delete a site.
 - Change members, roles, or permissions.
 - Change billing or payment details.
-- Turn off a module (which would delete its data).
+- Turn off a module or a workspace product (which would delete its data).
 
 For any of those, the AI won't act — it will hand you a direct link to the right page in WebNesting so you can do it yourself.
 
