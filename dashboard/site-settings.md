@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-09-25 10:13am
+**Last verified:** 2026-10-17 9:23am (added Custom Code; the SEO "Extra code for every page's <head>" setting moved there). Earlier 2026-09-25 10:13am
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -132,6 +132,63 @@ To test your keys, submit one of your forms that uses reCAPTCHA. Google only acc
 ### WebNesting's Built-In Analytics
 
 WebNesting also has its own privacy-friendly visitor stats -- no Google account needed. Turn on **Enable first-party analytics** in **Site Configuration**, under **Analytics**. You can use it alongside Google Analytics; they work independently.
+
+---
+
+## Custom Code
+
+**Custom Code** adds code from other services to your live site: a verification tag from Google Search Console, Pinterest or Bing, an analytics or ad pixel, or a chat or booking widget. To open it, go to the site menu, open **Settings** and click **Custom Code**.
+
+> **Warning:** This code runs for every visitor to your live site. Paste only code from a service you trust.
+
+The code never runs while you edit your site. It runs on your published pages only. To see it run before it goes live, use **Preview with code**.
+
+### Adding code from a service
+
+1. Open **Settings → Custom Code**.
+2. Click **+ Add Code from a Service**. (On a site with no code yet, this step is already open.)
+3. Pick what you are adding: **A site verification tag**, **Analytics or an ad pixel**, **A chat or booking widget**, or **Something else**.
+4. For **Something else**, pick where the service's instructions say to put it.
+5. Paste the code the service gave you.
+6. Read **What this code does**. It says, in plain words, what the code loads and sends. Nothing runs while you paste.
+7. Click **Add to Draft**.
+8. Click **Publish** to put the code on your live site.
+
+The page outline shows where each kind of code goes:
+
+- **Top of every page** -- code that runs before the page shows. Verification tags, analytics and ad pixels go here. A service may call this "the `<head>`".
+- **Bottom of every page** -- code that runs after the page's content. Chat and booking widgets go here. A service may call this "before `</body>`".
+
+If you put a verification tag at the bottom, the page warns you, because services look for it at the top. Click **Put It at the Top** to move it.
+
+> **Tip:** Showing a map or a form? Use the Google Maps or Form component in the Web Builder instead. They need no code.
+
+### Save Draft and Publish
+
+Your changes stay in a draft until you publish them.
+
+- **Save Draft** keeps your changes without changing your live site.
+- **Publish** puts everything in the draft on your live site.
+
+Each place shows a badge: **Live**, **Not live yet**, **Removed in your draft** or **No code**. A line above the places says when the draft was saved, and when and by whom the live code was published. Each place can hold up to 256 KB of code.
+
+### Editing the code by hand
+
+Click **Advanced: edit the code by hand** to open a code box for each place. Use it to change or remove code. To remove code, delete it from the box, then click **Publish**.
+
+### Previewing your code
+
+Click **Preview with code** to see your Homepage run with the code in the boxes now, before you save it. The preview opens in place of the settings. Click **Close preview** to go back.
+
+### Code for one page only
+
+A page can have its own code too. Open the page in **Pages**, then scroll to its **Custom code** section. It works the same way. Your site's code runs first, then the page's own code. See [Managing Pages](managing-pages.md#custom-code-for-one-page).
+
+### Who can change custom code
+
+Only people with the **Custom Code** permission can add or change this code. Site owners and Admins have it. People who may only view it see the code but cannot change it, and the page says: "Only people with the Custom Code permission can change this code. Ask your site owner." To give the permission, see [Team and Permissions](team-and-permissions.md#builder-access).
+
+> **Moved:** The SEO setting **Extra code for every page's `<head>`** is now part of Custom Code. Any code you had there was moved to **Top of every page**, and it is still live.
 
 ---
 

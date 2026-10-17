@@ -1,6 +1,6 @@
 # SEO Best Practices for Your Website
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-10-17 9:23am (a Search Console verification tag goes in Settings → Custom Code). Earlier 2026-08-31 12:10pm
 
 Search engine optimization (SEO) is one of the most powerful ways to bring visitors to your website. This guide covers practical, easy-to-follow steps you can take right inside WebNesting to help your site show up in Google and other search engines. No technical background required -- just a willingness to put in a little effort on each page you create.
 
@@ -206,7 +206,7 @@ Once connected, you can learn things like:
 
 Google Search Console shows you how your site appears in Google search results. You can see which search terms bring people to your site, how often your pages appear in results, and whether Google has any trouble accessing your pages.
 
-Setting up Search Console is done outside of WebNesting (through Google's website), but the data it provides is invaluable for understanding and improving your search performance.
+You set up Search Console on Google's website. To prove the site is yours, Google gives you a verification tag. Add it in **Settings → Custom Code**: click **+ Add Code from a Service**, pick **A site verification tag**, paste the tag, then click **Publish** (see [Site Settings](../dashboard/site-settings.md#custom-code)). Pinterest and Bing verification tags work the same way.
 
 > **Tip:** Check your analytics at least once a month. Look for trends -- which pages are growing in traffic, and which ones might need a refresh.
 

@@ -1,6 +1,6 @@
 # Managing Pages
 
-**Last verified:** 2026-10-17 8:37am
+**Last verified:** 2026-10-17 9:23am (added Custom Code for One Page). Earlier 2026-10-17 8:37am
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 
@@ -57,6 +57,21 @@ You can update any page's basic information at any time.
 5. Save your changes.
 
 To edit the actual content of the page (text, images, sections), you will use the Website Builder. See the "Opening a Page in the Website Builder" section below.
+
+### Custom Code for One Page
+
+A page's settings have a **Custom code** section for code that should run on that page only, such as a booking widget on your Contact page. It appears when you edit a page and have the **Custom Code** permission.
+
+1. Go to the **Pages** section.
+2. Click the page name to open its settings.
+3. Scroll to the **Custom code** section.
+4. Click **+ Add Code from a Service**, pick what you are adding, and paste the code.
+5. Click **Add to Draft**.
+6. Click **Publish**.
+
+This section has its own **Save Draft** and **Publish** buttons. Publishing this code doesn't publish the page, and the page's **Save & Publish** doesn't publish this code.
+
+Your site's code runs first, then the page's own code. The section shows your site's live code at the top. Verification tags prove the whole site is yours, so they belong in **Settings → Custom Code**, not on one page. See [Site Settings](site-settings.md#custom-code).
 
 ---
 

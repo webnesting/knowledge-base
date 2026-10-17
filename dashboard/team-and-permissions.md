@@ -1,6 +1,6 @@
 # Team and Permissions
 
-**Last verified:** 2026-10-15 8:30pm (removing a member removes their roles; a new invitation gives only its own roles). Earlier 2026-10-15 7:59pm (added Builder Access (Page Editor, Widget Editor, Custom Code) and when a permission change takes effect). Earlier 2026-09-24 10:51am (added Organizing Teams — walked drag, Move to…, Move Up / Down and the Parent team picker end to end)
+**Last verified:** 2026-10-17 9:23am (Custom Code also covers Settings → Custom Code and a page's Custom code section). Earlier 2026-10-15 8:30pm (removing a member removes their roles; a new invitation gives only its own roles). Earlier 2026-10-15 7:59pm (added Builder Access (Page Editor, Widget Editor, Custom Code) and when a permission change takes effect). Earlier 2026-09-24 10:51am (added Organizing Teams — walked drag, Move to…, Move Up / Down and the Parent team picker end to end)
 
 WebNesting lets you invite other people to help manage your website. You control exactly what each person can see and do by assigning them roles with specific permissions.
 
@@ -224,7 +224,7 @@ When you pick a site, the matrix has a **Builder Access** group. It sets what a 
 |-----|------------------|
 | Page Editor | Edit pages and layouts in the Web Builder. |
 | Widget Editor | Create and edit widgets in the Widget Builder. |
-| Custom Code | Add or change code in an HTML component. This code runs for every visitor to your site, so give it only to people you trust. |
+| Custom Code | Add or change code in an HTML component, in **Settings → Custom Code** and in a page's **Custom code** section. This code runs for every visitor to your site, so give it only to people you trust. With **Read** only, a person sees that code but cannot change it. |
 
 Admins have **Custom Code** on every site. Members and new roles you create do not, until you check **Edit** on the **Custom Code** row. Site owners always have it. To give one person Custom Code without changing their role, use a member override (below).
 
