@@ -1,6 +1,6 @@
 # Setting Up Site Navigation
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-10-17 5:23pm
 
 Navigation is how visitors find their way around your website. Good navigation helps people quickly get to the pages they need, whether they are browsing on a desktop or a phone. This guide covers how navigation works in WebNesting, how to control which pages appear in your menus, and tips for creating a clear, easy-to-use navigation structure.
 
@@ -155,7 +155,7 @@ Visitors tend to notice and click on the first and last items in a navigation me
 
 ### Mobile Navigation
 
-On mobile devices, your navigation menu automatically collapses into a hamburger menu (three horizontal lines). Visitors tap the icon to open the menu. Use the responsive preview in the builder to check that your menus are easy to open and read on all screen sizes.
+On mobile devices, your navigation menu automatically collapses into a hamburger menu (three horizontal lines). Visitors tap the icon to open the menu. Keyboard visitors press Tab to reach the icon, which shows an outline, and press Space to open the menu. Use the responsive preview in the builder to check that your menus are easy to open and read on all screen sizes.
 
 ### Active Page Highlighting
 

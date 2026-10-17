@@ -1,6 +1,6 @@
 # Making Your Site Accessible
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-10-17 5:23pm
 
 Accessibility means making sure everyone can use your website, regardless of how they browse the web. Some visitors use screen readers, some navigate with a keyboard instead of a mouse, and some have difficulty seeing certain colors. This guide explains what accessibility is, why it matters, and how you can make your WebNesting site welcoming to all visitors.
 
@@ -150,7 +150,7 @@ Not every visitor uses a mouse. Some people navigate websites entirely with thei
 - **Avoid using styled text as a fake button.** If something looks like a button but is really just bold, colored text, keyboard users will not be able to reach it or click it. Always use a real Button component for clickable actions.
 - **Test it yourself.** Open your published site in a browser and try pressing the Tab key repeatedly. You should be able to reach every link, button, and form field on the page. If you cannot, something may need to be adjusted.
 
-> **Tip:** When you press Tab and move to an element, you should see a visible outline or highlight around it. This is called a focus indicator, and it shows keyboard users where they are on the page.
+> **Tip:** When you press Tab and move to an element, you should see a visible outline or highlight around it. This is called a focus indicator, and it shows keyboard users where they are on the page. Every built-in theme draws one in its main color.
 
 ---
 
