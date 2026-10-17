@@ -1,6 +1,6 @@
 # Custom Widgets
 
-**Last verified:** 2026-10-17 8:37am (a new widget needs the Widget Builder on). Earlier 2026-10-14 1:09pm
+**Last verified:** 2026-10-17 8:37am
 
 Widgets are reusable content blocks that you create once and use across multiple pages on your site. Instead of rebuilding the same section over and over, you build it once as a widget, and then place it wherever you need it.
 

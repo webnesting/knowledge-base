@@ -1,6 +1,6 @@
 # Custom Data Tables
 
-**Last verified:** 2026-10-14 2:54pm (field names may hold numbers). Earlier 2026-08-31 12:10pm
+**Last verified:** 2026-10-14 2:54pm
 
 Custom data tables let you store and organize any kind of information on your website. Think of them like spreadsheets -- you create a table, set up columns for the information you want to track, and then add rows of data. That data can then be displayed on your website however you like.
 

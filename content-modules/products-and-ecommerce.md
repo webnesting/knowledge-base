@@ -1,6 +1,6 @@
 # Products and E-Commerce
 
-**Last verified:** 2026-10-03 1:34am (online checkout is not available yet: no purchase button). Earlier 2026-09-28 12:18am (turning on now shows a two-step cost confirmation, not a one-click Enable). Earlier 2026-09-27 7:49pm (noted Store grants 10 free pages while on)
+**Last verified:** 2026-10-03 1:34am
 
 The E-Commerce module turns your WebNesting website into an online store. You can list products, manage orders, and give your customers a place to browse and buy -- all from the same dashboard you use to manage the rest of your site.
 

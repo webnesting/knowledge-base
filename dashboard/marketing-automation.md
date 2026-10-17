@@ -1,6 +1,6 @@
 # Marketing Automations
 
-**Last verified:** 2026-10-14 2:30pm (actions can be added by click or the keyboard). Earlier 2026-10-13 6:01pm (the Workflow tab names each step's template, tag or list). Earlier 2026-10-13 4:50pm (create steps use the real labels; a new automation opens). Earlier 2026-09-26 6:59pm (added "While Marketing Is Turned Off"). Earlier 2026-09-22 11:43pm
+**Last verified:** 2026-10-14 2:30pm
 
 Marketing automations let you create set-it-and-forget-it workflows that send emails, update contacts, and perform actions automatically when something happens. Instead of manually sending a welcome email every time someone signs up, or remembering to tag contacts after an event, you build the workflow once and let it run on its own.
 

@@ -1,6 +1,6 @@
 # Creating Your Account
 
-**Last verified:** 2026-10-11 11:58pm (promotion code at sign-up). Earlier 2026-09-28 10:05pm
+**Last verified:** 2026-10-11 11:58pm
 
 Welcome to WebNesting! Getting started takes just a few minutes. This guide walks you through creating your account and getting ready to build your first website.
 

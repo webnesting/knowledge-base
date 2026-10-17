@@ -1,6 +1,6 @@
 # Articles and Blog Posts
 
-**Last verified:** 2026-10-17 10:53am (Custom code section). Earlier 2026-09-28 12:18am (turning on now shows a two-step cost confirmation, not a one-click Enable). Earlier 2026-09-27 7:49pm (noted Articles grants 10 free pages while on)
+**Last verified:** 2026-10-17 10:53am
 
 The Articles module gives your website a full blog and news section. Use it to share company updates, how-to guides, industry news, or anything else you want to write about. Articles are one of the best ways to keep your website fresh and attract new visitors.
 

@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-10-16 12:29am (HTML component: Preview with code, what the code does, leaving the code box with the keyboard). Earlier 2026-10-15 9:16pm (HTML component: the new code card wording). Earlier 2026-10-15 7:59pm (HTML component: who can change the code, the read-only and "Saving the block…" states, copy and paste). Earlier 2026-10-01 3:14pm
+**Last verified:** 2026-10-16 12:29am
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 

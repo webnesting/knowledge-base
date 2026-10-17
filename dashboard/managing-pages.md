@@ -1,6 +1,6 @@
 # Managing Pages
 
-**Last verified:** 2026-10-17 2:59pm (Security reports for one page). Earlier 2026-10-17 1:15pm (CSS for this page). Earlier 2026-10-17 10:53am (Custom code on articles and other page items). Earlier 2026-10-17 9:23am (added Custom Code for One Page). Earlier 2026-10-17 8:37am
+**Last verified:** 2026-10-17 2:59pm
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 

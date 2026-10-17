@@ -1,6 +1,6 @@
 # SEO Best Practices for Your Website
 
-**Last verified:** 2026-10-17 9:23am (a Search Console verification tag goes in Settings → Custom Code). Earlier 2026-08-31 12:10pm
+**Last verified:** 2026-10-17 9:23am
 
 Search engine optimization (SEO) is one of the most powerful ways to bring visitors to your website. This guide covers practical, easy-to-follow steps you can take right inside WebNesting to help your site show up in Google and other search engines. No technical background required -- just a willingness to put in a little effort on each page you create.
 

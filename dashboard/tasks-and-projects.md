@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-10-14 2:54pm (project fields: **+ Add Field** and **Create Field**). Earlier 2026-10-14 1:09pm (button names in Title Case: **Start Timer**, **+ Link Task**, **Edit in Builder** and others). Earlier 2026-10-14 2:19am (archive a project; Esc cancels a milestone edit). Earlier 2026-10-14 1:31am (Restore on an archived or completed project). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-26 6:59pm (added "Turning Tasks Off"). Earlier 2026-09-24 9:21am
+**Last verified:** 2026-10-14 2:54pm
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 

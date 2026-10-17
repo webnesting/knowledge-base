@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-10-17 2:59pm (Security reports and Enforce). Earlier 2026-10-17 1:15pm (Your own CSS). Earlier 2026-10-17 9:23am (added Custom Code; the SEO "Extra code for every page's <head>" setting moved there). Earlier 2026-09-25 10:13am
+**Last verified:** 2026-10-17 2:59pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 

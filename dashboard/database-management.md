@@ -1,6 +1,6 @@
 # Database Tables
 
-**Last verified:** 2026-10-14 2:54pm (field names may hold numbers). Earlier 2026-09-08 6:43pm
+**Last verified:** 2026-10-14 2:54pm
 
 The **Database Tables** section (in your site menu, under **Settings**) is where you define the structure of your own custom content types. Think of it as creating a spreadsheet -- you choose what columns it has, what kind of information each column holds, and how different tables relate to each other.
 

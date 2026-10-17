@@ -1,6 +1,6 @@
 # Team and Permissions
 
-**Last verified:** 2026-10-17 9:23am (Custom Code also covers Settings → Custom Code and a page's Custom code section). Earlier 2026-10-15 8:30pm (removing a member removes their roles; a new invitation gives only its own roles). Earlier 2026-10-15 7:59pm (added Builder Access (Page Editor, Widget Editor, Custom Code) and when a permission change takes effect). Earlier 2026-09-24 10:51am (added Organizing Teams — walked drag, Move to…, Move Up / Down and the Parent team picker end to end)
+**Last verified:** 2026-10-17 9:23am
 
 WebNesting lets you invite other people to help manage your website. You control exactly what each person can see and do by assigning them roles with specific permissions.
 

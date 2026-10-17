@@ -1,6 +1,6 @@
 # Contacts Management
 
-**Last verified:** 2026-10-14 2:54pm (new lists are manual; segment rows; the custom field steps). Earlier 2026-10-14 2:19pm (the import picks a file with **Choose CSV File**). Earlier 2026-10-14 1:31am (the Edit form has a Company picker). Earlier 2026-10-13 6:01pm (the Tags and Lists panels say when there is nothing left to add). Earlier 2026-10-13 4:50pm (the × on tag and list chips; + Add Company opens the new company). Earlier 2026-10-13 3:39pm (the New Tag color starts grey). Earlier 2026-10-13 3:01pm (tag steps match the Tags page; the Tags panel links there when there are no tags; the Unsubscribed list shows when). Earlier 2026-10-13 2:05pm (a list the contact unsubscribed from is marked Unsubscribed on their page). Earlier 2026-10-13 1:29pm (a complaint counts under Marked as spam). Earlier 2026-10-13 1:25pm (a spam complaint sets Unsubscribed; Activity shows bounces and spam). Earlier 2026-10-13 1:09pm (Bounced is set by WebNesting, not picked). Earlier 2026-10-03 1:21pm
+**Last verified:** 2026-10-14 2:54pm
 
 Contacts are your audience database in WebNesting. Every person who submits a form on your website, signs up for your newsletter, or is imported from a spreadsheet becomes a contact. Use the Contacts system to keep track of who your audience is, organize them into lists, and connect them to your marketing, forms, and support tools.
 

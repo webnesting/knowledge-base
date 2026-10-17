@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-10-14 2:19pm (BIMI logo step names **Upload Logo (SVG)**). Earlier 2026-10-14 2:14pm (the hosted address is `support@yourworkspace.webnesting.email`; **+ Add Inbox**). Earlier 2026-10-14 1:09pm (button names in Title Case: **Start Timer**, **+ Link Task**, **Edit in Builder** and others). Earlier 2026-10-14 12:58pm (the widget is **Tickets by Status**). Earlier 2026-09-28 8:52pm (domain verification now includes a domain-ownership proof DNS record). Earlier 2026-09-28 7:24pm (support address must be your own or a verified domain — enforced, not just recommended). Earlier 2026-09-27 8:02pm (turning off warns: data deleted after 30 days, free allowance stops). Earlier 2026-09-26 6:59pm (added "Turning Helpdesk Off"). Earlier 2026-09-25 5:21pm
+**Last verified:** 2026-10-14 2:19pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 

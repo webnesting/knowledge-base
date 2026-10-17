@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-15 9:39pm (Fine-Tuning Values with Your Keyboard; sections stay open; spacing presets 0 to 32). Earlier 2026-08-31 12:10pm
+**Last verified:** 2026-10-15 9:39pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
