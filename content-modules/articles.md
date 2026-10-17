@@ -1,6 +1,6 @@
 # Articles and Blog Posts
 
-**Last verified:** 2026-09-28 12:18am (turning on now shows a two-step cost confirmation, not a one-click Enable). Earlier 2026-09-27 7:49pm (noted Articles grants 10 free pages while on)
+**Last verified:** 2026-10-17 10:53am (Custom code section). Earlier 2026-09-28 12:18am (turning on now shows a two-step cost confirmation, not a one-click Enable). Earlier 2026-09-27 7:49pm (noted Articles grants 10 free pages while on)
 
 The Articles module gives your website a full blog and news section. Use it to share company updates, how-to guides, industry news, or anything else you want to write about. Articles are one of the best ways to keep your website fresh and attract new visitors.
 
@@ -124,6 +124,8 @@ Need to fix a typo or update your content? Editing is easy.
 5. Save your changes.
 
 Your updates will appear on your live website right away (if the article is published).
+
+To add code from another service to one article, such as a booking widget, use the **Custom code** section at the bottom of the article's editor. It needs the **Custom Code** permission, and the code runs on that article only. See [Custom Code for One Page](../dashboard/managing-pages.md#custom-code-for-one-page).
 
 ---
 

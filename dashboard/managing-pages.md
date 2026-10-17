@@ -1,6 +1,6 @@
 # Managing Pages
 
-**Last verified:** 2026-10-17 9:23am (added Custom Code for One Page). Earlier 2026-10-17 8:37am
+**Last verified:** 2026-10-17 10:53am (Custom code on articles and other page items). Earlier 2026-10-17 9:23am (added Custom Code for One Page). Earlier 2026-10-17 8:37am
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 
@@ -60,7 +60,7 @@ To edit the actual content of the page (text, images, sections), you will use th
 
 ### Custom Code for One Page
 
-A page's settings have a **Custom code** section for code that should run on that page only, such as a booking widget on your Contact page. It appears when you edit a page and have the **Custom Code** permission.
+A page's settings have a **Custom code** section for code that should run on that page only, such as a booking widget on your Contact page. It appears when you edit a page and have the **Custom Code** permission. It also appears when you edit an article or another item that has its own page, such as a Knowledge Base article, and it works the same way. The code runs on that item's own page. Save a new item first, because its page does not exist before that.
 
 1. Go to the **Pages** section.
 2. Click the page name to open its settings.
