@@ -1,6 +1,6 @@
 # Custom Widgets
 
-**Last verified:** 2026-10-14 1:09pm (button names in Title Case: **Start Timer**, **+ Link Task**, **Edit in Builder** and others). Earlier 2026-08-31 12:10pm
+**Last verified:** 2026-10-17 8:37am (a new widget needs the Widget Builder on). Earlier 2026-10-14 1:09pm
 
 Widgets are reusable content blocks that you create once and use across multiple pages on your site. Instead of rebuilding the same section over and over, you build it once as a widget, and then place it wherever you need it.
 
@@ -27,7 +27,7 @@ Widgets save you time and keep your site consistent.
 
 ## Enabling the Widget Builder
 
-The Widget Builder is an add-on feature. You may need to enable it before you can create and use widgets.
+The Widget Builder is an add-on feature. Turn it on before you create widgets. While it is off, the **New Widget** button and the **+** on **My Widgets** do not show.
 
 1. Go to your **Dashboard**.
 2. Open **Modules and Features** from the sidebar.

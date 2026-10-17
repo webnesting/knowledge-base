@@ -1,6 +1,6 @@
 # Managing Pages
 
-**Last verified:** 2026-09-06 4:12pm
+**Last verified:** 2026-10-17 8:37am
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 
@@ -170,6 +170,8 @@ Accidentally deleted a page? You may be able to bring it back.
 2. Find the page you want to restore.
 3. Click **Restore**.
 4. The page will return to your page list as a draft.
+
+To remove a page from the Trash for good, click **Permanently Delete** on its row instead. This cannot be undone.
 
 > **Tip:** Deleted pages are kept, not purged on a timer, so you can restore one long after you removed it. If you are unsure about deleting a page, consider switching it to draft status instead -- that hides it from visitors while keeping it in your normal page list.
 
