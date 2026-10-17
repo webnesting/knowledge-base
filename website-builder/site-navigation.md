@@ -1,6 +1,6 @@
 # Setting Up Site Navigation
 
-**Last verified:** 2026-10-17 5:23pm
+**Last verified:** 2026-10-17 5:56pm
 
 Navigation is how visitors find their way around your website. Good navigation helps people quickly get to the pages they need, whether they are browsing on a desktop or a phone. This guide covers how navigation works in WebNesting, how to control which pages appear in your menus, and tips for creating a clear, easy-to-use navigation structure.
 
@@ -86,6 +86,8 @@ When you create a child page under a parent, and both the parent and child pages
 
 For example, if you have a "Services" page with child pages called "Web Design," "Branding," and "Consulting," visitors will see "Services" in the header menu. When they hover over it, a dropdown will show the three child pages.
 
+Keyboard visitors press Tab to move through the menu. On a menu item that has a third-level menu, Tab also stops on its arrow: press Space to open or close that menu. A closed menu is skipped by Tab.
+
 ### Creating Child Pages
 
 To create a child page:
@@ -155,7 +157,7 @@ Visitors tend to notice and click on the first and last items in a navigation me
 
 ### Mobile Navigation
 
-On mobile devices, your navigation menu automatically collapses into a hamburger menu (three horizontal lines). Visitors tap the icon to open the menu. Keyboard visitors press Tab to reach the icon, which shows an outline, and press Space to open the menu. Use the responsive preview in the builder to check that your menus are easy to open and read on all screen sizes.
+On mobile devices, your navigation menu automatically collapses into a hamburger menu (three horizontal lines). Visitors tap the icon to open the menu. Keyboard visitors press Tab to reach the icon, which shows an outline, and press Space to open the menu. On a phone, a menu item with child pages has a small arrow beside it. Tap it to show the child pages, or reach it with Tab and press Space. Use the responsive preview in the builder to check that your menus are easy to open and read on all screen sizes.
 
 ### Active Page Highlighting
 
