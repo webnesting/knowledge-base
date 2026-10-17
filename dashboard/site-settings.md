@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-10-17 2:59pm
+**Last verified:** 2026-10-17 4:50pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -250,6 +250,28 @@ After the switch, a report seen while Enforce is on shows **Blocked**.
 **Go back.** Click **Switch Back to Report Only**. It takes one click and needs no confirm. Nothing is blocked after that.
 
 A page's settings show the reports for that page only. You set Report only or Enforce for the whole site, in **Settings → Custom Code**.
+
+### Version history and restoring an earlier version
+
+Custom Code keeps the last 50 versions of each place: the top of every page, the bottom of every page, your CSS, and the same places in each page's settings. Under each place, **Version history** shows them as dated tiles, newest first.
+
+- A **Live** tag marks the version your live site runs. A **Your draft** tag marks the version your draft holds. When they are the same version, it says **Live · your draft**.
+- Click a tile to see what it did (saved a draft, published, or restored an earlier version), who did it and when, the lines it changed, and its code.
+- **The code before history started** is the code a place held before its first recorded change. It has no author.
+- After 50 versions, each new change deletes the oldest one kept. The history says so when a place has 50.
+
+To restore an earlier version:
+
+1. Click the version's tile.
+2. Click **Restore**.
+3. Read the review. It says where the code lands and what changes in your draft, such as an outside script that goes away or a verification tag that comes back.
+4. Click **Restore to Draft**.
+
+A restore changes your draft only. Your live site keeps what it runs until you click **Publish**. A restore adds a new version, so you can always go back. If you have typed changes in a place that you have not saved, save them or undo them first. Restore stays off until you do.
+
+The security mode has its own history under **Report only or Enforce**. It shows each switch. To change the mode, use the button above it.
+
+People who may only view custom code can see the history but cannot restore. People without the Custom Code permission do not see this page. In the Web Builder, they see "Only people with the Custom Code permission can see this code's history." under an HTML component's code.
 
 ### Who can change custom code
 

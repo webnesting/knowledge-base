@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-10-16 12:29am
+**Last verified:** 2026-10-17 4:50pm
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -394,6 +394,10 @@ Code in an HTML component runs for every visitor to your site, so only team memb
 - If you can change the code, the link "Manage who has it in Permissions" under the code box opens the page where you choose who else has the permission.
 - When you copy and paste an HTML component, or duplicate it, the copy gets the code only if you have the permission. Otherwise the copy is empty.
 - Changing another block into an HTML component starts it empty.
+
+#### Earlier versions of the code
+
+Under the code box, **Version history** keeps the last 50 versions of the component's code, newest first. Click a version to see who changed it, when, and its code. To put an earlier version back, click **Restore**, read the review, then click **Restore to Draft**. The component gets the code from that version. It goes live the next time you publish the page. Only people with the Custom Code permission can restore a version.
 
 > **Tip:** If an embedded element does not look right, check that you copied the complete embed code. Most embed codes start with `<iframe` or `<script` -- make sure you have the entire snippet.
 
