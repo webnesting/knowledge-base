@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-10-17 4:50pm
+**Last verified:** 2026-10-18 2:03pm
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -367,7 +367,8 @@ You can also embed videos using the **HTML** component by pasting an embed code 
 The HTML component is a powerful tool for adding third-party content to your page. Any service that provides an embed code can be added using an HTML component.
 
 1. Add an **HTML** component from the **Content** group in the **Add** panel.
-2. Paste the embed code provided by the third-party service.
+2. Double-click the component on the page. A code editor opens over it.
+3. Paste the embed code provided by the third-party service, then click **Save**.
 
 Common uses for the HTML component include:
 
@@ -379,25 +380,31 @@ Common uses for the HTML component include:
 
 To get an embed code, visit the third-party service and look for a "Share" or "Embed" option. Copy the code they provide and paste it directly into the HTML component.
 
-For your safety, code in this component doesn't run while you're editing or previewing your page. You'll see a card that says "Custom code is hidden here for safety — it still runs on your published site." The card also lists what the code does, such as "Loads 1 outside script from widgets.example.com". The code runs as normal on your published site.
+The code runs live in the editor, so the component looks the way it will on your published site, at the right height. It runs in a safe frame of its own, so it can't reach your account while you edit. The preview and **Compare to published** show it the same way.
 
-To see your code run before you publish, click **Preview with code** on the card, or in the component settings. The preview opens over the block, at its own width, in an isolated frame. A few things work differently there: scripts that read cookies or saved data stop with an error, and visit counts don't run. Click **What works differently here** under the preview to see the list. Press **Esc** or click **Close preview** to close it. Anyone who can open the builder can preview, including team members who can't change the code.
+To change the code, double-click the component, or select it and click **Edit Code** (the **</>** button) on its toolbar. Click **Save** (or press **Ctrl+S**, **Cmd+S** on a Mac) and the component shows the new code at once. Click **Cancel**, or press **Esc** twice, to close the editor. If you changed something, you're asked first whether to discard it.
+
+Select the component and click **?** on its toolbar to see:
+
+- What the code does, such as "Loads 1 outside script from widgets.example.com".
+- What can look different in the editor than on your site: rules for screen width measure the component, not the whole window; a widget pinned to a corner of the window shows in a corner of the component; and a pop-up from the code stays inside the component.
+- Who can change the code.
+
+**Height.** The component grows to fit its code. If a widget keeps growing, the editor stops it at the height of your screen. To set the height yourself, open the component's settings and set **Height** to **Fixed**, then enter the height in pixels.
 
 #### Who can change the code
 
 Code in an HTML component runs for every visitor to your site, so only team members with the **Custom Code** permission can add or change it. Site owners and Admins have it. Members do not, until you give it to them in **Settings → Members & Permissions**, under **Builder Access** (see [Team and Permissions](../dashboard/team-and-permissions.md#builder-access)).
 
-- Without the permission, you can still add, move and style an HTML component. The code box shows the code but you cannot change it, and it says: "Only people with the Custom Code permission can change this code. Ask your site owner."
-- A new HTML component saves first. The code box says "Saving the block…" for a moment, then you can type.
-- The code saves when you click out of the code box.
-- In the code box, the **Tab** key adds an indent. To leave the code box with the keyboard, press **Esc**, then **Tab**.
-- If you can change the code, the link "Manage who has it in Permissions" under the code box opens the page where you choose who else has the permission.
+- Without the permission, you can still add, move and style an HTML component, and you see its code run. There is no **Edit Code** button, and a double-click says: "Only people with the Custom Code permission can change this code."
+- In the code editor, the **Tab** key adds an indent. To leave the editor with the keyboard, press **Esc**, then **Tab**. Press **Esc** twice to close the editor.
+- If you can change the code, the link "Manage who has it in Permissions" under **?** opens the page where you choose who else has the permission.
 - When you copy and paste an HTML component, or duplicate it, the copy gets the code only if you have the permission. Otherwise the copy is empty.
 - Changing another block into an HTML component starts it empty.
 
 #### Earlier versions of the code
 
-Under the code box, **Version history** keeps the last 50 versions of the component's code, newest first. Click a version to see who changed it, when, and its code. To put an earlier version back, click **Restore**, read the review, then click **Restore to Draft**. The component gets the code from that version. It goes live the next time you publish the page. Only people with the Custom Code permission can restore a version.
+In the code editor, **History** keeps the last 50 versions of the component's code, newest first. Click a version to see who changed it, when, and its code. To put an earlier version back, click **Restore**, read the review, then click **Restore to Draft**. The component gets the code from that version. It goes live the next time you publish the page. Only people with the Custom Code permission can restore a version.
 
 > **Tip:** If an embedded element does not look right, check that you copied the complete embed code. Most embed codes start with `<iframe` or `<script` -- make sure you have the entire snippet.
 

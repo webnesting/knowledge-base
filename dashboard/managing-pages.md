@@ -1,6 +1,6 @@
 # Managing Pages
 
-**Last verified:** 2026-10-18 1:00pm
+**Last verified:** 2026-10-18 1:46pm
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 
@@ -78,7 +78,7 @@ Under each place, a line says in plain words what the code does, such as which o
 
 Without permission to change the code, the button reads **View Custom Code**: you can see the code and preview it, but not change it.
 
-Your site's code runs first, then the page's own code. To change your site's code, use the link at the top of the window. Verification tags prove the whole site is yours, so they belong in your site's code, not on one page. See [Site Settings](site-settings.md#custom-code).
+Your site's code runs first, then the page's own code. To change your site's code, use the link at the top of the window. Verification tags prove the whole site is yours, so they belong in your site's code, not on one page. See [Code from Other Services](site-settings.md#code-from-other-services).
 
 Each place has a **History** link. It shows the place's earlier versions in the window, with **Back to the Code** to return. **Load into Editor** puts a version's code back in the editor without publishing it, so you can preview it first. Click **Publish** to put it live.
 

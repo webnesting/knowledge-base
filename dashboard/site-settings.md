@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-10-18 1:00pm
+**Last verified:** 2026-10-18 1:46pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -147,93 +147,89 @@ WebNesting also has its own privacy-friendly visitor stats -- no Google account 
 
 ---
 
-## Custom Code
+## Code from Other Services
 
-**Custom Code** adds code from other services to your live site: a verification tag from Google Search Console, Pinterest or Bing, an analytics or ad pixel, or a chat or booking widget. It also holds your own CSS, which changes how your pages look. To open it, go to the site menu, open **Settings** and click **Custom Code**.
+**Code from Other Services** adds code that other services give you to your live site: a verification tag from Google Search Console, Pinterest or Bing, an analytics or ad pixel, or a chat or booking widget. To open it, go to **Site Settings**, find **Connections**, and click **Code from Other Services**.
 
-> **Warning:** This code runs for every visitor to your live site. Paste only code from a service you trust.
-
-The code never runs while you edit your site. It runs on your published pages only. To see it run before it goes live, use **Preview with code**.
+The code never runs while you edit your site. It runs on your published pages only. To see it run before it goes live, use **Preview with Code**.
 
 ### Adding code from a service
 
-1. Open **Settings → Custom Code**.
-2. Click **+ Add Code from a Service**. (On a site with no code yet, this step is already open.)
-3. Pick what you are adding: **A site verification tag**, **Analytics or an ad pixel**, **A chat or booking widget**, or **Something else**.
-4. For **Something else**, pick where the service's instructions say to put it.
-5. Paste the code the service gave you.
-6. Read **What this code does**. It says, in plain words, what the code loads and sends. Nothing runs while you paste.
-7. Click **Add to Draft**.
-8. Click **Publish** to put the code on your live site.
-
-The page outline shows where each kind of code goes:
+The page has two places:
 
 - **Top of every page** -- code that runs before the page shows. Verification tags, analytics and ad pixels go here. A service may call this "the `<head>`".
 - **Bottom of every page** -- code that runs after the page's content. Chat and booking widgets go here. A service may call this "before `</body>`".
 
-If you put a verification tag at the bottom, the page warns you, because services look for it at the top. Click **Put It at the Top** to move it.
+1. Open **Site Settings → Code from Other Services**.
+2. Paste the code the service gave you into **Top of every page** or **Bottom of every page**.
+3. Read the lines under the code. They say in plain words what the code loads and sends. Nothing runs while you paste.
+4. Optional: click **Preview with Code** to see your Homepage run the code in a safe preview. Click **Close preview** to go back.
+5. Click **Publish**.
+
+The code has no draft: **Publish** puts it on your live site at once. Each place then shows when, and by whom, it was published. A place that you changed and did not publish yet says **Not published yet**. Each place can hold up to 256 KB of code.
+
+To remove code, delete it from the box, then click **Publish**.
+
+A verification tag at the bottom is refused when you publish, because services look for it at the top. Put it in **Top of every page**.
+
+Code in **SEO Defaults → Extra code for every page's `<head>`** (see [above](#extra-code-for-every-pages-head)) runs first, before the code at the top of every page.
 
 > **Tip:** Showing a map or a form? Use the Google Maps or Form component in the Web Builder instead. They need no code.
 
-### Save Draft and Publish
+Using the keyboard? After **Publish**, focus moves to the line that says what is live. While **Publish** works, focus stays on it.
 
-Your changes stay in a draft until you publish them.
+If you leave the page with code you did not publish, it asks first.
 
-- **Save Draft** keeps your changes without changing your live site.
-- **Publish** puts the code at the top and bottom of every page from the draft on your live site. Your CSS has its own **Save Draft** and **Publish** buttons (see [Your own CSS](#your-own-css)).
+### Version history
 
-Using the keyboard? After **Save Draft**, focus moves to **Publish**, so you can press **Enter** to publish. After **Publish**, focus moves to the line that says what is live. While a button works, focus stays on it.
+Each place keeps its last 50 versions. Click **History** beside a place to see them in a side panel, newest first.
 
-Each place shows a badge: **Live**, **Not live yet**, **Removed in your draft** or **No code**. A line above the places says when the draft was saved, and when and by whom the live code was published. Each place can hold up to 256 KB of code.
+- A **Live** tag marks the version your live site runs.
+- Click a version to see what it did, who did it and when, the lines it changed, and its code.
+- **The code before history started** is the code a place held before its first recorded change. It has no author.
+- After 50 versions, each new change deletes the oldest one kept.
 
-### Editing the code by hand
+To bring an earlier version back:
 
-Click **Advanced: edit the code by hand** to open a code box for each place. Use it to change or remove code. To remove code, delete it from the box, then click **Publish**.
+1. Click **History** beside the place.
+2. Click the version.
+3. Click **Load into Editor**, read the review, then click **Load into Editor** again.
+4. The panel closes, and the code is in the editor. Nothing is saved yet.
+5. Click **Preview with Code** to check it, then click **Publish**.
 
-### Previewing your code
-
-Click **Preview with code** to see your Homepage run with the code in the boxes now, before you save it. The preview opens in place of the settings. Click **Close preview** to go back.
-
-### Your own CSS
-
-Under the code, **CSS for every page** holds your own style sheet. Use it to change how your pages look, for example a color, a font size or the spacing of a list.
-
-1. Open **Settings → Custom Code**.
-2. Scroll to **CSS for every page**.
-3. Type or paste your CSS in **Your CSS**. Paste the rules only, without a `<style>` tag.
-4. Click **Save Draft**.
-5. Click **Publish** to put it on your live site.
-
-Your CSS applies in the Web Builder too, so you see the change as you work. The builder shows your draft; your live site shows what you published. Publishing your CSS doesn't publish the code at the top or bottom of your pages, and publishing that code doesn't publish your CSS.
-
-A badge shows **Live**, **Not live yet**, **Removed in your draft** or **No CSS**, and a line says when and by whom the live CSS was published. A sheet can be up to 256 KB. Over that, the page says how many bytes to remove, and you can't save until it is smaller.
-
-**Parts that are removed when you save.** Some CSS can load or run code, so it is removed when you save:
-
-- `@import` -- it loads another style sheet from outside this field. Link a web font with your theme or the Web Builder instead.
-- `</style>` -- it would end the style sheet early.
-- `expression(`, `behavior:` and `-moz-binding:` -- they run script in old browsers.
-- A `url(` that is not a web address (`https://`, `http://` or a path on your site) or an image (`data:image/`), such as `javascript:`. Only the address is removed; the rest of the rule stays.
-
-Before you save, the page shows each part that will be removed, crossed out where it is in your CSS, with the reason. After you save, the same list stays on the page, under "Cleaned on save". Your other rules are saved as you typed them.
+If you have typed changes in a place that you did not publish, publish them or undo them first. **Load into Editor** stays off until you do.
 
 ### Code for one page only
 
-A page can have its own code too. Open the page in **Pages**, scroll to its **Custom Code** group after **SEO**, then click **Edit Custom Code**. It works the same way. Your site's code runs first, then the page's own code. See [Managing Pages](managing-pages.md#custom-code-for-one-page).
+A page can have its own code too. Open the page in **Pages**, scroll to its **Custom Code** group after **SEO**, then click **Edit Custom Code**. Your site's code runs first, then the page's own code. See [Managing Pages](managing-pages.md#custom-code-for-one-page).
 
-### Security reports and Enforce
+### Who can change this code
 
-Your live site has a security policy. It says which scripts may run on your pages. Scripts you add in Custom Code, and the scripts WebNesting adds, are allowed. Code the policy doesn't allow is code inside an HTML attribute, such as `onclick=`, code that builds more code from text (`eval`), and a script added to a page some other way.
+Only people with the **Custom Code** permission can add or change this code. Site owners and Admins have it. People who may only view it see the code and can preview it, but cannot change it. The page says: "Only people with the Custom Code permission can change this code. Ask your site owner." People without the permission do not see **Code from Other Services** in Site Settings. To give the permission, see [Team and Permissions](team-and-permissions.md#builder-access).
 
-At first the policy is **Report only**. Nothing is blocked. When a visitor's browser finds something the policy would block, it sends a report.
+---
 
-**Read the reports.**
+## Security Policy
 
-1. Open **Settings → Custom Code**.
-2. Scroll to **Security reports**.
-3. Click a report to see how to fix it.
+Your live site has a security policy. It says which scripts may run on your pages. Scripts you add in **Code from Other Services**, and the scripts WebNesting adds, are allowed. The policy does not allow code inside an HTML attribute, such as `onclick`, code that builds more code from text, or a script added to a page some other way.
 
-Each report says what would be blocked, on which page, where it came from, and how often. The list shows the last 7 days. It keeps the 200 most recent reports. Some reports are noise: a browser extension can cause one.
+To open it, go to **Site Settings**, find **Advanced**, and click **Security Policy**. Most sites never need to change it.
+
+### What the page says
+
+The first line says what the policy would block, in plain words:
+
+- "Nothing on your site would be blocked."
+- "3 things on your site would be blocked if you turned on Enforce."
+- With Enforce on: "Enforce is on. 2 things were blocked in the last 7 days."
+
+Under it, **Now** shows the mode: **Report only** (nothing is blocked; visitors' browsers tell you what would be blocked) or **Enforce** (scripts the policy doesn't allow are blocked on your live site). At first the mode is **Report only**.
+
+### Seeing the details
+
+Click **See Details**. Each line says what would be blocked and on which page, such as "Code inside an onclick attribute on /contact", where it came from, and how often. The list shows the last 7 days and keeps the 200 most recent reports. Some reports are noise: a browser extension can cause one.
+
+Click a line to see how to fix it. The technical names a developer needs are at the bottom, under **For a developer**.
 
 **Fix code inside an attribute.** Move the code into a script, and give the element an `id`. For example, change this:
 
@@ -252,10 +248,10 @@ to this:
 </script>
 ```
 
-**Switch to Enforce.** With **Enforce**, scripts the policy doesn't allow are blocked on your live site.
+### Switching to Enforce
 
-1. Read the **Security reports** first. The switch is offered once you have looked at them.
-2. Under **Report only or Enforce**, click **Switch to Enforce…**.
+1. Click **See Details** and look at what would be blocked. **Switch to Enforce…** is offered after that.
+2. Click **Switch to Enforce…**.
 3. Read the list of scripts that will stop running, grouped by page.
 4. Click **Switch to Enforce**.
 
@@ -263,35 +259,9 @@ After the switch, a report seen while Enforce is on shows **Blocked**.
 
 **Go back.** Click **Switch Back to Report Only**. It takes one click and needs no confirm. Nothing is blocked after that.
 
-A page's settings show the reports for that page only. You set Report only or Enforce for the whole site, in **Settings → Custom Code**.
+Click **History** beside **Now** to see each switch: who made it and when.
 
-### Version history and restoring an earlier version
-
-Custom Code keeps the last 50 versions of each place: the top of every page, the bottom of every page, your CSS, and the same places in each page's settings. Under each place, **Version history** shows them as dated tiles, newest first.
-
-- A **Live** tag marks the version your live site runs. A **Your draft** tag marks the version your draft holds. When they are the same version, it says **Live · your draft**.
-- Click a tile to see what it did (saved a draft, published, or restored an earlier version), who did it and when, the lines it changed, and its code.
-- **The code before history started** is the code a place held before its first recorded change. It has no author.
-- After 50 versions, each new change deletes the oldest one kept. The history says so when a place has 50.
-
-To restore an earlier version:
-
-1. Click the version's tile.
-2. Click **Restore**.
-3. Read the review. It says where the code lands and what changes in your draft, such as an outside script that goes away or a verification tag that comes back.
-4. Click **Restore to Draft**.
-
-After the restore, focus moves to the new version's tile. A restore changes your draft only. Your live site keeps what it runs until you click **Publish**. A restore adds a new version, so you can always go back. If you have typed changes in a place that you have not saved, save them or undo them first. Restore stays off until you do.
-
-The security mode has its own history under **Report only or Enforce**. It shows each switch. To change the mode, use the button above it.
-
-People who may only view custom code can see the history but cannot restore. People without the Custom Code permission do not see this page. In the Web Builder, they see "Only people with the Custom Code permission can see this code's history." under an HTML component's code.
-
-### Who can change custom code
-
-Only people with the **Custom Code** permission can add or change this code and CSS. Site owners and Admins have it. People who may only view it see the code and CSS but cannot change them, and the page says: "Only people with the Custom Code permission can change this code. Ask your site owner." To give the permission, see [Team and Permissions](team-and-permissions.md#builder-access).
-
-> **Note:** A verification tag can also go in **SEO Defaults → Extra code for every page's `<head>`** (see [above](#extra-code-for-every-pages-head)). Its code runs first, before the code here.
+Only people with the **Custom Code** permission can switch the mode. People who may only view it see the page, and the switch is off with the reason beside it. People without the permission do not see **Security Policy** in Site Settings.
 
 ---
 
@@ -410,9 +380,15 @@ Most modern sites use the non-www version. Choose whichever you prefer and stick
 
 If you choose **With "www."** or **Without "www."**, WebNesting automatically redirects visitors who type the other form, so no one lands on the wrong one.
 
+### Site Messages and HTML Blocks
+
+**Site Messages** (under **Content**) holds your header and footer text and your maintenance message. **HTML Blocks** (under **Advanced**) holds named blocks of formatted text that your theme shows by name. Both keep your formatting: headings, bold and italic text, lists, tables, links, images and embedded videos or maps.
+
+Code does not run there. If you paste a script, or a tag with code inside it, WebNesting removes the code when you save, and your visitors never run it. To add code from another service, such as a chat widget or a tracking tag, use **Code from Other Services**.
+
 ### All Settings (power-user view)
 
-**All Settings**, under **Advanced**, lists every raw setting on your site in one place. Values there are saved exactly as typed, with no checks -- so if a setting has its own page (SEO Defaults, Site Images, Social, Google), edit it there instead. Use All Settings for the custom values you have added yourself -- the **Add your own setting** form at the bottom of the page is where you add them.
+**All Settings**, under **Advanced**, lists every raw setting on your site in one place. Values there are saved exactly as typed, with no checks, except that code in site messages and HTML blocks is removed -- so if a setting has its own page (SEO Defaults, Site Images, Social, Google), edit it there instead. Use All Settings for the custom values you have added yourself -- the **Add your own setting** form at the bottom of the page is where you add them.
 
 > **Tip:** After making changes to any settings, visit your live site in a new browser tab to confirm everything looks the way you expect.
 
