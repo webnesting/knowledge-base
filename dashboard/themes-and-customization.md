@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-10-18 12:02pm
+**Last verified:** 2026-10-18 2:39pm
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -106,7 +106,33 @@ To go back to the theme's own five colors, click **Reset to [theme name]'s Color
 
 ### Fonts
 
-The Fonts tab shows the heading and body fonts your theme uses. Choosing your own fonts is coming soon.
+The Fonts tab sets two fonts: the **Heading font** for titles and headings, and the **Body font** for paragraphs, menus and buttons. A sample under each list shows the font.
+
+**To pick a Google Font:**
+
+1. Click the **Heading font** or **Body font** list.
+2. Type part of a font's name. There are about 2,000 Google Fonts to choose from.
+3. Click the font. The preview shows it at once.
+
+The first time anyone picks a font, it can take a few seconds to add. If it can't be added, your theme keeps the font it had, and you can click **Try Again**.
+
+**Font pairs that work well** sets both fonts at once. Tap a pair to try it.
+
+> **Note:** We keep a copy of every font on WebNesting. Your visitors never load anything from Google, so your fonts load fast and your visitors' privacy is kept.
+
+**To upload your own font**, such as the one in your logo:
+
+1. Click **Upload a Font**, then **Choose a Font File**. Use a .woff2, .woff, .ttf or .otf file, up to 2 MB. A .woff2 file is usually the smallest.
+2. Check the **Font name**. If WebNesting read the weight and style from the file's name, check them too.
+3. Under **Use it for**, choose **Headings**, **Body text** or **Decide later**.
+4. Tick **I have the right to use this font on my website**. Most fonts you buy include this right. Check the license that came with your font.
+5. Click **Add Font**.
+
+Your uploaded fonts show under **Your fonts** at the top of both lists, and in the **Fonts** folder of your site's files.
+
+**When your fonts load** sets what visitors see in the moment before your fonts arrive. Click **Show Loading Options** to choose. The first choice, which shows text at once and then switches to your font, suits most sites.
+
+> **Tip:** Headings use your theme's heading font everywhere on your site. To give one heading a different font, select it in the Builder and set its font in the Style panel.
 
 ### Sizes and Shapes
 
@@ -117,6 +143,8 @@ Each slider moves through named steps:
 - **Space between things** -- gaps between columns, cards and blocks (Compact, Normal, Roomy).
 - **Corners** -- buttons, fields and cards (Square to Pill buttons).
 - **Shadows** -- under cards and buttons.
+
+**Scale text with screen size** makes headings a little smaller on phones, so long words fit. On a computer screen, your text sizes stay the same.
 
 ### Previewing Your Changes
 
