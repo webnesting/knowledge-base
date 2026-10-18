@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-18 3:26pm
+**Last verified:** 2026-10-18 5:47pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -65,6 +65,12 @@ You can change the background color and text color of most elements.
 2. In the Styler, find the **Typography** section.
 3. Click the color swatch next to **Color**.
 4. Pick your color from the color picker.
+
+### Using Your Theme's Colors
+
+Next to each color swatch is a **Theme token** menu. It lists the colors your theme already has, each with a plain name such as **Main color**, **Page background** or **Text on main-color buttons**. The names sit in groups: **Main colors**, **Made from your main colors**, **Messages** and **Grays and neutrals**. Type in the search box to find one.
+
+Pick a theme color instead of a color code. When you change the theme's colors later, every element that uses a theme color changes with it. A color a theme adds later shows up in the menu on its own.
 
 ### Color Contrast
 
