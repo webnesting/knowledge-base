@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-10-17 6:18pm
+**Last verified:** 2026-10-18 12:02pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -351,7 +351,7 @@ You can also add your own named images here with **Add** at the bottom of the pa
 
 ## Site Configuration
 
-These settings control foundational aspects of how your website works -- its name, description, business name, theme, visibility, and web address. They live on the **Site Configuration** page, under **Your site** in Site Settings.
+These settings control foundational aspects of how your website works -- its name, description, business name, visibility, and web address. They live on the **Site Configuration** page, under **Your site** in Site Settings.
 
 ### Launching Your Site (Visibility)
 
@@ -369,7 +369,7 @@ To take the site back down later, choose **Coming soon** and save. Either way, y
 
 ### Choosing a Theme
 
-**Theme** is a picker of the designs installed on WebNesting. Pick one and save; your site's colors and fonts are then customized on the **Themes** page (see [Themes and Customization](themes-and-customization.md)).
+Your theme has its own page now. The **Design** section of Site Configuration links to it: click **Change your theme in Appearance → Theme**. You can also open it from Site Settings: under **Appearance**, click **Theme**. There you can switch themes and make a theme's colors your own (see [Themes and Customization](themes-and-customization.md)).
 
 ### Secure (HTTPS) Addresses
 
