@@ -1,6 +1,6 @@
 # Website Builder Overview
 
-**Last verified:** 2026-10-18 12:29am
+**Last verified:** 2026-10-18 8:01am
 
 The Website Builder is where you design and create your web pages. It is a visual editor -- meaning you can see exactly how your page will look as you build it. No coding required.
 
@@ -148,7 +148,7 @@ If you or a teammate [connected an AI tool](../dashboard/connecting-ai-tools.md)
 - **The elements it is changing get an outline** while it works, so you can see where it is.
 - **Click the chip to see what it did.** The panel shows which page it is working on, how many elements it changed, and when its last change finished.
 - **Revert its last change.** Click the **Revert** button in the panel (it names the AI, for example "Revert Alex Rivera via Claude Opus 4's last change"). Everything that one change did goes back -- text, settings, styles, added and removed elements. Edits that you and your teammates made to other elements stay as they are. Changed your mind? Press Cmd+Z (Ctrl+Z on Windows) to bring the change back.
-- **Pause AI edits on a page.** Click **Pause AI edits on this page**. Every AI tool then stops changing that page, and anyone else in the Builder sees that it is paused and who paused it. The AI is told the page is paused, so it can tell the person using it. While the page is paused, the toolbar keeps a chip with a pause badge, even when no AI tool is working, so anyone who can edit the page can open it and click **Resume** to let AI tools edit the page again.
+- **Pause AI edits on a page.** Click **Pause AI edits on this page**. Every AI tool then stops changing that page and the styles of its own elements, such as their colours and spacing. Parts that other pages share stay open to AI tools: the layout (for example the header and footer), the theme, widgets and class styles. The panel says this under the button. Anyone else in the Builder sees that it is paused and who paused it. The AI is told the page is paused, so it can tell the person using it. While the page is paused, the toolbar keeps a chip with a pause badge, even when no AI tool is working, so anyone who can edit the page can open it and click **Resume** to let AI tools edit the page again.
 - **You get a notice.** When an AI tool changes a page you have open, the bell in the top bar gets a notice with a link back to the page. Every AI change also shows in the **Activity Log**.
 
 To revert or pause, you need permission to edit the page. If you can only view it, the panel tells you to ask a teammate who can edit it.
