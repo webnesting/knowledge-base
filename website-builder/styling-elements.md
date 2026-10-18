@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-18 5:47pm
+**Last verified:** 2026-10-18 6:20pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -268,7 +268,7 @@ The Styler can do most things with its controls. For anything it cannot do yet, 
 Pick where the CSS applies with the switch at the top:
 
 - **Whole site** -- every page of your site.
-- **This layout** -- every page that uses the same layout as the page you are editing. The line under the switch names the layout and counts its pages.
+- **This layout** -- every page that uses the same layout as the page you are editing. The line under the switch names the layout and counts its pages. If you delete a layout, its CSS and that CSS's history are deleted with it.
 - **This page** -- only the page you are editing.
 
 Your CSS comes after the Styler's own styles: first the whole site's, then the layout's, then the page's. So when two rules match the same element equally, the later one wins.
