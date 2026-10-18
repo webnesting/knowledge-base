@@ -1,6 +1,6 @@
 # Managing Pages
 
-**Last verified:** 2026-10-18 12:16pm
+**Last verified:** 2026-10-18 1:00pm
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 
@@ -60,24 +60,27 @@ To edit the actual content of the page (text, images, sections), you will use th
 
 ### Custom Code for One Page
 
-A page's **Code** tab holds code that should run on that page only, such as a booking widget on your Contact page. The tab shows when you edit a page and have the **Custom Code** permission. An article, or another item that has its own page such as a Knowledge Base article, has the same **Code** tab. The code runs on that item's own page. Save a new item first, because its page does not exist before that.
+A page can hold code that should run on that page only, such as a booking widget on your Contact page. Most pages need none. The page's settings show a **Custom Code** group, after **SEO**, when you have the **Custom Code** permission. It has one line for **Top of this page** and one for **Bottom of this page**: what the code there does, or **None**. An article, or another item that has its own page such as a Knowledge Base article, has the same group on its **Page** tab. The code runs on that item's own page. Save a new item first, because its page does not exist before that.
 
 1. Go to the **Pages** section.
 2. Click the page name to open it.
-3. Click the **Code** tab.
-4. Paste the code into **Top of this page** or **Bottom of this page**. Verification tags and analytics go at the top. Chat and booking widgets go at the bottom.
-5. Optional: click **Preview with Code** to see the page run the code in a safe preview.
-6. Click **Publish**.
+3. Scroll to the **Custom Code** group, after **SEO**.
+4. Click **Edit Custom Code**. The code opens in a window.
+5. Paste the code into **Top of this page** or **Bottom of this page**. Verification tags and analytics go at the top. Chat and booking widgets go at the bottom.
+6. Optional: click **Preview with Code** to see the page run the code in a safe preview.
+7. Click **Publish**.
 
-The code has no draft: **Publish** puts it on your live site at once. Publishing the code doesn't publish the page, and the page's **Save & Publish** doesn't publish the code. While the **Code** tab is open, its **Preview with Code** and **Publish** buttons take the place of the page's **Save** buttons.
+The code has no draft: **Publish** puts it on your live site at once. The window stays open and each place shows when it was published. The group's lines change to the new code. Publishing the code doesn't publish the page, and the page's **Save & Publish** doesn't publish the code.
+
+If you close the window before you publish, it asks first. **Discard** puts the code back to what is live; **Keep Editing** goes back to the window.
 
 Under each place, a line says in plain words what the code does, such as which outside sites it loads from. Each place also shows its size and when it was last published.
 
-Your site's code runs first, then the page's own code. To change your site's code, use the link at the top of the tab. Verification tags prove the whole site is yours, so they belong in your site's code, not on one page. See [Site Settings](site-settings.md#custom-code).
+Without permission to change the code, the button reads **View Custom Code**: you can see the code and preview it, but not change it.
 
-**CSS for this page** holds CSS for this page only. This page's CSS comes after your site's CSS, so this page's rules win. Parts that can load or run code, such as `@import`, are removed when you publish. The tab shows which parts before and after you publish; see [Your own CSS](site-settings.md#your-own-css).
+Your site's code runs first, then the page's own code. To change your site's code, use the link at the top of the window. Verification tags prove the whole site is yours, so they belong in your site's code, not on one page. See [Site Settings](site-settings.md#custom-code).
 
-Each place has a **History** link. It opens the place's earlier versions in a side panel. **Load into Editor** puts a version's code back in the editor without publishing it, so you can preview it first. Click **Publish** to put it live.
+Each place has a **History** link. It shows the place's earlier versions in the window, with **Back to the Code** to return. **Load into Editor** puts a version's code back in the editor without publishing it, so you can preview it first. Click **Publish** to put it live.
 
 ---
 

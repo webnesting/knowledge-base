@@ -1,6 +1,6 @@
 # Team and Permissions
 
-**Last verified:** 2026-10-18 12:16pm
+**Last verified:** 2026-10-18 1:00pm
 
 WebNesting lets you invite other people to help manage your website. You control exactly what each person can see and do by assigning them roles with specific permissions.
 
@@ -224,7 +224,7 @@ When you pick a site, the matrix has a **Builder Access** group. It sets what a 
 |-----|------------------|
 | Page Editor | Edit pages and layouts in the Web Builder. |
 | Widget Editor | Create and edit widgets in the Widget Builder. |
-| Custom Code | Add or change code in an HTML component, in **Settings → Custom Code** and in a page's **Code** tab. This code runs for every visitor to your site, so give it only to people you trust. With **Read** only, a person sees that code but cannot change it. |
+| Custom Code | Add or change code in an HTML component, in **Settings → Custom Code**, in a page's **Custom Code** group (**Edit Custom Code**) and in **SEO Defaults → Extra code for every page's `<head>`**. This code runs for every visitor to your site, so give it only to people you trust. With **Read** only, a person sees that code but cannot change it. |
 
 Admins have **Custom Code** on every site. Members and new roles you create do not, until you check **Edit** on the **Custom Code** row. Site owners always have it. To give one person Custom Code without changing their role, use a member override (below).
 

@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-10-18 12:16pm
+**Last verified:** 2026-10-18 1:00pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -99,6 +99,18 @@ Two on/off switches control how the addresses inside it are written:
 - **Start sitemap links with "www."** -- turn this on only if your site's address includes `www.`
 
 Pick the form that matches how visitors actually reach your site so search engines see one consistent address for every page.
+
+### Extra Code for Every Page's Head
+
+Services such as Google Search Console, Pinterest and Bing give you a verification tag to prove the site is yours. It goes in **Extra code for every page's `<head>`**.
+
+1. On the **SEO Defaults** page, under **Advanced**, find **Extra code for every page's `<head>`**.
+2. Paste the tag the service gave you, such as `<meta name="google-site-verification" content="…">`.
+3. Click **Save Changes**.
+
+WebNesting adds this code to every page exactly as typed. It runs on your published pages only, never while you edit your site.
+
+Only people with the **Custom Code** permission can change this field, because its code runs for every visitor. Site owners and Admins have it. Other people see the field read-only, with the line "Only people with the Custom Code permission can change this code. Ask your site owner." They can still change and save the other SEO settings. To give the permission, see [Team and Permissions](team-and-permissions.md#builder-access).
 
 ---
 
@@ -207,7 +219,7 @@ Before you save, the page shows each part that will be removed, crossed out wher
 
 ### Code for one page only
 
-A page can have its own code and CSS too. Open the page in **Pages**, then click its **Code** tab. It works the same way. Your site's code runs first, then the page's own code. The page's CSS comes after your site's, so the page's rules win. See [Managing Pages](managing-pages.md#custom-code-for-one-page).
+A page can have its own code too. Open the page in **Pages**, scroll to its **Custom Code** group after **SEO**, then click **Edit Custom Code**. It works the same way. Your site's code runs first, then the page's own code. See [Managing Pages](managing-pages.md#custom-code-for-one-page).
 
 ### Security reports and Enforce
 
@@ -279,7 +291,7 @@ People who may only view custom code can see the history but cannot restore. Peo
 
 Only people with the **Custom Code** permission can add or change this code and CSS. Site owners and Admins have it. People who may only view it see the code and CSS but cannot change them, and the page says: "Only people with the Custom Code permission can change this code. Ask your site owner." To give the permission, see [Team and Permissions](team-and-permissions.md#builder-access).
 
-> **Moved:** The SEO setting **Extra code for every page's `<head>`** is now part of Custom Code. Any code you had there was moved to **Top of every page**, and it is still live.
+> **Note:** A verification tag can also go in **SEO Defaults → Extra code for every page's `<head>`** (see [above](#extra-code-for-every-pages-head)). Its code runs first, before the code here.
 
 ---
 
