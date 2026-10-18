@@ -1,6 +1,6 @@
 # Connecting an AI Tool
 
-**Last verified:** 2026-10-17 7:56pm
+**Last verified:** 2026-10-18 12:29am
 
 You can connect an AI assistant — like Claude Desktop, Claude Code, or Cursor — directly to your WebNesting workspace. Once connected, you can ask the AI to look things up and make changes for you in plain language: "list my draft articles," "create a new event for next Friday," "what's my current usage this month." The AI works **as you**, with **your** permissions, and never sees your password.
 
@@ -41,6 +41,7 @@ The AI is signed in as **your** WebNesting account, so:
 - **It can only do what you can do.** If you can't edit a site, neither can the AI. If your access changes later, the AI's access changes with it — instantly.
 - **It only touches the workspaces you picked** when connecting. It can never reach a workspace you didn't select, and never one you're not a member of.
 - **Your changes are labelled.** Anything the AI does shows up in your **Activity Log** marked with the app that made it — for example "via Claude Desktop" — right next to changes you made yourself in the browser.
+- **Teammates in the Builder see the AI work.** When the AI changes a page someone has open in the Builder, they see the change live, with a chip that names the AI. They can revert its last change or pause AI edits on that page. See [When an AI Tool Edits the Page](../website-builder/builder-overview.md#when-an-ai-tool-edits-the-page).
 
 ---
 
@@ -53,6 +54,7 @@ The AI is signed in as **your** WebNesting account, so:
 - Turn on a content module for a site — but only after it shows you the monthly price and you say yes.
 - Delete a record — but only after it describes what will be removed and you confirm.
 - Work with your contacts, companies, lists and tags; your Marketing campaigns, automations and templates; your Help Desk tickets and settings; your Tasks projects, tasks and time; and your Internal Docs — the same things you can do on those pages.
+- Change an element on a page, a layout, a widget or an email that is built in the Builder: its text, its settings, or its HTML. Anyone with that page open in the Builder sees the change as it happens. They can revert it or pause AI edits on that page. While a page is paused, the AI tells you it cannot change that page.
 - Do what the buttons on those pages do: add a contact to a list, assign or close a ticket, add an internal note, mark a task done, start a timer, copy a campaign, and more.
 - Send a campaign's test email — always to your own email address, never to anyone else.
 - Send a campaign, schedule it, pick an A/B test's winning version, email a ticket reply, merge two tags, or remove a contact from a site — but only after it shows you exactly what will happen (who gets the email, what it says, what is removed) and you say yes.
