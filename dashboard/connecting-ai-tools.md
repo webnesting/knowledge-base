@@ -1,6 +1,6 @@
 # Connecting an AI Tool
 
-**Last verified:** 2026-10-18 5:14am
+**Last verified:** 2026-10-18 6:15am
 
 You can connect an AI assistant — like Claude Desktop, Claude Code, or Cursor — directly to your WebNesting workspace. Once connected, you can ask the AI to look things up and make changes for you in plain language: "list my draft articles," "create a new event for next Friday," "what's my current usage this month." The AI works **as you**, with **your** permissions, and never sees your password.
 
@@ -56,7 +56,8 @@ The AI is signed in as **your** WebNesting account, so:
 - Work with your contacts, companies, lists and tags; your Marketing campaigns, automations and templates; your Help Desk tickets and settings; your Tasks projects, tasks and time; and your Internal Docs — the same things you can do on those pages.
 - Change an element on a page, a layout, a widget or an email that is built in the Builder: its text, its settings, or its HTML. Anyone with that page open in the Builder sees the change as it happens. They can revert it or pause AI edits on that page. While a page is paused, the AI tells you it cannot change that page.
 - Read a whole page, layout, widget or email built in the Builder, rewrite it, and save it back as a draft — but only after it lists what it will add, change and remove, and you say yes. Anyone with it open in the Builder sees the change at once and can revert it. Something a teammate adds after the AI showed you its plan stays, unless you approve a new plan that removes it.
-- Publish a page, layout, widget or email — after it tells you what goes live and where it shows.
+- Read your site's styles — what the Builder's Style panel sets, such as colours, text sizes, spacing and borders, and the values for each screen size — and change them, but only after it lists how many settings it will add, change and remove, and you say yes. It changes only the styles it names, and it tells you when a change can affect other pages too. Anyone with the Builder open sees the new look at once and can revert it. This is how an AI can copy a page's design from one of your sites to another.
+- Publish a page, layout, widget or email — after it tells you what goes live and where it shows. Publishing a page also publishes your site's styles, as the **Publish** button does.
 - Read your site's theme, make a custom theme from it with your own colours, and switch your site to a theme — after it tells you that the whole site's look changes and you say yes.
 - Do what the buttons on those pages do: add a contact to a list, assign or close a ticket, add an internal note, mark a task done, start a timer, copy a campaign, and more.
 - Send a campaign's test email — always to your own email address, never to anyone else.
