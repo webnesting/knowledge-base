@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-10-17 10:55am
+**Last verified:** 2026-10-18 11:40am
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -63,14 +63,14 @@ Contacts are the heart of the Email Marketing module. Every person who signs up 
 
 ### Email Status
 
-Each contact has an email status. You see and change it in the **Marketing** panel of the contact's page:
+Each contact has an email status. You see and change it under **Email marketing**, in the **Can we contact them?** section on the right of the contact's page:
 
 - **Subscribed** -- The contact receives your workspace-wide campaigns.
 - **Unsubscribed** -- The contact opted out, or marked one of your emails as spam. Campaigns skip them.
 - **Bounced** -- Email to this address fails for good (the address does not exist). WebNesting sets this; you can't pick it. Campaigns skip them.
 - **Pending** -- The contact hasn't agreed to workspace-wide marketing email yet (every contact starts here). They don't receive workspace-wide campaigns until you mark them **Subscribed**.
 
-More detail: [Contacts](../dashboard/contacts-management.md#subscription-information).
+More detail: [Contacts](../dashboard/contacts-management.md#can-we-contact-them).
 
 ### Creating a Contact Manually
 
@@ -82,8 +82,7 @@ More detail: [Contacts](../dashboard/contacts-management.md#subscription-informa
 ### Editing a Contact
 
 1. Click on any contact in your list to open their page.
-2. Update any of the fields, or the email status in the **Marketing** panel.
-3. Save your changes.
+2. Change any field on the right side, or the **Email marketing** setting. Each change saves as soon as you make it.
 
 ### Deleting a Contact
 
@@ -117,7 +116,7 @@ There are several ways contacts end up on a list:
 - **Signup form** -- When you add a newsletter signup component to your website, you can specify which list new subscribers should be added to.
 - **Form submission** -- If you have the Forms module enabled, you can configure forms to add submitters to a specific list.
 - **CSV import** -- When importing contacts from a file, you can assign all imported contacts to a list.
-- **Manual** -- You can add contacts to lists individually from their contact detail page.
+- **Manual** -- You can add contacts to lists one at a time from their contact page, in the **Lists** section on the right.
 
 ### Viewing List Members
 
@@ -146,7 +145,7 @@ Common tag examples: "VIP," "New Lead," "Attended Workshop," "Purchased," "Follo
 
 ### Using Tags
 
-Tags are applied to contacts from the contact detail view: click **+ Add Tag** in the **Tags** panel. If your workspace has no tags yet, the panel says so and links to the **Tags** page. Click the **×** on a tag to take it off the contact. The **Tags** page shows how many contacts have each tag.
+Tags are applied to contacts from the contact's page: pick a tag in **Add tag...** in the **Tags** section on the right. If your workspace has no tags yet, the section says so and links to the **Tags** page. Click the **×** on a tag to take it off the contact. The **Tags** page shows how many contacts have each tag.
 
 > **Tip:** Tags and lists serve different purposes. Use **lists** to group contacts for email sends (like "Newsletter Subscribers"). Use **tags** for organizational labels (like "VIP" or "Attended Event"). A contact can be on multiple lists and have multiple tags at the same time.
 
@@ -226,7 +225,7 @@ Both the campaign editor and the template editor use the same visual builder you
 
 Every campaign has a **Send to** setting on its **Details** tab, at the bottom of the **Campaign Details** panel, with two kinds of audience:
 
-- **Whole workspace** -- reaches contacts whose Email Status is **Subscribed** (you can set that on each contact's page, under Marketing). This is the default.
+- **Whole workspace** -- reaches contacts whose Email Status is **Subscribed** (you can set that on each contact's page, under **Email marketing**). This is the default.
 - **A single site** -- reaches only the people who opted in to email **on that site** (for example, by ticking the email opt-in box when they signed up there). The campaign also sends from that site's own domain, so it looks like it comes from the brand they know.
 
 Someone who unsubscribes stops getting email either way -- unsubscribing always applies everywhere, no matter which site they originally opted in on.

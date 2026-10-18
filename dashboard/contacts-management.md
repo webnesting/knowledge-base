@@ -1,6 +1,6 @@
 # Contacts Management
 
-**Last verified:** 2026-10-14 2:54pm
+**Last verified:** 2026-10-18 11:40am
 
 Contacts are your audience database in WebNesting. Every person who submits a form on your website, signs up for your newsletter, or is imported from a spreadsheet becomes a contact. Use the Contacts system to keep track of who your audience is, organize them into lists, and connect them to your marketing, forms, and support tools.
 
@@ -68,62 +68,91 @@ For the smoothest import experience:
 
 ## Contact Details
 
-Every contact record stores a set of standard information, plus any custom fields you define.
+Click a contact in your list to open their page. It slides out over the list, so you keep your place. Use the arrows at the top to move to the previous or next contact in the list, and the link icon to copy a link to this contact.
 
-### Standard Fields
+The page has two parts:
 
-- **Email** -- The contact's email address. This is the unique identifier for each contact.
-- **First Name** -- The contact's first name.
-- **Last Name** -- The contact's last name.
-- **Phone** -- A phone number.
-- **Company** -- The company the contact is associated with.
-- **Status** -- Whether the contact is Active or Inactive.
-- **Source** -- How the contact was added to your database (form submission, CSV import, or manual creation). This is tracked automatically so you always know where a contact came from.
+- **On the left:** who the person is (name, status, email, phone, company), a few numbers that sum them up, and tabs for their history and the records about them.
+- **On the right:** their details, which you can change in place, and the settings for how you may contact them.
 
-### Subscription Information
+### At the Top
 
-If you use the Marketing product, each contact also has an email subscription status:
+Under the name you see the email address, the phone number and the company:
 
-- **Subscribed** -- The contact is receiving your workspace-wide marketing emails.
-- **Unsubscribed** -- The contact has opted out of marketing emails, or marked one of your emails as spam.
-- **Bounced** -- The contact's email address is not deliverable.
-- **Pending** -- The contact has not opted in to workspace-wide email (this is the starting status).
+- Click the copy icon next to the email to copy the address.
+- Click the phone number to call it from a device that can make calls.
+- Click the company to open its page.
 
-You can change it with the **Email Status** control in the Marketing panel of the contact's page. Setting someone to **Subscribed** is what makes them reachable by workspace-wide campaigns, so only do it for people who have genuinely agreed to hear from you.
+To email the person, open a ticket for them from the **Tickets** tab (see below). The email then goes out from your helpdesk and the whole conversation stays on their page.
+
+Below that, small boxes show the numbers that matter for this person, such as **Open tickets**, **Open tasks** and, when they have had campaign emails, the **Campaign emails** count and the open and click rates. A number with nothing to show is left out.
+
+### Tabs
+
+- **Activity** -- everything that happened with this person, newest first: notes your team wrote, campaign emails they were sent, opened or clicked, bounces and spam reports, automations they entered, tickets they opened and tasks about them. Each entry links to the ticket or task where there is one. Use **Show** at the right of the tabs to see only one kind, for example only **Helpdesk**. Click **Load more** at the bottom to go further back.
+- **Notes** -- notes your team keeps about this person. Write a note in the box and click **Add Note**. Type **@** to mention a teammate; they get a notification with a link to this contact. Only your team sees notes. You can edit or delete your own notes.
+- **Tickets** (if you use the Helpdesk) -- this person's tickets with their status. Click **+ New Ticket** to write to them; the new ticket is already addressed to them.
+- **Tasks** (if you use Tasks) -- tasks about this person. Click **+ New Task** to create one; it is already linked to them. A task linked to a contact shows the contact under **Contact** on the task, with a link back here.
+
+### Changing Their Details
+
+The right side shows when the contact was added, how (form submission, CSV import, site signup, and so on) and their last activity. Under that are their details:
+
+- **Email**, **First Name**, **Last Name** and **Phone** -- click the field, type, then press Enter or click outside it to save. Press Esc to undo what you typed.
+- **Company** -- pick a company, or **No company** to unlink it.
+- **Status** -- Active or Inactive.
+- Any **custom fields** your workspace has.
+
+Each change saves as soon as you make it. There is no separate Edit or Save button.
+
+### Can We Contact Them?
+
+This section holds the settings that decide what you may send this person.
+
+**Email marketing** (if you use Marketing):
+
+- **Subscribed** -- the contact receives your workspace-wide marketing emails.
+- **Unsubscribed** -- the contact opted out of marketing emails, or marked one of your emails as spam.
+- **Bounced** -- the contact's email address is not deliverable.
+- **Pending** -- the contact has not opted in to workspace-wide email (this is the starting status).
+
+Setting someone to **Subscribed** is what makes them reachable by workspace-wide campaigns, so only do it for people who have genuinely agreed to hear from you.
 
 You can't pick **Bounced** yourself. WebNesting sets it when an email to the contact fails for good (the address does not exist), and campaigns then skip the contact. If the address was wrong and you have fixed it, you can set the status back to **Subscribed**. An email that fails only for now, for example because the mailbox is full, does not change the status.
 
-When a contact marks one of your emails as spam, WebNesting sets them to **Unsubscribed** and unsubscribes them from your lists, the same as if they had used the unsubscribe link. Campaigns skip them. The **Lists** panel on their page still names each list, marked **Unsubscribed**. Point at it to see when they unsubscribed. The campaign's **Marked as spam** count on its **Performance** tab goes up by one.
+When a contact marks one of your emails as spam, WebNesting sets them to **Unsubscribed** and unsubscribes them from your lists, the same as if they had used the unsubscribe link. Campaigns skip them. The **Lists** section on their page still names each list, marked **Unsubscribed**. Point at it to see when they unsubscribed. The campaign's **Marked as spam** count on its **Performance** tab goes up by one.
 
-### Helpdesk Automatic Emails
-
-If you use the Helpdesk, each contact's page has a **Helpdesk** panel with an **Automatic Emails** setting. Set it to **Off** and that person stops getting the Helpdesk's automatic emails: the "we got your message" confirmation and the "your ticket is resolved" notice. Replies your team writes still reach them. The workspace-wide switches for these emails are in **Helpdesk > Settings > Email** (see [Helpdesk](helpdesk.md#automatic-emails)).
-
-### Activity Timeline
-
-Each contact's page shows an **Activity** section — a running history of that person's interactions with you, newest first. It gathers the marketing emails they were sent, opened, and clicked, any email that bounced, and any email they marked as spam; any support tickets they opened (with a link straight to the ticket); and the automations they entered. It's a quick way to see the whole relationship at a glance without hunting through Marketing and Helpdesk separately.
+**Helpdesk automatic emails** (if you use the Helpdesk): set it to **Off** and that person stops getting the Helpdesk's automatic emails: the "we got your message" confirmation and the "your ticket is resolved" notice. Replies your team writes still reach them. The workspace-wide switches for these emails are in **Helpdesk > Settings > Email** (see [Helpdesk](helpdesk.md#automatic-emails)).
 
 ### Sites This Person Belongs To
 
-When someone creates an account on one of your websites, they appear in your Contacts, and their page shows a **Sites** panel: which sites they belong to, when they joined, when they last signed in, and whether they opted in to marketing email on each site. Site opt-ins are separate from the workspace-wide Email Status above -- a campaign sent to one site's audience reaches the people who opted in on that site.
+When someone creates an account on one of your websites, they appear in your Contacts, and their page shows a **Sites** section: which sites they belong to, when they joined, when they last signed in, and whether they opted in to marketing email on each site. Site opt-ins are separate from the workspace-wide email marketing setting above -- a campaign sent to one site's audience reaches the people who opted in on that site.
 
 - **Remove from this site** takes away their account on that one site and leaves the rest alone.
 - Removing them from their **last** site deletes the whole contact -- their login, marketing history, and record. The confirmation message tells you when that is about to happen.
-- **Download their data** (at the top of the page) gives you everything the workspace holds about one person, for when they ask for a copy of it.
 
 You can also filter your contact list by site. **Export CSV** always downloads exactly what the list is showing -- the same filters, search, and sort order -- and confirms what the file held ("Downloaded contacts.csv -- 23 contacts matching your filters"). The file includes each contact's email, name, phone, company, status, tags, sites, and when they were added -- in your own timezone (the one on your profile, or your workspace's), which the column heading names, for example **Created (America/New_York)**.
 
-### Editing a Contact
+### Merging Two Records of the Same Person
 
-1. Click on any contact in your list to open their details.
-2. Click **Edit**.
-3. Update any field -- name, phone, status, or custom fields. To link the contact to a company, pick it under **Company**, or pick **No company** to unlink it.
-4. Click **Save**.
+Sometimes one person ends up as two contacts, for example after signing up with a second email address.
+
+1. Open the contact you want to keep.
+2. At the bottom of the right side, click **Merge with Another Contact**.
+3. Search for the other record and pick it.
+4. Where the two records disagree, for example on email or phone, choose which value to keep.
+5. Click **Merge and Delete Duplicate**.
+
+The kept contact gets the duplicate's tickets, campaign history, automations, notes, tasks, lists, tags, site memberships and form submissions, and then the duplicate is deleted. If either record unsubscribed from email or from a list, the kept contact stays unsubscribed -- a merge never makes anyone receive email they opted out of. If both records have their own password for the same website, WebNesting asks you to remove one of them from that site first.
+
+### Downloading a Person's Data
+
+Click **Download Their Data** at the bottom of the right side. You get everything the workspace holds about that one person, including their notes and tasks, for when they ask for a copy of it.
 
 ### Deleting a Contact
 
-1. Find the contact you want to remove.
-2. Click the **Delete** option.
+1. Open the contact.
+2. At the bottom of the right side, click **Delete Contact**.
 3. Confirm the deletion.
 
 Deleted contacts are moved to the trash and can be restored if needed.
@@ -181,9 +210,9 @@ Common tag examples: "VIP," "New Lead," "Attended Workshop," "Purchased," "Follo
 
 ### Applying Tags to Contacts
 
-Tags are applied from the contact detail view. Open a contact and click **+ Add Tag** in the **Tags** panel. If your workspace has no tags yet, or the contact already has every tag, the panel says so and links to the **Tags** page. To take a tag off, click the **×** on it. The tag stays in your workspace.
+Tags are applied from the contact's page. Open a contact, click **Add tag...** in the **Tags** section on the right, and pick a tag. It is added at once. If your workspace has no tags yet, the section says so and links to the **Tags** page. To take a tag off, click the **×** on it. The tag stays in your workspace.
 
-The **Lists** panel works the same way: **+ Add to List** adds the contact to a list, and the **×** on a list takes them off it. When there is no list left to add, the panel says so and links to the **Lists** page. A list the contact unsubscribed from has no **×**. It stays so that campaigns to that list keep skipping them. Each tag shows how many contacts currently have it applied, so you can see at a glance how your audience breaks down.
+The **Lists** section works the same way: pick a list in **Add to a list...** to add the contact, and click the **×** on a list to take them off it. When there is no list left to add, the section says so and links to the **Lists** page. A list the contact unsubscribed from has no **×**. It stays so that campaigns to that list keep skipping them. Each tag shows how many contacts currently have it applied, so you can see at a glance how your audience breaks down.
 
 > **Tip:** Use tag colors strategically. For example, use red for urgent follow-ups, green for completed actions, and blue for informational labels. This makes scanning your contact list much faster.
 
