@@ -1,6 +1,6 @@
 # Database Tables
 
-**Last verified:** 2026-10-14 2:54pm
+**Last verified:** 2026-10-17 7:57pm
 
 The **Database Tables** section (in your site menu, under **Settings**) is where you define the structure of your own custom content types. Think of it as creating a spreadsheet -- you choose what columns it has, what kind of information each column holds, and how different tables relate to each other.
 
@@ -130,11 +130,7 @@ When adding a column, you choose the type of data it will hold. Here is what eac
 
 ## Reordering Columns
 
-You can change the order in which columns appear when adding or editing entries.
-
-1. Open the columns page for your table.
-2. Drag the sort handle (the icon on the left side of each row) up or down to rearrange columns.
-3. Click **Save** to keep your new order.
+Columns appear in the order you add them. The columns page does not let you drag them into a new order yet.
 
 ---
 
@@ -156,18 +152,18 @@ The parent table is chosen when you create a table and cannot be changed afterwa
 
 1. Go to **Settings → Database Tables** in your site menu.
 2. Click on the table you want to change.
-3. You will see all columns listed with their current settings.
-4. Update any column's display name, default value, required status, or list visibility.
-5. Click **Save**.
+3. Click the column you want to change. Its settings open.
+4. Change its display name, field name, type, default value, required status, or list visibility.
+5. Click **Save Changes**.
 
-Choose your column name and type carefully, as these cannot be changed after the column is created. You can always add new columns or delete unused ones. If you need a different type for an existing column, you will need to create a new column and delete the old one.
+If you change a column's field name, the values already saved move to the new name.
 
 ### Deleting a Column
 
 1. Open the columns page for your table.
-2. Find the column you want to remove.
-3. Click the **trash icon** on the right side of that column's row.
-4. The column and all of its data will be removed.
+2. Click the column you want to remove. Its settings open.
+3. Click **Delete Column**, then **Delete** to confirm.
+4. The column and the values saved in it no longer show on your entries. You cannot bring a deleted column back from this page.
 
 ---
 
@@ -227,40 +223,14 @@ You can also choose whether the relationship allows one or many connections:
 
 ---
 
-## Deleting and Restoring Tables
-
-### Deleting a Table
+## Deleting a Table
 
 1. Go to **Settings → Database Tables** in your site menu.
 2. Find the table you want to delete.
-3. Click the menu icon next to the table and select **Delete**.
-4. The table will be moved to the trash.
+3. Click the menu icon next to the table and select **Delete**, then **Delete** to confirm.
+4. The table, its columns and its entries no longer show anywhere on your site or dashboard.
 
-Note that some tables cannot be deleted. Tables that are part of built-in modules are protected.
-
-### Viewing Deleted Tables
-
-1. Go to **Settings → Database Tables** in your site menu.
-2. Click **View Deleted Tables** from the menu.
-3. You will see a list of all tables that have been removed.
-
-### Restoring a Deleted Table
-
-1. Go to the **Deleted Tables** view.
-2. Find the table you want to bring back.
-3. Click **Restore Table**.
-4. The table and all of its columns will be restored to your active table list.
-
-### Permanently Deleting a Table
-
-If you want to remove a table for good:
-
-1. Go to the **Deleted Tables** view.
-2. Find the table you want to permanently remove.
-3. Click **Permanently Delete**.
-4. This action cannot be undone. The table, its columns, and all of its data will be removed forever.
-
-> **Tip:** Deleting a table sends it to the trash first. You can always restore it from there. Only use "Permanently Delete" when you are completely sure you no longer need the table or its data.
+You cannot bring a deleted table back from this page, so check first that you no longer need it. Some tables cannot be deleted: tables that are part of built-in modules are protected.
 
 ---
 
@@ -271,5 +241,7 @@ Database tables and content modules work together. When you create a new table, 
 - **Your table appears in the dashboard menu** -- Once created, you can manage entries for your table just like you manage pages, articles, or any other content.
 - **You can display table data on your pages** -- Use the Website Builder to add components that pull in and display data from your custom tables.
 - **Relationships link everything together** -- By connecting tables to each other (and to built-in modules), you create a web of related content that keeps your site organized and flexible.
+
+An AI tool you connect to WebNesting can also create tables, add and change columns, and add entries for you. See [Connecting an AI Tool](connecting-ai-tools.md).
 
 In other words, the Database section is where you design the structure. The content modules are where you fill in the actual content. And the Website Builder is where you display that content to your visitors.
