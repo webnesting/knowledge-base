@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-10-18 11:40am
+**Last verified:** 2026-10-18 11:33am
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
