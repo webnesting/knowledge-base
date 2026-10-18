@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-10-18 12:02pm
+**Last verified:** 2026-10-18 12:16pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -207,7 +207,7 @@ Before you save, the page shows each part that will be removed, crossed out wher
 
 ### Code for one page only
 
-A page can have its own code and CSS too. Open the page in **Pages**, then scroll to its **Custom code** and **CSS for this page** sections. They work the same way. Your site's code runs first, then the page's own code. The page's CSS comes after your site's, so the page's rules win. See [Managing Pages](managing-pages.md#custom-code-for-one-page).
+A page can have its own code and CSS too. Open the page in **Pages**, then click its **Code** tab. It works the same way. Your site's code runs first, then the page's own code. The page's CSS comes after your site's, so the page's rules win. See [Managing Pages](managing-pages.md#custom-code-for-one-page).
 
 ### Security reports and Enforce
 

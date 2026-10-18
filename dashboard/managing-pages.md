@@ -1,6 +1,6 @@
 # Managing Pages
 
-**Last verified:** 2026-10-17 2:59pm
+**Last verified:** 2026-10-18 12:16pm
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 
@@ -60,22 +60,24 @@ To edit the actual content of the page (text, images, sections), you will use th
 
 ### Custom Code for One Page
 
-A page's settings have a **Custom code** section for code that should run on that page only, such as a booking widget on your Contact page. It appears when you edit a page and have the **Custom Code** permission. It also appears when you edit an article or another item that has its own page, such as a Knowledge Base article, and it works the same way. The code runs on that item's own page. Save a new item first, because its page does not exist before that.
+A page's **Code** tab holds code that should run on that page only, such as a booking widget on your Contact page. The tab shows when you edit a page and have the **Custom Code** permission. An article, or another item that has its own page such as a Knowledge Base article, has the same **Code** tab. The code runs on that item's own page. Save a new item first, because its page does not exist before that.
 
 1. Go to the **Pages** section.
-2. Click the page name to open its settings.
-3. Scroll to the **Custom code** section.
-4. Click **+ Add Code from a Service**, pick what you are adding, and paste the code.
-5. Click **Add to Draft**.
+2. Click the page name to open it.
+3. Click the **Code** tab.
+4. Paste the code into **Top of this page** or **Bottom of this page**. Verification tags and analytics go at the top. Chat and booking widgets go at the bottom.
+5. Optional: click **Preview with Code** to see the page run the code in a safe preview.
 6. Click **Publish**.
 
-This section has its own **Save Draft** and **Publish** buttons. Publishing this code doesn't publish the page, and the page's **Save & Publish** doesn't publish this code.
+The code has no draft: **Publish** puts it on your live site at once. Publishing the code doesn't publish the page, and the page's **Save & Publish** doesn't publish the code. While the **Code** tab is open, its **Preview with Code** and **Publish** buttons take the place of the page's **Save** buttons.
 
-Your site's code runs first, then the page's own code. The section shows your site's live code at the top.
+Under each place, a line says in plain words what the code does, such as which outside sites it loads from. Each place also shows its size and when it was last published.
 
-Under it, **CSS for this page** holds CSS for this page only. It has its own **Save Draft** and **Publish** buttons, and it applies in the Web Builder too. This page's CSS comes after your site's CSS, so this page's rules win. Parts that can load or run code, such as `@import`, are removed when you save; see [Your own CSS](site-settings.md#your-own-css). Verification tags prove the whole site is yours, so they belong in **Settings → Custom Code**, not on one page. See [Site Settings](site-settings.md#custom-code).
+Your site's code runs first, then the page's own code. To change your site's code, use the link at the top of the tab. Verification tags prove the whole site is yours, so they belong in your site's code, not on one page. See [Site Settings](site-settings.md#custom-code).
 
-Under that, **Security reports** lists what visitors' browsers reported on this page in the last 7 days, such as code inside an `onclick=` attribute that the site's security policy would block. Click a report to see how to fix it. Report only or Enforce is set for the whole site; see [Security reports and Enforce](site-settings.md#security-reports-and-enforce).
+**CSS for this page** holds CSS for this page only. This page's CSS comes after your site's CSS, so this page's rules win. Parts that can load or run code, such as `@import`, are removed when you publish. The tab shows which parts before and after you publish; see [Your own CSS](site-settings.md#your-own-css).
+
+Each place has a **History** link. It opens the place's earlier versions in a side panel. **Load into Editor** puts a version's code back in the editor without publishing it, so you can preview it first. Click **Publish** to put it live.
 
 ---
 
