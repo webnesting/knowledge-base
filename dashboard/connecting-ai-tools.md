@@ -1,6 +1,6 @@
 # Connecting an AI Tool
 
-**Last verified:** 2026-10-18 9:25am
+**Last verified:** 2026-10-18 10:14am
 
 You can connect an AI assistant — like Claude Desktop, Claude Code, or Cursor — directly to your WebNesting workspace. Once connected, you can ask the AI to look things up and make changes for you in plain language: "list my draft articles," "create a new event for next Friday," "what's my current usage this month." The AI works **as you**, with **your** permissions, and never sees your password.
 
@@ -82,6 +82,22 @@ The AI is signed in as **your** WebNesting account, so:
 - Turn off a module or a workspace product (which would delete its data).
 
 For any of those, the AI won't act — it will hand you a direct link to the right page in WebNesting so you can do it yourself.
+
+---
+
+## Ready-Made Requests
+
+WebNesting gives your AI app a few ready-made requests. Each one tells your AI, step by step, how to do a job well in WebNesting. Your AI does the work, and nothing happens until you start one.
+
+- **Build a website.** Describe your business in a sentence or two. Your AI plans the pages and what goes on each, builds them with the Builder's own elements and writes the words, then makes your look (colours, spacing, text sizes), and checks every page at desktop and phone width. It does not make up facts you did not give, such as opening hours, prices or a phone number. It marks them for you to fill in. It publishes nothing until you say so.
+- **Add a section to a page.** Say what the section is for and where it goes. Your AI builds it to match the rest of the page.
+- **Restyle a page.** Say how you want it to look, for example "warmer and more rustic". Your AI changes only the look, never your words or the page's layout. A new theme changes every page of your site, so your AI tells you first.
+
+**Where to find them:** in your AI app's list of commands or prompts. In Claude Code they are slash commands, such as `/mcp__webnesting__build_site` (the middle part is the name you gave the connection). If your app takes one word for each box, type your full description anyway: your AI reads everything you typed.
+
+You do not have to use them. If you just ask your AI to build you a site, it follows the same order: first the pages and their words, then the look, then a check of every page.
+
+Your AI can also read your theme's settings list (the colours, spacing, text sizes, corners, shadows and fonts a theme sets). With it, your AI styles pages with your theme's values instead of fixed ones, so your pages follow when you change your theme.
 
 ---
 
