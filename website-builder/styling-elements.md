@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-15 9:39pm
+**Last verified:** 2026-10-18 3:26pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -20,10 +20,10 @@ Think of the Styler as a set of dials and switches for each element on your page
 
 1. Open your page in the Website Builder.
 2. Click on any element on your page (a heading, image, section, button, etc.).
-3. Click **Styles** in the panel rail on the right. (The button is greyed out until something is selected.)
+3. Click **Styles** in the panel rail on the right.
 4. You will see different sections you can expand, like Spacing, Layout, Position, and more. The Styler remembers which sections you keep open or closed, on every page and every element, until you change them.
 
-> **Tip:** If the **Styles** button is greyed out, nothing is selected. Click directly on an element -- clicking empty space deselects everything.
+> **Tip:** If Styles shows your own CSS instead of the element controls, nothing is selected. Click directly on an element -- clicking empty space deselects everything. See [Your Own CSS](#your-own-css) for that view.
 
 ---
 
@@ -248,6 +248,59 @@ If you have made changes and want to start fresh, you can clear individual style
 3. Click the "0" preset to remove spacing, or use the clear button to reset the value entirely.
 
 > **Tip:** Clearing a style does not delete the element -- it just removes your customization, letting the default or theme style show through.
+
+---
+
+## Your Own CSS
+
+The Styler can do most things with its controls. For anything it cannot do yet, write your own CSS. In a website's builder, the top of the **Styles** panel has a **Stylesheet** button beside **Normal** and **Advanced**. With nothing selected, Styles opens on it.
+
+![The Styles panel in Stylesheet mode, with the Whole site, This layout and This page switch above the CSS editor](../images/website-builder/styler-stylesheet.png)
+
+### Where Your CSS Applies
+
+Pick where the CSS applies with the switch at the top:
+
+- **Whole site** -- every page of your site.
+- **This layout** -- every page that uses the same layout as the page you are editing. The line under the switch names the layout and counts its pages.
+- **This page** -- only the page you are editing.
+
+Your CSS comes after the Styler's own styles: first the whole site's, then the layout's, then the page's. So when two rules match the same element equally, the later one wins.
+
+### Writing and Publishing CSS
+
+1. Open your page in the Website Builder.
+2. Click on empty space so that nothing is selected, then click **Styles**. Or click **Stylesheet** at the top of Styles.
+3. Choose **Whole site**, **This layout** or **This page**.
+4. Type your CSS. The page in the builder shows it as you type.
+5. Click **Publish** in the builder. Your CSS goes live on your site with the page.
+
+What you type saves as a draft by itself. Visitors do not see it until you publish. The line under the editor says "Draft. Publish puts it on your live site." until you do.
+
+> **Tip:** Publishing a page puts the drafts of all three places live: the whole site's, the layout's and the page's. A draft you saved on another page goes live with it too.
+
+### What Is Removed
+
+CSS that can load or run code is removed when it saves. This keeps your site safe. Under the editor, a yellow box lists each part removed and why. For example:
+
+- `@import` -- it loads another style sheet from outside this field.
+- `</style>` -- it would end the style sheet early and let what follows run as page code.
+- `expression(`, `behavior:` and `-moz-binding:` -- they run script in old browsers.
+- A `url(` that points somewhere other than a web address or an image.
+
+Everything else stays exactly as you typed it.
+
+### Version History
+
+Click **History** under the editor to see earlier versions of that place's CSS, newest first. Click **Load into Editor** to put a version back in the editor. It saves as your draft, and it goes live when you publish.
+
+### Who Can Change It
+
+Only people with the **Custom Code** permission can change your CSS or publish it. Site owners and Admins have it. People who may only view it see the CSS read-only, with the line "Only people with the Custom Code permission can change this CSS. Ask your site owner." When they publish a page, their page changes go live, and your CSS drafts stay as they are. People without the permission see "Only people with the Custom Code permission can see your site's CSS." See [Team and Permissions](../dashboard/team-and-permissions.md#builder-access).
+
+### Code That Also Runs on the Page
+
+When your site or the page also loads code from other services, a line under the editor says so, for example "This page also loads code from www.googletagmanager.com." Its links open **Code from Other Services** or the page's **Custom Code**, where that code is changed.
 
 ---
 
