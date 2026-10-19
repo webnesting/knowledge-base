@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-10-19 6:55am
+**Last verified:** 2026-10-19 7:03am
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -215,6 +215,30 @@ The copy is separate: changing one doesn't change the other. Its fonts come alon
 
 ---
 
+## Header and Footer Layouts
+
+Pick how your logo and menu sit at the top of every page, and what sits at the bottom. Your pages and menus stay the same; only their arrangement changes.
+
+1. In the site menu, open **Settings** and click **Site Settings**.
+2. Under **Appearance**, click **Header & Footer**.
+3. Under **Header**, click a layout. Each one is drawn with your own site name and menu:
+   - **Logo left** -- your logo on the left, your menu on the right.
+   - **Logo centered** -- your logo in the middle, with your menu split on both sides.
+   - **Logo above menu** -- your logo on top, your menu in a row under it.
+   - **Logo and menu button** -- your logo and a menu button. The menu opens in a side panel.
+   - **Menu on both sides** -- your menu on the left, your logo in the middle, your buttons on the right.
+4. Under **On phones, the menu opens from**, pick **Left**, **Right** or **Top**.
+5. Under **Footer**, click a layout: **Three columns**, **Centered**, **Large, with all menus** or **Simple**.
+6. Click **Save Changes**. Your site shows the new layouts at once.
+
+The large pictures at the top of each part are your own home page with the layout you picked. The phone picture shows the menu open. The layout marked **This theme's default** is the one your theme comes with.
+
+On phones and small tablets, your menu sits behind a menu button. It opens from the side you picked. Visitors can open it with the keyboard too, and close it with **Esc**.
+
+> **Tip:** If your header menu has no pages yet, the page says so and links to **Pages**, where you add pages to the header menu.
+
+---
+
 ## Light and Dark Mode
 
 Your site can use light backgrounds, dark backgrounds, or the same mode as each visitor's phone or computer.
@@ -237,12 +261,10 @@ You can give your visitors a sun and moon button, so each person picks light or 
 
 1. On the **Color Mode** page, turn on **Show a light / dark switch on my site**.
 2. Click **Save Changes**.
-3. Open the Website Builder and add the **Light / dark switch** block where you want the button: on a layout, so it shows on every page that uses it, or on one page.
-4. Publish the page.
 
-Visitors start in the mode you picked, and can switch. Until you turn the switch on, the block shows nothing on your site. In the Website Builder, it shows a note instead.
+The switch shows in your site's header, beside the menu. Visitors start in the mode you picked, and can switch.
 
-> **Tip:** If the switch is on but no page has the block yet, the Color Mode page shows a warning with a link to the Website Builder.
+To show the switch somewhere else too, open the Website Builder and add the **Light / dark switch** block: on a layout, so it shows on every page that uses it, or on one page. Then publish the page. Until you turn the switch on, the block shows nothing on your site. In the Website Builder, it shows a note instead.
 
 ### Colors for Each Mode
 
