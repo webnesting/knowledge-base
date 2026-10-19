@@ -1,6 +1,6 @@
 # Custom Widgets
 
-**Last verified:** 2026-10-17 8:37am
+**Last verified:** 2026-10-19 8:25am
 
 Widgets are reusable content blocks that you create once and use across multiple pages on your site. Instead of rebuilding the same section over and over, you build it once as a widget, and then place it wherever you need it.
 
@@ -123,28 +123,75 @@ This is one of the biggest advantages of using widgets. Change it once, and it c
 
 You can see all your widgets in two places:
 
-- **On the Widgets page:** Click **Widgets** in your site menu for the full list, with **Edit in Builder** and **Delete** actions on each row.
+- **On the Widgets page:** Click **Widgets** in your site menu for the full list, with **Edit in Builder**, **Rename** and **Delete** in each row's **⋮** menu.
 - **In the Website Builder:** Open the **Add** panel and look under **My Widgets**. Every widget is listed there, ready to drag onto a page.
 
-### Editing Widget Details
+### Renaming a Widget
 
-1. Go to the **Widget** module in the Dashboard.
-2. Find the widget you want to update.
-3. Click the edit icon next to it.
-4. Update the name, group, or other settings.
-5. Save your changes.
+1. Open the **Widgets** page from your site menu.
+2. Click the **⋮** menu on the widget's row, then **Rename**.
+3. Type the new name and click **Save**.
+
+Each widget needs its own name. If another widget already has that name, the window says so.
 
 ### Deleting a Widget
 
-If you no longer need a widget, you can delete it from the Dashboard.
+If you no longer need a widget, you can delete it from the **Widgets** page.
 
-1. Go to the **Widget** module in the Dashboard.
-2. Find the widget you want to remove.
-3. Delete it.
+1. Open the **Widgets** page from your site menu.
+2. Click the **⋮** menu on the widget's row, then **Delete**.
+3. Click **Delete** to confirm.
+
+If the widget is your site's header or footer, the window says so first, and names the layout every page shows after you delete it.
 
 Be careful when deleting widgets. If you delete a widget that is still placed on pages, those pages will show a blank space where the widget used to be. You will need to remove or replace the widget on each page.
 
 > **Tip:** Before deleting a widget, check which pages use it. That way you can clean up those pages first and avoid any blank spots on your site.
+
+---
+
+## Using a Widget as Your Header or Footer
+
+Your site's header and footer usually use one of the layouts in **Site Settings → Appearance → Header & Footer**. You can show one of your own widgets there instead, on every page.
+
+**What visitors see:** only the published version of the widget. Changes you save but do not publish stay in the Website Builder.
+
+### Setting your own header
+
+A widget made for your header has a different Publish button in the Website Builder:
+
+1. Open the **Widgets** page and click **Edit in Builder** on your header widget.
+2. Add and arrange the blocks you want: your logo, links, a button, a notice.
+3. Click **Publish & Set as Header** in the top bar.
+
+Your widget is published and every page shows it at the top, in one step. If something goes wrong, nothing changes on your site. After that, the button says **Publish**, and each publish updates your header on every page. A footer widget works the same way, with **Publish & Set as Footer**.
+
+You can also ask an AI tool you connect to WebNesting to build a header or footer widget and set it for you.
+
+> **Note:** A widget must have something published before it can be your header or footer. An empty widget is refused, so your pages never show an empty header.
+
+### Seeing and changing your own header
+
+Open **Site Settings → Appearance → Header & Footer**. While your own header is in use, the **Header** part shows:
+
+- **Your own header** with an **In use** badge, and the widget's name.
+- When it was published. If you saved changes and did not publish them, it says how many, and that visitors still see the published version.
+- A picture of your header as visitors see it.
+- **Edit Header**, which opens the widget in the Website Builder.
+
+The layout pictures and the layout choices are hidden while your own header is in use.
+
+### Going back to a standard layout
+
+1. Open **Site Settings → Appearance → Header & Footer**.
+2. Under **Header**, click **Go Back to a Standard Layout**.
+3. Click **Use** and the layout's name to confirm.
+
+Every page shows the layout again at once. Your widget stays on the **Widgets** page, so you can use it again later. The footer works the same way.
+
+### If you delete your header widget
+
+Every page shows your header layout again. **Header & Footer** shows a notice with the deleted widget's name until you pick a layout or set another header.
 
 ---
 
@@ -182,7 +229,7 @@ Widgets work best when you use them for content that appears on many pages or co
 
 ### Headers and Footers
 
-If every page on your site shares the same header or footer, create them as widgets. When you need to update your navigation links or footer information, you change the widget once and every page updates.
+You can show your own widget as the header or footer of every page. See **Using a Widget as Your Header or Footer** above. When you need to update your links or footer information, you change the widget once, publish it, and every page updates.
 
 ### Call-to-Action Blocks
 

@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-10-19 7:03am
+**Last verified:** 2026-10-19 8:25am
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -236,6 +236,8 @@ The large pictures at the top of each part are your own home page with the layou
 On phones and small tablets, your menu sits behind a menu button. It opens from the side you picked. Visitors can open it with the keyboard too, and close it with **Esc**.
 
 > **Tip:** If your header menu has no pages yet, the page says so and links to **Pages**, where you add pages to the header menu.
+
+You can also show one of your own widgets as your header or footer. While it is in use, this page shows **Your own header** in place of the layout choices, with **Edit Header** and **Go Back to a Standard Layout**. See [Using a Widget as Your Header or Footer](../website-builder/widgets.md#using-a-widget-as-your-header-or-footer).
 
 ---
 
