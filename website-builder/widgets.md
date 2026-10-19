@@ -1,6 +1,6 @@
 # Custom Widgets
 
-**Last verified:** 2026-10-19 8:25am
+**Last verified:** 2026-10-19 10:59am
 
 Widgets are reusable content blocks that you create once and use across multiple pages on your site. Instead of rebuilding the same section over and over, you build it once as a widget, and then place it wherever you need it.
 
@@ -155,6 +155,18 @@ Be careful when deleting widgets. If you delete a widget that is still placed on
 Your site's header and footer usually use one of the layouts in **Site Settings → Appearance → Header & Footer**. You can show one of your own widgets there instead, on every page.
 
 **What visitors see:** only the published version of the widget. Changes you save but do not publish stay in the Website Builder.
+
+### Making your own header from your layout
+
+The quickest way to start is a copy of the header you have now:
+
+1. Open the **Website Builder** and click the header at the top of your page.
+2. In the bar that shows on it, click **Make It My Own**.
+3. Click **Make My Header** to confirm.
+
+You get a new header widget named after your site (for example "Acme header"), made of **Site logo**, **Site menu** and **Menu button** blocks laid out like your current layout. It opens in the Website Builder, where you can change anything in it. Your site keeps showing your layout until you publish the widget with **Publish & Set as Header**. Click your footer instead to make your own footer; its copy has your logo, your footer menu and your copyright line.
+
+> **Note:** The **Widget Builder** module must be on to make a header or footer widget. If it is off, the bar says so.
 
 ### Setting your own header
 
