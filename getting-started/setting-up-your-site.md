@@ -1,152 +1,74 @@
 # Setting Up Your Site
 
-**Last verified:** 2026-09-08 9:23am
+**Last verified:** 2026-10-19 9:44am
 
-The first time you log in to your new WebNesting site, a setup wizard will guide you through the essentials. This page walks you through each step so you know exactly what to expect.
+When you create a new WebNesting site, you give it a name and pick how it starts. This page walks you through each choice so you know exactly what to expect.
 
-The entire process takes just a few minutes. When you are done, your site will have a name, a look, and ready-made pages to start customizing.
-
----
-
-## The Welcome Wizard
-
-When you first log in, a welcome window opens automatically. It walks you through two main stages:
-
-1. **Site details** -- Your site name, business name, and search engine info
-2. **Starter template** -- Pre-built pages and content to give you a head start
-
-After the welcome wizard finishes, a second step appears:
-
-3. **Theme and colors** -- The visual style and color palette for your site
-
-Let us walk through each one.
+The whole process takes about a minute. When it is done, your site has a name, a look, and -- if you want them -- ready-made pages to start changing.
 
 ---
 
-## Stage 1: Your Site Details
+## Where to Start
 
-The first screen asks you to fill in some basic information about your site.
+You can create a site from two places. Both ask the same questions:
 
-### Site Name
-
-1. Find the **Site Name** field.
-2. Type the name you want for your website (for example, "Sunny Day Bakery" or "Alex's Portfolio").
-3. This name appears in your browser tab and can be used throughout your site.
-
-### Business Name
-
-1. Find the **Business Name** field.
-2. Type your company or organization name.
-3. If you do not have a business, you can use your own name or leave the default.
-
-### SEO Title
-
-1. Find the **SEO Title** field.
-2. Type a short, descriptive title for your site.
-3. This is what search engines like Google will display as the main link when your site appears in search results.
-
-> **Tip:** A good SEO title is short and clear. For example: "Sunny Day Bakery -- Fresh Bread & Pastries in Portland." Keep it under 60 characters if you can.
-
-### SEO Description
-
-1. Find the **SEO Description** field.
-2. Write a brief summary of what your site is about (one or two sentences).
-3. This description appears below your title in search results. It helps people decide whether to click on your link.
-
-> **Tip:** Think about what a stranger would want to know about your site. What do you do? Who is it for? For example: "Family-owned bakery specializing in sourdough bread, pastries, and custom cakes. Order online or visit us in Portland."
-
-### Search Results Preview
-
-As you type your SEO title and description, you will see a preview below the fields. This shows you roughly how your site will look in search results. Use it to make sure everything reads well.
-
-### Moving Forward
-
-When you are happy with your details, click the **Next** button in the bottom right corner to continue.
-
-> **Tip:** None of these choices are permanent. You can change all of them later in your site settings.
+- **Sites** in your workspace: click **Create Site**. Everything is on one page.
+- Your home page: click **Create a website**. A pop-up asks one question per screen. If you belong to more than one workspace, it first asks which workspace the site goes in.
 
 ---
 
-## Stage 2: Choosing a Starter Template
+## Step 1: Name Your Site
 
-The second screen lets you pick a starter template. Templates give your site pre-built pages filled with sample content, so you do not have to design everything from scratch.
-
-### Available Templates
-
-You will see a set of template cards to choose from:
-
-- **Business** -- Includes pages like Home, About, Services, and Contact. Great for companies, agencies, and service providers.
-- **Portfolio** -- Designed to showcase creative work with project galleries and an About page. Perfect for designers, photographers, and freelancers.
-- **Personal** -- A simpler layout for personal websites and blogs.
-- **Blank** -- Gives you just a homepage with nothing on it. Choose this if you want total creative freedom.
-
-### How to Pick a Template
-
-1. Browse the template cards and read the descriptions.
-2. Click on the template you want. It will become highlighted.
-3. Some templates are available in two versions:
-   - **Starter** -- A simpler layout with a set number of pages
-   - **Pro** -- A more feature-rich layout with additional sections and components (may include extra modules like a blog or store)
-4. If tier options appear, select the one you prefer.
-5. Click **Apply & Continue** to move forward.
-
-> **Tip:** If you are not sure which template to pick, start with **Business** -- it covers the most common pages and is easy to customize. You can always delete pages you do not need or add new ones later.
-
-### What Happens Next
-
-After you click Apply & Continue, you will see a brief "Setting up your site..." message. WebNesting is creating your pages and filling them with sample content. This only takes a moment.
-
-Once it finishes, the page will refresh and move you to the next stage.
+1. In **Site Name**, type the name you want (for example, "Sunny Day Bakery" or "Alex's Portfolio").
+2. Check **Site address**. WebNesting fills it in from the name, and it becomes your site's free web address. You can change it before you create the site.
+3. If you already own a domain, you can type it in **Custom Domain (optional)**. You can also connect one later.
 
 ---
 
-## Stage 3: Choosing a Theme
+## Step 2: Choose How to Start
 
-After the template is applied, a theme selection screen appears. This is where you choose the overall visual style of your site.
+Under **How do you want to start?**, pick one of these:
 
-### Step 1: Pick a Theme
+- **Start from a theme** -- pick a look, with or without example pages. This is the quickest way to a site that looks finished.
+- **Bring over an existing page** -- bring in a page you built somewhere else. This one says **Coming soon** and can't be picked yet.
+- **Build it with your AI** -- connect your own AI assistant (such as Claude or ChatGPT), and it builds the pages with you. WebNesting shows the steps to connect it and a starter prompt with your site's name. Click **Copy Prompt** and paste it into your assistant once it is connected. Your site starts on the Default look.
 
-1. You will see a grid of theme cards on the left side of the screen. Each card shows:
-   - The theme name
-   - A short description of its style
-   - Color dots showing the theme's default palette
-2. Click on any theme to preview it. A **live preview** of your site loads on the right side of the screen, showing you exactly how it looks with that theme applied.
-3. Browse through the options and click different themes until you find one you like.
-4. Click **Choose Colors** to continue to color selection.
+---
 
-> **Tip:** You can click links inside the preview to navigate to different pages on your site. This lets you see how the theme looks across your entire site, not just the homepage.
+## Step 3: Pick a Look
 
-### Step 2: Choose a Color Palette
+If you chose **Start from a theme**, you see a list of looks. Each one is drawn with your own site name.
 
-1. You will see a list of pre-made color palettes. Each one shows color dots for its main colors (primary, secondary, background, and text).
-2. Palettes marked as **Recommended** at the top are designed to look best with your chosen theme.
-3. Click any palette to preview it on your site. The live preview on the right updates instantly.
-4. Once you find colors you like, you can either:
-   - Click **Apply Theme** to save your choices and finish setup, or
-   - Click **Customize** to fine-tune individual colors (see next step)
+The list comes in this order:
 
-> **Tip:** If you already have brand colors in mind, click **Customize** to set them exactly. Otherwise, the pre-made palettes are a great starting point.
+1. **Themes with an example site** -- a full look plus example pages and sample text.
+2. **Starter pages** -- **Business**, **Personal** and **Portfolio**. Each brings a set of pages, like About and Contact, on the Default look.
+3. **Themes with just a look** -- colors and fonts only. Your site starts with one empty home page.
 
-### Step 3: Customize Individual Colors (Optional)
+Click the look you like. If it is a theme with an example site, choose one:
 
-If you clicked Customize, you will see a list of five color controls:
+- **Start from this example site** -- your site gets its pages and sample text, ready to change.
+- **Just the look** -- your site gets the theme's colors and fonts, and one empty home page.
 
-- **Primary** -- Your main brand or accent color (used for buttons, links, and highlights)
-- **Secondary** -- A supporting accent color
-- **Background** -- The main background color of your pages
-- **Container** -- The background color of content boxes and cards
-- **Text** -- The default text color
+> **Tip:** Not sure which to pick? Choose a theme with an example site. Changing sample text is faster than starting from an empty page, and you can delete any page you don't need.
 
-To change a color:
+---
 
-1. Click on the colored circle next to the color name.
-2. A color picker will appear. Use it to select your desired color.
-3. The live preview updates in real time so you can see the effect immediately.
-4. Repeat for any other colors you want to adjust.
-5. If you want to undo your changes, click **Reset Colors** to go back to the palette defaults.
-6. When you are satisfied, click **Apply Theme**.
+## Step 4: Create Your Site
 
-After clicking Apply Theme, the page will refresh and you will arrive at your Dashboard. Your site is now set up and ready to customize.
+Click **Create Site** (or **Create Website** in the pop-up). A progress list shows each step. The last step is **Applying your look**, where your theme and example pages go on.
+
+When every step is done, your site is ready to open.
+
+### If Your Look Can't Be Applied
+
+Now and then a look can't be applied. Your site is still created, and it opens on the Default look. You see a notice that says so.
+
+To try again:
+
+1. In the site menu, open **Settings** and click **Site Settings**.
+2. Under **Appearance**, click **Theme**.
+3. In the notice at the top, click **Try Again**.
 
 ---
 
@@ -176,7 +98,7 @@ Your logo will appear in your site's header area, replacing the default text.
 
 ## Updating Your Site Name Later
 
-If you ever want to change your site name or any of the details you set up during the wizard:
+If you ever want to change your site name or business name, or your search engine details:
 
 1. In the site menu, open **Settings** and click **Site Settings**.
 2. Under **Site Config**, click **Site Configuration** for site name and business name, or **SEO Defaults** for SEO title and description.
@@ -190,17 +112,16 @@ If you ever want to change your site name or any of the details you set up durin
 You are not locked into your initial theme choice. To change your theme or colors at any time:
 
 1. In the site menu, open **Settings** and click **Site Settings**.
-2. Look for the **Theme** section.
-3. Select a different theme or adjust your color palette.
-4. Save your changes.
+2. Under **Appearance**, click **Theme**.
+3. Find the theme you want and click **Use This Theme**.
 
-Your site will update immediately with the new look.
+Your site shows the new look right away. To change colors and fonts, see [Themes and Customization](../dashboard/themes-and-customization.md).
 
 ---
 
 ## Where to Go Next
 
-Your site is set up and looking great. Here are your next steps:
+Your site is set up. Here are your next steps:
 
 - **[Navigating the Dashboard](navigating-the-dashboard.md)** -- Learn your way around the Dashboard and discover all the tools at your disposal.
 - **Edit your pages** -- Open the Website Builder to start replacing the sample content with your own text, images, and layout.

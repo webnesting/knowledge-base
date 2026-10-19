@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-10-19 9:25am
+**Last verified:** 2026-10-19 9:44am
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -48,7 +48,7 @@ A warm, hand-made studio look with terracotta and deep teal on a sand background
 
 Every theme has a light mode and a dark mode. Midnight Slate is made dark; the others are made light. Your site shows the mode its theme was made in until you pick one (see [Light and Dark Mode](#light-and-dark-mode)).
 
--## Where to Find Your Theme
+## Where to Find Your Theme
 
 1. In the site menu, open **Settings** and click **Site Settings**.
 2. Under **Appearance**, click **Theme**.
@@ -61,6 +61,27 @@ The Theme page shows two groups:
 - **Your themes** -- themes you made from a built-in one, with your own colors and shapes.
 
 Each card shows a small picture of your site in that theme, with your site's name and menus. The theme your site uses now is first, marked **In use**.
+
+---
+
+## Choosing a Theme for a New Site
+
+You pick your first look when you create a site, so your site opens already looking the way you want.
+
+1. Go to **Sites** and click **Create Site**. You can also click **Create a website** on your home page.
+2. Type your site's name.
+3. Under **How do you want to start?**, choose **Start from a theme**.
+4. Under **Pick a look**, click the look you like. Each one is drawn with your new site's name, so you see how your site will look.
+5. If the theme comes with an example site, choose one:
+   - **Start from this example site** -- your site gets the example pages and sample text, ready for you to change.
+   - **Just the look** -- your site gets the theme's colors and fonts, and starts with one empty home page.
+6. Click **Create Site** (or **Create Website** in the pop-up).
+
+The looks come in this order: themes with an example site first, then starter pages like **Business** and **Portfolio** (these use the Default look), then themes that bring only colors and fonts.
+
+While your site is set up, the last step reads **Applying your look**. If a look can't be applied, your site still opens, on the Default look. Open the Theme page (see [Where to Find Your Theme](#where-to-find-your-theme)) and click **Try Again** in the notice at the top.
+
+> **Tip:** Your first pick is not final. You can switch to any other theme later, and your pages stay as they are.
 
 ---
 
