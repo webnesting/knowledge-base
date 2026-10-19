@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-09-13 5:08pm
+**Last verified:** 2026-10-19 4:20am
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -43,6 +43,7 @@ The boxes that hold and organize everything else. Using them correctly also help
 - **Section** -- A major division of your page.
 - **Blank box** -- An empty box with no meaning of its own, for grouping or spacing other blocks.
 - **Divider** -- A horizontal line that visually separates content on your page.
+- **Light / dark switch** -- A sun and moon button that lets each visitor pick light or dark mode. It shows on your site once **Show a light / dark switch on my site** is on in **Site Settings → Appearance → Color Mode** (see [Light and Dark Mode](../dashboard/themes-and-customization.md#light-and-dark-mode)).
 
 ### Navigation
 

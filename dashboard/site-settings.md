@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-10-18 1:46pm
+**Last verified:** 2026-10-19 4:20am
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -351,7 +351,7 @@ To take the site back down later, choose **Coming soon** and save. Either way, y
 
 ### Choosing a Theme
 
-Your theme has its own page now. The **Design** section of Site Configuration links to it: click **Change your theme in Appearance → Theme**. You can also open it from Site Settings: under **Appearance**, click **Theme**. There you can switch themes and make a theme's colors your own (see [Themes and Customization](themes-and-customization.md)).
+Your theme has its own page now. The **Design** section of Site Configuration links to it: click **Change your theme in Appearance → Theme**. You can also open it from Site Settings: under **Appearance**, click **Theme**. There you can switch themes and make a theme's colors your own (see [Themes and Customization](themes-and-customization.md)). Under **Appearance**, **Color Mode** picks light or dark mode for your site and turns on a light / dark switch for your visitors (see [Light and Dark Mode](themes-and-customization.md#light-and-dark-mode)).
 
 ### Secure (HTTPS) Addresses
 

@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-10-18 2:39pm
+**Last verified:** 2026-10-19 4:20am
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -41,6 +41,8 @@ A dark, sophisticated design with cyan-blue accents. This modern dark theme is e
 An art deco editorial style with dramatic serif typography and rich burgundy-and-gold tones. This light theme has real personality and makes a strong first impression. It suits restaurants, event venues, publications, luxury brands, and anyone who wants their site to feel designed rather than templated.
 
 > **Tip:** You can preview each theme with your own home page before you switch. Take your time and try them all to see which one fits your brand best.
+
+Every theme has a light mode and a dark mode. Midnight Slate is made dark; the others are made light. Your site shows the mode its theme was made in until you pick one (see [Light and Dark Mode](#light-and-dark-mode)).
 
 -## Where to Find Your Theme
 
@@ -103,6 +105,8 @@ To go back to the theme's own five colors, click **Reset to [theme name]'s Color
 **Advanced** lists every color on your site, from links to the footer. Click **Show All** to open the list. Search for a color, or choose a part of the site (such as the header) to see only its colors. Change any of them, and click **Reset** next to a color to give it back to the theme. A color you changed shows a **Yours** label.
 
 > **Tip:** If a color makes text hard to read, a warning appears under your colors. It says which text is hard to read and by how much. Click the button in the warning to go straight to those colors.
+
+**Colors for Light Mode / Dark Mode.** When your site shows a mode your theme was not made in (for example, you picked **Dark** for a light theme), the Colors tab starts with two buttons: **Light Mode** and **Dark Mode**. Click one to change the colors of that mode. The preview shows the same mode. A color you pick for the other mode shows only in that mode. A color you change under **Advanced** shows in both modes.
 
 ### Fonts
 
@@ -170,6 +174,48 @@ On the Theme page, open the **⋮** menu on one of your own themes:
 - **Delete** -- remove the theme. You cannot delete the theme your site uses. Switch to another theme first.
 
 You can also rename a theme from the **⋮** menu at the top of the editor.
+
+---
+
+## Light and Dark Mode
+
+Your site can use light backgrounds, dark backgrounds, or the same mode as each visitor's phone or computer.
+
+### Picking a Mode
+
+1. In the site menu, open **Settings** and click **Site Settings**.
+2. Under **Appearance**, click **Color Mode**.
+3. Under **How your site looks**, pick one:
+   - **Light** -- light backgrounds and dark text, for every visitor.
+   - **Dark** -- dark backgrounds and light text, for every visitor.
+   - **Match each visitor's device** -- light or dark, the same as the visitor's phone or computer.
+4. Click **Save Changes**.
+
+Under the choices, two pictures show your own home page in light mode and in dark mode. The mode your visitors see is marked **Visitors see this**.
+
+### Letting Visitors Switch
+
+You can give your visitors a sun and moon button, so each person picks light or dark for themselves. Their choice is remembered on their device.
+
+1. On the **Color Mode** page, turn on **Show a light / dark switch on my site**.
+2. Click **Save Changes**.
+3. Open the Website Builder and add the **Light / dark switch** block where you want the button: on a layout, so it shows on every page that uses it, or on one page.
+4. Publish the page.
+
+Visitors start in the mode you picked, and can switch. Until you turn the switch on, the block shows nothing on your site. In the Website Builder, it shows a note instead.
+
+> **Tip:** If the switch is on but no page has the block yet, the Color Mode page shows a warning with a link to the Website Builder.
+
+### Colors for Each Mode
+
+Each theme comes with colors for both modes. Click **Show Light and Dark Colors** under **Colors for each mode** to see a light and a dark color for each of your five main colors.
+
+- If your site uses one of your own themes, click a color to change it. Click **Save Changes** to save the mode and the colors together.
+- If your site uses a built-in theme, click **Customize [theme name]** to make your own copy first.
+
+Your **Main color** and **Accent color** stay the same in both modes until you change one of them for one mode.
+
+> **Tip:** If text is hard to read in one of the modes, a warning says which text and in which mode. Click **Change It in Customize** to open the theme editor on that mode and those colors.
 
 ---
 
