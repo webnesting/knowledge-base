@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-10-19 8:25am
+**Last verified:** 2026-10-19 9:25am
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -39,6 +39,10 @@ A dark, sophisticated design with cyan-blue accents. This modern dark theme is e
 ### Bold Deco
 
 An art deco editorial style with dramatic serif typography and rich burgundy-and-gold tones. This light theme has real personality and makes a strong first impression. It suits restaurants, event venues, publications, luxury brands, and anyone who wants their site to feel designed rather than templated.
+
+### Kiln
+
+A warm, hand-made studio look with terracotta and deep teal on a sand background. Headings use a bold, friendly typeface. Buttons are fully rounded, and cards have a crisp outline with a solid offset shadow, like a printed stamp. Your site name sits in the middle of the header, with your menu on both sides. This light theme comes with a matching dark mode. It suits makers, studios, cafés, craft shops and anyone who wants a site that feels made by hand.
 
 > **Tip:** You can preview each theme with your own home page before you switch. Take your time and try them all to see which one fits your brand best.
 
@@ -317,6 +321,7 @@ If you already have brand colors (from a logo, business cards, or other material
 
 - **Professional services** (law firms, accounting, consulting) -- Clean, classic themes like Default with blue or neutral tones convey trust and reliability.
 - **Creative businesses** (design studios, photographers, artists) -- Dark themes like Midnight Slate or warm themes like Soft Elegant help your work stand out.
+- **Makers and small studios** (potters, bakers, craft shops, cafés) -- Kiln's warm earth colors and rounded shapes feel hand-made and friendly.
 - **Wellness and lifestyle** (spas, yoga studios, coaches) -- Soft Elegant with green or earth-toned colors creates a calm, inviting feel.
 - **Technology companies** -- Midnight Slate with cyan or blue accents gives a modern, cutting-edge impression.
 
