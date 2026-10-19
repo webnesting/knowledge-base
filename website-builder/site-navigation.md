@@ -1,6 +1,6 @@
 # Setting Up Site Navigation
 
-**Last verified:** 2026-10-17 5:56pm
+**Last verified:** 2026-10-19 1:36pm
 
 Navigation is how visitors find their way around your website. Good navigation helps people quickly get to the pages they need, whether they are browsing on a desktop or a phone. This guide covers how navigation works in WebNesting, how to control which pages appear in your menus, and tips for creating a clear, easy-to-use navigation structure.
 
@@ -104,6 +104,42 @@ For a full walkthrough, see **[Managing Pages in the Builder](page-management.md
 - Keep dropdowns to one or two levels deep. A dropdown inside a dropdown inside another dropdown is confusing and hard to use, especially on phones.
 - Limit the number of items in each dropdown. Five to seven items is a comfortable maximum.
 - Make sure the parent page itself has useful content. Visitors will click on it directly, not just hover over it.
+
+---
+
+## Mega Menus
+
+A mega menu opens a wide panel below your header instead of a short list. It suits a site with many pages: the panel shows an item's pages side by side in columns, with the pages under each one listed below it. You can also fill a panel with your own blocks, such as a picture, a short text and a button.
+
+### Turn On a Mega Menu
+
+A mega menu is a style of the **Site menu** block, the menu in your own header (see [Widgets](widgets.md) for how to make your own header).
+
+1. Open your header in the **Website Builder**.
+2. Click your **Site menu**.
+3. On the menu's bar, under **Submenu style**, click **Mega menu**.
+4. Click **Settings** and set **Levels shown** to **3** to list the pages under each column. With **2**, a panel shows only the columns.
+5. Publish your header.
+
+Each top item that has pages under it now opens a panel. An item with no pages under it stays a plain link.
+
+### Choose What a Panel Shows
+
+On the menu's bar, click an item under **Open on the page**. The builder opens that item's panel, and **What opens** shows what the panel holds:
+
+- **Its pages** -- The item's pages, in columns. This is where every item starts.
+- **A widget** -- One of your widgets. Pick it in **What opens**, and the panel shows that widget instead of the pages.
+- **+ New Panel** -- Makes a new widget named after the item (for example "Services menu panel") with three columns, and picks it for the item. Click **Edit Panel** to open it, then drag blocks into its columns. In the panel widget's **Settings**, **Columns** picks two, three or four columns.
+
+A panel widget shows on your site once you publish it. Until then, the panel shows the item's pages.
+
+### How Visitors Use It
+
+- **With a mouse** -- Point at an item for a moment and its panel opens. Moving the pointer into the panel keeps it open. Move away, click somewhere else on the page or press Escape to close it.
+- **With a keyboard** -- Press Tab to reach the arrow beside an item, then press Enter or Space to open its panel. The Down arrow moves into the panel and the Up arrow moves back. The Left and Right arrows move between the top items. Escape closes the panel and puts you back on the arrow.
+- **On a phone** -- The panel opens as a section under its item inside the phone menu, one column wide. Tap the arrow beside an item to open or close its section.
+
+Visitors who turn on reduced motion on their device see the panel appear without its slide.
 
 ---
 
