@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-10-19 4:20am
+**Last verified:** 2026-10-19 6:55am
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -174,6 +174,44 @@ On the Theme page, open the **⋮** menu on one of your own themes:
 - **Delete** -- remove the theme. You cannot delete the theme your site uses. Switch to another theme first.
 
 You can also rename a theme from the **⋮** menu at the top of the editor.
+
+### Sharing a Theme
+
+You can save one of your own themes as a file, add a theme file to a site, or copy a theme to another site in your workspace. Your site keeps its current look until you click **Use This Theme**.
+
+**Download a theme**
+
+1. On the Theme page, open the **⋮** menu on one of your own themes. In the editor, use the **⋮** menu at the top.
+2. Click **Download Theme**.
+3. Your browser saves a file that ends in **.wntheme**, such as `bakery.wntheme`.
+
+The file has your saved changes. Changes you have not saved yet are not in it.
+
+If the theme uses a font you uploaded, WebNesting asks first. Tick **Include my font files** only if you have the right to share that font; most font licenses don't allow it. Without the font file, whoever adds your theme gets a similar Google font instead.
+
+**Upload a theme**
+
+1. On the Theme page, under **Your themes**, click **Upload Theme**.
+2. Click **Choose a Theme File** and pick a .wntheme file.
+3. Look at the theme on your own home page, and read **What's in it**.
+4. Check the **Theme name**, then click **Add to This Site**.
+
+The theme joins **Your themes**. Nothing is added until you click **Add to This Site**. The upload may tell you a few things first:
+
+- **A theme made from a theme your site doesn't have.** We keep its colors and fonts on top of Default, so it looks the same.
+- **A font that wasn't in the file.** A similar Google font stands in until you upload that font yourself.
+- **Settings WebNesting doesn't have yet.** We leave them out and name them.
+- **A name your site already has.** The theme gets a number, such as "Bakery (2)". You can type another name.
+
+WebNesting refuses a file that isn't a theme file, or one that contains code, and adds nothing.
+
+**Use a theme on another site**
+
+1. Open the **⋮** menu on one of your own themes, and click **Use on Another Site**.
+2. Pick the site.
+3. Click **Copy Theme**.
+
+The copy is separate: changing one doesn't change the other. Its fonts come along, uploaded fonts too. You need permission to change settings on the other site; a site you can't change shows the reason. To use a theme in another workspace, download it here and upload it on a site there.
 
 ---
 
