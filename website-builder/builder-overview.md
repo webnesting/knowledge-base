@@ -1,6 +1,6 @@
 # Website Builder Overview
 
-**Last verified:** 2026-10-18 8:01am
+**Last verified:** 2026-10-20 9:35am
 
 The Website Builder is where you design and create your web pages. It is a visual editor -- meaning you can see exactly how your page will look as you build it. No coding required.
 
@@ -38,6 +38,8 @@ You can:
 - Drag components from the **Add** panel onto the Canvas
 
 The Canvas updates instantly as you make changes.
+
+When you pick a device width that is wider than the Canvas, the Builder zooms out so the whole page fits. It zooms out again when you make the window narrower. The zoom box in the top toolbar shows the zoom.
 
 The Builder opens ready to edit both your page **and** its shared header and footer, so you can fix a nav link or a footer address without switching anywhere else.
 
@@ -78,6 +80,8 @@ Everything else lives in a single column of icon buttons down the **right** side
 | **Builder settings** | Your own preferences -- canvas overlays, guide colors, default measurement unit |
 
 Hover a rail button to peek at its panel; click it to pin the panel open so the canvas makes room for it. Click the pinned button again to go back to peeking.
+
+On a window narrower than 1200px, such as a tablet, the workspace menu on the far left opens over the Builder instead of pushing it aside. The page you build keeps its room. The menu is pinned again when you leave the Builder or widen the window.
 
 > **Tip:** **Settings** and **Styles** need something selected before they have anything to show. If they look greyed out, click an element on your page first.
 
