@@ -1,6 +1,6 @@
 # Database Tables
 
-**Last verified:** 2026-10-17 7:57pm
+**Last verified:** 2026-10-20 9:50am
 
 The **Database Tables** section (in your site menu, under **Settings**) is where you define the structure of your own custom content types. Think of it as creating a spreadsheet -- you choose what columns it has, what kind of information each column holds, and how different tables relate to each other.
 
@@ -130,7 +130,12 @@ When adding a column, you choose the type of data it will hold. Here is what eac
 
 ## Reordering Columns
 
-Columns appear in the order you add them. The columns page does not let you drag them into a new order yet.
+Columns appear in the order you add them. To change the order:
+
+- **With the mouse:** drag a column by the grip on its left (the six dots) and drop it on another column.
+- **With the keyboard:** press Tab until the grip of the column is selected, then press the up or down arrow. Each press moves the column one place.
+
+The new order is saved at once.
 
 ---
 
@@ -164,6 +169,8 @@ If you change a column's field name, the values already saved move to the new na
 2. Click the column you want to remove. Its settings open.
 3. Click **Delete Column**, then **Delete** to confirm.
 4. The column and the values saved in it no longer show on your entries. You cannot bring a deleted column back from this page.
+
+If you later add a column with the same name, it starts empty: the deleted column's values do not come back. If you need them back, contact support.
 
 ---
 

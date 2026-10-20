@@ -1,6 +1,6 @@
 # Workspace Data Tables
 
-**Last verified:** 2026-10-13 11:43pm
+**Last verified:** 2026-10-20 9:50am
 
 Your workspace keeps its own set of tables, separate from the ones inside each website. They hold the information your products share -- your contacts, your support tickets, your tasks and projects, your marketing campaigns. You will find them under **Settings → Database**.
 
@@ -40,7 +40,11 @@ Say you want to record which trade show a contact came from, or how urgent a tic
 
 The new field appears wherever that record is edited. A field added to Contacts shows up on every contact; one added to Helpdesk Tickets shows up on every ticket.
 
-To remove a field, open the same **Columns** screen and delete it there. Deleting a field also deletes the information stored in it, so check first that nobody is relying on it.
+To rename a field, open the same **Columns** screen, open the field and change its name. What is already saved in it stays with it.
+
+To change the order of your fields, drag a field by the grip on its left and drop it on another field. With the keyboard, press Tab until the grip is selected, then press the up or down arrow.
+
+To remove a field, open the same **Columns** screen and delete it there. Deleting a field removes it and the information stored in it from every record, so check first that nobody is relying on it. A new field with the same name starts empty.
 
 ---
 
