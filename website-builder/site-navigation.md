@@ -1,6 +1,6 @@
 # Setting Up Site Navigation
 
-**Last verified:** 2026-10-19 1:36pm
+**Last verified:** 2026-10-20 9:10am
 
 Navigation is how visitors find their way around your website. Good navigation helps people quickly get to the pages they need, whether they are browsing on a desktop or a phone. This guide covers how navigation works in WebNesting, how to control which pages appear in your menus, and tips for creating a clear, easy-to-use navigation structure.
 
@@ -129,9 +129,19 @@ On the menu's bar, click an item under **Open on the page**. The builder opens t
 
 - **Its pages** -- The item's pages, in columns. This is where every item starts.
 - **A widget** -- One of your widgets. Pick it in **What opens**, and the panel shows that widget instead of the pages.
-- **+ New Panel** -- Makes a new widget named after the item (for example "Services menu panel") with three columns, and picks it for the item. Click **Edit Panel** to open it, then drag blocks into its columns. In the panel widget's **Settings**, **Columns** picks two, three or four columns.
+- **+ New Panel** -- Makes a new widget named after the item (for example "Services menu panel") with three columns, and picks it for the item, and opens it on your page. In the panel widget's **Settings**, **Columns** picks two, three or four columns.
+
+### Change a Panel on Your Page
+
+Click **Edit Panel** on the menu's bar. The panel opens under its item. The rest of the page is dimmed and locked while you work on it.
+
+1. Drag blocks from the **Add** panel into the panel's columns. Each column is a drop area.
+2. Click a block in the panel to change it.
+3. Click **Done** to keep your changes as a draft, or **Publish** to show them to visitors.
 
 A panel widget shows on your site once you publish it. Until then, the panel shows the item's pages.
+
+If you are already changing your header on the page, **Edit Panel** opens the panel widget on its own page in the builder instead. To change it on the page, click **Close** on your header's bar first.
 
 ### How Visitors Use It
 
