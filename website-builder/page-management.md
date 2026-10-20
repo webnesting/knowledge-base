@@ -1,6 +1,6 @@
 # Managing Pages in the Builder
 
-**Last verified:** 2026-09-05 2:17pm
+**Last verified:** 2026-10-20 9:26am
 
 The Website Builder is where you design and edit your pages visually. But it is also where you can switch between pages, create new ones, and manage how they are organized -- all without leaving the builder. This guide covers everything you need to know about working with pages inside the builder.
 
@@ -153,12 +153,14 @@ You can assign an icon image to a page. This icon may appear in navigation menus
 
 ### Lock Page
 
-If you want to restrict who can see a page, you can lock it so only logged-in administrators can access it.
+If you want to hide a page from visitors, you can lock it so only your team can see it.
 
 1. Open the page properties.
 2. Find the **Lock Page** setting.
-3. Check **Site Admin** to require admin login to view the page.
+3. Check **Site Admin**.
 4. Save your changes.
+
+A locked page shows only in the builder's preview, and only to team members who can use the Website Builder on that site. Everyone else, on your published site too, sees your **Page Not Found** page.
 
 ---
 
