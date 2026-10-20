@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-10-19 4:20am
+**Last verified:** 2026-10-20 8:32am
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -299,6 +299,8 @@ These are the key images that represent your brand across your website. They liv
 ### Setting Your Logo
 
 Your logo appears in your site's header and anywhere else your theme displays it.
+
+On a phone, the header shows your logo picture by itself. If your site has no logo picture, the phone header shows your site's name instead.
 
 1. Go to **Site Settings**, open **Content**, and click **Site Images**.
 2. Find **Logo**.

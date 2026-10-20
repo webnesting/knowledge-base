@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-18 6:20pm
+**Last verified:** 2026-10-20 8:32am
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -206,6 +206,8 @@ When using Flex or Grid, you can set the **Gap** -- the space between each item.
 1. Find the **Gap** control in the Layout section.
 2. Drag the slider or type a number.
 3. Click the link icon to set different gaps for horizontal and vertical spacing, or keep them the same.
+
+On a phone, the space between side-by-side items in a grid row shrinks if it would make the row wider than the screen. The space above and below each item stays as you set it.
 
 > **Tip:** Using Flex with "center" alignment and "space between" justification is a great way to create a navigation bar where the logo is on the left and the menu is on the right.
 

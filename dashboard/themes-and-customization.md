@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-10-19 9:44am
+**Last verified:** 2026-10-20 8:32am
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -129,7 +129,7 @@ To go back to the theme's own five colors, click **Reset to [theme name]'s Color
 
 **Advanced** lists every color on your site, from links to the footer. Click **Show All** to open the list. Search for a color, or choose a part of the site (such as the header) to see only its colors. Change any of them, and click **Reset** next to a color to give it back to the theme. A color you changed shows a **Yours** label.
 
-> **Tip:** If a color makes text hard to read, a warning appears under your colors. It says which text is hard to read and by how much. Click the button in the warning to go straight to those colors.
+> **Tip:** If a color makes text hard to read, a warning appears under your colors. It says which text is hard to read and by how much. Click the button in the warning to go straight to those colors. The check covers the text in your header and footer, your footer's site name, social icons and bottom bar, your links, your buttons and outline buttons, text on your accent color and tab titles.
 
 **Colors for Light Mode / Dark Mode.** When your site shows a mode your theme was not made in (for example, you picked **Dark** for a light theme), the Colors tab starts with two buttons: **Light Mode** and **Dark Mode**. Click one to change the colors of that mode. The preview shows the same mode. A color you pick for the other mode shows only in that mode. A color you change under **Advanced** shows in both modes.
 

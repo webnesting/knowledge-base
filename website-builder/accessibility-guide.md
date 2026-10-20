@@ -1,6 +1,6 @@
 # Making Your Site Accessible
 
-**Last verified:** 2026-10-17 6:14pm
+**Last verified:** 2026-10-20 8:32am
 
 Accessibility means making sure everyone can use your website, regardless of how they browse the web. Some visitors use screen readers, some navigate with a keyboard instead of a mouse, and some have difficulty seeing certain colors. This guide explains what accessibility is, why it matters, and how you can make your WebNesting site welcoming to all visitors.
 
@@ -148,7 +148,7 @@ Not every visitor uses a mouse. Some people navigate websites entirely with thei
 
 - **Use proper components.** When you add a button from the component palette, it is automatically reachable by keyboard. The same goes for links created in the text toolbar. These built-in components are designed to work with keyboard navigation.
 - **Avoid using styled text as a fake button.** If something looks like a button but is really just bold, colored text, keyboard users will not be able to reach it or click it. Always use a real Button component for clickable actions.
-- **Pop-ups stay out of the way until you open them.** When a pop-up window is closed, the Tab key skips every link and button inside it. When it opens, the keyboard moves into it, and when it closes, the keyboard returns to the button that opened it.
+- **Pop-ups stay out of the way until you open them.** When a pop-up window is closed, the Tab key skips every link and button inside it. When it opens, the keyboard moves into it, and when it closes, the keyboard returns to the button that opened it. Its close button is a real button: a visitor can reach it with Tab and press Enter to close the pop-up, and a screen reader says "Close".
 - **Test it yourself.** Open your published site in a browser and try pressing the Tab key repeatedly. You should be able to reach every link, button, and form field on the page. If you cannot, something may need to be adjusted.
 
 > **Tip:** When you press Tab and move to an element, you should see a visible outline or highlight around it. This is called a focus indicator, and it shows keyboard users where they are on the page. Every built-in theme draws one in its main color.
