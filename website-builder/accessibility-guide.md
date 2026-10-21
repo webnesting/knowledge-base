@@ -1,6 +1,6 @@
 # Making Your Site Accessible
 
-**Last verified:** 2026-10-20 8:32am
+**Last verified:** 2026-10-21 8:57am
 
 Accessibility means making sure everyone can use your website, regardless of how they browse the web. Some visitors use screen readers, some navigate with a keyboard instead of a mouse, and some have difficulty seeing certain colors. This guide explains what accessibility is, why it matters, and how you can make your WebNesting site welcoming to all visitors.
 
@@ -152,6 +152,19 @@ Not every visitor uses a mouse. Some people navigate websites entirely with thei
 - **Test it yourself.** Open your published site in a browser and try pressing the Tab key repeatedly. You should be able to reach every link, button, and form field on the page. If you cannot, something may need to be adjusted.
 
 > **Tip:** When you press Tab and move to an element, you should see a visible outline or highlight around it. This is called a focus indicator, and it shows keyboard users where they are on the page. Every built-in theme draws one in its main color.
+
+---
+
+## Motion and Reduced Motion
+
+Some visitors feel dizzy or sick when parts of a page move as they scroll. Phones and computers have a setting for this, often called **Reduce motion**. Your site follows it for every visitor who turns it on, even while your page is already open:
+
+- **Scrolling effects** (parallax) stop following the scroll and show their finished position.
+- **Fade-ins** show at once, and never hide again.
+- **Counters** show their final number instead of counting up.
+- **Slideshows** stop changing slides on their own. Visitors can still use the arrows.
+
+You don't need to turn anything on. To see what these visitors see, turn on **Reduce motion** on your own device (on a Mac: **System Settings → Accessibility → Display**; on Windows: **Settings → Accessibility → Visual effects → Animation effects** off; on an iPhone: **Settings → Accessibility → Motion**), then open your published site.
 
 ---
 
