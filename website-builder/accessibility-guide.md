@@ -1,6 +1,6 @@
 # Making Your Site Accessible
 
-**Last verified:** 2026-10-21 8:57am
+**Last verified:** 2026-10-21 10:53am
 
 Accessibility means making sure everyone can use your website, regardless of how they browse the web. Some visitors use screen readers, some navigate with a keyboard instead of a mouse, and some have difficulty seeing certain colors. This guide explains what accessibility is, why it matters, and how you can make your WebNesting site welcoming to all visitors.
 
@@ -152,6 +152,21 @@ Not every visitor uses a mouse. Some people navigate websites entirely with thei
 - **Test it yourself.** Open your published site in a browser and try pressing the Tab key repeatedly. You should be able to reach every link, button, and form field on the page. If you cannot, something may need to be adjusted.
 
 > **Tip:** When you press Tab and move to an element, you should see a visible outline or highlight around it. This is called a focus indicator, and it shows keyboard users where they are on the page. Every built-in theme draws one in its main color.
+
+---
+
+## Labels for Screen Readers (Advanced)
+
+Most blocks need nothing extra. When a block needs a label that only screen readers hear, use an **Element** block (see [Adding Components](adding-components.md#structure)):
+
+1. Add an **Element** from the Add panel and put your blocks inside it.
+2. In its settings, pick the right **Element type**, for example **Navigation** for a group of links or **Quote** for a quotation.
+3. Under **Custom attributes**, click **+ Add attribute**, then type a name such as `aria-label` and the words a screen reader should say.
+
+The settings panel warns you about two common mistakes, and still saves your work:
+
+- An `aria-labelledby` or `aria-describedby` that names an id no block on the page has. A screen reader then skips that label or description.
+- A **Link** (or an element with `role` set to `button` or `link`) that has no text and no `aria-label`. A screen reader then says nothing for it.
 
 ---
 
