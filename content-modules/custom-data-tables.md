@@ -1,6 +1,6 @@
 # Custom Data Tables
 
-**Last verified:** 2026-10-14 2:54pm
+**Last verified:** 2026-10-21 8:37am
 
 Custom data tables let you store and organize any kind of information on your website. Think of them like spreadsheets -- you create a table, set up columns for the information you want to track, and then add rows of data. That data can then be displayed on your website however you like.
 
@@ -111,7 +111,9 @@ For text written in Markdown format. This is a lightweight way to format text us
 ### Number
 
 **Number**
-For any numeric value -- quantities, prices, ratings, years, percentages, or any other number.
+For any numeric value -- quantities, prices, ratings, years, percentages, or any other number. A number can have up to 4 decimal places, so a price of 14.99 or a rating of 4.5 is kept exactly as you type it. A whole number shows without decimals: 5 shows as 5, not 5.0000.
+
+A Number field holds up to 11 digits before the decimal point (up to 99,999,999,999.9999). If you enter a number with more than 4 decimal places, or a larger number, the record is not saved and the field tells you why. Nothing is rounded without telling you.
 
 *Use it for:* Prices, star ratings, order numbers, quantities, years of experience.
 
