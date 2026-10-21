@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-20 8:32am
+**Last verified:** 2026-10-21 11:54am
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -153,19 +153,35 @@ Shadows add depth to your elements, making them look like they are lifted off th
 ### Adding a Shadow
 
 1. Select the element.
-2. In the Styler, find the **Box Shadow** section.
-3. Adjust the shadow settings:
-   - **X offset** -- How far the shadow moves left or right.
-   - **Y offset** -- How far the shadow moves up or down.
+2. In the Styler, find the **Box Shadow** section (or **Text Shadow** for the shadow behind text).
+3. Click **Add Box Shadow**. The new shadow appears as a row in the list, and its settings open below the list.
+4. Adjust the shadow settings:
+   - **The square pad** -- Drag the dot to move the shadow. You can also click the pad and use the arrow keys; hold Shift to move 10 at a time.
+   - **X** and **Y** -- How far the shadow moves left or right, and up or down.
    - **Blur** -- How soft or sharp the shadow edges are. Higher blur makes a softer shadow.
    - **Spread** -- How large the shadow is overall.
+   - **Side** -- **Outset** puts the shadow outside the element; **Inset** puts it inside.
    - **Color** -- The color of the shadow (usually a semi-transparent black or gray).
+
+### Working With Several Shadows
+
+An element can have several shadows. Each one is a row in the list, with a small picture of the shadow and a short description.
+
+- **Edit a shadow:** click its row. Its settings open below the list.
+- **Change the order:** drag a row by its handle (the dots on the left). Or open the row's **⋮** menu and choose **Move up** or **Move down**. The first shadow in the list is drawn on top.
+- **Hide a shadow:** click the eye icon. The shadow stays in the list but is not drawn. Click the eye again to show it. A hidden shadow is kept when you save and publish.
+- **Copy a shadow:** open the row's **⋮** menu and choose **Duplicate**. The copy appears below the original.
+- **Remove a shadow:** open the row's **⋮** menu and choose **Remove**.
+
+Each of these changes is one step, so one **Undo** puts it back.
+
+If a shadow was written by hand in a form the settings cannot show (for example, sizes in `rem`), its row says **Custom**. Click the row to edit its text directly. It is kept exactly as written.
 
 ### Shadow Tips
 
 - A subtle shadow (small offset, moderate blur, light color) looks professional. Try something like X: 0, Y: 2, Blur: 8 for a gentle lift effect.
 - Avoid very dark or very large shadows unless you want a dramatic effect.
-- You can add multiple shadow layers for more complex effects.
+- Two soft shadows often look more natural than one: a small, tight shadow under a larger, softer one.
 
 ---
 
