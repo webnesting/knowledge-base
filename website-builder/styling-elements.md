@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-21 2:35pm
+**Last verified:** 2026-10-21 3:25pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -358,6 +358,59 @@ If you have made changes and want to start fresh, you can clear individual style
 3. Click the "0" preset to remove spacing, or use the clear button to reset the value entirely.
 
 > **Tip:** Clearing a style does not delete the element -- it just removes your customization, letting the default or theme style show through.
+
+---
+
+## Reusable Styles
+
+A **Style** is a look you can put on more than one element. Change the Style once, and every element that uses it changes, on every page.
+
+### See What a Change Reaches
+
+At the top of the Styles panel, a line tells you who your next change reaches:
+
+- **This changes every element using Card Shadow.** You are editing a Style. The line under it says where it is used, for example "Used on 12 elements across 4 pages".
+- **This changes every card on your site.** You are editing every element of that kind.
+- **This only changes this card.** You are editing only the selected element.
+
+When an element has a Style, the builder opens it on that Style. An element with no Style opens on itself.
+
+### Make a Style
+
+1. Select the element whose look you want to reuse.
+2. In the bar under the page, click the arrow on the left of the selected element's name.
+3. Click **+ New style** at the bottom of the menu.
+4. Type a name, such as "Card Shadow", and click **Create**.
+
+The Style is now on the element, and the Styles panel edits it. Every change you make from now on is saved in the Style. A name can have up to 64 characters, and two Styles cannot have the same name.
+
+### Put a Style on Another Element
+
+1. Select the other element, on any page.
+2. Open the same menu in the bar under the page.
+3. Under **Add a Style**, click the Style.
+
+As you type a name in the **+ New style** field, the Styles you already have show above it, so you can add one instead of making a copy.
+
+### Choose What You Edit
+
+The menu lists the element's Styles under **On this element**, with a tick on the one you are editing. Click another Style to edit it instead. Under **By selector**, pick the element itself (its `#` name) or every element of its kind.
+
+To take a Style off an element, click **Remove** beside it. The Style stays on its other elements.
+
+### Rename, Delete and Restore
+
+Click **Styles** at the right end of the bar under the page to open your list of Styles. Each one says where it is used.
+
+- **Rename:** click the pencil, type the new name and click **Save**. Only the name changes. Every element keeps its look.
+- **Delete:** click the bin. The builder tells you where the Style is used before you confirm. The elements keep their other styles and lose this look.
+- **Restore:** open **Recently deleted** and click **Restore**. The look comes back on every element that still has the Style. If another Style took the name in the meantime, it comes back with a number, such as "Card Shadow (2)".
+
+### Make an Existing Class a Style
+
+An AI assistant you connect to WebNesting can style your site with its own class names. Those show under **Classes that aren't Styles yet**. Click **Make it a Style**, check the name and click **Make Style**. Every element with that class now uses the Style, and you can rename it or put it on other elements.
+
+> **Tip:** Your AI assistant can list, make, rename and delete your Styles too. It asks for your yes before it deletes one.
 
 ---
 
