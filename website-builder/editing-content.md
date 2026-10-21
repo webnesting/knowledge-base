@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-10-18 2:03pm
+**Last verified:** 2026-10-20 10:46am
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -427,6 +427,22 @@ Basic Markdown formatting:
 - `[link text](URL)` for links
 
 > **Tip:** Most users will find the regular Balloon Text component easier to work with, since it has a visual toolbar for formatting. The Markdown Block is best for people who are already familiar with Markdown syntax.
+
+---
+
+## Adding a Tooltip to a Block
+
+A tooltip is a short hint that appears when a visitor points at a block, or moves to it with the Tab key. You can add one to almost any block.
+
+1. Select the block.
+2. In the Settings panel, open **More options**.
+3. Under **Tooltip**, type your hint in **Tooltip text**.
+4. Under **Show it**, choose where the hint appears: **Above**, **Below**, **Left** or **Right**.
+5. Save, then publish.
+
+To remove the tooltip, clear **Tooltip text**.
+
+> **Tip:** Keep a tooltip short. It is a hint, not a place for important content: visitors on a phone cannot point at a block, so they may never see it.
 
 ---
 
