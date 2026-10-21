@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-10-21 11:58am
+**Last verified:** 2026-10-21 1:03pm
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -61,6 +61,7 @@ Written content.
 - **Markdown Block** -- A text area that uses Markdown formatting.
 - **HTML** -- A block where you can paste raw HTML, useful for embedding third-party widgets.
 - **Alert** -- A highlighted message box, good for notices, warnings, or tips.
+- **Code block** -- Code that visitors can read and copy. Paste your code, pick its language from the list, and turn on **Show a Copy button** if you want one. Tags and scripts you paste show as text and never run on your page.
 
 ### Media
 
@@ -77,6 +78,7 @@ Blocks a visitor can click or open.
 
 - **Button** -- A clickable button linking to another page, a section of your site, or an external website.
 - **Accordion Item** -- An expandable section visitors can open and close. Good for FAQs.
+- **Tabs** -- Panels that visitors switch between with a row of tab names. It starts with three tabs, each holding a text block. Select a tab in **Layers** to edit its panel, and rename it under **Tab name**. Use the **+** in the toolbar to add a tab, and Alt with the arrow keys to move one. In the settings, put the tab bar across the top or down the side, and choose which tab shows first. Visitors can also use the arrow keys, Home and End.
 - **Disqus Comments** -- A comments section powered by Disqus, letting visitors comment and reply. You need a Disqus account and a site shortname, set in the component's settings. Comments are then managed from the Disqus moderation dashboard, which handles spam filtering and user accounts for you.
 
 ### Marketing
