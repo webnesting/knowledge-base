@@ -1,6 +1,6 @@
 # Connecting an AI Tool
 
-**Last verified:** 2026-10-20 9:28am
+**Last verified:** 2026-10-21 8:56am
 
 You can connect an AI assistant — like Claude Desktop, Claude Code, or Cursor — directly to your WebNesting workspace. Once connected, you can ask the AI to look things up and make changes for you in plain language: "list my draft articles," "create a new event for next Friday," "what's my current usage this month." The AI works **as you**, with **your** permissions, and never sees your password.
 
@@ -73,6 +73,7 @@ The AI is signed in as **your** WebNesting account, so:
 - Add fields of your own to contacts, campaigns, Help Desk tickets, internal docs, projects and tasks, and fill them in on those records. This needs the workspace **Settings** permission, the same as the workspace **Database** page.
 - Remove a field or delete a whole collection — but only after it shows you what goes, and how many records the collection holds, and you say yes. The **Database** page cannot bring a removed field or a deleted collection back. A collection that belongs to a module, and the built-in workspace tables such as Contacts, cannot be deleted.
 - Create a new site — after it shows you the name and address and you say yes. Setting the site up takes a few minutes.
+- Add a picture to your **Files** from its web address. Ask for this only for a picture you have the right to use. The AI can give it a description (alt text) and put it in one of your folders or in one site's files. The same picture added twice is kept once.
 - Turn on a workspace product, such as Help Desk or Tasks — but only after it shows you the monthly price and you say yes.
 
 **It can't** (these always stay in your hands):
@@ -90,7 +91,7 @@ For any of those, the AI won't act — it will hand you a direct link to the rig
 
 WebNesting gives your AI app a few ready-made requests. Each one tells your AI, step by step, how to do a job well in WebNesting. Your AI does the work, and nothing happens until you start one.
 
-- **Build a website.** Describe your business in a sentence or two. Your AI plans the pages and what goes on each, builds them with the Builder's own elements and writes the words, then makes your look (colours, spacing, text sizes), and checks every page at desktop and phone width. It does not make up facts you did not give, such as opening hours, prices or a phone number. It marks them for you to fill in. It publishes nothing until you say so.
+- **Build a website.** Describe your business in a sentence or two. Your AI plans the pages and what goes on each, builds them with the Builder's own elements and writes the words, then makes your look (colours, spacing, text sizes), and checks every page at desktop and phone width. For photos, it uses your own pictures in **Files** first. If none fit, it can add a photo from a web address that you have the right to use, and it gives every picture a description. It does not make up facts you did not give, such as opening hours, prices or a phone number. It marks them for you to fill in. It publishes nothing until you say so.
 - **Add a section to a page.** Say what the section is for and where it goes. Your AI builds it to match the rest of the page.
 - **Restyle a page.** Say how you want it to look, for example "warmer and more rustic". Your AI changes only the look, never your words or the page's layout. A new theme changes every page of your site, so your AI tells you first.
 
