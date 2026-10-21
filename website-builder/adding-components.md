@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-10-21 11:45am
+**Last verified:** 2026-10-21 11:58am
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -17,7 +17,7 @@ You combine these components to create complete pages. A typical page might have
 ## How to Add a Component
 
 1. Open the **Website Builder** for the page you want to edit.
-2. Click **Add** in the panel rail on the **right** side of the screen. You will see every available component, organized into categories.
+2. Click **Add** in the panel rail on the **right** side of the screen. You will see every available component, organized into groups. To find one fast, type a name or a plain word, such as "movie", in **Search blocks**.
 3. Find the component you want to add.
 4. **Click and hold** on the component, then **drag it** onto the Canvas (the main area showing your page).
 5. Drop it where you want it to appear. You will see a visual guide showing you where the component will land.
@@ -29,13 +29,19 @@ The component will appear on your page immediately. You can now click on it to e
 
 ---
 
+## Find a Block: Search and Groups
+
+At the top of the **Add** panel, the **Search blocks** box finds a block by its name or by a plain word. Type "movie" and **Video** appears; "newsletter" finds **Email Signup**. A longer search needs every word to match. Under the box, a line says what you see: "32 blocks in 6 groups.", or "1 block matches “movie”." while you search. Press **Esc** or choose **Clear search** to see all the blocks again. If nothing matches, the panel says so and offers **Show all blocks**.
+
+The blocks sit in groups by what you want to do. Select a group's name to open or close it. The first time you open the panel, only **Layout** is open; after that the panel remembers which groups you opened. While you search, every group with a match opens by itself.
+
 ## Component Categories
 
-Components are grouped into categories in the **Add** panel. The everyday building blocks come first; more specialist groups follow.
+Components are grouped by what you want to do. The groups are Layout, Text, Media, Interactive, Marketing and Site modules, followed by **My Widgets**.
 
 ![The Add panel showing component categories](../images/website-builder/component-palette.png)
 
-### Structure
+### Layout
 
 The boxes that hold and organize everything else. Using them correctly also helps screen readers and search engines understand your page.
 
@@ -43,32 +49,18 @@ The boxes that hold and organize everything else. Using them correctly also help
 - **Section** -- A major division of your page.
 - **Blank box** -- An empty box with no meaning of its own, for grouping or spacing other blocks.
 - **Element** -- A box you can turn into any of 25 HTML elements, such as a quote, a list, a figure or a link. In its settings, **Element type** is a list you can search; each type has one plain line that says what it is for, and a note under it says which element your page gets. **Custom attributes** adds your own name and value pairs to the element, for styling hooks and screen readers: names that start with `aria-` or `data-`, and `role`, `title` and `lang`. A Link can also take `href`, and a Date or time can take `datetime`. A name the builder can't use (such as `id`, `class`, `style` or `onclick`) shows why under its row, and is never saved. Each row has its own **Remove** button.
+- **Card** -- A self-contained block combining an image, heading, description, and button.
 - **Divider** -- A horizontal line that visually separates content on your page.
-- **Site logo** -- Your logo and site name, linking to your home page. In its settings, **Show** picks the logo and name, only the logo, or only the name. Change the logo itself in **Site Settings**.
-- **Site menu** -- One of your site's menus. In its settings, **Which menu** picks the menu and **Levels shown** says how many levels of pages show (1 shows only the top items). Click the menu on your page and its toolbar sets the **Submenu style**: **Flat** shows only the top items, **Dropdown** opens the pages under an item in a short list below it, and **Mega menu** opens a wide panel below your header with the item's pages in columns, or a widget you pick (see [Mega Menus](site-navigation.md#mega-menus)). **Open on the page** opens one item's list or panel in the builder so you can see it. Edit the pages of a menu in **Pages**.
-- **Menu button** -- The button that opens your menu on smaller screens. Drop a **Site menu** (or a button, or some text) into it. In its settings, **Show it on** picks the screens that show the button (phones, tablets and phones, laptops, tablets and phones, or every screen); wider screens show the menu itself. **Menu slides in from** picks the side, and **Button shows** picks three lines or the word Menu. While you work on it, the builder shows your page at phone width with the menu open, so you can drop blocks into it.
-- **Site details** -- One of the details you keep in **Site Settings**: your social links, your footer details, your copyright line (with this year and your business name) or your extra footer text. In its settings, **Show** picks which one. It changes when you change it in Site Settings. If the detail is empty, your page shows nothing there, and the builder shows a note that says where to add it.
-- **Light / dark switch** -- A sun and moon button that lets each visitor pick light or dark mode. It shows on your site once **Show a light / dark switch on my site** is on in **Site Settings → Appearance → Color Mode** (see [Light and Dark Mode](../dashboard/themes-and-customization.md#light-and-dark-mode)).
-
-### Navigation
-
-The parts that frame every page.
-
 - **Header** and **Footer** -- The top and bottom regions of a layout.
-- **Breadcrumbs** -- A trail of links showing where the visitor is (for example: Home > Services > Web Design).
 
-### Content
+### Text
 
-Text, buttons, and other written or interactive content.
+Written content.
 
 - **Inline Text** -- A rich text area with a floating formatting toolbar. This is the one you will reach for most often.
 - **Markdown Block** -- A text area that uses Markdown formatting.
 - **HTML** -- A block where you can paste raw HTML, useful for embedding third-party widgets.
-- **Button** -- A clickable button linking to another page, a section of your site, or an external website.
 - **Alert** -- A highlighted message box, good for notices, warnings, or tips.
-- **Card** -- A self-contained block combining an image, heading, description, and button.
-- **Accordion Item** -- An expandable section visitors can open and close. Good for FAQs.
-- **Site Map** -- An automatically generated list of all the pages on your site.
 
 ### Media
 
@@ -77,25 +69,38 @@ Visual content.
 - **Image** -- A single image. Click it to pick a picture from your files or upload a new one.
 - **Slideshow** -- A rotating set of images that transitions between slides.
 - **Video** -- A YouTube or Vimeo video, or one from your files. Paste the link or choose **My media**, then pick a shape. Under **More options** you can add a cover image, round the corners, and set whether it plays on its own, repeats, shows the player controls, and where it starts. A visitor who prefers less motion never sees it play on its own.
+- **Google Maps** -- An embedded, interactive map showing a specific location. Ideal for contact pages and store locators. Configure the location by entering an address or coordinates. Your site may need a Google Maps API key configured for the map to display.
 
-### Module Driven Items
+### Interactive
 
-These display content from your site's modules, and only appear when the related module is enabled.
+Blocks a visitor can click or open.
 
+- **Button** -- A clickable button linking to another page, a section of your site, or an external website.
+- **Accordion Item** -- An expandable section visitors can open and close. Good for FAQs.
+- **Disqus Comments** -- A comments section powered by Disqus, letting visitors comment and reply. You need a Disqus account and a site shortname, set in the component's settings. Comments are then managed from the Disqus moderation dashboard, which handles spam filtering and user accounts for you.
+
+### Marketing
+
+- **Email Signup** -- A newsletter signup form for collecting subscribers. Requires the Marketing product.
+
+### Site modules
+
+The parts that frame every page, and blocks that show content from your site's modules. Blocks from a module only appear when that module is enabled.
+
+- **Site logo** -- Your logo and site name, linking to your home page. In its settings, **Show** picks the logo and name, only the logo, or only the name. Change the logo itself in **Site Settings**.
+- **Site menu** -- One of your site's menus. In its settings, **Which menu** picks the menu and **Levels shown** says how many levels of pages show (1 shows only the top items). Click the menu on your page and its toolbar sets the **Submenu style**: **Flat** shows only the top items, **Dropdown** opens the pages under an item in a short list below it, and **Mega menu** opens a wide panel below your header with the item's pages in columns, or a widget you pick (see [Mega Menus](site-navigation.md#mega-menus)). **Open on the page** opens one item's list or panel in the builder so you can see it. Edit the pages of a menu in **Pages**.
+- **Menu button** -- The button that opens your menu on smaller screens. Drop a **Site menu** (or a button, or some text) into it. In its settings, **Show it on** picks the screens that show the button (phones, tablets and phones, laptops, tablets and phones, or every screen); wider screens show the menu itself. **Menu slides in from** picks the side, and **Button shows** picks three lines or the word Menu. While you work on it, the builder shows your page at phone width with the menu open, so you can drop blocks into it.
+- **Site details** -- One of the details you keep in **Site Settings**: your social links, your footer details, your copyright line (with this year and your business name) or your extra footer text. In its settings, **Show** picks which one. It changes when you change it in Site Settings. If the detail is empty, your page shows nothing there, and the builder shows a note that says where to add it.
+- **Light / dark switch** -- A sun and moon button that lets each visitor pick light or dark mode. It shows on your site once **Show a light / dark switch on my site** is on in **Site Settings → Appearance → Color Mode** (see [Light and Dark Mode](../dashboard/themes-and-customization.md#light-and-dark-mode)).
+- **Breadcrumbs** -- A trail of links showing where the visitor is (for example: Home > Services > Web Design).
+- **Site Map** -- An automatically generated list of all the pages on your site.
 - **Article List / Article Detail** -- Articles from your Articles module.
 - **Event List / Event Detail** -- Events from your Events module.
 - **Product List / Product Detail** -- Products from your Store module.
 - **Form** -- Embeds a form from your Forms module. Requires the Forms module.
-- **Email Signup** -- A newsletter signup form for collecting subscribers. Requires the Marketing product.
 - **Login Form**, **Registration Form**, **Forgot Password Form**, **Reset Password Form**, **Account Security** and **Two-Factor Code Form** -- The pages a visitor uses to sign up, sign in, reset a password and manage their account on your site.
 
-> **Tip:** If you do not see these components, the related module is not enabled. You can enable modules from the **Modules** section of your site menu.
-
-### Plugins
-
-- **Google Maps** -- An embedded, interactive map showing a specific location. Ideal for contact pages and store locators. Configure the location by entering an address or coordinates. Your site may need a Google Maps API key configured for the map to display.
-
-- **Disqus Comments** -- A comments section powered by Disqus, letting visitors comment and reply. Popular for blog posts and news articles. You need a Disqus account and a site shortname, set in the component's settings. Comments are then managed from the Disqus moderation dashboard, which handles spam filtering and user accounts for you.
+> **Tip:** If you do not see the module blocks, the related module is not enabled. You can enable modules from the **Modules** section of your site menu.
 
 ### My Widgets
 

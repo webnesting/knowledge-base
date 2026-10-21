@@ -1,6 +1,6 @@
 # Website Builder Overview
 
-**Last verified:** 2026-10-20 9:35am
+**Last verified:** 2026-10-21 11:58am
 
 The Website Builder is where you design and create your web pages. It is a visual editor -- meaning you can see exactly how your page will look as you build it. No coding required.
 
@@ -72,7 +72,7 @@ Everything else lives in a single column of icon buttons down the **right** side
 | Panel | What it is for |
 |-------|---------------|
 | **Pages** | Switch between pages, create new ones, and open a page's settings |
-| **Add** | The component palette -- every building block you can drag onto your page |
+| **Add** | The component palette -- search for a block or open a group, then drag it onto your page |
 | **Settings** | Options for whatever you currently have selected |
 | **Styles** | Colors, spacing, size, fonts, borders, shadows, and layout for the selected element |
 | **Layers** | A tree view of everything on the page, useful for selecting things buried inside other things |
@@ -91,7 +91,7 @@ On a window narrower than 1200px, such as a tablet, the workspace menu on the fa
 
 Building a page follows a simple pattern. Here is the basic workflow:
 
-1. **Pick a component** from the **Add** panel. Browse the categories to find what you need (a text block, an image, a button, and so on).
+1. **Pick a component** from the **Add** panel. Type a name or a plain word in **Search blocks** ("movie" finds Video), or open a group such as Layout, Text or Media (a text block, an image, a button, and so on).
 2. **Drag it onto your page.** Drop it wherever you want it to appear on the Canvas.
 3. **Click to select and edit.** Click on the component you just added. If it has text, click the text to start typing. If it is an image, click it to change the picture.
 4. **Style it in the Styles panel.** With the component selected, open **Styles** to adjust colors, spacing, fonts, and other visual settings.
