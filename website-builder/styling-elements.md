@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-21 1:04pm
+**Last verified:** 2026-10-21 2:35pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -54,7 +54,7 @@ You can change the background color and text color of most elements.
 ### Changing a Background Color
 
 1. Select the element you want to change.
-2. In the Styler, find the **Background** section.
+2. In the Styler, find the **Background** section and its **Color** field.
 3. Click the color swatch (the small colored square).
 4. A color picker will appear. Choose your color by clicking in the color area, or type in a specific color code.
 5. The change appears instantly on your page.
@@ -77,6 +77,55 @@ Pick a theme color instead of a color code. When you change the theme's colors l
 When choosing text colors, make sure your text is easy to read against its background. Dark text on a light background or light text on a dark background works best. Avoid putting light gray text on a white background, for example -- your visitors will struggle to read it.
 
 > **Tip:** If your text seems hard to read, try increasing the contrast. Use very dark colors (close to black) on light backgrounds, or very light colors (close to white) on dark backgrounds.
+
+---
+
+## Backgrounds
+
+An element's background can hold several images, gradients and colors, stacked on top of each other. In the Styler's **Background** section, they are the rows of the **Layers** list. The first layer is drawn on top. The **Color** field below the list paints under every layer.
+
+### Adding a Background Image
+
+1. Select the element.
+2. In the **Background** section, click **Add a layer** and choose **Image**.
+3. Click the Media button beside **File** to choose an image from your Media library, or paste an image's web address into **File**.
+4. The image covers the element, once, from its center. Change that with **Size**, **Position** and **Repeat**.
+
+A private file from Media cannot be used, because your visitors could not see it. Make it public in Media, then pick it again.
+
+### Adding a Gradient
+
+1. Click **Add a layer** and choose **Gradient**. It starts with your theme's two main colors.
+2. Under **Kind**, choose **Linear** (a straight blend), **Radial** (rings out from a center) or **Conic** (a sweep around a center).
+3. Under **Pattern**, choose **Repeat** to repeat the colors as stripes or rings.
+4. Click a color's circle on the strip to pick it. Change its **Color**, drag it along the strip, or press the left and right arrow keys to move it.
+5. Use **Add a color**, **Remove color** and **Reverse** to change the list of colors.
+
+For a linear gradient, turn the **Direction** dial, or type the angle beside it. With the dial selected, the arrow keys turn it one degree at a time, and Shift jumps to the next 15 degrees. A conic gradient has a **Start** dial. A radial gradient has a **Shape** (circle or ellipse) and a **Size** (how far it reaches). Radial and conic gradients have a **Center**.
+
+### Adding a Color Layer
+
+Choose **Color** under **Add a layer**. A color layer covers every layer below it, so use a see-through color to tint an image under it.
+
+### Layer Options
+
+Each image or gradient layer has its own settings:
+
+- **Size** -- **Auto**, **Cover** (fill the element), **Contain** (show all of it), or a size you type, such as `200px` or `50% auto`.
+- **Position** -- Drag the dot in the square pad, or pick one of the nine spots beside it, such as **Top right**.
+- **Repeat** -- **Repeat**, **Across**, **Down** or **Once**.
+
+Under **More layer options**:
+
+- **Scrolling** -- **Scroll** moves with the element, **Fixed** stays still while the page scrolls, and **Local** scrolls with the element's own content.
+- **Starts at** and **Painted to** -- Whether the layer starts at, and is painted up to, the element's **Border**, **Padding** or **Content**. **Painted to: Text** shows the layer only through the element's text.
+- **Blend** -- How the layer mixes with the layers below it, such as **Multiply** or **Screen**.
+
+### Working With Several Layers
+
+The layer rows work like the shadow rows (see [Working With Several Shadows](#working-with-several-shadows)): drag a row to change the order, or use **Move up** and **Move down** in its **⋮** menu. Click the eye icon to hide a layer without removing it. Use **Duplicate** and **Remove** in the **⋮** menu. Each change is one step, so one **Undo** puts it back.
+
+A layer written by hand in a form the settings cannot show says **Custom**. It is kept exactly as written, and you can edit its text.
 
 ---
 
