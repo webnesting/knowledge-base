@@ -1,6 +1,6 @@
 # Custom Widgets
 
-**Last verified:** 2026-10-19 4:51pm
+**Last verified:** 2026-10-21 9:31am
 
 Widgets are reusable content blocks that you create once and use across multiple pages on your site. Instead of rebuilding the same section over and over, you build it once as a widget, and then place it wherever you need it.
 
@@ -174,20 +174,20 @@ In the Website Builder, your header and footer have a dashed outline, because th
 
 **Pick another layout:**
 
-1. Click your header. Its bar says which layout it shows.
-2. In **Settings**, pick a **Layout**. The page shows it at once, and the bar says it is not saved yet.
-3. Click **Save Layout** in the bar. Every page shows the new layout.
+1. Click your header. **Settings** shows the layout it uses.
+2. In **Settings**, pick a **Layout**. The page shows it at once, and **Save Layout** shows under the header's toolbar.
+3. Click **Save Layout**. Every page shows the new layout.
 
 **Work on your own header:** after **Make It My Own** (or **Edit Header** on a header of your own), the header opens right on your page:
 
 - A blue ring marks the header, and the rest of the page is dimmed with the note **Locked while you edit the header**. Clicks on the page do nothing until you close the header.
 - Click a block in the header to select it and change it in **Settings** and **Styles**. Drag new blocks from **Add** into the header.
 - **Layers** lists only the header's blocks.
-- The top bar's **Publish** and edit-mode switch are off while the header is open. The header's own bar has **Publish & Set as Header** (or **Publish**, once it is your header), and **Close**, which keeps your changes as a draft that visitors do not see.
+- The top bar's **Publish** and edit-mode switch are off while the header is open. The header's own toolbar has **Publish & Set as Header** (or **Publish**, once it is your header), and **Close**, which keeps your changes as a draft that visitors do not see.
 
 If a publish fails, a red notice above the page says so, nothing changes on your site, and the header stays open so you can try again.
 
-When your own header is in use, click it to see its bar: **Edit Header** opens it on the page again, and **Go Back to a Standard Layout** shows your layout again. The blocks inside your header cannot be selected from the page itself; a click selects the whole header. In **Layers**, your header and footer show as **Header:** and **Footer:** with their name and a lock.
+When your own header is in use, click it to see its toolbar: **Edit Header** opens it on the page again, and **Go Back to a Standard Layout** shows your layout again. The blocks inside your header cannot be selected from the page itself; a click selects the whole header. In **Layers**, your header and footer show as **Header:** and **Footer:** with their name and a lock.
 
 Header and footer widgets have their own group in **Add**, **Header & Footer Widgets**. They never go on a page: click your header or footer to use one.
 
