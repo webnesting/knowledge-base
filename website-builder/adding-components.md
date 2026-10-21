@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-10-21 10:53am
+**Last verified:** 2026-10-21 11:45am
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -76,6 +76,7 @@ Visual content.
 
 - **Image** -- A single image. Click it to pick a picture from your files or upload a new one.
 - **Slideshow** -- A rotating set of images that transitions between slides.
+- **Video** -- A YouTube or Vimeo video, or one from your files. Paste the link or choose **My media**, then pick a shape. Under **More options** you can add a cover image, round the corners, and set whether it plays on its own, repeats, shows the player controls, and where it starts. A visitor who prefers less motion never sees it play on its own.
 
 ### Module Driven Items
 
