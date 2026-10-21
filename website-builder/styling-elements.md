@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-21 11:54am
+**Last verified:** 2026-10-21 1:04pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -77,6 +77,43 @@ Pick a theme color instead of a color code. When you change the theme's colors l
 When choosing text colors, make sure your text is easy to read against its background. Dark text on a light background or light text on a dark background works best. Avoid putting light gray text on a white background, for example -- your visitors will struggle to read it.
 
 > **Tip:** If your text seems hard to read, try increasing the contrast. Use very dark colors (close to black) on light backgrounds, or very light colors (close to white) on dark backgrounds.
+
+---
+
+## Text and Fonts
+
+Select a text element and open the **Typography** section in the Styler. It holds the font, size, weight, spacing and decoration of the text.
+
+### Choosing Fonts
+
+**Font Family** is a list of fonts. A visitor's device shows the first font in the list that it has, so put the font you want first and the fallbacks after it.
+
+1. Click **Add a font**.
+2. Pick a font from the menu. **Your theme** lists your theme's fonts, **Safe on every device** lists fonts that nearly every computer and phone has, and **Last resort** lists kinds of font, such as **Any serif font**. To use a font by its name, pick **A font name you type**.
+3. Drag a row by its grip to change the order, or use the row's **⋮** menu to **Move up**, **Move down** or **Remove** it.
+
+Keep a **Last resort** kind at the end of the list, so a device without your fonts still shows the right kind of letters.
+
+A theme font, such as **Heading font**, follows your theme: when you change the theme's fonts, the text changes with it. To add a new font to your site, click **Add a font to your theme** under a theme font. It opens the **Fonts** tab of your theme in a new tab. A font you type by name shows only if your site loads it.
+
+### Size, Weight and Line Height
+
+- **Font Size** and **Letter Spacing** have a slider and a box for an exact value.
+- **Font Weight** has a button for each common weight, from 300 (light) to 700 (bold). The arrow beside the buttons has the rest.
+- **Line Height** is the space each line of text takes. Type a plain number, such as 1.5, and the unit shows "–". A plain number grows with the text size, so it is usually the best choice. You can also pick px, em or rem from the unit menu.
+
+### Capitals and Decoration
+
+- **Text Transform** changes the capitals: **Aa** capitalizes each word, **AA** makes all capitals and **aa** makes all small letters.
+- **Text Decoration** draws a line **Under**, **Over** or through (**Strike**) the text. Set the line's **Thickness**, **Style** (such as solid, dashed or wavy) and **Color**. For an underline, **Gap below the text** moves the line away from the letters.
+
+### Limiting Lines
+
+**Limit Lines** cuts the text after a number of lines and ends it with "…". Use it for card text or summaries that must stay the same height. Clear the value to show all of the text again.
+
+### More Text Options
+
+Less-used settings are under **More text options** at the end of the section. They include how the text wraps (**White Space**, **Word Break**, **Overflow Wrap** and **Hyphens**), **Vertical Align**, **Font Variant** (small capitals), **Direction** (left to right or right to left) and **Writing Mode** (across or down). When one of them is set, the row starts open. When the row is closed, it says how many are set.
 
 ---
 
