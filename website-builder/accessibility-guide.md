@@ -1,6 +1,6 @@
 # Making Your Site Accessible
 
-**Last verified:** 2026-10-21 10:53am
+**Last verified:** 2026-10-22 10:30am
 
 Accessibility means making sure everyone can use your website, regardless of how they browse the web. Some visitors use screen readers, some navigate with a keyboard instead of a mouse, and some have difficulty seeing certain colors. This guide explains what accessibility is, why it matters, and how you can make your WebNesting site welcoming to all visitors.
 
@@ -46,6 +46,20 @@ Alt text (short for "alternative text") is a written description of an image. It
 
 For a detailed walkthrough of image settings, see **[Editing Content](editing-content.md)** -- the Working with Images section.
 
+### When You Choose a Picture
+
+When you choose a picture that has no alt text, the File Manager asks for it. A short box shows under your files, above **Select**, with one line for each chosen picture that needs alt text.
+
+- Type the alt text in the line. It saves when you press Enter or move on, and "Saved to this picture" shows under it.
+- Tick **This image is decorative (no alt text needed)** for a picture that only adds looks (see below).
+- You can skip it. **Select** adds the pictures either way.
+
+The File Manager asks once for each picture. If you skip a picture, it does not ask again. It asks again only if you later delete that picture's alt text. When you choose many pictures, the box shows up to three lines (fewer on a phone) and you scroll it for the rest.
+
+### Finding Pictures Without Alt Text
+
+In the File Manager, choose **Missing Alt Text** in the file type list. It shows every picture in your files that has no alt text and is not marked decorative. Click a picture, type its alt text, then click the next one. The fixed picture leaves the list.
+
 ### Tips for Writing Good Alt Text
 
 - **Describe what you see.** Write a short sentence or phrase that tells someone what the image shows. "A family sitting around a dinner table" is much better than "image1.jpg" or "photo."
@@ -55,7 +69,9 @@ For a detailed walkthrough of image settings, see **[Editing Content](editing-co
 
 ### Decorative Images
 
-Some images are purely decorative -- they add visual interest but do not convey important information. For example, a swirling background pattern or a decorative border. In these cases, you can leave the alt text field empty. This tells screen readers to skip the image entirely, which keeps the experience clean for those users.
+Some images are purely decorative -- they add visual interest but do not convey important information. For example, a swirling background pattern or a decorative border. For these, tick **This image is decorative (no alt text needed)** in the picture's details in the File Manager, or in the box that asks when you choose it. Screen readers then skip the picture on every page that shows it, and **Missing Alt Text** no longer lists it.
+
+If the picture already has alt text, the File Manager keeps it but does not use it while the box is ticked. If you type new alt text for a decorative picture, the File Manager unticks the box for you.
 
 ---
 
@@ -157,7 +173,7 @@ Not every visitor uses a mouse. Some people navigate websites entirely with thei
 
 ## Labels for Screen Readers (Advanced)
 
-Most blocks need nothing extra. When a block needs a label that only screen readers hear, use an **Element** block (see [Adding Components](adding-components.md#structure)):
+Most blocks need nothing extra. When a block needs a label that only screen readers hear, use an **Element** block (see [Adding Components](adding-components.md#layout)):
 
 1. Add an **Element** from the Add panel and put your blocks inside it.
 2. In its settings, pick the right **Element type**, for example **Navigation** for a group of links or **Quote** for a quotation.
@@ -193,7 +209,7 @@ If your site includes forms, make sure every form field has a visible label. Pla
 
 Use this checklist to review your site before publishing. It covers the most impactful things you can do to make your site accessible.
 
-- Every image has descriptive alt text (or empty alt text for purely decorative images)
+- Every image has descriptive alt text, or is marked decorative (**Missing Alt Text** in the File Manager shows the ones left)
 - Headings are used in proper order (Heading 1, then Heading 2, then Heading 3) without skipping levels
 - Text has strong contrast against its background (dark on light or light on dark)
 - All links have descriptive text that makes sense on its own

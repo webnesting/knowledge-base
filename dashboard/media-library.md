@@ -1,6 +1,6 @@
 # Files (File Manager)
 
-**Last verified:** 2026-10-22 9:35am
+**Last verified:** 2026-10-22 10:30am
 
 The File Manager is where every file in your workspace lives — images, videos, documents, helpdesk email attachments, and files visitors upload through your forms. Think of it as your workspace's file cabinet: one place, organized in folders, just like the files on your computer.
 
@@ -70,6 +70,7 @@ Click any file to open its detail panel, showing:
 
 - A preview of the file.
 - Editable **Title**, **Alt Text**, and **Description**. **Alt Text** is what a screen reader says about a picture; **Description** shows with the picture on your site, as its caption.
+- For a picture, **This image is decorative (no alt text needed)**. Tick it for a picture that only adds looks, such as a texture or a divider. Screen readers then skip it on every page. Alt text you already wrote is kept but not used while it is ticked, and typing new alt text unticks it.
 - For a photo, **Where should this crop from?** (see below).
 - A line under the fields that says how your changes stand: "Changes save as you go.", "Saving…" and then "Saved". If a change can't be saved (for example, your connection dropped), it says "We couldn't save your changes. Check your connection, then try again." Click **Try Again** when you're back online.
 - The file's name, size, type, and upload date.
@@ -77,7 +78,9 @@ Click any file to open its detail panel, showing:
 - Its virus-scan status.
 - **Referenced by** — the helpdesk tickets or form submissions this file is attached to, with links to jump straight there.
 
-> **Tip:** Always add alt text to your images. It makes your site more accessible to people using screen readers, and it can improve your search engine ranking.
+> **Tip:** Always add alt text to your images. It makes your site more accessible to people using screen readers, and it can improve your search engine ranking. To find the pictures that still need it, choose **Missing Alt Text** in the file type list above your files. A picture leaves that list when you give it alt text or mark it decorative, and you move on to another file.
+
+When you choose a picture with no alt text for a page, the File Manager asks for its alt text once, above **Select**. You can type it there, mark the picture decorative, or skip it. See **[Making Your Site Accessible](../website-builder/accessibility-guide.md)**.
 
 On a tablet or phone, the detail panel shows under your files: choose a file, then scroll down to edit it.
 
