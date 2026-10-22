@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-22 3:01pm
+**Last verified:** 2026-10-22 7:00pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -545,6 +545,42 @@ Click **Styles** at the right end of the bar under the page to open your list of
 An AI assistant you connect to WebNesting can style your site with its own class names. Those show under **Classes that aren't Styles yet**. Click **Make it a Style**, check the name and click **Make Style**. Every element with that class now uses the Style, and you can rename it or put it on other elements.
 
 > **Tip:** Your AI assistant can list, make, rename and delete your Styles too. It asks for your yes before it deletes one.
+
+---
+
+## Advanced: Any CSS for One Element
+
+**Advanced** at the top of the **Styles** panel shows the CSS of the element you selected, as rules you can type in. It takes any CSS: properties the Styler has no control for, your own variables such as `--brand: #0af`, browser-prefixed properties, fallbacks and `!important`. Nothing you type is dropped or changed.
+
+Each rule shows as a block. The block's first lines say when it applies, for example `@media only screen and (max-width: 1023px) { /* MD ≤ */`. Each row is a property and its value. Clear a row's checkbox to turn it off and keep its value. Click **×** on a row to remove it.
+
+### Typing and Pasting CSS
+
+- Type a property, then `:`, then its value. Type `;` to go to the next row. A `;` inside quote marks or brackets stays part of the value, so an image written into the CSS, such as `url("data:image/svg+xml;utf8,…")`, types as one value.
+- Paste several lines of CSS into a row, and Advanced splits them into rows. A rule for this element, such as `.card:hover { color: blue; }`, goes to its own block. After a paste, the block says what happened, for example "Added 3 rows. 1 piece went to Raw CSS."
+- A rule for a different element is not added. Paste it into **Stylesheet** instead (see [Your Own CSS](#your-own-css)).
+
+### Conditions and States
+
+1. Click **Add a condition**.
+2. Choose the kind: **@supports** (when the browser can do something), **@container** (when a parent is a certain size), **@media** (any other media query, such as reduced motion or print), **@layer**, **@scope**, **@starting-style**, or another rule typed in full.
+3. Type the condition. The field shows an example.
+4. To use it at one screen size only, pick that breakpoint first and keep **Only at** checked.
+5. Click **Add condition**. Type the rows into the new block.
+
+To style a state or a part of the element, click **Add a state block** and pick one, such as **Hover**, **Keyboard focus**, **Before** or **Placeholder**. Or choose **Another pseudo-class or element** and type it, such as `:nth-child(2)`.
+
+Click **×** at the top of a block to remove the block and all its rows. The main block of the element has no **×**.
+
+A property you set under a condition shows an **In Advanced** badge in **Normal**. Normal shows the value without conditions. Change the condition's value in Advanced.
+
+### Raw CSS
+
+Some CSS does not fit in rows: the same property twice (a fallback such as `display: -webkit-box; display: flex;`), a nested rule such as `&:hover { … }`, or a comment. Click **+ Raw CSS** under a block and type it there. The raw CSS comes after the block's rows, as you typed it.
+
+### When CSS Is Not Saved
+
+Advanced does not save CSS that would break the rest of your site. A brace, bracket, parenthesis, quote mark or comment that has no partner is not saved, and neither is the text `</style`. A message under the block says what is wrong, for example "Not saved: the closing brace "}" has no opening one." Your text stays in the field so you can fix it.
 
 ---
 
