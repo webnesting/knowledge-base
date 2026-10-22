@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-22 8:20am
+**Last verified:** 2026-10-22 9:27am
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -240,9 +240,56 @@ The **Outline** section draws a line outside the element's border. An outline ta
 
 ---
 
-## Opacity
+## Effects
 
-The Opacity control lets you make elements partially transparent. A value of 1 is fully visible, and 0 is completely invisible.
+Effects change how an element looks without changing its content: how see-through it is, filters such as blur, and a shape to cut it to. They are in three sections of the Styler: **Visibility**, **Filter & Blend** and **Clip & Mask**.
+
+### Opacity
+
+**Opacity**, in the **Visibility** section, makes an element see-through. Drag the slider or type a number: 1 is solid and 0 is invisible. With the slider selected, the arrow keys change it in small steps.
+
+### Filters
+
+**Filters, in order**, in the **Filter & Blend** section, changes how the element looks, like a photo filter.
+
+1. Select the element, for example an image.
+2. Click **Add a filter** and choose one: **Blur**, **Brightness**, **Contrast**, **Saturate**, **Grayscale**, **Sepia**, **Hue rotate**, **Invert**, **Opacity** or **Drop shadow**.
+3. Drag the filter's slider or type its amount.
+4. Add more filters the same way.
+
+The filters apply from the top row down, so the order changes the result. The rows work like the shadow rows (see [Working With Several Shadows](#working-with-several-shadows)): drag a row, or use **Move up** and **Move down** in its **⋮** menu. Click the eye icon to hide a filter without removing it.
+
+A **Drop shadow** filter follows the element's shape, such as the outline of a logo with a see-through background. **Other filter CSS, like url()** lets you type a filter yourself. A filter the settings cannot show says **Custom** and is kept exactly as written.
+
+### Frosted Glass (Behind It)
+
+**Behind it**, below the filters, filters what shows through the element, not the element itself. Use it for frosted glass:
+
+1. Put a card or box over a photo, for example in a section with a background image.
+2. Give the card a see-through background color.
+3. Under **Behind it**, click **Add a filter** and choose **Blur**.
+
+The photo behind the card is now blurred, and the card's own text stays sharp. Behind it shows only through a see-through background.
+
+### Cutting to a Shape
+
+**Clip to a shape**, in the **Clip & Mask** section, cuts the element to a shape. Pick a tile: **None**, **Inset**, **Circle**, **Ellipse**, **Triangle**, **Diamond**, **Arrow**, **Hexagon** or **Custom**. Each tile shows its shape.
+
+- **Inset** cuts in from each side. Set how far from the top, right, bottom and left, and **Round** to round the cut corners.
+- **Circle** has a **Size**, and **Ellipse** a **Width** and a **Height**. Pick the shape's center on the nine-point grid.
+- **Triangle**, **Diamond**, **Arrow** and **Hexagon** list their points. Change a point's across and down numbers to make your own shape.
+- **Custom** lets you type the shape yourself.
+
+To cut a picture into a circle, give it the same width and height, then pick **Circle**. With the tiles selected, the arrow keys move between them and Enter picks one.
+
+### Masks
+
+**Mask**, below **Clip to a shape**, hides parts of the element. Where the mask is solid, the element shows. Where it is clear, the element is hidden. Click **Add a mask** and choose:
+
+- **Gradient fade** fades the element out at the bottom. Change the gradient as in [Adding a Gradient](#adding-a-gradient).
+- **Image** uses a picture from your Media library as the mask, for example a logo shape.
+
+Masks have **Size**, **Position** and **Repeat**, like background layers.
 
 ---
 
