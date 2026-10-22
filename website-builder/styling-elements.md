@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-22 9:27am
+**Last verified:** 2026-10-22 11:53am
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -290,6 +290,61 @@ To cut a picture into a circle, give it the same width and height, then pick **C
 - **Image** uses a picture from your Media library as the mask, for example a logo shape.
 
 Masks have **Size**, **Position** and **Repeat**, like background layers.
+
+---
+
+## Motion
+
+Motion moves, turns and scales an element, animates a change such as a hover, and plays animations. It is in three sections of the Styler: **Transform**, **Transition** and **Animation**.
+
+### Moving, Turning and Scaling (Transform)
+
+**Steps, in order**, in the **Transform** section, moves, turns, scales or skews the element.
+
+1. Select the element, for example a card.
+2. Click **Add a transform** and choose a step. **Flat** has **Move**, **Scale**, **Rotate** and **Skew**. **3D** has **Perspective**, **Move in depth**, **Tilt forward** and **Turn sideways**.
+3. Set the step: drag the pad or type **X** and **Y** for **Move**, turn the dial or type the degrees for **Rotate**, or drag the slider for **Scale**.
+4. Add more steps the same way.
+
+Each step starts where the one above it ends, so the order changes the result. A card that turns, then moves, moves along its turned direction. A card that moves, then turns, moves straight across. Reorder the steps like the shadow rows (see [Working With Several Shadows](#working-with-several-shadows)): drag a row, or use **Move up** and **Move down** in its **⋮** menu. Click the eye icon to hide a step. **Another function, typed in CSS** lets you type a step yourself, and a step the settings cannot show says **Custom** and is kept as written.
+
+For a 3D look, add **Perspective** first: the steps after it are seen from that far away.
+
+### The Turn Point
+
+**Turns around** sets the point the element turns and scales around. Pick one of the nine points on the grid, such as the top left corner, or type how far across (**X**) and down (**Y**). Until you pick one, the element turns around its center. With the grid selected, the arrow keys move between the points and Enter picks one.
+
+### Move, Turn and Scale on Their Own
+
+Open **Move, turn and scale on their own** at the end of the **Transform** section for three more settings: **Move**, **Turn** and **Scale**. They add to the steps above, and each one is easy to animate by itself. **3D view from** sets where a 3D element is seen from, and its **Depth** sets how deep its 3D steps look.
+
+### Animating a Change (Transition)
+
+**Animate changes**, in the **Transition** section, makes a change happen smoothly instead of at once. For example, a button can lift slowly when a visitor points at it:
+
+1. Select the button.
+2. In the bar under the page, add the **:hover** state to the button, then add a **Move** step in **Transform** with **Y** set to -4.
+3. Set the state back to **Normal**.
+4. In **Transition**, click **Animate a change**.
+5. Under **Animate**, choose **Transform**. **Everything that changes** animates every change.
+6. Under **Takes**, pick one of your theme's speeds or type a time, such as 0.2 (seconds).
+7. Under **Curve**, choose how it moves, such as **Ease out · slows at the end**.
+
+**Delay** waits before the change starts. Add more rows to animate more than one change.
+
+### Playing an Animation
+
+**Animations**, in the **Animation** section, plays an animation on the element, such as a fade-in.
+
+1. Select the element, for example a heading.
+2. Click **Add an animation**.
+3. Under **Name**, choose an animation. **Your keyframes** lists the animations you made for your site, and **Built in** lists the ones every site has.
+4. Set **Takes**, **Curve** and **Delay** as for a change.
+5. Under **Plays**, choose **Once**, **Twice** or **Forever**, or type a number.
+
+**Direction** plays it **Forward**, **Backward**, **Back and forth**, or **Back and forth, starting backward**. **Look** sets how the element looks before and after it plays: for a fade-in, **First look before, end look after** keeps it hidden until it starts and shown after it ends. **State** pauses it.
+
+> **Tip:** A visitor who asks their device for less motion sees no animations and no animated changes: each one jumps to its end at once.
 
 ---
 
