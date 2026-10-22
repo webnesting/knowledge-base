@@ -313,7 +313,7 @@ Masks have **Size**, **Position** and **Repeat**, like background layers.
 
 ## Motion
 
-Motion moves, turns and scales an element, animates a change such as a hover, and plays animations. It is in three sections of the Styler: **Transform**, **Transition** and **Animation**.
+Motion moves, turns and scales an element, animates a change such as a hover, and plays animations. It is in three sections of the Styler: **Transform**, **Transition** and **Motion**.
 
 ### Moving, Turning and Scaling (Transform)
 
@@ -352,15 +352,15 @@ Open **Move, turn and scale on their own** at the end of the **Transform** secti
 
 ### Playing an Animation
 
-**Animations**, in the **Animation** section, plays an animation on the element, such as a fade-in.
+The **Motion** section holds every effect on the element, such as a fade-in, one row each.
 
 1. Select the element, for example a heading.
-2. Click **Add an animation**.
-3. Under **Name**, choose an animation. **Your keyframes** lists the animations you made for your site, and **Built in** lists the ones every site has.
-4. Set **Takes**, **Curve** and **Delay** as for a change.
-5. Under **Plays**, choose **Once**, **Twice** or **Forever**, or type a number.
+2. Click **Add motion**.
+3. Under **Effect**, choose an animation. **Your keyframes** lists the animations you made for your site, and **Built in** lists the ones every site has.
+4. Under **When it plays**, choose **Always**, **When it scrolls into view** or **On hover**.
+5. For **Always** and **On hover**, set **Takes**, **Curve** and **Delay** as for a change. Under **Plays**, choose **Once**, **Twice** or **Forever**, or type a number.
 
-**Direction** plays it **Forward**, **Backward**, **Back and forth**, or **Back and forth, starting backward**. **Look** sets how the element looks before and after it plays: for a fade-in, **First look before, end look after** keeps it hidden until it starts and shown after it ends. **State** pauses it.
+**More ways it plays** has the rest. **Direction** plays it **Forward**, **Backward**, **Back and forth**, or **Back and forth, starting backward**. **Look** sets how the element looks before and after it plays: for a fade-in, **First look before, end look after** keeps it hidden until it starts and shown after it ends. **State** pauses it. For the scroll and hover effects, see [Animations and Interactions](animations-and-interactions.md).
 
 > **Tip:** A visitor who asks their device for less motion sees no animations and no animated changes: each one jumps to its end at once.
 

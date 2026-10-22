@@ -1,8 +1,8 @@
 # Animations and Interactions
 
-**Last verified:** 2026-10-22 5:05pm
+**Last verified:** 2026-10-22 7:19pm
 
-Make your page feel alive when someone scrolls, without writing any code. This guide covers the animations you can add to any block in the Website Builder.
+Make your page feel alive when someone scrolls, without writing any code. This guide covers the animations you can add to any block in the Website Builder. Every effect on a block lives in one place: **Motion**, in the Styler.
 
 ---
 
@@ -14,12 +14,17 @@ An entrance effect plays once when a block scrolls into view. The block waits ou
 
 1. Open your page in the Website Builder.
 2. Click the block you want to animate: a heading, a picture, a card, a section.
-3. Click **Settings** in the panel rail on the right.
-4. Find **Animations**. Under **When this scrolls into view**, pick an effect, such as **Fade up** or **Zoom in**.
-5. Scroll the page in the builder. The block plays its effect as it enters the screen.
-6. Click **Publish** to put it on your live site.
+3. Click **Styles** in the panel rail on the right, and stay on **Normal**.
+4. Open **Motion** and click **Add motion**. The block gets **Fade up**, played **When it scrolls into view**.
+5. To use another effect, pick it under **Effect**, such as **Zoom in**.
+6. Scroll the page in the builder. The block plays its effect as it enters the screen.
+7. Click **Publish** to put it on your live site.
 
-To take the effect away, set **When this scrolls into view** back to **None**.
+To take the effect away, click the **×** next to it in the list.
+
+A block can have one effect that plays as it scrolls into view. Its other effects can play all the time or on hover.
+
+> **Tip:** The effect follows the size you style at, like any other style. Pick a size in the toolbar first, such as Desktop, to play the effect only on that size.
 
 > **Tip:** Every block has this setting, except blocks that are only wrappers a visitor never sees as one block, such as a Spacer.
 
@@ -38,7 +43,7 @@ If you have made your own animation, it appears in the same list, after the buil
 
 ### Fine-Tune the Effect
 
-Click **More options** below **Animations**, then open **Animation options**:
+An effect that plays **When it scrolls into view** shows these settings under it:
 
 - **Delay**: how long the block waits before it starts, in milliseconds. 1000 is one second, and the most you can set is 5000.
 - **Start when it is ... of the way up the screen**: how much of the block must be on screen before it plays. **20% (standard)** works for most blocks. Pick **50%** for a tall block that should play when half of it shows.
@@ -49,7 +54,7 @@ Click **More options** below **Animations**, then open **Animation options**:
 
 A heading can enter one word at a time, or one letter at a time.
 
-1. Pick an effect under **When this scrolls into view**, such as **Fade up**. **Animate word by word** appears below it.
+1. In **Motion**, add an effect that plays **When it scrolls into view**, such as **Fade up**. **Animate word by word** is one of its settings.
 2. Choose **Words** or **Letters**. **None** plays the block as one piece.
 3. Click **Publish**.
 
@@ -62,6 +67,21 @@ A block that is already on the screen when a visitor opens your page shows at on
 ### Visitors Who Ask for Less Motion
 
 Some visitors turn on **Reduce motion** in their phone or computer. For them, every block shows at once and nothing moves. They still see the whole page. This follows their device setting, so you do not need to turn it on.
+
+### Hover Effects
+
+An effect can play when a visitor points at a block, such as a card that pulses.
+
+1. Click the block, then open **Motion** in **Styles**.
+2. Click **Add motion**.
+3. Under **When it plays**, pick **On hover**.
+4. Under **Effect**, pick an effect, such as **Pulse**.
+5. Set how long it takes, its curve and how many times it plays. **More ways it plays** has the direction and the look before and after.
+6. Click **Publish**.
+
+The effect also plays when a visitor moves to the block with the **Tab** key, so people who use a keyboard see it too.
+
+To play an effect all the time instead, such as a picture that keeps zooming in, pick **Always** under **When it plays**.
 
 ### Tips
 
@@ -95,8 +115,11 @@ To take a stop away, select it and click **Remove stop**. Start and End always s
 
 ### Use It
 
-- **As an entrance effect:** in **Settings**, under **When this scrolls into view**, pick your keyframe. It shows after the built-in effects.
-- **As an animation that plays when the page opens:** in the Styler, open **Animation** in **Normal**, click **Add an animation** and pick your keyframe.
+In the Styler, open **Motion** in **Normal**, click **Add motion**, and pick your keyframe under **Effect**. Your keyframes show first, under **Your keyframes**, before the built-in effects. Then choose **When it plays**:
+
+- **When it scrolls into view**, to use it as an entrance effect.
+- **Always**, to play it when the page opens.
+- **On hover**, to play it when a visitor points at the block or tabs to it.
 
 Click **Publish** to put it on your live site.
 
