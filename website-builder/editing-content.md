@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-10-20 10:46am
+**Last verified:** 2026-10-22 10:41am
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -278,6 +278,7 @@ When you select an accordion group, you can adjust these options in the settings
 
 - **Collapse Others** -- When turned on, opening one section automatically closes the others. When turned off, visitors can have multiple sections open at the same time.
 - **Load Opened** -- When turned on, accordion sections start in the open position when the page loads.
+- **Mark as FAQ for search engines** -- When turned on, each title is shared with search engines as a question and each body as its answer. Google can then show your questions on its results page. Turn it on only when the items really are questions and answers. Search engines read plain text, so bold, links and lists in an answer are not passed on. An item with an empty title or an empty body is left out. If a page has two accordions with this turned on, they are shared together. You can see it work after you publish: paste your page address into Google's Rich Results Test.
 
 ---
 

@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-10-22 10:27am
+**Last verified:** 2026-10-22 10:41am
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -83,7 +83,7 @@ Visual content.
 Blocks a visitor can click or open.
 
 - **Button** -- A clickable button linking to another page, a section of your site, or an external website.
-- **Accordion Item** -- An expandable section visitors can open and close. Good for FAQs.
+- **Accordion Item** -- An expandable section visitors can open and close. Good for FAQs: turn on **Mark as FAQ for search engines** in its settings so Google can show your questions in search results.
 - **Tabs** -- Panels that visitors switch between with a row of tab names. It starts with three tabs, each holding a text block. Select a tab in **Layers** to edit its panel, and rename it under **Tab name**. Use the **+** in the toolbar to add a tab, and Alt with the arrow keys to move one. In the settings, put the tab bar across the top or down the side, and choose which tab shows first. Visitors can also use the arrow keys, Home and End.
 - **Disqus Comments** -- A comments section powered by Disqus, letting visitors comment and reply. You need a Disqus account and a site shortname, set in the component's settings. Comments are then managed from the Disqus moderation dashboard, which handles spam filtering and user accounts for you.
 
