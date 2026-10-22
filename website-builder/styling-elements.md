@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-22 11:53am
+**Last verified:** 2026-10-22 3:01pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -160,9 +160,27 @@ A theme font, such as **Heading font**, follows your theme: when you change the 
 
 **Limit Lines** cuts the text after a number of lines and ends it with "…". Use it for card text or summaries that must stay the same height. Clear the value to show all of the text again.
 
+### Line Breaks
+
+**Line breaks** sets how lines of text break. **Normal** breaks wherever the text runs out of room. **Even** makes the lines about the same length, which suits a heading. **No orphan** avoids a single word alone on the last line. The arrow at the end of the row adds **One line, never wrap** and **Stable while you type**.
+
 ### More Text Options
 
 Less-used settings are under **More text options** at the end of the section. They include how the text wraps (**White Space**, **Word Break**, **Overflow Wrap** and **Hyphens**), **Vertical Align**, **Font Variant** (small capitals), **Direction** (left to right or right to left) and **Writing Mode** (across or down). When one of them is set, the row starts open. When the row is closed, it says how many are set.
+
+---
+
+## Contain to Width, Form Fields, List and Content
+
+**Contain to width** lets the blocks inside an element change with the element's own width, not the screen's. Set **Children follow its size** to **Width**, and give it a **Name** if more than one container is nested. Then write an `@container` rule in the **Stylesheet**.
+
+**Form fields** sets the **Tick and slider color** (checkboxes, radio buttons, sliders), the **Typing cursor color**, the **Look** (**Browser** or **Plain**) and **Visitor can resize**.
+
+In **List**, pick the **Marker**, whether it sits **Outside** or **Inside**, and a **Marker image** from your **Media**.
+
+To style a part added before or after a block, pick **::before** or **::after** in the selector bar at the bottom of the builder. A **Content** section then shows at the top of **Styles**. Choose **Text**, an opening or closing quote mark, **1.** for a counting number, or **Empty**, and set the **Quote marks** if you use quotes.
+
+**Float** and **Clear** are in **Position**. **Width and height count** is in **Sizing**. **Blends inside** is in **Filter & Blend**. **Touch gestures** is in **Visibility**.
 
 ---
 
