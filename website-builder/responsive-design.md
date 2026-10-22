@@ -1,6 +1,6 @@
 # Making Your Site Look Great on All Devices
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-10-22 5:33pm
 
 Your visitors will view your website on all kinds of screens -- large desktop monitors, tablets, and small phone screens. Responsive design means your site automatically adjusts to look good on every device. This guide explains how WebNesting helps you create a site that works everywhere.
 
@@ -16,15 +16,18 @@ WebNesting handles much of this automatically, but you also have full control to
 
 ---
 
-## The Three Device Views
+## The Device Views
 
-WebNesting lets you preview and customize your site for three device categories:
+WebNesting lets you preview and customize your site at four device sizes. Each one is a breakpoint size (see [How Breakpoints Work](#how-breakpoints-work)):
 
-| View | Represents | Typical Screen Width |
-|------|-----------|---------------------|
-| Desktop | Computers and large screens | 1024 pixels and above |
-| Tablet | Tablets and medium screens | 576 to 1023 pixels |
-| Mobile | Phones and small screens | Up to 575 pixels |
+| Button | Represents | Breakpoint | Screen Width |
+|--------|-----------|------------|--------------|
+| Mobile | Phones | XS | 320 to 575 pixels |
+| Tablet | Tablets | MD | 768 to 1023 pixels |
+| Laptop | Laptops | LG | 1024 to 1399 pixels |
+| Desktop | Large screens | XL | 1400 pixels and up |
+
+The fifth size, SM (576 to 767 pixels, a phone held sideways), has no button: pick it in the breakpoint picker.
 
 ### Switching Between Device Views
 
@@ -32,7 +35,7 @@ In the middle of the top toolbar you will find the device controls that resize y
 
 1. Look at the top toolbar of the builder.
 2. You will see buttons for **Mobile**, **Tablet**, **Laptop**, **Desktop**, and **Auto**. Click one to jump straight to that device width. (**Auto** simply follows the space available on your screen.)
-3. Next to them is a **breakpoint picker** for finer control, listing each band -- XS, SM, MD, LG, XL -- and whether the rule applies above or below that width. There is also a box for typing an exact width in pixels.
+3. Next to them is a **breakpoint picker** for finer control, listing each band -- XS, SM, MD, LG, XL -- and whether the rule applies above or below that width, then any breakpoints you added yourself (see [Adding Your Own Breakpoints](#adding-your-own-breakpoints)). There is also a box for typing an exact width in pixels.
 4. Your page will update to show how it looks at that size.
 5. To go back to the full desktop view, click the auto/reset option.
 
@@ -76,6 +79,41 @@ Let us say you set a heading to 48 pixels on desktop. If you do nothing else, th
 - On desktop: 48 pixels (your original setting)
 - On tablet: 48 pixels (inherits from desktop because you did not change it)
 - On mobile: 28 pixels (your mobile-specific override)
+
+---
+
+## Adding Your Own Breakpoints
+
+When a layout needs to change at a width the five built-in sizes don't cover, add a breakpoint of your own.
+
+1. In the top toolbar, click **Manage breakpoints** (the sliders button right after the breakpoint picker).
+2. Click **Add a breakpoint**.
+3. Type a **Name**, such as "Small tablet".
+4. Type a **From** width, an **Up to** width, or both, in pixels.
+5. Click **Add**.
+
+Your new breakpoint is now the one you are styling at, and the preview moves to its width. Set any style, and it applies only at those widths.
+
+In the breakpoint picker, your breakpoints are listed under **Your breakpoints**. A breakpoint with both widths gives three choices:
+
+- **≥ From** -- from its From width and wider.
+- **≤ Up to** -- up to its Up to width and narrower.
+- **From–Up to** -- only between the two.
+
+### Changing or Deleting a Breakpoint
+
+Open **Manage breakpoints** again to see all your breakpoints, sorted by width.
+
+- **Rename one** by typing a new name. Your styles stay where they are.
+- **Change its widths** by typing new ones. Every style set at it moves to the new widths.
+- **Delete one** with its delete button. You can delete a breakpoint only when no style uses it. The manager says how many styles use it ("Used by 3 rules on 2 selectors") and lists them. Remove those styles first (with the clear button on the breakpoint indicator), or change the breakpoint's widths instead.
+
+Good to know:
+
+- Breakpoints always apply in width order, smallest first, so there is nothing to reorder.
+- The five built-in breakpoints can't be renamed, resized or deleted.
+- Everyone editing the site sees your change at once, and **Undo** takes it back.
+- Like any style change, a breakpoint is saved as a draft. Publish to put it on your live site.
 
 ---
 
