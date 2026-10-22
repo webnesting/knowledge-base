@@ -1,6 +1,6 @@
 # Files (File Manager)
 
-**Last verified:** 2026-10-01 3:25pm
+**Last verified:** 2026-10-22 9:35am
 
 The File Manager is where every file in your workspace lives — images, videos, documents, helpdesk email attachments, and files visitors upload through your forms. Think of it as your workspace's file cabinet: one place, organized in folders, just like the files on your computer.
 
@@ -69,13 +69,32 @@ When you select more than one file, a bar appears above the grid with **Move to 
 Click any file to open its detail panel, showing:
 
 - A preview of the file.
-- Editable **Title**, **Alt Text**, and **Description** (changes save automatically).
+- Editable **Title**, **Alt Text**, and **Description**. **Alt Text** is what a screen reader says about a picture; **Description** shows with the picture on your site, as its caption.
+- For a photo, **Where should this crop from?** (see below).
+- A line under the fields that says how your changes stand: "Changes save as you go.", "Saving…" and then "Saved". If a change can't be saved (for example, your connection dropped), it says "We couldn't save your changes. Check your connection, then try again." Click **Try Again** when you're back online.
 - The file's name, size, type, and upload date.
 - Where the file came from — for example "Email attachment (Helpdesk)" or "Form upload".
 - Its virus-scan status.
 - **Referenced by** — the helpdesk tickets or form submissions this file is attached to, with links to jump straight there.
 
 > **Tip:** Always add alt text to your images. It makes your site more accessible to people using screen readers, and it can improve your search engine ranking.
+
+On a tablet or phone, the detail panel shows under your files: choose a file, then scroll down to edit it.
+
+### Choosing where a photo crops from
+
+A page often shows a photo in a box of a different shape (a wide banner, a square card, a slideshow), so part of the photo is cut off. **Where should this crop from?** lets you choose the part that must stay in view:
+
+1. Click the photo in the File Manager.
+2. Drag the dot onto the part that matters, such as a face or a product.
+3. Check the three shapes under the photo: **Square**, **Wide** and **Tall** show how a page will crop it.
+
+The point saves when you let go of the dot. An **Image** or **Slideshow** on your pages then crops around it. A **Gallery** still crops its photos from the center for now.
+
+- **Keyboard:** press Tab to reach the photo. The first stop moves the dot left and right, and the next stop moves it up and down. The arrow keys move it a little, Shift with an arrow moves it further, and Home and End move it to the edge.
+- **Reset to Center** goes back to cropping from the middle of the photo.
+- If you set a picture's **Object position** in the website builder, that setting wins on that one spot of the page.
+- The crop point is for photos. A video, an SVG drawing, or an image whose size isn't known doesn't show it.
 
 ---
 

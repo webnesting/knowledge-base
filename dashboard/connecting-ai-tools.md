@@ -1,6 +1,6 @@
 # Connecting an AI Tool
 
-**Last verified:** 2026-10-21 8:56am
+**Last verified:** 2026-10-22 8:55am
 
 You can connect an AI assistant — like Claude Desktop, Claude Code, or Cursor — directly to your WebNesting workspace. Once connected, you can ask the AI to look things up and make changes for you in plain language: "list my draft articles," "create a new event for next Friday," "what's my current usage this month." The AI works **as you**, with **your** permissions, and never sees your password.
 
@@ -74,6 +74,7 @@ The AI is signed in as **your** WebNesting account, so:
 - Remove a field or delete a whole collection — but only after it shows you what goes, and how many records the collection holds, and you say yes. The **Database** page cannot bring a removed field or a deleted collection back. A collection that belongs to a module, and the built-in workspace tables such as Contacts, cannot be deleted.
 - Create a new site — after it shows you the name and address and you say yes. Setting the site up takes a few minutes.
 - Add a picture to your **Files** from its web address. Ask for this only for a picture you have the right to use. The AI can give it a description (alt text) and put it in one of your folders or in one site's files. The same picture added twice is kept once.
+- Change a picture in your **Files**: its alt text, title, description (the caption shown with it on your site) and where it crops from. The change shows on your site at once. It needs your permission to edit files, the same as changing them yourself.
 - Turn on a workspace product, such as Help Desk or Tasks — but only after it shows you the monthly price and you say yes.
 
 **It can't** (these always stay in your hands):
