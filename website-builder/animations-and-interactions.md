@@ -1,6 +1,6 @@
 # Animations and Interactions
 
-**Last verified:** 2026-10-22 12:42pm
+**Last verified:** 2026-10-22 2:17pm
 
 Make your page feel alive when someone scrolls, without writing any code. This guide covers the animations you can add to any block in the Website Builder.
 
@@ -44,6 +44,16 @@ Click **More options** below **Animations**, then open **Animation options**:
 - **Start when it is ... of the way up the screen**: how much of the block must be on screen before it plays. **20% (standard)** works for most blocks. Pick **50%** for a tall block that should play when half of it shows.
 - **Play only once**: on by default. Turn it off to play the effect again each time a visitor scrolls back to the block.
 - **One child after another**: for a block that holds other blocks, such as a section with three cards. The cards start one after the other, this many milliseconds apart, instead of all at once. Leave it at 0 to play them together.
+
+### Animate Word by Word
+
+A heading can enter one word at a time, or one letter at a time.
+
+1. Pick an effect under **When this scrolls into view**, such as **Fade up**. **Animate word by word** appears below it.
+2. Choose **Words** or **Letters**. **None** plays the block as one piece.
+3. Click **Publish**.
+
+Visitors see each word or letter play after the one before, once, as they scroll to the block. In the builder the text stays plain, so you can edit it. A screen reader still reads the text as one sentence, and visitors who ask for less motion see plain text with no movement. A link inside the text plays as one piece. **Letters** suits a short line, such as a title. A long paragraph reads better with **Words**.
 
 ### Blocks at the Top of the Page
 
