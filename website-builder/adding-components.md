@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-10-22 8:18am
+**Last verified:** 2026-10-22 9:03am
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -51,6 +51,7 @@ The boxes that hold and organize everything else. Using them correctly also help
 - **Element** -- A box you can turn into any of 25 HTML elements, such as a quote, a list, a figure or a link. In its settings, **Element type** is a list you can search; each type has one plain line that says what it is for, and a note under it says which element your page gets. **Custom attributes** adds your own name and value pairs to the element, for styling hooks and screen readers: names that start with `aria-` or `data-`, and `role`, `title` and `lang`. A Link can also take `href`, and a Date or time can take `datetime`. A name the builder can't use (such as `id`, `class`, `style` or `onclick`) shows why under its row, and is never saved. Each row has its own **Remove** button.
 - **Card** -- A self-contained block combining an image, heading, description, and button.
 - **Divider** -- A horizontal line that visually separates content on your page.
+- **Spacer** -- An empty block that adds a gap between two sections. Pick its **Height** from the list: the steps run from small to large and follow your theme's spacing. For a different height on a phone or tablet, pick that screen size at the top of the builder, open **Styles** and set **Height** there. Type a step such as `var(--spacing-3)` to stay on your theme's scale. Screen readers skip a Spacer. In the editor it shows as a faint striped box so you can select it; visitors see only the gap.
 - **Header** and **Footer** -- The top and bottom regions of a layout.
 
 ### Text
