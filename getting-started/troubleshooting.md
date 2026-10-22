@@ -1,6 +1,6 @@
 # Troubleshooting and Common Issues
 
-**Last verified:** 2026-10-04 1:37pm
+**Last verified:** 2026-10-22 2:28pm
 
 Every website owner runs into the occasional hiccup. The good news is that most issues have simple fixes. This guide walks you through the most common problems you might encounter and how to solve them quickly.
 
@@ -254,7 +254,7 @@ If you are using an older browser or one not listed here, updating or switching 
 
 Pages with many large images take longer to load in the builder.
 
-1. Before uploading, resize images to the dimensions you actually need (there is no need for a 5000-pixel-wide image if it only displays at 800 pixels).
+1. Give WebNesting a few moments after an upload: it makes smaller copies of each picture, and the builder and your site then load the copy that fits the screen instead of the full file. A picture wider than 2560 pixels gains nothing, so there is no need to upload a 5000-pixel-wide photo.
 2. Use compressed image formats like JPG or WebP for photographs.
 3. Use PNG only when you need transparency.
 

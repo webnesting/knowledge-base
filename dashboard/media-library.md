@@ -1,6 +1,6 @@
 # Files (File Manager)
 
-**Last verified:** 2026-10-22 2:45pm
+**Last verified:** 2026-10-22 5:28pm
 
 The File Manager is where every file in your workspace lives — images, videos, documents, helpdesk email attachments, and files visitors upload through your forms. Think of it as your workspace's file cabinet: one place, organized in folders, just like the files on your computer.
 
@@ -168,23 +168,26 @@ A video can be up to 100 MB, like any file. For a longer video, put it on YouTub
 
 Large, unoptimized images are one of the most common reasons websites load slowly. Here are some simple ways to keep your site fast:
 
-### Resize Before Uploading
+### Upload the Largest Good Version
 
-If your image is 4000 pixels wide but it only appears in a 600-pixel-wide space on your page, resize it before uploading. For most page images, 1200 pixels wide is a good target. Hero images and full-width banners may need to be 1600-1920 pixels wide.
+You don't need to resize pictures before you upload them. A few moments after an upload, WebNesting makes smaller copies of the picture, from 320 to 2560 pixels wide. Each visitor's browser then loads the copy that fits their screen, so a phone never downloads a picture made for a large monitor. Upload the sharpest version you have, up to 2560 pixels wide; a wider picture works too, and its copies stop at 2560.
+
+The first large picture on a page loads first. The pictures further down load when a visitor scrolls near them.
 
 ### Choose the Right Format
 
 - **JPEG** -- Best for photographs and complex images with many colors.
 - **PNG** -- Best for graphics, logos, and images that need transparent backgrounds.
 - **WebP** -- A modern format that offers excellent quality at smaller file sizes. WebNesting converts uploaded images to WebP automatically where possible.
+- **AVIF** -- The newest format, smaller again than WebP. You don't need to make AVIF files yourself: the copies WebNesting makes come in AVIF and WebP, and each browser loads the one it supports.
 - **SVG** -- Perfect for logos, icons, and simple graphics. For your safety, any scripts hidden inside an SVG are removed when you upload it — the image itself looks the same.
 
-### Compress Your Images
+### Compress Very Large Files
 
-Use a free online tool like TinyPNG or Squoosh to compress images before uploading.
+The copies WebNesting makes are already compressed. Only a file that is very large to upload (tens of megabytes) is worth shrinking first, with a free tool like TinyPNG or Squoosh.
 
 ### Use Descriptive File Names
 
 Instead of `image1.jpg`, name your file something meaningful like `homepage-hero-banner.jpg`. Easier to search for, better for your ranking.
 
-> **Tip:** Aim to keep most images under 300 KB. Hero images and full-width banners can be up to 500 KB.
+> **Tip:** A picture 320 pixels wide or smaller gets no copies, and neither does an animated GIF: those load as you uploaded them, so keep them small.
