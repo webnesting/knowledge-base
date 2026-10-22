@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-21 3:25pm
+**Last verified:** 2026-10-22 8:20am
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -222,7 +222,21 @@ Size controls how wide and tall an element is.
 
 ## Borders
 
-You can also add borders to elements. In the Styler, look for the Border section where you can set the border width, style (solid, dashed, dotted), color, and corner radius for rounded corners.
+The **Border** section of the Styler has two settings: **Line** and **Corners**.
+
+**Line** draws a line around the element. Set its **Width**, its **Style** (**Solid**, **Dashed** or **Dotted**, with more styles behind the arrow) and its **Color**. If you set a width or a color first, the line is solid, so you see it at once.
+
+- Choose **All sides** to set the line on all four sides together.
+- Choose **Top**, **Right**, **Bottom** or **Left** to set that side on its own. For example, give a card a thicker line at the top.
+- When the sides are not all the same, **All sides** shows **Mixed** and says "The sides differ. A change here sets all four." A change there sets all four sides to the new value.
+
+**Corners** makes the corners round. Drag the slider or type a number to round all four corners the same. To set each corner on its own, select the link button. Four boxes then appear, each where its corner is: top left, top right, bottom left and bottom right. Select the link button again to round all four corners the same as the top left one.
+
+If you wrote a border yourself in **Advanced**, such as `border: 2px dashed red`, the **Line** setting shows its width, style and color, and you can change them there. A border that the Styler cannot show as settings (for example, one that uses a CSS variable for the whole line) shows as **Custom**, with the CSS you wrote. The Styler keeps it as you wrote it.
+
+### Outline
+
+The **Outline** section draws a line outside the element's border. An outline takes up no space, so the content around it does not move. Its **Line** has the same **Width**, **Style** and **Color** as a border, and one more style, **Auto**, the browser's own focus style. **Gap from the edge** sets the space between the outline and the element. A negative number puts the outline inside the element.
 
 ---
 
