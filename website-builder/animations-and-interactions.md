@@ -1,6 +1,6 @@
 # Animations and Interactions
 
-**Last verified:** 2026-10-22 2:17pm
+**Last verified:** 2026-10-22 3:05pm
 
 Make your page feel alive when someone scrolls, without writing any code. This guide covers the animations you can add to any block in the Website Builder.
 
@@ -67,3 +67,48 @@ Some visitors turn on **Reduce motion** in their phone or computer. For them, ev
 
 - Use one or two effects across a page. The same effect on every block feels calmer than a different one on each.
 - Use a short **Delay** (200 to 400 ms) on the second and third block in a row, so they arrive in turn.
+
+---
+
+## Your Own Animations
+
+You can design an animation of your own and use it anywhere a built-in effect goes. An animation of your own is called a **keyframe**. It belongs to the whole site, so every page can use it.
+
+### Make a Keyframe
+
+1. Click any block, then open the Styler and click **Advanced**.
+2. Scroll down to **Keyframes** and click **New keyframe**.
+3. Type a name, such as `rise-soft`, and click **Create**. A name starts with a lower-case letter and uses letters, numbers and dashes.
+4. The new keyframe starts as a gentle fade up, so it already works. Change it the way you want.
+
+### Change How It Moves
+
+A keyframe has stops along a track. **Start** is how the block looks when the animation begins, and **End** is how it looks when it ends.
+
+1. Click **Add a stop** to put a stop between Start and End. You can also click the track where you want the stop.
+2. Under **Add a style at this stop**, pick a style: **Opacity**, **Move**, **Turn**, **Scale**, **Background colour**, **Text colour** or **Letter spacing**.
+3. Set the style with the same control you use in **Normal**.
+4. To move a stop, drag **Position**, or select the stop and press the Left or Right arrow key. Hold Shift to move it 10% at a time.
+5. Click **Play on** and the block's name to see it run on the selected block.
+
+To take a stop away, select it and click **Remove stop**. Start and End always stay.
+
+### Use It
+
+- **As an entrance effect:** in **Settings**, under **When this scrolls into view**, pick your keyframe. It shows after the built-in effects.
+- **As an animation that plays when the page opens:** in the Styler, open **Animation** in **Normal**, click **Add an animation** and pick your keyframe.
+
+Click **Publish** to put it on your live site.
+
+### Rename or Delete It
+
+- **Rename:** click the pencil next to the keyframe and type the new name. Every block that uses it changes to the new name, so nothing stops playing.
+- **Delete:** click the bin. A warning lists the blocks that use it. If you delete it, those blocks stop animating. **Undo** in the toolbar brings it back.
+
+### Less Motion
+
+If your own device asks for less motion, **Play** shows the End look for two seconds instead of moving. Visitors who ask for less motion see the End look too, with no movement.
+
+### Ask an AI
+
+An AI connected to your site through MCP can read your keyframes, change their stops and rename them, the same way you do in the Styler.
