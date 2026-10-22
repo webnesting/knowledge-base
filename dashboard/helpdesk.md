@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-10-14 2:19pm
+**Last verified:** 2026-10-22 10:33am
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -530,6 +530,8 @@ Besides the replies your team writes, the Helpdesk sends a few emails on its own
 | **A customer replies** | The person the ticket is assigned to |
 
 Your team is also notified inside the app either way, so turning a team email off doesn't mean anyone misses anything.
+
+**Up to 100 automatic replies a day per workspace.** After the 100th "Confirm we got their email" of the day, new tickets still open and your team still gets its emails, but customers get no automatic reply until the next day. The day follows your workspace's time zone. A real business rarely gets near 100; the limit stops a flood of spam emails from sending replies without end.
 
 **Replies your team writes always go out.** Someone chose to send those, so no switch stops them.
 
