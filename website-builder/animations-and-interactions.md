@@ -1,6 +1,6 @@
 # Animations and Interactions
 
-**Last verified:** 2026-10-22 3:05pm
+**Last verified:** 2026-10-22 5:05pm
 
 Make your page feel alive when someone scrolls, without writing any code. This guide covers the animations you can add to any block in the Website Builder.
 
@@ -112,3 +112,30 @@ If your own device asks for less motion, **Play** shows the End look for two sec
 ### Ask an AI
 
 An AI connected to your site through MCP can read your keyframes, change their stops and rename them, the same way you do in the Styler.
+
+---
+
+## Smooth Page Changes
+
+When a visitor clicks a link on your site, the next page can fade in over the last one. Without it, the screen can flash for a moment between pages. This setting is for your whole site, so it lives in Site Settings, not in the Website Builder.
+
+### Turn It On
+
+1. In the site menu, open **Settings** and click **Site Settings**.
+2. Under **Appearance**, click **Header & Footer**.
+3. Scroll to **Between pages**.
+4. Turn on **Fade smoothly between pages**.
+5. Click **Save Changes**. Your site shows the fade at once. You do not need to publish.
+
+To go back to normal page changes, turn the setting off and click **Save Changes**.
+
+### What Visitors See
+
+- **A short fade** from one page to the next, on browsers that support it, such as Chrome, Edge and Safari.
+- **A normal page change** in a browser that does not support it. Nothing breaks.
+- **A normal page change** for visitors who ask their device for less motion. They never see the fade.
+- **No fade in the Website Builder.** The builder never fades, so editing stays still. Open your live site to see it.
+
+### Ask an AI
+
+An AI connected to your site through MCP can turn smooth page changes on or off, the same way you do in Site Settings.
