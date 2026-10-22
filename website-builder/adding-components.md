@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-10-22 4:41pm
+**Last verified:** 2026-10-22 6:23pm
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -79,6 +79,7 @@ Visual content.
 - **Image** -- A single image. Click it to pick a picture from your files or upload a new one.
 - **Slideshow** -- A rotating set of images that transitions between slides.
 - **Video** -- A YouTube or Vimeo video, or one from your files. Paste the link or choose **My media**, then pick a shape. Under **More options** you can add a cover image, round the corners, and set whether it plays on its own, repeats, shows the player controls, and where it starts. A visitor who prefers less motion never sees it play on its own.
+- **Social post** -- One post from X, or one video from TikTok, YouTube or Vimeo. Open the post in your browser, copy the address from the address bar, and paste it under **Post link**. The panel says what it found, for example "Found “just setting up my twttr” by jack on X." The panel tells you why when it cannot use a link: a link from another site, a short TikTok link (vm.tiktok.com), or a post that is gone or not public. If X, TikTok, YouTube or Vimeo does not answer, the panel says so; your page still shows the post, and it tries again when you save. On your page, the post loads only when a visitor scrolls to it, and a video never plays on its own. Before that, and for a visitor with JavaScript off, the block shows the post's text or title and a **View on** link. If your site's cookie notice is on, visitors first see the post's text and a **Load post** (or **Load video**) button. Nothing loads from X, TikTok, YouTube or Vimeo until they press it or accept your cookie notice. In the editor you always see the post itself.
 - **Google Maps** -- An embedded, interactive map showing a specific location. Ideal for contact pages and store locators. Configure the location by entering an address or coordinates. Your site may need a Google Maps API key configured for the map to display.
 
 ### Interactive
