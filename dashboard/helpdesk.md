@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-10-22 10:33am
+**Last verified:** 2026-10-22 11:05am
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -477,7 +477,7 @@ If an inbox uses your own verified domain, you can change the part of its addres
 
 1. Go to **Settings → Email** and open the inbox (**⋮ → Edit Settings…**).
 2. Under **Email address customers see**, type the new name. The domain stays the one you verified, and the preview on the right shows the new **From:** line.
-3. Click **Save Changes**, then use **Send Test** on the inbox to confirm it works.
+3. Click **Save Changes**, then use **Send Test** on the inbox to confirm it works. You can send 20 test emails an hour.
 
 Customers reply to this address, so before you switch, make sure mail sent to the new address reaches the inbox the same way mail to the old one does (for example, set up the same forwarding for it). Addresses from Gmail, Outlook, or IMAP accounts come from that account and aren't changed here, and a marketing inbox's sending address follows your domain.
 

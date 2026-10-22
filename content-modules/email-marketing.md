@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-10-18 11:33am
+**Last verified:** 2026-10-22 11:05am
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -263,6 +263,8 @@ On the **Details** tab of an A/B test you set how the test runs, then click **Sa
 You can show or hide part of an email depending on the recipient -- for example, showing a different offer to contacts on a particular list. Set the rules on the block, and each recipient sees only the content that matches them.
 
 > **Tip:** Send yourself a test before sending to a real list. It is the fastest way to catch a broken link or an image that did not load.
+
+You can send 20 test emails an hour. This counts every **Send Test** you click, on campaigns and on inboxes. When you reach it, WebNesting tells you how many minutes until you can send the next one. A test email also counts toward your **Daily Send Limit**, if you set one. When today's limit is used up, the test is not sent until midnight.
 
 ### Seeing how a campaign did
 
