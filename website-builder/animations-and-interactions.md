@@ -1,6 +1,6 @@
 # Animations and Interactions
 
-**Last verified:** 2026-10-24 3:29pm
+**Last verified:** 2026-10-24 4:14pm
 
 Make your page feel alive when someone scrolls, without writing any code. This guide covers the animations you can add to any block in the Website Builder. Every effect on a block lives in one place: **Motion**, in the Styler.
 
@@ -81,7 +81,7 @@ An effect can play when a visitor points at a block, such as a card that pulses.
 
 The effect also plays when a visitor moves to the block with the **Tab** key, so people who use a keyboard see it too.
 
-To play an effect all the time instead, such as a picture that keeps zooming in, pick **Always** under **When it plays**.
+To play an effect all the time instead, such as a picture that keeps zooming in, pick **Always** under **When it plays**. If you set it to play **Forever**, the block gets the same small pause button as a loop, so a visitor can stop it.
 
 ### On Click
 
@@ -216,7 +216,9 @@ A loop keeps a block moving gently, with no start or end. Use it for a small tou
 - **Spin** turns the block around, slowly.
 - **Marquee** scrolls a row of logos or words across the page, in a loop that never ends.
 
-A loop works with any effect you set above it. It is for decoration, so use it on a small block, not on text people need to read.
+A loop works with any effect you set above it. It is for decoration, so use it on a block, not on text people need to read.
+
+Every loop has a small pause button in the top corner of its block, so a visitor can stop the movement. The button shows on top of the block and does not push anything aside. On a touch screen it is big enough for a finger (44 px). A very small block, such as a badge, is mostly covered by it, so put the loop on a larger block that holds the badge.
 
 ### Add a Scrolling Logo Strip
 
@@ -237,7 +239,7 @@ The builder keeps loops still while you edit, so your page does not move while y
 
 ### Visitors Who Ask for Less Motion
 
-Visitors who turn on **Reduce motion** on their device see a loop standing still. A marquee shows all its items standing still, in as many rows as they need.
+Visitors who turn on **Reduce motion** on their device see a loop standing still, with no pause button, because nothing moves. A marquee shows all its items standing still, in as many rows as they need.
 
 ---
 
