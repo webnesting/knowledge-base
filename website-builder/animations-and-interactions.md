@@ -1,6 +1,6 @@
 # Animations and Interactions
 
-**Last verified:** 2026-10-24 2:54pm
+**Last verified:** 2026-10-24 3:21pm
 
 Make your page feel alive when someone scrolls, without writing any code. This guide covers the animations you can add to any block in the Website Builder. Every effect on a block lives in one place: **Motion**, in the Styler.
 
@@ -14,7 +14,7 @@ An entrance effect plays once when a block scrolls into view. The block waits ou
 
 1. Open your page in the Website Builder.
 2. Click the block you want to animate: a heading, a picture, a card, a section.
-3. Click **Styles** in the panel rail on the right, and stay on **Normal**.
+3. Click **Styles** in the panel rail on the right, then click **Normal** at the top of it.
 4. Open **Motion** and click **Add motion**. The block gets **Fade up**, played **When it scrolls into view**.
 5. To use another effect, pick it under **Effect**, such as **Zoom in**.
 6. Scroll the page in the builder. The block plays its effect as it enters the screen.

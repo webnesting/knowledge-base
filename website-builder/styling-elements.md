@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-24 2:36pm
+**Last verified:** 2026-10-24 3:21pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -10,9 +10,15 @@ Every element on your page -- text, images, buttons, sections -- can be customiz
 
 The Styler is the **Styles** panel, opened from the icon rail on the right side of the builder. It controls how things look -- colors, spacing, size, shadows, and more.
 
-Think of the Styler as a set of dials and switches for each element on your page. Select something, and the Styler shows you all the ways you can customize it.
+The top of the Styler has three tabs. All three change the same styles, so you can switch between them at any time:
 
-![The Styler panel showing Layout, Position, and Spacing controls for a selected element](../images/website-builder/styler-panel.png)
+- **Easy** -- one-tap choices from your theme, in five groups: **Text**, **Background**, **Spacing**, **Corners & Shadow** and **Effects**. You do not need to know CSS. See [Styling with Easy](#styling-with-easy).
+- **Normal** -- every setting, in sections you can expand, such as Typography, Spacing, Border and Motion. Pick exact values or type your own.
+- **Advanced** -- the element's CSS, as rules you can type in. It takes any CSS. See [Advanced: Any CSS for One Element](#advanced-any-css-for-one-element).
+
+A style you set in one tab shows in the other two. In a website's builder, the **Stylesheet** button (the **<>** icon) beside the tabs holds your own CSS for the whole site, a layout or a page. See [Your Own CSS](#your-own-css).
+
+![The Styler on the Easy tab, with the Text group's Size, Weight and Color choices for a selected element](../images/website-builder/styler-easy.png)
 
 ---
 
@@ -21,7 +27,46 @@ Think of the Styler as a set of dials and switches for each element on your page
 1. Open your page in the Website Builder.
 2. Click on any element on your page (a heading, image, section, button, etc.).
 3. Click **Styles** in the panel rail on the right.
-4. You will see different sections you can expand, like Spacing, Layout, Position, and more. The Styler remembers which sections you keep open or closed, on every page and every element, until you change them.
+4. The Styler opens on **Easy** the first time. After that, it opens on the tab you used last.
+5. To see every setting, click **Normal**. Its sections, like Spacing, Layout and Position, open and close. The Styler remembers which sections you keep open or closed, on every page and every element, until you change them.
+
+![The Styler on the Normal tab, showing Layout, Position, and Spacing controls for a selected element](../images/website-builder/styler-panel.png)
+
+---
+
+## Styling with Easy
+
+Easy puts the choices most people need into one tap. Each choice comes from your theme, so your pages stay consistent. When you change your theme, the elements you styled in Easy change with it.
+
+1. Select an element, then open **Styles**.
+2. Click **Easy** if it is not already on.
+3. Click a choice, for example **Large** under **Size**. The page changes at once.
+4. To take a choice away, click it again.
+
+The groups and what they do:
+
+- **Text** -- the font (**Body font** or **Heading font**), the size, the weight (from light to bold), and the color.
+- **Background** -- the background color. If the element has a photo behind it, **Add overlay** puts a dark tint over the photo, so text on top is easier to read. Pick **Light**, **Medium** or **Strong**, or click **Remove overlay**.
+- **Spacing** -- **Space inside** (the room between the element's edge and its content) and **Space around** (the room between the element and its neighbors). The numbers are the steps of your theme's spacing scale, from **0** (none) to **10**. The line under the row says the step's size, for example "Step 4 of 10 · 22px". Steps 6 to 10 are in the menu at the end of the row.
+- **Corners & Shadow** -- how round the corners are, and a soft, medium or strong shadow.
+- **Effects** -- **Hover lift** (the element moves up a little and gets a shadow when the pointer is over it) and **Transparency** (100%, 75%, 50% or 25%).
+
+On a **Spacer**, Easy shows only **Height**, as steps 1 to 10 of your theme's spacing scale.
+
+### What the Label Next to a Setting Means
+
+- **Theme default** -- nothing is set here. The element looks the way your theme makes it.
+- **Same as Default** -- on the **Hover**, **Focus** or **Pressed** look, nothing is set for that look, so it uses the **Default** look's choice. That choice has a dashed outline.
+- **From** and a screen size, such as **From Base** (Base means all screen sizes) -- the value is set for another screen size and applies at the size you are viewing too. The choice it reads has a dashed outline.
+- **Custom** -- the value is not one of Easy's choices, for example a size you typed in **Normal**. Easy shows it as written and never changes it. Pick a choice to replace it.
+
+### More Options
+
+Each group ends with **More options →**. It opens **Normal** at that group's sections and outlines them for a moment, so you can see where to look. There you can set each side's spacing on its own, add a photo, and more.
+
+When **Normal** shows a value from your theme, it says so. For example, a size picked in Easy is named "Large text" with "from your theme" after it, a shadow reads "Soft shadow · from your theme", and the spacing diagram shows the step number.
+
+**Hover lift** is set on the **Default** look, so it plays when the pointer moves over the element and back out. On the **Hover** look the setting is shown but cannot be changed: click **Default** to change it.
 
 > **Tip:** If Styles shows your own CSS instead of the element controls, nothing is selected. Click directly on an element -- clicking empty space deselects everything. See [Your Own CSS](#your-own-css) for that view.
 
@@ -52,7 +97,7 @@ Each change is one step in your undo history. Press **Cmd+Z** (Ctrl+Z on Windows
 An element can look different while a visitor points at it, while it has focus, or while it is clicked. A button can turn darker on hover, or a form field can get a colored ring while someone types in it.
 
 1. Select the element, then open **Styles**.
-2. At the top of **Normal**, click **Hover**. The page shows the element as it looks on hover, so you do not have to move your mouse over it.
+2. At the top of **Easy** or **Normal**, click **Hover**. The page shows the element as it looks on hover, so you do not have to move your mouse over it.
 3. Change any style, such as a color, a shadow or a border. The change applies only on hover.
 4. Click **Default** to go back to the usual look.
 
@@ -628,7 +673,7 @@ Advanced does not save CSS that would break the rest of your site. A brace, brac
 
 ## Your Own CSS
 
-The Styler can do most things with its controls. For anything it cannot do yet, write your own CSS. In a website's builder, the top of the **Styles** panel has a **Stylesheet** button beside **Normal** and **Advanced**. With nothing selected, Styles opens on it.
+The Styler can do most things with its controls. For anything it cannot do yet, write your own CSS. In a website's builder, the top of the **Styles** panel has a **Stylesheet** button (the **<>** icon) beside **Easy**, **Normal** and **Advanced**. With nothing selected, Styles opens on it.
 
 ![The Styles panel in Stylesheet mode, with the Whole site, This layout and This page switch above the CSS editor](../images/website-builder/styler-stylesheet.png)
 
