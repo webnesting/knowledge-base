@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-22 7:00pm
+**Last verified:** 2026-10-24 10:25am
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -44,6 +44,37 @@ Each change is one step in your undo history. Press **Cmd+Z** (Ctrl+Z on Windows
 > **Tip:** Hover over the **?** next to a length or number setting to see these keys as a reminder.
 
 > **Working with a teammate?** Esc only takes back your own change. If a teammate changes something while you type, their change stays.
+
+---
+
+## States: Hover, Focus and Pressed
+
+An element can look different while a visitor points at it, while it has focus, or while it is clicked. A button can turn darker on hover, or a form field can get a colored ring while someone types in it.
+
+1. Select the element, then open **Styles**.
+2. At the top of **Normal**, click **Hover**. The page shows the element as it looks on hover, so you do not have to move your mouse over it.
+3. Change any style, such as a color, a shadow or a border. The change applies only on hover.
+4. Click **Default** to go back to the usual look.
+
+The four looks:
+
+- **Default** — how it looks most of the time.
+- **Hover** — while the pointer is over it.
+- **Focus** — while it has focus: a field someone types in, or a link or button reached with the keyboard.
+- **Pressed** — while it is clicked or tapped.
+
+A dot on a look means it already has styles. When you select another element, the Styler goes back to **Default**. When you change the screen size, it stays on the look you picked, so you can style a hover look for phones only.
+
+A change to spacing, size, display or text size can move the rest of the page when the look changes. The Styler says so under those settings: "Changes the layout on hover — the page can jump."
+
+While a look other than **Default** is on, two shortcuts show under the row:
+
+- **Choose how it animates** goes back to **Default** and opens **Animate changes**. Set the animation there, so the change animates both in and out. See [Animating a Change (Transition)](#animating-a-change-transition).
+- **Focus ring** (on **Focus**) opens **Outline**, the usual way to show where keyboard focus is.
+
+**More states.** In the bar under the page, the menu at the right of the element's own chip has more looks, such as **:focus-visible** (focus from the keyboard only), **:focus-within** (something inside has focus) or **:visited**. Picking one adds it as a fifth look in the row. The same menu on a parent chip styles this element while the parent is hovered: for example, a card's button changes when the visitor points anywhere on the card.
+
+**Advanced** shows each look as its own block, such as the element's rule with `:hover`.
 
 ---
 
@@ -341,8 +372,8 @@ Open **Move, turn and scale on their own** at the end of the **Transform** secti
 **Animate changes**, in the **Transition** section, makes a change happen smoothly instead of at once. For example, a button can lift slowly when a visitor points at it:
 
 1. Select the button.
-2. In the bar under the page, add the **:hover** state to the button, then add a **Move** step in **Transform** with **Y** set to -4.
-3. Set the state back to **Normal**.
+2. At the top of the Styler, click **Hover**, then add a **Move** step in **Transform** with **Y** set to -4.
+3. Click **Default** (or **Choose how it animates**, which goes back to Default and opens **Transition**).
 4. In **Transition**, click **Animate a change**.
 5. Under **Animate**, choose **Transform**. **Everything that changes** animates every change.
 6. Under **Takes**, pick one of your theme's speeds or type a time, such as 0.2 (seconds).
@@ -563,8 +594,8 @@ Each rule shows as a block. The block's first lines say when it applies, for exa
 ### Conditions and States
 
 1. Click **Add a condition**.
-2. Choose the kind: **@supports** (when the browser can do something), **@container** (when a parent is a certain size), **@media** (any other media query, such as reduced motion or print), **@layer**, **@scope**, **@starting-style**, or another rule typed in full.
-3. Type the condition. The field shows an example.
+2. Choose the kind: **When a visitor asks for less motion** (see [Less Motion](#less-motion)), **@supports** (when the browser can do something), **@container** (when a parent is a certain size), **@media** (any other media query, such as print), **@layer**, **@scope**, **@starting-style**, or another rule typed in full.
+3. Type the condition. The field shows an example. **When a visitor asks for less motion** needs no typing.
 4. To use it at one screen size only, pick that breakpoint first and keep **Only at** checked.
 5. Click **Add condition**. Type the rows into the new block.
 
@@ -573,6 +604,12 @@ To style a state or a part of the element, click **Add a state block** and pick 
 Click **×** at the top of a block to remove the block and all its rows. The main block of the element has no **×**.
 
 A property you set under a condition shows an **In Advanced** badge in **Normal**. Normal shows the value without conditions. Change the condition's value in Advanced.
+
+### Less Motion
+
+Some visitors turn on **Reduce motion** on their device. Give them a different look with **When a visitor asks for less motion**. Click **Add a condition**, pick it, and click **Add condition**. Type the rows into the new block. Only visitors who asked for less motion see them.
+
+Use it for a look, such as a different color or size. It cannot slow an animation down for these visitors. Their device asks for less movement, so every animation on your site ends at once on its last look, and a duration you set here does not change that.
 
 ### Raw CSS
 
