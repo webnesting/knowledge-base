@@ -1,6 +1,6 @@
 # Animations and Interactions
 
-**Last verified:** 2026-10-24 10:10am
+**Last verified:** 2026-10-24 12:08pm
 
 Make your page feel alive when someone scrolls, without writing any code. This guide covers the animations you can add to any block in the Website Builder. Every effect on a block lives in one place: **Motion**, in the Styler.
 
@@ -151,9 +151,22 @@ A loop keeps a block moving gently, with no start or end. Use it for a small tou
 - **Float** lifts the block up and down a little.
 - **Pulse** grows and shrinks the block a little.
 - **Spin** turns the block around, slowly.
-- **Marquee** is for a row of logos or words that scrolls across the page. You can pick it now. It shows as a still row until the marquee moves.
+- **Marquee** scrolls a row of logos or words across the page, in a loop that never ends.
 
 A loop works with any effect you set above it. It is for decoration, so use it on a small block, not on text people need to read.
+
+### Add a Scrolling Logo Strip
+
+1. Click the block that holds the logos or words, such as a **Logo strip**.
+2. Open **Motion** in **Styles**.
+3. Under **Keep it moving**, pick **Marquee**.
+4. Pick a **Speed**: **Slow**, **Normal** or **Fast**.
+5. Pick a **Direction**: **Left** or **Right**.
+6. Click **Publish**.
+
+The items scroll past one after another and start again with no gap. Each visitor sees a pause button on the strip, so they can stop it at any time. The strip also stops while a visitor points at it or moves through it with the keyboard. To keep it moving when someone points at it, turn off **Pause when a visitor points at it**. The pause button stays.
+
+A screen reader reads each item once, and the Tab key reaches each link once.
 
 ### See It in the Builder
 
@@ -161,7 +174,7 @@ The builder keeps loops still while you edit, so your page does not move while y
 
 ### Visitors Who Ask for Less Motion
 
-Visitors who turn on **Reduce motion** on their device see a loop standing still.
+Visitors who turn on **Reduce motion** on their device see a loop standing still. A marquee shows all its items standing still, in as many rows as they need.
 
 ---
 
