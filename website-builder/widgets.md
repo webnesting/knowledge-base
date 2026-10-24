@@ -1,6 +1,6 @@
 # Custom Widgets
 
-**Last verified:** 2026-10-24 5:24pm
+**Last verified:** 2026-10-24 5:44pm
 
 Widgets are reusable content blocks that you create once and use across multiple pages on your site. Instead of rebuilding the same section over and over, you build it once as a widget, and then place it wherever you need it.
 
@@ -187,7 +187,7 @@ A value you set on the spot wins over the variant's starting value. When you cha
 
 You can see all your widgets in two places:
 
-- **On the Widgets page:** Click **Widgets** in your site menu for the full list, with **Edit in Builder**, **Rename** and **Delete** in each row's **⋮** menu.
+- **On the Widgets page:** Click **Widgets** in your site menu for the full list, with **Edit in Builder**, **Rename**, **Share with Your Other Sites** and **Delete** in each row's **⋮** menu.
 - **In the Website Builder:** Open the **Add** panel and look under **My Widgets**. Every widget is listed there, ready to drag onto a page.
 
 ### Renaming a Widget
@@ -211,6 +211,37 @@ The window says how many pages use the widget, for example "**Used on 6 pages.**
 Be careful when deleting widgets. If you delete a widget that is still placed on pages, those pages will show a blank space where the widget used to be. You will need to remove or replace the widget on each page.
 
 > **Tip:** Before deleting a widget, check which pages use it. That way you can clean up those pages first and avoid any blank spots on your site.
+
+### Sharing a Widget With Your Other Sites
+
+If your workspace has more than one site, you can build a widget on one site and add it to the others. Each site gets its own separate copy, so changing one copy never changes the other.
+
+**To share a widget:**
+
+1. Open the **Widgets** page of the site that has the widget.
+2. Click the **⋮** menu on the widget's row, then **Share with Your Other Sites**.
+3. Click **Share Widget**. The list then shows a **Shared** label on that widget.
+
+The shared copy is the **published** version of the widget, together with any widgets inside it. If **Share with Your Other Sites** is greyed out, point at it to read why. A header, footer or sidebar widget cannot be shared, and a widget needs to be published first. Unpublished changes stay on your site.
+
+To send a newer version later, choose **Update the Shared Copy** from the same menu. Sites that already added the widget keep the copy they have.
+
+**To add a shared widget to a site:**
+
+1. Open the **Widgets** page of the site that should get the widget.
+2. Click **Browse Shared Widgets**. Every widget shared in your workspace shows as a card, with a picture of how it looks in the theme of the site it came from.
+3. Click **Add to This Site** on the card you want. A card that cannot be added says why on the card, for example when the Widget Builder is off on that site.
+
+The widget appears in your **Widgets** list with a **Just added** label, and takes on your site's theme. If the name is taken, the card tells you the new name first, for example "Contact strip (2)". A message lists anything you need to check: an HTML block comes in empty when your role has no Custom Code access, and a form or menu panel is left empty because forms and pages are not shared between sites.
+
+You can also see every shared widget in one place. In the sidebar, open **Sites** and click **Shared widgets**, then click **Add to a Site** on a card and pick the site.
+
+**To stop sharing a widget:**
+
+1. Open the **Widgets** page of the site that shared it.
+2. Click the **⋮** menu on the widget's row, then **Stop Sharing**, and confirm.
+
+Other sites can no longer add it. Copies that sites already added stay as they are. Only the person who shared the widget, the workspace owner or someone who manages sites can stop sharing it. If you delete a shared widget from its site, the shared copy stays in **Shared widgets** until you stop sharing it.
 
 ---
 
