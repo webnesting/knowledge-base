@@ -1,6 +1,6 @@
 # Animations and Interactions
 
-**Last verified:** 2026-10-24 12:08pm
+**Last verified:** 2026-10-24 12:20pm
 
 Make your page feel alive when someone scrolls, without writing any code. This guide covers the animations you can add to any block in the Website Builder. Every effect on a block lives in one place: **Motion**, in the Styler.
 
@@ -175,6 +175,45 @@ The builder keeps loops still while you edit, so your page does not move while y
 ### Visitors Who Ask for Less Motion
 
 Visitors who turn on **Reduce motion** on their device see a loop standing still. A marquee shows all its items standing still, in as many rows as they need.
+
+---
+
+## Scroll Effects
+
+A scroll effect ties a block's look to the page scroll. The block fades, moves, turns or grows as a visitor scrolls past it, and goes back when they scroll up. You can link four styles: **Opacity**, **Move**, **Turn** and **Scale**.
+
+### Link a Style to the Scroll
+
+1. Click the block, then open **Styles**.
+2. Find the style. **Opacity** is in **Visibility**. **Move**, **Turn** and **Scale** are in **Transform**, under **Move, turn and scale on their own**.
+3. Click the link button next to the style's name. It turns blue, and the style now shows **From** and **To**.
+4. Set **From**, the look when the block comes onto the screen.
+5. Set **To**, the look when it leaves the top of the screen.
+6. Click **Publish**.
+
+The builder links the style with sensible values to start: **Opacity** from 0 to 1, so the block fades in. Scroll the page in the builder to see the effect.
+
+To unlink it, click the link button again. The block stays at its **From** value. **Undo** takes back a link or an unlink in one step.
+
+### Choose Where It Plays
+
+Under **Plays**, pick where on the screen the style changes:
+
+- **The whole way up the screen**: from the moment the block comes in at the bottom until it leaves the top.
+- **As it comes onto the screen**: the first half of the way.
+- **Around the middle of the screen**: the middle half.
+- **As it leaves the screen**: the last half.
+- **Set my own start and end**: pick **Starts at** and **Ends at** yourself. 0% is when the block comes in at the bottom of the screen. 100% is when it leaves the top.
+
+Each linked style has its own **Plays**. To start and stop the whole effect at once, open **Motion**. Under **Scroll effect**, set **Starts at** and **Ends at**.
+
+### A Value Written by Hand
+
+If you typed a style's value by hand in a form the controls cannot read, you cannot click the link button. Clear the value first, then link it.
+
+### Visitors Who Ask for Less Motion
+
+Visitors who turn on **Reduce motion** on their device see each style at its **To** value, standing still. Make **To** the look you want the block to have when it is done.
 
 ---
 
