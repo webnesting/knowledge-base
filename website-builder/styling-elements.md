@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-24 6:23pm
+**Last verified:** 2026-10-24 6:26pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -668,7 +668,7 @@ Each rule shows as a block. The block's first lines say when it applies, for exa
 ### Typing and Pasting CSS
 
 - Type a property, then `:`, then its value. Type `;` to go to the next row. A `;` inside quote marks or brackets stays part of the value, so an image written into the CSS, such as `url("data:image/svg+xml;utf8,…")`, types as one value.
-- Paste several lines of CSS into a row, and Advanced splits them into rows. A rule for this element, such as `.card:hover { color: blue; }`, goes to its own block. After a paste, the block says what happened, for example "Added 3 rows. 1 piece went to Raw CSS."
+- Paste several lines of CSS into a row, and Advanced splits them into rows. A rule for this element, such as `.card:hover { color: blue; }`, goes to its own block. A rule copied from a block, with its first lines, goes back to the same look, also for a part such as `.card:hover::before` or a list such as `.card:hover, .tile:hover`. After a paste, the block says what happened, for example "Added 3 rows. 1 piece went to Raw CSS."
 - A rule for a different element is not added. Paste it into **Stylesheet** instead (see [Your Own CSS](#your-own-css)).
 
 ### Conditions and States
