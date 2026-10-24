@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-10-24 3:19pm
+**Last verified:** 2026-10-24 3:53pm
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -44,6 +44,10 @@ A section is a designed part of a page, such as a banner at the top or three cus
 3. Select the picture, or press **Add**. The section goes in and is selected, so you can start changing its words.
 
 A line at the top of the group says what was added, for example "Added “Customer reviews” after “Section”.", and offers **Undo**. Press **Undo** to take the section back. The line goes away as soon as you change anything else on the page, so **Undo** never takes back something you did later. You can also drag a picture onto the page and drop it where you want it. One **Undo** (or the Undo button at the top of the page) removes the whole section.
+
+The **Ready-made** list holds 16 sections: two heroes (**Hero with photo** and **Hero, centred**), **Three reasons**, two call-to-action bands (**Call to action band** and **Closing call to action**), three that show proof (**Customer reviews**, **Customer quote** and **Case study**), **Pricing, three plans**, **Questions and answers**, **Contact details and form**, **Numbers that count**, **Meet the team**, **Logos of clients**, **Portfolio gallery** and **Book a time**. Each one takes its colors, fonts and corners from your theme, so it looks right in light and dark mode on every built-in theme. Search finds them by the words you would use, for example "restaurant" finds **Book a time**.
+
+A ready-made section holds no pictures, because a picture belongs to one site. Where a picture goes (the photo in **Hero with photo**, the tiles in **Portfolio gallery**), you see a colored block. Select it and choose a picture from your media library. The words, prices and names are examples. Change them to yours. **Contact details and form** has buttons for email and phone; add a form block from the **Marketing** group where you want a form. In **Book a time**, open the booking block and enter your booking address.
 
 Use **Show** to narrow the list to one type, such as Hero, Pricing or FAQ, or to the sections you saved. The list has up to three parts, in this order: **Saved by you**, **From your theme** (sections that come with your theme, shown only while that theme is on your site) and **Ready-made**. If a picture does not load, the tile says "Preview not available". You can still add the section, and **Try again** loads the picture again.
 
