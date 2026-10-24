@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-24 10:25am
+**Last verified:** 2026-10-24 11:19am
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -69,7 +69,7 @@ A change to spacing, size, display or text size can move the rest of the page wh
 
 While a look other than **Default** is on, two shortcuts show under the row:
 
-- **Choose how it animates** goes back to **Default** and opens **Animate changes**. Set the animation there, so the change animates both in and out. See [Animating a Change (Transition)](#animating-a-change-transition).
+- **Choose how it animates** goes back to **Default** and opens **Transition**. Set the animation there, so the change animates both in and out. See [Animating a Change (Transition)](#animating-a-change-transition).
 - **Focus ring** (on **Focus**) opens **Outline**, the usual way to show where keyboard focus is.
 
 **More states.** In the bar under the page, the menu at the right of the element's own chip has more looks, such as **:focus-visible** (focus from the keyboard only), **:focus-within** (something inside has focus) or **:visited**. Picking one adds it as a fifth look in the row. The same menu on a parent chip styles this element while the parent is hovered: for example, a card's button changes when the visitor points anywhere on the card.
