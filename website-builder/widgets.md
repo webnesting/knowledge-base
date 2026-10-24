@@ -1,6 +1,6 @@
 # Custom Widgets
 
-**Last verified:** 2026-10-24 4:26pm
+**Last verified:** 2026-10-24 5:22pm
 
 Widgets are reusable content blocks that you create once and use across multiple pages on your site. Instead of rebuilding the same section over and over, you build it once as a widget, and then place it wherever you need it.
 
@@ -98,7 +98,7 @@ That is it. The widget and all its content will appear on your page exactly as y
 
 ### Putting a Widget inside another Widget
 
-While you edit a widget, the **My Widgets** group of the **Add** panel lists your other widgets, so a widget can hold another one, such as a pricing card inside a pricing band. A widget can never hold itself. The widget you are editing, and any widget that already holds it, are greyed out with the line "A widget can't contain itself."
+While you edit a widget, the **My Widgets** group of the **Add** panel lists your other widgets, so a widget can hold another one, such as a pricing card inside a pricing band. A widget can never hold itself. The widget you are editing, and any widget that already holds it, are greyed out with the line "A widget can't contain itself." Pasting or duplicating one of them into the widget is refused with the same message, and nothing is added.
 
 ---
 
