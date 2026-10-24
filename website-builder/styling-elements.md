@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-24 3:21pm
+**Last verified:** 2026-10-24 5:02pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -626,6 +626,34 @@ Click **Styles** at the right end of the bar under the page to open your list of
 An AI assistant you connect to WebNesting can style your site with its own class names. Those show under **Classes that aren't Styles yet**. Click **Make it a Style**, check the name and click **Make Style**. Every element with that class now uses the Style, and you can rename it or put it on other elements.
 
 > **Tip:** Your AI assistant can list, make, rename and delete your Styles too. It asks for your yes before it deletes one.
+
+---
+
+## One-Click Effects
+
+An **Effect** is a ready-made look you put on an element with one click. There are five:
+
+- **Glass:** a frosted, see-through panel.
+- **Gradient text:** text filled with a blend of your colors.
+- **Aurora background:** a soft glow of your theme colors.
+- **Soft card:** rounded corners and a gentle shadow.
+- **Hover lift:** the element rises a little when someone points at it.
+
+### Put an Effect on an Element
+
+1. Select the element.
+2. In the Styles panel, open **Effects** at the top. Each Effect shows a small picture on a sample card, in your theme, in light or dark.
+3. Click **Apply** under the one you want.
+
+The row then says **Applied**, and the number beside **Effects** counts the Effects on the element. Glass shows best over a picture or a color, because it is see-through.
+
+### An Effect Is a Style
+
+When you apply an Effect, WebNesting makes a Style named for it, such as "Glass", and puts it on the element. The Styles panel then edits that Style. Click **Edit it in Styles** to change it: a change reaches every element that uses it. You can rename it and delete it like any other Style.
+
+Apply the same Effect to another element, and it uses the same Style, so you never get two. If your site already has a Style named "Glass", the new one is named "Glass (2)".
+
+> **Tip:** Your AI assistant can list the Effects and put one on an element for you.
 
 ---
 
