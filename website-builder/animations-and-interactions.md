@@ -1,6 +1,6 @@
 # Animations and Interactions
 
-**Last verified:** 2026-10-22 7:19pm
+**Last verified:** 2026-10-24 10:10am
 
 Make your page feel alive when someone scrolls, without writing any code. This guide covers the animations you can add to any block in the Website Builder. Every effect on a block lives in one place: **Motion**, in the Styler.
 
@@ -135,6 +135,33 @@ If your own device asks for less motion, **Play** shows the End look for two sec
 ### Ask an AI
 
 An AI connected to your site through MCP can read your keyframes, change their stops and rename them, the same way you do in the Styler.
+
+---
+
+## Loops
+
+A loop keeps a block moving gently, with no start or end. Use it for a small touch, such as a picture that floats or a badge that pulses.
+
+### Keep a Block Moving
+
+1. Click the block, then open **Motion** in **Styles**.
+2. Under **Keep it moving**, pick **Float**, **Pulse** or **Spin**. Pick **None** to stop it.
+3. Click **Publish**.
+
+- **Float** lifts the block up and down a little.
+- **Pulse** grows and shrinks the block a little.
+- **Spin** turns the block around, slowly.
+- **Marquee** is for a row of logos or words that scrolls across the page. You can pick it now. It shows as a still row until the marquee moves.
+
+A loop works with any effect you set above it. It is for decoration, so use it on a small block, not on text people need to read.
+
+### See It in the Builder
+
+The builder keeps loops still while you edit, so your page does not move while you work. To see them move, click **Preview motion** in the top bar, next to the screen size menu. Click it again to hold them still. It starts off each time you open the builder, and it does not change your site.
+
+### Visitors Who Ask for Less Motion
+
+Visitors who turn on **Reduce motion** on their device see a loop standing still.
 
 ---
 
