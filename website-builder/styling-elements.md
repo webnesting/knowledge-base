@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-24 12:59pm
+**Last verified:** 2026-10-24 2:36pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -62,6 +62,8 @@ The four looks:
 - **Hover** — while the pointer is over it.
 - **Focus** — while it has focus: a field someone types in, or a link or button reached with the keyboard.
 - **Pressed** — while it is clicked or tapped.
+
+While a look other than **Default** is on, a line under the element's toolbar reads, for example, "Showing the Hover look". It tells you the page shows a look you picked, not a change to the page. It goes when you click **Default** or select another element.
 
 A dot on a look means it already has styles. When you select another element, the Styler goes back to **Default**. When you change the screen size, it stays on the look you picked, so you can style a hover look for phones only.
 
