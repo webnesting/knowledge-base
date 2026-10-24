@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-24 11:19am
+**Last verified:** 2026-10-24 12:59pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -492,11 +492,14 @@ Most of the time, you will not need to change an element's position. But when yo
 - **Relative** -- The element stays in its normal place but can be nudged up, down, left, or right from where it would normally be.
 - **Absolute** -- The element is removed from the normal flow and placed at a specific spot within its parent container. Useful for overlays and badges.
 - **Fixed** -- The element stays in the same spot on the screen even when the visitor scrolls. Useful for sticky headers or floating buttons.
-- **Sticky** -- The element scrolls normally until it reaches a certain point, then sticks in place. Great for section headers that should remain visible.
+
+### Stick While Scrolling
+
+Under the position choices, **Stick while scrolling** keeps an element on screen as visitors scroll. **Stick at the top** makes the element scroll normally until it reaches the top of the screen, then stay there while the block around it scrolls past. It is great for section headers that should remain visible. On a section, **Hold its content for 1, 1.5, 2 or 3 screens** keeps the section's first block on screen for that long. See [Stick While Scrolling](animations-and-interactions.md#stick-while-scrolling).
 
 ### Anchor Presets
 
-When you choose Absolute, Fixed, or Sticky, a set of nine anchor points appears in the Styler. These let you quickly position the element:
+When you choose Absolute, Fixed, or Stick at the top, a set of nine anchor points appears in the Styler. These let you quickly position the element:
 
 - Top-left, top-center, top-right
 - Middle-left, center, middle-right

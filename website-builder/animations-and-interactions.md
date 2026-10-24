@@ -1,6 +1,6 @@
 # Animations and Interactions
 
-**Last verified:** 2026-10-24 12:20pm
+**Last verified:** 2026-10-24 12:59pm
 
 Make your page feel alive when someone scrolls, without writing any code. This guide covers the animations you can add to any block in the Website Builder. Every effect on a block lives in one place: **Motion**, in the Styler.
 
@@ -82,6 +82,56 @@ An effect can play when a visitor points at a block, such as a card that pulses.
 The effect also plays when a visitor moves to the block with the **Tab** key, so people who use a keyboard see it too.
 
 To play an effect all the time instead, such as a picture that keeps zooming in, pick **Always** under **When it plays**.
+
+### On Click
+
+An effect can play each time a visitor clicks a block, such as a button that pulses.
+
+> **Note:** You can set up click effects and the rules below now. They start to play on your pages in an upcoming update.
+
+1. Click the block, then open **Motion** in **Styles**.
+2. Click **Add motion**.
+3. Under **When it plays**, pick **On click**.
+4. Under **Effect**, pick an effect, such as **Pulse**.
+5. To make it wait first, set **Delay**, in milliseconds.
+6. Click **Publish**.
+
+The effect also plays when a visitor moves to the block with the **Tab** key and presses **Enter** or **Space**. **Play again on each click** is on at first. Turn it off to play the effect on the first click only. A block can have one click effect.
+
+In the builder, a click selects the block, so the effect does not play there. Open **Preview** to try it.
+
+### Make One Block Act on Another
+
+A rule makes something happen elsewhere on the page. For example: when a visitor clicks a button, a popup opens.
+
+1. Click the block that starts it, such as the button, then open **Motion** in **Styles**.
+2. Open **Make it do something else on the page**, under the effects, and click **Add a rule**.
+3. Under **When**, pick what starts it, such as **Clicked**.
+4. Under **then**, pick what happens, such as **Open a popup**.
+5. Next to **on**, click **Pick on page**, then click the block it acts on, such as the popup. Press **Esc** to stop without picking.
+6. Click **Publish**.
+
+You can also pick by keyboard: after **Pick on page**, press **Tab** to move through the page and **Enter** to pick. If you pick nothing, the rule acts on the block itself.
+
+| When | What starts it |
+|---|---|
+| Clicked | A visitor clicks the block, or presses Enter or Space on it. |
+| Pointed at | A visitor points at the block. |
+| Scrolls into view, Scrolls out of view | The block comes onto the screen, or leaves it. |
+| The page opens | The page finishes loading. |
+| Scrolled past | A visitor scrolls past the top of the block, plus the distance you set. |
+| Its form is sent | The form the block is in is sent. |
+
+| then | What happens |
+|---|---|
+| Open a popup | The popup you picked opens. |
+| Go to a tab, Go to a slide | The tabs or slideshow you picked moves to the number you set. With **Scrolls into view**, **Move on by itself every** moves on by itself while the block is on screen. |
+| Play a video, Pause a video | The video you picked plays or pauses. |
+| Scroll to it | The page scrolls to the block you picked. |
+| Add or remove a class | The class you type is added, or taken off if it is there. |
+| Play an effect, Stop an effect | The effect you pick plays on the block, or stops. |
+
+A rule belongs to the block it is on, at every screen size. If you delete the block a rule acts on, the rule shows **Target removed** and does nothing until you pick another one. To take a rule away, click **Remove** next to it.
 
 ### Tips
 
@@ -214,6 +264,38 @@ If you typed a style's value by hand in a form the controls cannot read, you can
 ### Visitors Who Ask for Less Motion
 
 Visitors who turn on **Reduce motion** on their device see each style at its **To** value, standing still. Make **To** the look you want the block to have when it is done.
+
+---
+
+## Stick While Scrolling
+
+A block can stay on screen while visitors scroll. A whole section can hold its content on screen for a few screens of scrolling, so what is inside can move with the scroll. This is the scrolling-story effect.
+
+### Stick a Block at the Top
+
+1. Click the block, then open **Position** in **Styles**.
+2. Under **Stick while scrolling**, pick **Stick at the top**.
+3. Click **Publish**.
+
+The block scrolls as normal until it reaches the top of the screen. Then it stays there while the block around it scrolls past. A heading above a long article is a good use. To stop it, pick **Off**.
+
+If you set **Position** for one screen size only, such as a computer, the block sticks at that size only.
+
+### Hold a Section for a Few Screens
+
+1. Click the section, then open **Position** in **Styles**.
+2. Under **Stick while scrolling**, pick **Hold its content for 1 screen**, **1.5 screens**, **2 screens** or **3 screens**.
+3. Click **Publish**.
+
+The first block inside the section stays on screen while visitors scroll that far. Put the headline, picture and text you want to keep in view inside that first block. Only sections can do this, and it holds the section the same way at every screen size. To stop it, pick **Off**.
+
+### Move What Is Inside
+
+While the section holds its content, link the look of a block inside it to the scroll. Follow [Link a Style to the Scroll](#link-a-style-to-the-scroll) for that block. Under **Plays**, the line says "Its section, Our story, holds its content while scrolling, so the section's scroll moves it." The section's scroll moves the block: it starts when the section begins to hold, and it ends when the section lets go.
+
+### Visitors Who Ask for Less Motion
+
+Visitors who turn on **Reduce motion** on their device see the section as normal content. It does not hold its content, and each linked style shows its **To** value. A block you set to **Stick at the top** still sticks.
 
 ---
 
