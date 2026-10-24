@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-24 5:02pm
+**Last verified:** 2026-10-24 6:23pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -49,7 +49,7 @@ The groups and what they do:
 - **Background** -- the background color. If the element has a photo behind it, **Add overlay** puts a dark tint over the photo, so text on top is easier to read. Pick **Light**, **Medium** or **Strong**, or click **Remove overlay**.
 - **Spacing** -- **Space inside** (the room between the element's edge and its content) and **Space around** (the room between the element and its neighbors). The numbers are the steps of your theme's spacing scale, from **0** (none) to **10**. The line under the row says the step's size, for example "Step 4 of 10 · 22px". Steps 6 to 10 are in the menu at the end of the row.
 - **Corners & Shadow** -- how round the corners are, and a soft, medium or strong shadow.
-- **Effects** -- **Hover lift** (the element moves up a little and gets a shadow when the pointer is over it) and **Transparency** (100%, 75%, 50% or 25%).
+- **Effects** -- the ready-made looks (**Glass**, **Gradient text**, **Aurora background** and **Soft card**, each with a small picture and an **Apply** button; see [One-Click Effects](#one-click-effects)), then **Hover lift** (the element moves up a little and gets a shadow when the pointer is over it) and **Transparency** (100%, 75%, 50% or 25%).
 
 On a **Spacer**, Easy shows only **Height**, as steps 1 to 10 of your theme's spacing scale.
 
@@ -642,10 +642,12 @@ An **Effect** is a ready-made look you put on an element with one click. There a
 ### Put an Effect on an Element
 
 1. Select the element.
-2. In the Styles panel, open **Effects** at the top. Each Effect shows a small picture on a sample card, in your theme, in light or dark.
+2. In the Styles panel, stay on the **Easy** tab and find the **Effects** group. On **Normal** and **Advanced**, open **Effects** at the top instead. Each Effect shows a small picture on a sample card, in your theme, in light or dark.
 3. Click **Apply** under the one you want.
 
 The row then says **Applied**, and the number beside **Effects** counts the Effects on the element. Glass shows best over a picture or a color, because it is see-through.
+
+On the **Easy** tab, **Hover lift** is not one of the pictures. It is the **Hover lift** switch under them, and it does the same thing. Easy changes the Style the element has, if it has one, so a change there reaches every element that uses that Style.
 
 ### An Effect Is a Style
 
