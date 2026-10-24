@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-10-24 2:11pm
+**Last verified:** 2026-10-24 2:27pm
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -255,7 +255,7 @@ Pick how your logo and menu sit at the top of every page, and what sits at the b
    - **Menu on both sides** -- your menu on the left, your logo in the middle, your buttons on the right.
 4. Under **On phones, the menu opens from**, pick **Left**, **Right** or **Top**.
 5. Under **Footer**, click a layout: **Three columns**, **Centered**, **Large, with all menus** or **Simple**.
-6. Click **Save Changes**. Your site shows the new layouts at once.
+6. Click **Save Changes**. Your site shows the new layouts at once. One Save Changes saves everything on this page: the layouts, the announcement bar, Back to top and Between pages.
 
 The large pictures at the top of each part are your own home page with the layout you picked. The phone picture shows the menu open. The layout marked **This theme's default** is the one your theme comes with.
 
@@ -263,7 +263,33 @@ On phones and small tablets, your menu sits behind a menu button. It opens from 
 
 > **Tip:** If your header menu has no pages yet, the page says so and links to **Pages**, where you add pages to the header menu.
 
-**Fade between pages.** Below the footer, **Between pages** has one setting, **Fade smoothly between pages**. See [Smooth Page Changes](../website-builder/animations-and-interactions.md#smooth-page-changes).
+### Announcement Bar
+
+The announcement bar is a short message in a bar above your header. It shows on every page of your site, in your theme's main color. Use it for a sale, a closing day or a new address.
+
+1. Open **Header & Footer** as in the steps above.
+2. Under **Announcement bar**, turn on **Show announcement bar**.
+3. Type your **Message**. Use 140 characters or fewer. A line break becomes a space, so the bar stays on one line where it fits.
+4. If you want a link, type it in **Link (optional)**. Use a web address that starts with `https://`, `mailto:` or `tel:`, or a page on your site like `/sale`.
+5. Type the **Link words**, up to 30 characters. If you leave them empty, the link reads **Learn more**.
+6. Turn **Let visitors close the bar** on or off.
+7. Click **Save Changes**.
+
+The two pictures next to the settings show your home page on a computer and on a phone, with the bar as you typed it. They change before you save.
+
+**When visitors close the bar.** A visitor who closes the bar does not see it again on that browser. When you change the message, every visitor sees the bar again. A change to the link or the link words does not bring it back. If you turn off **Let visitors close the bar**, the bar has no close button and every visitor sees it.
+
+**Turning it off.** Turn off **Show announcement bar** and click **Save Changes**. Your message, link and link words stay saved for the next time you turn it on.
+
+> **Tip:** If a field needs a fix, Save Changes says so and marks the field. Nothing on your site changes until every field is right.
+
+### Back to Top Button
+
+Under the footer settings, **Back to top** has one setting, **Show a Back to top button**. When it is on, a small button shows in the corner of the page after a visitor scrolls down one screen. A short page never shows it. The button takes the visitor back to the top of the page, and the keyboard moves to the top too.
+
+### Fade Between Pages
+
+Below **Back to top**, **Between pages** has one setting, **Fade smoothly between pages**. See [Smooth Page Changes](../website-builder/animations-and-interactions.md#smooth-page-changes).
 
 You can also show one of your own widgets as your header or footer. While it is in use, this page shows **Your own header** in place of the layout choices, with **Edit Header** and **Go Back to a Standard Layout**. See [Using a Widget as Your Header or Footer](../website-builder/widgets.md#using-a-widget-as-your-header-or-footer).
 
