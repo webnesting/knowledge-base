@@ -1,6 +1,6 @@
 # WebNesting User Documentation
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-10-24 12:58pm
 
 Welcome to the WebNesting help center. These guides will help you build and manage your website.
 
@@ -64,6 +64,7 @@ Welcome to the WebNesting help center. These guides will help you build and mana
 | [Saving and Publishing](website-builder/saving-and-publishing.md) | Save drafts, publish changes, undo mistakes, and keyboard shortcuts |
 | [Custom Widgets](website-builder/widgets.md) | Create reusable content blocks to use across multiple pages |
 | [Managing Pages in the Builder](website-builder/page-management.md) | Switch pages, create new pages, edit properties, and work with layouts |
+| [Your Style Guide Page](website-builder/style-guide.md) | See every block in your theme on one page, and copy one onto another page |
 | [SEO Best Practices](website-builder/seo-best-practices.md) | Practical tips for improving your site's search engine visibility |
 | [Site Navigation](website-builder/site-navigation.md) | Set up header menus, footer links, dropdowns, and breadcrumbs |
 | [Accessibility Guide](website-builder/accessibility-guide.md) | Make your site usable for everyone with alt text, headings, contrast, and more |
