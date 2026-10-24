@@ -1,6 +1,6 @@
 # Activity Logs
 
-**Last verified:** 2026-10-14 3:52pm
+**Last verified:** 2026-10-24 4:24pm
 
 Activity logs keep a record of everything that happens on your site. Every time someone makes a change -- whether it is editing a page, updating settings, or managing team members -- it is recorded in the activity log.
 
@@ -150,6 +150,16 @@ Recent activity also appears in the notification bell at the top of your workspa
 Click the bell icon to see recent activity. Click on any notification to view more details.
 
 The bell only shows what **other people** did (plus things that happen on their own, like an incoming ticket). Your own changes don't ring the bell -- you get a confirmation right where you made them -- but they are always in the full activity log.
+
+### Desktop notifications
+
+WebNesting can also show a notice on your computer's desktop when something needs you, even while you work in another tab. To turn it on:
+
+1. Click the bell icon.
+2. Click **Turn On Desktop Notifications** at the bottom of the list.
+3. Choose **Allow** in your browser's prompt.
+
+The button shows until you choose **Allow** or **Block**. If you chose **Block**, turn notifications back on for WebNesting in your browser's site settings.
 
 > **Tip:** The notification bell shows activity from all sites you have permission to access. If you do not see activity from a particular site, check with your workspace owner about your permissions.
 
