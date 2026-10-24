@@ -1,6 +1,6 @@
 # Animations and Interactions
 
-**Last verified:** 2026-10-24 3:21pm
+**Last verified:** 2026-10-24 3:29pm
 
 Make your page feel alive when someone scrolls, without writing any code. This guide covers the animations you can add to any block in the Website Builder. Every effect on a block lives in one place: **Motion**, in the Styler.
 
@@ -140,7 +140,7 @@ Some things to know:
 - **Move on by itself every** puts a small pause button on the tabs or slideshow. The tabs or slides also wait while a visitor points at them or uses them, and while the block is off the screen.
 - In a repeated section, a rule acts on the block in the same copy as the block that starts it.
 - A video with sound may not start on its own until the visitor has clicked somewhere on the page. This is a browser rule. A video set to **Play on its own** is muted, so it can start.
-- Rules on blocks inside a widget do not run yet.
+- Rules on blocks inside a widget run wherever the widget shows: on a page, in your site's header or footer, and in a menu panel. A rule can act only on a block in the same widget. When a page shows the same widget twice, each copy's rules act on that copy.
 
 ### Click Effects, Rules and Less Motion
 
