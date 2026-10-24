@@ -1,6 +1,6 @@
 # Animations and Interactions
 
-**Last verified:** 2026-10-24 1:15pm
+**Last verified:** 2026-10-24 2:54pm
 
 Make your page feel alive when someone scrolls, without writing any code. This guide covers the animations you can add to any block in the Website Builder. Every effect on a block lives in one place: **Motion**, in the Styler.
 
@@ -87,8 +87,6 @@ To play an effect all the time instead, such as a picture that keeps zooming in,
 
 An effect can play each time a visitor clicks a block, such as a button that pulses.
 
-> **Note:** You can set up click effects and the rules below now. They start to play on your pages in an upcoming update.
-
 1. Click the block, then open **Motion** in **Styles**.
 2. Click **Add motion**.
 3. Under **When it plays**, pick **On click**.
@@ -96,7 +94,7 @@ An effect can play each time a visitor clicks a block, such as a button that pul
 5. To make it wait first, set **Delay**, in milliseconds.
 6. Click **Publish**.
 
-The effect also plays when a visitor moves to the block with the **Tab** key and presses **Enter** or **Space**. **Play again on each click** is on at first. Turn it off to play the effect on the first click only. A block can have one click effect.
+The effect also plays when a visitor moves to the block with the **Tab** key and presses **Enter** or **Space**. Your page makes any block with a click effect reachable by the **Tab** key, so you do not need to do anything for keyboard visitors. **Play again on each click** is on at first. Turn it off to play the effect on the first click only. A block can have one click effect.
 
 In the builder, a click selects the block, so the effect does not play there. Open **Preview** to try it.
 
@@ -132,6 +130,21 @@ You can also pick by keyboard: after **Pick on page**, press **Tab** to move thr
 | Play an effect, Stop an effect | The effect you pick plays on the block, or stops. |
 
 A rule belongs to the block it is on, at every screen size. If you delete the block a rule acts on, the rule shows **Target removed** and does nothing until you pick another one. To take a rule away, click **Remove** next to it.
+
+In the builder, a click selects a block, so rules do not run there. Open **Preview** to try them, or open your published page.
+
+Some things to know:
+
+- **Pointed at** also runs when a visitor moves to the block with the **Tab** key.
+- **Add or remove a class** switches each time the rule runs. With **Scrolled past**, the class comes off again when the visitor scrolls back up, which suits a header that changes once the page moves.
+- **Move on by itself every** puts a small pause button on the tabs or slideshow. The tabs or slides also wait while a visitor points at them or uses them, and while the block is off the screen.
+- In a repeated section, a rule acts on the block in the same copy as the block that starts it.
+- A video with sound may not start on its own until the visitor has clicked somewhere on the page. This is a browser rule. A video set to **Play on its own** is muted, so it can start.
+- Rules on blocks inside a widget do not run yet.
+
+### Click Effects, Rules and Less Motion
+
+When a visitor asks their device for less motion, click effects show their end look at once, with no delay. **Scroll to it** jumps instead of gliding. Tabs and slideshows do not move on by themselves, and a video does not start by itself. Clicks still open popups, change tabs and play videos.
 
 ### Tips
 
