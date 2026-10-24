@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-10-24 2:12pm
+**Last verified:** 2026-10-24 3:19pm
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -31,13 +31,25 @@ The component will appear on your page immediately. You can now click on it to e
 
 ## Find a Block: Search and Groups
 
-At the top of the **Add** panel, the **Search blocks** box finds a block by its name or by a plain word. Type "movie" and **Video** appears; "newsletter" finds **Email Signup**. A longer search needs every word to match. Under the box, a line says what you see: "32 blocks in 6 groups.", or "1 block matches “movie”." while you search. Press **Esc** or choose **Clear search** to see all the blocks again. If nothing matches, the panel says so and offers **Show all blocks**.
+At the top of the **Add** panel, the **Search blocks** box finds a block by its name or by a plain word. Type "movie" and **Video** appears; "newsletter" finds **Email Signup**. A longer search needs every word to match. The box finds sections too (see [Add a Ready-Made Section](#add-a-ready-made-section)): "restaurant" finds **Book a time**. Under the box, a line says what you see: "46 blocks and 18 sections.", or "2 blocks and 3 sections match “hero”." while you search. Press **Esc** or choose **Clear search** to see everything again. If nothing matches, the panel says so and offers **Show all blocks**.
 
 The blocks sit in groups by what you want to do. Select a group's name to open or close it. The first time you open the panel, only **Layout** is open; after that the panel remembers which groups you opened. While you search, every group with a match opens by itself.
 
+## Add a Ready-Made Section
+
+A section is a designed part of a page, such as a banner at the top or three customer reviews, made of several blocks. The last group of the **Add** panel, **Sections**, lists them. Each one is a small live picture of the section in your theme, as tall as the section itself.
+
+1. Open the **Add** panel and select **Sections**.
+2. Select one section on your page if you want the new one to go right after it. If you select nothing, the new section goes at the end of the page.
+3. Select the picture, or press **Add**. The section goes in and is selected, so you can start changing its words.
+
+A line at the top of the group says what was added, for example "Added “Customer reviews” after “Section”.", and offers **Undo**. Press **Undo** to take the section back. The line goes away as soon as you change anything else on the page, so **Undo** never takes back something you did later. You can also drag a picture onto the page and drop it where you want it. One **Undo** (or the Undo button at the top of the page) removes the whole section.
+
+Use **Show** to narrow the list to one type, such as Hero, Pricing or FAQ, or to the sections you saved. The list has up to three parts, in this order: **Saved by you**, **From your theme** (sections that come with your theme, shown only while that theme is on your site) and **Ready-made**. If a picture does not load, the tile says "Preview not available". You can still add the section, and **Try again** loads the picture again.
+
 ## Component Categories
 
-Components are grouped by what you want to do. The groups are Layout, Text, Media, Interactive, Marketing and Site modules, followed by **My Widgets**.
+Components are grouped by what you want to do. The groups are Layout, Text, Media, Interactive, Marketing and Site modules, followed by **My Widgets**. **Sections** sits after Site modules and holds ready-made sections, which are described above.
 
 ![The Add panel showing component categories](../images/website-builder/component-palette.png)
 
