@@ -1,6 +1,6 @@
 # Custom Widgets
 
-**Last verified:** 2026-10-21 9:31am
+**Last verified:** 2026-10-24 4:26pm
 
 Widgets are reusable content blocks that you create once and use across multiple pages on your site. Instead of rebuilding the same section over and over, you build it once as a widget, and then place it wherever you need it.
 
@@ -94,7 +94,11 @@ Once you have created and saved a widget, it becomes available as a component yo
 
 That is it. The widget and all its content will appear on your page exactly as you designed it.
 
-> **Tip:** You can place the same widget on multiple pages. It will look identical on each one.
+> **Tip:** You can place the same widget on as many pages as you like, and more than once on one page. It looks the same in each spot, unless you give a spot its own values (see **Widget properties** below).
+
+### Putting a Widget inside another Widget
+
+While you edit a widget, the **My Widgets** group of the **Add** panel lists your other widgets, so a widget can hold another one, such as a pricing card inside a pricing band. A widget can never hold itself. The widget you are editing, and any widget that already holds it, are greyed out with the line "A widget can't contain itself."
 
 ---
 
@@ -114,6 +118,57 @@ When you edit and publish a widget, the updated version will appear on every pag
 This is one of the biggest advantages of using widgets. Change it once, and it changes everywhere.
 
 > **Tip:** Before publishing major changes to a widget, remember that the update will affect every page that uses it. Double-check your changes to make sure everything looks right.
+
+---
+
+## Widget properties
+
+A property is a part of your widget that each spot can change, while everything else stays shared. For example, a pricing card can show a different title, photo and button link on each page, and still get every design change you make to the widget.
+
+### Making a property
+
+1. Open your widget with **Edit in Builder**.
+2. Select the element each spot should change, such as the title.
+3. Open **Settings**. **Widget properties** is at the top.
+4. Turn on **Let people change this per spot**.
+5. Under **What can people change?**, pick what changes: the text, the picture, the link, or whether it shows.
+6. Give the property a name people see, such as "Title", and click **Save property**.
+7. **Publish** the widget, so your live pages can use the property.
+
+To see every property of the widget, select nothing and open **Settings**. Each property shows how many spots set their own value. You can rename a property there, and a rename keeps every spot's value. If you delete one, the window first says how many spots lose their own value.
+
+### Giving a spot its own values
+
+1. Open the page in the **Website Builder**.
+2. Click the widget on the page to select that spot.
+3. Open **Settings**. **Widget properties** is at the top, with a line such as "This only changes this pricing card."
+4. Change a property, for example type a new title or click **Choose from my media** for a new photo.
+5. **Publish** the page.
+
+A property you have not changed shows the widget's own value in grey. A changed one has a blue dot. Click **Back to the Widget's value** to undo one. To change every spot at once, click **To change every spot, edit the Widget**, which opens the widget in a new tab.
+
+---
+
+## Variants
+
+A variant is a ready-made version of your widget, such as "Quiet" or "Dark". It adds Styles to the widget and can give properties a starting value. Each spot picks the variant it uses.
+
+### Making a variant
+
+1. Open your widget with **Edit in Builder**, select nothing, and open **Settings**.
+2. Under **Variants**, click **+ New variant**.
+3. Type a name and click **Make variant**.
+4. Pick the Styles the variant adds. Each spot that uses the variant gets these Styles.
+5. Optionally, give a property a starting value. A value you leave alone follows the widget.
+6. **Publish** the widget.
+
+### Picking a variant for a spot
+
+1. Select the widget on your page and open **Settings**.
+2. Under **Widget properties**, open **Variant** and pick one. **The Widget's own look** goes back to the plain widget.
+3. **Publish** the page.
+
+A value you set on the spot wins over the variant's starting value. When you change a variant in the widget, every spot that uses it changes too. If you delete a variant, the spots that used it show the widget's own look.
 
 ---
 
@@ -140,9 +195,9 @@ If you no longer need a widget, you can delete it from the **Widgets** page.
 
 1. Open the **Widgets** page from your site menu.
 2. Click the **⋮** menu on the widget's row, then **Delete**.
-3. Click **Delete** to confirm.
+3. Click **Delete** to confirm. The button says **Deleting…** while it works, and the list then says "Deleted" with the widget's name.
 
-If the widget is your site's header or footer, the window says so first, and names the layout every page shows after you delete it.
+The window says how many pages use the widget, for example "**Used on 6 pages.** Those spots will be empty." If the widget is your site's header or footer, the window says so first, and names the layout every page shows after you delete it. If the delete fails, the window stays open and says "We couldn't delete the widget. Nothing changed." Check your connection, then press **Delete** again.
 
 Be careful when deleting widgets. If you delete a widget that is still placed on pages, those pages will show a blank space where the widget used to be. You will need to remove or replace the widget on each page.
 
