@@ -1,6 +1,6 @@
 # Custom Widgets
 
-**Last verified:** 2026-10-24 5:44pm
+**Last verified:** 2026-10-24 7:32pm
 
 Widgets are reusable content blocks that you create once and use across multiple pages on your site. Instead of rebuilding the same section over and over, you build it once as a widget, and then place it wherever you need it.
 
@@ -66,6 +66,23 @@ There are two ways to create a widget. Both end up in the same place.
 2. Find the **My Widgets** group.
 3. Click the **+** on the group header and enter a name.
 4. The new widget appears as a tile you can drop onto any page.
+
+### From something already on your page
+
+You built a block on a page, and now you want it on other pages too. Turn it into a widget where it is.
+
+1. On the canvas, right-click the block.
+2. Choose **Save as Widget**. It sits under **Save as section**, with the line "Every copy stays in step with this one."
+3. Give the widget a name. The name starts as the block's name in **Layers**.
+4. Click **Save Widget**, or press **Enter**.
+
+The block, with everything inside it and its look, becomes the new widget. In its place on the page is the widget itself, so the page looks the same. The builder says "Made the Widget <name>. This spot now uses it." Now drag the widget from **My Widgets** onto any other page. When you edit the widget, every spot shows the change.
+
+- **A name you already use is not a problem.** The dialog says "A Widget called “Pricing card” already exists. This one will be called “Pricing card (2)”."
+- **Changed your mind?** Undo (**Ctrl+Z** on Windows, **Cmd+Z** on Mac) puts the block back as it was. The new widget stays in your Widgets list, and you can delete it there.
+- **If it does not work**, the dialog stays open with "We couldn't make the Widget. Your page is unchanged.", and no widget is made.
+
+Save as Widget is not offered inside a widget you are editing, on a widget already placed on the page, or while the Widget Builder is off. Remember: **a section is a copy, a widget stays shared.** To reuse a block that you change on each page, use **Save as section** instead.
 
 ---
 
@@ -178,6 +195,21 @@ A variant is a ready-made version of your widget, such as "Quiet" or "Dark". It 
 3. **Publish** the page.
 
 A value you set on the spot wins over the variant's starting value. When you change a variant in the widget, every spot that uses it changes too. If you delete a variant, the spots that used it show the widget's own look.
+
+---
+
+## Making a spot independent
+
+Sometimes one spot needs to be different in a way that properties do not allow. Make that spot independent. It gets its own copy of the widget's content, and it stops following the widget.
+
+1. Select the widget on your page.
+2. Right-click it and choose **Make independent**, or open **Settings** and click **Make independent** under **Shared Widget**.
+3. Read the message: "It stops matching the Widget. Changes to <name> won't reach this spot. This spot keeps what it shows now, and you can change any part of it."
+4. Click **Make independent**.
+
+The spot looks the same as before, with the values and the variant it had. Now you can change any part of it on this page. The widget, and every other spot that uses it, do not change. Later changes to the widget do not reach this spot. Undo (**Ctrl+Z** on Windows, **Cmd+Z** on Mac) makes it a widget spot again.
+
+A widget that shows records from a collection (see **Connecting Widgets to Data** below) cannot be made independent. Its button is off, with the line "This Widget shows records from a collection, so it can't be made independent."
 
 ---
 
