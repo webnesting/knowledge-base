@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-10-24 3:53pm
+**Last verified:** 2026-10-24 5:24pm
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -50,6 +50,29 @@ The **Ready-made** list holds 16 sections: two heroes (**Hero with photo** and *
 A ready-made section holds no pictures, because a picture belongs to one site. Where a picture goes (the photo in **Hero with photo**, the tiles in **Portfolio gallery**), you see a colored block. Select it and choose a picture from your media library. The words, prices and names are examples. Change them to yours. **Contact details and form** has buttons for email and phone; add a form block from the **Marketing** group where you want a form. In **Book a time**, open the booking block and enter your booking address.
 
 Use **Show** to narrow the list to one type, such as Hero, Pricing or FAQ, or to the sections you saved. The list has up to three parts, in this order: **Saved by you**, **From your theme** (sections that come with your theme, shown only while that theme is on your site) and **Ready-made**. If a picture does not load, the tile says "Preview not available". You can still add the section, and **Try again** loads the picture again.
+
+## Save Your Own Section
+
+When you have made a part of a page you like, save it as a section and add copies of it to other pages. It keeps its blocks, its words and its look.
+
+1. Right-click the section on your page. (On a keyboard, select it and press **Shift+F10** or the menu key.)
+2. Choose **Save as section**. Under it, the menu says "A copy to reuse. Each copy changes on its own."
+3. Give it a name. If you already have a section with that name, the window says the name it will get, such as "Open day (2)".
+4. Optional: pick a **Type**, such as Hero or Pricing, or type your own. The type sorts the **Sections** group.
+5. Choose **Save section**.
+
+A small picture of the section shows at the top of the window, so you can check what you save. After the save, the **Add** panel opens on **Saved by you**, and the new section wears "Just saved". Add it to any page of the site, as you add a ready-made one.
+
+A saved section is a copy. Changing it on one page never changes the other pages, and never changes the saved section. For one block that stays the same everywhere you use it, make a [widget](widgets.md) instead.
+
+You cannot save the page content area itself, or a part of the page that holds it: the menu item is off and says "Pick a section on your page. The page content area cannot be saved." A section with an **HTML** block in it cannot be saved either, because an HTML block holds code.
+
+**Rename or delete a saved section:** in **Saved by you**, open the **⋮** menu on its tile.
+
+- **Rename** gives it a new name.
+- **Delete** asks first. It removes the section from your saved sections for good. Pages that already use it keep their copy.
+
+Saving, renaming and deleting a section needs permission to edit the website builder.
 
 ## Component Categories
 

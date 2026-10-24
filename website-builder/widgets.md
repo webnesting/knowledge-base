@@ -1,6 +1,6 @@
 # Custom Widgets
 
-**Last verified:** 2026-10-24 5:22pm
+**Last verified:** 2026-10-24 5:24pm
 
 Widgets are reusable content blocks that you create once and use across multiple pages on your site. Instead of rebuilding the same section over and over, you build it once as a widget, and then place it wherever you need it.
 
@@ -22,6 +22,15 @@ Widgets save you time and keep your site consistent.
 - **Stay consistent.** Every page that uses the widget looks exactly the same. No more accidentally using the wrong colors or forgetting a detail.
 - **Update once, change everywhere.** When you edit a widget, the changes appear on every page that uses it. Update your phone number in one place, and it updates across your entire site.
 - **Work faster.** Dragging a ready-made widget onto a page takes seconds. Building the same section from scratch every time takes much longer.
+
+### A widget or a saved section?
+
+Both let you use a part of a page again, but they behave in opposite ways.
+
+- **A widget stays shared.** Every page shows the same widget, so a change to it shows on all of those pages.
+- **A saved section is a copy.** Each page gets its own copy, which you change on that page alone. Changing one copy never changes the others, and deleting the saved section leaves every copy in place. See [Save Your Own Section](adding-components.md#save-your-own-section).
+
+Use a widget for a block that must be the same everywhere, such as your opening hours. Use a saved section for a starting point you adapt on each page, such as a banner.
 
 ---
 
