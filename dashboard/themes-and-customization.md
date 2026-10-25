@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-10-24 2:27pm
+**Last verified:** 2026-10-25 4:37am
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -285,7 +285,7 @@ The two pictures next to the settings show your home page on a computer and on a
 
 ### Back to Top Button
 
-Under the footer settings, **Back to top** has one setting, **Show a Back to top button**. When it is on, a small button shows in the corner of the page after a visitor scrolls down one screen. A short page never shows it. The button takes the visitor back to the top of the page, and the keyboard moves to the top too.
+Under the footer settings, **Back to top** has one setting, **Show a Back to top button**. When it is on, a small button shows in the corner of the page after a visitor scrolls down one screen. A short page never shows it. The button takes the visitor back to the top of the page, and the keyboard moves to the top too. On a site that shows the WebNesting badge at the bottom, the button sits just above the badge on every screen size.
 
 ### Fade Between Pages
 
