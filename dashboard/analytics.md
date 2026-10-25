@@ -1,6 +1,6 @@
 # Analytics and Reports
 
-**Last verified:** 2026-10-15 6:45pm
+**Last verified:** 2026-10-25 7:36pm
 
 Analytics help you understand how people find and use your website. WebNesting includes built-in analytics so you can see how many visitors your site gets, which pages are most popular, and where your traffic comes from -- all from your dashboard.
 
@@ -53,6 +53,8 @@ Here is what each metric means:
 **Bounce Rate** -- The percentage of visitors who left your site after viewing only one page. A lower bounce rate is generally better (see "Understanding Your Analytics" below).
 
 **Average Session Duration** -- How long visitors typically spend on your site per visit.
+
+> **Very busy sites:** when your site records more than 600 events in one minute, WebNesting keeps every page of 1 visit in 10 for the rest of that minute and counts each kept visit 10 times. Your totals are then close estimates instead of exact counts, and every chart and widget stays in proportion.
 
 ### Viewing Traffic Over Time
 
