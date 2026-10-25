@@ -1,6 +1,6 @@
 # Animations and Interactions
 
-**Last verified:** 2026-10-24 4:14pm
+**Last verified:** 2026-10-25 4:37pm
 
 Make your page feel alive when someone scrolls, without writing any code. This guide covers the animations you can add to any block in the Website Builder. Every effect on a block lives in one place: **Motion**, in the Styler.
 
@@ -49,6 +49,10 @@ An effect that plays **When it scrolls into view** shows these settings under it
 - **Start when it is ... of the way up the screen**: how much of the block must be on screen before it plays. **20% (standard)** works for most blocks. Pick **50%** for a tall block that should play when half of it shows.
 - **Play only once**: on by default. Turn it off to play the effect again each time a visitor scrolls back to the block.
 - **One child after another**: for a block that holds other blocks, such as a section with three cards. The cards start one after the other, this many milliseconds apart, instead of all at once. Leave it at 0 to play them together.
+
+### One Screen Size Only
+
+To play an effect at one screen size only, pick that size in the screen size menu at the top of the builder, then add the effect in **Motion**. The size can be a computer, a tablet, a phone or a breakpoint you added yourself. The effect plays at that size and not at the others. When a visitor turns a tablet or resizes the window, the page switches to the effect of the new size at once, with no reload. In the builder, pick another device or type a width to see it switch.
 
 ### Animate Word by Word
 
