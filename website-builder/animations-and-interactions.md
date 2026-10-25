@@ -1,6 +1,6 @@
 # Animations and Interactions
 
-**Last verified:** 2026-10-25 4:37pm
+**Last verified:** 2026-10-25 5:59pm
 
 Make your page feel alive when someone scrolls, without writing any code. This guide covers the animations you can add to any block in the Website Builder. Every effect on a block lives in one place: **Motion**, in the Styler.
 
@@ -14,7 +14,7 @@ An entrance effect plays once when a block scrolls into view. The block waits ou
 
 1. Open your page in the Website Builder.
 2. Click the block you want to animate: a heading, a picture, a card, a section.
-3. Click **Styles** in the panel rail on the right, then click **Normal** at the top of it.
+3. Click **Styles** in the panel rail on the right, then click **Visual** at the top of it.
 4. Open **Motion** and click **Add motion**. The block gets **Fade up**, played **When it scrolls into view**.
 5. To use another effect, pick it under **Effect**, such as **Zoom in**.
 6. Scroll the page in the builder. The block plays its effect as it enters the screen.
@@ -163,7 +163,7 @@ You can design an animation of your own and use it anywhere a built-in effect go
 
 ### Make a Keyframe
 
-1. Click any block, then open the Styler and click **Advanced**.
+1. Click any block, then open the Styler and click **CSS**.
 2. Scroll down to **Keyframes** and click **New keyframe**.
 3. Type a name, such as `rise-soft`, and click **Create**. A name starts with a lower-case letter and uses letters, numbers and dashes.
 4. The new keyframe starts as a gentle fade up, so it already works. Change it the way you want.
@@ -174,7 +174,7 @@ A keyframe has stops along a track. **Start** is how the block looks when the an
 
 1. Click **Add a stop** to put a stop between Start and End. You can also click the track where you want the stop.
 2. Under **Add a style at this stop**, pick a style: **Opacity**, **Move**, **Turn**, **Scale**, **Background colour**, **Text colour** or **Letter spacing**.
-3. Set the style with the same control you use in **Normal**.
+3. Set the style with the same control you use in **Visual**.
 4. To move a stop, drag **Position**, or select the stop and press the Left or Right arrow key. Hold Shift to move it 10% at a time.
 5. Click **Play on** and the block's name to see it run on the selected block.
 
@@ -182,7 +182,7 @@ To take a stop away, select it and click **Remove stop**. Start and End always s
 
 ### Use It
 
-In the Styler, open **Motion** in **Normal**, click **Add motion**, and pick your keyframe under **Effect**. Your keyframes show first, under **Your keyframes**, before the built-in effects. Then choose **When it plays**:
+In the Styler, open **Motion** in **Visual**, click **Add motion**, and pick your keyframe under **Effect**. Your keyframes show first, under **Your keyframes**, before the built-in effects. Then choose **When it plays**:
 
 - **When it scrolls into view**, to use it as an entrance effect.
 - **Always**, to play it when the page opens.
@@ -328,7 +328,7 @@ When a visitor clicks a link on your site, the next page can fade in over the la
 2. Under **Appearance**, click **Header & Footer**.
 3. Scroll to **Between pages**.
 4. Turn on **Fade smoothly between pages**.
-5. Click **Save Changes**. Your site shows the fade at once. You do not need to publish.
+5. Click **Save Changes**. You do not need to publish. Visitors see the fade within 5 minutes.
 
 To go back to normal page changes, turn the setting off and click **Save Changes**.
 

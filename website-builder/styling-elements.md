@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-25 2:56am
+**Last verified:** 2026-10-25 5:16pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -10,15 +10,12 @@ Every element on your page -- text, images, buttons, sections -- can be customiz
 
 The Styler is the **Styles** panel, opened from the icon rail on the right side of the builder. It controls how things look -- colors, spacing, size, shadows, and more.
 
-The top of the Styler has three tabs. All three change the same styles, so you can switch between them at any time:
+The top of the Styler has two tabs. Both change the same styles, so you can switch between them at any time:
 
-- **Easy** -- one-tap choices from your theme, in five groups: **Text**, **Background**, **Spacing**, **Corners & Shadow** and **Effects**. You do not need to know CSS. See [Styling with Easy](#styling-with-easy).
-- **Normal** -- every setting, in sections you can expand, such as Typography, Spacing, Border and Motion. Pick exact values or type your own.
-- **Advanced** -- the element's CSS, as rules you can type in. It takes any CSS. See [Advanced: Any CSS for One Element](#advanced-any-css-for-one-element).
+- **Visual** -- every setting, in sections you can expand, such as Typography, Spacing, Border and Motion. The settings most people need also have one-tap choices from your theme. You do not need to know CSS. See [Choices From Your Theme](#choices-from-your-theme).
+- **CSS** -- the element's CSS, as rules you can type in. It takes any CSS. See [The CSS Tab: Any CSS for One Element](#the-css-tab-any-css-for-one-element).
 
-A style you set in one tab shows in the other two. In a website's builder, the **Stylesheet** button (the **<>** icon) beside the tabs holds your own CSS for the whole site, a layout or a page. See [Your Own CSS](#your-own-css).
-
-![The Styler on the Easy tab, with the Text group's Size, Weight and Color choices for a selected element](../images/website-builder/styler-easy.png)
+A style you set in one tab shows in the other. In a website's builder, the **Site stylesheet** button (the page icon) beside the tabs holds your own CSS for the whole site, a layout or a page. See [Your Own CSS](#your-own-css).
 
 ---
 
@@ -27,44 +24,51 @@ A style you set in one tab shows in the other two. In a website's builder, the *
 1. Open your page in the Website Builder.
 2. Click on any element on your page (a heading, image, section, button, etc.).
 3. Click **Styles** in the panel rail on the right.
-4. The Styler opens on **Easy** the first time. After that, it opens on the tab you used last.
-5. To see every setting, click **Normal**. Its sections, like Spacing, Layout and Position, open and close. The Styler remembers which sections you keep open or closed, on every page and every element, until you change them.
+4. The Styler opens on **Visual** the first time. After that, it opens on the tab you used last.
+5. Click a section's name, like Spacing, Layout or Position, to open or close it. The Styler remembers which sections you keep open or closed, on every page and every element, until you change them.
 
-![The Styler on the Normal tab, showing Layout, Position, and Spacing controls for a selected element](../images/website-builder/styler-panel.png)
+![The Styler's Spacing section on the Visual tab, with the Space inside and Space around choices above the spacing diagram](../images/website-builder/styler-panel.png)
 
 ---
 
-## Styling with Easy
+## Choices From Your Theme
 
-Easy puts the choices most people need into one tap. Each choice comes from your theme, so your pages stay consistent. When you change your theme, the elements you styled in Easy change with it.
+On the **Visual** tab, the settings most people need have a row of one-tap choices above them. Each choice comes from your theme, so your pages stay consistent. When you change your theme, the elements you styled with these choices change with it.
 
 1. Select an element, then open **Styles**.
-2. Click **Easy** if it is not already on.
-3. Click a choice, for example **Large** under **Size**. The page changes at once.
+2. Find the setting, for example **Font Size** in **Typography**.
+3. Click a choice, for example **Large**. The page changes at once.
 4. To take a choice away, click it again.
 
-The groups and what they do:
+To set an exact value instead, use the setting under the choices.
 
-- **Text** -- the font (**Body font** or **Heading font**), the size, the weight (from light to bold), and the color.
-- **Background** -- the background color. If the element has a photo behind it, **Add overlay** puts a dark tint over the photo, so text on top is easier to read. Pick **Light**, **Medium** or **Strong**, or click **Remove overlay**.
-- **Spacing** -- **Space inside** (the room between the element's edge and its content) and **Space around** (the room between the element and its neighbors). The numbers are the steps of your theme's spacing scale, from **0** (none) to **10**. The line under the row says the step's size, for example "Step 4 of 10 · 22px". Steps 6 to 10 are in the menu at the end of the row.
-- **Corners & Shadow** -- how round the corners are, and a soft, medium or strong shadow.
-- **Effects** -- the ready-made looks (**Glass**, **Gradient text**, **Aurora background** and **Soft card**, each with a small picture and an **Apply** button; see [One-Click Effects](#one-click-effects)), then **Hover lift** (the element moves up a little and gets a shadow when the pointer is over it) and **Transparency** (100%, 75%, 50% or 25%).
+Where the choices are:
 
-On a **Spacer**, Easy shows only **Height**, as steps 1 to 10 of your theme's spacing scale.
+- **Typography** -- **Font Family** (**Body font** or **Heading font**), **Font Size** (from **Small** to **XL**, with more sizes in the menu at the end of the row) and **Color** (up to five colors from your theme). For the weight, use the **Font Weight** buttons.
+- **Background** -- **Color**, with up to five colors from your theme. If the element has a photo behind it, **Overlay** under the layers puts a dark tint over the photo, so text on top is easier to read. Click **Add overlay**, then pick **Light**, **Medium** or **Strong**, or click **Remove overlay**.
+- **Spacing** -- **Space inside** (the room between the element's edge and its content) and **Space around** (the room between the element and its neighbors), above the spacing diagram. Each sets all four sides. The numbers are the steps of your theme's spacing scale, from **0** (none) to **10**. The line under the row says the step's size, for example "Step 4 of 10 · 22px". Steps 6 to 10 are in the menu at the end of the row.
+- **Border** -- **Corners**: **None**, **Subtle**, **Rounded**, **Extra round** or **Pill**.
+- **Box Shadow** -- **None**, **Soft**, **Medium** or **Strong**.
+- **Transition** -- **Hover lift**, at the top of the section. **On** makes the element move up a little and get a shadow when the pointer is over it.
 
-### What the Label Next to a Setting Means
+On a **Spacer**, **Height** has steps 1 to 10 of your theme's spacing scale.
+
+The choices show in a website's builder. The email builder has none, because many email apps cannot show theme values.
+
+### What the Choices Show
+
+- A choice with a solid outline is the value set here.
+- A choice with a dashed outline is a value set somewhere else that applies here too: on the **Default** look while you style **Hover**, **Focus** or **Pressed**, or at another screen size.
+- No choice is lit when the value is not one of the choices, for example a size you typed. The setting under the row shows the value. The choices do not change it until you pick one.
+
+**Space inside**, **Space around** and **Hover lift** also have a label next to their name:
 
 - **Theme default** -- nothing is set here. The element looks the way your theme makes it.
-- **Same as Default** -- on the **Hover**, **Focus** or **Pressed** look, nothing is set for that look, so it uses the **Default** look's choice. That choice has a dashed outline.
-- **From** and a screen size, such as **From Base** (Base means all screen sizes) -- the value is set for another screen size and applies at the size you are viewing too. The choice it reads has a dashed outline.
-- **Custom** -- the value is not one of Easy's choices, for example a size you typed in **Normal**. Easy shows it as written and never changes it. Pick a choice to replace it.
+- **Same as Default** -- on the **Hover**, **Focus** or **Pressed** look, nothing is set for that look, so it uses the **Default** look's choice.
+- **From** and a screen size, such as **From Base** (Base means all screen sizes) -- the value is set for another screen size and applies at the size you are viewing too.
+- **Custom** -- the value is not one of the choices, for example spacing that is different on each side. It is kept as written. Pick a choice to replace it.
 
-### More Options
-
-Each group ends with **More options →**. It opens **Normal** at that group's sections and outlines them for a moment, so you can see where to look. There you can set each side's spacing on its own, add a photo, and more.
-
-When **Normal** shows a value from your theme, it says so. For example, a size picked in Easy is named "Large text" with "from your theme" after it, a shadow reads "Soft shadow · from your theme", and the spacing diagram shows the step number.
+When a setting shows a value from your theme, it says so. For example, a size picked from the choices is named "Large text" with "from your theme" after it, a shadow reads "Soft shadow · from your theme", and the spacing diagram shows the step number.
 
 **Hover lift** is set on the **Default** look, so it plays when the pointer moves over the element and back out. On the **Hover** look the setting is shown but cannot be changed: click **Default** to change it.
 
@@ -97,7 +101,7 @@ Each change is one step in your undo history. Press **Cmd+Z** (Ctrl+Z on Windows
 An element can look different while a visitor points at it, while it has focus, or while it is clicked. A button can turn darker on hover, or a form field can get a colored ring while someone types in it.
 
 1. Select the element, then open **Styles**.
-2. At the top of **Easy** or **Normal**, click **Hover**. The page shows the element as it looks on hover, so you do not have to move your mouse over it.
+2. At the top of **Visual**, click **Hover**. The page shows the element as it looks on hover, so you do not have to move your mouse over it.
 3. Change any style, such as a color, a shadow or a border. The change applies only on hover.
 4. Click **Default** to go back to the usual look.
 
@@ -121,7 +125,7 @@ While a look other than **Default** is on, two shortcuts show under the row:
 
 **More states.** In the bar under the page, the menu at the right of the element's own chip has more looks, such as **:focus-visible** (focus from the keyboard only), **:focus-within** (something inside has focus) or **:visited**. Picking one adds it as a fifth look in the row. The same menu on a parent chip styles this element while the parent is hovered: for example, a card's button changes when the visitor points anywhere on the card.
 
-**Advanced** shows each look as its own block, such as the element's rule with `:hover`.
+The **CSS** tab shows each look as its own block, such as the element's rule with `:hover`.
 
 ---
 
@@ -250,7 +254,7 @@ Less-used settings are under **More text options** at the end of the section. Th
 
 ## Contain to Width, Form Fields, List and Content
 
-**Contain to width** lets the blocks inside an element change with the element's own width, not the screen's. Set **Children follow its size** to **Width**, and give it a **Name** if more than one container is nested. Then write an `@container` rule in the **Stylesheet**.
+**Contain to width** lets the blocks inside an element change with the element's own width, not the screen's. Set **Children follow its size** to **Width**, and give it a **Name** if more than one container is nested. Then write an `@container` rule in the **Site stylesheet**.
 
 **Form fields** sets the **Tick and slider color** (checkboxes, radio buttons, sliders), the **Typing cursor color**, the **Look** (**Browser** or **Plain**) and **Visitor can resize**.
 
@@ -328,7 +332,7 @@ The **Border** section of the Styler has two settings: **Line** and **Corners**.
 
 **Corners** makes the corners round. Drag the slider or type a number to round all four corners the same. To set each corner on its own, select the link button. Four boxes then appear, each where its corner is: top left, top right, bottom left and bottom right. Select the link button again to round all four corners the same as the top left one.
 
-If you wrote a border yourself in **Advanced**, such as `border: 2px dashed red`, the **Line** setting shows its width, style and color, and you can change them there. A border that the Styler cannot show as settings (for example, one that uses a CSS variable for the whole line) shows as **Custom**, with the CSS you wrote. The Styler keeps it as you wrote it.
+If you wrote a border yourself in the **CSS** tab, such as `border: 2px dashed red`, the **Line** setting shows its width, style and color, and you can change them there. A border that the Styler cannot show as settings (for example, one that uses a CSS variable for the whole line) shows as **Custom**, with the CSS you wrote. The Styler keeps it as you wrote it.
 
 ### Outline
 
@@ -642,12 +646,12 @@ An **Effect** is a ready-made look you put on an element with one click. There a
 ### Put an Effect on an Element
 
 1. Select the element.
-2. In the Styles panel, stay on the **Easy** tab and find the **Effects** group. On **Normal** and **Advanced**, open **Effects** at the top instead. Each Effect shows a small picture on a sample card, in your theme, in light or dark.
+2. In the Styles panel, open **Effects** at the top. Each Effect shows a small picture on a sample card, in your theme, in light or dark. Effects are not shown while you style a part such as **::before**, because an Effect changes the whole element.
 3. Click **Apply** under the one you want.
 
 The row then says **Applied**, and the number beside **Effects** counts the Effects on the element. Glass shows best over a picture or a color, because it is see-through.
 
-On the **Easy** tab, **Hover lift** is not one of the pictures. It is the **Hover lift** switch under them, and it does the same thing. Easy changes the Style the element has, if it has one, so a change there reaches every element that uses that Style.
+In a website's builder, **Hover lift** is not one of the pictures. It is the **Hover lift** setting at the top of the **Transition** section, and it gives the element the same lift.
 
 ### An Effect Is a Style
 
@@ -659,17 +663,17 @@ Apply the same Effect to another element, and it uses the same Style, so you nev
 
 ---
 
-## Advanced: Any CSS for One Element
+## The CSS Tab: Any CSS for One Element
 
-**Advanced** at the top of the **Styles** panel shows the CSS of the element you selected, as rules you can type in. It takes any CSS: properties the Styler has no control for, your own variables such as `--brand: #0af`, browser-prefixed properties, fallbacks and `!important`. Nothing you type is dropped or changed.
+The **CSS** tab at the top of the **Styles** panel shows the CSS of the element you selected, as rules you can type in. It takes any CSS: properties the Styler has no control for, your own variables such as `--brand: #0af`, browser-prefixed properties, fallbacks and `!important`. Nothing you type is dropped or changed.
 
 Each rule shows as a block. The block's first lines say when it applies, for example `@media only screen and (max-width: 1023px) { /* MD ≤ */`. Each row is a property and its value. Clear a row's checkbox to turn it off and keep its value. Click **×** on a row to remove it.
 
 ### Typing and Pasting CSS
 
 - Type a property, then `:`, then its value. Type `;` to go to the next row. A `;` inside quote marks or brackets stays part of the value, so an image written into the CSS, such as `url("data:image/svg+xml;utf8,…")`, types as one value.
-- Paste several lines of CSS into a row, and Advanced splits them into rows. A rule for this element, such as `.card:hover { color: blue; }`, goes to its own block. A rule copied from a block, with its first lines, goes back to the same look, also for a part such as `.card:hover::before` or a list such as `.card:hover, .tile:hover`. After a paste, the block says what happened, for example "Added 3 rows. 1 piece went to Raw CSS."
-- A rule for a different element is not added. Paste it into **Stylesheet** instead (see [Your Own CSS](#your-own-css)).
+- Paste several lines of CSS into a row, and the CSS tab splits them into rows. A rule for this element, such as `.card:hover { color: blue; }`, goes to its own block. A rule copied from a block, with its first lines, goes back to the same look, also for a part such as `.card:hover::before` or a list such as `.card:hover, .tile:hover`. After a paste, the block says what happened, for example "Added 3 rows. 1 piece went to Raw CSS."
+- A rule for a different element is not added. Paste it into the **Site stylesheet** instead (see [Your Own CSS](#your-own-css)).
 
 ### Conditions and States
 
@@ -683,7 +687,7 @@ To style a state or a part of the element, click **Add a state block** and pick 
 
 Click **×** at the top of a block to remove the block and all its rows. The main block of the element has no **×**.
 
-A property you set under a condition shows an **In Advanced** badge in **Normal**. Normal shows the value without conditions. Change the condition's value in Advanced.
+A property you set under a condition shows an **In CSS** badge on the **Visual** tab. Visual shows the value without conditions. Change the condition's value in the CSS tab.
 
 ### Less Motion
 
@@ -697,15 +701,15 @@ Some CSS does not fit in rows: the same property twice (a fallback such as `disp
 
 ### When CSS Is Not Saved
 
-Advanced does not save CSS that would break the rest of your site. A brace, bracket, parenthesis, quote mark or comment that has no partner is not saved, and neither is the text `</style`. A message under the block says what is wrong, for example "Not saved: the closing brace "}" has no opening one." Your text stays in the field so you can fix it.
+The CSS tab does not save CSS that would break the rest of your site. A brace, bracket, parenthesis, quote mark or comment that has no partner is not saved, and neither is the text `</style`. A message under the block says what is wrong, for example "Not saved: the closing brace "}" has no opening one." Your text stays in the field so you can fix it.
 
 ---
 
 ## Your Own CSS
 
-The Styler can do most things with its controls. For anything it cannot do yet, write your own CSS. In a website's builder, the top of the **Styles** panel has a **Stylesheet** button (the **<>** icon) beside **Easy**, **Normal** and **Advanced**. With nothing selected, Styles opens on it.
+The Styler can do most things with its controls. For anything it cannot do yet, write your own CSS. In a website's builder, the top of the **Styles** panel has a **Site stylesheet** button (the page icon) beside **Visual** and **CSS**. With nothing selected, Styles opens on it.
 
-![The Styles panel in Stylesheet mode, with the Whole site, This layout and This page switch above the CSS editor](../images/website-builder/styler-stylesheet.png)
+![The Styles panel on the Site stylesheet, with the Whole site, This layout and This page switch above the CSS editor](../images/website-builder/styler-stylesheet.png)
 
 ### Where Your CSS Applies
 
@@ -720,7 +724,7 @@ Your CSS comes after the Styler's own styles: first the whole site's, then the l
 ### Writing and Publishing CSS
 
 1. Open your page in the Website Builder.
-2. Click on empty space so that nothing is selected, then click **Styles**. Or click **Stylesheet** at the top of Styles.
+2. Click on empty space so that nothing is selected, then click **Styles**. Or click **Site stylesheet** at the top of Styles.
 3. Choose **Whole site**, **This layout** or **This page**.
 4. Type your CSS. The page in the builder shows it as you type.
 5. Click **Publish** in the builder. Your CSS goes live on your site with the page.
