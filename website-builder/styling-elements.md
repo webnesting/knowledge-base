@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-24 6:26pm
+**Last verified:** 2026-10-25 2:56am
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -77,8 +77,8 @@ When **Normal** shows a value from your theme, it says so. For example, a size p
 Every number and text box in the Styler works like a design tool.
 
 - **Type a value.** The page shows it after a short pause, so you see the result without it flickering on every key.
-- **Press Enter** to apply the value. If the box is inside a small editor (like a spacing value), the editor stays open.
-- **Press Esc** to go back to the value you started with. In a small editor, press Esc once to undo your typing and a second time to close the editor.
+- **Press Enter** to apply the value. If the box is inside a small editor (like a spacing value), the editor stays open. Then press Tab to go on to the next setting, or Shift+Tab to go back to the one before. This works in every browser, Safari too.
+- **Press Esc** to go back to the value you started with. You stay in the box, so you can type again. In a small editor, press Esc once to undo your typing and a second time to close the editor.
 - **Press the up or down arrow** to nudge a number by one step (for example 1px, or 0.1 for rem).
 - **Hold Shift** with the arrows for bigger steps (ten times as big), or **hold Alt** (Option on a Mac) for smaller steps (a tenth of a step).
 - **Scroll with the mouse wheel** over a box you are typing in to nudge it the same way. Hold Shift for bigger steps.
