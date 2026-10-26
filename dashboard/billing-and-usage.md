@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-10-14 4:37pm
+**Last verified:** 2026-10-25 10:23pm
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -136,6 +136,21 @@ If a month's total comes to more than $0 but less than $0.50, it isn't billed on
 ### Payment Processing
 
 When you pay your bill, a small payment processing fee is added to cover credit card transaction costs. This fee is calculated automatically and shown on your bill before you confirm payment.
+
+### Spending Alerts
+
+The workspace owner gets an email the first time in a month that the month's charges pass a set amount. The amount depends on your account:
+
+| Your account | Email when charges pass |
+|---|---|
+| New, with no payment method saved | $50 |
+| A card saved | $150 |
+| Paid an invoice of $250 or more, with no failed payment, refund or dispute in the last year | $500 |
+| The same, with autopay on | $1,000 |
+
+The charges are the ones your **Billing** page shows for the month, after your free allowance, credits and discounts and before the card fee. The email names the largest charge. When that is website bandwidth, it also gives the GB your sites sent and a tip: embedding long videos from YouTube or Vimeo costs nothing. A new workspace with no payment method is asked to add one, because WebNesting reviews such a workspace and may pause its sites. Every other account is told there is nothing to do. You get the email at most once a month for each amount, in the language you chose for WebNesting.
+
+**Website bandwidth emails.** Website bandwidth has its own emails. Bandwidth updates once a day. After an update, the workspace owner gets an email the first time in the month that the website bandwidth charge passes $10, then $50, then $250, then $500, $1,000 and each doubling after that. The charge counts after your free 10 GB (less in the month your workspace was created). The email gives the GB your sites sent so far, the charge, the three files that sent the most and the next amount we email you at, with a **See Your Usage** button. If one update passes two amounts, you get one email naming the higher one. If the spending alert above goes out after the same update, the bandwidth email waits for the next update, so you get one email at a time. These emails start when website bandwidth starts charging.
 
 ### Late Payments
 
