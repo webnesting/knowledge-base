@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-10-26 12:52am
+**Last verified:** 2026-10-26 1:38am
 
 WebNesting uses simple, usage-based pricing. This guide explains how pricing works, how to view your usage and bills, and how to pay.
 
@@ -93,7 +93,7 @@ Pick **This Month**, **Last 3 Months** or **Last 12 Months**, or **Custom** to c
 
 ### How things are counted
 
-- **Emails, tickets, API calls and website bandwidth** add up: the number is everything that happened in the range. Website bandwidth shows in GB and updates once a day. Click its **Website Bandwidth** row to see the GB each website sent and the 5 files that sent the most.
+- **Emails, tickets, API calls and website bandwidth** add up: the number is everything that happened in the range. Website bandwidth shows in GB and updates once a day. Click its **Website Bandwidth** row to see one month: the last month of the range you picked. It shows that month's total, the GB each website sent that month and the 5 files that sent the most. If you picked more than one month, the number on the row adds all of them, so it can be larger than the total inside.
 - **Automation emails** count with your marketing emails, in **Marketing Emails Sent**, and cost the same.
 - **Contacts, active tasks, pages, storage and API tokens** are what you have right now (or, for a past range, what you had at its end) -- they don't add up day after day.
 
