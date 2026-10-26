@@ -1,6 +1,6 @@
 # Analytics and Reports
 
-**Last verified:** 2026-10-25 7:36pm
+**Last verified:** 2026-10-25 8:23pm
 
 Analytics help you understand how people find and use your website. WebNesting includes built-in analytics so you can see how many visitors your site gets, which pages are most popular, and where your traffic comes from -- all from your dashboard.
 
@@ -78,16 +78,60 @@ This helps you understand what content your visitors find most interesting.
 
 ### Traffic Sources
 
-The Traffic Sources widget shows where your visitors come from before they arrive at your site.
+Traffic Sources shows where your visitors come from before they arrive at your site.
 
-1. Find the **Traffic Sources** widget on your dashboard.
-2. You will see a breakdown of your traffic sources.
+1. On your site's **Dashboard**, find the **Analytics** widget. If there is none, click **+ Add Widget** and choose **Analytics**.
+2. At the top of the widget, click the view button (its tooltip shows the current view, such as "Overview").
+3. Choose **Traffic Sources**.
 
-Common traffic sources include:
-- **Direct** -- People who typed your website address directly into their browser.
-- **Search engines** -- People who found your site through Google, Bing, or another search engine.
-- **Social media** -- People who clicked a link to your site from a social media platform.
-- **Referrals** -- People who clicked a link to your site from another website.
+The widget groups your visits by type, with the share of all visits for each:
+- **Direct** -- People who typed your website address directly into their browser, or used a bookmark.
+- **Organic Search** -- People who found your site through Google, Bing, or another search engine.
+- **Social** -- People who clicked a link to your site from a social media platform.
+- **Referral** -- People who clicked a link to your site from another website.
+- **Email** and **Paid** -- People who came from an email or an ad, when your link says so (see [Tag Your Links](#tag-your-links-to-see-where-visitors-come-from)).
+
+Under each type, you see each source by name and its number of visits, for example **facebook · social** or **google · search**. A **Campaigns** list at the bottom shows the visits for each campaign name you put on your links.
+
+### Tag Your Links to See Where Visitors Come From
+
+Many apps hide where a click came from. A link in an Instagram story or an email often arrives as "Direct". To know for sure, add tags to the end of the links you share. These are called UTM tags.
+
+1. Start with the address of the page you want people to open, for example `https://yoursite.com/offer`.
+2. Add `?utm_source=` and the name of the place you post the link, for example `facebook`, `reddit` or `newsletter`.
+3. Add `&utm_medium=` and the kind of place: `social` for social media, `paid` for an ad, or `email` for an email.
+4. Add `&utm_campaign=` and a short name for this campaign, for example `spring_sale`.
+5. Share the full link.
+
+The finished link looks like this:
+
+`https://yoursite.com/offer?utm_source=facebook&utm_medium=social&utm_campaign=spring_sale`
+
+**Tips:**
+- Use small letters and no spaces. Use `_` between words.
+- Use the same names every time. "facebook" and "Facebook" read as the same source, but "fb_page" is a separate one.
+- Give each campaign its own name, so you can compare them.
+
+WebNesting keeps a visitor's tags for the whole visit, without cookies. If someone opens your link, then clicks to your signup page, the signup still counts for that link.
+
+### See Where Your Signups Come From
+
+Each form shows which sources and campaigns bring you signups.
+
+1. In the site menu, open **Forms** and click your form.
+2. Open the **Submissions** tab.
+3. Click **Analytics**.
+4. Pick the dates at the top right (last 7, 30 or 90 days, or all time).
+
+**Signups by source** lists each source with its kind, for example **facebook · social**, and its number of signups and share. **Signups by campaign** lists each campaign name from your links.
+
+What the names mean:
+- A name from your link tag, such as **facebook**, comes first.
+- With no tag, you see the site that sent the visitor, such as **google** or **reddit**.
+- **Direct** means no tag and no sending site.
+- **Unknown** appears only on older signups, sent before WebNesting kept where each visit began, when the visitor first opened another page of your site.
+
+To see one signup's source, open it from the **Submissions** tab. The **Where they came from** section shows its source, medium, campaign, the site that sent the visitor, and the first page of the visit.
 
 ### Device Breakdown
 

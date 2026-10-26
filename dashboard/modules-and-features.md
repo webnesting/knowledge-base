@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-10-22 10:33am
+**Last verified:** 2026-10-25 8:23pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -154,6 +154,7 @@ What you get when you enable it:
 - Submission tracking with filtering, status management, and CSV export
 - Email notifications when forms are submitted, and an automatic reply to the person who filled in the form (up to 100 automatic replies a day per site; over that, the submission is still saved and you still get your own email)
 - Built-in form templates to get started quickly
+- An **Analytics** page for each form (the **Analytics** button on the form's **Submissions** tab) that shows which sources and campaigns bring you signups, such as "facebook · social" ([how to tag your links](analytics.md#tag-your-links-to-see-where-visitors-come-from))
 
 > **Tip:** When both Forms and Email Marketing are enabled, form submissions automatically flow into your marketing contacts. This is one of the easiest ways to grow your email list.
 
