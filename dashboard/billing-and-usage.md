@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-10-25 10:23pm
+**Last verified:** 2026-10-25 11:38pm
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -63,6 +63,30 @@ Files belonging to a product you've turned off -- such as the attachments on you
 
 > **Tip:** You can see and manage every stored file from the File Manager (click **Files** in the top bar) -- helpdesk attachments live in the managed **Helpdesk** folder and visitor uploads in **Form Uploads**. Deleting files you no longer need lowers your bill immediately.
 
+### Website bandwidth
+
+**$0.20 per GB** (first 10 GB free each month)
+
+Website bandwidth is the data your public websites send to your visitors: your pages, pictures, videos and files. Each time a visitor loads or watches something, the bytes sent are added to your workspace's total. Videos send the most. All your websites count together as one meter, so you are billed once no matter how many sites you have. The line is named **Website Bandwidth** on the **Usage** page and on your invoice.
+
+**Example:** If your sites send 30 GB in a month, the first 10 GB are free and you pay for 20 GB. That is 20 x $0.20 = $4.00 for the month.
+
+- **It is billed now.** WebNesting counts your website bandwidth, shows it on the **Usage** page and the **Cost calculator**, and adds it to your bill. Your first 10 GB each month are free.
+- **Your 10 free GB build up hour by hour**, like your other free allowances. Website bandwidth has no product to switch on, so the free GB build up all month, every month. A full month always gives you 10 GB. A workspace created partway through a month gets a share of the 10 GB, based on the hours it existed. The **Usage** page row says the exact free amount.
+- **What is not counted.** Visits to your WebNesting dashboard and the website builder, and API calls (those are **API Data Transfer**, below). A request that fails, such as a page not found, is not counted. If a visitor stops a video partway, only about the part that was sent is counted.
+- **It updates once a day.** The **Usage** page row says it is "Updated daily" and shows the date the count runs through. The newest hours can take a day to appear.
+- **A bill with a bandwidth charge can come a little late.** Before an invoice with a bandwidth charge is final, WebNesting checks the count against the network provider's own figures. If that check takes longer, the invoice is sent later than the 1st.
+
+**See where it went.** On the **Usage** page, click the **Website Bandwidth** row. It opens to your free amount, the GB each website sent (bytes that belong to no site show as **Workspace media library**), and **Files that sent the most**: your top 5 files, each with a small picture, its type and where it is. Each site's total includes its pages. Open the line on your invoice, too: **Where it was sent** lists the GB for each site on each day.
+
+**Ways to lower it:**
+
+- **Put long videos on YouTube or Vimeo** and paste the link into the **Video** block. An embedded video costs nothing in website bandwidth.
+- Look at **Files that sent the most**. If a video is at the top, use a shorter or smaller version of it.
+- Remember that a visitor loads a video only when they press play. A video no one watches sends almost nothing.
+
+WebNesting emails the workspace owner as the charge grows. See [Spending Alerts](#spending-alerts). When you upload a video over 50 MB in **Files**, a note reminds you that videos use website bandwidth.
+
 ### People who sign up on your site
 
 **No extra charge.**
@@ -92,14 +116,16 @@ Workspace-level products are billed separately at the workspace level (see [Work
 
 | Product | Rate While On | Usage-Based Pricing | What It Does |
 |---------|---------------|----------------------|--------------|
-| Marketing | $0.013698630136986/hour -- about $10.00/month | $0.70 per 1,000 emails, after about 10,000 free emails a month | Email campaigns, contacts, automations |
+| Marketing | $0.013698630136986/hour -- about $10.00/month | $0.70 per 1,000 emails, after about 10,000 free emails a month. Emails sent by your automations count with campaign emails | Email campaigns, contacts, automations |
 | Helpdesk | $0.020547945205479/hour -- about $15.00/month | $0.05 per ticket, after about 25 free tickets a month | Tickets, SLA, knowledge base |
 | Tasks | $0.013698630136986/hour -- about $10.00/month | $0.05 per active task, above your first 25 (always free) | Projects, tasks, boards, timelines -- projects themselves are free |
-| API Access | $0.013698630136986/hour -- about $10.00/month | $0.10 per 1,000 requests (about 50,000 free a month) · $0.10 per GB of data transfer (about 1 GB free a month) · $1.00 per active token per month, above your first 5 (always free) | Access tokens for the REST API. (Connecting an AI assistant is separate and free.) |
+| API Access | $0.013698630136986/hour -- about $10.00/month | $0.10 per 1,000 requests (about 50,000 free a month) · data transfer at $0.20 per GB (about 1 GB free a month) · $1.00 per active token per month, above your first 5 (always free) | Access tokens for the REST API. (Connecting an AI assistant is separate and free.) |
 
 Contacts are shared by every workspace product (Marketing, Helpdesk, and your site forms all use the same contact database), so they are billed once for the whole workspace: **$5 per 1,000 contacts per month, with your first 500 free.**
 
-**Free emails, tickets, and API requests/data transfer build up hour by hour while their product is on, rather than being handed out all at once at the start of the month.** Marketing, for example, earns about 13.7 free emails for every hour it's on. A product earns no free allowance while it's off, so the exact amount you get follows the length of the month: a 30-day month earns a little less than the "about 10,000" figure, a 31-day month a little more, and February a little less still. (Active tasks and API tokens are different -- their free amount is always the same fixed number, not something that builds up over time; see "How Usage Is Measured" below.) While the current month is still in progress, your bill and Usage page show this free amount as an estimate -- **Earned so far** plus what you'll earn by month end if the product stays on -- and it's only final once the month closes on the 1st.
+**Automation emails and API data transfer.** Emails sent by your marketing automations count toward your email usage. They are billed at the same price as campaign emails, and they use the same free emails. The **Usage** page counts them in **Marketing Emails Sent**. API data transfer costs $0.20 per GB, and about 1 GB a month is free.
+
+**Free emails, tickets, and API requests/data transfer build up hour by hour while their product is on, rather than being handed out all at once at the start of the month.** Marketing, for example, earns about 13.7 free emails for every hour it's on. A product earns no free allowance while it's off, so the exact amount you get follows the length of the month: a 30-day month earns a little less than the "about 10,000" figure, a 31-day month a little more, and February a little less still. Your 10 free GB of website bandwidth build up the same way, but all month, because that meter has no product to turn off. (Active tasks and API tokens are different -- their free amount is always the same fixed number, not something that builds up over time; see "How Usage Is Measured" below.) While the current month is still in progress, your bill and Usage page show this free amount as an estimate -- **Earned so far** plus what you'll earn by month end if the product stays on -- and it's only final once the month closes on the 1st.
 
 > **Tip:** Module fees are the same every month regardless of how much you use the module. If the Articles module is enabled, it costs about $5.00/month whether you have 2 articles or 200.
 
@@ -355,6 +381,7 @@ Here is a quick summary of what is tracked:
 |----------|-------------------|
 | Pages | Total number of pages on your site at any given time |
 | Storage | Everything we store for you across your workspace -- your uploads, helpdesk attachments, and form uploads |
+| Website bandwidth | The data your public websites send to visitors, in GB for the whole workspace, added up over the month |
 | Admin users | Number of people with admin access to your site |
 | Modules | Whether each module is turned on or off |
 
@@ -366,7 +393,7 @@ Not everything is measured the same way -- it depends on whether what's being co
 
 **Example:** If you had 20 pages for the first half of the month and then added 10 more for the second half, your bill would reflect something between 20 and 30 pages, not the full 30 for the entire month.
 
-**Emails, tickets, and API calls are events.** Each email you send, ticket you create, or API call you make is counted and charged exactly once, at the moment it happens -- never averaged, never charged twice. This holds even if you turn the product off later that same month: an email you already sent stays billed at the same per-email price whether or not Marketing is still on by the time the month ends. The one exception is tickets: a ticket counts only while it exists, so deleting one during the month takes it off that month's bill. Once a month has closed, its bill no longer changes.
+**Emails, tickets, API calls and website bandwidth are events.** Each email you send, ticket you create, API call you make, or GB your websites send is counted and charged exactly once, at the moment it happens -- never averaged, never charged twice. This holds even if you turn the product off later that same month: an email you already sent stays billed at the same per-email price whether or not Marketing is still on by the time the month ends. The one exception is tickets: a ticket counts only while it exists, so deleting one during the month takes it off that month's bill. Once a month has closed, its bill no longer changes.
 
 ---
 
@@ -383,6 +410,10 @@ Remember that your first 5 pages (more if Articles, Events, or Store is turned o
 Each enabled module adds to your monthly bill. If you are not actively using a module, disable it.
 
 > **Important:** Disabling a module permanently deletes its content -- blog posts, events, products -- after 30 days, or right away if you choose **Delete now**. Turn the module back on before then to keep it. See [Modules and Features](modules-and-features.md#how-to-disable-a-module).
+
+### Keep Website Bandwidth Low
+
+Your first 10 GB each month are free. To stay under it, put long videos on YouTube or Vimeo instead of uploading them. Check **Files that sent the most** on the **Usage** page now and then. See [Website bandwidth](#website-bandwidth).
 
 ### Manage Your Files
 

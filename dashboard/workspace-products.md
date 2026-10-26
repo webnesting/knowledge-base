@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-10-14 9:28am
+**Last verified:** 2026-10-25 11:38pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -18,7 +18,7 @@ Your workspace starts with the basics: website management, media, and team colla
 
 ### Websites
 
-Build and publish websites. **Websites is always on** -- it has no on/off switch and no monthly base fee of its own; each website you create is billed as it always has been. Use **Create site** on the Websites card to create a website -- including your first one. Once you have a website, the **Sites** section appears in your sidebar, where your websites live.
+Build and publish websites. **Websites is always on** -- it has no on/off switch and no monthly base fee of its own; each website you create is billed as it always has been. The data your websites send to visitors is billed too, as **website bandwidth**: $0.20 per GB, with your first 10 GB each month free (see [Billing and Usage](billing-and-usage.md#website-bandwidth)). Use **Create site** on the Websites card to create a website -- including your first one. Once you have a website, the **Sites** section appears in your sidebar, where your websites live.
 
 ### Marketing
 
@@ -110,7 +110,7 @@ Here is how pricing works for each product:
 ### Marketing Pricing
 
 - Base monthly fee for having Marketing enabled
-- Additional charge per email sent (your first emails each month are free)
+- Additional charge per email sent (your first emails each month are free). Emails sent by your automations count with campaign emails
 
 ### Helpdesk Pricing
 
@@ -128,7 +128,7 @@ Here is how pricing works for each product:
 
 - Base monthly fee for having API Access enabled
 - Additional charge per API request (with a free tier)
-- Additional charge for data transfer, **priced per GB** (with a free tier)
+- Additional charge for data transfer, **priced per GB** (with a free tier of about 1 GB a month): $0.20 per GB
 - Additional charge per active API token (with a free tier)
 - Optional add-ons for a higher rate limit and extended audit-log retention
 

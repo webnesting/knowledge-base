@@ -1,6 +1,6 @@
 # Files (File Manager)
 
-**Last verified:** 2026-10-24 11:49am
+**Last verified:** 2026-10-25 11:38pm
 
 The File Manager is where every file in your workspace lives — images, videos, documents, helpdesk email attachments, and files visitors upload through your forms. Think of it as your workspace's file cabinet: one place, organized in folders, just like the files on your computer.
 
@@ -43,6 +43,8 @@ Managed folders can't be renamed or deleted (files land in them automatically), 
 Each file can be up to 100 MB. A larger file is stopped before it uploads, and a message says "That file is larger than 100 MB."
 
 > **Tip:** Files you upload into the Helpdesk or Form Uploads folders are automatically kept private, since those folders usually hold customer information.
+
+**A video over 50 MB shows a note.** When an upload has a video over 50 MB (up to the 100 MB limit), a strip above the file list names the video and says: "Videos use website bandwidth each time they're watched ($0.20 per GB after 10 GB free each month). For long videos, embedding from YouTube or Vimeo costs nothing." The strip shows once for each upload. It stays until you click **Got it** or start another upload. It does not stop the upload. See [Website bandwidth](billing-and-usage.md#website-bandwidth) for what is counted.
 
 ---
 
@@ -153,7 +155,7 @@ WebNesting supports a wide range of file types:
 
 When you upload a video, your browser takes a still from it, one second in (sooner in a very short clip). The still shows on the video's tile in Files, in its details, and on your page under the play button until a visitor presses play. If your browser can't read the video, it uploads without a still and shows a play icon instead. In the **Video** block, a **Cover image** you choose shows in place of the still.
 
-A video can be up to 100 MB, like any file. For a longer video, put it on YouTube or Vimeo and paste its link into the **Video** block.
+A video can be up to 100 MB, like any file. A video you upload uses website bandwidth each time a visitor watches it. For a longer video, put it on YouTube or Vimeo and paste its link into the **Video** block: that costs nothing.
 
 ### Documents
 - PDF, Word, Excel, PowerPoint

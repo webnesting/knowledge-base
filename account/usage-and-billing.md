@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-10-13 9:51am
+**Last verified:** 2026-10-25 11:38pm
 
 WebNesting uses simple, usage-based pricing. This guide explains how pricing works, how to view your usage and bills, and how to pay.
 
@@ -18,6 +18,7 @@ Every site comes with free resources to get you started:
 
 - **5 free pages** -- Your first 5 pages are included at no charge. System pages (your homepage, the 404 page, and other built-in pages) are always free. Turning on the Articles, Events, or Store module adds 10 more free pages to that site for as long as the module stays on -- so a site with Store gets 15 free pages, and 25 with Store and Articles both on.
 - **2 GB of free storage** -- Covers your own uploads, helpdesk attachments, and form uploads across your whole workspace.
+- **10 GB of free website bandwidth each month** -- The data your public websites send to your visitors.
 
 Many small sites fit entirely within the free tier.
 
@@ -30,6 +31,9 @@ When you go beyond the free tier, you pay for what you use:
 | Pages | $0.50/page/month | First 5 pages free, +10 more per page module you turn on (Articles, Events, Store) |
 | Storage | $1/GB/month | First 2 GB free |
 | Contacts | $5 per 1,000/month | First 500 free |
+| Website bandwidth | $0.20/GB | First 10 GB free each month. |
+
+**Website bandwidth** is the data your public websites send to visitors: pages, pictures, videos and files. All your websites count together. Before the start date it is counted and shown on the **Usage** page, but it costs nothing. Videos send the most, so for a long video it is cheaper to put it on YouTube or Vimeo and paste its link into the **Video** block. That costs nothing in website bandwidth. For what is counted, how to see which files sent the most and how to lower it, see [Billing and Usage](../dashboard/billing-and-usage.md#website-bandwidth).
 
 People who create an account on your site are counted as contacts in the row above. There is no separate charge for letting them sign in, and your team members are always included.
 
@@ -56,7 +60,7 @@ Workspace-level products are also available on a separate monthly rate. Each one
 | Tasks | $0.013698630136986/hour -- about $10.00/month |
 | API Access | $0.013698630136986/hour -- about $10.00/month |
 
-Some of these products also include per-unit usage (e.g. emails, tickets, active tasks, API requests, API data transfer -- priced per GB) once you exceed the included free allowances. For emails, tickets, and API requests/data transfer, that free allowance builds up hour by hour while the product is turned on, instead of all being granted the moment the month starts -- so the exact amount for a given month follows how many hours are in it. A product earns no free allowance while it's off. Active tasks and API tokens work differently: their free amount is a fixed number (25 tasks, 5 tokens) that's simply always available while the product is on, not something that builds up over time. See [Billing and Usage](../dashboard/billing-and-usage.md) for the full breakdown, including how "earned so far" and "estimated by month end" work while the current month is still open.
+Some of these products also include per-unit usage (e.g. emails, tickets, active tasks, API requests, API data transfer -- priced at $0.20 per GB) once you exceed the included free allowances. For emails, tickets, and API requests/data transfer, that free allowance builds up hour by hour while the product is turned on, instead of all being granted the moment the month starts -- so the exact amount for a given month follows how many hours are in it. A product earns no free allowance while it's off. Active tasks and API tokens work differently: their free amount is a fixed number (25 tasks, 5 tokens) that's simply always available while the product is on, not something that builds up over time. See [Billing and Usage](../dashboard/billing-and-usage.md) for the full breakdown, including how "earned so far" and "estimated by month end" work while the current month is still open.
 
 ### Turning a product or module off
 
@@ -89,7 +93,8 @@ Pick **This Month**, **Last 3 Months** or **Last 12 Months**, or **Custom** to c
 
 ### How things are counted
 
-- **Emails, tickets and API calls** add up: the number is everything that happened in the range.
+- **Emails, tickets, API calls and website bandwidth** add up: the number is everything that happened in the range. Website bandwidth shows in GB and updates once a day. Click its **Website Bandwidth** row to see the GB each website sent and the 5 files that sent the most.
+- **Automation emails** count with your marketing emails, in **Marketing Emails Sent**, and cost the same.
 - **Contacts, active tasks, pages, storage and API tokens** are what you have right now (or, for a past range, what you had at its end) -- they don't add up day after day.
 
 ### Usage by where it's used

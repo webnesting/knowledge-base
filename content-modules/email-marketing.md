@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-10-22 11:05am
+**Last verified:** 2026-10-25 11:38pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -16,7 +16,7 @@ Every contact you collect gets stored at the workspace level with their name, em
 
 Email Marketing is designed to work alongside your websites. Visitors can sign up through forms on your pages, and their information flows directly into your workspace contact database. If you also have the Forms module enabled on a site, form submissions can automatically create or update workspace contacts -- no manual data entry needed.
 
-Pricing: $10/month base plus per-email pricing once you exceed the free allowance -- **about 10,000 emails each month are free**, then sending costs **$0.70 per 1,000 emails**. That free allowance builds up hour by hour while Marketing is turned on, so a 31-day month earns a little more than "10,000" and February a little less. Marketing earns no free emails while it's off. Workspace contacts are billed separately, once for the whole workspace, at **$5 per 1,000 contacts per month (first 500 free)**.
+Pricing: $10/month base plus per-email pricing once you exceed the free allowance -- **about 10,000 emails each month are free**, then sending costs **$0.70 per 1,000 emails**. That free allowance builds up hour by hour while Marketing is turned on, so a 31-day month earns a little more than "10,000" and February a little less. Marketing earns no free emails while it's off. Emails sent by your [automations](../dashboard/marketing-automation.md) count with campaign emails, at the same price and from the same free emails. Workspace contacts are billed separately, once for the whole workspace, at **$5 per 1,000 contacts per month (first 500 free)**.
 
 ---
 

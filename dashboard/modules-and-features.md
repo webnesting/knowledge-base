@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-10-25 8:23pm
+**Last verified:** 2026-10-25 11:38pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -176,7 +176,7 @@ Common use cases:
 - Syncing product data between your online store and a point-of-sale system
 - Automatically creating articles or events from an external content workflow
 
-Beyond the base fee you are charged for API requests (about 50,000 each month free), data transfer -- **priced per GB** (about 1 GB each month free) -- and active API tokens (first 5 always free). The request and data-transfer allowances build up hour by hour while API Access is turned on, so they follow the length of the month rather than a fixed number; active tokens are a fixed free amount instead. Two optional add-ons are available: a higher rate limit and extended audit-log retention.
+Beyond the base fee you are charged for API requests (about 50,000 each month free), data transfer -- **priced per GB**, $0.20 per GB (about 1 GB each month free) -- and active API tokens (first 5 always free). The request and data-transfer allowances build up hour by hour while API Access is turned on, so they follow the length of the month rather than a fixed number; active tokens are a fixed free amount instead. Two optional add-ons are available: a higher rate limit and extended audit-log retention.
 
 > **Tip:** Connecting an AI assistant (Claude, ChatGPT, Cursor, and similar) is a **separate, free** feature -- it does not need this product and is not metered. See [Connecting an AI Tool](connecting-ai-tools.md).
 
