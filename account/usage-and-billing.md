@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-10-25 11:38pm
+**Last verified:** 2026-10-26 12:52am
 
 WebNesting uses simple, usage-based pricing. This guide explains how pricing works, how to view your usage and bills, and how to pay.
 
@@ -33,7 +33,7 @@ When you go beyond the free tier, you pay for what you use:
 | Contacts | $5 per 1,000/month | First 500 free |
 | Website bandwidth | $0.20/GB | First 10 GB free each month. |
 
-**Website bandwidth** is the data your public websites send to visitors: pages, pictures, videos and files. All your websites count together. Before the start date it is counted and shown on the **Usage** page, but it costs nothing. Videos send the most, so for a long video it is cheaper to put it on YouTube or Vimeo and paste its link into the **Video** block. That costs nothing in website bandwidth. For what is counted, how to see which files sent the most and how to lower it, see [Billing and Usage](../dashboard/billing-and-usage.md#website-bandwidth).
+**Website bandwidth** is the data your public websites send to visitors: pages, pictures, videos and files. All your websites count together. Videos send the most, so for a long video it is cheaper to put it on YouTube or Vimeo and paste its link into the **Video** block. That costs nothing in website bandwidth. For what is counted, how to see which files sent the most and how to lower it, see [Billing and Usage](../dashboard/billing-and-usage.md#website-bandwidth).
 
 People who create an account on your site are counted as contacts in the row above. There is no separate charge for letting them sign in, and your team members are always included.
 
