@@ -1,6 +1,6 @@
 # Contacts Management
 
-**Last verified:** 2026-10-18 11:33am
+**Last verified:** 2026-10-26 1:17am
 
 Contacts are your audience database in WebNesting. Every person who submits a form on your website, signs up for your newsletter, or is imported from a spreadsheet becomes a contact. Use the Contacts system to keep track of who your audience is, organize them into lists, and connect them to your marketing, forms, and support tools.
 
@@ -305,7 +305,7 @@ If you have the Marketing product enabled, your contacts become the audience for
 - Manage subscription preferences -- subscribed, unsubscribed, bounced, and pending statuses.
 - Set up automated emails triggered by contact actions.
 
-Every interaction is recorded on the contact record, giving you a complete history of each person's engagement with your marketing.
+Each person's engagement with your marketing is recorded on the contact record. The timeline lists the campaign emails from the last 13 months. The email totals on the contact page count every email ever sent.
 
 ### Helpdesk
 
