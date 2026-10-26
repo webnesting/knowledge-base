@@ -1,6 +1,6 @@
 # Analytics and Reports
 
-**Last verified:** 2026-10-25 8:23pm
+**Last verified:** 2026-10-26 1:34am
 
 Analytics help you understand how people find and use your website. WebNesting includes built-in analytics so you can see how many visitors your site gets, which pages are most popular, and where your traffic comes from -- all from your dashboard.
 
@@ -54,7 +54,7 @@ Here is what each metric means:
 
 **Average Session Duration** -- How long visitors typically spend on your site per visit.
 
-> **Very busy sites:** when your site records more than 600 events in one minute, WebNesting keeps every page of 1 visit in 10 for the rest of that minute and counts each kept visit 10 times. Your totals are then close estimates instead of exact counts, and every chart and widget stays in proportion.
+> **Very busy sites:** when your site records more than 600 events in one minute, WebNesting keeps every page of 1 visit in 10 for the rest of that minute and counts each kept visit 10 times. Your totals are then close estimates instead of exact counts, and every chart and widget stays in proportion. Above 12,000 events in one minute, which only a flood of fake traffic reaches, WebNesting records nothing more for the rest of that minute, so that minute counts low.
 
 ### Viewing Traffic Over Time
 
