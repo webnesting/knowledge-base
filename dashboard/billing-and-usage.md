@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-10-26 12:53am
+**Last verified:** 2026-10-26 8:35am
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -188,8 +188,9 @@ The simplest way to never think about this is autopay: turn it on under **Billin
 
 WebNesting can pause part of your workspace for billing. The **Billing** page always says what is paused and how to turn it back on.
 
-- **Video playback, for an overdue invoice.** If an invoice stays unpaid, WebNesting can pause the videos you uploaded, so visitors to your sites cannot play them. Your pages still show. WebNesting can also stop changes in your dashboard until you pay, but the Billing page always lets you pay. The Billing page says "Video playback on your sites is paused until the overdue invoice is paid." Pay the invoice on the Billing page, and the videos come back within a few minutes. In **Files**, each paused video shows a pause badge.
+- **Video playback, for an overdue invoice.** If an invoice stays unpaid, WebNesting can pause the videos you uploaded, so visitors to your sites cannot play them. Your pages still show. WebNesting can also stop changes in your dashboard until you pay, but the Billing page always lets you pay. The Billing page says "Video playback on your sites is paused until the overdue invoice is paid." Pay the invoice on the Billing page, and the videos come back within a few minutes. In **Files**, each paused video shows a pause badge. A video you add while playback is paused is paused too, and comes back with the others.
 - **Your sites, for a review.** WebNesting reviews some new workspaces that have no payment method yet. During a review, WebNesting can pause all your sites. Visitors then see a "Temporarily unavailable" page in place of your site, and your videos are paused too. The workspace owner gets an email that says so. To turn your sites back on, add a payment method with the **Add Payment Method** button on the Billing page, or pay any overdue invoice. Your sites come back within a few minutes.
+- **Your videos only, for a review.** WebNesting can also pause only your videos during a review, and keep your sites on. The Billing page then says "Video playback on your sites is paused while we review this workspace." Add a payment method with **Add Payment Method**, and the videos come back within a few minutes.
 
 A pause deletes nothing. During a review you can still sign in and work in your dashboard.
 
