@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-10-26 12:52am
+**Last verified:** 2026-10-26 12:53am
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -183,6 +183,15 @@ The charges are the ones your **Billing** page shows for the month, after your f
 If a bill is not paid by its due date (the 15th), it is automatically marked overdue. You get an email reminder and a one-time 5% late fee is added to the outstanding balance.
 
 The simplest way to never think about this is autopay: turn it on under **Billing → Settings** and your bill is paid automatically each month, so late fees never apply to you.
+
+### Paused sites and videos
+
+WebNesting can pause part of your workspace for billing. The **Billing** page always says what is paused and how to turn it back on.
+
+- **Video playback, for an overdue invoice.** If an invoice stays unpaid, WebNesting can pause the videos you uploaded, so visitors to your sites cannot play them. Your pages still show. WebNesting can also stop changes in your dashboard until you pay, but the Billing page always lets you pay. The Billing page says "Video playback on your sites is paused until the overdue invoice is paid." Pay the invoice on the Billing page, and the videos come back within a few minutes. In **Files**, each paused video shows a pause badge.
+- **Your sites, for a review.** WebNesting reviews some new workspaces that have no payment method yet. During a review, WebNesting can pause all your sites. Visitors then see a "Temporarily unavailable" page in place of your site, and your videos are paused too. The workspace owner gets an email that says so. To turn your sites back on, add a payment method with the **Add Payment Method** button on the Billing page, or pay any overdue invoice. Your sites come back within a few minutes.
+
+A pause deletes nothing. During a review you can still sign in and work in your dashboard.
 
 ---
 
