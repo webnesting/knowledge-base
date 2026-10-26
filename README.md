@@ -1,6 +1,6 @@
 # WebNesting User Documentation
 
-**Last verified:** 2026-10-24 12:58pm
+**Last verified:** 2026-10-26 5:44pm
 
 Welcome to the WebNesting help center. These guides will help you build and manage your website.
 
@@ -22,6 +22,7 @@ Welcome to the WebNesting help center. These guides will help you build and mana
 | [Quick Start Guide](getting-started/quick-start-guide.md) | Get up and running in 10 minutes -- setup, first edits, and publishing |
 | [Setting Up Your Site](getting-started/setting-up-your-site.md) | Choose a theme, pick colors, apply a template, and configure your site |
 | [Navigating the Dashboard](getting-started/navigating-the-dashboard.md) | Tour of the dashboard, sidebar navigation, and where to find everything |
+| [Your Workspace Home](getting-started/your-workspace-home.md) | The workspace home cards and a five-minute daily check of tickets, tasks, email results and your site |
 | [Troubleshooting](getting-started/troubleshooting.md) | Solutions for common issues like login problems, missing changes, and slow loading |
 | [Glossary of Terms](getting-started/glossary.md) | Definitions of common terms used throughout WebNesting |
 | [Connecting a Custom Domain](getting-started/custom-domains.md) | Register and connect your own domain name to your WebNesting site |
