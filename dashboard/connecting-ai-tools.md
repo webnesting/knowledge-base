@@ -1,6 +1,6 @@
 # Connecting an AI Tool
 
-**Last verified:** 2026-10-25 7:18pm
+**Last verified:** 2026-10-25 8:23pm
 
 You can connect an AI assistant — like Claude Desktop, Claude Code, or Cursor — directly to your WebNesting workspace. Once connected, you can ask the AI to look things up and make changes for you in plain language: "list my draft articles," "create a new event for next Friday," "what's my current usage this month." The AI works **as you**, with **your** permissions, and never sees your password.
 
@@ -71,7 +71,7 @@ The AI is signed in as **your** WebNesting account, so:
 - Read and change your Site Settings: your social links, search and sharing text, Google tracking IDs, site messages, and your site's time zone. It sees the same settings you see in **Settings** and changes them one at a time by name. A secret, such as a reCAPTCHA key, is never shown to it. Hiding your whole site from search engines needs your yes first.
 - Add, change and list your **URLs and Redirects**: send an old address to a new page, show a page at a second address, or send visitors to another website. It checks that the page exists and that an outside address is a full web address, so a redirect never silently does nothing.
 - Remove a redirect — but only after it shows you the rule and you say yes. A removed redirect cannot be brought back, but the AI can add it again.
-- Build your own collections on a site's **Database** page, such as "Menu Items" or "Team Members": create one, rename it, choose how its records list, and add or change its fields. Then it can add records to it.
+- Build your own collections on a site's **Database** page, such as "Menu Items" or "Team Members": create one, rename it, choose how its records list, and add or change its fields. Then it can add records to it, each with its own photo, and build a page that lists them, such as a menu page that shows every dish with its photo and price. When you change a record later, the page shows the change with no new publish.
 - Add fields of your own to contacts, campaigns, Help Desk tickets, internal docs, projects and tasks, and fill them in on those records. This needs the workspace **Settings** permission, the same as the workspace **Database** page.
 - Remove a field or delete a whole collection — but only after it shows you what goes, and how many records the collection holds, and you say yes. The **Database** page cannot bring a removed field or a deleted collection back. A collection that belongs to a module, and the built-in workspace tables such as Contacts, cannot be deleted.
 - Create a new site — after it shows you the name and address and you say yes. Setting the site up takes a few minutes.
