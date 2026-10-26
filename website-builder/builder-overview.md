@@ -1,6 +1,6 @@
 # Website Builder Overview
 
-**Last verified:** 2026-10-21 11:58am
+**Last verified:** 2026-10-25 8:10pm
 
 The Website Builder is where you design and create your web pages. It is a visual editor -- meaning you can see exactly how your page will look as you build it. No coding required.
 
@@ -64,6 +64,14 @@ The toolbar along the top of the screen holds your main controls:
 - **Preview** -- Hides all the editing chrome so you can see the page as a visitor would
 - **Save** -- Saves your work as a draft
 - **Publish** -- Makes your changes live
+
+The toolbar always stays on one line. When the Builder has less room, some tools move into the **More** button (three dots), just left of **Publish**:
+
+- **On a smaller laptop screen**, with side panels open, the save status shows only its cloud icon. Point at it to read the status. **Preview motion** and **Manage breakpoints** move into **More**.
+- **On a tablet**, the device buttons become one button that shows the current device. Tap it to pick another. **Canvas View**, **Preview motion**, the breakpoint picker, **Manage breakpoints**, the width box and the zoom controls move into **More**.
+- **On a phone**, the toolbar shows **Undo**, **Redo**, the device button, **Preview**, **More** and **Publish**. **More** also holds the save status, **Save draft**, the edit mode and who is editing with you. If a save fails, a red dot appears on **More**.
+
+Press **Esc** or tap outside **More** to close it.
 
 ### The Panel Rail (Right)
 
