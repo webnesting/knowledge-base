@@ -1,6 +1,6 @@
 # Activity Logs
 
-**Last verified:** 2026-10-24 4:24pm
+**Last verified:** 2026-10-26 10:22am
 
 Activity logs keep a record of everything that happens on your site. Every time someone makes a change -- whether it is editing a page, updating settings, or managing team members -- it is recorded in the activity log.
 
@@ -150,6 +150,8 @@ Recent activity also appears in the notification bell at the top of your workspa
 Click the bell icon to see recent activity. Click on any notification to view more details.
 
 The bell only shows what **other people** did (plus things that happen on their own, like an incoming ticket). Your own changes don't ring the bell -- you get a confirmation right where you made them -- but they are always in the full activity log.
+
+While you edit a site in the Website Builder, a pop-up shows only for activity on that site. Activity on your other sites and on the workspace still goes to the bell, where it counts as new, but it does not pop up over your work.
 
 ### Desktop notifications
 
