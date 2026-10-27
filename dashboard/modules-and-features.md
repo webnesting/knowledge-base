@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-10-27 11:48am
+**Last verified:** 2026-10-27 5:26pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -126,6 +126,19 @@ When you enable the Events module, you also get support for event showings and t
 - Add ticket types, each with a title, a description, on-sale dates and a link where people can buy
 
 > **Tip:** Event showings and ticketing are included with the Events module at no extra cost.
+
+### How events look on your site
+
+Events are laid out the way concert halls and venues show them, in your theme's colors, fonts and card style.
+
+- **Event List** shows a grid of cards. Each card has the event's first picture, a calendar badge with the date, the title and tagline, a status such as **On sale now**, and **Buy tickets** and **More info** buttons.
+- Choose which events a list shows with its **Show** setting: **Upcoming** (the start), **Past** or **All**. An upcoming event has a date still to come, or no date yet. For a "Past events" page, add an Event List block and set **Show** to **Past**. Past events are greyed out.
+- **Views visitors can pick** sets how visitors see the events: **Grid** (cards), **List** (one row per event) and **Calendar** (a month at a time, with arrows to the months before and after). Pick two or more and visitors get a button for each. Pick one and no buttons show. **Opens in** picks the view a visitor sees first. On a phone, the calendar shows only the days that have events, as a list.
+- **Events at a time** sets how many events show first (12 to start). **More events** sets how visitors see the rest: a **Load more events** button (the start), **Page numbers**, **Load as visitors scroll**, or **None** to show only the first ones.
+- The list's **Theme color** (**Primary** or **Secondary**) changes the color of the dates, the buttons and the view buttons. It adds no background behind the cards.
+- **Event Detail** shows the event's own page. It has a large picture, the dates, and a ticket box with the time and the **Buy tickets** button. Below them come the description, the rest of the pictures (click one to see it full size), and a list of every date with its own ticket buttons.
+- A ticket with an on-sale date in the future shows **On sale** with that date until sales open. A ticket with no link shows **No ticket needed**, which suits a free event.
+- Each event's page uses the **Event** layout. The Event Detail block is already on it, so a new event's page shows its details with nothing more to add. Set the page's **Layout** to **Event** to use it.
 
 ### Email Marketing (Workspace Product)
 
