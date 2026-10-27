@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-10-27 9:39am
+**Last verified:** 2026-10-27 10:25am
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -68,7 +68,7 @@ Each card shows a small picture of your site in that theme, with your site's nam
 
 You pick your first look when you create a site, so your site opens already looking the way you want.
 
-1. Go to **Sites** and click **Create Site**. You can also click **Create a website** on your home page.
+1. Go to **Sites** and click **Create Site**. You can also click **Create a website** on the page that lists your workspaces.
 2. Type your site's name.
 3. Under **How do you want to start?**, choose **Start from a theme**.
 4. Under **Pick a look**, click the look you like. Each one is drawn with your new site's name, so you see how your site will look.

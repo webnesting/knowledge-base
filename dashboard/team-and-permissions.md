@@ -1,6 +1,6 @@
 # Team and Permissions
 
-**Last verified:** 2026-10-25 5:16pm
+**Last verified:** 2026-10-27 10:18am
 
 WebNesting lets you invite other people to help manage your website. You control exactly what each person can see and do by assigning them roles with specific permissions.
 
@@ -35,7 +35,7 @@ The person receives an email with an invite link that is valid for 7 days. If it
 
 1. Go to **Settings → Members & Permissions**.
 2. The **Members** list shows everyone who has access, along with their roles.
-3. Any pending invitations (people who have not yet accepted) are shown too.
+3. Any pending invitations (people who have not yet accepted) are shown too. To cancel one, open its actions menu and select **Revoke Invitation**.
 
 ---
 
@@ -151,7 +151,7 @@ After you invite someone to your site, you can assign them one or more roles:
 
 1. Go to **Settings → Members & Permissions**.
 2. Find the team member in the list.
-3. Click the **Edit Roles** button next to their name.
+3. Open the actions menu at the end of their row and select **Roles**.
 4. You will see a list of all available roles. Check the roles you want to assign to this person.
 5. Click **Save**.
 
@@ -248,9 +248,9 @@ Each permission for a member can be set to one of three states:
 
 1. Go to **Settings → Members & Permissions**.
 2. Find the team member in the members list.
-3. Click **Edit Overrides**.
+3. Open the actions menu at the end of their row and select **Overrides**. The **Permission Overrides** page opens.
 4. For each feature area, choose Allow, Deny, or Inherit for each action level.
-5. Click **Save**.
+5. Select **Save Overrides**.
 
 > **Tip:** Overrides are useful for temporary access changes. For example, you might temporarily allow a team member to manage billing during a transition, without changing the role for everyone.
 

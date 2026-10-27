@@ -1,6 +1,6 @@
 # Database Tables
 
-**Last verified:** 2026-10-20 9:50am
+**Last verified:** 2026-10-27 10:24am
 
 The **Database Tables** section (in your site menu, under **Settings**) is where you define the structure of your own custom content types. Think of it as creating a spreadsheet -- you choose what columns it has, what kind of information each column holds, and how different tables relate to each other.
 
@@ -43,7 +43,7 @@ Setting up a new table is straightforward. You will give it a name and some basi
 ### Step 1 -- Name Your Table
 
 1. Go to **Settings → Database Tables** in your site menu.
-2. Click **Create New Table**.
+2. Select **+ Create Table**.
 3. Fill in the following:
    - **Display Name** -- A friendly name for your table. This is what you will see in menus and lists. For example, "Team Members" or "Client Testimonials."
    - **Description** -- A short note about what this table is for. This is optional but helpful if you have many tables.

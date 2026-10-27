@@ -1,6 +1,6 @@
 # Custom Data Tables
 
-**Last verified:** 2026-10-21 8:37am
+**Last verified:** 2026-10-27 10:24am
 
 Custom data tables let you store and organize any kind of information on your website. Think of them like spreadsheets -- you create a table, set up columns for the information you want to track, and then add rows of data. That data can then be displayed on your website however you like.
 
@@ -54,10 +54,10 @@ Here is how to set up a custom data table from scratch.
 
 ### Step 2 -- Create a New Table
 
-1. Click the **Create A New Table** button.
-2. Give your table a **Name**. This is how the table will appear in your dashboard. Use a clear, descriptive name like "Team Member," "Testimonial," or "FAQ."
-3. Give it a **Display Name**. This is the human-friendly name that appears in menus and lists.
-4. Save your new table.
+1. Select **+ Create Table**.
+2. Enter a **Display Name**. This is the name that appears in menus and lists. Use a clear, descriptive name like "Team Members," "Testimonials," or "FAQ."
+3. Optionally add a **Description**. Leave **Parent table** on **None** unless the table belongs under another one.
+4. Select **Create Table**.
 
 > **Tip:** Use a singular name for your table (like "Team Member" instead of "Team Members"). WebNesting will handle the plural form automatically where needed.
 
@@ -171,7 +171,7 @@ When you choose this type, you will also select:
 Once your table and columns are set up, you can start adding data. Each entry is like a row in your spreadsheet.
 
 1. Go to the section for your custom data table in the left sidebar. (After creating a table, it appears as its own menu item.)
-2. Click the **Create A New [Table Name]** button (for example, **Create A New Team Member**).
+2. Select the **+ New [Table Name]** button (for example, **+ New Team Member**).
 3. Fill in the fields for each column you set up. For example, if your table has columns for Name, Photo, and Bio, you will see a form with fields for each one.
 4. Save your entry.
 

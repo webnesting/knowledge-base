@@ -1,6 +1,6 @@
 # Welcome to WebNesting
 
-**Last verified:** 2026-09-23 10:40am
+**Last verified:** 2026-10-27 10:18am
 
 Thanks for choosing WebNesting! This guide will help you get comfortable with the platform and show you everything you need to know to start building your website.
 
@@ -18,7 +18,7 @@ Whether you are creating a website for your business, your portfolio, or a perso
 
 Here is a quick look at what the platform offers:
 
-- **Create your website** -- Start from a pre-made template or build from scratch
+- **Create your website** -- Start from a theme, with or without example pages
 - **Add and manage pages** -- Create as many pages as you need (Home, About, Contact, Services, and more)
 - **Design your pages visually** -- Drag and drop components onto your page and arrange them however you like
 - **Customize your look** -- Choose a theme, pick your colors, and add your logo
@@ -67,47 +67,31 @@ The Builder opens in its own view so you can focus entirely on designing your pa
 
 1. Open your browser and go to the WebNesting app and sign in with your **email address** and **password**.
 2. Once you're signed in you land in your **workspace**. (If you belong to more than one, you land on the workspace list instead -- open the one that contains your site.)
-3. From the workspace's **Sites** list, click your site to open its dashboard. All of your sites are managed from the same place once you're signed in -- you no longer go to a separate per-site web address to log in.
+3. Select **Sites** in the left icon rail, then select **Manage Site** on your site's card to open its dashboard. All of your sites are managed from the same place once you're signed in -- you no longer go to a separate per-site web address to log in.
 
 ![The WebNesting login screen](../images/getting-started/login-page.png)
 
-4. Click the **Sign in** button.
+4. Select **Sign in**.
 5. If you have two-factor authentication turned on, you will be asked to enter a verification code. Check your authenticator app or email for the code, then enter it on the screen. You can set up two-factor authentication from the Security card in your account portal.
 
 > **Tip:** Check the "Keep me signed in" box on the sign-in page if you want to stay logged in on this device. This saves you from typing your password every time.
 
-If you have forgotten your password, click **Forgot Password** on the login screen. You will receive an email with a link to create a new one.
+If you have forgotten your password, select **Forgot password?** on the sign-in screen. You will receive an email with a link to create a new one.
 
 ---
 
-## What to Expect on Your First Visit
+## What to Expect When You Create a Site
 
-The very first time you log in to a new site, WebNesting will walk you through a quick setup process. Here is what happens:
+You set up a new site in one short form. It takes about a minute:
 
-### Step 1 -- Set Up Your Site Details
+1. **Name it.** Enter a **Site Name**. WebNesting fills in a free web address for you.
+2. **Choose how to start.** Pick **Start from a theme** (the quickest way), or **Build it with your AI**.
+3. **Pick a look.** Choose a theme. Some come with an example site, some with starter pages (**Business**, **Personal** or **Portfolio**), and some give you just colors and fonts with an empty home page.
+4. **Create it.** Select **Create Site** and watch the progress list until it says **Complete!**.
 
-A welcome window will appear. You will be asked to fill in some basic information:
+Then select **Manage Site** to open your dashboard, ready to start building.
 
-- **Site Name** -- The name of your website
-- **Business Name** -- Your business or organization name
-- **SEO Title and Description** -- A short title and description that search engines will show when people find your site (you can always change these later)
-
-### Step 2 -- Choose a Starter Template
-
-Next, you will pick a template to give your site a head start. Templates come with pre-built pages and sample content so you do not have to start from a blank page. Options include:
-
-- **Business** -- Great for companies and service providers
-- **Portfolio** -- Perfect for showcasing your work
-- **Personal** -- Ideal for personal websites and blogs
-- **Blank** -- Start with just the essentials if you want full creative control
-
-### Step 3 -- Choose a Theme and Colors
-
-After your template is applied, you will pick a visual theme and color palette for your site. You will see a live preview of your site as you browse options, so you can see exactly how each choice looks before committing.
-
-Once setup is complete, you will land on your Dashboard, ready to start building.
-
-> **Tip:** Do not worry about making perfect choices during setup. You can change your theme, colors, template content, and every other setting at any time.
+> **Tip:** Do not worry about making perfect choices. You can change your theme, colors, example content, and every other setting at any time.
 
 ---
 
@@ -115,7 +99,7 @@ Once setup is complete, you will land on your Dashboard, ready to start building
 
 Now that you know the basics, here are some great next steps:
 
-- **[Setting Up Your Site](setting-up-your-site.md)** -- A detailed walkthrough of the setup wizard and your first site configuration
+- **[Setting Up Your Site](setting-up-your-site.md)** -- A detailed walkthrough of the site form and your first site configuration
 - **[Navigating the Dashboard](navigating-the-dashboard.md)** -- Learn your way around the Dashboard and what each section does
 
 You can create multiple websites from a single WebNesting account, so if you ever need another site, you are already set up.

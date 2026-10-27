@@ -1,6 +1,6 @@
 # Articles and Blog Posts
 
-**Last verified:** 2026-10-18 1:00pm
+**Last verified:** 2026-10-27 10:24am
 
 The Articles module gives your website a full blog and news section. Use it to share company updates, how-to guides, industry news, or anything else you want to write about. Articles are one of the best ways to keep your website fresh and attract new visitors.
 
@@ -26,7 +26,7 @@ Before you can start writing articles, you need to turn on the Articles module.
 4. A window shows what it costs -- its rate and estimated monthly cost, plus the 10 free pages it earns your site while it's on -- before anything happens.
 5. Click **Enable** to confirm. The module activates right away.
 
-Once enabled, you will see a new **Article** section appear in your dashboard sidebar. This is where you will create and manage all your articles.
+Once enabled, you will see a new **Article** section appear under **Pages** in your site menu. This is where you will create and manage all your articles.
 
 > **Tip:** Enabling the Articles module takes just a few seconds. There is no setup or configuration needed -- you can start writing your first article as soon as you confirm.
 
@@ -36,8 +36,8 @@ Once enabled, you will see a new **Article** section appear in your dashboard si
 
 Ready to write your first post? Here is how to create a new article.
 
-1. Click **Article** in the left sidebar of your dashboard.
-2. Click the **Create A New Article** button at the top of the page.
+1. In the site menu, open **Pages**, then select **Articles**.
+2. Select **+ New Article** at the top of the page.
 3. You will see the article editor with several fields to fill in.
 
 ![The article editor showing title, content, and publishing options](../images/content-modules/article-editor.png)
@@ -117,7 +117,7 @@ To change the status:
 
 Need to fix a typo or update your content? Editing is easy.
 
-1. Click **Article** in the left sidebar.
+1. In the site menu, open **Pages**, then select **Articles**.
 2. Find the article you want to update in the list.
 3. Click on the article to open it in the editor.
 4. Make your changes to any field -- title, content, image, or type.
@@ -133,7 +133,7 @@ To add code from another service to one article, such as a booking widget, click
 
 Your article list gives you an overview of everything you have written.
 
-1. Click **Article** in the left sidebar.
+1. In the site menu, open **Pages**, then select **Articles**.
 2. You will see a list of all your articles.
 3. Each article shows key details like its title, type, status, and when it was created.
 

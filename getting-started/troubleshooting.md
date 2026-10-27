@@ -1,6 +1,6 @@
 # Troubleshooting and Common Issues
 
-**Last verified:** 2026-10-24 11:49am
+**Last verified:** 2026-10-27 10:18am
 
 Every website owner runs into the occasional hiccup. The good news is that most issues have simple fixes. This guide walks you through the most common problems you might encounter and how to solve them quickly.
 
@@ -12,7 +12,7 @@ If you are having trouble signing in to your WebNesting dashboard, try these ste
 
 ### Wrong Password
 
-1. On the login page, click the **Forgot Password** link.
+1. On the sign-in page, select **Forgot password?**.
 2. Enter the email address you used to create your account.
 3. Check your email for a password reset link. The page shows the same confirmation for every address, so if no email arrives, check that you entered the address you signed up with.
 4. Click the link and create a new password.
@@ -26,7 +26,7 @@ When you first create your account, WebNesting sends a verification email. If yo
 3. Click the verification link in the email.
 4. Try logging in again.
 
-> **Tip:** If the verification email has expired or you cannot find it, use the **Resend Verification** option on the login page to get a fresh one.
+> **Tip:** If the verification email has expired or you cannot find it, sign in and select **Resend Verification Email** on your account portal to get a fresh one.
 
 ### Two-Factor Authentication Issues
 
@@ -91,7 +91,7 @@ If images on your site appear broken or are not showing up, here are the most co
 
 Every site has a maximum file size for uploads. If your image exceeds that limit, it will not upload or display properly.
 
-1. Open **Files** from your dashboard.
+1. Select **Files** in the top bar.
 2. Check the maximum upload size shown on the upload screen.
 3. If your image is too large, resize it using an image editor before uploading it again.
 
@@ -107,7 +107,7 @@ WebNesting supports the most common image formats: **JPG**, **PNG**, **GIF**, **
 
 If you (or a team member) deleted an image from the File Manager, any page that used that image will show a broken image.
 
-1. Open **Files** and search for the image.
+1. Select **Files** in the top bar and search for the image.
 2. If it is no longer there, upload the image again.
 3. Open the affected page in the **Website Builder**.
 4. Select the broken image element and replace it with the newly uploaded file.
@@ -125,7 +125,7 @@ Your page looks great on a computer but something is off on a phone or tablet. H
 If you designed your page on a desktop view and did not check how it looks on smaller screens, some elements may not fit properly.
 
 1. Open the page in the **Website Builder**.
-2. Use the **Frame Sizer** at the top of the builder to switch between desktop, tablet, and mobile views.
+2. Use the device buttons (**Mobile**, **Tablet**, **Laptop** and **Desktop**) at the top of the builder to switch between views.
 3. At each size, look for elements that are too wide, overlapping, or hard to read.
 4. Adjust the styles for each breakpoint until the page looks right at every size.
 
@@ -137,7 +137,7 @@ Images, containers, or other elements set to a fixed width may overflow on narro
 
 1. Switch to the mobile view in the builder.
 2. Select the element that is too wide.
-3. In the **Styler**, change its width to a percentage (like 100%) instead of a fixed pixel value.
+3. In the **Styles** panel, change its width to a percentage (like 100%) instead of a fixed pixel value.
 4. Check that the element now fits within the screen at all sizes.
 
 ### Always Preview at Every Screen Size
@@ -161,9 +161,9 @@ You are looking for a feature -- like a blog, events calendar, or online store -
 
 Many features in WebNesting are provided by modules that you need to turn on.
 
-1. Open your site menu, open **Settings**, and click **Modules**.
+1. Open your site menu, open **Settings**, and select **Modules**.
 2. Browse the list of available modules.
-3. Find the one you need and click to enable it.
+3. Find the one you need and select **Turn on**, then **Enable**.
 4. Once enabled, the module's section will appear in your sidebar, and its components will become available in the builder.
 
 For more details, see [Modules and Features](../dashboard/modules-and-features.md).
@@ -195,7 +195,7 @@ When you update your domain's DNS records, the changes can take time to spread a
 If your domain is still not working after 48 hours, double-check that your DNS records are set up correctly.
 
 1. Log in to your domain registrar (the company where you purchased your domain).
-2. Compare the DNS records you entered with the values provided in your WebNesting **Settings** under your domain configuration.
+2. Compare the DNS records you entered with the values Support gave you. See [Connect a Domain From Another Registrar](connect-a-domain-from-another-registrar.md).
 3. Make sure the **A record** or **CNAME record** matches exactly.
 4. Save any corrections and allow time for the changes to take effect.
 

@@ -1,8 +1,8 @@
 # Integrations
 
-**Last verified:** 2026-10-02 8:47pm
+**Last verified:** 2026-10-27 10:20am
 
-Integrations connect WebNesting to the other tools you already use — your Google or Microsoft account for email and analytics, and GitHub for content. Everything lives on one page: **Workspace Settings → Integrations**. You can also reach the same page from a site's settings, where it shows just the connections that power that site.
+Integrations connect WebNesting to the other tools you already use — your Google or Microsoft account for email and analytics, and GitHub for content. Everything lives on one page: **Settings** > **Integrations** in your workspace (the **⋮** menu in the top bar also opens **Workspace Settings**). You can also reach the same page from a site's settings, where it shows just the connections that power that site.
 
 ---
 
@@ -11,7 +11,7 @@ Integrations connect WebNesting to the other tools you already use — your Goog
 | App | What it powers |
 |-----|----------------|
 | **Google** | A Gmail inbox for your helpdesk, and Google Analytics reports for your sites |
-| **Microsoft** | An Outlook / Microsoft 365 inbox for your helpdesk |
+| **Microsoft** | An Outlook / Microsoft 365 inbox for your helpdesk (shows **Not yet available** for now) |
 | **GitHub** | Content for your workspace's Internal Docs or a site's Knowledge Base, kept in a repository |
 
 Each connection shows which products it powers, when it was last used, and whether it's healthy. More apps are on the way.
@@ -20,9 +20,9 @@ Each connection shows which products it powers, when it was last used, and wheth
 
 ## Connecting an App
 
-1. Open **Workspace Settings → Integrations**.
+1. Open **Settings** > **Integrations** in your workspace.
 2. Find the app under **Browse** and click it. A panel opens showing exactly what the app will be able to access, in plain English.
-3. Click **Connect**. You'll be taken to the provider to approve — for Google and Microsoft that's the familiar account-consent screen; for GitHub it's the app-install screen (about 30 seconds, see below).
+3. Click **Connect**. You'll be taken to the provider to approve — for Google that's the familiar account-consent screen (Microsoft will work the same way when it is available); for GitHub it's the app-install screen (about 30 seconds, see below).
 4. You land back on the Integrations page with your new connection ready to set up.
 
 You can connect more than one account from the same provider — for example one Google account for your support inbox and another for Analytics. Connected apps show a **Connect another account** option.

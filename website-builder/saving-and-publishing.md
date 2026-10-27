@@ -1,6 +1,6 @@
 # Saving and Publishing Your Site
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-10-27 10:24am
 
 All your hard work designing and building your site leads to this: getting it live for the world to see. This guide explains the difference between saving and publishing, how to use undo and redo, and all the keyboard shortcuts that make your workflow faster.
 
@@ -10,7 +10,7 @@ All your hard work designing and building your site leads to this: getting it li
 
 These two actions do very different things:
 
-- **Save** stores your changes as a draft. Only you can see your saved work. Your visitors will not see any changes until you publish.
+- **Save** stores your changes as a draft. Only you and your team can see your saved work. Your visitors will not see any changes until you publish.
 - **Publish** takes your saved work and makes it live on your website. Once you publish, anyone who visits your site will see the updated version.
 
 Think of it like writing a letter. Saving is like putting the letter in your desk drawer -- it is safe, but nobody else can see it. Publishing is like putting the letter in the mailbox -- now everyone can read it.
@@ -25,9 +25,9 @@ You have three ways to save your work in the builder.
 
 ### Option 1: Click the Save Button
 
-1. Look at the top toolbar of the builder.
-2. Click the **Save** button.
-3. You will see a confirmation that your work has been saved.
+1. Look at the top right of the builder's toolbar.
+2. Select **Save draft** (the disk icon, left of **Publish**).
+3. The save pill beside it changes to **Saved**.
 
 ### Option 2: Use a Keyboard Shortcut
 
@@ -54,8 +54,8 @@ If your internet connection drops while editing, the builder will try to save yo
 
 When you are happy with your changes and ready for visitors to see them, it is time to publish.
 
-1. Look at the top toolbar of the builder.
-2. Click the **Publish** button.
+1. Look at the top right of the builder's toolbar.
+2. Select the blue **Publish** button.
 3. Your changes go live within moments. (There is no extra confirmation step, so publish when you mean to.)
 
 Publishing saves and promotes everything at once -- your page and its shared header/footer are published together.

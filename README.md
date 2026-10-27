@@ -13,6 +13,10 @@ Welcome to the WebNesting help center. These guides will help you build and mana
 | [Creating a Website](account/creating-a-website.md) | Create a new website and launch its admin dashboard |
 | [Managing Your Websites](account/managing-your-websites.md) | View, access, edit, and delete your websites |
 | [Usage and Billing](account/usage-and-billing.md) | Understand pricing, view usage, pay bills, and manage costs |
+| [Asking for a Refund](account/asking-for-a-refund.md) | Find the invoice, ask Support, and see how a refund reaches you |
+| [Closing Your Workspace or Account](account/closing-your-account.md) | Save what you need, then ask Support to close a workspace or your account |
+| [Moving a Site to Someone Else](account/moving-a-site-to-someone-else.md) | Add a team member or ask Support to transfer a workspace |
+| [Requesting a Copy of Your Data](account/requesting-your-data.md) | Download your data yourself or ask Support for a copy |
 
 ## Getting Started
 
@@ -26,7 +30,8 @@ Welcome to the WebNesting help center. These guides will help you build and mana
 | [Your Workspace Home](getting-started/your-workspace-home.md) | The workspace home cards and a five-minute daily check of tickets, tasks, email results and your site |
 | [Troubleshooting](getting-started/troubleshooting.md) | Solutions for common issues like login problems, missing changes, and slow loading |
 | [Glossary of Terms](getting-started/glossary.md) | Definitions of common terms used throughout WebNesting |
-| [Connecting a Custom Domain](getting-started/custom-domains.md) | Register and connect your own domain name to your WebNesting site |
+| [Connecting a Custom Domain](getting-started/custom-domains.md) | What you can do today with your own domain name, and where to get help |
+| [Connect a Domain From Another Registrar](getting-started/connect-a-domain-from-another-registrar.md) | Find your DNS settings at GoDaddy, Namecheap or Cloudflare and add the records |
 
 ## Dashboard
 

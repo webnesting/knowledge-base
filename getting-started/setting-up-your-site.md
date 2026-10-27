@@ -1,6 +1,6 @@
 # Setting Up Your Site
 
-**Last verified:** 2026-10-19 9:44am
+**Last verified:** 2026-10-27 10:18am
 
 When you create a new WebNesting site, you give it a name and pick how it starts. This page walks you through each choice so you know exactly what to expect.
 
@@ -79,7 +79,7 @@ Now that your site is set up, you will want to add your own logo and favicon (th
 ### Adding Your Logo
 
 1. In the site menu, open **Settings** and click **Site Settings**.
-2. Under **Content Items**, click **Site Images**.
+2. Under **Content**, click **Site Images**.
 3. Find the **Logo** field.
 4. Click the upload area or browse button to select your logo image from your computer.
 5. Save your changes.
@@ -101,7 +101,7 @@ Your logo will appear in your site's header area, replacing the default text.
 If you ever want to change your site name or business name, or your search engine details:
 
 1. In the site menu, open **Settings** and click **Site Settings**.
-2. Under **Site Config**, click **Site Configuration** for site name and business name, or **SEO Defaults** for SEO title and description.
+2. Under **Your site**, click **Site Configuration** for site name and business name, or **SEO Defaults** for SEO title and description.
 3. Update the fields as needed.
 4. Save your changes.
 

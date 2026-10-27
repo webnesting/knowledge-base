@@ -1,8 +1,8 @@
 # Connecting a Custom Domain
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-10-27 10:11am
 
-A custom domain gives your website its own professional web address, like `www.yourcompany.com`, instead of the default WebNesting address. This guide walks you through the full setup process.
+A custom domain gives your website its own professional web address, like `www.yourcompany.com`, instead of the free WebNesting address. This guide explains what you can do today, and where to go for the steps at your domain registrar.
 
 > **This guide is for your WEBSITE domain only** — the address visitors type to reach your site. Setting up your domain for **email** (so support tickets arrive at `support@yourcompany.com` or marketing campaigns send from your domain) is a separate flow with different DNS records. See the [Email Setup section in the Helpdesk guide](../dashboard/helpdesk.md#connecting-your-email) for the email side. You can use the same domain for both — they don't conflict with each other.
 
@@ -10,9 +10,21 @@ A custom domain gives your website its own professional web address, like `www.y
 
 ## What Is a Custom Domain?
 
-When you create a site on WebNesting, it starts with an address like `yoursite.webnesting.site`. A custom domain replaces that with a web address you own, such as `www.yourcompany.com` or `mybusiness.com`.
+When you create a site on WebNesting, it starts with a free address like `yoursite.webnesting.site`. A custom domain replaces that with a web address you own, such as `www.yourcompany.com` or `mybusiness.com`.
 
 Using your own domain makes your site look more professional, builds trust with visitors, and is easier for people to remember.
+
+---
+
+## What you can do today
+
+- **Use the free address.** Every site has one from the moment you create it. Nothing else is needed to publish.
+- **Enter your domain when you create a site.** The **Create Site** form has a **Custom Domain (optional)** box. Leave it blank to use the free address.
+- **Choose how your address is written.** Open your site, then **Settings** > **Site Settings** > **Site Configuration**. Under **Web address**, **Always use a secure (https://) address?** decides whether anyone who types `http://` is sent to the secure address. **Should your address start with "www."?** decides whether visitors who type it the other way are sent to your choice. Both settings start on **Either works**.
+
+A screen in the app where you connect, check and change a domain later is not available yet. Until it is, email Support at support@webnesting.com with your site name and your domain name. Support tells you what to do next.
+
+> **Tip:** Do not change anything at your registrar before Support answers. A wrong record can take your email or an existing website offline.
 
 ---
 
@@ -20,144 +32,37 @@ Using your own domain makes your site look more professional, builds trust with 
 
 To connect a custom domain, you will need:
 
-- **A registered domain name.** You can purchase one from any domain registrar such as GoDaddy, Namecheap, Cloudflare, or Google Domains. If you do not have a domain yet, visit any of these providers and search for the name you want.
-- **Access to your domain registrar's DNS settings.** This is the control panel where you manage your domain. You will need to log in to your registrar's website to make changes.
+- **A registered domain name.** You can buy one from any domain registrar, such as GoDaddy, Namecheap, Cloudflare or Squarespace Domains.
+- **Access to your domain registrar's DNS settings.** This is the control panel where you manage your domain. You will need to sign in to your registrar's website to make changes.
 
-> **Tip:** If you are not sure who your domain registrar is, try searching for your domain at [who.is](https://who.is) -- it will show you where the domain is registered.
+> **Tip:** If you are not sure who your domain registrar is, search for your domain at [who.is](https://who.is) -- it shows where the domain is registered.
 
----
-
-## Step 1: Find Your WebNesting Site Address
-
-Before you update any settings, you need to know your current WebNesting site address. This is the address that your custom domain will point to.
-
-1. Open your WebNesting Dashboard.
-2. In the site menu, open **Settings** and click **Site Settings**.
-3. Look for your current site address. It will look something like `yoursite.webnesting.site`.
-4. Write this address down or copy it -- you will need it in a later step.
+The steps at the registrar are in [Connect a domain from another registrar](connect-a-domain-from-another-registrar.md).
 
 ---
 
-## Step 2: Add Your Custom Domain in WebNesting
+## What happens after the records are added
 
-1. In your Dashboard, go to **Settings**.
-2. Open the **Domain** section.
-3. Enter your custom domain name (for example, `www.yourcompany.com`).
-4. Click **Save**.
-
-WebNesting will confirm your domain has been added and display the DNS records you need to set up with your domain registrar.
+- **Wait for DNS to update.** Most changes finish within an hour. Some take up to 48 hours. Your domain may work on and off while it spreads. That is normal.
+- **Your secure address turns on by itself.** WebNesting issues a security certificate once your domain points to your site, so the address starts with `https://` and visitors see a padlock. There is nothing to set up. Certificates usually finish in a few minutes after your domain points to WebNesting, and can take up to an hour. If your browser shows a security warning in that time, wait a few minutes and try again.
 
 ---
 
-## Step 3: Update Your DNS Records
+## If your domain is not working
 
-Now you need to tell your domain registrar to point your domain to WebNesting. You do this by adding a DNS record.
+- **Check your DNS records.** Sign in at your registrar and confirm the record matches what Support gave you, with no typos in the host name or the value.
+- **Wait for DNS to update.** Changes can take up to 48 hours.
+- **Try a private window.** Your browser may remember the old address. Open your domain in a private or incognito window.
+- **Security warning in the browser.** The certificate may still be on its way. Wait and try again. It can only be issued once your domain points to WebNesting.
+- **Wrong site appears.** The record may point to another host. Check the value against what Support gave you.
+- **Works without "www." but not with it, or the other way round.** Add a record for both versions, then check **Should your address start with "www."?** in **Site Configuration**.
 
-### What Is a DNS Record?
-
-DNS stands for Domain Name System. Think of it as the internet's address book. When someone types your domain name into their browser, DNS looks up where that domain points and sends the visitor to the right place. By updating your DNS records, you are telling the internet to send visitors of your domain to your WebNesting site.
-
-### What Is a CNAME Record?
-
-A CNAME record is a type of DNS record that points one address to another. Instead of pointing to a number (like an IP address), it points to a name -- in this case, your WebNesting site address. Think of it like mail forwarding: visitors who go to your custom domain are forwarded to your WebNesting site.
-
-### How to Add a CNAME Record
-
-The exact steps depend on your domain registrar, but the process is similar everywhere:
-
-1. Log in to your domain registrar's website (GoDaddy, Namecheap, Cloudflare, Google Domains, or whichever provider you use).
-2. Find the **DNS settings**, **DNS management**, or **DNS records** section. It is usually under your domain's settings or an "Advanced" menu.
-3. Add a new **CNAME** record with the following details:
-   - **Name** (or Host): Enter `www` if you want to use `www.yourcompany.com`. Enter `@` or leave it blank for the root domain (`yourcompany.com`) -- though not all registrars support CNAME records on root domains.
-   - **Value** (or Points To / Target): Enter your WebNesting site address (for example, `yoursite.webnesting.site`).
-   - **TTL**: Leave this at the default value, or set it to **Auto**.
-4. Save your changes.
-
-> **Tip:** If your registrar does not allow a CNAME record on the root domain, check your WebNesting settings for an A record option. Some registrars also support "CNAME flattening" or "ALIAS records" as alternatives.
-
----
-
-## Step 4: Wait for DNS Propagation
-
-After you update your DNS records, it takes some time for the change to spread across the internet. This process is called DNS propagation.
-
-- **Most changes complete within an hour.**
-- In some cases, it can take up to **48 hours**.
-- During this time, your domain may work intermittently -- this is normal.
-
-There is nothing you need to do during this waiting period. Just be patient and check back later.
-
----
-
-## Step 5: Verify and Enable SSL
-
-Once your DNS records have propagated and your domain is pointing to WebNesting, an SSL certificate will be automatically provisioned for your site.
-
-### What Is SSL?
-
-SSL (Secure Sockets Layer) is the technology that keeps the connection between your visitors and your website secure. When SSL is active:
-
-- Your site address starts with `https://` instead of `http://`.
-- Visitors see a padlock icon in their browser's address bar.
-- Information sent between your visitors and your site is encrypted and protected.
-
-SSL is important for visitor trust, data security, and search engine rankings. WebNesting handles SSL setup automatically, so there is nothing you need to configure.
-
-SSL provisioning usually completes within a few minutes after DNS is connected, but it can take up to an hour in some cases. If you see a security warning in your browser during this time, wait a few minutes and try again.
-
----
-
-## WWW vs. Non-WWW
-
-You can choose whether your site uses `www.yourcompany.com` or just `yourcompany.com`. Both work the same way, and one is not better than the other in terms of performance.
-
-Most modern websites use the non-www version (for example, `yourcompany.com`) because it is shorter and cleaner. However, the choice is entirely up to you.
-
-### How to Set Your Preference
-
-1. In your Dashboard, go to **Settings**.
-2. Open the **General** section.
-3. Find the **WWW Preference** setting.
-4. Choose either **Use WWW** or **Do not use WWW**.
-5. Save your changes.
-
-WebNesting will automatically redirect visitors to whichever version you choose, so no matter which version someone types in, they will always end up on the right one.
-
-> **Tip:** Pick one version and stick with it. This helps search engines treat your site as a single website rather than two separate ones.
-
----
-
-## Troubleshooting
-
-If your custom domain is not working after setup, try these steps.
-
-### Domain Not Connecting
-
-- **Check your DNS records.** Log in to your domain registrar and confirm that the CNAME record is pointing to your WebNesting site address. Make sure there are no typos in either the host name or the target value.
-- **Wait for propagation.** DNS changes can take up to 48 hours to take effect. If you just made the change, give it more time.
-- **Clear your browser cache.** Sometimes your browser remembers the old address. Try opening your domain in a private or incognito window.
-
-### Security Warning in Browser
-
-- **SSL may still be provisioning.** This usually completes within a few minutes to an hour after DNS is connected. Wait and try again.
-- **Check that your domain is pointing correctly.** SSL can only be provisioned once DNS records are properly configured.
-
-### Wrong Site Appears
-
-- **Verify your DNS records.** Make sure your CNAME record points to the correct WebNesting site address, not a different hosting provider.
-
-### Domain Works Without WWW but Not With It (or Vice Versa)
-
-- **Set up DNS records for both versions.** You may need a CNAME record for `www` and a separate record for the root domain.
-- **Check your WWW preference** in Settings to make sure the redirect is configured.
-
-### Still Having Trouble?
-
-If your domain is still not working after 48 hours, contact WebNesting support. Include your domain name and a screenshot of your DNS settings so the support team can help you quickly.
+Still not working after 48 hours? Email Support at support@webnesting.com. Include your domain name and a screenshot of your DNS settings so Support can help you quickly.
 
 ---
 
 ## Related Guides
 
-- **[Site Settings](../dashboard/site-settings.md)** -- Full overview of all site settings, including domain and SSL options
+- **[Connect a domain from another registrar](connect-a-domain-from-another-registrar.md)** -- Where to find DNS settings, what to add and what to leave alone
+- **[Site Settings](../dashboard/site-settings.md)** -- Full overview of all site settings
 - **[Troubleshooting](troubleshooting.md)** -- Solutions for other common issues

@@ -1,6 +1,6 @@
 # Glossary of Terms
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-10-27 10:24am
 
 This glossary explains common terms you will encounter while using WebNesting. If you come across a word you do not recognize, check here for a quick explanation.
 
@@ -22,7 +22,7 @@ This glossary explains common terms you will encounter while using WebNesting. I
 
 **Container** -- A layout component that holds other components inside it. Containers help you group and organize content on your page.
 
-**Dashboard** -- The admin area where you manage your site's content, settings, and features. You access it by signing in to the WebNesting app, opening your workspace, and clicking your site in the **Sites** list. The Dashboard is your home base for everything that happens behind the scenes of your website.
+**Dashboard** -- The admin area where you manage your site's content, settings, and features. You access it by signing in to the WebNesting app, opening your workspace, and selecting **Manage Site** on your site's card in the **Sites** list. The Dashboard is your home base for everything that happens behind the scenes of your website.
 
 **Draft** -- Changes that have been saved but not yet published to your live site. Drafts let you work on updates without affecting what your visitors see until you are ready.
 

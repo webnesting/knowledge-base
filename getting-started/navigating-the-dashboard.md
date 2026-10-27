@@ -1,6 +1,6 @@
 # Navigating the Dashboard
 
-**Last verified:** 2026-10-14 1:47pm
+**Last verified:** 2026-10-27 10:18am
 
 The Dashboard is your home base for managing one site in WebNesting. It is where you handle that site's pages, settings, content, and analytics. (Workspace-level features like billing, team members, helpdesk, marketing, and tasks live in your workspace -- see the **Workspaces** card in your account portal.)
 
@@ -18,22 +18,24 @@ When you log in, the first thing you see is the Dashboard home screen. It shows 
 
 Here are the types of widgets you may see on your home screen:
 
-- **Site Stats** -- A quick snapshot of your site's activity, like page views and visitor counts
+- **Site Stats** -- Your number of pages, files and users, and how many modules are on
+- **Quick Actions** -- Shortcuts such as **New Page**, **Upload Files**, **View Site**, **Modules** and **Settings**
+- **Site Health** -- A checkup on your site's status (homepage, site title, meta description, favicon, SSL certificate and analytics), with a link to fix each thing that needs attention
 - **Recent Pages** -- A list of pages you have recently created or edited, with quick links to open them
-- **Site Health** -- A checkup on your site's status, letting you know if anything needs attention
-- **News & Updates** -- Announcements and tips from WebNesting
+- **Activity Log** -- The latest changes made on your site
+- **Analytics** -- Pageviews, visitors, average duration and bounce rate. See [Analytics and Reports](../dashboard/analytics.md).
 
 ### Customizing Your Dashboard
 
 You can personalize which widgets appear and how they are arranged:
 
-1. **Add widgets** -- Click **Add Widget** to browse every available widget and add one to your dashboard. Widgets marked **Per site** show one site's data; if you have more than one site, the picker asks which site before the widget appears. Anything you remove can always be added back from the same list.
+1. **Add widgets** -- Select **+ Add Widget** to browse every available widget (**Site Stats**, **Quick Actions**, **Site Health**, **Recent Pages**, **Activity Log**, **Storage Usage**, **Conversions**, **Analytics** and **Form Submissions**) and add one to your dashboard. Widgets marked **Per site** show one site's data; if you have more than one site, the picker asks which site before the widget appears. Anything you remove can always be added back from the same list.
 2. **Remove widgets** -- Each widget has options to remove it if you do not need it.
 3. **Rearrange widgets** -- Drag and drop widgets to put them in the order that works best for you.
 4. **Resize widgets** -- Some widgets can be made wider or narrower to fit your preference.
 5. **Widget settings** -- Some widgets have a settings option that lets you adjust what they display (for example, how many items to show in a list).
 
-> **Tip:** You can always reset your dashboard back to the default layout if you want to start fresh.
+> **Tip:** Select **Reset Layout** at the bottom of the screen to go back to the default layout and start fresh.
 
 ---
 
@@ -54,8 +56,8 @@ The toolbar runs across the top of every page. It holds the controls you reach f
 
 - **Files** -- Opens the File Manager, where you can browse everything your workspace stores.
 - **Notification bell** -- Shows what needs your attention. Click through to your activity feed.
-- **⋮ menu** -- Quick links to **Billing**, **Usage**, **Workspace Settings**, plus documentation and support.
-- **Your avatar** -- Opens a menu with **Manage Account**, an out-of-office setting, a **Dark Mode** switch, and **Sign Out**.
+- **⋮ menu** -- Quick links to **Billing**, **Usage** and **Workspace Settings**, plus **Send Feedback…**, **Documentation** and **Get Support**.
+- **Your avatar** -- Opens a menu with **Manage Account**, an out-of-office setting, a **Dark Mode** switch, the language choice and **Sign Out**.
 
 > **Tip:** Dark mode lives in the avatar menu on the far right. It is not just a style preference -- if you work in a dimly lit room, dark mode can be easier on your eyes. Your choice is remembered.
 
@@ -127,17 +129,20 @@ The Website Builder has its own toolbar with Save, Publish, Preview, undo/redo, 
 
 The Settings section is where you configure how your site works and looks. Settings are organized into groups, and you may see some or all of the following:
 
-- **Your site** -- Your site's name, whether visitors can see it yet, its web address, and SEO defaults (the fallback title and description for pages that do not have their own)
-- **Content** -- The images that represent your brand (logo, favicon, and social sharing image) and the messages shown across your site
-- **Connections** -- Your social media profile links, Google Analytics, Google Tag Manager, and reCAPTCHA
-- **Advanced** -- Named image groups and HTML blocks your theme reads by name, and **All Settings**, every raw setting in one place
+- **Your site** -- **Site Configuration** (name, whether visitors can see it yet, web address, timezone), **SEO Defaults** (the fallback title and description for pages that do not have their own) and **Languages**
+- **Appearance** -- **Theme**, **Header & Footer** and **Color Mode**
+- **Content** -- **Site Messages** and **Site Images** (your logo, favicon and social sharing image)
+- **Connections** -- **Social Settings**, **Google Settings** (Google Analytics, Google Tag Manager and reCAPTCHA) and **Code from Other Services**
+- **Advanced** -- **Security Policy**, **Site Image Groups**, **HTML Blocks** and **All Settings**, every raw setting in one place
+
+The **Settings** menu in the site menu also holds **Database Tables**, **Modules**, **Site Settings**, **URLs and Redirects** and **Integrations**.
 
 To change a setting:
 
-1. Open the **Settings** section from the sidebar.
-2. Click on the specific settings group you want to edit.
+1. Open **Settings** in the site menu, then **Site Settings**.
+2. Select the setting you want to edit.
 3. Make your changes.
-4. Click **Save** to apply them.
+4. Select **Save Changes** to apply them.
 
 ---
 
@@ -170,9 +175,9 @@ Examples of modules include:
 
 To manage modules:
 
-1. Open the **Modules** section from the sidebar.
+1. Open **Settings** in the site menu, then **Modules**.
 2. Browse available modules.
-3. Enable or disable the ones you want.
+3. Select **Turn on** or **Turn off** for the ones you want.
 
 When you enable a module, it creates its own section in the sidebar. For example, enabling the Article module adds an "Article" section where you can create and manage articles.
 
@@ -182,10 +187,10 @@ Each module may also add components to the Website Builder, letting you display 
 
 ### Permissions
 
-The Permissions section lets you control who can do what on your site. If you have team members, collaborators, or employees who need access to the Dashboard, this is where you manage their access levels.
+Permissions are set for the whole workspace. Select **Settings** at the bottom of the left icon rail, then **Members & Permissions**. If you have team members who need access, this is where you manage their roles.
 
-- **View users** -- See everyone who has access to your Dashboard
-- **Edit permissions** -- Control what each person can see and do (for example, allow someone to edit pages but not change settings)
+- **See members** -- Everyone who has access, with their roles and status
+- **Roles and overrides** -- Control what each person can see and do (for example, allow someone to edit pages but not change settings)
 
 > **Tip:** If you are the only person managing your site, you do not need to worry about permissions. This section becomes important when you start adding team members.
 
@@ -201,8 +206,8 @@ Redirects let you send visitors from one URL to another. This is useful when you
 
 To create a redirect:
 
-1. Open the **Redirects** section.
-2. Click the button to add a new redirect.
+1. Open **Settings** in the site menu, then **URLs and Redirects**.
+2. Select the button to add a new redirect.
 3. Enter the **old URL** (where someone might go).
 4. Enter the **new URL** (where they should end up).
 5. Save your redirect.
@@ -211,7 +216,7 @@ To create a redirect:
 
 ### Analytics
 
-The Analytics section shows you how your site is performing. You can see:
+Analytics lives in the **Analytics** widget on your site's dashboard. If it is not there, select **+ Add Widget** and choose **Analytics**. You can see:
 
 - **Visitor counts** -- How many people are visiting your site
 - **Page views** -- Which pages get the most traffic
@@ -225,7 +230,7 @@ The Analytics section shows you how your site is performing. You can see:
 
 ### Logs
 
-The Logs section provides a record of activity on your site. It can show you:
+The **Activity Log** widget on your site's dashboard, and **Settings** > **Activity Log** in your workspace, record activity. They can show you:
 
 - **Recent actions** -- What has been changed on your site and when
 - **System events** -- Technical events like errors or warnings
@@ -240,7 +245,7 @@ Moving between sections is straightforward:
 
 1. Click any item in the **left sidebar** to go to that section.
 2. If a section has sub-items (shown by a small arrow), click the section name to expand it, then click the specific item you want.
-3. To go back to the Dashboard home screen, click the **WebNesting logo or name** at the top left of the toolbar.
+3. To go back to your workspace home, click the **WebNesting logo** at the top left of the toolbar. To go back to a site's dashboard, open its site menu and select the site name at the top.
 
 You can also navigate using any links within the page content. For example, clicking a page name in the Pages section will open that page's settings.
 
@@ -255,11 +260,11 @@ You can also navigate using any links within the page content. For example, clic
 | Design my page visually | Website Builder |
 | Build a reusable content block | Widgets |
 | Upload or organize files | **Files** in the top bar |
-| Change my site name or logo | Settings > Site Config / Content Items |
-| Change my theme or colors | Settings > Theme |
-| Add a blog or other feature | Modules |
-| See who is visiting my site | Analytics |
-| Set up a URL redirect | Redirects |
+| Change my site name or logo | Settings > Site Settings > Site Configuration / Site Images |
+| Change my theme or colors | Settings > Site Settings > Theme |
+| Add a blog or other feature | Settings > Modules |
+| See who is visiting my site | The Analytics widget on the site dashboard |
+| Set up a URL redirect | Settings > URLs and Redirects |
 | Manage team access | Settings > Members & Permissions |
 | See my bill or usage | Settings > Plans & Billing / Usage |
 | Check recent activity | Settings > Activity Log |

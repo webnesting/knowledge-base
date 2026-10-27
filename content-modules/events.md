@@ -1,6 +1,6 @@
 # Events
 
-**Last verified:** 2026-09-28 12:18am
+**Last verified:** 2026-10-27 10:24am
 
 The Events module lets you create and manage event listings on your website. Whether you host workshops, classes, concerts, conferences, or community meetups, this module gives you the tools to promote your events and share all the important details with your visitors.
 
@@ -26,7 +26,7 @@ Before you can start creating events, you need to turn on the module.
 4. A window shows what it costs -- its rate and estimated monthly cost, plus the 10 free pages it earns your site while it's on -- before anything happens.
 5. Click **Enable** to confirm. The module activates right away.
 
-Once enabled, you will see a new **Event** section appear in your dashboard sidebar. You are ready to start creating events.
+Once enabled, you will see a new **Event** section appear under **Pages** in your site menu. You are ready to start creating events.
 
 > **Tip:** The Events module includes showings (multiple dates/times) and ticketing at no extra cost. Everything you need to manage events is included.
 
@@ -36,8 +36,8 @@ Once enabled, you will see a new **Event** section appear in your dashboard side
 
 Here is how to create an event listing for your website.
 
-1. Click **Event** in the left sidebar of your dashboard.
-2. Click the **Create A New Event** button at the top of the page.
+1. In the site menu, open **Pages**, then select **Events**.
+2. Select **+ New Event** at the top of the page.
 3. You will see the event editor with several sections to fill in.
 
 ![The event editor with showings and ticket configuration](../images/content-modules/event-editor.png)
@@ -178,7 +178,7 @@ You can create more than one ticket type for an event. This is useful when you o
 
 ### Editing an Event
 
-1. Click **Event** in the left sidebar.
+1. In the site menu, open **Pages**, then select **Events**.
 2. Find the event you want to update in the list.
 3. Click on the event to open it in the editor.
 4. Make your changes to any field -- title, description, showings, tickets, or image.

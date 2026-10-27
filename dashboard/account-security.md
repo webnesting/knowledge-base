@@ -1,6 +1,6 @@
 # Your Account and Security
 
-**Last verified:** 2026-10-27 9:16am
+**Last verified:** 2026-10-27 10:10am
 
 Your WebNesting account is the key to everything you build. This guide walks you through signing in, protecting your account, and what to do if something goes wrong.
 
@@ -9,10 +9,10 @@ Your WebNesting account is the key to everything you build. This guide walks you
 ## Logging In to Your Account
 
 1. Go to the WebNesting app sign-in page.
-2. Enter your **email address** in the first field.
-3. Enter your **password** in the second field.
+2. Enter your address in **Email**.
+3. Enter your password in **Password**.
 4. If you want to stay signed in, check the **Keep me signed in** box.
-5. Click the **Sign in** button.
+5. Select **Sign in**.
 
 You will be taken to your dashboard after signing in.
 
@@ -25,10 +25,10 @@ You will be taken to your dashboard after signing in.
 If you want to update your password, you can do so from your account security page.
 
 1. Sign in to your account.
-2. Open the avatar menu (top right) and choose **Security** -- the **Change Password** section is at the top.
-3. Enter your current password, then your new password.
-4. Confirm your new password by typing it again.
-5. Click **Update Password**.
+2. Select your avatar (top right), then **Manage Account**, then the **Security** card. The **Change Password** section is at the top.
+3. Enter your password in **Current Password**, then your new password in **New Password**.
+4. Enter the new password again in **Confirm New Password**.
+5. Select **Update Password**.
 
 Your new password must be at least 8 characters long.
 
@@ -44,9 +44,9 @@ The Security page also lists every browser or device that is currently signed in
 
 If you see a device you don't recognize, or you signed in somewhere you no longer use:
 
-1. Open the avatar menu and choose **Security**.
-2. Under **Where You're Signed In**, open the row's menu (the **⋮** button) and click **Sign Out**, then confirm.
-3. To sign out of every device except this one at once, click **Sign Out Everywhere Else**.
+1. Select your avatar, then **Manage Account**, then the **Security** card.
+2. Under **Where You're Signed In**, open the row's actions menu and select **Sign Out**, then confirm.
+3. To sign out of every device except this one at once, select **Sign Out Everywhere Else**.
 
 A signed-out device is logged out the next time it does anything; whoever is using it will have to sign in again, even if "Keep me signed in" was checked there. Signing a device out also ends "Keep me signed in" on your other devices, so they will ask for your password once their current session ends. Your own device is never signed out from this list -- use **Sign Out** in the avatar menu for that.
 
@@ -77,19 +77,19 @@ You can enable one or both methods. If you have both enabled, you can pick which
 ### How to Enable 2FA with an Authenticator App
 
 1. Sign in to your account.
-2. Go to **Account Security**.
-3. Under the **Authenticator App** section, click **Generate QR Code**.
+2. Open the **Security** page (avatar > **Manage Account** > **Security**).
+3. Under **Authenticator App**, select **Enable Authenticator App**. A QR code appears.
 4. Open your authenticator app on your phone (see suggestions below).
 5. Use the app to scan the QR code shown on screen.
 6. Your app will begin displaying a 6-digit code that changes every 30 seconds.
 7. Type that code into the **Verification Code** field on the WebNesting page.
-8. Click **Confirm** to finish setup.
+8. Select **Confirm** to finish setup.
 
 You will see a confirmation message once the authenticator app is connected.
 
 To move to a new phone or a different app, turn off the authenticator app first, then set it up again. WebNesting does not offer a new QR code while your current app is on, so your sign-in stays protected the whole time.
 
-> **Tip:** If you can't scan the QR code, look for the text code shown below it. You can type that code into your authenticator app manually instead.
+> **Tip:** If you can't scan the QR code, look for **Manual Entry** next to it. You can type that code into your authenticator app instead.
 
 #### Recommended Authenticator Apps
 
@@ -102,10 +102,11 @@ Any authenticator app will work. Here are some popular free options:
 ### How to Enable 2FA with Email
 
 1. Sign in to your account.
-2. Go to **Account Security**.
-3. Under the **Email** section, click **Enable**.
+2. Open the **Security** page.
+3. Under **Email Codes**, select **Enable Email 2FA**. WebNesting emails you a 6-digit code.
+4. Enter that code in **Verification Code**, then select **Confirm**. If the email does not come, select **Resend Code**.
 
-That's it. The next time you sign in, a 6-digit code will be sent to your email. Enter that code to complete your sign-in.
+From then on, a 6-digit code is sent to your email each time you sign in. Enter that code to complete your sign-in.
 
 > **Tip:** Check your spam or junk folder if you don't see the email within a minute. The code expires after 10 minutes, so enter it promptly.
 
@@ -119,21 +120,21 @@ Once 2FA is turned on, the sign-in process adds one extra step:
    - **If using an authenticator app:** Open the app on your phone and find the current 6-digit code.
    - **If using email:** Check your inbox for an email with your 6-digit code.
 4. Type the code into the **6-digit code** field.
-5. Click **Verify and sign in**.
+5. Select **Verify and Sign In**.
 
-Each code signs you in only once. If a code was just used, wait for your authenticator app to show the next one, or click **Send a new code**.
+Each code signs you in only once. If a code was just used, wait for your authenticator app to show the next one, or select **Send a new code**.
 
-If you have both methods enabled, you will see a link to switch between them. For example, if the page asks for your authenticator code, you can click **Email me a code instead** to get a code by email, or **Use my authenticator app instead** to switch back.
+If you have both methods enabled, you will see a link to switch between them. For example, if the page asks for your authenticator code, you can select **Email me a code instead** to get a code by email, or **Use my authenticator app instead** to switch back.
 
-> **Tip:** If your email code doesn't arrive, click **Send a new code** below the form to get a fresh one.
+> **Tip:** If your email code doesn't arrive, select **Send a new code** below the form to get a fresh one.
 
 ### Setting Your Preferred 2FA Method
 
 If you have both the authenticator app and email codes enabled, you can choose which method appears first when you sign in.
 
-1. Go to **Account Security**.
-2. Under **Default Method**, pick the method you want sign-in to ask for first.
-3. Enter your password, then click **Use Email Codes** or **Use Authenticator App**. Click **Cancel** to keep the method you have.
+1. Open the **Security** page.
+2. Under **Preferred Sign-In Method**, use **Default Method** to pick the method you want sign-in to ask for first (**Authenticator App** or **Email Code**).
+3. Enter your password, then select **Use Email Codes** or **Use Authenticator App**. Select **Cancel** to keep the method you have.
 
 You can always switch to the other method on the sign-in screen, but your preferred choice will be shown first.
 
@@ -143,19 +144,19 @@ When you set up the authenticator app, WebNesting generates **8 recovery codes**
 
 **To use a recovery code:**
 
-1. On the **Enter your sign-in code** screen, click **Can't get a code? Use a recovery code**.
+1. On the **Enter your sign-in code** screen, select **Can't get a code? Use a recovery code**.
 2. Enter one of your saved recovery codes in the **Recovery code** field.
-3. Click **Verify and sign in**.
+3. Select **Verify and Sign In**.
 
 Each recovery code can only be used once. After using one, it is removed from your list. Store your recovery codes in a safe place, such as a password manager or a printed copy in a secure location.
 
 **To generate new recovery codes:**
 
 1. Sign in to your account.
-2. Go to **Account Security**.
-3. Click **Regenerate Recovery Codes**.
-4. Enter your password, then click **Make New Codes**.
-5. Save the new codes in a safe place. Your old codes will no longer work.
+2. Open the **Security** page.
+3. Under **Authenticator App**, select **Regenerate Recovery Codes**.
+4. Enter your password, then select **Make New Codes**.
+5. Save the new codes shown under **Recovery Codes**. Your old codes will no longer work.
 
 > **Tip:** Write down your recovery codes or save them in a secure place as soon as you see them. If you lose both your authenticator and your recovery codes, you will need to contact support to regain access.
 
@@ -164,10 +165,10 @@ Each recovery code can only be used once. After using one, it is removed from yo
 If you no longer want to use two-factor authentication:
 
 1. Sign in to your account.
-2. Go to **Account Security**.
-3. To turn off just one method, click the disable button next to the method you want to remove (for example, **Disable Authenticator App** or **Disable Email 2FA**).
-4. To turn off 2FA entirely, click **Disable All 2FA** at the bottom of the page.
-5. A window shows how signing in works now and after the change. Enter your password, then click the button that names the change, such as **Turn Off Two-Factor**.
+2. Open the **Security** page.
+3. To turn off just one method, select the disable button for that method (**Disable Authenticator App** or **Disable Email 2FA**).
+4. To turn off 2FA entirely, select **Disable All 2FA** under **Disable Two-Factor Authentication** at the bottom of the page.
+5. A window shows how signing in works now and after the change. Enter your password, then select the button that names the change, such as **Turn Off Two-Factor**, **Turn Off Authenticator App** or **Turn Off Email Codes**.
 
 > **Tip:** We recommend keeping at least one 2FA method turned on to protect your account.
 
@@ -177,10 +178,10 @@ Some changes make your account easier to get into: turning 2FA or one method off
 
 - A wrong password changes nothing. The window says so and stays open for another try.
 - After 5 wrong tries in one minute, wait a minute, then try again.
-- Forgot your password? Click **Forgot your password?** in the window to reset it by email.
-- Click **Cancel** to close the window. Nothing changes.
+- Forgot your password? Select **Forgot your password?** in the window to reset it by email.
+- Select **Cancel** to close the window. Nothing changes.
 
-Members of your site see the same window on their own account security page.
+Every team member sees the same window on their own **Security** page.
 
 ---
 
@@ -188,25 +189,16 @@ Members of your site see the same window on their own account security page.
 
 ### What Is SSO?
 
-Single Sign-On lets you move between your site dashboard and your WebNesting account without entering your password again. When SSO is available, one sign-in gives you access to both.
+You sign in to WebNesting once. That one sign-in covers your account, your workspaces and every site dashboard in them. You never sign in a second time to open a site.
 
-Think of it like a master key: you sign in once, and WebNesting handles the rest behind the scenes.
+### How it works
 
-### How SSO Works
+1. Sign in to WebNesting.
+2. Open a workspace, then select **Manage Site** on any site.
+3. The site dashboard opens right away -- no second password.
+4. Select your avatar, then **Manage Account**, to go back to your account.
 
-SSO happens automatically. Here is what to expect:
-
-1. Sign in to your site dashboard as usual.
-2. When you need to visit your WebNesting account (for example, to manage billing or account-wide settings), click the link to your WebNesting account.
-3. You will be signed in automatically -- no need to enter your password again.
-
-The connection is secure and expires quickly, so it can't be reused by anyone else.
-
-### Signing In with SSO from WebNesting
-
-You can also go the other direction. If you are signed in to your WebNesting account, you can jump to any of your site dashboards without signing in again.
-
-> **Tip:** SSO only works when your accounts are linked. If you are asked to sign in again, your session may have expired. Simply sign in with your email and password.
+> **Tip:** If you are asked to sign in again, your session may have expired, or you signed out. Sign in with your email and password.
 
 ---
 
@@ -214,7 +206,7 @@ You can also go the other direction. If you are signed in to your WebNesting acc
 
 To sign out of your account:
 
-1. Click your avatar in the top-right corner and choose **Sign Out**.
+1. Select your avatar in the top-right corner, then **Sign Out**.
 
 You will be signed out and returned to the sign-in page -- this also ends "Keep me signed in" on that device.
 
@@ -227,15 +219,15 @@ You will be signed out and returned to the sign-in page -- this also ends "Keep 
 If you can't remember your password, you can reset it by email.
 
 1. Go to the login page.
-2. Click the **Forgot Password** link (next to the Login button).
-3. Enter the **email address** you use for your account.
-4. Click **Send Password Reset Link**.
+2. Select **Forgot password?** (above the **Sign in** button).
+3. Enter the address you use for your account in **Email**.
+4. Select **Send Reset Link**.
 5. You'll see the message **"If an account exists for that address, we've emailed a reset link."** The page shows this for every address, so it never reveals who has an account.
 6. Check your email inbox for a message from WebNesting.
 7. Click the **reset link** in the email.
 8. Type your **new password**.
-9. Type your new password once more in the **Confirm Password** field.
-10. Click **Reset Password**.
+9. Type your new password once more in the **Confirm new password** field.
+10. Select **Reset Password**.
 
 You will be signed in automatically with your new password.
 

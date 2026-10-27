@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-10-27 9:29am
+**Last verified:** 2026-10-27 10:11am
 
 WebNesting uses simple, usage-based pricing. This guide explains how pricing works, how to view your usage and bills, and how to pay.
 
@@ -78,14 +78,15 @@ Some of these products also include per-unit usage (e.g. emails, tickets, active
 
 1. Go to your **account portal** and open the **Workspaces** card.
 2. Open the workspace whose usage you want to see.
-3. Click **Settings** at the bottom of the left icon rail, then **Usage** under **Billing**. (The **⋮** menu in the top bar has a shortcut to **Usage** too.)
+3. Select **Settings** at the bottom of the left icon rail, then **Usage** under **Billing**. (The **⋮** menu in the top bar has a shortcut to **Usage** too.)
 
 ### What you'll see
 
 The Usage tab shows how much you use over time -- counts only, no prices. (Everything to do with money, including your free allowances and what this month will cost, is on the **Billing** page.)
 
 - **Show** picks one thing to chart at a time -- for example emails sent, tickets created, contacts or pages.
-- The chart covers every day of the range you picked, up to today, including days with nothing on them, so you can see exactly when things happened.
+- The chart covers every day of the range you picked, up to today, including days with nothing on them, so you can see exactly when things happened. Switch between **Bar** and **Line** to change how it is drawn.
+- **Export CSV** saves what you are looking at as a spreadsheet file.
 
 ### Choosing date ranges
 
@@ -112,17 +113,19 @@ Under **Usage this period**, the **From WebNesting** section lists everything We
 
 1. Go to your **account portal** and open the **Workspaces** card.
 2. Open the workspace whose bills you want to see.
-3. Click **Settings** at the bottom of the left icon rail, then **Plans & Billing** under **Billing**. (The **⋮** menu in the top bar has a shortcut to **Billing** too.)
+3. Select **Settings** at the bottom of the left icon rail, then **Plans & Billing** under **Billing**. (The **⋮** menu in the top bar has a shortcut to **Billing** too.)
 
 ### What you'll see
 
+The **Billing** page has five tabs: **Current Period**, **Invoice History**, **Payment Methods**, **Settings** and **Cost calculator**.
+
 Your billing period runs from the 1st to the last day of each month. Bills are generated on the 1st of the following month and are due by the 15th.
 
-Your monthly invoices are listed by month. Each invoice groups its charges by your workspace and by each of your websites:
+**Current Period** shows this month so far, marked **Accruing**. **Invoice History** lists your monthly invoices with their **Status**, **Total** and **Due Date**. Select an invoice to open it, and select **Download PDF** for a PDF copy. Each invoice groups its charges by your workspace and by each of your websites:
 
 - **Grouped totals** first -- your workspace and each website, collapsed to one line with a total for each.
 - Click a group's name to open it, or **Show itemized** to open every group -- each charge is listed with its price and free allowance. Click a charge to see exactly how it was worked out.
-- At the bottom, **Charges** (those amounts added up, each already after its free amount), the **Processing fee**, the **Total**, and a **Refunded** amount if any of this invoice has been refunded.
+- At the bottom, **Charges** (those amounts added up, each already after its free amount), the **Processing fee**, the **Total** (**Estimated Total** while the month is still open), and a **Refunded** amount if any of this invoice has been refunded.
 
 Anything still outstanding appears in a banner at the top of the Billing page, so unpaid invoices never hide in your history.
 
@@ -135,7 +138,7 @@ WebNesting can give your workspace something on top of your normal pricing. You 
 - **A discount or a promotion** -- a percentage or dollar amount off one product or your whole bill, worked out on what the product still owes after your free allowance.
 - **A credit** -- dollars for one product, or for your whole bill.
 - **Complimentary** -- one product, or your whole account, is not charged for a period. A complimentary account's invoice closes at $0.00 and sends no invoice email.
-- **A refund** -- back to your card, or as a credit for your next bill. WebNesting refunds a charge it billed in error, if you ask within 30 days of the invoice date. See the [refund policy](../dashboard/billing-and-usage.md#refund-policy).
+- **A refund** -- back to your card, or as a credit for your next bill. WebNesting refunds a charge it billed in error, if you ask within 30 days of the invoice date. See the [refund policy](../dashboard/billing-and-usage.md#refund-policy) and [Asking for a Refund](asking-for-a-refund.md).
 
 Where you see it:
 
@@ -159,18 +162,18 @@ What a code gives shows on your invoice as its own line, or as bonus units or a 
 
 ## Paying Your Bill
 
-When you have an outstanding balance, you'll see a **Pay Bill** button.
+When you have an outstanding balance, a banner at the top of the **Billing** page names the amount and has a **Pay Now** button (**Pay All Now** when more than one invoice is outstanding). You can also select **Pay** beside an invoice on the **Invoice History** tab.
 
-1. Click **Pay Bill**.
-2. Enter your payment details. WebNesting accepts credit and debit cards.
-3. Your payment is processed securely through Stripe.
+1. Select **Pay Now**.
+2. Enter your payment details in the window that opens. WebNesting accepts credit and debit cards. The window shows the **Amount Due**.
+3. Select the **Pay** button that shows the amount. Your payment is processed securely through Stripe.
 4. You'll see a confirmation once your payment goes through.
 
-If several invoices are outstanding, you can pay one at a time or settle all of them at once with a single card payment and a single receipt.
+If several invoices are outstanding, **Pay All Now** settles all of them at once with a single card payment and a single receipt. To save a card without paying, open the **Payment Methods** tab and select **Add Payment Method**.
 
 ### Autopay
 
-To stop thinking about bills altogether, turn on autopay under **Billing → Settings**. When your bill is ready, we charge your saved card for exactly the amount due, once. If the card is declined, we email you and try the card again each day until the bill is paid. See [Late Payments](../dashboard/billing-and-usage.md#late-payments).
+To stop thinking about bills altogether, open the **Settings** tab on the **Billing** page and turn on **Pay automatically each period**. When your bill is ready, we charge your saved card for exactly the amount due, once. The same tab holds **Billing email** (where invoices and payment receipts go) and **Billing name** (printed on each invoice). Select **Save Settings** after a change. If the card is declined, we email you and try the card again each day until the bill is paid. See [Late Payments](../dashboard/billing-and-usage.md#late-payments).
 
 > **Tip:** Your payment information is handled by Stripe, a trusted payment processor. WebNesting never sees or stores your full card number.
 

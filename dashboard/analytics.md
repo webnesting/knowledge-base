@@ -1,6 +1,6 @@
 # Analytics and Reports
 
-**Last verified:** 2026-10-26 1:34am
+**Last verified:** 2026-10-27 10:18am
 
 Analytics help you understand how people find and use your website. WebNesting includes built-in analytics so you can see how many visitors your site gets, which pages are most popular, and where your traffic comes from -- all from your dashboard.
 
@@ -26,9 +26,9 @@ WebNesting includes a privacy-friendly analytics system that tracks your visitor
 
 Built-in analytics are enabled by default for all sites. To check or change this setting:
 
-1. In the site menu, open **Settings → Site Settings**, then open **Third Party** and click **Google Settings**.
-2. Look for the **Built-In Analytics** option.
-3. Make sure analytics tracking is turned on.
+1. In the site menu, open **Settings** > **Site Settings**, then **Site Configuration**.
+2. Find **Analytics** and the **Enable first-party analytics** switch.
+3. Make sure it is turned on, then select **Save Changes** if you changed it.
 
 That is it. Once enabled, WebNesting automatically starts collecting visitor data. Data typically appears within a few hours of enabling analytics.
 
@@ -39,8 +39,9 @@ That is it. Once enabled, WebNesting automatically starts collecting visitor dat
 Your analytics dashboard shows key numbers about your website's performance. To view it:
 
 1. Go to your **Dashboard** in the admin area.
-2. Look for the analytics widgets. You may see several, including an overview panel, traffic chart, and more.
-3. Use the date range settings on each widget to view different time periods (last 7 days, 30 days, 90 days, or 12 months).
+2. Find the **Analytics** widget. If there is none, select **+ Add Widget** and choose **Analytics**. It opens on **Overview**.
+3. Select the view button at the top of the widget to switch between **Overview**, **Traffic Chart**, **Top Pages**, **Traffic Sources**, **Devices**, **Geography** and **Real-Time**.
+4. Use the date range setting to view different time periods (last 7 days, 30 days, 90 days, or 12 months).
 
 Here is what each metric means:
 
@@ -60,7 +61,7 @@ Here is what each metric means:
 
 The Traffic Chart widget shows your traffic as a visual graph over time. This makes it easy to spot trends and see how your traffic changes from day to day or week to week.
 
-1. Find the **Traffic Chart** widget on your dashboard.
+1. In the **Analytics** widget, switch the view to **Traffic Chart**.
 2. The chart shows pageviews by default. You can change it to show visitors or sessions using the widget settings.
 3. Adjust the date range to zoom in on a specific time period or zoom out to see long-term trends.
 
@@ -70,7 +71,7 @@ The Traffic Chart widget shows your traffic as a visual graph over time. This ma
 
 The Top Pages widget shows which pages on your site get the most visits.
 
-1. Find the **Top Pages** widget on your dashboard.
+1. In the **Analytics** widget, switch the view to **Top Pages**.
 2. You will see a list of your most-visited pages, ranked by number of pageviews.
 3. Each page shows its pageviews, unique visitors, average time spent on the page, and bounce rate.
 
@@ -137,7 +138,7 @@ To see one signup's source, open it from the **Submissions** tab. The **Where th
 
 The Device Breakdown widget shows what kinds of devices your visitors use.
 
-1. Find the **Device Breakdown** widget on your dashboard.
+1. In the **Analytics** widget, switch the view to **Devices**.
 2. You will see a chart showing the split between desktop computers, tablets, and mobile phones.
 3. You can switch the view to see browser or operating system breakdowns using the widget settings.
 
@@ -149,7 +150,7 @@ This is useful for making sure your site looks good on the devices your visitors
 
 The Geographic Breakdown widget shows where in the world your visitors are located.
 
-1. Find the **Geographic Breakdown** widget on your dashboard.
+1. In the **Analytics** widget, switch the view to **Geography**.
 2. You will see a list of countries ranked by number of visitors.
 
 This can help you understand your audience and tailor your content to the regions where most of your visitors live.
@@ -158,7 +159,7 @@ This can help you understand your audience and tailor your content to the region
 
 The Real-Time Visitors widget shows who is on your site right now.
 
-1. Find the **Real-Time Visitors** widget on your dashboard.
+1. In the **Analytics** widget, switch the view to **Real-Time**.
 2. You will see a count of currently active visitors.
 3. The widget updates automatically and shows live pageview activity, including which pages are being viewed and what devices visitors are using.
 
@@ -174,8 +175,8 @@ If you use Google Analytics, you can connect it to your WebNesting dashboard to 
 
 Connecting a Google account adds it to your workspace's integrations, so only the workspace owner and people whose role can add integrations (the Admin role, by default) can do it. Everyone else sees "Ask a workspace admin to connect Google Analytics." in the widget settings instead of the button.
 
-1. On your dashboard, look for the **Google Analytics** widget. If it is not on your dashboard yet, click the **Add Widget** button and select "Google Analytics" from the list.
-2. Open the widget's settings by clicking the settings icon (the gear icon).
+1. On your dashboard, look for the **Analytics** widget. If it is not on your dashboard yet, select **+ Add Widget** and choose **Analytics**.
+2. Open the widget's settings by selecting its settings icon (the gear icon).
 3. Click the **Connect Google Analytics** button.
 4. A window will open asking you to sign in to your Google account and grant permission. Follow the prompts to authorize the connection.
 5. Once connected, select which Google Analytics property you want to display.
@@ -190,7 +191,7 @@ You can adjust which metrics are shown and which property is selected at any tim
 
 To disconnect Google Analytics:
 
-1. Open the Google Analytics widget's settings.
+1. Open the **Analytics** widget's settings.
 2. Click **Disconnect**.
 3. The connection will be removed.
 

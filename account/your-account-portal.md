@@ -1,6 +1,6 @@
 # Your Account Portal
 
-**Last verified:** 2026-10-26 10:54pm
+**Last verified:** 2026-10-27 10:10am
 
 Your account portal is where you manage personal account details and jump into your workspaces. Workspaces are where your websites, billing, usage, team members, and workspace-level features live.
 
@@ -8,7 +8,7 @@ Your account portal is where you manage personal account details and jump into y
 
 ## The Account Portal Cards
 
-When you open your account portal, you'll see three cards. If you don't have a workspace yet -- for example, right after verifying a new account -- the portal leads with a **Create your first workspace** button above the cards, since a workspace is where everything else in WebNesting happens.
+When you open your account portal, you'll see three cards. If you don't have a workspace yet -- for example, right after verifying a new account -- the portal leads with a **Create Your First Workspace** button above the cards, since a workspace is where everything else in WebNesting happens.
 
 ### Profile
 
@@ -17,7 +17,7 @@ This is where your personal information lives. The page opens with your account 
 - **Profile picture**
 - **First name** and **last name**
 - **Email address** -- when you change it, WebNesting sends a confirmation link to the new address. Your workspaces open again after you click the link.
-- **Phone number**, **date of birth**, and **gender**
+- **Phone**, **Date of Birth**, and **Gender**
 - **Timezone** -- every date and time you see is shown in this timezone. If you leave it empty, your workspace's timezone is used. Due dates always show exactly as they were set, whatever your timezone.
 - **Email Preferences** -- the **Send me product updates and tips** checkbox. Turn it on to get occasional emails about new features, or off to stop them at any time.
 
@@ -25,10 +25,12 @@ This is where your personal information lives. The page opens with your account 
 
 Keep your account safe with:
 
-- **Password changes** -- Update your password at any time.
-- **Two-factor authentication** -- Adds an extra layer of protection when you sign in.
-- **Where you're signed in** -- See every browser or device signed in to your account, and sign out any you don't recognize.
+- **Password** -- Change your password at any time.
+- **Where You're Signed In** -- See every browser or device signed in to your account, and sign out any you don't recognize with **Sign Out Everywhere Else**.
+- **Two-Factor Authentication** -- Adds an extra layer of protection when you sign in. It asks for your password before a change that makes sign-in weaker.
 - **Recovery codes** -- Backup codes you can use if you lose access to your two-factor method.
+
+See [Account Security](../dashboard/account-security.md) for each step.
 
 > **Tip:** We recommend turning on two-factor authentication. It only takes a minute and makes your account much more secure.
 

@@ -1,6 +1,6 @@
 # Products and E-Commerce
 
-**Last verified:** 2026-10-03 1:34am
+**Last verified:** 2026-10-27 10:24am
 
 The E-Commerce module turns your WebNesting website into an online store. You can list products, manage orders, and give your customers a place to browse and buy -- all from the same dashboard you use to manage the rest of your site.
 
@@ -42,8 +42,8 @@ Products are the items you are selling. Each product gets its own listing with a
 
 ### Creating a New Product
 
-1. In the left sidebar, find the **Store** section and click **Product**.
-2. Click the **Create A New Product** button at the top of the page.
+1. In the site menu, open **Pages**, then **Store**, then select **Products**.
+2. Select **+ New Product** at the top of the page.
 3. Fill in the product details.
 
 ![The product editor with pricing, stock, and image options](../images/content-modules/product-editor.png)
@@ -109,7 +109,7 @@ You can view and manage all orders from your dashboard, and add an order yoursel
 
 ### Viewing Incoming Orders
 
-1. In the left sidebar, find the **Store** section and click **Order**.
+1. In the site menu, open **Pages**, then **Store**, then select **Orders**.
 2. You will see a list of all orders, with the most recent ones first.
 3. Each order shows key information at a glance.
 
@@ -189,7 +189,7 @@ If your business has physical locations (like a retail shop, office, or warehous
 
 ### Adding Store Information
 
-1. In the left sidebar, find the **Store** section.
+1. In the site menu, open **Pages**, then **Store**.
 2. Look for the store settings area.
 3. Add your location details such as:
    - Store name

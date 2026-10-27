@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-10-25 11:38pm
+**Last verified:** 2026-10-27 10:11am
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -21,12 +21,12 @@ You only pay for the modules you actually use. If you do not need a blog, do not
 To see all the modules you can add to your site:
 
 1. Log in to your dashboard.
-2. In the site menu on the left, open **Settings** and click **Modules**.
+2. In the site menu on the left, open **Settings** and select **Modules**.
 3. You will see a list of all available modules, showing which ones are currently turned on and which are off.
 
 ![The modules list showing available modules with their pricing and enable/disable controls](../images/dashboard/modules.png)
 
-Each module is shown as a card with its name, a short description of what it does, and its pricing.
+Each module is shown as a card with its name, a short description of what it does, its **Off** or **On** state, and its **Base fee**. The cards are **Form**, **Hide WebNesting branding**, **API** (Site API Access, free), **Widget Builder**, **Article**, **Event**, **Store** and **Accounts**. A **Filters** button lets you narrow the list by status.
 
 ---
 
@@ -34,10 +34,10 @@ Each module is shown as a card with its name, a short description of what it doe
 
 Turning on a module is a quick, two-step confirmation -- you see exactly what it costs before anything is turned on:
 
-1. Go to **Settings → Modules** in your site menu.
-2. Find the module you want to enable and click **Turn on**.
-3. A window shows what it costs (its rate and estimated monthly cost, plus any free pages it earns you) before anything happens.
-4. Click **Enable** to confirm, or **Cancel** to back out. Once you confirm, the module activates right away.
+1. Go to **Settings** > **Modules** in your site menu.
+2. Find the module you want to enable and select **Turn on**.
+3. A window shows **What it costs** (its hourly rate and estimated monthly cost, plus any free pages it earns you) before anything happens.
+4. Select **Enable** to confirm, or **Cancel** to back out. Once you confirm, the module activates right away.
 
 Once a module is enabled, new menu items will appear in your dashboard. For example, enabling the Articles module adds an "Articles" section where you can create and manage blog posts.
 
@@ -128,7 +128,7 @@ When you enable the Events module, you also get support for event showings and t
 
 ### Email Marketing (Workspace Product)
 
-**Monthly cost:** $20/month base + per-email pricing once you exceed the free allowance
+**Monthly cost:** $10/month base + per-email pricing once you exceed the free allowance
 
 Email marketing is a **workspace product**, not a site module. You enable it at the workspace level and it works across every site in the workspace.
 

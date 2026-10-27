@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-10-25 11:38pm
+**Last verified:** 2026-10-27 10:11am
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -18,7 +18,7 @@ Your workspace starts with the basics: website management, media, and team colla
 
 ### Websites
 
-Build and publish websites. **Websites is always on** -- it has no on/off switch and no monthly base fee of its own; each website you create is billed as it always has been. The data your websites send to visitors is billed too, as **website bandwidth**: $0.20 per GB, with your first 10 GB each month free (see [Billing and Usage](billing-and-usage.md#website-bandwidth)). Use **Create site** on the Websites card to create a website -- including your first one. Once you have a website, the **Sites** section appears in your sidebar, where your websites live.
+Build and publish websites. **Websites is always on** -- it has no on/off switch and no monthly base fee of its own; each website you create is billed as it always has been. The data your websites send to visitors is billed too, as **website bandwidth**: $0.20 per GB, with your first 10 GB each month free (see [Billing and Usage](billing-and-usage.md#website-bandwidth)). Use **Create Site** on the Websites card to create a website -- including your first one. Once you have a website, the **Sites** section appears in your sidebar, where your websites live.
 
 ### Marketing
 
@@ -76,10 +76,10 @@ Programmatic REST API access to your workspace for developers. When you enable A
 
 Turning on a product takes just a few seconds:
 
-1. Go to your workspace dashboard.
-2. Click **Products** in the settings area.
+1. Go to your workspace and select **Settings** at the bottom of the left icon rail.
+2. Select **Products** (in the side menu, or the **Products** tab at the top of the page).
 3. You will see all available products with their pricing.
-4. Click **Turn on** on the product you want to activate.
+4. Select **Turn on** on the product you want to activate.
 5. The product will be available immediately in your workspace sidebar.
 
 Once a product is enabled, new menu items will appear in your workspace sidebar. For example, enabling Marketing adds sections for contacts, campaigns, and email templates.
@@ -88,7 +88,7 @@ Once a product is enabled, new menu items will appear in your workspace sidebar.
 
 ### Add a product from your home page
 
-Your WebNesting home page also shows every product available to your workspaces, each with its pricing and where it is already active. Click a product to turn it on. If you have more than one workspace, you can choose which workspaces to enable it on — one, several, or all — in a single step, and you will see the estimated added cost before you confirm. Workspaces where you already have the product, or where you do not have permission to manage products, are shown but cannot be changed from here. Once a product is active on every workspace, its card says so (for example, **Active on all 2 workspaces**), and clicking it shows where it is active with a **View products** link for each workspace.
+The page that lists your workspaces, headed **Grow your workspace**, also shows every product available to your workspaces, each with its pricing and where it is already active (for example, **Active on 3 of 8 workspaces**). Select **Enable** on a product to turn it on. If you have more than one workspace, you can choose which workspaces to enable it on — one, several, or all — in a single step, and you will see the estimated added cost before you confirm. Workspaces where you already have the product, or where you do not have permission to manage products, are shown but cannot be changed from here. Once a product is active on every workspace, its card says so (for example, **Active on all 2 workspaces**), and clicking it shows where it is active with a **View products** link for each workspace.
 
 ---
 
@@ -140,9 +140,9 @@ Here is how pricing works for each product:
 
 If you no longer need a product:
 
-1. Go to **Products** in your workspace settings.
+1. Go to **Settings** > **Products** in your workspace.
 2. Find the product you want to turn off.
-3. Click **Turn off**.
+3. Select **Turn off**.
 4. A confirmation window states what happens up front: you can turn it off on the 1st of next month, and give up nothing this month, or turn it off now. Either way its data is **permanently deleted 30 days after it turns off** unless you turn it back on before then. Below that it lists how many of your tickets, campaigns or projects are kept. Under **If you turn it off now** it lists what you give up with **Turn off now**, for example "You'd give up about 1,150 free emails this month." That figure includes the bigger allowance that can come with [your price](billing-and-usage.md#your-price). If WebNesting gave you bonus units for the product, a second line says how many of those you give up: "You'd give up about 1,200 bonus emails from WebNesting this month." Under **While it's off** it lists what stops while the product is off. For each balance you carry over from WebNesting (bonus units or a credit for the product), a line there says it is not used while the product is off and still ends on its end date.
 5. Choose how: **Turn off on {date}** (the end of this billing month) is the default and keeps the product working -- and its free allowance still building up -- until then; **Turn off now** stops it right away instead, giving up whatever free allowance it would have earned for the rest of the month. **Keep it on** cancels and leaves everything as it was.
 

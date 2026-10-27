@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-10-22 11:05am
+**Last verified:** 2026-10-27 10:20am
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -57,7 +57,7 @@ If you find yourself applying the same filters often, you can save them as a vie
 
 There are several ways a ticket can be created:
 
-- **From the inbox** -- Click the **Create** button at the top of the ticket list to create a ticket manually. Fill in the subject, description, priority, and optionally assign it to a team member or team.
+- **From the inbox** -- Click **+ New Ticket** at the top of the ticket list to create a ticket manually. Fill in the subject, description, priority, and optionally assign it to a team member or team.
 - **From a connected website** -- If you have connected a website to the Helpdesk, visitors can submit support requests through a customer-facing portal. These automatically become tickets in your inbox.
 - **By your team** -- Any team member with Helpdesk access can create tickets on behalf of customers.
 
@@ -444,7 +444,7 @@ Example: keep your existing Gmail at `you@yourcompany.com` for personal mail, bu
 
 Best for: **branded outbound replies + required for marketing campaigns from your own domain.** Combine with any inbound option (0, 1, 2, 3, or 5) to get branded mail in both directions.
 
-1. Go to **Settings → Email → + Add Inbox**, OR straight to **Settings → Email Domains**.
+1. Go to **Settings → Email → + Add Inbox**, OR open the domains part of the same **Settings → Email** page.
 2. Add your domain (e.g. `acme.com`) and confirm in the checkbox that you control DNS for that domain.
 3. We register the domain with our email provider and show you the DNS records to publish:
    - **Domain ownership proof** (1 TXT record) — proves to us that YOU control this domain, even if it's already set up for sending somewhere else
