@@ -1,6 +1,6 @@
 # Welcome to WebNesting
 
-**Last verified:** 2026-10-27 10:18am
+**Last verified:** 2026-10-27 11:18am
 
 Thanks for choosing WebNesting! This guide will help you get comfortable with the platform and show you everything you need to know to start building your website.
 
@@ -22,6 +22,7 @@ Here is a quick look at what the platform offers:
 - **Add and manage pages** -- Create as many pages as you need (Home, About, Contact, Services, and more)
 - **Design your pages visually** -- Drag and drop components onto your page and arrange them however you like
 - **Customize your look** -- Choose a theme, pick your colors, and add your logo
+- **Browse themes before you sign up** -- Open Themes on webnesting.com to see every theme live on a real demo site, in Light or Dark, on a computer or a phone, then click Use theme to start with it
 - **Edit text and images directly** -- Click on any text or image on your page and change it right there
 - **Manage your content** -- Organize blog posts, team members, products, and other content types using built-in modules
 - **Upload and organize media** -- Store your images and files in the built-in File Manager
