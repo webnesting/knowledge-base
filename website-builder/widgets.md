@@ -1,6 +1,6 @@
 # Custom Widgets
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-10-27 4:35pm
 
 Widgets are reusable content blocks that you create once and use across multiple pages on your site. Instead of rebuilding the same section over and over, you build it once as a widget, and then place it wherever you need it.
 
@@ -293,7 +293,7 @@ The quickest way to start is a copy of the header you have now:
 
 You get a new header widget named after your site (for example "Acme header"), made of **Site logo**, **Site menu** and **Menu button** blocks laid out like your current layout. It opens in the Website Builder, where you can change anything in it. Your site keeps showing your layout until you publish the widget with **Publish & Set as Header**. Click your footer instead to make your own footer. Its copy keeps everything your footer layout shows: your logo and footer text, your social links, your footer details, your footer menus, your copyright line and your extra footer text. The social links, footer details, copyright line and extra footer text are **Site details** blocks, so they still change when you change them in **Site Settings**, and the copyright line always shows this year.
 
-> **Note:** The **Widget Builder** module must be on to make a header or footer widget. If it is off, the bar says so.
+> **Note:** You do not need the **Widget Builder** module to make your own header or footer. **Make It My Own** works on every site. You need permission to add widgets, and **Publish & Set as Header** also needs permission to edit Site Settings.
 
 ### Changing your header right on your page
 
