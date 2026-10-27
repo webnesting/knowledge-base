@@ -24,6 +24,8 @@ Welcome to WebNesting! Getting started takes just a few minutes. This guide walk
 
 That's it! You're now logged in and taken to your account portal.
 
+> **Picked a theme first?** On [WebNesting.com](https://webnesting.com) you can pick a theme and select **Use theme** before you have an account. The sign-up page then says "You picked <theme>. You can start your first site with it." WebNesting keeps the theme for your first site: when you create it, that theme is already picked. If you sign in instead, or you are already signed in, you go straight to **Create Site** with the theme picked, in the first workspace where you can add a site.
+
 > **About promotion codes:** WebNesting keeps a sign-up code for the first workspace you create. The Create Workspace page shows it again, with what it gives you, before you create the workspace. A sign-up code works on one workspace only. If the page says the code is not valid, check the spelling. A code that is meant for an existing workspace is entered on that workspace's Billing page instead (see [Billing and Usage](../dashboard/billing-and-usage.md#promotion-codes)).
 
 > **Tip:** Use an email address you check regularly. You'll need it to verify your account and receive important updates.

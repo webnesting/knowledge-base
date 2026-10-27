@@ -1,6 +1,6 @@
 # Setting Up Your Site
 
-**Last verified:** 2026-10-27 10:18am
+**Last verified:** 2026-10-27 10:53am
 
 When you create a new WebNesting site, you give it a name and pick how it starts. This page walks you through each choice so you know exactly what to expect.
 
@@ -38,6 +38,8 @@ Under **How do you want to start?**, pick one of these:
 ## Step 3: Pick a Look
 
 If you chose **Start from a theme**, you see a list of looks. Each one is drawn with your own site name.
+
+If you picked a theme on WebNesting.com before you signed up or signed in, that theme is already picked. The line above the list says "You picked <theme> on webnesting.com." You can still pick another look. Once you create a site, the next new site starts on the first look again.
 
 The list comes in this order:
 
