@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-10-26 8:35am
+**Last verified:** 2026-10-27 9:29am
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -288,11 +288,21 @@ WebNesting emails the workspace owner when it gives the workspace something. Eac
 | **Your complimentary account ends in 7 days** / **Complimentary Marketing ends in 7 days** | A reminder that a complimentary period ends. After that date your invoice shows the normal charges. |
 | **Your promotion ends in 7 days** | A reminder that an offer ends. After that date your invoice shows the normal charges. |
 | **Your bonus has ended** (or credit, discount, special price, allowance, complimentary account or complimentary period) | WebNesting ended something before its end date. Your next invoice shows the normal charges. |
-| **Refund issued — …** | A refund was sent to your card. For a refund of units from an earlier month, it also says how many units and at what price. See [How a refund reaches you](#how-a-refund-reaches-you). |
+| **Refund issued — …** | A refund was sent to your card. For a refund of units from an earlier month, it also says how many units and at what price. The button, **View Invoice**, opens that invoice. See [How a refund reaches you](#how-a-refund-reaches-you). |
 
 Every email has one button, **View Billing** or **View Usage**. It opens that page of your workspace after you sign in.
 
 Something with no end date gets no reminder. If something is given with less than 7 days to go, the first email already names the end date, so no reminder follows.
+
+### Refund policy
+
+**What is refunded.** WebNesting refunds a charge it billed in error in full. An error is a bug, a duplicate charge or a wrong usage figure. You choose whether the refund goes back to your card or comes as a credit on your next bill.
+
+**What is not refunded.** Usage that was billed correctly is not refundable. WebNesting bills each month's usage after you have used it.
+
+**How long you have.** Ask within 30 days of the invoice date.
+
+**How to ask.** Open a Billing ticket with Support. WebNesting approves each refund, and Support tells you the result. If the refund is approved, see [How a refund reaches you](#how-a-refund-reaches-you).
 
 ### How a refund reaches you
 

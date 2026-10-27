@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-10-26 1:38am
+**Last verified:** 2026-10-27 9:29am
 
 WebNesting uses simple, usage-based pricing. This guide explains how pricing works, how to view your usage and bills, and how to pay.
 
@@ -135,7 +135,7 @@ WebNesting can give your workspace something on top of your normal pricing. You 
 - **A discount or a promotion** -- a percentage or dollar amount off one product or your whole bill, worked out on what the product still owes after your free allowance.
 - **A credit** -- dollars for one product, or for your whole bill.
 - **Complimentary** -- one product, or your whole account, is not charged for a period. A complimentary account's invoice closes at $0.00 and sends no invoice email.
-- **A refund** -- back to your card, or as a credit for your next bill.
+- **A refund** -- back to your card, or as a credit for your next bill. WebNesting refunds a charge it billed in error, if you ask within 30 days of the invoice date. See the [refund policy](../dashboard/billing-and-usage.md#refund-policy).
 
 Where you see it:
 
