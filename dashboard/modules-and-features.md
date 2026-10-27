@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-10-27 11:48am
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -72,6 +72,8 @@ Here is how it works:
 - **Module fees appear on your monthly bill.** You can see a breakdown of all charges in your billing section.
 
 > **Tip:** Visit the **Billing** section of your account to see exactly what you are being charged for each month.
+
+**Website bandwidth is billed apart from modules.** It is the data your public websites send to visitors: pages, pictures, videos and files. It costs $0.20 per GB, and your first 10 GB each month are free. You do not turn it on or off. The **Usage** page shows it, with the files that sent the most. To lower it, embed long videos from YouTube or Vimeo. See [Website bandwidth](billing-and-usage.md#website-bandwidth).
 
 ---
 
