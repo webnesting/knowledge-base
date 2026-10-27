@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-10-27 8:35am
+**Last verified:** 2026-10-27 9:39am
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -44,7 +44,7 @@ An art deco editorial style with dramatic serif typography and rich burgundy-and
 
 A warm, hand-made studio look with terracotta and deep teal on a sand background. Headings use a bold, friendly typeface. Buttons are fully rounded, and cards have a crisp outline with a solid offset shadow, like a printed stamp. Your site name sits in the middle of the header, with your menu on both sides. This light theme comes with a matching dark mode. It suits makers, studios, cafés, craft shops and anyone who wants a site that feels made by hand.
 
-> **Tip:** You can preview each theme with your own home page before you switch. Take your time and try them all to see which one fits your brand best.
+> **Tip:** Each theme card shows your own home page, and you can open any theme full screen before you switch. Take your time and try them all to see which one fits your brand best.
 
 Every theme has a light mode and a dark mode. Midnight Slate is made dark; the others are made light. Your site shows the mode its theme was made in until you pick one (see [Light and Dark Mode](#light-and-dark-mode)).
 
@@ -92,16 +92,16 @@ While your site is set up, the last step reads **Applying your look**. If a look
 
 Your site shows the new look right away. Your pages, text and images stay as they are.
 
-To see a theme before you switch, click the **⋮** menu on its card and choose **Preview**. A window opens with your own home page in that theme.
+Every card shows your own home page in that theme. To see a theme before you switch, click its picture. The theme opens almost full screen. Use **See it on** to look at any other page of your site. Use **Light** and **Dark** to see both modes, and **Computer** and **Phone** to see both screen sizes. If you like it, click **Use This Theme**. Click **Close** to go back.
 
 ---
 
 ## Making a Theme Your Own
 
-You can change a theme's colors and shapes. Your changes go into your own copy, so the built-in theme stays as it is.
+You can change a theme's colors and shapes. Your changes go into your own version of the theme, so the built-in theme stays as it is.
 
 1. On a built-in theme's card, open the **⋮** menu and choose **Customize**. (On the card of the theme your site uses, **Customize** is also the card's own button.)
-2. WebNesting makes your copy, named "My" and the theme's name (for example, "My Bold Deco"), and opens it.
+2. WebNesting makes your own theme, named "My" and the theme's name (for example, "My Bold Deco"), and opens it. It then shows under **Your themes**.
 3. Make your changes. The preview beside the controls shows your home page with every change as you make it.
 4. Save your changes (see [Saving Your Changes](#saving-your-changes) below).
 
@@ -265,6 +265,8 @@ The large pictures at the top of each part are your own home page with the layou
 
 On phones and small tablets, your menu sits behind a menu button. It opens from the side you picked. Visitors can open it with the keyboard too, and close it with **Esc**.
 
+A page layout can have its own header or footer. This page then names those layouts and links to the Website Builder, where you change them. To give one layout its own header, see [Layouts and Structure](../website-builder/layouts-and-structure.md#a-different-header-for-some-pages).
+
 > **Tip:** If your header menu has no pages yet, the page says so and links to **Pages**, where you add pages to the header menu.
 
 ### Announcement Bar
@@ -333,7 +335,7 @@ To show the switch somewhere else too, open the Website Builder and add the **Li
 Each theme comes with colors for both modes. Click **Show Light and Dark Colors** under **Colors for each mode** to see a light and a dark color for each of your five main colors.
 
 - If your site uses one of your own themes, click a color to change it. Click **Save Changes** to save the mode and the colors together.
-- If your site uses a built-in theme, click **Customize [theme name]** to make your own copy first.
+- If your site uses a built-in theme, your first change makes your site's own version of it, under **Your themes**. Click **Customize [theme name]** to start.
 
 Your **Main color** and **Accent color** stay the same in both modes until you change one of them for one mode.
 

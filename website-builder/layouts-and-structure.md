@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-08-31 12:10pm
+**Last verified:** 2026-10-27 9:39am
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -17,6 +17,19 @@ Every page in WebNesting is made up of layers, like a sandwich:
 - **Footer** -- The bottom of your page. This typically holds contact information, links, copyright notices, and social media icons.
 
 The header and footer usually stay the same across all pages on your site. The main content area is where each page gets its own unique content.
+
+### A different header for some pages
+
+A page layout can show its own header or footer. The other pages keep the header of your site.
+
+1. Open a page that uses the layout, in the Website Builder.
+2. Click the header (or the footer) on the page. **Settings** opens.
+3. Next to **Applies to**, click **This layout only**. The line under it says how many pages change.
+4. Pick a **Layout**, the side the phone menu opens from, or **Use** one of your own headers.
+
+Each choice starts as **Same as the rest of the site**, so you only change what you want. The change is saved when you save the page. To make a header of your own, click **Make It My Own** on the header.
+
+To go back, click **Every page**. The builder asks first, because the layout's own settings are removed. **Settings → Header & Footer** lists the layouts that keep their own header or footer, with a link to the Builder.
 
 The Main component represents the primary content area of your page. Most pages use one Main component between the header and footer. Layouts typically include a Main component by default.
 
