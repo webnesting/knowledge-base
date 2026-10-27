@@ -170,7 +170,7 @@ If several invoices are outstanding, you can pay one at a time or settle all of 
 
 ### Autopay
 
-To stop thinking about bills altogether, turn on autopay under **Billing → Settings**. Your bill is then paid automatically each month and late fees never apply to you.
+To stop thinking about bills altogether, turn on autopay under **Billing → Settings**. When your bill is ready, we charge your saved card for exactly the amount due, once. If the card is declined, we email you and try the card again each day until the bill is paid. See [Late Payments](../dashboard/billing-and-usage.md#late-payments).
 
 > **Tip:** Your payment information is handled by Stripe, a trusted payment processor. WebNesting never sees or stores your full card number.
 
@@ -178,7 +178,7 @@ To stop thinking about bills altogether, turn on autopay under **Billing → Set
 
 ## What Happens If You Don't Pay
 
-If a bill isn't paid by the due date (the 15th), it is automatically marked overdue. You'll get an email reminder, and a one-time 5% late fee is added to the outstanding balance. Turning on autopay avoids this entirely.
+A bill is due on the 15th, and a payment any time on the 15th is on time. If it is still unpaid once the 15th is over, it is marked overdue. You'll get an email reminder, and a one-time late fee of 5% of the amount due is added. With autopay on and a working card, your bill is paid before then.
 
 ---
 

@@ -180,9 +180,9 @@ The charges are the ones your **Billing** page shows for the month, after your f
 
 ### Late Payments
 
-If a bill is not paid by its due date (the 15th), it is automatically marked overdue. You get an email reminder and a one-time 5% late fee is added to the outstanding balance.
+A bill is due on the 15th. A payment any time on the 15th is on time. If the bill is still unpaid once the 15th is over, it is marked overdue. You get an email reminder, and a one-time late fee of 5% of the amount due is added. It is added once, never again on the same bill.
 
-The simplest way to never think about this is autopay: turn it on under **Billing → Settings** and your bill is paid automatically each month, so late fees never apply to you.
+The simplest way to never think about this is autopay: turn it on under **Billing → Settings**. When your bill is ready, we charge your saved card for exactly the amount due, once. If the card is declined, the bill stays unpaid. We email the workspace owner and try the card again each day. If your bank asks you to confirm the payment yourself, autopay cannot do that, so pay the bill on the Billing page. Pay the bill or save a working card before the 15th is over, and no late fee is added.
 
 ### Paused sites and videos
 
