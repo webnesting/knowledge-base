@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-10-25 4:37am
+**Last verified:** 2026-10-26 10:56pm
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -177,7 +177,7 @@ Each slider moves through named steps:
 
 ### Previewing Your Changes
 
-- The preview beside the controls updates as you change things. Use **Computer** and **Phone** above it to see both sizes. On a phone, the preview is a short band at the top of the page.
+- The preview beside the controls updates the moment you change a control: a color, a font, a slider or **Light Mode** / **Dark Mode**. It never reloads, so you keep your place on the page. Use **Computer** and **Phone** above it to see both sizes. On a phone, the preview is a short band at the top of the page.
 - Click **Preview on My Site** to open your real site in a new tab with your unsaved changes. Only you see this preview. Your visitors see your site as it is until you save.
 
 ### Saving Your Changes
@@ -257,7 +257,7 @@ Pick how your logo and menu sit at the top of every page, and what sits at the b
 5. Under **Footer**, click a layout: **Three columns**, **Centered**, **Large, with all menus** or **Simple**.
 6. Click **Save Changes**. Your site shows the new layouts at once. One Save Changes saves everything on this page: the layouts, the announcement bar, Back to top and Between pages.
 
-The large pictures at the top of each part are your own home page with the layout you picked. The phone picture shows the menu open. The layout marked **This theme's default** is the one your theme comes with.
+The large pictures at the top of each part are your own home page with the layout you picked. They change the moment you click a layout or a side, with no reload. The phone picture shows the menu open. The layout marked **This theme's default** is the one your theme comes with.
 
 On phones and small tablets, your menu sits behind a menu button. It opens from the side you picked. Visitors can open it with the keyboard too, and close it with **Esc**.
 
@@ -275,7 +275,7 @@ The announcement bar is a short message in a bar above your header. It shows on 
 6. Turn **Let visitors close the bar** on or off.
 7. Click **Save Changes**.
 
-The two pictures next to the settings show your home page on a computer and on a phone, with the bar as you typed it. They change before you save.
+The two pictures next to the settings show your home page on a computer and on a phone, with the bar as you typed it. Each letter you type shows in them at once, before you save.
 
 **When visitors close the bar.** A visitor who closes the bar does not see it again on that browser. When you change the message, every visitor sees the bar again. A change to the link or the link words does not bring it back. If you turn off **Let visitors close the bar**, the bar has no close button and every visitor sees it.
 
