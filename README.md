@@ -1,6 +1,6 @@
 # WebNesting User Documentation
 
-**Last verified:** 2026-10-26 5:44pm
+**Last verified:** 2026-10-27 9:38am
 
 Welcome to the WebNesting help center. These guides will help you build and manage your website.
 
@@ -20,6 +20,7 @@ Welcome to the WebNesting help center. These guides will help you build and mana
 |-------|-------------|
 | [Welcome to WebNesting](getting-started/welcome.md) | What WebNesting is, how to log in, and what to expect |
 | [Quick Start Guide](getting-started/quick-start-guide.md) | Get up and running in 10 minutes -- setup, first edits, and publishing |
+| [Your First 30 Minutes (Alpha Checklist)](getting-started/alpha-first-30-minutes.md) | Six things to try in your first 30 minutes, and how to tell us what went wrong |
 | [Setting Up Your Site](getting-started/setting-up-your-site.md) | Choose a theme, pick colors, apply a template, and configure your site |
 | [Navigating the Dashboard](getting-started/navigating-the-dashboard.md) | Tour of the dashboard, sidebar navigation, and where to find everything |
 | [Your Workspace Home](getting-started/your-workspace-home.md) | The workspace home cards and a five-minute daily check of tickets, tasks, email results and your site |

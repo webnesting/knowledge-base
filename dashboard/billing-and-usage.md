@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-10-27 9:29am
+**Last verified:** 2026-10-27 10:11am
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -178,11 +178,13 @@ The charges are the ones your **Billing** page shows for the month, after your f
 
 **Website bandwidth emails.** Website bandwidth has its own emails. Bandwidth updates once a day. After an update, the workspace owner gets an email the first time in the month that the website bandwidth charge passes $10, then $50, then $250, then $500, $1,000 and each doubling after that. The charge counts after your free 10 GB (less in the month your workspace was created). The email gives the GB your sites sent so far, the charge, the three files that sent the most and the next amount we email you at, with a **See Your Usage** button. If one update passes two amounts, you get one email naming the higher one. If the spending alert above goes out after the same update, the bandwidth email waits for the next update, so you get one email at a time.
 
+**On the Billing page.** For the rest of that month, the **Billing** page also shows a note at the top with the same news: charges passed the amount, or website bandwidth passed its amount. If your workspace has no saved card yet, the note has an **Add Payment Method** button. Your charges below the note do not change.
+
 ### Late Payments
 
 A bill is due on the 15th. A payment any time on the 15th is on time. If the bill is still unpaid once the 15th is over, it is marked overdue. You get an email reminder, and a one-time late fee of 5% of the amount due is added. It is added once, never again on the same bill.
 
-The simplest way to never think about this is autopay: turn it on under **Billing → Settings**. When your bill is ready, we charge your saved card for exactly the amount due, once. If the card is declined, the bill stays unpaid. We email the workspace owner and try the card again each day. If your bank asks you to confirm the payment yourself, autopay cannot do that, so pay the bill on the Billing page. Pay the bill or save a working card before the 15th is over, and no late fee is added.
+The simplest way to never think about this is autopay: open the **Settings** tab on the **Billing** page and turn on **Pay automatically each period**. When your bill is ready, we charge your saved card for exactly the amount due, once. If the card is declined, the bill stays unpaid. We email the workspace owner and try the card again each day. If your bank asks you to confirm the payment yourself, autopay cannot do that, so pay the bill on the Billing page. Pay the bill or save a working card before the 15th is over, and no late fee is added.
 
 ### Paused sites and videos
 
@@ -201,8 +203,8 @@ A pause deletes nothing. During a review you can still sign in and work in your 
 To see your current and past bills:
 
 1. Open the workspace you want to look at.
-2. Click **Settings** at the bottom of the left icon rail, then **Plans & Billing** under **Billing**. (You can also reach it from the **⋮** menu in the top bar → **Billing**.)
-3. You will see your billing summary. Anything outstanding appears in a banner at the top -- you can pay a single invoice on the spot, or settle every unpaid invoice at once with one card payment and one receipt.
+2. Select **Settings** at the bottom of the left icon rail, then **Plans & Billing** under **Billing**. (You can also reach it from the **⋮** menu in the top bar → **Billing**.)
+3. You will see your billing summary on the **Current Period** tab. Past invoices are on **Invoice History**: select one to open it, or **Download PDF** for a copy. Anything outstanding appears in a banner at the top -- **Pay Now** pays a single invoice on the spot, and **Pay All Now** settles every unpaid invoice at once with one card payment and one receipt.
 4. Each invoice groups its charges by your workspace and by each of your websites, with a last group, **From WebNesting**, for anything WebNesting gave you -- collapsed to one line with a total for each. Click a group's name to open just that group, or **Show itemized** to open them all -- each charge is listed underneath with its price and free allowance. Underneath, **Charges** adds up those amounts (each already has its free amount taken off), then the **Processing fee**, then your **Total**, and a **Refunded** amount if any of this invoice has been refunded.
 5. **Click any line to see exactly how it was worked out.** A breakdown opens showing the math behind the amount (for example, "40 tickets − 20 free earned × $0.05 = $1.00"), a strip showing when the product was on this month, and -- for anything metered by events, like emails or tickets -- a chart of your usage against your free allowance with a projection to the end of the month.
 
@@ -302,7 +304,7 @@ Something with no end date gets no reminder. If something is given with less tha
 
 **How long you have.** Ask within 30 days of the invoice date.
 
-**How to ask.** Open a Billing ticket with Support. WebNesting approves each refund, and Support tells you the result. If the refund is approved, see [How a refund reaches you](#how-a-refund-reaches-you).
+**How to ask.** Open a Billing ticket with Support. WebNesting approves each refund, and Support tells you the result. If the refund is approved, see [How a refund reaches you](#how-a-refund-reaches-you). Step by step: [Asking for a refund](../account/asking-for-a-refund.md).
 
 ### How a refund reaches you
 
@@ -402,7 +404,6 @@ Here is a quick summary of what is tracked:
 | Pages | Total number of pages on your site at any given time |
 | Storage | Everything we store for you across your workspace -- your uploads, helpdesk attachments, and form uploads |
 | Website bandwidth | The data your public websites send to visitors, in GB for the whole workspace, added up over the month |
-| Admin users | Number of people with admin access to your site |
 | Modules | Whether each module is turned on or off |
 
 ### How Usage Is Measured
