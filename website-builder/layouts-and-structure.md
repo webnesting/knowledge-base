@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-10-27 5:24pm
+**Last verified:** 2026-10-27 6:23pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -32,6 +32,9 @@ The header's parts:
 - **Links and switches** -- your social links, the language switcher and the light and dark switch. Your social profiles are in **Site Settings → Connections → Social Settings**. On phones, the social links move into the menu.
 - **Button** -- a button with your own words and link, such as "Book a call". It can open in a new tab and be filled or outlined. On phones, it moves into the menu.
 - **Top bar** -- a thin bar above the header with a short message, a phone number, an email address and your social links.
+- **Announcement bar** -- a short message in your theme's main color, above everything else. See [Announcement bar](#announcement-bar).
+
+The header's **Settings** also has **Phone menu opens from**: **Right**, **Left** or **Top**. On phones and small tablets, the menu sits behind a menu button and opens from this side.
 
 The footer's parts:
 
@@ -43,18 +46,41 @@ The footer's parts:
 
 The words you type here replace the header and footer text that used to be in **Site Settings → Content → Site Messages**. Your old words were moved here for you.
 
+### Announcement bar
+
+The announcement bar is a short message in a bar above your header. Use it for a sale, a closing day or a new address. It shows on every page that uses this header.
+
+1. In the Website Builder, click your header. **Settings** opens.
+2. Under **Announcement bar**, turn on **Show an announcement bar**.
+3. Type your **Message**. Use 140 characters or fewer. A line break becomes a space, so the bar stays on one line where it fits.
+4. If you want a link, type it in **Link**. Use a web address that starts with `https://`, `mailto:` or `tel:`, or a page on your site like `/sale`.
+5. Type the **Link text**, up to 30 characters. If you leave it empty, the link reads **Learn more**.
+6. Turn **Visitors can close it** on or off.
+7. Publish the page.
+
+The bar shows on the page in the builder as you type. Click the bar to open the header's **Settings**. While the message is empty, the bar shows a note in its place, and visitors see no bar. If a message or link needs a fix, the field says so under it.
+
+**When visitors close the bar.** A visitor who closes the bar does not see it again on that browser. When you change the message, every visitor sees the bar again. A change to the link or the link text does not bring it back. If you turn off **Visitors can close it**, the bar has no close button and every visitor sees it.
+
+**Turning it off.** Turn off **Show an announcement bar** and publish. Your message, link and link text stay saved for the next time you turn it on.
+
+**More than one language.** If your site has more than one language, write the message in each language the way you write the header's other words. A language you leave empty shows your main language's message. Empty link text reads **Learn more** in each visitor's language, such as "En savoir plus" in French.
+
+The bar used to be in **Site Settings → Appearance → Header & Footer**. Your bar was moved onto your header for you. The bar never shows on your Coming Soon page.
+
 ### A different header for some pages
 
 A page layout can show its own header or footer. The other pages keep the header of your site.
 
 1. Open a page that uses the layout, in the Website Builder.
 2. Click the header (or the footer) on the page. **Settings** opens.
-3. Next to **Applies to**, click **This layout only**. The line under it says how many pages change.
-4. Pick a **Layout**, the side the phone menu opens from, or **Use** one of your own headers.
+3. Pick a **Layout**, or **Use** one of your own headers.
 
-Each choice starts as **Same as the rest of the site**, so you only change what you want. The change is saved when you save the page. To make a header of your own, click **Make It My Own** on the header.
+Each choice starts as **Same as the rest of the site**, so you only change what you want. Everything in the header's **Settings** changes this header only, never your whole site. The change is saved when you save the page. To make a header of your own, click **Make It My Own** on the header.
 
-To go back, click **Every page**. The builder asks first, because the layout's own settings are removed. **Settings → Header & Footer** lists the layouts that keep their own header or footer, with a link to the Builder.
+To go back, pick **Same as the rest of the site** again. **Settings → Header & Footer** lists the layouts that keep their own header or footer, with a link to the Builder.
+
+**Make This the Site Default.** While a header shows another layout than the rest of your site, its toolbar has **Make This the Site Default**. Click it to make that layout your site's header. Every page that follows the site then shows it, and this header goes back to **Same as the rest of the site**. The footer works the same way. You need permission to change Site Settings to see this button.
 
 The **Content area** block represents the primary content area of your page. Most pages use one **Content area** between the header and footer. Layouts include one by default.
 

@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-10-27 5:24pm
+**Last verified:** 2026-10-27 6:23pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -53,7 +53,7 @@ Each language you add gets its own address. Your main language stays at the root
 
 With more than one language, a row of language names sits under these settings. Click a language to write its words:
 
-- **Header & Footer:** the announcement bar's message and link words, and the header and footer each language shows.
+- **Header & Footer:** the header and footer each language shows. The announcement bar's words are in your header's **Settings** in the Website Builder, one row per language like the header's other words.
 - **Site Messages:** the maintenance message.
 - **SEO Settings:** the title and description search engines show.
 

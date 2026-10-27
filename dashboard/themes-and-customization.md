@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-10-27 3:20pm
+**Last verified:** 2026-10-27 6:23pm
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -247,7 +247,7 @@ The copy is separate: changing one doesn't change the other. Its fonts come alon
 
 ## Header and Footer Layouts
 
-Pick how your logo and menu sit at the top of every page, and what sits at the bottom. Your pages and menus stay the same; only their arrangement changes.
+Pick the type of header at the top of every page, and the type of footer at the bottom. Your pages and menus stay the same; only their arrangement changes. Everything else about your header and footer is in the Website Builder: click the header or footer on a page and open **Settings**. See [Layouts and Structure](../website-builder/layouts-and-structure.md#choosing-what-your-header-and-footer-show).
 
 1. In the site menu, open **Settings** and click **Site Settings**.
 2. Under **Appearance**, click **Header & Footer**.
@@ -257,51 +257,36 @@ Pick how your logo and menu sit at the top of every page, and what sits at the b
    - **Logo above menu** -- your logo on top, your menu in a row under it.
    - **Logo and menu button** -- your logo and a menu button. The menu opens in a side panel.
    - **Menu on both sides** -- your menu on the left, your logo in the middle, your buttons on the right.
-4. Under **On phones, the menu opens from**, pick **Left**, **Right** or **Top**.
-5. Under **Footer**, click a layout: **Three columns**, **Centered**, **Large, with all menus** or **Simple**.
-6. Click **Save Changes**. Your site shows the new layouts at once. One Save Changes saves everything on this page: the layouts, the announcement bar, Back to top and Between pages.
+4. Under **Footer**, click a layout: **Three columns**, **Centered**, **Large, with all menus** or **Simple**.
+5. Click **Save Changes**. Your site shows the new layouts at once.
 
-The large pictures at the top of each part are your own home page with the layout you picked. They change the moment you click a layout or a side, with no reload. The phone picture shows the menu open. The layout marked **This theme's default** is the one your theme comes with.
+The large pictures at the top of each part are your own home page with the layout you picked. They change the moment you click a layout, with no reload. The phone picture shows the menu open. The layout marked **This theme's default** is the one your theme comes with.
 
-On phones and small tablets, your menu sits behind a menu button. It opens from the side you picked. Visitors can open it with the keyboard too, and close it with **Esc**.
+On phones and small tablets, your menu sits behind a menu button. Visitors can open it with the keyboard too, and close it with **Esc**. It opens from the right. To change the side, click your header in the Website Builder and pick **Phone menu opens from** in its **Settings**.
 
 A page layout can have its own header or footer. This page then names those layouts and links to the Website Builder, where you change them. To give one layout its own header, see [Layouts and Structure](../website-builder/layouts-and-structure.md#a-different-header-for-some-pages).
 
 > **Tip:** If your header menu has no pages yet, the page says so and links to **Pages**, where you add pages to the header menu.
 
-### Announcement Bar
+You can also show one of your own widgets as your header or footer. While it is in use, this page shows **Your own header** in place of the layout choices, with **Edit Header** and **Go Back to a Standard Layout**. See [Using a Widget as Your Header or Footer](../website-builder/widgets.md#using-a-widget-as-your-header-or-footer).
 
-The announcement bar is a short message in a bar above your header. It shows on every page of your site, in your theme's main color. Use it for a sale, a closing day or a new address.
+The announcement bar is a part of your header. See [Announcement Bar](../website-builder/layouts-and-structure.md#announcement-bar).
 
-1. Open **Header & Footer** as in the steps above.
-2. Under **Announcement bar**, turn on **Show announcement bar**.
-3. Type your **Message**. Use 140 characters or fewer. A line break becomes a space, so the bar stays on one line where it fits.
-4. If you want a link, type it in **Link (optional)**. Use a web address that starts with `https://`, `mailto:` or `tel:`, or a page on your site like `/sale`.
-5. Type the **Link words**, up to 30 characters. If you leave them empty, the link reads **Learn more**.
-6. Turn **Let visitors close the bar** on or off.
-7. Click **Save Changes**.
+---
 
-The two pictures next to the settings show your home page on a computer and on a phone, with the bar as you typed it. Each letter you type shows in them at once, before you save.
+## Back to Top and Page Fades
 
-**When visitors close the bar.** A visitor who closes the bar does not see it again on that browser. When you change the message, every visitor sees the bar again. A change to the link or the link words does not bring it back. If you turn off **Let visitors close the bar**, the bar has no close button and every visitor sees it.
-
-**Turning it off.** Turn off **Show announcement bar** and click **Save Changes**. Your message, link and link words stay saved for the next time you turn it on.
-
-**More than one language.** If your site has more than one language, a row of language names sits under **Message** and **Link words**. Click a language to write its words, and the two pictures show that language's home page. A language you leave empty shows your main language's message. Empty link words read **Learn more** in each visitor's language, such as "En savoir plus" in French. Under **In each language** you can see which header and footer each language shows.
-
-> **Tip:** If a field needs a fix, Save Changes says so and marks the field. Nothing on your site changes until every field is right.
+Two settings for your whole site sit on the **Theme** page, under your themes: **Back to top** and **Between pages**. To open them, go to **Site Settings**, then **Appearance**, then **Theme**. In the Website Builder, the same two settings are in **Site design → Theme**.
 
 ### Back to Top Button
 
-Under the footer settings, **Back to top** has one setting, **Show a Back to top button**. When it is on, a small button shows in the corner of the page after a visitor scrolls down one screen. A short page never shows it. The button takes the visitor back to the top of the page, and the keyboard moves to the top too. On a site that shows the WebNesting badge at the bottom, the button sits just above the badge on every screen size.
+**Back to top** has one setting, **Show a Back to top button**. It saves the moment you click it, and a message says so. When it is on, a small button shows in the corner of the page after a visitor scrolls down one screen. A short page never shows it. The button takes the visitor back to the top of the page, and the keyboard moves to the top too. On a site that shows the WebNesting badge at the bottom, the button sits just above the badge on every screen size.
 
 ### Fade Between Pages
 
-Below **Back to top**, **Between pages** has one setting, **Fade smoothly between pages**. See [Smooth Page Changes](../website-builder/animations-and-interactions.md#smooth-page-changes).
+Below **Back to top**, **Between pages** has one setting, **Fade smoothly between pages**. It also saves the moment you click it. See [Smooth Page Changes](../website-builder/animations-and-interactions.md#smooth-page-changes).
 
 Under it, your home page shows on a computer and on a phone. While the fade is on, click **Play** to see a visitor move from Home to the first other page of your header menu, with the fade. It plays once by itself when you turn the fade on. Click **Back to Home** to start again. If your device asks for less motion, or your browser can't show the fade, the line under **Play** says so.
-
-You can also show one of your own widgets as your header or footer. While it is in use, this page shows **Your own header** in place of the layout choices, with **Edit Header** and **Go Back to a Standard Layout**. See [Using a Widget as Your Header or Footer](../website-builder/widgets.md#using-a-widget-as-your-header-or-footer).
 
 ---
 

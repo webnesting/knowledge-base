@@ -1,6 +1,6 @@
 # Animations and Interactions
 
-**Last verified:** 2026-10-25 7:18pm
+**Last verified:** 2026-10-27 6:23pm
 
 Make your page feel alive when someone scrolls, without writing any code. This guide covers the animations you can add to any block in the Website Builder. Every effect on a block lives in one place: **Motion**, in the Styler.
 
@@ -320,17 +320,16 @@ Visitors who turn on **Reduce motion** on their device see the section as normal
 
 ## Smooth Page Changes
 
-When a visitor clicks a link on your site, the next page can fade in over the last one. Without it, the screen can flash for a moment between pages. This setting is for your whole site, so it lives in Site Settings, not in the Website Builder.
+When a visitor clicks a link on your site, the next page can fade in over the last one. Without it, the screen can flash for a moment between pages. This setting is for your whole site, so it lives with your theme: on the **Theme** page in Site Settings, and in the Website Builder's **Site design** panel.
 
 ### Turn It On
 
 1. In the site menu, open **Settings** and click **Site Settings**.
-2. Under **Appearance**, click **Header & Footer**.
-3. Scroll to **Between pages**.
-4. Turn on **Fade smoothly between pages**.
-5. Click **Save Changes**. You do not need to publish. Visitors see the fade within about a minute.
+2. Under **Appearance**, click **Theme**.
+3. Scroll past your themes to **Between pages**.
+4. Turn on **Fade smoothly between pages**. It saves at once, and a message says so. You do not need to publish. Visitors see the fade within about a minute.
 
-To go back to normal page changes, turn the setting off and click **Save Changes**.
+To go back to normal page changes, turn the setting off. In the Website Builder, the same setting is in **Site design → Theme**.
 
 ### What Visitors See
 
