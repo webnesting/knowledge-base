@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-10-25 11:38pm
+**Last verified:** 2026-10-26 11:03pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -14,7 +14,7 @@ Think of Email Marketing as your own built-in newsletter and contact management 
 
 Every contact you collect gets stored at the workspace level with their name, email, subscription status, and any custom information you want to track. You can organize contacts into lists (like "Newsletter" or "VIP Customers"), tag them for quick filtering (like "Attended Workshop" or "New Lead"), and manage their subscription preferences.
 
-Email Marketing is designed to work alongside your websites. Visitors can sign up through forms on your pages, and their information flows directly into your workspace contact database. If you also have the Forms module enabled on a site, form submissions can automatically create or update workspace contacts -- no manual data entry needed.
+Email Marketing is designed to work alongside your websites. Visitors can sign up through forms on your pages, and their information flows directly into your workspace contact database. If you also have the Forms module enabled on a site, form submissions can automatically create workspace contacts, and fill in details missing from contacts you already have -- no manual data entry needed.
 
 Pricing: $10/month base plus per-email pricing once you exceed the free allowance -- **about 10,000 emails each month are free**, then sending costs **$0.70 per 1,000 emails**. That free allowance builds up hour by hour while Marketing is turned on, so a 31-day month earns a little more than "10,000" and February a little less. Marketing earns no free emails while it's off. Emails sent by your [automations](../dashboard/marketing-automation.md) count with campaign emails, at the same price and from the same free emails. Workspace contacts are billed separately, once for the whole workspace, at **$5 per 1,000 contacts per month (first 500 free)**.
 
@@ -295,7 +295,7 @@ Then click **Save & Publish**.
 When someone submits a form that has both settings:
 
 1. The email address is read from the field whose **Marketing Field** is **Email**.
-2. If a contact with that email already exists, their record is updated with any new information.
+2. If a contact with that email already exists, the form fills in only what their record is missing, such as an empty phone number. Details already saved on the contact are never changed, because anyone can type an email address. Everything the person typed is still saved under the form's **Submissions** tab.
 3. If the contact is new, a new contact record is created, with the form shown as its source.
 4. If you chose lists under **Add to Lists** or tags under **Apply Tags** on the Routing tab, the contact gets them.
 
