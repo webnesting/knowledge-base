@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-10-27 3:20pm
+**Last verified:** 2026-10-27 5:24pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -54,7 +54,7 @@ Each language you add gets its own address. Your main language stays at the root
 With more than one language, a row of language names sits under these settings. Click a language to write its words:
 
 - **Header & Footer:** the announcement bar's message and link words, and the header and footer each language shows.
-- **Site Messages:** the maintenance message and the header and footer messages.
+- **Site Messages:** the maintenance message.
 - **SEO Settings:** the title and description search engines show.
 
 A language you leave empty shows your main language's words. A hollow circle next to a language name means it has no words of its own yet. Empty link words show "Learn more" in the visitor's language. Removing a language keeps what you wrote for it.
@@ -336,6 +336,8 @@ Your logo appears in your site's header and anywhere else your theme displays it
 
 On a phone, the header shows your logo picture by itself. If your site has no logo picture, the phone header shows your site's name instead.
 
+The header and the footer each choose whether they show the picture, your site's name, or both: click the header or the footer in the Website Builder and open **Settings → Logo**. One logo picture serves both.
+
 1. Go to **Site Settings**, open **Content**, and click **Site Images**.
 2. Find **Logo**.
 3. Click to choose an image from your File Manager, or upload a new one.
@@ -420,7 +422,7 @@ If you choose **With "www."** or **Without "www."**, WebNesting automatically re
 
 ### Site Messages and HTML Blocks
 
-**Site Messages** (under **Content**) holds your header and footer text and your maintenance message. **HTML Blocks** (under **Advanced**) holds named blocks of formatted text that your theme shows by name. Both keep your formatting: headings, bold and italic text, lists, tables, links, images and embedded videos or maps.
+**Site Messages** (under **Content**) holds your maintenance message. Your header and footer words are on the header and footer themselves: click them in the Website Builder and open **Settings** (see [Choosing what your header and footer show](../website-builder/layouts-and-structure.md#choosing-what-your-header-and-footer-show)). **HTML Blocks** (under **Advanced**) holds named blocks of formatted text that your theme shows by name. Both keep your formatting: headings, bold and italic text, lists, tables, links, images and embedded videos or maps.
 
 Code does not run there. If you paste a script, or a tag with code inside it, WebNesting removes the code when you save, and your visitors never run it. To add code from another service, such as a chat widget or a tracking tag, use **Code from Other Services**.
 

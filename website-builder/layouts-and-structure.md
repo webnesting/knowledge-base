@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-10-27 5:24pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -17,6 +17,31 @@ Every page in WebNesting is made up of layers, like a sandwich:
 - **Footer** -- The bottom of your page. This typically holds contact information, links, copyright notices, and social media icons.
 
 The header and footer usually stay the same across all pages on your site. The main content area is where each page gets its own unique content.
+
+### Choosing what your header and footer show
+
+Every header and footer layout can show every part. The layout only decides where each part sits and which parts are on to start with.
+
+1. In the Website Builder, click the header (or the footer). **Settings** opens.
+2. Turn each part on or off, and fill in its words.
+
+The header's parts:
+
+- **Logo** -- your logo picture, your site's name, or both (**Image and text**, **Image**, **Text**), in three sizes. **Text** starts as your site's name; type other words to replace it. Upload the picture in **Site Settings → Content → Site Images**. If you pick **Image** and have no picture yet, your site's name shows instead. **Logo links to** is the page the logo opens, such as `/shop`; leave it empty for your home page.
+- **Menus** -- the main menu and a second, smaller menu. Pick which of your menus each one shows, how many levels show, and whether the pages under an item open in a list (**Dropdown**) or a wide panel (**Mega menu**). **Edit This Menu in Pages** opens your pages, where you choose the menu each page is in.
+- **Links and switches** -- your social links, the language switcher and the light and dark switch. Your social profiles are in **Site Settings → Connections → Social Settings**. On phones, the social links move into the menu.
+- **Button** -- a button with your own words and link, such as "Book a call". It can open in a new tab and be filled or outlined. On phones, it moves into the menu.
+- **Top bar** -- a thin bar above the header with a short message, a phone number, an email address and your social links.
+
+The footer's parts:
+
+- **Logo and text** -- the logo, as in the header, and a short text under it.
+- **Menus** -- the footer menu, a second menu and your legal links (such as Privacy and Terms).
+- **Details** -- your footer details (such as your address), the copyright line and an extra line of text.
+- **Links and switches** -- your social links, the language switcher and the light and dark switch.
+- **Button** -- a button with your own words and link.
+
+The words you type here replace the header and footer text that used to be in **Site Settings → Content → Site Messages**. Your old words were moved here for you.
 
 ### A different header for some pages
 
