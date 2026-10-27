@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-10-26 10:56pm
+**Last verified:** 2026-10-27 8:35am
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -127,7 +127,9 @@ To go back to the theme's own five colors, click **Reset to [theme name]'s Color
 
 **Colors made from yours** lists the colors WebNesting makes from your five colors, such as button hover colors, quiet text and lines. They change when your five colors change, so you normally do not need to touch them. Click **Show** to see them.
 
-**Advanced** lists every color on your site, from links to the footer. Click **Show All** to open the list. Search for a color, or choose a part of the site (such as the header) to see only its colors. Change any of them, and click **Reset** next to a color to give it back to the theme. A color you changed shows a **Yours** label.
+**Advanced** lists every color on your site, from links to the footer. Click **Show All** to open the list. Search for a color by the start of a word in its name (for example "tab" or "menu link"), or choose a part of the site (such as the header) to see only its colors. Change any of them, and click **Reset** next to a color to give it back to the theme. A color you changed shows a **Yours** label.
+
+Some colors show only on one kind of block, such as buttons, tabs, a pop-up or a small tip. When you change one of them, the preview shows a sample of that block between your header and footer, so you can see the color. Click **Back to my page** to see your home page again. A phone menu color opens the phone menu in the preview; click **Close the Menu** to close it.
 
 > **Tip:** If a color makes text hard to read, a warning appears under your colors. It says which text is hard to read and by how much. Click the button in the warning to go straight to those colors. The check covers the text in your header and footer, your footer's site name, social icons and bottom bar, your links, your buttons and outline buttons, text on your accent color and tab titles.
 
@@ -171,13 +173,15 @@ Each slider moves through named steps:
 - **Heading size** -- how much bigger headings are than text (Quiet to Dramatic).
 - **Space between things** -- gaps between columns, cards and blocks (Compact, Normal, Roomy).
 - **Corners** -- buttons, fields and cards (Square to Pill buttons).
-- **Shadows** -- under cards and buttons.
+- **Shadows** -- under cards, buttons and the header (None, your theme's own, Subtle, Normal, Deep).
 
-**Scale text with screen size** makes headings a little smaller on phones, so long words fit. On a computer screen, your text sizes stay the same.
+If your theme's values match none of a slider's steps, the slider reads **Custom** and keeps your values until you move it.
+
+**Scale text with screen size** makes headings a little smaller on phones, so long words fit. On a computer screen, your text sizes stay the same. While you change it, the preview shows your page 1,000 px wide, where the scaling shows. Click **Back to the Computer View** (or **Phone View**) to leave that view.
 
 ### Previewing Your Changes
 
-- The preview beside the controls updates the moment you change a control: a color, a font, a slider or **Light Mode** / **Dark Mode**. It never reloads, so you keep your place on the page. Use **Computer** and **Phone** above it to see both sizes. On a phone, the preview is a short band at the top of the page.
+- The preview beside the controls updates the moment you change a control: a color, a font, a slider or **Light Mode** / **Dark Mode**. It never reloads, so you keep your place on the page. Use **Computer** and **Phone** above it to see both sizes. On a phone or a narrow window, the preview is a short band at the top of the page that shows the top of your page. If the preview can't update, click **Try Again**. Your changes are kept.
 - Click **Preview on My Site** to open your real site in a new tab with your unsaved changes. Only you see this preview. Your visitors see your site as it is until you save.
 
 ### Saving Your Changes
@@ -291,6 +295,8 @@ Under the footer settings, **Back to top** has one setting, **Show a Back to top
 
 Below **Back to top**, **Between pages** has one setting, **Fade smoothly between pages**. See [Smooth Page Changes](../website-builder/animations-and-interactions.md#smooth-page-changes).
 
+Under it, your home page shows on a computer and on a phone. While the fade is on, click **Play** to see a visitor move from Home to the first other page of your header menu, with the fade. It plays once by itself when you turn the fade on. Click **Back to Home** to start again. If your device asks for less motion, or your browser can't show the fade, the line under **Play** says so.
+
 You can also show one of your own widgets as your header or footer. While it is in use, this page shows **Your own header** in place of the layout choices, with **Edit Header** and **Go Back to a Standard Layout**. See [Using a Widget as Your Header or Footer](../website-builder/widgets.md#using-a-widget-as-your-header-or-footer).
 
 ---
@@ -315,7 +321,7 @@ Under the choices, two pictures show your own home page in light mode and in dar
 
 You can give your visitors a sun and moon button, so each person picks light or dark for themselves. Their choice is remembered on their device.
 
-1. On the **Color Mode** page, turn on **Show a light / dark switch on my site**.
+1. On the **Color Mode** page, turn on **Show a light / dark switch on my site**. The pictures of your site show the switch in the header at once.
 2. Click **Save Changes**.
 
 The switch shows in your site's header, beside the menu. Visitors start in the mode you picked, and can switch.
