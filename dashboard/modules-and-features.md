@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-10-27 5:26pm
+**Last verified:** 2026-10-27 5:49pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -133,7 +133,7 @@ Events are laid out the way concert halls and venues show them, in your theme's 
 
 - **Event List** shows a grid of cards. Each card has the event's first picture, a calendar badge with the date, the title and tagline, a status such as **On sale now**, and **Buy tickets** and **More info** buttons.
 - Choose which events a list shows with its **Show** setting: **Upcoming** (the start), **Past** or **All**. An upcoming event has a date still to come, or no date yet. For a "Past events" page, add an Event List block and set **Show** to **Past**. Past events are greyed out.
-- **Views visitors can pick** sets how visitors see the events: **Grid** (cards), **List** (one row per event) and **Calendar** (a month at a time, with arrows to the months before and after). Pick two or more and visitors get a button for each. Pick one and no buttons show. **Opens in** picks the view a visitor sees first. On a phone, the calendar shows only the days that have events, as a list.
+- **Views visitors can pick** sets how visitors see the events: **Grid** (cards), **List** (one row per event) and **Calendar** (a month at a time, with arrows to the months before and after). Pick two or more and visitors get a button for each. Pick one and no buttons show. **Opens in** picks the view a visitor sees first. That view always shows, even when you did not tick it, and then it gets a button too. On a phone, the calendar shows only the days that have events, as a list.
 - **Events at a time** sets how many events show first (12 to start). **More events** sets how visitors see the rest: a **Load more events** button (the start), **Page numbers**, **Load as visitors scroll**, or **None** to show only the first ones.
 - The list's **Theme color** (**Primary** or **Secondary**) changes the color of the dates, the buttons and the view buttons. It adds no background behind the cards.
 - **Event Detail** shows the event's own page. It has a large picture, the dates, and a ticket box with the time and the **Buy tickets** button. Below them come the description, the rest of the pictures (click one to see it full size), and a list of every date with its own ticket buttons.
