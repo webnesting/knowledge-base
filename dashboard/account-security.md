@@ -1,6 +1,6 @@
 # Your Account and Security
 
-**Last verified:** 2026-10-14 1:47pm
+**Last verified:** 2026-10-26 10:54pm
 
 Your WebNesting account is the key to everything you build. This guide walks you through signing in, protecting your account, and what to do if something goes wrong.
 
@@ -31,6 +31,8 @@ If you want to update your password, you can do so from your account security pa
 5. Click **Update Password**.
 
 Your new password must be at least 8 characters long.
+
+When you change your password, WebNesting signs you out on every other device. The device you changed it on stays signed in. A password reset from the sign-in page signs you out everywhere.
 
 > **Tip:** Use a mix of letters, numbers, and symbols to create a strong password. Avoid using the same password you use on other websites.
 
@@ -85,6 +87,8 @@ You can enable one or both methods. If you have both enabled, you can pick which
 
 You will see a confirmation message once the authenticator app is connected.
 
+To move to a new phone or a different app, turn off the authenticator app first, then set it up again. WebNesting does not offer a new QR code while your current app is on, so your sign-in stays protected the whole time.
+
 > **Tip:** If you can't scan the QR code, look for the text code shown below it. You can type that code into your authenticator app manually instead.
 
 #### Recommended Authenticator Apps
@@ -116,6 +120,8 @@ Once 2FA is turned on, the sign-in process adds one extra step:
    - **If using email:** Check your inbox for an email with your 6-digit code.
 4. Type the code into the **6-digit code** field.
 5. Click **Verify and sign in**.
+
+Each code signs you in only once. If a code was just used, wait for your authenticator app to show the next one, or click **Send a new code**.
 
 If you have both methods enabled, you will see a link to switch between them. For example, if the page asks for your authenticator code, you can click **Email me a code instead** to get a code by email, or **Use my authenticator app instead** to switch back.
 

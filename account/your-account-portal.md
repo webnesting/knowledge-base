@@ -1,6 +1,6 @@
 # Your Account Portal
 
-**Last verified:** 2026-09-28 10:05pm
+**Last verified:** 2026-10-26 10:54pm
 
 Your account portal is where you manage personal account details and jump into your workspaces. Workspaces are where your websites, billing, usage, team members, and workspace-level features live.
 
@@ -16,7 +16,7 @@ This is where your personal information lives. The page opens with your account 
 
 - **Profile picture**
 - **First name** and **last name**
-- **Email address**
+- **Email address** -- when you change it, WebNesting sends a confirmation link to the new address. Your workspaces open again after you click the link.
 - **Phone number**, **date of birth**, and **gender**
 - **Timezone** -- every date and time you see is shown in this timezone. If you leave it empty, your workspace's timezone is used. Due dates always show exactly as they were set, whatever your timezone.
 - **Email Preferences** -- the **Send me product updates and tips** checkbox. Turn it on to get occasional emails about new features, or off to stop them at any time.
