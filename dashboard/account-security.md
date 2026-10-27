@@ -1,6 +1,6 @@
 # Your Account and Security
 
-**Last verified:** 2026-10-26 10:54pm
+**Last verified:** 2026-10-27 9:16am
 
 Your WebNesting account is the key to everything you build. This guide walks you through signing in, protecting your account, and what to do if something goes wrong.
 
@@ -132,8 +132,8 @@ If you have both methods enabled, you will see a link to switch between them. Fo
 If you have both the authenticator app and email codes enabled, you can choose which method appears first when you sign in.
 
 1. Go to **Account Security**.
-2. Find the method you want to use by default.
-3. Click the option to set it as your preferred method.
+2. Under **Default Method**, pick the method you want sign-in to ask for first.
+3. Enter your password, then click **Use Email Codes** or **Use Authenticator App**. Click **Cancel** to keep the method you have.
 
 You can always switch to the other method on the sign-in screen, but your preferred choice will be shown first.
 
@@ -154,7 +154,8 @@ Each recovery code can only be used once. After using one, it is removed from yo
 1. Sign in to your account.
 2. Go to **Account Security**.
 3. Click **Regenerate Recovery Codes**.
-4. Save the new codes in a safe place. Your old codes will no longer work.
+4. Enter your password, then click **Make New Codes**.
+5. Save the new codes in a safe place. Your old codes will no longer work.
 
 > **Tip:** Write down your recovery codes or save them in a secure place as soon as you see them. If you lose both your authenticator and your recovery codes, you will need to contact support to regain access.
 
@@ -165,9 +166,21 @@ If you no longer want to use two-factor authentication:
 1. Sign in to your account.
 2. Go to **Account Security**.
 3. To turn off just one method, click the disable button next to the method you want to remove (for example, **Disable Authenticator App** or **Disable Email 2FA**).
-4. To turn off 2FA entirely, click **Disable Two-Factor Authentication** at the bottom of the page.
+4. To turn off 2FA entirely, click **Disable All 2FA** at the bottom of the page.
+5. A window shows how signing in works now and after the change. Enter your password, then click the button that names the change, such as **Turn Off Two-Factor**.
 
 > **Tip:** We recommend keeping at least one 2FA method turned on to protect your account.
+
+### Why WebNesting asks for your password
+
+Some changes make your account easier to get into: turning 2FA or one method off, changing which method sign-in asks for first, and making new recovery codes. Each one asks for your password first. If someone uses a computer you left signed in, they still cannot turn off your 2FA.
+
+- A wrong password changes nothing. The window says so and stays open for another try.
+- After 5 wrong tries in one minute, wait a minute, then try again.
+- Forgot your password? Click **Forgot your password?** in the window to reset it by email.
+- Click **Cancel** to close the window. Nothing changes.
+
+Members of your site see the same window on their own account security page.
 
 ---
 
