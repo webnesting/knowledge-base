@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-10-22 9:06am
+**Last verified:** 2026-10-27 9:43am
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -24,6 +24,30 @@ Your site's timezone decides which days this site counts in -- the days its anal
 - **A specific timezone** -- pick one when this site serves customers somewhere else, for example a client's site in another country.
 
 Click **Save Changes** to apply it. Team members who haven't set a timezone on their own profile also see this site's times in it.
+
+---
+
+## Languages
+
+Your site can be written in one language or in several. Open **Site Settings** and click **Languages** under **Your site**.
+
+- **Site language** -- the language your pages are written in. Browsers, screen readers and search engines read your pages in it. Search for a language by its name in English or in the language itself.
+- **More languages** -- click **+ Add a Language** to publish your pages in another one. The language list then shows each language with its address.
+
+Each language you add gets its own address. Your main language stays at the root (`/about`), and a second language sits under its code (`/fr/about` for French). Your existing addresses never change.
+
+**What visitors see in a language**
+
+- A page you have translated shows its translation at the language address.
+- A page you have not translated yet shows your main language's page at the language address, so a visitor never lands on "page not found". The header, menus and footer are in the visitor's language. Search engines are told that the original page is the one to list.
+- Your menus, breadcrumbs and lists of articles show each page in the visitor's language where a translation exists. Where it does not, they show the original page.
+- When you are signed in and open a page that has no translation yet, a small bar at the top says so: "This page has no French version yet". Visitors never see it.
+
+**Things to know**
+
+- You can change the site language only while your site has one language. To change it later, remove the other languages first.
+- Removing a language keeps its pages. They stop showing, and their addresses show "page not found", until you add the language back.
+- Your site does not switch language by itself from the visitor's browser. Visitors choose their language, or search engines send them to it.
 
 ---
 
