@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-10-27 10:20am
+**Last verified:** 2026-10-27 11:40am
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -22,13 +22,15 @@ Beyond ticket management, the Helpdesk includes a knowledge base where you can p
 
 The inbox is the main view of the Helpdesk. It shows all your support tickets in one place, like a shared email inbox for your whole team.
 
-When you open the Helpdesk from your workspace sidebar, you will see a list of tickets with key details at a glance:
+Click **Helpdesk** in your workspace sidebar. The Helpdesk menu has **Overview**, **All**, **Unclaimed**, **My tickets** and **Watching**, then your teams under **My Teams**, then **Site Connections** and **Settings**. **All** opens the **Tickets** list with key details at a glance:
 
-- **Subject** -- What the ticket is about
+- **Title** -- What the ticket is about
+- **#** -- The ticket number
 - **Status** -- Where the ticket is in the support process (for example, Open or In Progress)
 - **Priority** -- How urgent the ticket is
-- **Assigned to** -- Which team member or team is handling it
-- **Created** -- When the ticket was submitted
+- **Assigned To** -- Which team member is handling it
+- **Contact** -- The customer who wrote in
+- **Received** -- When the ticket was submitted
 
 You can sort and filter the list to find specific tickets. Use filters to show only tickets with a certain status, priority, assignee, or tag.
 
@@ -47,7 +49,7 @@ The number beside **Unclaimed** in the menu is how many there are across the wor
 
 ### Saved Views
 
-If you find yourself applying the same filters often, you can save them as a view for quick access. For example, you might create a saved view for "My Open Tickets" or "Urgent Unassigned Tickets." Saved views appear in your sidebar so you can switch between them with one click.
+If you find yourself applying the same filters often, you can save them as a view for quick access. For example, you might create a saved view for "My Open Tickets" or "Urgent Unassigned Tickets." Click **Filters**, set them, then click **Save as view…**. Your saved views are listed in the same filter panel, so you can switch between them with one click.
 
 > **Tip:** Start your day by checking the inbox for any new or unassigned tickets. This helps you stay on top of incoming requests and make sure nothing falls through the cracks.
 
@@ -57,20 +59,27 @@ If you find yourself applying the same filters often, you can save them as a vie
 
 There are several ways a ticket can be created:
 
-- **From the inbox** -- Click **+ New Ticket** at the top of the ticket list to create a ticket manually. Fill in the subject, description, priority, and optionally assign it to a team member or team.
-- **From a connected website** -- If you have connected a website to the Helpdesk, visitors can submit support requests through a customer-facing portal. These automatically become tickets in your inbox.
-- **By your team** -- Any team member with Helpdesk access can create tickets on behalf of customers.
+- **From the inbox** -- Click **+ New Ticket** at the top of the ticket list. You write the first message to a customer, and it opens a ticket.
+- **By email** -- When a customer emails one of your Helpdesk inboxes, a ticket opens in your list. See [Connecting Your Email](#connecting-your-email).
+- **From a form on your website** -- A form on a connected site can open a ticket each time someone fills it in. See [Turning a Form on Your Site Into a Ticket](#turning-a-form-on-your-site-into-a-ticket).
 
 ### Ticket Fields
 
-When creating a ticket, you can fill in:
+When you click **+ New Ticket**, you fill in:
 
+- **To** -- The customer. Search for a contact, or type an email address.
 - **Subject** -- A short summary of the issue
-- **Description** -- The full details of the problem or request
-- **Priority** -- How urgent the ticket is (choose from Urgent, High, Normal, or Low)
-- **Status** -- The current stage of the ticket (defaults to Open for new tickets)
-- **Assignee** -- The team member responsible for resolving the ticket
-- **Team** -- The team that should handle this ticket
+- **Message** -- What you want to tell the customer
+- **Internal note (don't email the customer)** -- Tick this to save a note for your team only
+
+Click **Send** to email the customer, or **Save as Draft** to keep it for later. Any custom fields you added for tickets show on the form too.
+
+When the ticket is open, set these in its sidebar:
+
+- **Status** -- The current stage of the ticket (new tickets start as Open)
+- **Priority** -- How urgent the ticket is (Urgent, High, Normal, or Low)
+- **Assigned To** -- The team member responsible for resolving the ticket
+- **Teams** -- The team that should handle this ticket
 - **Tags** -- Labels to help organize and categorize tickets
 
 ---
@@ -95,7 +104,7 @@ To change a ticket's status, open the ticket and select the new status from the 
 
 Every status belongs to a **category**, and each category **counts as** one of three things: **Open** (still being worked on -- shows in the Open tab and your team's counts), **Done** (resolved), or **Closed** (finished without being resolved, like a duplicate). Tickets whose status counts as Done or Closed appear in the **Closed** tab.
 
-Go to **Helpdesk > Settings > Statuses** to change them:
+Open **Settings** in the Helpdesk menu, then the **Statuses** tab, to change them:
 
 - **Add a status** -- click **+ Add Status**, name it (for example "Waiting on Customer"), pick its **Category**, and choose a color.
 - **Reorder statuses** -- drag a status up or down by the handle at the start of its row. Statuses show in this order everywhere: the status menu on a ticket, the ticket list, and the **Tickets by Status** dashboard widget.
@@ -122,7 +131,7 @@ You can assign a ticket to a specific team member or to a team:
 - **Individual assignment** -- Assign the ticket to one person who will be responsible for resolving it
 - **Team assignment** -- Assign the ticket to a team (like "Billing Support" or "Technical Support") so anyone on that team can pick it up
 
-To assign a ticket, open it and use the assignment fields to select a person or team.
+To assign a ticket, open it and use the **Assigned To** and **Teams** fields in the sidebar.
 
 ### Tags
 
@@ -132,7 +141,7 @@ Tags make it easy to filter your inbox and spot patterns. If you notice many tic
 
 ### Watchers
 
-If you want to follow a ticket without being assigned to it, you can add yourself as a watcher. Watchers receive updates when the ticket changes -- new comments, status changes, or reassignments -- so they can stay informed without being responsible for resolving the ticket.
+If you want to follow a ticket without being assigned to it, you can add yourself as a watcher with the **Watch** button on the ticket. It then reads **Watching**, and the ticket is listed under **Watching** in the Helpdesk menu. Watchers receive updates when the ticket changes -- new comments, status changes, or reassignments -- so they can stay informed without being responsible for resolving the ticket.
 
 > **Tip:** Use watchers when a manager wants to keep an eye on a high-priority ticket, or when a team member from another department has related context.
 
@@ -150,7 +159,7 @@ Replies are visible to the customer. Use these to respond to the customer's ques
 
 Internal notes are visible only to your team. The customer never sees them. Use internal notes to discuss the issue with teammates, share background information, leave instructions for the next person who works on the ticket, or document your troubleshooting steps.
 
-To add a comment, open a ticket and type your message in the comment area. Choose whether it is a reply (customer-visible) or an internal note (team-only) before sending.
+To add a comment, open a ticket and type your message in the box under the conversation. Choose whether it is a reply (customer-visible) or an internal note (team-only) before sending. The button reads **Reply** for a reply and **Add Note** for an internal note.
 
 > **Important:** Double-check whether you are writing a reply or an internal note before sending. Replies are visible to the customer, so make sure internal discussions stay in internal notes.
 
@@ -206,8 +215,8 @@ Teams let you organize your support staff into groups based on their specialties
 
 ### Creating a Team
 
-1. Go to the **Teams** section in the Helpdesk settings.
-2. Click **Create** to add a new team.
+1. In your workspace, open **Settings**, then **Teams**. Teams are shared by your whole workspace, so they are not in the Helpdesk settings.
+2. Click **+ Add Team**.
 3. Give the team a name (for example, "Technical Support").
 4. Add team members.
 5. Save the team.
@@ -230,15 +239,15 @@ Each SLA policy defines two types of time targets:
 ### Setting Up SLA Policies
 
 1. Go to the **SLA Policies** tab in the Helpdesk settings.
-2. Click **+ Add policy**.
-3. Give it a name and set the default response time and resolution time targets (in hours).
-4. To give different priorities tighter or looser deadlines, fill in the per-priority columns — leave a priority blank and it inherits the "Every ticket" times.
-5. Turn on **Only count time while we're open** if you want the clock to pause outside your business hours, then choose which schedule it should follow. Schedules are set up on the **Business Hours** tab; the field links straight to it.
-6. Save the policy.
+2. Click **+ Add Policy**.
+3. Under **What should we call this policy?**, give it a name. **What is it for?** is an optional note only your team sees.
+4. Under **How fast should tickets be answered?**, set the response time and resolution time targets in hours. To give different priorities tighter or looser deadlines, fill in the per-priority columns — leave a priority blank and it uses the "Every ticket" times.
+5. Turn on **Only count time while we're open** if you want the clock to pause outside your business hours, then choose a schedule under **Which hours should it follow?**. Schedules are set up on the **Business Hours** tab; the field links straight to it.
+6. Click **Save Policy**.
 
 Your workspace starts with a **Default SLA** policy that already gives the most pressing tickets tighter targets -- Urgent tickets are due for a reply in 1 hour and a resolution in 4, and High tickets in 2 hours and 8.
 
-You can also adjust per-priority targets directly from the policy list without opening the full form: click **Targets** next to any policy to expand its priority ladder inline, change the hours, then click **Save targets**.
+You can also adjust per-priority targets directly from the policy list without opening the full form: click **Targets** next to any policy to expand its priority ladder inline, change the hours, then click **Save Targets**.
 
 ### Business Hours
 
@@ -247,11 +256,11 @@ SLA targets can be counted in business hours rather than around the clock. This 
 #### Setting up your hours
 
 1. Go to the **Business Hours** tab in the Helpdesk settings.
-2. Click **+ Add schedule**.
-3. Name your schedule (e.g. "Standard support hours").
-4. Pick the time zone these hours are in -- the times you enter are read in that zone, wherever your customers happen to be. **Use workspace timezone** (the default) follows your workspace's timezone, so the hours move with it if you change it.
-5. Toggle each day on or off and set the opening and closing times.
-6. Add any holidays — they pause the clock the same way a weekend does.
+2. Click **+ Add Schedule**.
+3. Under **What should we call these hours?**, name your schedule (e.g. "Standard support hours").
+4. Under **Which time zone are these hours in?**, pick the time zone these hours are in -- the times you enter are read in that zone, wherever your customers happen to be. **Use workspace timezone** (the default) follows your workspace's timezone, so the hours move with it if you change it.
+5. Under **When is your team open?**, toggle each day on or off and set the opening and closing times.
+6. Under **Days you're closed**, add any holidays — they pause the clock the same way a weekend does.
 7. Save the schedule.
 
 As you edit, a note under the week shows what your hours mean in practice — for example, *"A ticket arriving Friday at 5:00 PM is due Monday at 1:00 PM."* The same note appears on the SLA policy form, so you can see the effect of a target before you save it.
@@ -274,11 +283,11 @@ Canned responses are pre-written replies you can save and reuse when responding 
 
 ### Creating a Canned Response
 
-1. Go to the **Canned Responses** section in the Helpdesk settings.
-2. Click **Create** to add a new response.
-3. Give it a name and a shortcut (a short keyword that helps you find the response quickly when you search the Canned Responses menu).
-4. Write the response text. Type `{{` anywhere in the body to insert a placeholder that fills itself in when you use the response: the customer's first name, last name, full name, or email; the ticket number or subject; or your own name. For example, "Hi {{first_name}}, thanks for reaching out about #{{ticket_number}}." If we don't know the customer's name, `{{first_name}}` becomes "there".
-5. Save the canned response.
+1. Go to the **Canned Responses** tab in the Helpdesk settings.
+2. Click **+ Add Response**.
+3. Give it a **Title** and a **Shortcut** (a short keyword, such as /thanks, that helps you find the response quickly when you search the Canned Responses menu). You can also set a **Category**.
+4. Write the response text in **Body**. Type `{{` anywhere in the body to insert a placeholder that fills itself in when you use the response: the customer's first name, last name, full name, or email; the ticket number or subject; or your own name. For example, "Hi {{first_name}}, thanks for reaching out about #{{ticket_number}}." If we don't know the customer's name, `{{first_name}}` becomes "there".
+5. Click **Save Response**.
 
 ### Using a Canned Response
 
@@ -292,46 +301,24 @@ When replying to a ticket, open the **Canned Responses** menu below the reply bo
 
 ## Knowledge Base
 
-The knowledge base is a self-service help center where you can publish articles that answer common questions. When customers can find answers on their own, they do not need to submit a ticket -- which means fewer tickets for your team and faster answers for your customers.
+The knowledge base holds the help articles that answer common questions. When customers can find answers on their own, they do not need to submit a ticket.
 
-### How the Knowledge Base Is Organized
-
-The knowledge base uses a simple two-level structure:
-
-- **Categories** -- Top-level groupings for your articles. For example, "Getting Started," "Billing," "Troubleshooting," or "Account Management." Categories can be nested inside other categories to create a hierarchy.
-- **Articles** -- Individual help articles that live inside categories. Each article covers a specific topic or answers a specific question.
-
-### Creating a Category
-
-1. Go to the **Knowledge Base** section in the Helpdesk.
-2. Click **Create Category**.
-3. Give the category a name and an optional description.
-4. If you want this to be a subcategory, select a parent category.
-5. Save the category.
+Knowledge base articles live on your websites. When Helpdesk is on, each of your sites gets a **Knowledge Base** module. Each article is a page of that site, so it has its own web address and can show in your site menus.
 
 ### Writing an Article
 
-1. Go to the **Knowledge Base** section in the Helpdesk.
-2. Navigate to the category where you want the article to appear.
-3. Click **Create Article**.
-4. Write your article with a clear title and helpful content.
-5. Choose whether to save the article as a **Draft** (not visible to customers) or **Published** (visible to customers).
-6. Save the article.
+1. Open your site in the workspace, then click **Pages** in the site menu and choose **Knowledge Bases**.
+2. Click **+ New Knowledge Base**.
+3. On the **Page** tab, give the article a **Title**. You can also set its **Page URI**, **Layout**, menu visibility and SEO settings.
+4. Open the **Content** tab and write the article.
+5. Open the **Settings** tab to set the **Author** and a **Featured Image** if you want them.
+6. Click **Create**.
 
-### Draft and Published Articles
+The **Knowledge Base** list shows each article with its **Updated** date and **Status**.
 
-Articles have two states:
+### Organizing Articles
 
-- **Draft** -- The article is saved but not visible to customers. Use this while you are still writing or reviewing the content.
-- **Published** -- The article is live and visible to customers in the knowledge base.
-
-You can switch an article between draft and published at any time.
-
-### Article Feedback
-
-Each published article includes a simple feedback mechanism. Customers can rate an article as helpful or not helpful. This feedback helps you understand which articles are working well and which ones might need improvement.
-
-Check the feedback on your articles regularly. If an article gets a lot of "not helpful" votes, consider rewriting it or adding more detail.
+Articles nest under other pages the way pages do. Use a parent page, such as a "Help Center" page, to group related articles.
 
 > **Tip:** Write your knowledge base articles as if you are explaining something to a friend. Use plain language, break steps into numbered lists, and include examples where possible. The clearer your articles are, the fewer tickets your team will receive.
 
@@ -339,16 +326,17 @@ Check the feedback on your articles regularly. If an article gets a lot of "not 
 
 ## Site Connections
 
-You can connect your websites to the Helpdesk to create customer-facing support portals. When a site is connected, visitors to that site can access the knowledge base and submit support tickets directly from your website.
+You can connect your websites to the Helpdesk. A connected site can send form submissions to your ticket list.
 
 ### Connecting a Site
 
-1. Go to the **Settings** section in the Helpdesk.
-2. Find the **Site Connections** area.
-3. Select the website you want to connect.
-4. Save your settings.
+1. Click **Site Connections** in the Helpdesk menu.
+2. Click **Connect Site**.
+3. Under **Site**, select the website you want to connect.
+4. Tick **Active**. Tick **Widget Enabled** to turn the widget on for that site.
+5. Save your settings.
 
-Once connected, the site can display a support portal where customers can browse knowledge base articles and submit new tickets.
+The **Connected Sites** list shows each site with its **Active** and **Widget** status and the date it was **Connected**. A connected site can also turn a form into a ticket, as described below.
 
 ### Turning a Form on Your Site Into a Ticket
 
@@ -513,7 +501,7 @@ The BIMI section in the wizard tells you which tier you're currently at and what
 
 ## Automatic Emails
 
-Besides the replies your team writes, the Helpdesk sends a few emails on its own. You choose which ones in **Helpdesk > Settings > Email**, under **Automatic emails to customers** and **Automatic emails to your team**. Each is a switch that saves as soon as you flip it, and each shows the exact wording your customers will get.
+Besides the replies your team writes, the Helpdesk sends a few emails on its own. You choose which ones in **Settings** in the Helpdesk menu, on the **Email** tab, under **Automatic emails to customers** and **Automatic emails to your team**. Each is a switch that saves as soon as you flip it, and each shows the exact wording your customers will get.
 
 **To your customers:**
 
@@ -537,7 +525,7 @@ Your team is also notified inside the app either way, so turning a team email of
 
 ### Turning Off Automatic Emails for One Person
 
-Sometimes one contact shouldn't get automatic emails: a partner who emails you often, a shared mailbox, or someone who asked you to stop. Open their contact (**Contacts**, then click their name) and set **Helpdesk > Automatic Emails** to **Off**. They stop getting the confirmation and "resolved" emails; your team's replies still reach them.
+Sometimes one contact shouldn't get automatic emails: a partner who emails you often, a shared mailbox, or someone who asked you to stop. Open their contact (**Contacts**, then click their name) and find **Can we contact them?** in the sidebar and set **Helpdesk automatic emails** to **Off**. They stop getting the confirmation and "resolved" emails; your team's replies still reach them.
 
 > **Tip:** Automatic emails also carry a standard "this is an automatic message" marker, so a customer's own out-of-office reply doesn't answer them and start a back-and-forth.
 
@@ -545,88 +533,14 @@ Sometimes one contact shouldn't get automatic emails: a partner who emails you o
 
 ## Customer Satisfaction
 
-After a ticket is resolved, the Helpdesk can collect customer satisfaction ratings. This gives you direct feedback on how well your team handled each support interaction.
+You can record how satisfied a customer was once a ticket is closed. This gives you feedback on how well your team handled the support request.
 
-### How Satisfaction Ratings Work
+### Recording a Satisfaction Rating
 
-1. When a ticket is resolved or closed, the customer receives a prompt to rate their experience.
-2. The customer rates their experience on a scale of 1 to 5.
-3. They can optionally leave a comment explaining their rating.
-4. The rating and comment are saved on the ticket and included in your satisfaction reports.
+1. Open a ticket whose status counts as closed.
+2. In the ticket sidebar, find **Customer Satisfaction**.
+3. Click one to five stars.
+4. Add a comment if you like.
+5. Click **Submit Rating**.
 
-### Reviewing Satisfaction Ratings
-
-You can see individual satisfaction ratings on each ticket. For a broader view of how your team is performing, check the CSAT (Customer Satisfaction) report in the Reports section.
-
-> **Tip:** Follow up personally on any tickets that receive low satisfaction ratings. This shows customers you care about their experience and helps you identify areas where your support process can improve.
-
----
-
-## Reports and Analytics
-
-The Helpdesk includes reports to help you understand how your support operation is performing.
-
-### Available Reports
-
-- **Volume** -- How many tickets your team is handling over time. Spot trends and anticipate busy periods.
-- **Response times** -- How quickly your team is responding to and resolving tickets. Compare against your SLA targets to see if you are meeting your goals.
-- **Customer satisfaction (CSAT)** -- Overall satisfaction ratings from your customers. Track trends over time and identify areas for improvement.
-
-### Using Reports
-
-1. Go to the **Reports** section in the Helpdesk.
-2. Select the report you want to view.
-3. Choose a time range to analyze.
-4. Review the data and charts.
-
-Reports help you answer important questions like:
-
-- Are we responding to tickets fast enough?
-- Is our ticket volume growing or shrinking?
-- Are customers satisfied with our support?
-- Do we need to hire more support staff?
-
-> **Tip:** Review your reports weekly or monthly to stay on top of trends. If you notice response times creeping up, it might be time to add more team members, create more canned responses, or improve your knowledge base to reduce ticket volume.
-
----
-
-## Tips
-
-- **Respond quickly.** Even if you do not have a solution yet, acknowledge the customer's request promptly. A quick "We received your message and are looking into it" goes a long way.
-
-- **Use internal notes generously.** Keep a record of your investigation and findings in internal notes. This helps teammates who pick up the ticket later understand what has already been tried.
-
-- **Build your knowledge base proactively.** Every time you answer a question more than once, consider writing a knowledge base article about it. Over time, this reduces your ticket volume significantly.
-
-- **Set realistic SLA targets.** Start with achievable goals and tighten them as your team improves. Overly ambitious targets that are constantly missed are worse than no targets at all.
-
-- **Use tags consistently.** Decide on a set of standard tags as a team and use them consistently. This makes filtering and reporting much more useful.
-
-- **Review satisfaction ratings regularly.** Customer feedback is the best way to understand how your support is really doing. Celebrate high ratings and learn from low ones.
-
-- **Take advantage of canned responses.** They save time and ensure consistent answers. Update them regularly as your product or policies change.
-
-- **Keep tickets organized.** Close tickets when they are truly resolved. A cluttered inbox with old resolved tickets makes it harder to focus on what needs attention.
-
----
-
-## Turning Helpdesk Off
-
-If you turn Helpdesk off from **Settings → Products**, here's exactly what happens:
-
-- **Nobody on your team can open Helpdesk any more** -- the tickets, the inbox, the settings, all of it disappears from the sidebar for everyone, right away.
-- **Email to your WebNesting-hosted support address gets an automatic reply** letting the sender know it isn't being checked -- it does **not** silently disappear, and it does **not** become a ticket.
-- **Email to a connected Gmail, Outlook, or IMAP inbox just stays in that inbox.** It is not turned into a ticket while Helpdesk is off, and it is **not imported later** when you turn Helpdesk back on -- so if you need those messages, keep checking that mailbox directly in the meantime.
-- **Your site's knowledge base comes off the public site immediately** -- visitors can no longer browse your help articles. The articles themselves are kept with the rest of your Helpdesk data (tickets, canned responses, and so on) and come right back, exactly as they were, the moment you turn Helpdesk back on.
-- **Everything is permanently deleted after 30 days** -- your tickets, teams, SLA policies and knowledge base articles -- or right away if you choose **Delete now**. Turn Helpdesk back on before then to keep them.
-- **Your free tickets stop building up** while Helpdesk is off.
-
-See [Workspace Products](workspace-products.md#disabling-a-product) for the full turn-off flow: the confirmation window, the countdown banner, **Turn back on**, **Delete now**, and **Download a copy**.
-
----
-
-## Where to Go Next
-
-- **[Workspace Products](workspace-products.md)** -- Learn how to enable the Helpdesk and other workspace products.
-- **[Team and Permissions](team-and-permissions.md)** -- Set up your team and control who has access to the Helpdesk.
-- **[Activity Logs](activity-logs.md)** -- See a complete record of all changes made in your workspace, including Helpdesk activity.
+The sidebar then shows the rating as **Satisfaction**, for example 4/5, with the comment under it. The Helpdesk does not email customers to ask for a rating.

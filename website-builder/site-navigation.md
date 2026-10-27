@@ -1,6 +1,6 @@
 # Setting Up Site Navigation
 
-**Last verified:** 2026-10-26 8:36pm
+**Last verified:** 2026-10-27 11:40am
 
 Navigation is how visitors find their way around your website. Good navigation helps people quickly get to the pages they need, whether they are browsing on a desktop or a phone. This guide covers how navigation works in WebNesting, how to control which pages appear in your menus, and tips for creating a clear, easy-to-use navigation structure.
 
@@ -10,7 +10,7 @@ Navigation is how visitors find their way around your website. Good navigation h
 
 Your site's navigation menus are built automatically from your pages. You do not need to create menus by hand or type out lists of links. Instead, WebNesting looks at each page's menu visibility settings and includes it in the appropriate menus.
 
-Every page has checkboxes that control which menus it appears in. When you check a box, that page shows up in that menu. When you uncheck it, the page is hidden from that menu. The order pages appear in your navigation follows the same order they are listed in your pages panel.
+Every page has checkboxes that control which menus it appears in. When you check a box, that page shows up in that menu. When you uncheck it, the page is hidden from that menu. The order pages appear in your navigation follows the same order they are listed in the **Pages** list in your site menu.
 
 For full details on how to find and change menu visibility settings for a page, see **[Managing Pages in the Builder](page-management.md)** -- specifically the Menu Visibility section.
 
@@ -23,10 +23,10 @@ The header navigation is the main menu at the top of your site. It is usually th
 ### How to Add a Page to the Header Menu
 
 1. Open the **Website Builder** and click **Pages** in the panel rail on the right.
-2. Click the **document icon** next to the page you want to include in the header.
+2. Point at the page's row and click the **gear icon** (**Page settings for** that page).
 3. In the page properties, find the **Menu Visibility** checkboxes.
 4. Check the **Header** box.
-5. Save your changes.
+5. Click **Save**.
 
 That page will now appear in the main navigation at the top of your site.
 
@@ -36,7 +36,7 @@ The order of items in your header navigation matches the order of pages in your 
 
 To change the navigation order:
 
-1. Open the **Pages** panel from the rail on the right.
+1. Close the builder and open your site's dashboard. In the site menu, click **Pages**.
 2. Rearrange your pages by dragging them into the order you want.
 3. The header navigation will update to match the new order.
 
@@ -58,7 +58,7 @@ WebNesting gives you three footer-related checkboxes in the menu visibility sett
 
 ### Adding a Page to the Footer
 
-1. Open the page properties by clicking the **document icon** next to the page in the **Pages** panel.
+1. Open the page properties by clicking the **gear icon** on the page's row in the **Pages** panel.
 2. Find the **Menu Visibility** checkboxes.
 3. Check the footer option you want -- **Footer**, **Footer Secondary**, or **Footer Important**.
 4. Save your changes.
@@ -96,8 +96,8 @@ To create a child page:
 
 1. Open the **Pages** panel in the builder.
 2. Find the page you want to be the parent.
-3. Click the **plus icon** next to that page's name.
-4. Fill in the page details and save.
+3. Point at the page's row and click **New sub-page under** that page (the arrow icon at the end of the row).
+4. Fill in the page details and click **Save**.
 
 For a full walkthrough, see **[Managing Pages in the Builder](page-management.md)** -- the section on creating child pages.
 
@@ -168,7 +168,7 @@ Breadcrumbs are especially helpful on sites with many pages or deep page hierarc
 To add breadcrumbs to a page:
 
 1. Open the page in the Website Builder.
-2. Open the **Add** panel and drag a **Breadcrumbs** component from the **Containers and Accessibility Elements** group onto the page.
+2. Open the **Add** panel and drag a **Breadcrumbs** component from the **Site modules** group onto the page.
 3. Place it near the top of the content area, below the header.
 
 The breadcrumbs will automatically generate based on the page's position in your site hierarchy. For details on adding components, see **[Adding Components to Your Page](adding-components.md)**.
@@ -180,7 +180,7 @@ The Site Map component displays a complete list of all the pages on your site. I
 To add a sitemap:
 
 1. Open the page where you want the sitemap to appear.
-2. Open the **Add** panel and drag a **Site Map** component from the **Content** group onto the page.
+2. Open the **Add** panel and drag a **Site Map** component from the **Site modules** group onto the page.
 3. The component will automatically list all your published pages.
 
 > **Tip:** A dedicated sitemap page is a nice touch for larger websites. Link to it from your footer so visitors always have a way to see everything your site offers.

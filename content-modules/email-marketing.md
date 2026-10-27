@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-10-27 8:25am
+**Last verified:** 2026-10-27 11:40am
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -26,9 +26,9 @@ Before you can start collecting contacts, you need to turn the product on.
 
 1. Open your **account portal** and click the **Workspaces** card.
 2. Open the workspace where you want to enable email marketing.
-3. Click **Products** in the workspace settings area.
+3. Open **Settings**, then click **Products**.
 4. Find **Marketing** in the list of products.
-5. Click **Enable**.
+5. Click **Turn on**, then confirm with **Enable**.
 
 Once enabled, you will see a new **Marketing** section appear in your workspace sidebar. This section contains everything related to your contacts, lists, tags, templates, campaigns, automations, and marketing settings.
 
@@ -58,7 +58,7 @@ Contacts are the heart of the Email Marketing module. Every person who signs up 
 ### Viewing Your Contacts
 
 1. Go to the **Contacts** section in your workspace sidebar.
-2. You will see a list of all your contacts with their name, email, status, and source.
+2. You will see a list of all your contacts with their name, company, tags, status, and the date they were created.
 3. Use the search bar to find a specific contact by name or email.
 
 ### Email Status
@@ -75,9 +75,9 @@ More detail: [Contacts](../dashboard/contacts-management.md#can-we-contact-them)
 ### Creating a Contact Manually
 
 1. Go to the **Contacts** section in your workspace sidebar.
-2. Click the **Create** button.
+2. Click **+ Add Contact**.
 3. Fill in the **Email** (required), and if you like the **First Name**, **Last Name** and **Phone**.
-4. Save the contact. A new contact is **Active**, with the email status **Pending**.
+4. Click **Create Contact**. A new contact is **Active**, with the email status **Pending**.
 
 ### Editing a Contact
 
@@ -87,7 +87,7 @@ More detail: [Contacts](../dashboard/contacts-management.md#can-we-contact-them)
 ### Deleting a Contact
 
 1. Find the contact you want to remove in your contact list.
-2. Click the **Delete** option.
+2. Tick the box on its row, then click **Delete** in the bar that appears. You can tick several contacts to remove them together.
 3. Confirm the deletion.
 
 Deleted contacts are moved to the trash and can be restored if needed.
@@ -186,7 +186,7 @@ The Email Marketing product includes an **Email Signup** component that you can 
 
 1. Open the page where you want the signup form in the **Website Builder**.
 2. Open the **Add** panel from the rail on the right.
-3. Look for **Email Signup** under the **Module Driven Items** group.
+3. Look for **Email Signup** in the **Marketing** group.
 4. Drag the component onto your page.
 5. Save your page.
 
@@ -426,7 +426,7 @@ Marketing campaigns can be sent from one of two places:
 Marketing's sending domain uses the same domain-verification flow as Helpdesk's outbound — they share workspace-level verified domains and sender identities, so you only do this once even if you also use Helpdesk.
 
 1. Go to **Workspace Settings → Email**.
-2. Click **+ Add inbox** → pick **Marketing** as the product.
+2. Click **+ Add Inbox** → pick **Marketing** as the product.
 3. Type the marketing sender address customers see (e.g. `campaigns@yourcompany.com` or `news@yourcompany.com`).
 4. Check the **I control DNS for this domain** confirmation box.
 5. We register your domain with our email provider and show you DNS records to publish — a domain-ownership proof record, DKIM signing keys, a bounce subdomain (MAIL FROM), SPF, and DMARC. The ownership record proves the domain is really yours, even if it's already sending from somewhere else.

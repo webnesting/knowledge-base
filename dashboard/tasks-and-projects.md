@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-10-18 11:33am
+**Last verified:** 2026-10-27 11:40am
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -23,13 +23,14 @@ Projects group related tasks together. For example, you might create a project f
 To create a new project:
 
 1. Click **Tasks** in your workspace sidebar, then **All Projects** under **Projects**.
-2. Click **New Project**.
-3. Give your project a name and optionally add a description.
-4. Choose a color and icon to make the project easy to identify at a glance.
-5. Set a start date and target date if you want to define the project's timeline.
-6. Click **Create**.
+2. Click **+ New Project**.
+3. Give your project a **Name** and optionally add a **Description**.
+4. Choose a **Color** to make the project easy to identify at a glance.
+5. Click **Create**.
 
-Your new project appears in your project list, and you can start adding tasks right away.
+Your new project appears in your project list, and you can start adding tasks right away. To set a start date and target date for the project's timeline, open the project's settings (see below).
+
+To delete a project, open the **⋮** menu in the corner of its card, choose **Delete** and confirm.
 
 ### Project Statuses
 
@@ -43,7 +44,7 @@ Every project has one of three statuses:
 
 Each project has its own settings page. Open the project and click the **gear icon** (**Project Settings**) at the top right, next to the view switcher. The page has four tabs:
 
-- **General** -- The project's name, description, color, which view it opens in (Board, List, Timeline, or Calendar), start and target dates, its status (Active, Completed, or Archived), and the teams it belongs to. Click **Save** when you're done.
+- **General** -- The project's name, description, color, which view it **Opens in** (Board, List, Timeline, or Calendar), **Start date** and **Target date**, its **Project status** (Active, Completed, or Archived), and the **Teams** it belongs to. Click **Save** when you're done.
 - **Statuses** -- The steps tasks in this project move through. See [Customizing Statuses and Categories](#customizing-statuses-and-categories).
 - **Milestones** -- The project's key dates. See [Milestones](#milestones).
 - **Custom Fields** -- Extra fields that appear only on this project's tasks. See [Custom Fields](#custom-fields).
@@ -57,7 +58,7 @@ Tasks are the individual items of work within a project. Each task represents so
 To add a task:
 
 1. Open the project you want to add the task to.
-2. Click **Add Task** (or use the quick-add area at the top of your task list).
+2. Click **+ Add Task**.
 3. Enter a title for the task.
 4. Optionally set additional details like priority, assignee, due date, and description.
 5. The task is created and appears in your project.
@@ -70,7 +71,7 @@ Not every task belongs to a project. You can also create tasks without assigning
 
 ## Task Views
 
-One of the most powerful features of Tasks is the ability to see your work in different ways. Each project offers four views, and you can switch between them at any time.
+One of the most powerful features of Tasks is the ability to see your work in different ways. Each project offers four views (**List**, **Board**, **Timeline** and **Calendar**), and you can switch between them at any time with the view switcher at the top of the project.
 
 ### Board View
 
@@ -120,12 +121,9 @@ This view is great for:
 
 ## My Work
 
-My Work is your personal task hub. It shows all the tasks assigned to you across every project in your workspace, collected in one convenient place.
+My Work is your personal task hub. Click **My Work** in the Tasks sidebar to open the task list filtered to the tasks assigned to you, across every project in your workspace and including tasks that belong to no project. Remove the filter to see every task.
 
-When you open My Work, you will see:
-
-- **All your assigned tasks** -- Every task where you are the assignee, regardless of which project it belongs to
-- **Recently completed tasks** -- Tasks you have finished recently, so you can see your progress
+The **Tasks** overview page also has a **My Work** card with your next tasks, plus **Upcoming Deadlines** and **Recent Projects**.
 
 My Work is the best place to start your day. Open it to see everything on your plate, then dive into individual projects as needed.
 
@@ -165,7 +163,7 @@ The steps below work the same in both places.
 
 **To change a status**, open the menu on its row and choose **Edit**. If you move a status into a category that counts differently, every task in that status moves with it -- for example, moving "Waiting for Feedback" into a category that counts as Closed closes those tasks.
 
-**Categories** are shared across your whole workspace, so they are edited only in **Tasks > Settings > Global Statuses**, listed below your statuses. Click **+ Add category** to create one (for example "Blocked"), give it a color, and choose what it **counts as** -- Open, Done, or Closed. You can rename, recolor, or change what an existing category counts as from the menu on its row. A category that still has statuses in it can't be deleted; move its statuses to another category first. Drag categories by their handle to reorder the list.
+**Categories** are shared across your whole workspace, so they are edited only in **Tasks > Settings > Global Statuses**, listed below your statuses. Click **+ Add Category** to create one (for example "Blocked"), give it a color, and choose what it **counts as** -- Open, Done, or Closed. You can rename, recolor, or change what an existing category counts as from the menu on its row. A category that still has statuses in it can't be deleted; move its statuses to another category first. Drag categories by their handle to reorder the list.
 
 If you also use the Helpdesk, a category can be shared by both: tick **Also use in Helpdesk** when you create or edit it. Shared categories show a **Helpdesk** label, and changes to them apply in both places.
 

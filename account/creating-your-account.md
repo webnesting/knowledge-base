@@ -1,6 +1,6 @@
 # Creating Your Account
 
-**Last verified:** 2026-10-27 10:10am
+**Last verified:** 2026-10-27 11:40am
 
 Welcome to WebNesting! Getting started takes just a few minutes. This guide walks you through creating your account and getting ready to build your first website.
 
@@ -16,6 +16,7 @@ Welcome to WebNesting! Getting started takes just a few minutes. This guide walk
    - **Email** -- The email address you want to use for your account.
    - **Password** -- Choose a password of at least 8 characters. A note under the field tells you how many characters are left and how to make it stronger with numbers, capitals or symbols.
    - **Confirm password** -- Enter the same password again.
+   - **Where did you hear about us?** -- Optional. It helps us see which channels work. The list starts with **Choose one**. The choices are **A web search**, **Social media**, **A friend or colleague**, **An article, blog or newsletter**, **A video or podcast**, **An advertisement**, **An event or community** and **Somewhere else**. If you pick **Somewhere else**, a **Where was it?** field opens. Type your answer there (up to 200 characters). You can leave all of this empty.
 4. Optionally, check **Send me product updates and tips** if you'd like occasional emails about new features. It's unchecked by default, and you can change your mind anytime from your account portal.
 5. If you have a promotion code for new accounts, find **Promotion code**, type the code and select **Check code**. You see what the code gives you. To use another code, select **Use a different code**.
 6. Select **Create Account**.

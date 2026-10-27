@@ -1,6 +1,6 @@
 # Managing Pages in the Builder
 
-**Last verified:** 2026-10-20 9:26am
+**Last verified:** 2026-10-27 11:40am
 
 The Website Builder is where you design and edit your pages visually. But it is also where you can switch between pages, create new ones, and manage how they are organized -- all without leaving the builder. This guide covers everything you need to know about working with pages inside the builder.
 
@@ -19,7 +19,7 @@ The pages panel is your home base for navigating between pages while you work in
 3. Click the **Pages** icon (it looks like a small document).
 4. The pages panel opens, showing a list of all your pages. Click the icon again to pin the panel open so it stays put while you work.
 
-The panel shows your pages organized into groups. Pages are grouped by their content type -- for example, your main site pages will be in one group, and blog articles or other module-based pages will be in their own groups. You will also see a **System pages** group for the built-in pages every site needs (like the 404 "page not found" page) -- these can be edited but not deleted.
+The panel shows your pages organized into groups. Your main site pages are under **Pages**. Pages that belong to a module, such as blog articles, have their own groups. You will also see a **System Pages** group for the built-in pages every site needs (**Page Not Found**, **Style Guide** and **Coming Soon**) -- these can be edited but not deleted. Each row shows the page name, and pointing at it shows the page address, such as `/index`.
 
 ---
 
@@ -45,8 +45,8 @@ If your site has parent and child pages (for example, a "Services" page with sub
 ### Expanding Child Pages
 
 1. Open the **Pages** panel.
-2. Look for pages that have a small arrow or expand button next to their name. These pages have child pages beneath them.
-3. Click the **expand button** to reveal the child pages.
+2. Look for pages that have a small arrow button next to their name. These pages have child pages beneath them.
+3. Click the arrow button (its name is **Expand** followed by the page name) to reveal the child pages.
 4. Click it again to collapse the list.
 
 Child pages are indented beneath their parent, making it easy to see how your site is organized. You can expand multiple levels to see deeply nested pages.
@@ -66,21 +66,17 @@ You do not need to go back to the dashboard to add a page. You can create one ri
 1. Open the **Pages** panel.
 2. Click the **New page** button at the top of the panel.
 3. A form will appear where you can set the page details (title, URL, layout, and more).
-4. Fill in the information and save.
+4. Fill in the information and click **Save**.
 5. Any unsaved canvas work is saved first, then you land straight on the new page, ready to edit.
 
 ### Creating a Child Page (Sub-Page)
 
 1. Open the **Pages** panel.
 2. Find the page that you want to be the parent.
-3. Click the **plus icon** next to that page's name.
+3. Point at the page's row and click **New sub-page under** that page (the arrow icon at the end of the row).
 4. A form will appear with the parent page already selected.
-5. Fill in the page details and save.
+5. Fill in the page details and click **Save**.
 6. The new child page will appear nested under the parent in the list.
-
-### Duplicating a Page
-
-To duplicate a page, use the page options in the Pages panel. The duplicate will include all the content and settings from the original page.
 
 ---
 
@@ -92,8 +88,8 @@ Each page has a set of properties that control its title, URL, layout, and other
 
 1. Open the **Pages** panel.
 2. Find the page you want to edit.
-3. Click the **settings icon** next to the page name.
-4. A window will open showing all of the page's settings.
+3. Point at the page's row and click the **gear icon** (**Page settings for** that page).
+4. A window will open showing all of the page's settings. Click **Save** to keep your changes or **Cancel** to drop them.
 
 ### Page Title
 
@@ -142,13 +138,15 @@ You can control which navigation menus include a link to this page.
    - **Include on Sitemap** -- Whether this page appears in your sitemap for search engines
 4. Save your changes.
 
+The **Sub-Menu** setting, just above **Menu Visibility**, has two choices: **Normal** and **Children**. **Children** shows this page's own pages in the header menu, on this page and every page under it.
+
 ### Page Icon
 
 You can assign an icon image to a page. This icon may appear in navigation menus or other areas of your site depending on your theme.
 
 1. Open the page properties.
 2. Find the **Page Icon** field.
-3. Click to open the file picker and select an image.
+3. Click **Add image** and select an image.
 4. Save your changes.
 
 ### Lock Page
@@ -173,7 +171,7 @@ Your site's navigation menus are built automatically from your pages. Understand
 The main navigation menu at the top of your site is generated from your pages list. Any page with the **Header** menu visibility checkbox turned on will appear in the header navigation.
 
 1. Open the **Pages** panel in the builder.
-2. Click the **settings icon** next to a page to open its properties.
+2. Click the **gear icon** on a page's row to open its properties.
 3. Under **Menu Visibility**, check or uncheck **Header** to control whether the page appears in the main navigation.
 
 Pages appear in the navigation in the same order they appear in your pages list. To change the order of your navigation items, rearrange your pages in the dashboard.
@@ -207,15 +205,15 @@ Use the **Footer**, **Footer Secondary**, and **Footer Important** menu visibili
 
 ## Search Engine Optimization (SEO)
 
-Each page has its own SEO settings that help search engines understand and display your page in search results. These settings are found in the page properties under the "Search Engine Optimization" section.
+Each page has its own SEO settings that help search engines understand and display your page in search results. These settings are found in the page properties, in the **SEO** group.
 
 ### Available SEO Fields
 
 - **Show on search engines** -- Choose "Yes" to let search engines find and list this page, or "No" to hide it.
-- **Title (S.E.O.)** -- The title that appears in search engine results. If left blank, your page title is used.
-- **Author (S.E.O.)** -- The author name shown in search results for this page.
-- **Description (S.E.O.)** -- A short summary of the page that appears below the title in search results. Keep it under 160 characters for best results.
-- **Keywords (S.E.O.)** -- Words and phrases related to the page's content that help search engines categorize it.
+- **SEO Title** -- The title that appears in search engine results. If left blank, your page title is used.
+- **SEO Author** -- The author name shown in search results for this page.
+- **SEO Description** -- A short summary of the page that appears below the title in search results. Keep it under 160 characters for best results.
+- **SEO Keywords** -- Words and phrases related to the page's content that help search engines categorize it.
 
 > **Tip:** The SEO description is what people see in Google or other search engines before they click on your link. Write a clear, inviting summary that tells visitors what the page is about.
 
@@ -233,9 +231,9 @@ This is the standard editing mode. When you open the builder or click on a page 
 
 Widgets are reusable content blocks that can appear on multiple pages. When you edit a widget, you are working on that block in isolation -- separate from any specific page. Changes to a widget will update everywhere that widget is used.
 
-If the Widget Builder module is enabled on your site, you will see a **Widgets** section in the pages panel. Click on any widget to switch to widget editing mode.
+If the Widget Builder module is enabled on your site, open **Widgets** in the site menu on the left (next to **Website Builder**), then pick a widget to edit it.
 
-To return to page editing, simply click on any page in the pages panel.
+To return to page editing, open **Website Builder** and click a page in the **Pages** panel.
 
 ---
 
@@ -256,10 +254,10 @@ Your site can have as many layouts as you need. Different types of pages can use
 ### How to Change a Page's Layout
 
 1. Open the **Pages** panel in the builder.
-2. Click the **document icon** next to the page you want to change.
-3. Find the **Layout** dropdown in the page properties.
+2. Click the **gear icon** on the row of the page you want to change.
+3. Find the **Layout** field in the page properties.
 4. Select a different layout.
-5. Save your changes.
+5. Click **Save**.
 
 The page will reload with the new layout applied. Your content will be placed within the new layout structure.
 
@@ -279,25 +277,13 @@ When you edit a page in the builder, you are mainly working in the content area.
 
 ## The Top Toolbar
 
-The top toolbar runs across the top of the builder and gives you quick access to important information and actions.
+The top toolbar runs across the top of the builder. The full tour of it is in the [Website Builder Overview](builder-overview.md#the-top-toolbar). The parts that matter for pages:
 
-### What You Will See
-
-- **Current page** -- The name of the page you are currently editing, displayed on the left side.
-- **Autosave indicator** -- Shows whether your changes have been saved automatically or if there are unsaved changes.
-- **Your account** -- Your email address and a link to your account settings on the right side.
-- **Log out** -- A quick link to sign out of the builder.
-
-### Responsive Preview
-
-Below the top toolbar, you will see a row of size controls. These let you preview how your page looks at different screen sizes:
-
-- **Extra Large** -- Desktop monitors and wide screens
-- **Large** -- Standard laptops and smaller desktops
-- **Medium** -- Tablets in landscape orientation
-- **Small** -- Tablets in portrait orientation and large phones
-- **Extra Small** -- Mobile phones
-
-Click on any size to resize the editing area and see how your page adapts. This is a great way to make sure your site looks good on all devices.
+- **Page**, **Layout** and **Unlocked** -- Choose whether you edit the page, its shared layout (the header and footer), or everything at once.
+- **Undo** and **Redo**.
+- **Mobile**, **Tablet**, **Laptop**, **Desktop** and **Auto** -- Preview the page at different screen widths. Click one to resize the editing area and see how your page adapts.
+- **Saved** pill -- Shows whether your changes are saved. It reads **Unsaved** or **Saving…** while a save is due or running.
+- **Preview** -- Hides the editing tools so you see the page as a visitor does.
+- **Save draft** and **Publish** -- Save your work as a draft, or put it on your live site.
 
 > **Tip:** Always check your page at the smallest screen size before publishing. Mobile visitors often make up a large portion of your site traffic, so you want to make sure everything is easy to read and use on a phone.

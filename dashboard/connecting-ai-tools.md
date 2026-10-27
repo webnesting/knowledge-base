@@ -1,6 +1,6 @@
 # Connecting an AI Tool
 
-**Last verified:** 2026-10-25 11:38pm
+**Last verified:** 2026-10-27 11:40am
 
 You can connect an AI assistant — like Claude Desktop, Claude Code, or Cursor — directly to your WebNesting workspace. Once connected, you can ask the AI to look things up and make changes for you in plain language: "list my draft articles," "create a new event for next Friday," "what's my current usage this month." The AI works **as you**, with **your** permissions, and never sees your password.
 
@@ -25,8 +25,8 @@ The exact button labels vary by app, but the flow is always the same:
 1. In your AI app, open its **Connectors** (sometimes called "MCP servers" or "Integrations") settings and choose to **add a connector**.
 2. Paste the WebNesting address: `https://webnesting.app/mcp`.
 3. Your browser opens to **WebNesting**. Sign in the way you normally do (your browser may already have you signed in).
-4. You'll see a short approval screen: **"Connect {your AI app} to act as you."** Pick **which workspaces** the AI may access — tick one or several. If you only have one workspace, it's selected for you.
-5. Click **Connect**. You're sent back to your AI app, which is now linked. That's it — no token to copy, nothing to keep secret.
+4. You'll see a short approval screen titled **Connect {your AI app}**. It says the app wants to connect and act as you, with your account and your permissions. Pick **which workspaces** the AI may access — tick one or several. If you only have one workspace, it's selected for you.
+5. Click **Connect {your AI app}**. A page says **You're connected**, and you can return to your AI app, which is now linked. That's it — no token to copy, nothing to keep secret.
 
 Changed your mind, or don't recognise the app asking? Click **Cancel** instead. You're sent back to the AI app, nothing is connected, and the app is told you said no.
 
@@ -99,6 +99,7 @@ WebNesting gives your AI app a few ready-made requests. Each one tells your AI, 
 - **Add a section to a page.** Say what the section is for and where it goes. If a ready-made section fits, your AI starts from it; else it builds the section. Either way it matches the rest of the page.
 - **Fill in missing alt text.** Your AI finds every picture in your **Files** with no alt text, looks at each one and writes its alt text. A picture that only adds looks, such as a texture or a divider, it marks decorative instead, and it tells you which ones. Name a folder to do only that folder.
 - **Restyle a page.** Say how you want it to look, for example "warmer and more rustic". Your AI changes only the look, never your words or the page's layout. A new theme changes every page of your site, so your AI tells you first.
+- **Translate a page.** Name the page and the language, for example French. Your AI makes a translated copy of the page as an unpublished draft, with the same sections and look. It tells you which phrases a native speaker should check. It publishes nothing: you review and publish the translation.
 
 **Where to find them:** in your AI app's list of commands or prompts. In Claude Code they are slash commands, such as `/mcp__webnesting__build_site` (the middle part is the name you gave the connection). If your app takes one word for each box, type your full description anyway: your AI reads everything you typed.
 

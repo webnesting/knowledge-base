@@ -1,6 +1,6 @@
 # Managing Pages
 
-**Last verified:** 2026-10-26 8:36pm
+**Last verified:** 2026-10-27 11:40am
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 
@@ -10,20 +10,21 @@ Pages are the foundation of your website. Each page on your site has its own web
 
 When you log in to your WebNesting dashboard, you can see all of your pages in one place.
 
-1. Open your WebNesting dashboard.
-2. Click **Pages** in the left sidebar.
-3. You will see a list of all your pages, including their titles, URLs, and current status.
+1. Open your WebNesting dashboard and open your site.
+2. In the site menu, open **Pages**, then select **Pages**.
+3. You will see a list of all your pages with their titles and current status.
 
 ![The pages list in the dashboard](../images/dashboard/pages-list.png)
 
 Each page in the list shows:
 
-- **Title** -- The name of the page.
-- **URL** -- The web address where the page lives.
-- **Status** -- Whether the page is a draft or published.
-- **Last Updated** -- When the page was last changed.
+- **Page** -- The name of the page. Click it to open the page settings.
+- **Updated** -- When the page was last changed.
+- **Status** -- **Draft** or **Published**.
 
-> **Tip:** If you have many pages, use the search bar at the top of the page list to quickly find the one you need.
+Each row also has a ⋮ menu with **Edit**, **Publish** or **Unpublish**, and **Delete**.
+
+> **Tip:** If you have many pages, use the **Search** bar at the very top of the dashboard to find the one you need.
 
 ---
 
@@ -31,18 +32,18 @@ Each page in the list shows:
 
 Adding a new page to your site takes just a few steps.
 
-1. Go to the **Pages** section from the left sidebar.
-2. Click the **New Page** button.
-3. Enter a **Page Title**. This is the name visitors will see at the top of the page and in their browser tab.
-4. Set the **URL Slug**. This is the part of the web address that comes after your domain name. For example, if your domain is `yoursite.com` and the slug is `about`, the page address will be `yoursite.com/about`.
+1. In the site menu, open **Pages**, then select **Pages**.
+2. Click **+ New Page**.
+3. Enter a **Title**. This is the name visitors will see at the top of the page and in their browser tab.
+4. Set the **Page URI**. This is the part of the web address that comes after your domain name. For example, if your domain is `yoursite.com` and the **Page URI** is `about`, the page address will be `yoursite.com/about`. It fills in from the title, and you can change it.
 5. Choose a **Layout**. Layouts control the overall structure of your page, such as whether it has a sidebar, a full-width design, or a specific header and footer style.
-6. Click **Create Page**.
+6. Click **Create**.
 
 Your new page is now ready. It will start as a draft, so it will not be visible to the public until you publish it.
 
-Every page needs its own slug. If you enter one that another page already uses, you'll see a message under the field and can pick a different one.
+Every page needs its own **Page URI**. If you enter one that another page already uses, you'll see a message under the field and can pick a different one.
 
-> **Tip:** Keep your URL slugs short and descriptive. Use lowercase letters and hyphens instead of spaces. For example, `our-team` is better than `Our Team Page 2024`. URL slugs should use lowercase letters and hyphens. Avoid special characters, spaces, or very long slugs.
+> **Tip:** Keep your **Page URI** short and descriptive. Use lowercase letters and hyphens instead of spaces. For example, `our-team` is better than `Our Team Page 2024`. Avoid special characters, spaces, or very long addresses.
 
 ---
 
@@ -50,19 +51,19 @@ Every page needs its own slug. If you enter one that another page already uses, 
 
 You can update any page's basic information at any time.
 
-1. Go to the **Pages** section.
+1. In the site menu, open **Pages**, then select **Pages**.
 2. Find the page you want to edit in the list.
-3. Click on the page name, or click the **Edit** option next to it.
-4. Update the page title, URL slug, layout, or any other settings.
-5. Save your changes.
+3. Click on the page name, or open the ⋮ menu on its row and choose **Edit**.
+4. Update the title, **Page URI**, layout, menu settings, search settings, or any other settings.
+5. Click **Save** to keep your changes as a draft, or **Save & Publish** to put them on your live site.
 
-To edit the actual content of the page (text, images, sections), you will use the Website Builder. See the "Opening a Page in the Website Builder" section below.
+To edit the actual content of the page (text, images, sections), you will use the Website Builder. Click **Open in Builder** at the top of the page settings, or see the "Opening a Page in the Website Builder" section below.
 
 ### Custom Code for One Page
 
 A page can hold code that should run on that page only, such as a booking widget on your Contact page. Most pages need none. The page's settings show a **Custom Code** group, after **SEO**, when you have the **Custom Code** permission. It has one line for **Top of this page** and one for **Bottom of this page**: what the code there does, or **None**. An article, or another item that has its own page such as a Knowledge Base article, has the same group on its **Page** tab. The code runs on that item's own page. Save a new item first, because its page does not exist before that.
 
-1. Go to the **Pages** section.
+1. In the site menu, open **Pages**, then select **Pages**.
 2. Click the page name to open it.
 3. Scroll to the **Custom Code** group, after **SEO**.
 4. Click **Edit Custom Code**. The code opens in a window.
@@ -93,11 +94,15 @@ Every page has a status that controls whether your visitors can see it.
 
 ### How to Change a Page's Status
 
-1. Go to the **Pages** section.
-2. Find the page you want to update.
-3. Click the page to open its settings.
-4. Change the status from **Draft** to **Published**, or from **Published** back to **Draft**.
-5. Save your changes.
+To publish a draft:
+
+1. In the site menu, open **Pages**, then select **Pages**.
+2. Open the ⋮ menu on the page's row and choose **Publish**. Or open the page and click **Save & Publish**.
+
+To take a published page offline:
+
+1. Open the page.
+2. Open the ⋮ menu at the top right and choose **Unpublish**. You can also choose **Unpublish** from the ⋮ menu on the page's row in the list.
 
 > **Tip:** If you need to make big changes to a live page, consider switching it to draft first. Make your updates, then publish it again when everything looks right.
 
@@ -105,7 +110,7 @@ Every page has a status that controls whether your visitors can see it.
 
 ## Organizing Pages with Parent and Child Hierarchy
 
-As your website grows, you may want to group related pages together. WebNesting lets you create a parent-child structure, which means you can nest pages under other pages.
+As your website grows, you may want to group related pages together. WebNesting lets you create a parent-child structure, which means you can nest pages under other pages. You set this up in the Website Builder's **Pages** panel.
 
 For example, you might have a top-level page called "Services" with child pages for each service you offer:
 
@@ -116,32 +121,24 @@ For example, you might have a top-level page called "Services" with child pages 
 
 Child pages appear beneath their parent page in your site's navigation and in the page list.
 
-### How to Set a Parent Page
+### How to Add a Child Page
 
-1. Go to the **Pages** section.
-2. Click on the page you want to nest under another page.
-3. Look for the **Parent Page** setting.
-4. Select the page you want to use as the parent.
-5. Save your changes.
+1. Open the **Website Builder** and click **Pages** in the icon rail on the right.
+2. Point at the parent page's row and click **New sub-page under** that page (the arrow at the end of the row).
+3. Fill in the form and create the page.
+
+The new page appears indented under its parent. See [Managing Pages in the Builder](../website-builder/page-management.md#creating-a-child-page-sub-page) for the full steps.
 
 The child page's URL will update to reflect the hierarchy. For example, the "Web Design" page might have the address `yoursite.com/services/web-design`.
-
-### How to Remove a Parent Page
-
-1. Open the child page's settings.
-2. Clear the **Parent Page** field or set it to "None."
-3. Save your changes.
-
-The page will move back to the top level.
 
 ### Giving a Section Its Own Header Menu
 
 A group of pages can act like a small site inside your site, with its own header menu. Use the **Sub-Menu** setting for this.
 
-1. Go to the **Pages** section.
+1. In the site menu, open **Pages**, then select **Pages**.
 2. Open the parent page of the group.
 3. Under **Page Settings**, set **Sub-Menu** to **Children**.
-4. Save and publish the page.
+4. Click **Save & Publish**.
 
 On that page, and on every page under it, the header menu now shows only that page's own pages. Pages under it keep their dropdowns. Every other page on your site keeps your normal header menu.
 
@@ -160,11 +157,9 @@ A few things to know:
 
 You can control the order in which your pages appear in navigation menus and the page list.
 
-1. Go to the **Pages** section.
-2. Drag and drop pages to rearrange them in your preferred order.
+1. In the site menu, open **Pages**, then select **Pages**.
+2. Drag the grip (the dotted handle at the start of a row) to move a page to a new place in the list.
 3. Your new order is saved automatically.
-
-If a page has child pages, you can also reorder the children within their parent group using the same drag-and-drop method.
 
 > **Tip:** The order you set here is often used in your site's navigation menu. Check your live site after reordering to make sure everything looks right.
 
@@ -176,16 +171,13 @@ When you have many pages, searching and filtering makes it easy to find exactly 
 
 ### Searching
 
-1. Go to the **Pages** section.
-2. Type a word or phrase into the **Search** bar at the top of the page list.
-3. The list will update to show only pages that match your search.
+Type a word from the page title into the **Search** bar at the very top of the dashboard.
 
 ### Filtering
 
-1. Look for filter options near the search bar or at the top of the page list.
-2. Filter by **Status** to see only draft pages or only published pages.
-3. Filter by **Layout** to see pages that use a specific layout.
-4. Combine filters to narrow your results further.
+1. In the **Pages** list, click **Filters** at the top right.
+2. Next to **Status**, choose **Published**, **Draft** or **Trashed**.
+3. The list updates as you pick. Click **Clear** to see every page again.
 
 ---
 
@@ -193,9 +185,9 @@ When you have many pages, searching and filtering makes it easy to find exactly 
 
 If you no longer need a page, you can delete it.
 
-1. Go to the **Pages** section.
+1. In the site menu, open **Pages**, then select **Pages**.
 2. Find the page you want to delete.
-3. Click the **Delete** option next to the page (or open the page and look for a delete button).
+3. Open the ⋮ menu on its row and choose **Delete**. You can also choose **Delete** from the ⋮ menu at the top right of the page settings.
 4. Confirm that you want to delete the page.
 
 The page will be removed from your page list and will no longer be visible on your site.
@@ -210,12 +202,12 @@ Their web address is fixed as well. When you open one of these pages, the **Page
 
 Accidentally deleted a page? You may be able to bring it back.
 
-1. In the **Pages** section, look for a **Trash** or **Deleted Pages** area.
+1. In the **Pages** list, click **Filters** and set **Status** to **Trashed**. The page title changes to **Page — Trash**.
 2. Find the page you want to restore.
-3. Click **Restore**.
-4. The page will return to your page list as a draft.
+3. Open the ⋮ menu on its row and choose **Restore**.
+4. The page returns to your page list.
 
-To remove a page from the Trash for good, click **Permanently Delete** on its row instead. This cannot be undone.
+To remove a page from the Trash for good, choose **Permanently Delete** in the same menu instead. This cannot be undone.
 
 > **Tip:** Deleted pages are kept, not purged on a timer, so you can restore one long after you removed it. If you are unsure about deleting a page, consider switching it to draft status instead -- that hides it from visitors while keeping it in your normal page list.
 
@@ -225,7 +217,7 @@ To remove a page from the Trash for good, click **Permanently Delete** on its ro
 
 The Website Builder is where you design and edit the actual content of your pages -- adding text, images, buttons, sections, and more.
 
-1. In the site menu on the left, click **Website Builder** (at the bottom of the panel, next to **Widgets**).
+1. In the site menu on the left, click **Website Builder** (at the bottom of the panel, below **Widgets**).
 2. Once the builder opens, click **Pages** in the icon rail on the right.
 3. Click the page you want to design.
 4. The page loads on the canvas, ready to edit.

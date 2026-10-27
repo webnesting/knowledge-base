@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-10-22 10:41am
+**Last verified:** 2026-10-27 11:40am
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -38,10 +38,12 @@ When you click into a text area, a **formatting toolbar** will appear near the t
 
 #### Bold, Italic, Underline, and Strikethrough
 
-- **Bold** -- Makes selected text thicker and heavier. Use it to emphasize important words.
+- **Bold** (the **Toggle bold** button) -- Makes selected text thicker and heavier. Use it to emphasize important words.
 - **Italic** -- Slants selected text. Use it for emphasis or for titles of books and articles.
 - **Underline** -- Adds a line under selected text.
 - **Strikethrough** -- Adds a line through the middle of selected text. Useful for showing corrections or removed items.
+- **Inline code** -- Shows selected text in a code style, for a command or a file name.
+- **Highlight** -- Marks selected text with a highlight color.
 
 To use any of these:
 
@@ -54,7 +56,8 @@ To use any of these:
 The **Block** dropdown lets you change the type of text block. Options include:
 
 - **Paragraph** -- Normal body text. This is the default.
-- **Heading 1** through **Heading 6** -- Different heading levels, from the largest (Heading 1) to the smallest (Heading 6). Use headings to create titles and section headers on your page.
+- **Paragraph (lead)** -- A larger opening paragraph.
+- **Heading 1** through **Heading 4** -- Different heading levels, from the largest (Heading 1) to the smallest (Heading 4). Use headings to create titles and section headers on your page.
 
 To change a block type:
 
@@ -86,9 +89,9 @@ To change the size:
 
 These buttons control how your text lines up on the page:
 
-- **Align Left** -- Text lines up along the left edge (this is the default and most common choice).
-- **Align Center** -- Text is centered in the middle of the container.
-- **Align Right** -- Text lines up along the right edge.
+- **Align left** -- Text lines up along the left edge (this is the default and most common choice).
+- **Align center** -- Text is centered in the middle of the container.
+- **Align right** -- Text lines up along the right edge.
 - **Justify** -- Text stretches to fill the full width, with even spacing between words.
 
 To change alignment:
@@ -100,13 +103,13 @@ To change alignment:
 
 You can turn text into a bulleted or numbered list:
 
-- **Bulleted List** -- Creates a list with dots (bullets) next to each item. Good for unordered items.
-- **Numbered List** -- Creates a list with numbers next to each item. Good for steps or ranked items.
+- **Bulleted list** -- Creates a list with dots (bullets) next to each item. Good for unordered items.
+- **Numbered list** -- Creates a list with numbers next to each item. Good for steps or ranked items.
 
 To create a list:
 
 1. Click into the text you want to turn into a list.
-2. Click either the **bullet list** or **numbered list** button in the toolbar.
+2. Click either **Bulleted list** or **Numbered list** in the toolbar.
 3. Each line of text becomes a list item.
 4. Press **Enter** to add a new item to the list.
 5. To stop the list, click the list button again.
@@ -118,30 +121,30 @@ Links let visitors click on text to go to another page or website.
 **To add a link:**
 
 1. Select the text you want to turn into a link (click and drag across it).
-2. Click the **link button** in the toolbar.
-3. A prompt will appear asking you to enter a web address (URL).
+2. Click **Insert link** in the toolbar.
+3. Enter a web address (URL) when asked.
 4. Type or paste the address (for example, https://www.example.com).
-5. Click OK. The selected text is now a clickable link.
+5. Confirm it. The selected text is now a clickable link.
 
 **To remove a link:**
 
 1. Select the linked text.
-2. Click the **remove link** button in the toolbar.
+2. Click **Remove link** in the toolbar.
 
 #### Blockquotes
 
 A blockquote is a styled block of text that stands out from the rest of the content. It is commonly used for quotes, important callouts, or excerpts.
 
 1. Click into the text you want to format as a blockquote.
-2. Click the **blockquote button** in the toolbar.
+2. Click **Block quote** in the toolbar.
 3. To remove the blockquote formatting, click the button again.
 
 #### Indentation
 
 You can increase or decrease the indentation of text:
 
-- **Indent** -- Moves the text further to the right.
-- **Outdent** -- Moves the text back to the left.
+- **Increase indent** -- Moves the text further to the right.
+- **Decrease indent** -- Moves the text back to the left.
 
 These are useful for creating visual hierarchy or nesting content within lists.
 
@@ -150,8 +153,12 @@ These are useful for creating visual hierarchy or nesting content within lists.
 If your text has gotten messy with too many styles applied, you can start fresh:
 
 1. Select the text you want to clean up.
-2. Click the **clear formatting** button in the toolbar.
+2. Click **Clear formatting** in the toolbar.
 3. All bold, italic, underline, and other inline formatting will be removed, leaving you with plain text.
+
+#### More Tools
+
+The toolbar also has **Insert horizontal rule**, **Insert image**, **Insert video**, **Embed iframe**, **Insert code block**, and **Toggle HTML view**, which switches the block between the formatted text and its HTML. Emails leave out **Insert video** and **Embed iframe**, because email apps remove them.
 
 ### Pasting Content
 
@@ -202,8 +209,9 @@ When you select an image, you may see display options that control how the image
 - **Cover** -- The image fills the entire space, cropping if needed to maintain proportions. Best for background-style images where full coverage matters more than seeing every edge.
 - **Contain** -- The entire image is visible within the space, with empty areas on the sides if the proportions do not match. Best when you need to show the complete image.
 - **Fill** -- The image stretches to fill the entire space, which may distort it. Use this sparingly.
+- **None** and **Scale Down** -- Keep the image at its own size, or shrink it only when it is too big for the space.
 
-You can also control the **position** of the image within its container (top, center, bottom, left, right) to focus on the most important part of the picture.
+You can also control the **Object position** of the image within its container (Top Left, Top, Top Right, Left, Center, Right, Bottom Left, Bottom, Bottom Right) to focus on the most important part of the picture. These options sit under **Media Object** in **Settings**.
 
 ---
 
@@ -222,19 +230,19 @@ Buttons are one of the most important elements on your page. They guide visitors
 Every button needs a destination -- the page or website visitors go to when they click it.
 
 1. Click on the button to select it.
-2. **Double-click** on the button to open its settings panel.
+2. Open **Settings** in the panel rail on the right.
 3. Find the **Link** field.
 4. Enter the web address (URL) where you want the button to go (for example, https://www.example.com/contact or a page on your own site).
 
 ### Styling Button Appearance
 
-When you double-click a button, you will see several styling options:
+When you select a button and open **Settings**, you will see several styling options:
 
 **Size:**
 
-- Normal, Small, Large, or XL
+- Tiny, Small, Normal, Large, or XL
 
-**Color Theme:**
+**Theme:**
 
 - Primary, Secondary, Success, Info, Warning, Danger, Dark, or Light. Each uses colors from your site's theme.
 
@@ -246,7 +254,7 @@ When you double-click a button, you will see several styling options:
 
 **Alignment:**
 
-- Start (left), Center, or End (right)
+- Default, Start (left), Center, or End (right)
 
 > **Tip:** Use your site's Primary color for the most important button on a page (your main call to action) and Secondary or lighter styles for less important actions.
 
@@ -276,8 +284,8 @@ Each accordion item has two parts -- a **title** (the part visitors see and clic
 
 When you select an accordion group, you can adjust these options in the settings panel:
 
-- **Collapse Others** -- When turned on, opening one section automatically closes the others. When turned off, visitors can have multiple sections open at the same time.
-- **Load Opened** -- When turned on, accordion sections start in the open position when the page loads.
+- **Collapse others** -- When turned on, opening one section automatically closes the others. When turned off, visitors can have multiple sections open at the same time.
+- **Open on load** -- When turned on, accordion sections start in the open position when the page loads.
 - **Mark as FAQ for search engines** -- When turned on, each title is shared with search engines as a question and each body as its answer. Google can then show your questions on its results page. Turn it on only when the items really are questions and answers. Search engines read plain text, so bold, links and lists in an answer are not passed on. An item with an empty title or an empty body is left out. If a page has two accordions with this turned on, they are shared together. You can see it work after you publish: paste your page address into Google's Rich Results Test.
 
 ---
@@ -298,12 +306,12 @@ When you select a slideshow, you will find these options in the settings panel:
 
 - **Bullets** -- Show small dots below the slideshow that let visitors jump to a specific slide.
 - **Arrows** -- Show left and right arrows for manual navigation between slides.
-- **Show Thumbnails** -- Display small preview images below the slideshow.
-- **Pause on Mouse Over** -- The slideshow pauses when a visitor hovers their mouse over it.
-- **Transition Speed** -- How fast the slides change (a lower number means faster transitions).
-- **Transition Delay** -- How long each slide stays visible before moving to the next one.
-- **Slide Transition** -- The animation style used when changing slides. Options include Fade, Slide, Slide Reverse, Slide Vertical, Flip, and more.
-- **Aspect Preset** -- Controls the height of the slideshow. You can choose from options like tallest image, shortest image, or a percentage of the screen height. Or choose Manual to set a custom aspect ratio.
+- **Show thumbnails** -- Display small preview images below the slideshow.
+- **Pause on mouse over** -- The slideshow pauses when a visitor hovers their mouse over it.
+- **Transition speed** -- How fast the slides change (a lower number means faster transitions).
+- **Transition delay** -- How long each slide stays visible before moving to the next one.
+- **Slide transition** -- The animation style used when changing slides. Options include Fade, Slide, Slide Reverse, Slide Vertical, Flip, and more.
+- **Aspect preset** -- Controls the height of the slideshow. You can choose tallest image, shortest image, or 25%, 50%, 75% or 100% of the screen height. Or choose Manual to set a custom **Aspect width** and **Aspect height**.
 
 > **Tip:** For a smooth, professional look, the "Fade" transition with a 5-second delay works well for most slideshows.
 
@@ -348,7 +356,7 @@ You can also control:
 You can add video to your pages within a text block:
 
 1. Click into a text block.
-2. Use the **video insert** button in the text toolbar.
+2. Use the **Insert video** button in the text toolbar.
 3. Enter the video URL and (optionally) a poster image URL.
 
 Videos from YouTube, Vimeo, and other major platforms will embed automatically when you paste the video URL. The video will display as a responsive player that adjusts to fit the available space, so it looks good on all screen sizes.
@@ -359,15 +367,13 @@ You can also embed videos using the **HTML** component by pasting an embed code 
 
 ### Adding Maps
 
-1. Add a **Google Maps** component from the **Plugins** group in the **Add** panel.
-2. Drag it to where you want the map to appear on your page.
-3. Configure the location in the component settings.
+There is no map block in the **Add** panel. To show a map, add an **HTML** component and paste the embed code from your map service (see below).
 
 ### Using the HTML Component
 
 The HTML component is a powerful tool for adding third-party content to your page. Any service that provides an embed code can be added using an HTML component.
 
-1. Add an **HTML** component from the **Content** group in the **Add** panel.
+1. Add an **HTML** component from the **Text** group in the **Add** panel.
 2. Double-click the component on the page. A code editor opens over it.
 3. Paste the embed code provided by the third-party service, then click **Save**.
 
@@ -413,7 +419,7 @@ In the code editor, **History** keeps the last 50 versions of the component's co
 
 The Markdown Block lets you write content using Markdown syntax -- a simple way to format text using plain characters.
 
-1. Add a **Markdown Block** from the **Content** group in the **Add** panel.
+1. Add a **Markdown Block** from the **Text** group in the **Add** panel.
 2. Type or paste your Markdown-formatted content.
 
 Markdown is useful when you have pre-written content in Markdown format (for example, from a README file or documentation tool) and want to paste it directly into your page without reformatting.
@@ -427,7 +433,7 @@ Basic Markdown formatting:
 - `1. item` for numbered lists
 - `[link text](URL)` for links
 
-> **Tip:** Most users will find the regular Balloon Text component easier to work with, since it has a visual toolbar for formatting. The Markdown Block is best for people who are already familiar with Markdown syntax.
+> **Tip:** Most users will find the **Inline Text** component easier to work with, since it has a visual toolbar for formatting. The Markdown Block is best for people who are already familiar with Markdown syntax.
 
 ---
 

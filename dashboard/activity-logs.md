@@ -1,6 +1,6 @@
 # Activity Logs
 
-**Last verified:** 2026-10-26 10:22am
+**Last verified:** 2026-10-27 11:40am
 
 Activity logs keep a record of everything that happens on your site. Every time someone makes a change -- whether it is editing a page, updating settings, or managing team members -- it is recorded in the activity log.
 
@@ -32,7 +32,7 @@ To view your site's activity log:
 
 1. Go to your **Dashboard**.
 2. Look for the **Activity Log** widget. It shows a timeline of recent actions on your site.
-3. Each entry shows what was changed, who made the change (identified by their email address), and the time it happened.
+3. Each entry shows what was changed, who made the change, and how long ago it happened.
 
 The most recent activity appears at the top, so you can quickly see what has been happening on your site.
 
@@ -57,24 +57,9 @@ This is the main activity log that records content and configuration changes. It
 
 This is the log you will use most often.
 
-### SSL Certificate Logs
+### Workspace Activity
 
-SSL certificates keep your website secure (the padlock icon in your visitors' browsers). WebNesting manages your SSL certificates automatically, and logs are kept of certificate-related activity, such as:
-
-- Certificate renewals
-- Certificate status changes
-
-You typically do not need to check these logs unless you are troubleshooting a security certificate issue with support.
-
-### Billing Logs
-
-Billing activity is tracked separately in your account area. This includes:
-
-- Monthly bill generation
-- Payments made
-- Usage changes
-
-You can view billing information in the **Billing** section of your account.
+The workspace has its own activity log. It shows workspace-level changes and the activity of all your sites in one place. See [Workspace Activity Log](#workspace-activity-log) below.
 
 ---
 
@@ -83,9 +68,9 @@ You can view billing information in the **Billing** section of your account.
 The Activity Log widget on your dashboard shows the most recent entries. You can adjust how many entries are shown:
 
 1. Open the Activity Log widget's settings by clicking the settings icon (the gear icon) on the widget.
-2. Choose how many entries to display (10, 25, or 50).
-3. You can also filter by type of activity (all activity, page edits only, or settings changes only).
-4. Click **Save** to apply your preferences.
+2. In **Number of entries**, choose 10, 25 or 50 entries.
+3. In **Filter by type**, choose which kind of activity to show.
+4. Save your choice.
 
 > **Tip:** If you are looking for a specific change, try filtering by type first. This narrows down the list and makes it easier to find what you need.
 
@@ -116,13 +101,13 @@ In addition to workspace-level events, the log also shows activity from all your
 2. Click **Settings** at the bottom of the icon rail, then **Activity Log**.
 3. You will see a chronological list of all activity across your workspace and sites.
 
-Each entry shows:
-- **When** the action occurred
-- **What** happened (described in plain language)
+The page is titled **Activity Log**, and its list is called **Event History**. Each entry shows:
+- **Time** the action occurred
+- **Event** — What happened (described in plain language)
 - **Source** — Whether it was a workspace-level action or which site it occurred on
 - **Resource** — The type of content or setting that was affected
 
-Click on any entry to expand it and see additional details about the action. With the keyboard, press Tab until the entry's time is selected, then press Enter. Press Enter again to close it.
+Click on any entry to expand it and see additional details about the action under **Technical details**. With the keyboard, press Tab until the entry's time is selected, then press Enter. Press Enter again to close it.
 
 ### Filtering the Workspace Activity Log
 
@@ -130,7 +115,7 @@ The workspace activity log includes several filters to help you find specific ac
 
 - **Source** — Filter by workspace-level activity or activity from a specific site
 - **Resource** — Filter by the type of content (for example, only show page changes or only show permission changes)
-- **Date range** — Set a start and end date to narrow results to a specific time period. The dates are your own days, in the timezone on your profile — the same days the list shows next to each entry.
+- **When** — Choose **Any time**, **Today**, **Last 7 days**, **Last 30 days** or **Custom** (a start and an end date). The dates are your own days, in the timezone on your profile — the same days the list shows next to each entry.
 - **Search** — Type keywords to search across all activity entries
 
 Filters apply the moment you pick them -- there is nothing to submit. If you use the same combination often, click **Save as view…** in the filter panel to keep it as a named view you can return to with one click.
@@ -193,6 +178,6 @@ Even if you manage your site alone, the activity log gives you a clear history o
 
 WebNesting keeps your site activity logs for the lifetime of your site. You do not need to worry about logs being deleted or expiring.
 
-Older log entries remain accessible, so you can always go back and review past activity regardless of when it happened.
+One kind of entry is removed after a set time: entries about API access tokens in the workspace activity log. They are kept for 30 days, or 365 days if you turned on the **API Audit Log — 365-day Retention** add-on.
 
 > **Tip:** Make it a habit to glance at your activity log when you log in. It takes just a few seconds and helps you stay on top of what is happening on your site, especially if you have team members making changes.

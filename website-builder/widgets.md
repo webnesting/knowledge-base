@@ -1,6 +1,6 @@
 # Custom Widgets
 
-**Last verified:** 2026-10-24 7:32pm
+**Last verified:** 2026-10-27 11:40am
 
 Widgets are reusable content blocks that you create once and use across multiple pages on your site. Instead of rebuilding the same section over and over, you build it once as a widget, and then place it wherever you need it.
 
@@ -36,12 +36,12 @@ Use a widget for a block that must be the same everywhere, such as your opening 
 
 ## Enabling the Widget Builder
 
-The Widget Builder is an add-on feature. Turn it on before you create widgets. While it is off, the **New Widget** button and the **+** on **My Widgets** do not show.
+The Widget Builder is an add-on feature. It costs $20 a month. Turn it on before you create widgets. While it is off, the Widgets page says "The Widget Builder is turned off" and offers no **New Widget** button.
 
-1. Go to your **Dashboard**.
-2. Open **Modules and Features** from the sidebar.
+1. Open your site's dashboard.
+2. In the site menu, open **Settings** and click **Modules**.
 3. Find **Widget Builder** in the list.
-4. Enable it.
+4. Click **Turn on**.
 
 Once enabled, you will see widget options appear in the Website Builder.
 

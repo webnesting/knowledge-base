@@ -1,6 +1,6 @@
 # Making Your Site Accessible
 
-**Last verified:** 2026-10-22 10:30am
+**Last verified:** 2026-10-27 11:40am
 
 Accessibility means making sure everyone can use your website, regardless of how they browse the web. Some visitors use screen readers, some navigate with a keyboard instead of a mouse, and some have difficulty seeing certain colors. This guide explains what accessibility is, why it matters, and how you can make your WebNesting site welcoming to all visitors.
 
@@ -81,12 +81,12 @@ Headings are not just a way to make text bigger. They create a structure for you
 
 ### Heading Levels
 
-Headings come in levels from Heading 1 (the largest and most important) to Heading 6 (the smallest). Here is how to use them:
+Headings come in four levels, from Heading 1 (the largest and most important) to Heading 4 (the smallest). Here is how to use them:
 
 - **Heading 1** -- The main title of the page. Use it once per page for the primary topic.
 - **Heading 2** -- Major sections of the page. Use these to divide your content into big topics.
 - **Heading 3** -- Subsections within a Heading 2 section. Use these for smaller topics within a larger section.
-- **Heading 4 through 6** -- Further subsections, if needed. Most pages will not need to go beyond Heading 3.
+- **Heading 4** -- A further subsection, if needed. Most pages will not need to go beyond Heading 3.
 
 ### How to Set Heading Levels
 

@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-**Last verified:** 2026-10-27 10:18am
+**Last verified:** 2026-10-27 11:40am
 
 Welcome to WebNesting! This guide will get you up and running in about 10 minutes. Follow these steps to set up your site, make your first edits, and publish your changes.
 
@@ -43,9 +43,9 @@ Welcome to WebNesting! This guide will get you up and running in about 10 minute
 ## Step 4: Add a New Page
 
 1. In the builder, select the **Pages** icon at the top of the rail on the right (it looks like a small document).
-2. Select **+ New page** at the top of the pages panel.
-3. Enter a title for your page (for example, "About Us" or "Contact"), set the URL slug, and choose a layout.
-4. Save the page. It will appear in your pages list and you can start adding content to it right away.
+2. Select **New page** at the top of the pages panel.
+3. Enter a title for your page (for example, "About Us" or "Contact"), set the **Page URI**, and choose a layout.
+4. Click **Save**. It will appear in your pages list and you can start adding content to it right away.
 
 ---
 
@@ -57,7 +57,7 @@ Welcome to WebNesting! This guide will get you up and running in about 10 minute
 4. Upload your **Logo** and **Favicon** (the small icon that appears in browser tabs) by clicking the image areas and selecting files from your files.
 5. Select **Save Changes**.
 
-> **Tip:** For the best results, use a logo image with a transparent background. Favicons should be square and at least 32x32 pixels.
+> **Tip:** For the best results, use a logo image with a transparent background. Favicons should be a simple square image, at least 512 x 512 pixels.
 
 ---
 
@@ -69,7 +69,7 @@ Welcome to WebNesting! This guide will get you up and running in about 10 minute
 4. Write a short **Description** that tells people what your site is about. Keep it under 155 characters.
 5. Select **Save Changes**.
 
-You can also set SEO details for each individual page. Open any page's properties in the builder and look for the "Search Engine Optimization" section.
+You can also set SEO details for each individual page. Open any page's settings in the builder and look for the **SEO** fields.
 
 > **Tip:** Your SEO title and description are what people see in Google before they click on your link. Make them clear and inviting.
 

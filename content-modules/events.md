@@ -1,6 +1,6 @@
 # Events
 
-**Last verified:** 2026-10-27 10:24am
+**Last verified:** 2026-10-27 11:40am
 
 The Events module lets you create and manage event listings on your website. Whether you host workshops, classes, concerts, conferences, or community meetups, this module gives you the tools to promote your events and share all the important details with your visitors.
 
@@ -26,7 +26,7 @@ Before you can start creating events, you need to turn on the module.
 4. A window shows what it costs -- its rate and estimated monthly cost, plus the 10 free pages it earns your site while it's on -- before anything happens.
 5. Click **Enable** to confirm. The module activates right away.
 
-Once enabled, you will see a new **Event** section appear under **Pages** in your site menu. You are ready to start creating events.
+Once enabled, **Events** appears in your site menu, below **Pages**. The **Add** panel in the Website Builder also gets **Event List** and **Event Detail** blocks. You are ready to start creating events.
 
 > **Tip:** The Events module includes showings (multiple dates/times) and ticketing at no extra cost. Everything you need to manage events is included.
 
@@ -36,9 +36,11 @@ Once enabled, you will see a new **Event** section appear under **Pages** in you
 
 Here is how to create an event listing for your website.
 
-1. In the site menu, open **Pages**, then select **Events**.
+1. In the site menu, select **Events**.
 2. Select **+ New Event** at the top of the page.
-3. You will see the event editor with several sections to fill in.
+3. The event editor opens with four tabs: **Event**, **Primary Ticket**, **Page** and **Content**. Most of what you fill in is on the **Event** tab.
+4. To give the event its own page on your site, open the **Page** tab and turn on **Enable page for this record**. Fill in **Title**, **Page URI** and **Layout** (choose **Event**).
+5. Select **Create**.
 
 ![The event editor with showings and ticket configuration](../images/content-modules/event-editor.png)
 
@@ -77,8 +79,8 @@ The text editor lets you format your description with headings, bold text, bulle
 
 A featured image represents your event visually. It appears on the event page and in event lists.
 
-1. Find the **Image** section in the event editor.
-2. Click to open the media picker.
+1. On the **Event** tab, find **Image**.
+2. Click **Add Image** to open the media picker.
 3. Choose an image from your File Manager, or upload a new one.
 4. The image will be attached to your event.
 
@@ -91,11 +93,12 @@ Like articles, events have a draft and published status.
 - **Draft** -- The event is saved but not visible on your website. Use this while you are still finalizing details.
 - **Published** -- The event is live and visible to your visitors.
 
-To change the status:
+To publish:
 
-1. Look for the publish or draft toggle on the event editor page.
-2. Switch between draft and published.
-3. Save your changes.
+1. Open the event in the editor.
+2. Select **Save & Publish** at the bottom of the page.
+
+You can also choose **Publish** from the ⋮ menu on the event's row in the list. To take a published event offline, choose **Unpublish** from the ⋮ menu. **Save** keeps your changes as a draft.
 
 ---
 
@@ -106,11 +109,11 @@ A showing is a specific date and time when your event takes place. Many events h
 ### Adding a Showing
 
 1. Open the event you want to add a showing to.
-2. Look for the **Showings** section in the event editor.
-3. Click to add a new showing.
+2. On the **Event** tab, find the showings. Until you add one, it says "No showings added yet."
+3. Select **+ Add Showing**.
 4. Fill in the details:
-   - **Date and Time** -- Choose the date and time the event takes place.
-   - **All Day** -- Select "Yes" if the event runs all day and does not have a specific start time. Select "No" if there is a set start time. When you toggle "All Day" to Yes, the time fields are hidden and the event shows only the date.
+   - **Date & Time** -- Choose the date and time the event takes place.
+   - **All Day** -- Select **Yes** if the event runs all day and does not have a specific start time. Select **No** if there is a set start time.
 5. Save your event.
 
 ### Adding Multiple Showings
@@ -130,7 +133,7 @@ For example, if your "Holiday Craft Fair" runs on December 10, 11, and 12, you w
 
 1. Open the event.
 2. Find the showing you want to remove.
-3. Click the delete option next to it.
+3. Click **Remove** next to it and confirm.
 4. Save your event.
 
 > **Tip:** Showings are what help your visitors see when your event is happening at a glance. Even if your event only happens once, add a showing so the date and time appear on your event page.
@@ -144,8 +147,8 @@ If your event requires tickets or registration, you can set up ticket informatio
 ### Adding a Ticket
 
 1. Open the event you want to add tickets to.
-2. Look for the **Primary Ticket** section (or navigate to the Tickets area within a showing).
-3. Click to add a new ticket.
+2. Open the **Primary Ticket** tab, or find the **Tickets** list inside a showing on the **Event** tab.
+3. Select **+ Add Ticket**.
 4. Fill in the ticket details:
    - **Title** -- The name of the ticket type. For example, "General Admission," "VIP Pass," or "Early Bird."
    - **Description** -- A short explanation of what the ticket includes.
@@ -167,7 +170,7 @@ You can create more than one ticket type for an event. This is useful when you o
 
 1. Open the event.
 2. Find the ticket you want to change or remove.
-3. Edit the details or click the delete option.
+3. Edit the details, or click **Remove** and confirm.
 4. Save your event.
 
 > **Tip:** Even if your event is free, you can still add a ticket with a title like "Free Registration" and include a link to an RSVP page. This makes it easy for visitors to sign up.
@@ -178,25 +181,25 @@ You can create more than one ticket type for an event. This is useful when you o
 
 ### Editing an Event
 
-1. In the site menu, open **Pages**, then select **Events**.
+1. In the site menu, select **Events**.
 2. Find the event you want to update in the list.
 3. Click on the event to open it in the editor.
 4. Make your changes to any field -- title, description, showings, tickets, or image.
-5. Save your changes.
+5. Select **Save** to keep your changes as a draft, or **Save & Publish** to put them on your live website.
 
 ### Deleting an Event
 
-1. Go to the **Event** section.
+1. Go to the **Events** list.
 2. Find the event you want to remove.
-3. Click the **Delete** option next to the event.
+3. Open the ⋮ menu on its row and choose **Delete**.
 4. Confirm that you want to delete it.
 
 ### Restoring a Deleted Event
 
-1. In the **Event** section, look for a **Deleted** or **Trash** view.
+1. In the **Events** list, select **Filters** and set **Status** to **Trashed**.
 2. Find the event you want to recover.
-3. Click **Restore**.
-4. The event will return to your event list.
+3. Open the ⋮ menu on its row and choose **Restore**.
+4. The event returns to your event list.
 
 > **Tip:** If an event has already passed, you do not need to delete it. Past events can be useful for your visitors to see, showing that you are active and have a history of hosting events.
 
@@ -211,8 +214,8 @@ To show your events to visitors, you add event components to your pages using th
 An Event List displays a collection of your events -- perfect for an "Events" or "What's On" page.
 
 1. Open the page where you want to display events in the **Website Builder**.
-2. Open the component panel.
-3. Look for **Event List** under the **Module Driven Items** group.
+2. Open the **Add** panel.
+3. Look for **Event List** in the **Site modules** group.
 4. Drag the Event List component onto your page.
 5. The component will automatically display your published events with their titles, dates, images, and links to read more.
 6. Save your page.
@@ -224,8 +227,8 @@ Visitors will see a card-style layout of your events. Each card shows the event 
 An Event Detail component shows the full information for a single event. This is used on the individual event page that opens when a visitor clicks an event from the list.
 
 1. Open the event's individual page in the **Website Builder**.
-2. Open the component panel.
-3. Look for **Event Detail** under the **Module Driven Items** group.
+2. Open the **Add** panel.
+3. Look for **Event Detail** in the **Site modules** group.
 4. Drag the Event Detail component onto the page.
 5. The component will display the full event title and description.
 6. Save your page.

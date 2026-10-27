@@ -1,6 +1,6 @@
 # WebNesting User Documentation
 
-**Last verified:** 2026-10-27 9:38am
+**Last verified:** 2026-10-27 11:40am
 
 Welcome to the WebNesting help center. These guides will help you build and manage your website.
 
@@ -48,7 +48,7 @@ Welcome to the WebNesting help center. These guides will help you build and mana
 | [Billing and Usage](dashboard/billing-and-usage.md) | Understand your bill, pricing, usage tracking, and manage costs |
 | [Account Security](dashboard/account-security.md) | Passwords, two-factor authentication, SSO, and keeping your account safe |
 | [Activity Logs](dashboard/activity-logs.md) | View a history of changes made to your site |
-| [Workspace Products](dashboard/workspace-products.md) | Enable and manage workspace products (Marketing, Helpdesk, Tasks) |
+| [Workspace Products](dashboard/workspace-products.md) | Enable and manage workspace products (Marketing, Helpdesk, Tasks, Internal Docs, API Access) |
 | [Integrations](dashboard/integrations.md) | Connect Google, Microsoft, and GitHub — one page for all your connected apps |
 | [Connecting an AI Tool](dashboard/connecting-ai-tools.md) | Connect Claude, ChatGPT, Cursor, or another AI assistant to your workspace |
 | [Helpdesk](dashboard/helpdesk.md) | Manage support tickets, knowledge base, SLA policies, and customer satisfaction |
@@ -75,6 +75,7 @@ Welcome to the WebNesting help center. These guides will help you build and mana
 | [SEO Best Practices](website-builder/seo-best-practices.md) | Practical tips for improving your site's search engine visibility |
 | [Site Navigation](website-builder/site-navigation.md) | Set up header menus, footer links, dropdowns, and breadcrumbs |
 | [Accessibility Guide](website-builder/accessibility-guide.md) | Make your site usable for everyone with alt text, headings, contrast, and more |
+| [Animations and Interactions](website-builder/animations-and-interactions.md) | Entrance effects, scroll effects, and other motion for your blocks |
 
 ## Content Modules
 
@@ -82,6 +83,6 @@ Welcome to the WebNesting help center. These guides will help you build and mana
 |-------|-------------|
 | [Articles and Blog Posts](content-modules/articles.md) | Create and manage blog posts and news articles |
 | [Events](content-modules/events.md) | Create events with dates, showings, and tickets |
-| [Products and E-Commerce](content-modules/products-and-ecommerce.md) | Manage products, orders, and store locations |
+| [Products and E-Commerce](content-modules/products-and-ecommerce.md) | Manage products and record orders |
 | [Email Marketing](content-modules/email-marketing.md) | Collect signups, manage contacts, mailing lists, tags, and email campaigns |
 | [Custom Data Tables](content-modules/custom-data-tables.md) | Create custom content types like team members, FAQs, and portfolios |

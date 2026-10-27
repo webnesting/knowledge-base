@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-10-27 10:11am
+**Last verified:** 2026-10-27 11:40am
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -86,9 +86,9 @@ Here is a summary of each module you can add to your site.
 The Articles module adds a full blogging and news section to your site. Use it to publish blog posts, company news, updates, or any written content you want to share with your visitors.
 
 What you get when you enable it:
-- An **Articles** section in your dashboard to create and manage posts
-- A blog page on your published website where visitors can read your articles
-- Tools for organizing articles with categories and tags
+- **Articles** under **Pages** in your site menu, to create and manage posts
+- **Article List** and **Article Detail** blocks in the website builder, to show your posts on your site
+- An article type for each post: **Article**, **News Article** or **Blog Posting**
 - 10 more free pages for this site, for as long as Articles stays on (see [Billing and Usage](billing-and-usage.md#pages))
 
 ### E-Commerce (Store)
@@ -98,10 +98,10 @@ What you get when you enable it:
 The E-Commerce module turns your website into an online store. Sell physical or digital products, manage orders, and track your sales.
 
 What you get when you enable it:
-- A **Store** section in your dashboard for managing products
-- Product pages on your published website
-- Order management tools
-- Support for product details like pricing, descriptions, and images
+- A **Store** section in your site menu, with **Products** and **Orders**
+- **Product List** and **Product Detail** blocks in the website builder
+- Product details like price, description, SKU, inventory and images
+- A place to record orders yourself. Online checkout is not available yet.
 - 10 more free pages for this site, for as long as Store stays on (see [Billing and Usage](billing-and-usage.md#pages))
 
 ### Events
@@ -111,8 +111,8 @@ What you get when you enable it:
 The Events module lets you create and manage event listings on your site. Perfect for businesses that host classes, workshops, meetups, or any kind of gathering.
 
 What you get when you enable it:
-- An **Events** section in your dashboard
-- Event pages on your published website
+- **Events** under **Pages** in your site menu
+- **Event List** and **Event Detail** blocks in the website builder
 - Tools for adding event details like dates, times, and descriptions
 - 10 more free pages for this site, for as long as Events stays on (see [Billing and Usage](billing-and-usage.md#pages))
 
@@ -121,8 +121,7 @@ What you get when you enable it:
 When you enable the Events module, you also get support for event showings and ticketing. This lets you:
 
 - Set up multiple dates and times for the same event
-- Manage ticket types and availability
-- Track registrations
+- Add ticket types, each with a title, a description, on-sale dates and a link where people can buy
 
 > **Tip:** Event showings and ticketing are included with the Events module at no extra cost.
 
@@ -149,8 +148,8 @@ What you get when you enable it:
 The Forms module lets you build custom forms for your website -- contact forms, surveys, registration forms, feedback forms, and more. Includes conditional logic, multi-page forms, file uploads, reCAPTCHA, webhooks, and submission management.
 
 What you get when you enable it:
-- A **Form** section in your dashboard for building and managing forms
-- A **Form Embed** component in the website builder for adding forms to any page
+- A **Forms** section in your site menu for building and managing forms
+- A **Form** block in the **Site modules** group of the website builder for adding forms to any page
 - Submission tracking with filtering and status management. On a form's **Submissions** tab, click **Export CSV** to download the answers (newest first, with the labels your visitors saw) for Excel or Google Sheets
 - Email notifications when forms are submitted, and an automatic reply to the person who filled in the form (up to 100 automatic replies a day per site; over that, the submission is still saved and you still get your own email)
 - Built-in form templates to get started quickly
@@ -187,7 +186,7 @@ Beyond the base fee you are charged for API requests (about 50,000 each month fr
 The Widget Builder lets you create custom, reusable components in the Website Builder. Once created, widgets can be dragged onto any page, making it easy to maintain consistent elements like call-to-action sections, testimonial blocks, or pricing cards across your site.
 
 What you get when you enable it:
-- A **Widget Builder** section in your dashboard
+- **Widgets** at the bottom of your site menu, where you design and manage custom widgets
 - Tools for designing and configuring custom widgets
 - The ability to place widgets on any page of your site
 
@@ -220,7 +219,7 @@ A few things worth knowing:
 
 When you turn on a module, a few things happen right away:
 
-1. **New menu items appear.** You will see new sections in your dashboard sidebar for managing the module's content.
+1. **New menu items appear.** You will see new items in your site menu for managing the module's content.
 2. **New page types become available.** In the website builder, you can create pages that use the module's features (like product pages or blog post pages).
 3. **Your billing is updated.** The module's monthly fee starts counting from the moment you enable it.
 

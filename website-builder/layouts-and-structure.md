@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-10-27 9:39am
+**Last verified:** 2026-10-27 11:40am
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -31,7 +31,7 @@ Each choice starts as **Same as the rest of the site**, so you only change what 
 
 To go back, click **Every page**. The builder asks first, because the layout's own settings are removed. **Settings → Header & Footer** lists the layouts that keep their own header or footer, with a link to the Builder.
 
-The Main component represents the primary content area of your page. Most pages use one Main component between the header and footer. Layouts typically include a Main component by default.
+The **Content area** block represents the primary content area of your page. Most pages use one **Content area** between the header and footer. Layouts include one by default.
 
 ---
 
@@ -45,9 +45,9 @@ Your layout acts like a blueprint. Once you choose it, you fill in the main cont
 
 ---
 
-## Structure Components
+## Layout Blocks
 
-Structure components are the building blocks you use to organize content within the main content area. Think of them as invisible containers that hold and arrange your visible content.
+The blocks in the **Layout** group of the **Add** panel are the building blocks you use to organize content within the main content area. Think of them as invisible containers that hold and arrange your visible content.
 
 ### Sections
 
@@ -62,24 +62,24 @@ Common uses for sections:
 #### Adding a Section
 
 1. In the builder, open the **Add** panel from the rail on the right.
-2. Look under **Structure** for the Section component.
+2. Look under **Layout** for the **Section** block.
 3. Drag it onto your page where you want it.
 4. The section will appear as an empty area, ready for you to add content inside it.
 
 > **Tip:** Build your page by stacking sections from top to bottom. Each section should focus on one idea or purpose. This keeps your page organized and easy for visitors to scan.
 
-### Groups and Containers
+### Groups and Blank Boxes
 
-A **Container** (listed under **Structure** in the **Add** panel) is a box that holds other elements together. While a section spans the full width of your page, containers are used inside sections to group related content.
+A **Blank box** (listed under **Layout** in the **Add** panel) is an empty box that holds other elements together. While a section spans the full width of your page, blank boxes are used inside sections to group related content.
 
-Think of a container like a box on a shelf. You might have one box for photos, another for documents, and another for supplies. Each container groups related items together.
+Think of a blank box like a box on a shelf. You might have one box for photos, another for documents, and another for supplies. Each blank box groups related items together.
 
-#### Adding a Container
+#### Adding a Blank Box
 
 1. Open the **Add** panel.
-2. Under **Structure**, find the Container component.
+2. Under **Layout**, find the **Blank box** block.
 3. Drag it into a section on your page.
-4. Now you can drag other components (text, images, buttons) into the container.
+4. Now you can drag other components (text, images, buttons) into the box.
 
 ### Dividers
 
@@ -88,7 +88,7 @@ A **Divider** is a simple horizontal line that separates content visually. Use d
 #### Adding a Divider
 
 1. Open the **Add** panel.
-2. Under **Structure**, find the Divider component.
+2. Under **Layout**, find the **Divider** block.
 3. Drag it between the elements you want to separate.
 
 > **Tip:** Use dividers sparingly. Too many dividers can make your page look cluttered. Often, adding spacing (padding or margin) between sections is a cleaner alternative.
@@ -101,11 +101,11 @@ One of the most common things you will want to do is place content side by side 
 
 ### Method 1: Side-by-Side (Flex) Layout
 
-The easiest way to put items next to each other is to use a Flex layout on a container.
+The easiest way to put items next to each other is to use a Flex layout on a blank box.
 
-1. Add a **Container** (or Section) to your page.
-2. Add the items you want side by side inside the container. For example, drag in two text blocks or a text block and an image.
-3. Select the container (not the items inside it).
+1. Add a **Blank box** (or Section) to your page.
+2. Add the items you want side by side inside the box. For example, drag in two text blocks or a text block and an image.
+3. Select the box (not the items inside it).
 4. Open the **Styles** panel and find the **Layout** section.
 5. Click the **Flex** button.
 6. The items inside will now appear next to each other.
@@ -118,9 +118,9 @@ You can further adjust the layout:
 
 For evenly spaced columns, use the Grid layout.
 
-1. Add a **Container** to your page.
-2. Add the items you want in the grid inside the container.
-3. Select the container.
+1. Add a **Blank box** to your page.
+2. Add the items you want in the grid inside the box.
+3. Select the box.
 4. In the **Styles** panel, find the **Layout** section.
 5. Click the **Grid** button.
 6. Click the gear icon to set the number of columns and rows.
@@ -132,9 +132,9 @@ For evenly spaced columns, use the Grid layout.
 This is perfect for an "About" section or a feature highlight.
 
 1. Add a Section to your page.
-2. Add a Container inside the section.
-3. Add a Text component and an Image component inside the container.
-4. Select the container and set its display to **Flex**.
+2. Add a Blank box inside the section.
+3. Add an Inline Text block and an Image block inside the box.
+4. Select the box and set its display to **Flex**.
 5. Both items will sit side by side -- text on the left, image on the right.
 
 > **Tip:** To control how much space each item takes, select each item individually and set its width to a percentage. For example, set the text to 60% and the image to 40%.
@@ -144,9 +144,9 @@ This is perfect for an "About" section or a feature highlight.
 Great for showcasing services, features, or team members.
 
 1. Add a Section to your page.
-2. Add a Container inside the section.
-3. Add three child containers or card components inside.
-4. Select the parent container and set its display to **Grid**.
+2. Add a Blank box inside the section.
+3. Add three child blank boxes or Card blocks inside.
+4. Select the parent box and set its display to **Grid**.
 5. Click the gear icon and set the columns to 3.
 6. Each item will take up one-third of the width.
 
@@ -155,9 +155,9 @@ Great for showcasing services, features, or team members.
 For a gallery of cards, product listings, or a portfolio.
 
 1. Add a Section to your page.
-2. Add a Container inside the section.
-3. Add as many cards or child containers as you need.
-4. Select the parent container and set its display to **Grid**.
+2. Add a Blank box inside the section.
+3. Add as many cards or child blank boxes as you need.
+4. Select the parent box and set its display to **Grid**.
 5. Set the columns to 2, 3, or 4 depending on how many cards you want per row.
 6. Set the **Gap** to add space between the cards (16 or 24 pixels works well).
 
@@ -168,64 +168,64 @@ For a gallery of cards, product listings, or a portfolio.
 Nesting is when you place one component inside another. This is how you build complex layouts.
 
 For example:
-- A **Section** contains a **Container**.
-- That Container contains a **Text block** and an **Image**.
-- Or that Container contains two more **Containers**, each with their own content.
+- A **Section** contains a **Blank box**.
+- That box contains an **Inline Text** block and an **Image**.
+- Or that box contains two more **Blank boxes**, each with their own content.
 
 You can nest components several levels deep. The structure works like a family tree -- each component can have children, and those children can have their own children.
 
 ### How to Nest Components
 
 1. Drag a component from the **Add** panel.
-2. Drop it on top of (or inside) a container or section on your page.
-3. The container will highlight to show it is ready to receive the new component.
+2. Drop it on top of (or inside) a blank box or section on your page.
+3. The box will highlight to show it is ready to receive the new component.
 4. Release to drop it inside.
 
-### Moving Components Between Containers
+### Moving Components Between Blank Boxes
 
 1. Click and hold the component you want to move.
-2. Drag it to a different container.
-3. Drop it when the target container highlights.
+2. Drag it to a different box.
+3. Drop it when the target box highlights.
 
-> **Tip:** If you are having trouble dropping a component inside a container, make sure the container is set to accept children (nestable). Sections and containers are nestable by default, but some components (like dividers) are not.
+> **Tip:** If you are having trouble dropping a component inside a box, make sure the box is set to accept children (nestable). Sections and blank boxes are nestable by default, but some components (like dividers) are not.
 
 ---
 
-## When to Use Sections vs. Containers
+## When to Use Sections vs. Blank Boxes
 
-| Use a Section When... | Use a Container When... |
+| Use a Section When... | Use a Blank Box When... |
 |----------------------|------------------------|
 | You want a full-width band across the page | You want to group items within a section |
 | You are starting a new "chapter" of your page | You need to arrange items side by side |
 | You want a distinct background color or image for an area | You want to control the width of a group of items |
 | You are separating major areas (hero, features, contact) | You are nesting content inside a section |
 
-**Rule of thumb:** Sections are the big horizontal slices of your page. Containers go inside sections to organize the content within each slice.
+**Rule of thumb:** Sections are the big horizontal slices of your page. Blank boxes go inside sections to organize the content within each slice.
 
 ---
 
 ## Common Layout Patterns
 
-Here are some popular page layouts you can build with sections and containers.
+Here are some popular page layouts you can build with sections and blank boxes.
 
 ### Hero Section
 
 A large, eye-catching area at the top of your page.
 
 1. Add a **Section** at the top of your page.
-2. Inside, add a **Container** with a text block for your headline and a button.
+2. Inside, add a **Blank box** with a text block for your headline and a button.
 3. Style the section with a background color or image.
 4. Add generous padding (60-100 pixels top and bottom) to give it height.
-5. Set the container to Flex with centered alignment to center the content.
+5. Set the box to Flex with centered alignment to center the content.
 
 ### Features Grid
 
 Showcase 3-6 features or services in a grid.
 
 1. Add a **Section**.
-2. Inside, add a heading text block and a **Container** below it.
-3. Inside the container, add cards or containers for each feature.
-4. Set the outer container to Grid with 3 columns.
+2. Inside, add a heading text block and a **Blank box** below it.
+3. Inside the box, add cards or blank boxes for each feature.
+4. Set the outer box to Grid with 3 columns.
 5. Add a gap of 24 pixels between the items.
 
 ### Two-Column With Sidebar
@@ -233,10 +233,10 @@ Showcase 3-6 features or services in a grid.
 Content on the left, sidebar on the right.
 
 1. Add a **Section**.
-2. Inside, add a **Container** and set it to Flex.
-3. Add two child containers inside.
-4. Set the left container width to 70% and the right container width to 30%.
-5. Add your main content to the left container and sidebar content to the right.
+2. Inside, add a **Blank box** and set it to Flex.
+3. Add two child blank boxes inside.
+4. Set the left box width to 70% and the right box width to 30%.
+5. Add your main content to the left box and sidebar content to the right.
 
 ### Contact Section
 
@@ -244,7 +244,7 @@ A section with contact information and a call-to-action.
 
 1. Add a **Section** near the bottom of your page.
 2. Give it a contrasting background color.
-3. Inside, add a **Container** set to Flex.
+3. Inside, add a **Blank box** set to Flex.
 4. Add your contact information on one side and a button or form on the other.
 
 ### Full-Width Image Banner
@@ -253,7 +253,7 @@ A dramatic full-width image with text overlay.
 
 1. Add a **Section**.
 2. Set the section's background to your image.
-3. Add a **Container** inside with a text block.
+3. Add a **Blank box** inside with a text block.
 4. Center the text using Flex alignment.
 5. Add padding to give the section height.
 
@@ -271,4 +271,4 @@ A dramatic full-width image with text overlay.
 
 5. **Start simple.** Begin with one section at a time. Get each section looking good before adding the next one.
 
-6. **Use the component hierarchy.** The builder shows you a tree view of all your components. Use it to check your structure and make sure everything is nested correctly.
+6. **Use the component hierarchy.** The **Layers** panel in the panel rail shows a tree view of all your components. Use it to check your structure and make sure everything is nested correctly.

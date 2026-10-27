@@ -1,6 +1,6 @@
 # Marketing Automations
 
-**Last verified:** 2026-10-27 10:42am
+**Last verified:** 2026-10-27 11:40am
 
 Marketing automations let you create set-it-and-forget-it workflows that send emails, update contacts, and perform actions automatically when something happens. Instead of manually sending a welcome email every time someone signs up, or remembering to tag contacts after an event, you build the workflow once and let it run on its own.
 
@@ -12,7 +12,7 @@ An automation is a sequence of steps that runs automatically when a specific eve
 
 For example, you could create a welcome series that sends a thank-you email immediately when someone joins your mailing list, waits three days, and then sends a follow-up email with your best content. Every new subscriber goes through the same experience automatically.
 
-Automations are part of the Marketing product in your workspace. You will find them under **Marketing Automation** in your dashboard sidebar.
+Automations are part of the Marketing product in your workspace. You will find them under **Automations** in the **Marketing** menu of your workspace sidebar.
 
 **What automation emails cost.** Each email an automation sends counts as a marketing email, with the same price and the same free emails as campaign emails ($0.70 per 1,000 emails, after about 10,000 free a month). The **Usage** page counts them in **Marketing Emails Sent**. An email that fails to send is not counted. See [Billing and Usage](billing-and-usage.md#module-pricing).
 
@@ -53,25 +53,25 @@ The trigger is what kicks off the automation. When the trigger event happens, th
 
 ### Available Triggers
 
-- **Form submission** -- Runs when a visitor submits a form on your website that sends its answers to Marketing. It runs for every such form (the Form choice reads "Any form"). Great for sending a thank-you email after someone fills out a contact form, registration form, or survey.
+- **Form Submitted** -- Runs when a visitor submits a form on your website that sends its answers to Marketing. It runs for every such form (the Form choice reads "Any form"). Great for sending a thank-you email after someone fills out a contact form, registration form, or survey.
 
-- **Contact created** -- Runs when a new contact is added to your marketing database, regardless of how they were added (form signup, import, manual entry). Use this for universal welcome messages.
+- **Contact Created** -- Runs when a new contact is added to your marketing database, regardless of how they were added (form signup, import, manual entry). Use this for universal welcome messages.
 
-- **Added to list** -- Runs when a contact is added to a specific mailing list. Ideal for list-specific welcome sequences -- for example, a different welcome series for your "Newsletter" list versus your "VIP Customers" list.
+- **Added to List** -- Runs when a contact is added to a specific mailing list. Ideal for list-specific welcome sequences -- for example, a different welcome series for your "Newsletter" list versus your "VIP Customers" list.
 
-- **Tag added** -- Runs when a specific tag is applied to a contact. Useful for actions that should happen whenever a contact reaches a certain status, like getting tagged as "VIP" or "Interested in Product X."
+- **Tagged** -- Runs when a specific tag is applied to a contact. Useful for actions that should happen whenever a contact reaches a certain status, like getting tagged as "VIP" or "Interested in Product X."
 
-- **Date field** -- Runs based on a date stored in a contact's profile, like a birthday or anniversary. Use this for automated birthday wishes, renewal reminders, or anniversary discounts.
+- **Date Field** -- Runs based on a date stored in a contact's profile, like a birthday or anniversary. Use this for automated birthday wishes, renewal reminders, or anniversary discounts.
 
-- **Manual enrollment** -- No automatic trigger. You manually add specific contacts to the automation whenever you choose. Useful for one-off workflows or situations where you want full control over who enters.
+- **Manual Enrollment** -- No automatic trigger. You manually add specific contacts to the automation whenever you choose. Useful for one-off workflows or situations where you want full control over who enters.
 
-- **Ticket created** -- Runs when a helpdesk ticket is created. This trigger is available when the Helpdesk product is enabled in your workspace. Use it to send a confirmation email to the customer or notify your team.
+- **Ticket Created** -- Runs when a helpdesk ticket is created. This trigger is available when the Helpdesk product is enabled in your workspace. Use it to send a confirmation email to the customer or notify your team.
 
-- **Ticket resolved** -- Runs when a helpdesk ticket is resolved. Available when the Helpdesk product is enabled. Great for sending satisfaction surveys or follow-up messages after a support issue is closed.
+- **Ticket Resolved** -- Runs when a helpdesk ticket is resolved. Available when the Helpdesk product is enabled. Great for sending satisfaction surveys or follow-up messages after a support issue is closed.
 
-- **Task completed** -- Runs when a linked task is completed. Available when the Tasks product is enabled in your workspace. Use it to notify stakeholders or trigger next steps when a piece of work is finished.
+- **Task Completed** -- Runs when a linked task is completed. Available when the Tasks product is enabled in your workspace. Use it to notify stakeholders or trigger next steps when a piece of work is finished.
 
-> **Tip:** Start with a simple trigger like "Contact created" or "Added to list" for your first automation. You can always create more automations with different triggers later.
+> **Tip:** Start with a simple trigger like "Contact Created" or "Added to List" for your first automation. You can always create more automations with different triggers later.
 
 > **Good to know:** Steps run only for contacts whose **Email marketing** is **Subscribed**. A contact you add yourself starts as **Pending**, so set them to **Subscribed** on their contact page. Until then, the automation shows that contact as paused and sends nothing. The "Contact created" trigger covers contacts you add, import or collect with a form. Contacts that come from a helpdesk ticket do not start it.
 
@@ -89,11 +89,11 @@ Sends an email to the contact using one of your saved email templates.
 - The email goes to the contact who is currently in the automation.
 - Make sure you have created the email template before adding this step.
 
-### Wait / Delay
+### Wait
 
 Pauses the automation for a set amount of time before moving to the next step.
 
-- Choose the delay length -- hours, days, or weeks.
+- Choose the **Delay** and its **Unit**: minutes, hours, days, or weeks.
 - Use delays between emails to avoid overwhelming contacts with too many messages at once.
 - For example, wait 3 days between a welcome email and a follow-up.
 
@@ -128,7 +128,7 @@ Adds the contact to a mailing list. For example, after someone completes a welco
 
 Removes the contact from a mailing list. Useful when you want to move contacts from one list to another as part of the workflow.
 
-### Update Contact Field
+### Update Field
 
 Changes a value on the contact's profile. For example, you could update a custom field like "Onboarding Status" to "Complete" when a contact finishes a series of steps.
 

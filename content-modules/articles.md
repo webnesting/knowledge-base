@@ -1,6 +1,6 @@
 # Articles and Blog Posts
 
-**Last verified:** 2026-10-27 10:24am
+**Last verified:** 2026-10-27 11:40am
 
 The Articles module gives your website a full blog and news section. Use it to share company updates, how-to guides, industry news, or anything else you want to write about. Articles are one of the best ways to keep your website fresh and attract new visitors.
 
@@ -26,7 +26,7 @@ Before you can start writing articles, you need to turn on the Articles module.
 4. A window shows what it costs -- its rate and estimated monthly cost, plus the 10 free pages it earns your site while it's on -- before anything happens.
 5. Click **Enable** to confirm. The module activates right away.
 
-Once enabled, you will see a new **Article** section appear under **Pages** in your site menu. This is where you will create and manage all your articles.
+Once enabled, **Articles** appears under **Pages** in your site menu. This is where you create and manage all your articles. The **Add** panel in the Website Builder also gets **Article List** and **Article Detail** blocks.
 
 > **Tip:** Enabling the Articles module takes just a few seconds. There is no setup or configuration needed -- you can start writing your first article as soon as you confirm.
 
@@ -38,7 +38,9 @@ Ready to write your first post? Here is how to create a new article.
 
 1. In the site menu, open **Pages**, then select **Articles**.
 2. Select **+ New Article** at the top of the page.
-3. You will see the article editor with several fields to fill in.
+3. The article editor opens with three tabs: **Article**, **Page** and **Content**.
+4. Open the **Page** tab. Fill in **Title**, **Page URI** and **Layout**. The page needs all three before you can create the article. The **Page URI** fills in from the title, and you can change it. For **Layout**, choose **Article**.
+5. Select **Create**. The editor stays open so you can add the rest.
 
 ![The article editor showing title, content, and publishing options](../images/content-modules/article-editor.png)
 
@@ -46,7 +48,7 @@ Ready to write your first post? Here is how to create a new article.
 
 The title is the first thing your readers will see. It appears at the top of the article page and in any article lists on your site.
 
-1. Find the **Title** field at the top of the article editor. The title is set on the article's page -- it is the page title that appears at the top.
+1. Open the **Page** tab of the article editor and find **Title** under **Page Settings**. This is the title that appears at the top of the article page.
 2. Type a clear, descriptive title for your article.
 3. Keep it concise but informative. For example, "5 Ways to Improve Your Morning Routine" is better than "Blog Post #7."
 
@@ -54,8 +56,9 @@ The title is the first thing your readers will see. It appears at the top of the
 
 You can categorize your article by type. This helps organize your content and can affect how search engines understand your posts.
 
-1. Look for the **Article Type** dropdown in the Article Settings section.
-2. Choose one of the following:
+1. On the **Article** tab, open the **Article Settings** group. It is closed until you click it.
+2. Find the **Article Type** dropdown.
+3. Choose one of the following:
    - **Article** -- A general article or post.
    - **News Article** -- A news story or current events piece.
    - **Blog Posting** -- A personal or informal blog entry.
@@ -82,8 +85,8 @@ The text editor works like a simple word processor. Highlight text and use the t
 
 A featured image appears at the top of your article and in article lists. It is the main visual that represents your post.
 
-1. Find the **Image** section in the article editor.
-2. Click to open the media picker.
+1. On the **Article** tab, find **Image** in the **Media** group.
+2. Click **Add Image** to open the media picker.
 3. Choose an image from your File Manager, or upload a new one.
 4. The image will be attached to your article.
 
@@ -93,21 +96,24 @@ A featured image appears at the top of your article and in article lists. It is 
 
 You can credit any of your team members as the author of an article.
 
-1. Look for the **Author** dropdown in the Article Settings section.
+1. On the **Article** tab, open the **Article Settings** group and find the **Author** dropdown.
 2. Choose the person from the list. It shows everyone on your team who has access to this website -- invite someone under **Team** first if the person you want is not listed.
 
 ### Setting the Publish Status
 
-Every article starts as a draft, which means only you can see it. When you are ready for the world to see it, you publish it.
+Every new article starts as a draft, which means only you can see it. When you are ready for the world to see it, you publish it.
 
 - **Draft** -- The article is saved but not visible to your website visitors. Use this while you are still working on it.
 - **Published** -- The article is live on your website and anyone can read it.
 
-To change the status:
+To publish:
 
-1. Look for the publish or draft toggle on the article editor page.
-2. Switch between draft and published as needed.
-3. Save your changes.
+1. Open the article in the editor.
+2. Select **Save & Publish** at the bottom of the page.
+
+You can also choose **Publish** from the ⋮ menu on the article's row in the list.
+
+To take a published article offline, choose **Unpublish** from the ⋮ menu at the top right of the editor, or from the row's ⋮ menu in the list. **Save** keeps your changes as a draft without publishing them.
 
 > **Tip:** Write your article as a draft first. Review it, check for typos, and make sure the images look right. Then publish it when everything is ready.
 
@@ -121,9 +127,9 @@ Need to fix a typo or update your content? Editing is easy.
 2. Find the article you want to update in the list.
 3. Click on the article to open it in the editor.
 4. Make your changes to any field -- title, content, image, or type.
-5. Save your changes.
+5. Select **Save** to keep your changes as a draft, or **Save & Publish** to put them on your live website.
 
-Your updates will appear on your live website right away (if the article is published).
+The article list shows **Draft** or **Published** for each article. If a published article has changes you have not published yet, **Preview** at the top of the editor shows them, and **Restore Published Version** in the ⋮ menu drops them.
 
 To add code from another service to one article, such as a booking widget, click **Edit Custom Code** in the **Custom Code** group on the article's **Page** tab, after **SEO**. It needs the **Custom Code** permission, and the code runs on that article only. See [Custom Code for One Page](../dashboard/managing-pages.md#custom-code-for-one-page).
 
@@ -135,9 +141,9 @@ Your article list gives you an overview of everything you have written.
 
 1. In the site menu, open **Pages**, then select **Articles**.
 2. You will see a list of all your articles.
-3. Each article shows key details like its title, type, status, and when it was created.
+3. Each row shows the article title, when it was last updated, and its status (**Draft** or **Published**).
 
-Articles are grouped by type (Article, News Article, Blog Posting) so you can quickly scan through different categories of content.
+The list groups articles by type, so you can quickly scan through different categories of content.
 
 ---
 
@@ -147,16 +153,13 @@ When you have many articles, finding a specific one is simple.
 
 ### Searching
 
-1. Go to the **Article** section.
-2. Use the **Search** bar at the top of the article list.
-3. Type a word or phrase from the article's title or content.
-4. The list will update to show matching articles.
+Use the **Search** bar at the very top of the dashboard and type a word from the article's title.
 
 ### Filtering
 
-1. Look for filter options near the top of the list.
-2. Filter by article type to see only blog posts, news articles, or general articles.
-3. Filter by status to see only drafts or only published articles.
+1. In the **Article** list, select **Filters** at the top right.
+2. Next to **Status**, choose **Published**, **Draft** or **Trashed**.
+3. The list updates as you pick. Select **Clear** to see every article again.
 
 ---
 
@@ -166,10 +169,12 @@ When you have many articles, finding a specific one is simple.
 
 If you no longer need an article, you can delete it.
 
-1. Go to the **Article** section.
+1. Go to the **Article** list.
 2. Find the article you want to remove.
-3. Click the **Delete** option next to the article.
+3. Open the ⋮ menu on its row and choose **Delete**.
 4. Confirm that you want to delete it.
+
+You can also choose **Delete** from the ⋮ menu at the top right of the editor.
 
 The article will be removed from your article list and will no longer appear on your website.
 
@@ -177,12 +182,12 @@ The article will be removed from your article list and will no longer appear on 
 
 Changed your mind? You can bring back deleted articles.
 
-1. In the **Article** section, look for a **Deleted** or **Trash** view.
+1. In the **Article** list, select **Filters** and set **Status** to **Trashed**. The page title changes to **Article — Trash**.
 2. Find the article you want to recover.
-3. Click **Restore**.
-4. The article will return to your article list.
+3. Open the ⋮ menu on its row and choose **Restore**.
+4. The article returns to your article list.
 
-> **Tip:** Deleted articles are moved to the trash and can be restored within 30 days.
+> **Tip:** **Permanently Delete** in the same menu removes the article for good. Use it only when you are sure.
 
 ---
 
@@ -195,21 +200,21 @@ Creating articles in your dashboard is just the first step. To show them to your
 An Article List shows a collection of your articles on a page -- perfect for a blog page, news page, or homepage section.
 
 1. Open the page where you want to display articles in the **Website Builder**.
-2. Open the component panel.
-3. Look for **Article List** under the **Module Driven Items** group.
+2. Open the **Add** panel.
+3. Look for **Article List** in the **Site modules** group.
 4. Drag the Article List component onto your page.
 5. The component will automatically display your published articles with their titles, preview text, featured images, and links to read more.
 6. Save your page.
 
-Your visitors will see a list of your articles with a preview of each one. They can click "More Info" to read the full article.
+Your visitors will see a list of your articles with a preview of each one. They can click **More Info** to read the full article.
 
 ### Adding an Article Detail to a Page
 
 An Article Detail component displays the full content of a single article. This is used on individual article pages -- the pages that open when a visitor clicks on an article from the list.
 
 1. Open the article's individual page in the **Website Builder**.
-2. Open the component panel.
-3. Look for **Article Detail** under the **Module Driven Items** group.
+2. Open the **Add** panel.
+3. Look for **Article Detail** in the **Site modules** group.
 4. Drag the Article Detail component onto the page.
 5. The component will display the full article title, featured image, and complete article text.
 6. Save your page.

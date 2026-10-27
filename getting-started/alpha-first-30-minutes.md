@@ -1,6 +1,6 @@
 # Your First 30 Minutes (Alpha Checklist)
 
-**Last verified:** 2026-10-27 9:44am
+**Last verified:** 2026-10-27 11:40am
 
 WebNesting is in alpha. This checklist shows what you should be able to do in your first 30 minutes. Work through it in order. If a step does not work, or takes longer than it should, that is a finding: tell us with **Send feedback** (see the last section).
 
@@ -22,7 +22,7 @@ You are done when you can tick all six boxes.
 4. **Edit a page.** Open **Website Builder**, click any text on your homepage, and type a change.
    *Done when:* the save pill in the toolbar says **Saved**. More in [Quick Start Guide](quick-start-guide.md).
 
-5. **Publish.** Click the logo icon in the top-left corner of the builder, then **Publish**. Open your site address in a new tab.
+5. **Publish.** Click **Publish** in the builder toolbar, at the top right. Open your site address in a new tab.
    *Done when:* the live site shows your change.
 
 6. **Preview your bill.** Go to **Billing** and open the **Cost calculator** tab. It starts from what is on in your workspace and shows the estimated cost for each month.

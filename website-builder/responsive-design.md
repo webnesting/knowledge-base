@@ -1,6 +1,6 @@
 # Making Your Site Look Great on All Devices
 
-**Last verified:** 2026-10-25 8:10pm
+**Last verified:** 2026-10-27 11:40am
 
 Your visitors will view your website on all kinds of screens -- large desktop monitors, tablets, and small phone screens. Responsive design means your site automatically adjusts to look good on every device. This guide explains how WebNesting helps you create a site that works everywhere.
 
@@ -73,6 +73,8 @@ This means:
 - Styles you set on the mobile view override everything, but only on phones.
 
 In other words, start by designing for desktop. Then switch to the tablet view and adjust anything that does not look right. Finally, switch to the mobile view and make your final tweaks.
+
+This is how the device buttons work by default. To change it, open **Builder settings** in the panel rail and find **Apply changes to** under **Editing**. It has three choices: **Current & larger**, **Current & smaller** (the default) and **Only current (in range)**. The breakpoint picker also lets you pick one size and one direction yourself, such as "md · ≤1023px". **Auto · All widths** applies a style at every width.
 
 ### Example
 

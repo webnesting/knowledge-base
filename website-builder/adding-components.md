@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-10-25 7:27pm
+**Last verified:** 2026-10-27 11:40am
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -31,7 +31,7 @@ The component will appear on your page immediately. You can now click on it to e
 
 ## Find a Block: Search and Groups
 
-At the top of the **Add** panel, the **Search blocks** box finds a block by its name or by a plain word. Type "movie" and **Video** appears; "newsletter" finds **Email Signup**. A longer search needs every word to match. The box finds sections too (see [Add a Ready-Made Section](#add-a-ready-made-section)): "restaurant" finds **Book a time**. Under the box, a line says what you see: "46 blocks and 18 sections.", or "2 blocks and 3 sections match “hero”." while you search. Press **Esc** or choose **Clear search** to see everything again. If nothing matches, the panel says so and offers **Show all blocks**.
+At the top of the **Add** panel, the **Search blocks** box finds a block by its name or by a plain word. Type "movie" and **Video** appears; "newsletter" finds **Email Signup**. A longer search needs every word to match. The box finds sections too (see [Add a Ready-Made Section](#add-a-ready-made-section)): "restaurant" finds **Book a time**. Under the box, a line says what you see: "58 blocks and 16 sections.", or "2 blocks and 3 sections match “hero”." while you search. Press **Esc** or choose **Clear search** to see everything again. If nothing matches, the panel says so and offers **Show all blocks**.
 
 The blocks sit in groups by what you want to do. Select a group's name to open or close it. The first time you open the panel, only **Layout** is open; after that the panel remembers which groups you opened. While you search, every group with a match opens by itself.
 
@@ -76,7 +76,7 @@ Saving, renaming and deleting a section needs permission to edit the website bui
 
 ## Component Categories
 
-Components are grouped by what you want to do. The groups are Layout, Text, Media, Interactive, Marketing and Site modules, followed by **My Widgets**. **Sections** sits after Site modules and holds ready-made sections, which are described above.
+Components are grouped by what you want to do. The groups are Layout, Text, Media, Interactive, Marketing and Site modules. **Sections** sits after Site modules and holds ready-made sections, which are described above. **Header & Footer Widgets**, at the end, holds your own header and footer widgets.
 
 ![The Add panel showing component categories](../images/website-builder/component-palette.png)
 
@@ -132,7 +132,6 @@ Visual content.
 - **Podcast episodes** -- A list of the newest episodes of your podcast, each with its title, its date, a short text and a player. Under **Podcast feed address**, paste the RSS feed address from your podcast host (it starts with https://). Your host shows it in your show's settings, often as "RSS feed". The address of your show in a listening app, such as Apple Podcasts or Spotify, is not the feed, so it is not accepted: the field tells you what to paste. The panel reads the feed and says what it found, such as "Feed found: Kitchen Garden Hour. 43 episodes.", or why it cannot read it. Under **Episodes to show**, type a whole number from 1 to 20 (5 if you leave it empty). Under **More options**, turn **Show episode descriptions** off to show only titles, dates and players. New episodes show on your page within an hour. If the feed cannot be read for a while, your page keeps showing the last episodes it read, for up to a week; after that, or if it never could, visitors see "Episodes are not available right now." An episode whose file is not on a secure (https://) address shows with no player. Nothing plays on its own. It is in the **Media** group of the **Add** panel.
 - **Timeline** -- A vertical list of dated entries, such as your history, your milestones or the steps of a process. It starts with three entries. Click the date, the title or the text of an entry and type; each is edited right where it sits. To add an entry, select one and choose **Add item to group**. To remove one, select it and press Delete. To change the order, drag an entry. On a wide screen the entries alternate on the two sides of a line. On a phone they stack in one column. The date is ordinary text, so visitors and search engines can read it, and a screen reader reads the whole block as a list. The colors come from your theme, in light and dark. It is in the **Marketing** group of the **Add** panel.
 - **Booking form** -- A booking form from OpenTable, Resy, Tock or Calendly on your page. Pick your **Booking service**, then enter what that service needs. **OpenTable** needs your restaurant ID, a number. In your OpenTable dashboard, open **Reservation widget**: the ID is the number after `rid=` in the code. **Resy** needs your venue ID (a number) and your API key. Both are on the **Widget** page of your Resy dashboard. **Tock** needs your business name, the part of your Tock address after `exploretock.com/`. You can paste the whole address. **Calendly** needs the link to your scheduling page, for example `https://calendly.com/your-name/30min`. The address of your public OpenTable or Resy page does not work, because it does not hold the ID. The panel tells you so and says where to find it. Links from other sites are not accepted. Under **More options** you can set the **Title for screen readers**. If your site's cookie notice is on, visitors first see a **Show booking form** button, and nothing loads from the booking service until they press it. A visitor who has already accepted your cookie notice sees the booking form at once. In the editor you see the booking form itself.
-- **Google Maps** -- An embedded, interactive map showing a specific location. Ideal for contact pages and store locators. Configure the location by entering an address or coordinates. Your site may need a Google Maps API key configured for the map to display.
 
 ### Interactive
 
@@ -142,7 +141,6 @@ Blocks a visitor can click or open.
 - **File download** -- A button that gives visitors a file from your media, such as a menu, a price list or a brochure. Under **File**, choose **Choose from my media** and pick any file, or upload one in the media window. Type the **Button text**, or leave it empty to use the file's name. The button shows a small label with the file's type and size, such as "PDF · 2.4 MB". It is read from your media, so a file you replace shows its new size. Turn **Show file type and size** off to hide the label. Under **More options**, pick the **Theme**, **Size** and **Style**, the same choices as a Button. A button text over 80 characters is not accepted: the field tells you what to fix. Visitors get the real file when they click. If you delete the file, make it private in your media, or the virus scan holds it back, nothing shows on your published page, and the editor shows a note that says why. On a narrow screen a long button text wraps onto more lines instead of being cut.
 - **Accordion Item** -- An expandable section visitors can open and close. Good for FAQs: turn on **Mark as FAQ for search engines** in its settings so Google can show your questions in search results.
 - **Tabs** -- Panels that visitors switch between with a row of tab names. It starts with three tabs, each holding a text block. Select a tab in **Layers** to edit its panel, and rename it under **Tab name**. Use the **+** in the toolbar to add a tab, and Alt with the arrow keys to move one. In the settings, put the tab bar across the top or down the side, and choose which tab shows first. Visitors can also use the arrow keys, Home and End.
-- **Disqus Comments** -- A comments section powered by Disqus, letting visitors comment and reply. You need a Disqus account and a site shortname, set in the component's settings. Comments are then managed from the Disqus moderation dashboard, which handles spam filtering and user accounts for you.
 
 ### Marketing
 
@@ -205,7 +203,7 @@ To nest a component:
 
 This nesting is how you create structured, professional-looking page layouts.
 
-Avoid nesting too many levels deep. Two or three levels (for example, Section > Container > Content) is usually enough for most layouts.
+Avoid nesting too many levels deep. Two or three levels (for example, Section > Blank box > Content) is usually enough for most layouts.
 
 > **Tip:** Sections are the most common starting point. Add a section to your page first, then place your text, images, and other components inside it.
 
@@ -216,8 +214,8 @@ Avoid nesting too many levels deep. Two or three levels (for example, Section > 
 If you want to remove something from your page:
 
 1. Click on the component you want to delete to select it.
-2. Look for the **delete option** that appears (usually a trash icon or a delete button near the selected component).
-3. Click it to remove the component.
+2. In the small toolbar that appears on the selected component, click **Delete** (the red trash button).
+3. The component is removed.
 
 The component and its content will be removed from the page.
 
@@ -230,8 +228,8 @@ The component and its content will be removed from the page.
 If you want a copy of something that already exists on your page:
 
 1. Click on the component you want to copy to select it.
-2. Look for the **duplicate option** that appears near the selected component.
-3. Click it to create an identical copy.
+2. In the small toolbar that appears on the selected component, click **Duplicate**.
+3. An identical copy is created.
 
 The copy will appear right next to the original. You can then drag it to a different position and edit its content independently.
 

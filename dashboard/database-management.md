@@ -1,6 +1,6 @@
 # Database Tables
 
-**Last verified:** 2026-10-27 10:24am
+**Last verified:** 2026-10-27 11:40am
 
 The **Database Tables** section (in your site menu, under **Settings**) is where you define the structure of your own custom content types. Think of it as creating a spreadsheet -- you choose what columns it has, what kind of information each column holds, and how different tables relate to each other.
 
@@ -25,14 +25,14 @@ If you can imagine it as a spreadsheet with rows and columns, you can build it a
 ## Viewing Your Tables
 
 1. Open your WebNesting dashboard.
-2. Look for **Database** in the navigation menu.
-3. You will see a list of all the tables you have created.
+2. In the site menu, open **Settings** and click **Database Tables**.
+3. You will see the **Database Tables** list. It shows the tables you created and the tables that came with your site.
 
-Each table in the list shows its name, a short description, and whether it is related to another table. You can click on any table to view or edit its columns.
+Each table in the list shows its name, a short line about what it holds, and how many columns it has. Click a table, or its **Columns** button, to see its columns.
 
 ![The Database Tables page listing available tables with their descriptions](../images/dashboard/database-tables.png)
 
-> **Tip:** If you do not see the Database option in your menu, you may need to ask your site administrator to grant you permission.
+> **Tip:** If you do not see **Database Tables** in your menu, you may need to ask your site administrator to grant you permission.
 
 ---
 
@@ -49,13 +49,7 @@ Setting up a new table is straightforward. You will give it a name and some basi
    - **Description** -- A short note about what this table is for. This is optional but helpful if you have many tables.
    - **Parent table** -- Use this when entries belong under another table -- for example, "Chapters" under "Books", or "Team Members" under "Departments". For most tables, leave this set to "None." If you pick one and change your mind, click the small **x** on the field to clear it.
    - **Advanced → Internal name** -- You can leave this alone. It is generated from the display name and used behind the scenes (in code and the API). It can only contain letters and numbers, and it can't be changed after the table is created.
-4. Set the **default permissions** for this table. These checkboxes control what team members with the default role can do:
-   - **Browse** -- View the list of entries
-   - **Read** -- View individual entries
-   - **Edit** -- Change existing entries
-   - **Add** -- Create new entries
-   - **Delete** -- Remove entries
-5. Click **Create Table**.
+4. Click **Create Table**.
 
 After creating the table, you will be taken to the columns page where you can start adding fields.
 
@@ -69,12 +63,11 @@ Columns define what information each entry in your table contains. For example, 
 
 ### How to Add a Column
 
-1. Open your table from the Database list.
-2. If you are on the table settings page, click **Edit Columns** from the menu.
-3. You will see a table showing all existing columns.
-4. At the bottom of the list, you will find an empty row where you can add a new column.
-5. Fill in the details for your new column (described below).
-6. Click **Save** when you are done.
+1. Open your table from the **Database Tables** list.
+2. You see the table's **Columns** page with all existing columns.
+3. Click **+ Add Column**. A **New Column** form opens.
+4. Fill in the details for your new column (described below).
+5. Click **Create Column** when you are done.
 
 ### Column Settings
 
@@ -87,7 +80,7 @@ Each column has several settings you can configure:
 - **Multiple** -- Check this box if the column should accept more than one value. For example, a "Tags" column might allow multiple selections.
 - **Required** -- Check this box if every entry must have a value for this column. If checked, you will not be able to save an entry without filling in this field.
 - **Unique** -- Check this box if no two entries can have the same value in this column. Useful for things like email addresses or employee IDs. If you mark a column as Unique, the system will prevent you from saving an entry with a duplicate value in that column.
-- **Show In Lists** -- Check this box if you want this column's value to appear when browsing entries in a list view.
+- **Show in List** -- Check this box if you want this column's value to appear when browsing entries in a list view.
 
 ### Column Types Explained
 
@@ -95,23 +88,27 @@ When adding a column, you choose the type of data it will hold. Here is what eac
 
 **Text types:**
 
-- **Input Text** -- A single line of text. Good for names, titles, short labels, and any brief piece of information.
+- **Text** -- A single line of text. Good for names, titles, short labels, and any brief piece of information.
 - **Textarea** -- A larger text area for longer content. Good for descriptions, notes, or summaries.
-- **Text Editor** -- A rich text field with formatting options like bold, italic, links, and lists. Best for content that needs formatting, like bios or detailed descriptions.
-- **Markdown Editor** -- A text field that uses Markdown formatting. Similar to the text editor, but uses a different writing style.
+- **Rich Text (WYSIWYG)** -- A rich text field with formatting options like bold, italic, links, and lists. Best for content that needs formatting, like bios or detailed descriptions.
+- **Markdown** -- A text field that uses Markdown formatting. Similar to rich text, but uses a different writing style.
+- **Email** -- An email address.
 
 **Image:**
 
-- **Image** -- Lets you attach a picture from your files. Perfect for profile photos, product images, or logos.
+- **Image (Single)** -- Lets you attach one picture from your files. Perfect for profile photos, product images, or logos.
+- **Image (Multiple)** -- Lets you attach several pictures, such as a gallery.
 
-**Component:**
+**Choice:**
 
-- **Cards** -- A special component type for structured card-style content.
+- **Select Dropdown** -- Pick one value from a dropdown list.
+- **Radio Buttons** -- Pick one value from a short list shown all at once.
+- **Checkbox** -- A yes-or-no box.
 
 **Date and time types:**
 
 - **Date** -- A calendar date, like a birthday or event date.
-- **Date Time** -- A date and time together, like a meeting scheduled for a specific hour.
+- **Date & Time** -- A date and time together, like a meeting scheduled for a specific hour.
 - **Timestamp** -- A precise moment in time. Useful for tracking when something happened.
 - **Time** -- Just a time of day, without a date.
 - **Year** -- Just a year, like 2025.
@@ -122,9 +119,9 @@ When adding a column, you choose the type of data it will hold. Here is what eac
 
 **Relationship:**
 
-- **Related Table** -- Links this column to another table. See "Setting Up Relationships" below for details.
+- **Relationship** -- Links this column to another table. See "Setting Up Relationships" below for details.
 
-> **Tip:** If you are unsure which type to choose, "Input Text" works for most simple fields. You can always adjust your table structure later.
+> **Tip:** If you are unsure which type to choose, "Text" works for most simple fields. You can always adjust your table structure later.
 
 ---
 
@@ -146,8 +143,8 @@ You can change your table's settings or modify its columns at any time.
 ### Editing Table Settings
 
 1. Go to **Settings → Database Tables** in your site menu.
-2. Click on the table you want to change.
-3. From the menu, select **Edit Table**.
+2. Click on the table you want to change. Its **Columns** page opens.
+3. Click **Edit Table**. (You can also open the **⋮** menu on the table's row and choose **Table Settings**.)
 4. Update the display name or description.
 5. Click **Save Table**.
 
@@ -158,7 +155,7 @@ The parent table is chosen when you create a table and cannot be changed afterwa
 1. Go to **Settings → Database Tables** in your site menu.
 2. Click on the table you want to change.
 3. Click the column you want to change. Its settings open.
-4. Change its display name, field name, type, default value, required status, or list visibility.
+4. Change its display name, field name, type, default value, required, unique, or list visibility.
 5. Click **Save Changes**.
 
 If you change a column's field name, the values already saved move to the new name.
@@ -178,8 +175,8 @@ If you later add a column with the same name, it starts empty: the deleted colum
 
 Each table has additional options that control how its entries are displayed and organized. To access these options:
 
-1. Open your table from the Database list.
-2. Click **Table Options** from the menu.
+1. Open your table from the **Database Tables** list.
+2. Click **Options** at the top of the **Columns** page. A window titled with your table's name and "Options" opens.
 
 You can set the following:
 
@@ -192,7 +189,7 @@ You can set the following:
 - **Sort Direction** -- Whether entries are sorted ascending or descending.
 - **Children Depth** -- If your table supports nested entries (parent/child), this controls how many levels deep the nesting goes.
 
-Click **Save** to apply your changes.
+Click **Save Options** to apply your changes.
 
 > **Tip:** Setting a good "Default Label" is important. This is the value that shows up in dropdowns and lists throughout your site. For a "Team Members" table, you would want to set this to the "Name" column.
 
@@ -220,11 +217,11 @@ You can also choose whether the relationship allows one or many connections:
 
 1. Open the columns page for your table.
 2. Add a new column or edit an existing one.
-3. Set the **Type** to "Related Table."
-4. Choose which table you want to link to from the dropdown.
-5. Select the relationship direction: **Has** or **Belongs to**.
+3. Set the **Type** to "Relationship."
+4. Choose **Has (this table owns children)** or **Belongs To (this table references parent)** in **Direction**.
+5. Choose the table you want to link to in **Related Table**.
 6. Check the **Multiple** box if the relationship should allow many connections.
-7. Click **Save**.
+7. Click **Create Column** (or **Save Changes** on an existing column).
 
 "Has" relationships will show an inline form when editing entries, letting you add related items directly. "Belongs to" relationships will show a dropdown selector where you pick from existing entries in the related table.
 
@@ -234,7 +231,7 @@ You can also choose whether the relationship allows one or many connections:
 
 1. Go to **Settings → Database Tables** in your site menu.
 2. Find the table you want to delete.
-3. Click the menu icon next to the table and select **Delete**, then **Delete** to confirm.
+3. Open the **⋮** menu on the table's row, choose **Delete**, then click **Delete** to confirm.
 4. The table, its columns and its entries no longer show anywhere on your site or dashboard.
 
 You cannot bring a deleted table back from this page, so check first that you no longer need it. Some tables cannot be deleted: tables that are part of built-in modules are protected.

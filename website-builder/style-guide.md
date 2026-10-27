@@ -1,6 +1,6 @@
 # Your Style Guide Page
 
-**Last verified:** 2026-10-24 1:35pm
+**Last verified:** 2026-10-27 11:40am
 
 ## What it is
 
@@ -21,7 +21,7 @@ Some blocks need something from you before they show on your live site:
 
 | Block | What it needs |
 |-------|---------------|
-| Image, Image comparison, Slideshow, Logo strip | Pictures from your Media Library |
+| Image, Image comparison, Slideshow, Logo strip | Pictures from your files |
 | Video, Video background, Animation (Lottie), Audio, File download | A file, or for a video a link |
 | 3D scene (Spline), Booking form, Social post | A link from that service |
 | Podcast episodes | Your podcast's feed address |

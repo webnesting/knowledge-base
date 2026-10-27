@@ -1,6 +1,6 @@
 # Custom Data Tables
 
-**Last verified:** 2026-10-27 10:24am
+**Last verified:** 2026-10-27 11:40am
 
 Custom data tables let you store and organize any kind of information on your website. Think of them like spreadsheets -- you create a table, set up columns for the information you want to track, and then add rows of data. That data can then be displayed on your website however you like.
 
@@ -50,7 +50,7 @@ Here is how to set up a custom data table from scratch.
 
 1. Log in to your WebNesting dashboard.
 2. In the site menu, open **Settings** and click **Database Tables**.
-3. Click to open it. You will see a list of all existing data tables.
+3. You will see a list of all existing data tables.
 
 ### Step 2 -- Create a New Table
 
@@ -67,18 +67,19 @@ Here is how to set up a custom data table from scratch.
 
 Columns define what information each entry in your table will hold. Think of columns as the headers in a spreadsheet -- they describe what goes in each cell.
 
-1. After creating your table, you will see the table editor with a section for columns.
-2. Click to add a new column.
+1. After you select **Create Table**, the table's **Columns** page opens. It says "No custom columns yet."
+2. Select **+ Add Column**. The **New Column** form opens.
 3. For each column, fill in:
    - **Display Name** -- The label for this column. This is what you will see when adding or editing entries. For example, "Full Name" or "Job Title."
    - **Field Name** -- An internal name used by the system. This is generated automatically from the display name. It uses lowercase letters, numbers and underscores (like `full_name` or `address_2`), and never starts with a number.
    - **Type** -- What kind of information this column holds (see the section below for details).
+   - **Default Value** -- A value that fills in for each new entry. Leave it empty if you do not need one.
 4. You can also set some optional settings for each column:
    - **Required** -- Check this if every entry must have a value in this column.
    - **Unique** -- Check this if no two entries should have the same value in this column (for example, an email address). If you mark a column as Unique, the system will prevent you from saving an entry with a duplicate value in that column.
    - **Show in List** -- Check this if you want this column to appear in the list view of your entries.
-5. Repeat for each column you need.
-6. Save your table when you are done adding columns.
+5. Select **Create Column**. The column shows in the list.
+6. Repeat for each column you need.
 
 ---
 
@@ -88,25 +89,30 @@ When you add a column to your table, you choose a type that tells WebNesting wha
 
 ### Text Types
 
-**Input Text**
+**Text**
 For short pieces of text like a name, title, email address, or phone number. This gives you a single line of text to type in.
 
-*Use it for:* Names, job titles, email addresses, short labels, URLs.
+*Use it for:* Names, job titles, phone numbers, short labels, URLs.
 
 **Textarea**
 For longer text that might be several lines, but does not need fancy formatting. This gives you a bigger text box.
 
 *Use it for:* Short descriptions, notes, addresses.
 
-**Text Editor**
+**Rich Text (WYSIWYG)**
 For rich, formatted text. This gives you a full text editor with formatting tools -- bold, italics, headings, bullet points, links, and more.
 
 *Use it for:* Biographies, detailed descriptions, article content, answers to FAQ questions.
 
-**Markdown Editor**
+**Markdown**
 For text written in Markdown format. This is a lightweight way to format text using simple symbols.
 
 *Use it for:* Technical content, documentation-style entries.
+
+**Email**
+For an email address.
+
+*Use it for:* Contact emails for team members or partners.
 
 ### Number
 
@@ -124,7 +130,7 @@ For a calendar date (without a specific time).
 
 *Use it for:* Birth dates, anniversary dates, project deadlines.
 
-**Date Time**
+**Date & Time**
 For a date that includes a specific time.
 
 *Use it for:* Event start times, appointment times, publication dates with times.
@@ -134,32 +140,53 @@ For a time of day without a date.
 
 *Use it for:* Opening hours, class times.
 
+**Timestamp**
+For a precise moment in time.
+
+*Use it for:* Recording when something happened.
+
 **Year**
 For just a year.
 
 *Use it for:* Founding year, graduation year.
 
+### Choice Types
+
+**Select Dropdown**
+Lets the person pick one value from a dropdown list.
+
+**Radio Buttons**
+Lets the person pick one value from a short list shown all at once.
+
+**Checkbox**
+A yes-or-no box.
+
+*Use them for:* A category, a size, or "Featured" yes or no.
+
 ### Image
 
-**Image**
-For a photo or graphic. When you add an entry, you will be able to pick an image from your File Manager.
+**Image (Single)**
+For one photo or graphic. When you add an entry, you will be able to pick an image from your File Manager.
 
-*Use it for:* Team member photos, product images, portfolio thumbnails, logos.
+**Image (Multiple)**
+For several pictures in one column, such as a gallery.
 
-### Relationship (Related Table)
+*Use them for:* Team member photos, product images, portfolio thumbnails, logos.
 
-**Related Table**
+### Relationship
+
+**Relationship**
 For connecting entries in one table to entries in another table. This is how you link related information together.
 
-For example, if you have a "Team Member" table and a "Department" table, you could add a Related Table column to Team Member that points to Department. Then each team member could be assigned to a department.
+For example, if you have a "Team Member" table and a "Department" table, you could add a Relationship column to Team Member that points to Department. Then each team member could be assigned to a department.
 
 *Use it for:* Connecting entries across different tables (team members to departments, products to categories, articles to authors).
 
 When you choose this type, you will also select:
-- **Which table** to connect to.
-- **The direction** of the relationship:
+- **Related Table** -- the table to connect to.
+- **Direction** -- the direction of the relationship:
   - **Has** means this table owns related entries. For example, a "Departments" table *has* team members.
-  - **Belongs to** means entries in this table are owned by another table. For example, a "Team Members" table *belongs to* a department.
+  - **Belongs To** means entries in this table are owned by another table. For example, a "Team Members" table *belongs to* a department.
   - In most cases, add the relationship on the "child" table (the one with many entries) using "Belongs to", pointing to the "parent" table (the one with fewer entries).
 
 > **Tip:** You do not need to use relationships right away. Start with simple columns like text, number, and image. You can always add relationship columns later as your content grows more complex.
@@ -170,10 +197,10 @@ When you choose this type, you will also select:
 
 Once your table and columns are set up, you can start adding data. Each entry is like a row in your spreadsheet.
 
-1. Go to the section for your custom data table in the left sidebar. (After creating a table, it appears as its own menu item.)
-2. Select the **+ New [Table Name]** button (for example, **+ New Team Member**).
+1. In the site menu, select your table. (After you create a table, it appears below **Pages** under its plural name, for example **Team Members**.)
+2. Select the **+ New** button with your table's name (for example, **+ New Team Member**).
 3. Fill in the fields for each column you set up. For example, if your table has columns for Name, Photo, and Bio, you will see a form with fields for each one.
-4. Save your entry.
+4. Select **Create**.
 
 Repeat this for each item you want to add.
 
@@ -185,25 +212,25 @@ Repeat this for each item you want to add.
 
 ### Editing an Entry
 
-1. Go to your custom data table section in the sidebar.
+1. In the site menu, select your table.
 2. Find the entry you want to update in the list.
 3. Click on it to open the editor.
 4. Make your changes.
-5. Save.
+5. Select **Save**.
 
 ### Deleting an Entry
 
-1. Go to your custom data table section.
+1. In the site menu, select your table.
 2. Find the entry you want to remove.
-3. Click the **Delete** option.
+3. Open the ⋮ menu on its row and choose **Delete**.
 4. Confirm that you want to delete it.
 
 ### Restoring a Deleted Entry
 
-1. Look for a **Deleted** or **Trash** view in your data table section.
+1. In your table's list, select **Filters** and set **Status** to **Trashed**.
 2. Find the entry you want to recover.
-3. Click **Restore**.
-4. The entry will return to your list.
+3. Open the ⋮ menu on its row and choose **Restore**.
+4. The entry returns to your list.
 
 > **Tip:** Deleting an entry removes it from your website. If the entry is currently displayed on a page, it will disappear from that page. Double-check before deleting.
 
@@ -234,10 +261,10 @@ Here are some practical examples of how to set up common custom data tables. Use
 Display your team on an "About Us" or "Our Team" page.
 
 **Columns to create:**
-- **Name** (Input Text) -- The person's full name.
-- **Photo** (Image) -- A professional headshot.
-- **Job Title** (Input Text) -- Their role at the company.
-- **Bio** (Text Editor) -- A short paragraph about them.
+- **Name** (Text) -- The person's full name.
+- **Photo** (Image (Single)) -- A professional headshot.
+- **Job Title** (Text) -- Their role at the company.
+- **Bio** (Rich Text (WYSIWYG)) -- A short paragraph about them.
 
 **How to use it:** Add an entry for each team member. Display the table on your "About" page so visitors can see who they will be working with.
 
@@ -249,7 +276,7 @@ Show quotes from happy customers to build trust with new visitors.
 
 **Columns to create:**
 - **Quote** (Textarea) -- What the customer said.
-- **Author** (Input Text) -- The customer's name.
+- **Author** (Text) -- The customer's name.
 - **Rating** (Number) -- A star rating from 1 to 5.
 
 **How to use it:** Add an entry for each testimonial you have received. Display them on your homepage, a dedicated "Testimonials" page, or alongside relevant product or service pages.
@@ -263,8 +290,8 @@ Show quotes from happy customers to build trust with new visitors.
 Answer common questions so visitors can find answers without contacting you.
 
 **Columns to create:**
-- **Question** (Input Text) -- The question people often ask.
-- **Answer** (Text Editor) -- A clear, helpful answer.
+- **Question** (Text) -- The question people often ask.
+- **Answer** (Rich Text (WYSIWYG)) -- A clear, helpful answer.
 
 **How to use it:** Add your most frequently asked questions as entries. Display them on a "FAQ" page or at the bottom of relevant service pages. This saves you time answering the same questions over and over.
 
@@ -275,10 +302,10 @@ Answer common questions so visitors can find answers without contacting you.
 Showcase your best work to impress potential clients.
 
 **Columns to create:**
-- **Image** (Image) -- A photo or screenshot of the project.
-- **Title** (Input Text) -- The name of the project.
-- **Description** (Text Editor) -- What the project was about and what you did.
-- **Link** (Input Text) -- A web address where people can see the project (optional).
+- **Image** (Image (Single)) -- A photo or screenshot of the project.
+- **Title** (Text) -- The name of the project.
+- **Description** (Rich Text (WYSIWYG)) -- What the project was about and what you did.
+- **Link** (Text) -- A web address where people can see the project (optional).
 
 **How to use it:** Add an entry for each project you want to highlight. Display them on a "Portfolio" or "Our Work" page with a grid or card layout.
 
@@ -289,8 +316,8 @@ Showcase your best work to impress potential clients.
 List all the services you offer in one organized place.
 
 **Columns to create:**
-- **Service Name** (Input Text) -- The name of the service.
-- **Description** (Text Editor) -- What the service includes.
+- **Service Name** (Text) -- The name of the service.
+- **Description** (Rich Text (WYSIWYG)) -- What the service includes.
 - **Price** (Number) -- The cost of the service (optional).
 
 **How to use it:** Add an entry for each service. Display them on your "Services" page so visitors can quickly see everything you offer and how much it costs.

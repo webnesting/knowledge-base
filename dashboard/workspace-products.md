@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-10-27 10:11am
+**Last verified:** 2026-10-27 11:40am
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -39,7 +39,7 @@ Ticket management for customer support. When you enable Helpdesk, you get:
 - **Knowledge base** -- Write self-service articles so customers can find answers on their own
 - **SLA policies** -- Set response time targets to keep your team on track
 - **Canned responses** -- Save and reuse replies for common questions
-- **Site connections** -- Connect to your websites to create customer-facing support portals
+- **Site connections** -- Connect your websites so a form on a site can send its submissions to your ticket list
 
 ### Tasks
 

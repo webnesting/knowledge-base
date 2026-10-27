@@ -1,6 +1,6 @@
 # Glossary of Terms
 
-**Last verified:** 2026-10-27 10:24am
+**Last verified:** 2026-10-27 11:40am
 
 This glossary explains common terms you will encounter while using WebNesting. If you come across a word you do not recognize, check here for a quick explanation.
 
@@ -9,6 +9,8 @@ This glossary explains common terms you will encounter while using WebNesting. I
 **Accordion** -- An interactive component where sections expand and collapse when clicked. Useful for FAQs or content that you want to keep organized without taking up too much space on the page.
 
 **Alt Text** -- A short text description of an image. Alt text is used by screen readers (assistive technology for visually impaired visitors) and helps search engines understand what the image shows.
+
+**Blank box** -- A layout block that holds other blocks inside it. Blank boxes help you group and organize content on your page.
 
 **Bounce Rate** -- The percentage of visitors who leave your website after viewing only one page, without clicking on anything else. A lower bounce rate generally means visitors are finding your content engaging.
 
@@ -19,8 +21,6 @@ This glossary explains common terms you will encounter while using WebNesting. I
 **Component** -- A building block in the Website Builder. Components include things like text blocks, images, buttons, sections, cards, and more. You build your pages by adding and arranging components.
 
 **Add panel** (component palette) -- The panel in the Website Builder that lists all available components. Open it from the icon rail on the right, then drag components onto the Canvas to add them to your page.
-
-**Container** -- A layout component that holds other components inside it. Containers help you group and organize content on your page.
 
 **Dashboard** -- The admin area where you manage your site's content, settings, and features. You access it by signing in to the WebNesting app, opening your workspace, and selecting **Manage Site** on your site's card in the **Sites** list. The Dashboard is your home base for everything that happens behind the scenes of your website.
 
@@ -52,7 +52,7 @@ This glossary explains common terms you will encounter while using WebNesting. I
 
 **Session** -- A single visit to your website, from the moment a visitor arrives to the moment they leave. One person can have multiple sessions over time.
 
-**Slug** -- The part of a URL that identifies a specific page. For example, in `yoursite.com/about-us`, the slug is `about-us`. Slugs should be short, descriptive, and use hyphens between words.
+**Slug** (the **Page URI** field) -- The part of a URL that identifies a specific page. For example, in `yoursite.com/about-us`, the slug is `about-us`. Slugs should be short, descriptive, and use hyphens between words.
 
 **Styler** -- The **Styles** panel in the Website Builder, which controls how elements look. Use it to change colors, spacing, fonts, borders, shadows, and other visual properties of a selected component. Open it from the icon rail on the right.
 

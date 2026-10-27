@@ -1,6 +1,6 @@
 # Navigating the Dashboard
 
-**Last verified:** 2026-10-27 10:18am
+**Last verified:** 2026-10-27 11:40am
 
 The Dashboard is your home base for managing one site in WebNesting. It is where you handle that site's pages, settings, content, and analytics. (Workspace-level features like billing, team members, helpdesk, marketing, and tasks live in your workspace -- see the **Workspaces** card in your account portal.)
 
@@ -20,7 +20,7 @@ Here are the types of widgets you may see on your home screen:
 
 - **Site Stats** -- Your number of pages, files and users, and how many modules are on
 - **Quick Actions** -- Shortcuts such as **New Page**, **Upload Files**, **View Site**, **Modules** and **Settings**
-- **Site Health** -- A checkup on your site's status (homepage, site title, meta description, favicon, SSL certificate and analytics), with a link to fix each thing that needs attention
+- **Site Health** -- A checkup on your site's status (homepage, published content, site title, meta description, favicon, SSL certificate and analytics), with a link to fix each thing that needs attention
 - **Recent Pages** -- A list of pages you have recently created or edited, with quick links to open them
 - **Activity Log** -- The latest changes made on your site
 - **Analytics** -- Pageviews, visitors, average duration and bounce rate. See [Analytics and Reports](../dashboard/analytics.md).
@@ -96,11 +96,11 @@ On phones and tablets, tap a rail icon to open its panel, then tap a link or tap
 This is where you manage all the pages on your website.
 
 - **View your pages** -- See a list of every page on your site
-- **Create new pages** -- Add a new page and give it a title and URL
-- **Edit page settings** -- Change a page's title, URL, visibility, and SEO information
+- **Create new pages** -- Add a new page and give it a title and **Page URI**
+- **Edit page settings** -- Change a page's title, **Page URI**, menu visibility, and SEO information
 - **Design your pages** -- Open the **Website Builder** from the bottom of the site menu, then pick any page from its Pages panel
 - **Delete pages** -- Remove pages you no longer need
-- **View deleted pages** -- Access a list of pages you have deleted, with the option to restore them
+- **View deleted pages** -- Use **Filters** to show the **Trashed** pages you have deleted, with the option to restore them
 
 > **Tip:** Every page has its own SEO settings for title and description. Filling these in for each page helps search engines understand what each page is about.
 
@@ -166,7 +166,7 @@ Modules are add-on features that extend what your site can do. Think of them as 
 
 Examples of modules include:
 
-- **Article** -- Add articles, news posts, or blog entries with categories and tags
+- **Article** -- Add articles, news posts, or blog entries
 - **Event** -- Create events with dates, showings, and ticket options
 - **Store** -- Set up products and an online shop
 - **Form** -- Build custom forms for contact, registration, and feedback
@@ -179,7 +179,7 @@ To manage modules:
 2. Browse available modules.
 3. Select **Turn on** or **Turn off** for the ones you want.
 
-When you enable a module, it creates its own section in the sidebar. For example, enabling the Article module adds an "Article" section where you can create and manage articles.
+When you enable a module, it adds its own item to the site menu. For example, enabling the Article module adds **Articles** under **Pages**, where you can create and manage articles.
 
 Each module may also add components to the Website Builder, letting you display that module's content on your pages (like an article list or a product grid).
 
@@ -207,9 +207,9 @@ Redirects let you send visitors from one URL to another. This is useful when you
 To create a redirect:
 
 1. Open **Settings** in the site menu, then **URLs and Redirects**.
-2. Select the button to add a new redirect.
-3. Enter the **old URL** (where someone might go).
-4. Enter the **new URL** (where they should end up).
+2. Click **+ New Redirect**.
+3. Enter the **Input Path** (the old address where someone might go).
+4. Choose the **Output** (where they should end up).
 5. Save your redirect.
 
 ---

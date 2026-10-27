@@ -1,6 +1,6 @@
 # Saving and Publishing Your Site
 
-**Last verified:** 2026-10-27 10:24am
+**Last verified:** 2026-10-27 11:40am
 
 All your hard work designing and building your site leads to this: getting it live for the world to see. This guide explains the difference between saving and publishing, how to use undo and redo, and all the keyboard shortcuts that make your workflow faster.
 
@@ -192,7 +192,7 @@ Simply fix the mistake in the builder, save your changes, and publish again. The
 
 ### Can I unpublish a page?
 
-Yes. You can switch a page's status from Published back to Draft. When a page is set to Draft, visitors can no longer see it. You can do this from the page settings in the dashboard.
+Yes. In the site menu, open **Pages**, then **Pages**. Open the ⋮ menu on the page's row and choose **Unpublish**. The page goes back to **Draft**, and visitors can no longer see it. You can also choose **Unpublish** from the ⋮ menu at the top right of the page's settings.
 
 ### Does saving affect my live site?
 

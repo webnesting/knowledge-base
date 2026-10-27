@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-10-27 9:43am
+**Last verified:** 2026-10-27 11:40am
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -198,7 +198,7 @@ A verification tag at the bottom is refused when you publish, because services l
 
 Code in **SEO Defaults → Extra code for every page's `<head>`** (see [above](#extra-code-for-every-pages-head)) runs first, before the code at the top of every page.
 
-> **Tip:** Showing a map or a form? Use the Google Maps or Form component in the Web Builder instead. They need no code.
+> **Tip:** Showing a form? Use the **Form** block in the **Site modules** group of the Web Builder instead. It needs no code. For a map, paste your map service's embed code into an **HTML** block in the Web Builder.
 
 Using the keyboard? After **Publish**, focus moves to the line that says what is live. While **Publish** works, focus stays on it.
 
@@ -424,47 +424,6 @@ Code does not run there. If you paste a script, or a tag with code inside it, We
 
 ## Custom Domain
 
-By default, your website is available on a WebNesting subdomain (like `yoursite.webnesting.site`). If you want to use your own domain name (like `www.yourcompany.com`), you can connect it in your site settings.
+By default, your website is available on a free WebNesting address. A custom domain is a web address you own, like `www.yourcompany.com`.
 
-### What Is a Custom Domain?
-
-A custom domain is a web address you own, like `www.yourcompany.com`. Using your own domain makes your site look more professional and is easier for visitors to remember.
-
-### How to Add a Custom Domain
-
-1. Go to **Settings → Site Settings** in your site menu.
-2. Open the **Domain** section.
-3. Enter your custom domain name (for example, `www.yourcompany.com`).
-4. Save your changes.
-
-WebNesting will display the DNS records you need to set up with your domain provider.
-
-### Setting Up DNS Records
-
-After adding your domain in WebNesting, you need to update the DNS settings with your domain registrar (the company where you bought your domain, like GoDaddy, Namecheap, or Google Domains).
-
-1. Log in to your domain registrar's website.
-2. Find the DNS settings or DNS management area.
-3. Add the records that WebNesting provided:
-   - For a root domain (like `yourcompany.com`), add an **A record** pointing to the IP address shown in your WebNesting settings.
-   - For a subdomain (like `www.yourcompany.com`), add a **CNAME record** pointing to the address shown in your WebNesting settings.
-4. Save your DNS changes.
-
-> **Tip:** DNS changes can take anywhere from a few minutes to 48 hours to take effect. This is normal and depends on your domain registrar.
-
-### SSL Certificate (HTTPS)
-
-Once your DNS records are set up and pointing to WebNesting, an SSL certificate will be automatically provisioned for your domain. This ensures your site uses `https://` and visitors see the secure lock icon in their browser.
-
-SSL provisioning usually completes within a few minutes after DNS is connected, but it can take up to an hour in some cases.
-
-### Troubleshooting Domain Issues
-
-If your custom domain is not working after setup:
-
-- **"Site not found" error** -- DNS records may not have propagated yet. Wait up to 48 hours and try again.
-- **Security warning in browser** -- The SSL certificate may still be provisioning. Wait a few minutes and refresh.
-- **Wrong site appears** -- Double-check that your DNS records point to the correct WebNesting addresses. Your DNS records should include a CNAME record pointing to your WebNesting site address (shown in Site Settings under Custom Domain).
-- **Domain works without WWW but not with it (or vice versa)** -- Make sure you have set up DNS records for both versions, or configure your WWW preference in the General Settings section above.
-
-If you are still having trouble after 48 hours, contact support with your domain name and a screenshot of your DNS settings.
+Site Settings has no screen to connect a domain yet. You can enter a domain in the **Custom Domain (optional)** box when you create a site, and **Site Configuration** decides how the address is written (see **Secure (HTTPS) Addresses** and **WWW Preferences** above). To connect or change a domain later, email Support. The steps, and what to expect at your domain registrar, are in [Connecting a Custom Domain](../getting-started/custom-domains.md).

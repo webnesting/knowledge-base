@@ -1,6 +1,6 @@
 # URL Redirects
 
-**Last verified:** 2026-09-23 11:41am
+**Last verified:** 2026-10-27 11:40am
 
 Sometimes you need to change a page's web address, or you want to point an old address to a new one. Redirects make sure that anyone who visits the old address is automatically sent to the right place -- no dead ends, no error pages.
 
@@ -27,8 +27,8 @@ You can see all the redirects currently set up on your site.
 ![The URL Redirects page with options to create new redirects](../images/dashboard/url-redirects.png)
 
 1. Open your WebNesting dashboard.
-2. In the site menu, open **Settings** and click **URLs and Redirects**.
-3. You will see a list of all your current redirects, showing:
+2. In the site menu, open **Settings** and click **URLs and Redirects**. The page is titled **URL Redirects**. You can narrow the list with the filters for **Type** and **Target**.
+3. You will see the **Active Redirects** list, showing:
    - **Input Path** -- The old address that visitors might try to visit.
    - **Target** -- Where they will be sent instead.
    - **Type** -- Whether the redirect is a silent alias, permanent, or temporary.
@@ -39,8 +39,8 @@ You can see all the redirects currently set up on your site.
 
 Setting up a new redirect takes just a minute.
 
-1. Go to the **Redirects** section.
-2. Click the **New Redirect** button.
+1. Open the **URL Redirects** page, as described above.
+2. Click **+ New Redirect**.
 3. Fill in the following fields:
 
 ### Setting the Input Path (Old Address)
@@ -71,6 +71,8 @@ WebNesting offers three types of redirect. Here is what each one means in plain 
 
 1. Select **Alias**, **301 - Permanently Moved**, or **302 - Temporarily Moved**.
 
+> **Note:** **Alias** works only for a page on your site. When you choose **External URL**, the type switches to **302 - Temporarily Moved**, and you can change it to **301 - Permanently Moved**.
+
 ### Saving the Redirect
 
 1. After filling in all the fields, click **Create Redirect**.
@@ -84,11 +86,11 @@ WebNesting offers three types of redirect. Here is what each one means in plain 
 
 You can change any redirect at any time.
 
-1. Go to the **Redirects** section.
+1. Open the **URL Redirects** page.
 2. Find the redirect you want to change in the list.
 3. Click on it, or open the **⋮** menu at the end of its row and choose **Edit**.
 4. Update the source URL, destination, or redirect type as needed.
-5. Save your changes.
+5. Click **Save Changes**.
 
 The updated redirect takes effect immediately.
 
@@ -98,7 +100,7 @@ The updated redirect takes effect immediately.
 
 If a redirect is no longer needed, you can remove it.
 
-1. Go to the **Redirects** section.
+1. Open the **URL Redirects** page.
 2. Find the redirect you want to remove.
 3. Open the **⋮** menu at the end of its row and choose **Delete**.
 4. Confirm that you want to delete it.

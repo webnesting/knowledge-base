@@ -1,6 +1,6 @@
 # Team and Permissions
 
-**Last verified:** 2026-10-27 10:18am
+**Last verified:** 2026-10-27 11:40am
 
 WebNesting lets you invite other people to help manage your website. You control exactly what each person can see and do by assigning them roles with specific permissions.
 
@@ -43,12 +43,12 @@ The person receives an email with an invite link that is valid for 7 days. If it
 
 1. Go to **Settings → Members & Permissions**.
 2. Find the person you want to remove.
-3. Click **Remove** next to their name and confirm.
+3. Open the ⋮ menu at the end of their row, choose **Remove**, and confirm.
 4. Their access is removed immediately, on every site in the workspace. Their roles and any member-specific permissions are removed too.
 
 If you invite the same person again later, they get only the roles in the new invitation, after they accept it.
 
-To cancel a pending invitation that has not been accepted yet, find it in the same list and **Revoke** it.
+To cancel a pending invitation that has not been accepted yet, find it in the same list, open its ⋮ menu and choose **Revoke Invitation**.
 
 > **Tip:** Removing someone's access does not delete any content they created. All pages, articles, and other content remain on your site.
 
@@ -69,28 +69,20 @@ What the owner can do:
 - Enable and disable modules
 - Everything else on the site
 
-### Admin
+### Built-in Roles
 
-Admins can manage content and site configuration based on their assigned permissions. This is the default role for team members you invite.
+Every workspace starts with three built-in roles. They show with a **Built-in** label under **Roles** on the **Members & Permissions** page.
 
-What admins can typically do:
-- Create, edit, and manage content (pages, articles, products, etc.)
-- Upload and manage media files
-- Access the website builder
-- View site activity
-
-What admins typically cannot do (unless given extra permissions):
-- Manage other team members
-- Change billing settings
-- Enable or disable modules
+- **Admin** -- Full access to the workspace and every site within it.
+- **Member** -- Full access to workspace content, but it cannot manage members, roles, settings, or billing. This is the role a person gets when you invite them without picking one.
+- **Viewer** -- Read-only access to all workspace and site resources.
 
 ### Custom Roles
 
 You can create your own roles with exactly the permissions you need. This is helpful when you want to give different team members different levels of access.
 
 For example, you might create:
-- An "Editor" role that can only create and edit content
-- A "Viewer" role that can only view content without making changes
+- An "Editor" role that can only add and edit content
 - A "Content Manager" role that can manage articles but not site settings
 
 ---
@@ -100,18 +92,18 @@ For example, you might create:
 To create a new role:
 
 1. Go to **Settings → Members & Permissions**.
-2. Click the **Create Role** button.
-3. Give your role a name (for example, "Editor" or "Content Reviewer").
-4. Add a description so you remember what this role is for.
-5. Click **Save**.
+2. Under **Roles**, click **+ Create Role**.
+3. Give your role a **Title** (for example, "Editor" or "Content Reviewer").
+4. Add a **Description** so you remember what this role is for.
+5. Click **Create Role**.
 
-After creating the role, you will be taken to the permissions editor where you can set exactly what this role is allowed to do.
+After creating the role, the permissions editor opens, where you set exactly what this role is allowed to do.
 
 ---
 
 ## Setting Permissions for a Role
 
-Permissions control what actions a role can perform on each type of content on your site. Each content type (like Pages, Articles, Files, etc.) has five permission levels:
+Permissions control what actions a role can perform on each type of content on your site. Each content type (like Pages, Articles, Files, etc.) has five permission levels: **Browse**, **Read**, **Edit**, **Add** and **Delete**.
 
 ### Browse
 
@@ -121,13 +113,13 @@ Allows the person to view lists of items. For example, Browse permission on Page
 
 Allows the person to view the details of individual items. For example, Read permission on Pages lets them open and read any page.
 
-### Create
+### Add
 
-Allows the person to add new items. For example, Create permission on Articles lets them write new blog posts.
+Allows the person to add new items. For example, Add permission on Articles lets them write new blog posts.
 
-### Update
+### Edit
 
-Allows the person to edit existing items. For example, Update permission on Pages lets them make changes to pages that already exist.
+Allows the person to edit existing items. For example, Edit permission on Pages lets them make changes to pages that already exist.
 
 ### Delete
 
@@ -136,10 +128,10 @@ Allows the person to remove items. For example, Delete permission on Files lets 
 ### How to Set Permissions
 
 1. Go to **Settings → Members & Permissions**.
-2. Click on the role you want to edit.
+2. Under **Roles**, click **Edit Permissions** on the role you want to change. (**Edit Role** changes only its title and description.)
 3. You will see a grid showing every feature area along the left side, and the five permission levels across the top.
 4. Check the boxes to grant permission, or uncheck them to remove permission.
-5. Click **Save** when you are finished.
+5. Click **Save Permissions** when you are finished.
 
 > **Tip:** Start with fewer permissions and add more as needed. It is safer to give someone limited access and expand it later than to give them too much access from the start.
 
@@ -152,12 +144,12 @@ After you invite someone to your site, you can assign them one or more roles:
 1. Go to **Settings → Members & Permissions**.
 2. Find the team member in the list.
 3. Open the actions menu at the end of their row and select **Roles**.
-4. You will see a list of all available roles. Check the roles you want to assign to this person.
+4. The **Assign Roles** window lists all available roles. Check the roles you want to assign to this person.
 5. Click **Save**.
 
 A team member can have multiple roles. Their permissions are combined -- they get all the permissions from every role assigned to them.
 
-> **Tip:** If you have not created any custom roles yet, new team members will be assigned the default Admin role. You can change this at any time.
+> **Tip:** If you do not pick a role when you invite someone, they get the **Member** role. You can change this at any time.
 
 ---
 
@@ -202,10 +194,10 @@ The permission matrix gives you fine-grained control over what each role can do.
 ### Editing Role Permissions
 
 1. Go to **Settings → Members & Permissions**.
-2. Click on the role you want to configure.
+2. Under **Roles**, click **Edit Permissions** on the role you want to configure.
 3. You will see the permission matrix with all feature areas listed.
 4. Check or uncheck boxes to grant or remove specific permissions.
-5. Click **Save** to apply changes.
+5. Click **Save Permissions** to apply changes.
 
 ### Site-Specific Permissions
 

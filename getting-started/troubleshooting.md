@@ -1,6 +1,6 @@
 # Troubleshooting and Common Issues
 
-**Last verified:** 2026-10-27 10:18am
+**Last verified:** 2026-10-27 11:40am
 
 Every website owner runs into the occasional hiccup. The good news is that most issues have simple fixes. This guide walks you through the most common problems you might encounter and how to solve them quickly.
 
@@ -55,8 +55,7 @@ You made updates, but your visitors are still seeing the old version of your sit
 In WebNesting, **saving** and **publishing** are two different things. Saving stores your work as a draft that only you can see. Publishing makes it live for your visitors.
 
 1. Open the page in the **Website Builder**.
-2. Click the **Publish** button in the top toolbar.
-3. Confirm that you want to publish.
+2. Click the **Publish** button at the top right of the toolbar. There is no extra confirmation step.
 
 Your changes should now be live. For more details, see [Saving and Publishing Your Site](../website-builder/saving-and-publishing.md).
 
@@ -91,9 +90,8 @@ If images on your site appear broken or are not showing up, here are the most co
 
 Every site has a maximum file size for uploads. If your image exceeds that limit, it will not upload or display properly.
 
-1. Select **Files** in the top bar.
-2. Check the maximum upload size shown on the upload screen.
-3. If your image is too large, resize it using an image editor before uploading it again.
+1. Each file can be up to 100 MB. A larger file is stopped before it uploads, with the message "That file is larger than 100 MB."
+2. If your image is too large, resize it using an image editor before uploading it again.
 
 ### Unsupported File Format
 
@@ -164,13 +162,13 @@ Many features in WebNesting are provided by modules that you need to turn on.
 1. Open your site menu, open **Settings**, and select **Modules**.
 2. Browse the list of available modules.
 3. Find the one you need and select **Turn on**, then **Enable**.
-4. Once enabled, the module's section will appear in your sidebar, and its components will become available in the builder.
+4. Once enabled, the module's item will appear in your site menu, and its blocks will become available in the builder.
 
 For more details, see [Modules and Features](../dashboard/modules-and-features.md).
 
 ### Feature Requires a Different Module
 
-Some features are part of a specific module. For example, product listings require the Store module, and blog posts require the Blog module.
+Some features are part of a specific module. For example, product listings require the Store module, and blog posts require the Article module.
 
 1. If you are not sure which module provides the feature you need, browse the **Modules** section and read the description of each one.
 2. Enable the module that matches the feature you are looking for.
@@ -227,9 +225,10 @@ If you just deleted something and are still in the builder, undo it right away.
 
 If you saved or published after deleting something and can no longer undo it:
 
-1. Contact our support team as soon as possible (see [How to Contact Support](#how-to-contact-support) below).
-2. Let us know your site URL and what was deleted.
-3. We can check our backups and help you restore the content.
+1. If you deleted a page, article, event or other item, open its list in the site menu, select **Filters**, and set **Status** to **Trashed**. Open the ⋮ menu on its row and choose **Restore**.
+2. If it is not there, contact our support team as soon as possible (see [How to Contact Support](#how-to-contact-support) below).
+3. Let us know your site URL and what was deleted.
+4. We can check our backups and help you restore the content.
 
 > **Tip:** Save your work frequently while you are building. The more often you save, the more checkpoints you create. This makes it much easier to recover if something goes wrong.
 
