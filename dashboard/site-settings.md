@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-10-27 3:20pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -48,6 +48,16 @@ Each language you add gets its own address. Your main language stays at the root
 - You can change the site language only while your site has one language. To change it later, remove the other languages first.
 - Removing a language keeps its pages. They stop showing, and their addresses show "page not found", until you add the language back.
 - Your site does not switch language by itself from the visitor's browser. Visitors choose their language, or search engines send them to it.
+
+**Multiple languages in your settings**
+
+With more than one language, a row of language names sits under these settings. Click a language to write its words:
+
+- **Header & Footer:** the announcement bar's message and link words, and the header and footer each language shows.
+- **Site Messages:** the maintenance message and the header and footer messages.
+- **SEO Settings:** the title and description search engines show.
+
+A language you leave empty shows your main language's words. A hollow circle next to a language name means it has no words of its own yet. Empty link words show "Learn more" in the visitor's language. Removing a language keeps what you wrote for it.
 
 ---
 

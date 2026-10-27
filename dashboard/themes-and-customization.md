@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-10-27 10:25am
+**Last verified:** 2026-10-27 3:20pm
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -286,6 +286,8 @@ The two pictures next to the settings show your home page on a computer and on a
 **When visitors close the bar.** A visitor who closes the bar does not see it again on that browser. When you change the message, every visitor sees the bar again. A change to the link or the link words does not bring it back. If you turn off **Let visitors close the bar**, the bar has no close button and every visitor sees it.
 
 **Turning it off.** Turn off **Show announcement bar** and click **Save Changes**. Your message, link and link words stay saved for the next time you turn it on.
+
+**More than one language.** If your site has more than one language, a row of language names sits under **Message** and **Link words**. Click a language to write its words, and the two pictures show that language's home page. A language you leave empty shows your main language's message. Empty link words read **Learn more** in each visitor's language, such as "En savoir plus" in French. Under **In each language** you can see which header and footer each language shows.
 
 > **Tip:** If a field needs a fix, Save Changes says so and marks the field. Nothing on your site changes until every field is right.
 

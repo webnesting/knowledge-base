@@ -227,7 +227,7 @@ The assistant never publishes the copy. It stays a draft until you publish it.
 
 ### When the Original Changes
 
-If you change the original page after you made a copy, the copy shows **Original changed**. Check the copy. If it is already right, open the ⋮ menu on its row and choose **Mark as up to date**. The notice stays away until the original is saved again.
+If you change the original page after you made a copy, the copy shows **Original Changed**. Check the copy. If it is already right, open the ⋮ menu on its row and choose **Mark As Up To Date**. The notice stays away until the original is saved again.
 
 > **Tip:** A translation can only be published after the original page is published. Deleting the original also deletes its translations, and the confirmation lists them.
 

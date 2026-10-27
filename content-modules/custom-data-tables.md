@@ -1,6 +1,6 @@
 # Custom Data Tables
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-10-27 3:20pm
 
 Custom data tables let you store and organize any kind of information on your website. Think of them like spreadsheets -- you create a table, set up columns for the information you want to track, and then add rows of data. That data can then be displayed on your website however you like.
 
@@ -78,6 +78,7 @@ Columns define what information each entry in your table will hold. Think of col
    - **Required** -- Check this if every entry must have a value in this column.
    - **Unique** -- Check this if no two entries should have the same value in this column (for example, an email address). If you mark a column as Unique, the system will prevent you from saving an entry with a duplicate value in that column.
    - **Show in List** -- Check this if you want this column to appear in the list view of your entries.
+   - **Per Language** -- For a text, text area, rich text or markdown column. Check it to write the column's text in each of your site's languages. With more than one language, each entry has a row of language names over that field, and a visitor reads the text in the language of the page. A language you leave empty shows your main language's text. With one language, the field works as before.
 5. Select **Create Column**. The column shows in the list.
 6. Repeat for each column you need.
 

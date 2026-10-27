@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-10-27 3:20pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -328,6 +328,16 @@ Each form field has a **Marketing Field** setting that says which part of the co
 - **Phone** -- The contact's phone number.
 
 Setting a field's type to **Email** does not set its Marketing Field. Set both.
+
+### Multiple languages
+
+If your site has more than one language (**Site Settings** → **Languages**), you can write a form's words in each language. A row of language names sits under each field that a visitor reads. Click a language to write its words.
+
+- **On the form:** the button text and the confirmation message.
+- **On each field:** the label, the placeholder, the help text and the names of the choices.
+- **On a notification:** the subject and the message of an email to the person who filled in the form.
+
+A visitor on your French page sees the French words, gets the French confirmation and receives the French email. A language you leave empty shows your main language's words instead. An email to you stays in your own language, with the field names in your main language. The answers you collect read the same whatever language the visitor used.
 
 ---
 
