@@ -1,6 +1,6 @@
 # Managing Pages
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-10-27 2:13pm
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 
@@ -22,7 +22,7 @@ Each page in the list shows:
 - **Updated** -- When the page was last changed.
 - **Status** -- **Draft** or **Published**.
 
-Each row also has a ⋮ menu with **Edit**, **Publish** or **Unpublish**, and **Delete**.
+Each row also has a ⋮ menu with **Edit**, **Duplicate**, **Publish** or **Unpublish**, and **Delete**. When your site has more than one language, the menu also has **Translate into…**, and the list has a **Language** column.
 
 > **Tip:** If you have many pages, use the **Search** bar at the very top of the dashboard to find the one you need.
 
@@ -178,6 +178,58 @@ Type a word from the page title into the **Search** bar at the very top of the d
 1. In the **Pages** list, click **Filters** at the top right.
 2. Next to **Status**, choose **Published**, **Draft** or **Trashed**.
 3. The list updates as you pick. Click **Clear** to see every page again.
+
+---
+
+## Duplicating a Page
+
+Duplicate a page when you want a new page that starts from one you already have.
+
+1. In the site menu, open **Pages**, then select **Pages**.
+2. Open the ⋮ menu on the page's row and choose **Duplicate**.
+3. Check the address shown, then choose **Duplicate**.
+
+The copy has the same sections, look, search settings and custom code as the page when you last saved it. It has the title "(copy)" added and the address ends in **-copy**. It is a draft, so visitors do not see it until you publish it. Change the title and address in the page settings.
+
+> **Tip:** The copy starts from the last saved version of the page. Save the page in the Website Builder first if you just changed it.
+
+---
+
+## Publishing Your Site in More Than One Language
+
+When your site has more than one language, each language has its own copy of a page. You turn languages on in **Site Settings**, then **Languages**.
+
+### Copy a Page Into a New Language
+
+1. In the **Pages** list, open the ⋮ menu on the page's row and choose **Translate into…**.
+2. Pick the language. Only languages the page does not have yet are listed.
+3. Choose **Create copy**.
+
+The copy appears under the original page in the list, with its language shown in the **Language** column. It is a draft at the same address under the language, for example **/fr/about**. Open it in the Website Builder and translate the text. Then publish it. WebNesting never publishes a translation for you.
+
+You can do the same in the Website Builder: use the language menu in the top bar, then **Translate into…**.
+
+### Move Between a Page's Languages in the Builder
+
+The language menu in the builder's top bar shows which language you are editing. Pick another language to open that version of the page. Each language shows whether it is published or still a draft.
+
+### Translate with Your Own AI Assistant
+
+You can connect your own AI assistant to WebNesting and ask it to translate a page. See [Connecting an AI Tool](connecting-ai-tools.md) for how to connect it.
+
+1. Turn on the language in **Site Settings**, then **Languages**.
+2. Ask your assistant to translate the page into that language.
+3. The assistant makes a copy of the page in that language and writes the translated text into it.
+4. Open the copy in the **Pages** list or the Website Builder. Check the text.
+5. Publish it when you are happy with it.
+
+The assistant never publishes the copy. It stays a draft until you publish it.
+
+### When the Original Changes
+
+If you change the original page after you made a copy, the copy shows **Original changed**. Check the copy. If it is already right, open the ⋮ menu on its row and choose **Mark as up to date**. The notice stays away until the original is saved again.
+
+> **Tip:** A translation can only be published after the original page is published. Deleting the original also deletes its translations, and the confirmation lists them.
 
 ---
 
