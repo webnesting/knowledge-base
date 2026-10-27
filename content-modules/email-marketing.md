@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-10-27 8:06am
+**Last verified:** 2026-10-27 8:25am
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -384,6 +384,10 @@ The unsubscribe page shows:
 - Each of the mailing lists they are on, with a checkbox, so they can stay on some lists and leave others (or re-join one they left), and a **Save Preferences** button. Your other lists are never shown, and nobody can add themselves to a list from this page.
 - An **Unsubscribe from all communications** link, which opens an optional "Why are you unsubscribing?" box and an **Unsubscribe from Everything** button.
 - A confirmation message once they're done.
+
+### The Unsubscribe Button in the Inbox
+
+Every campaign, A/B test and automation email also tells the reader's email app how to unsubscribe. Gmail and Yahoo show an **Unsubscribe** link beside your name at the top of the email. One click there unsubscribes that person from all your marketing email, with no page to open and no sign-in. It does the same as the link at the bottom of the email. Receipts, password resets, Helpdesk replies and your own test emails do not carry it.
 
 > **Tip:** You cannot re-subscribe someone who has unsubscribed. They must sign up again themselves. This is a legal requirement in most countries.
 
