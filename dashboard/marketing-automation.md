@@ -1,6 +1,6 @@
 # Marketing Automations
 
-**Last verified:** 2026-10-25 11:38pm
+**Last verified:** 2026-10-27 10:42am
 
 Marketing automations let you create set-it-and-forget-it workflows that send emails, update contacts, and perform actions automatically when something happens. Instead of manually sending a welcome email every time someone signs up, or remembering to tag contacts after an event, you build the workflow once and let it run on its own.
 
@@ -53,7 +53,7 @@ The trigger is what kicks off the automation. When the trigger event happens, th
 
 ### Available Triggers
 
-- **Form submission** -- Runs when a visitor submits a specific form on your website. Great for sending a thank-you email after someone fills out a contact form, registration form, or survey.
+- **Form submission** -- Runs when a visitor submits a form on your website that sends its answers to Marketing. It runs for every such form (the Form choice reads "Any form"). Great for sending a thank-you email after someone fills out a contact form, registration form, or survey.
 
 - **Contact created** -- Runs when a new contact is added to your marketing database, regardless of how they were added (form signup, import, manual entry). Use this for universal welcome messages.
 
@@ -72,6 +72,8 @@ The trigger is what kicks off the automation. When the trigger event happens, th
 - **Task completed** -- Runs when a linked task is completed. Available when the Tasks product is enabled in your workspace. Use it to notify stakeholders or trigger next steps when a piece of work is finished.
 
 > **Tip:** Start with a simple trigger like "Contact created" or "Added to list" for your first automation. You can always create more automations with different triggers later.
+
+> **Good to know:** Steps run only for contacts whose **Email marketing** is **Subscribed**. A contact you add yourself starts as **Pending**, so set them to **Subscribed** on their contact page. Until then, the automation shows that contact as paused and sends nothing. The "Contact created" trigger covers contacts you add, import or collect with a form. Contacts that come from a helpdesk ticket do not start it.
 
 ---
 

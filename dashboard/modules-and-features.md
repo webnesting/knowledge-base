@@ -151,7 +151,7 @@ The Forms module lets you build custom forms for your website -- contact forms, 
 What you get when you enable it:
 - A **Form** section in your dashboard for building and managing forms
 - A **Form Embed** component in the website builder for adding forms to any page
-- Submission tracking with filtering, status management, and CSV export
+- Submission tracking with filtering and status management. On a form's **Submissions** tab, click **Export CSV** to download the answers (newest first, with the labels your visitors saw) for Excel or Google Sheets
 - Email notifications when forms are submitted, and an automatic reply to the person who filled in the form (up to 100 automatic replies a day per site; over that, the submission is still saved and you still get your own email)
 - Built-in form templates to get started quickly
 - An **Analytics** page for each form (the **Analytics** button on the form's **Submissions** tab) that shows which sources and campaigns bring you signups, such as "facebook · social" ([how to tag your links](analytics.md#tag-your-links-to-see-where-visitors-come-from))
