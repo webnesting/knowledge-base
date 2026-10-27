@@ -1,6 +1,6 @@
 # Website Builder Overview
 
-**Last verified:** 2026-10-25 8:10pm
+**Last verified:** 2026-10-27 10:19am
 
 The Website Builder is where you design and create your web pages. It is a visual editor -- meaning you can see exactly how your page will look as you build it. No coding required.
 
@@ -83,6 +83,7 @@ Everything else lives in a single column of icon buttons down the **right** side
 | **Add** | The component palette -- search for a block or open a group, then drag it onto your page |
 | **Settings** | Options for whatever you currently have selected |
 | **Styles** | Colors, spacing, size, fonts, borders, shadows, and layout for the selected element |
+| **Site design** | Change your whole site's look while you build: theme, colors, fonts, sizes and shapes, header and footer, and light or dark mode. Every change shows on the page at once. Click **Save** to keep it or **Cancel** to put the page back |
 | **Layers** | A tree view of everything on the page, useful for selecting things buried inside other things |
 | **Audit** | Scores your page on performance, accessibility, best practices, and SEO before you publish |
 | **Builder settings** | Your own preferences -- canvas overlays, guide colors, default measurement unit |
