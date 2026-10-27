@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-10-26 11:03pm
+**Last verified:** 2026-10-27 8:06am
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -274,6 +274,23 @@ Open a campaign that has gone out and click its **Performance** tab. While the c
 - **A/B test** (A/B test campaigns only) -- each version with how many people it went to and its open and click rates. While the test is running, a note says how many people got the test and how many are waiting for the winner, and the version currently ahead is marked **Leading**. No version is marked until someone opens (or clicks) one. Once its wait time has passed, the version with the best score (open rate or click rate, whichever you chose) automatically goes to everyone who hasn't received the campaign yet, and is marked **Winner**. Don't want to wait? Click **Send to Everyone Else** on the version you want and confirm -- it goes out right away and the test ends.
 - **Links people clicked** -- every link in the email except the unsubscribe link, how many times it was clicked, how many people clicked it, and its share of all clicks.
 - **Deliverability** -- how many emails bounced, how many people unsubscribed, and how many marked the email as spam (**Marked as spam**). A person who marks it as spam is unsubscribed.
+
+### Why sending can be paused
+
+WebNesting pauses your campaign email when too much of it bounces or is marked as spam. Mail providers such as Gmail and Outlook watch these numbers. When they get too high, the providers start to send your email to spam or block it. A pause stops the damage early, before it reaches all of your email.
+
+Sending pauses when, in the last 7 days and over at least 200 campaign emails:
+
+- more than 3% bounced because the address does not exist, or
+- more than 0.05% (1 in 2,000) of the people who got them marked them as spam, and at least 3 people did.
+
+A small list with one bad address never pauses. A temporary bounce, such as a full mailbox, never counts.
+
+**What you see.** The campaign's **Send** tab shows **Paused to protect your sending reputation**. It says what happened, the numbers, and the date and time when sending can start again. **Send Now** is greyed out until then. A campaign that was scheduled or already sending stops, its status changes to **Paused**, and you get a notification. Automation emails wait on their step and continue by themselves when the pause ends. Your **Send Test** emails to yourself still go.
+
+**How it ends.** The pause ends by itself when enough of the bad sends are older than 7 days. You do not need to contact us. The addresses that bounced or marked your email as spam no longer get your campaigns, so your next send goes to a cleaner list. When the pause ends, open the paused campaign and click **Send Now**. It goes only to the people who did not get it yet. You can also click **Schedule for Later** now and pick a time after the pause ends.
+
+> **Tip:** Most pauses come from an old or bought list. Send only to people who asked for your email, and remove contacts that have not opened anything in a long time.
 
 ---
 
