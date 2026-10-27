@@ -1,6 +1,6 @@
 # Files (File Manager)
 
-**Last verified:** 2026-10-26 12:53am
+**Last verified:** 2026-10-26 11:23pm
 
 The File Manager is where every file in your workspace lives — images, videos, documents, helpdesk email attachments, and files visitors upload through your forms. Think of it as your workspace's file cabinet: one place, organized in folders, just like the files on your computer.
 
@@ -123,7 +123,7 @@ Every file is scanned for viruses, but the rules differ by where it came from:
 - **Files from outside** — helpdesk email attachments and form uploads — stay locked until their scan comes back clean. While scanning (or if a scan flags a problem), they show a badge and can't be downloaded or picked.
 - **Files you upload** are usable immediately — the scan runs in the background, and a file is only locked afterwards if something is found.
 
-Either way, a flagged file is quarantined everywhere at once.
+Either way, a flagged file is quarantined everywhere at once. A flagged file that was public becomes private, and you cannot make it public again.
 
 ---
 
@@ -163,6 +163,10 @@ A video can be up to 100 MB, like any file. A video you upload uses website band
 - PDF, Word, Excel, PowerPoint
 - Plain text and CSV
 - ZIP archives
+
+### Files that are not accepted
+
+Files that can run on a web page or on a computer cannot be uploaded to your Files, whatever their name says. These are web pages and scripts (`.html`, `.js`, `.php`, `.xml`), programs (`.exe`, `.sh`), and a file whose content is one of these under a picture's name. WebNesting stops the upload and says "Unsupported file type." If one such file is in a batch, none of the batch uploads. A file in your site's `media` folder that has one of these types is skipped when the site updates.
 
 > **Tip:** When in doubt, JPEG and PNG are the safest choices for images. Use JPEG for photographs and PNG for graphics with transparent backgrounds.
 
