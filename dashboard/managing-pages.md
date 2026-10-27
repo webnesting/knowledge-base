@@ -1,6 +1,6 @@
 # Managing Pages
 
-**Last verified:** 2026-10-18 1:46pm
+**Last verified:** 2026-10-26 8:36pm
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 
@@ -133,6 +133,26 @@ The child page's URL will update to reflect the hierarchy. For example, the "Web
 3. Save your changes.
 
 The page will move back to the top level.
+
+### Giving a Section Its Own Header Menu
+
+A group of pages can act like a small site inside your site, with its own header menu. Use the **Sub-Menu** setting for this.
+
+1. Go to the **Pages** section.
+2. Open the parent page of the group.
+3. Under **Page Settings**, set **Sub-Menu** to **Children**.
+4. Save and publish the page.
+
+On that page, and on every page under it, the header menu now shows only that page's own pages. Pages under it keep their dropdowns. Every other page on your site keeps your normal header menu.
+
+For example, say you have an "Events" page with "Schedule" and "Tickets" under it. Set "Events" to **Children**. A visitor on "Events", "Schedule" or "Tickets" then sees a header menu with "Schedule" and "Tickets". A visitor on your home page still sees your normal menu, such as "About", "Events" and "Contact".
+
+A few things to know:
+
+- Only the pages under it that have **Header** checked in **Menu Visibility** show. If none do, the page keeps your normal header menu.
+- A group inside a group works too. The nearest page set to **Children** decides the menu.
+- Your site logo still links to your home page. To give visitors a way back to the group's first page, add a link to it in the group's own header.
+- The footer menus and the sitemap don't change.
 
 ---
 

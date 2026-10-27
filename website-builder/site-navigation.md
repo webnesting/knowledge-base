@@ -1,6 +1,6 @@
 # Setting Up Site Navigation
 
-**Last verified:** 2026-10-20 9:07am
+**Last verified:** 2026-10-26 8:36pm
 
 Navigation is how visitors find their way around your website. Good navigation helps people quickly get to the pages they need, whether they are browsing on a desktop or a phone. This guide covers how navigation works in WebNesting, how to control which pages appear in your menus, and tips for creating a clear, easy-to-use navigation structure.
 
@@ -85,6 +85,8 @@ If your site has pages organized into parent and child relationships, your navig
 When you create a child page under a parent, and both the parent and child pages have their **Header** menu visibility checked, the child pages will appear as a dropdown under the parent in the header navigation.
 
 For example, if you have a "Services" page with child pages called "Web Design," "Branding," and "Consulting," visitors will see "Services" in the header menu. When they hover over it, a dropdown will show the three child pages.
+
+To show a parent's child pages as the whole header menu, on the parent and on every page under it, set the parent's **Sub-Menu** to **Children**. See [Giving a Section Its Own Header Menu](../dashboard/managing-pages.md#giving-a-section-its-own-header-menu).
 
 Keyboard visitors press Tab to move through the menu. On a menu item that has a third-level menu, Tab also stops on its arrow: press Space to open or close that menu. A closed menu is skipped by Tab.
 
