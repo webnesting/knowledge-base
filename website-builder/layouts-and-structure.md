@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-10-27 8:30pm
+**Last verified:** 2026-10-28 11:15am
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -47,6 +47,24 @@ The footer's parts:
 The words you type here replace the header and footer text that used to be in **Site Settings → Content → Site Messages**. Your old words were moved here for you.
 
 **More than one language.** If your site has more than one language, each box for words (the logo's text, the button's words, the top bar, the footer text and details, and the announcement bar) has a row of your languages above it. Pick a language and type the words for it. A hollow mark beside a language means it has no words yet. Visitors then read your main language's words. **Start from the English text** copies your main language's words into the box so you can translate them. Pick a language once and every box shows it. With one language, you see the plain box.
+
+### Your header's and footer's colors and sizes
+
+Each header and footer can have its own colors, lines, sizes and text style. The rest of your site keeps your theme's look.
+
+1. In the Website Builder, click the header (or the footer). **Settings** opens.
+2. Open **Header colors**, **Header border and shadow**, **Header size and spacing** or **Header text**. The footer's groups start with **Footer**.
+3. Pick a color, or type a size in pixels. The page shows the change at once.
+4. Save the page.
+
+What you can change:
+
+- **Colors** -- the background, the text and its hover color, the menu links, the site name, the icons and small text. The header also has the drop-down menu, the phone menu and the top bar. The footer also has the bottom strip with your copyright line.
+- **Border and shadow** -- the color and thickness of the line under the header (or above the footer), and a shadow: **None**, **Soft**, **Medium** or **Strong**.
+- **Size and spacing** -- the header's **Bar height** (on phones too) and the space at the sides. The footer has the space between its columns, the space at the sides and the size of the social icons.
+- **Text** -- the menu's text size and weight, and **Menu letters**: **As typed**, **CAPITALS** or **Each Word**. Also the site name's size (header) and weight.
+
+Leave a box empty, or pick **Same as the theme**, to use your theme's value. A color picked from your theme's list also changes in dark mode. A color you mix yourself stays the same in light and dark mode.
 
 ### Announcement bar
 
