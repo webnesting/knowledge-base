@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-10-27 6:23pm
+**Last verified:** 2026-10-27 8:30pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -28,7 +28,7 @@ Every header and footer layout can show every part. The layout only decides wher
 The header's parts:
 
 - **Logo** -- your logo picture, your site's name, or both (**Image and text**, **Image**, **Text**), in three sizes. **Text** starts as your site's name; type other words to replace it. Upload the picture in **Site Settings → Content → Site Images**. If you pick **Image** and have no picture yet, your site's name shows instead. **Logo links to** is the page the logo opens, such as `/shop`; leave it empty for your home page.
-- **Menus** -- the main menu and a second, smaller menu. Pick which of your menus each one shows, how many levels show, and whether the pages under an item open in a list (**Dropdown**) or a wide panel (**Mega menu**). **Edit This Menu in Pages** opens your pages, where you choose the menu each page is in.
+- **Menus** -- the main menu and a second, smaller menu. Pick which of your menus each one shows, how many levels show, and whether the pages under an item open in a list (**Dropdown**) or a wide panel (**Mega menu**). Under each menu you pick, **Edit this menu's pages** opens your Pages list showing only the pages in that menu. Open a page's settings there to add it to a menu or take it out.
 - **Links and switches** -- your social links, the language switcher and the light and dark switch. Your social profiles are in **Site Settings → Connections → Social Settings**. On phones, the social links move into the menu.
 - **Button** -- a button with your own words and link, such as "Book a call". It can open in a new tab and be filled or outlined. On phones, it moves into the menu.
 - **Top bar** -- a thin bar above the header with a short message, a phone number, an email address and your social links.
@@ -45,6 +45,8 @@ The footer's parts:
 - **Button** -- a button with your own words and link.
 
 The words you type here replace the header and footer text that used to be in **Site Settings → Content → Site Messages**. Your old words were moved here for you.
+
+**More than one language.** If your site has more than one language, each box for words (the logo's text, the button's words, the top bar, the footer text and details, and the announcement bar) has a row of your languages above it. Pick a language and type the words for it. A hollow mark beside a language means it has no words yet. Visitors then read your main language's words. **Start from the English text** copies your main language's words into the box so you can translate them. Pick a language once and every box shows it. With one language, you see the plain box.
 
 ### Announcement bar
 
@@ -64,7 +66,7 @@ The bar shows on the page in the builder as you type. Click the bar to open the 
 
 **Turning it off.** Turn off **Show an announcement bar** and publish. Your message, link and link text stay saved for the next time you turn it on.
 
-**More than one language.** If your site has more than one language, write the message in each language the way you write the header's other words. A language you leave empty shows your main language's message. Empty link text reads **Learn more** in each visitor's language, such as "En savoir plus" in French.
+**More than one language.** If your site has more than one language, write the message in each language with the language row above the box, as for the header's other words. A language you leave empty shows your main language's message. Empty link text reads **Learn more** in each visitor's language, such as "En savoir plus" in French.
 
 The bar used to be in **Site Settings → Appearance → Header & Footer**. Your bar was moved onto your header for you. The bar never shows on your Coming Soon page.
 

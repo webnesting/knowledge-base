@@ -1,6 +1,6 @@
 # Setting Up Site Navigation
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-10-27 8:30pm
 
 Navigation is how visitors find their way around your website. Good navigation helps people quickly get to the pages they need, whether they are browsing on a desktop or a phone. This guide covers how navigation works in WebNesting, how to control which pages appear in your menus, and tips for creating a clear, easy-to-use navigation structure.
 
@@ -29,6 +29,8 @@ The header navigation is the main menu at the top of your site. It is usually th
 5. Click **Save**.
 
 That page will now appear in the main navigation at the top of your site.
+
+> **Shortcut:** In the Website Builder, click your header (or footer) and open **Settings**. Under **Which menu**, click **Edit this menu's pages**. Your Pages list opens showing only the pages in that menu.
 
 ### Controlling the Order of Pages
 
