@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-10-28 11:15am
+**Last verified:** 2026-10-28 12:40pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -29,7 +29,7 @@ The header's parts:
 
 - **Logo** -- your logo picture, your site's name, or both (**Image and text**, **Image**, **Text**), in three sizes. **Text** starts as your site's name; type other words to replace it. Upload the picture in **Site Settings → Content → Site Images**. If you pick **Image** and have no picture yet, your site's name shows instead. **Logo links to** is the page the logo opens, such as `/shop`; leave it empty for your home page.
 - **Menus** -- the main menu and a second, smaller menu. Pick which of your menus each one shows, how many levels show, and whether the pages under an item open in a list (**Dropdown**) or a wide panel (**Mega menu**). Under each menu you pick, **Edit this menu's pages** opens your Pages list showing only the pages in that menu. Open a page's settings there to add it to a menu or take it out.
-- **Links and switches** -- your social links, the language switcher and the light and dark switch. Your social profiles are in **Site Settings → Connections → Social Settings**. On phones, the social links move into the menu.
+- **Links and switches** -- your social links, the language switcher and the light and dark switch. Your social profiles are in **Site Settings → Connections → Social Settings**. On phones, the second menu, the language links and the social links move into the menu.
 - **Button** -- a button with your own words and link, such as "Book a call". It can open in a new tab and be filled or outlined. On phones, it moves into the menu.
 - **Top bar** -- a thin bar above the header with a short message, a phone number, an email address and your social links.
 - **Announcement bar** -- a short message in your theme's main color, above everything else. See [Announcement bar](#announcement-bar).
@@ -62,7 +62,7 @@ What you can change:
 - **Colors** -- the background, the text and its hover color, the menu links, the site name, the icons and small text. The header also has the drop-down menu, the phone menu and the top bar. The footer also has the bottom strip with your copyright line.
 - **Border and shadow** -- the color and thickness of the line under the header (or above the footer), and a shadow: **None**, **Soft**, **Medium** or **Strong**.
 - **Size and spacing** -- the header's **Bar height** (on phones too) and the space at the sides. The footer has the space between its columns, the space at the sides and the size of the social icons.
-- **Text** -- the menu's text size and weight, and **Menu letters**: **As typed**, **CAPITALS** or **Each Word**. Also the site name's size (header) and weight.
+- **Text** -- the menu's text size and weight, and **Menu letters**: **As typed**, **CAPITALS** or **Each Word**. Also the site name's size and weight.
 
 Leave a box empty, or pick **Same as the theme**, to use your theme's value. A color picked from your theme's list also changes in dark mode. A color you mix yourself stays the same in light and dark mode.
 
