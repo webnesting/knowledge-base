@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-10-29 11:42am
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -344,6 +344,21 @@ You can also control:
 - **Text alignment** -- Left, center, or right
 - **Content position** -- Where the text content sits within the card (top-left, center, bottom-right, and so on)
 - **Alternate** -- Reverses the layout direction for cards placed side by side, creating a zigzag pattern
+- **Object fit** and **Object position** (under **Media Object**) -- How the picture fills its space. **Cover** fills the space and trims the edges. **Contain** shows the whole picture and leaves space around it. **Object position** picks which part shows, or where the picture sits in its space.
+
+### Picture Captions
+
+A picture's caption is its description in **Files** (the media library). When a card's or an Image block's picture has one, open **Settings** and find **Caption** to choose where it goes:
+
+- **Over the picture: top**, **middle** or **bottom** -- On the picture, up to two lines. If the picture is too small for one line, the caption does not show.
+- **Below the picture** -- Under the picture, inside the card.
+- **Hidden** -- No caption.
+
+The caption follows the picture itself, so it stays on the picture when **Object fit** leaves space around it. A new card or Image block starts with **Over the picture: bottom**.
+
+Turn on **Show only on hover** to show a caption over the picture only while the pointer is on the picture. On a phone, which has no pointer, the caption always shows.
+
+To animate how a caption appears, select the card, open the **Styler**, pick **figcaption** under **Inside**, and add an effect under **Motion**, such as a fade when it scrolls into view.
 
 > **Tip:** Use cards in a group for a consistent, professional look. Add multiple cards inside a section, and they will line up side by side automatically.
 
