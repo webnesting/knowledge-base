@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-10-31 1:47pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -222,6 +222,14 @@ Teams let you organize your support staff into groups based on their specialties
 5. Save the team.
 
 Once created, you can assign tickets to the team. Any member of that team can view and work on the assigned tickets.
+
+### Team Widgets on Your Dashboard
+
+Three widgets show a team's work on your workspace dashboard. Add them from **+ Add Widget**, then open the widget's settings and pick a **Team**. The list holds only the teams you can see, and **My team** is the default.
+
+- **Team Workload** -- the open tickets and tasks each teammate has. A product your workspace does not use is left out.
+- **Team Inbox** -- tickets and tasks sent to the team that nobody has taken yet, and the ones you are watching. Each number opens the matching list.
+- **Team Activity** -- the latest ticket and task activity of the team, with a link to the full activity page.
 
 ---
 
@@ -544,3 +552,25 @@ You can record how satisfied a customer was once a ticket is closed. This gives 
 5. Click **Submit Rating**.
 
 The sidebar then shows the rating as **Satisfaction**, for example 4/5, with the comment under it. The Helpdesk does not email customers to ask for a rating.
+
+### Seeing Your Satisfaction Score
+
+The **Customer Satisfaction (CSAT)** widget adds up every rating on tickets closed in the period you choose. Add it to your workspace dashboard with **+ Add Widget**, then open its settings to pick the period (the last 7, 14, 30 or 90 days) and what it shows:
+
+- **Score and responses** -- the average rating out of 5, how many customers rated, and the share who gave 4 or 5 stars, each next to the same figure for the period before.
+- **Score trend** -- a line of the average rating for each day.
+- **Ratings by stars** -- how many ratings each star level got.
+
+With no ratings in the period, the widget says so instead of showing a score.
+
+---
+
+## Reports on Your Dashboard
+
+Three Helpdesk widgets give you reports. Add any of them from **+ Add Widget** on your workspace dashboard or the Helpdesk dashboard, and use the widget's settings to choose the period.
+
+- **Ticket Volume** -- tickets opened and resolved each day, with the totals next to the period before. Choose **Split tickets by** to see the same tickets by channel, priority or team.
+- **Response & Resolution Times** -- the average time to a first reply, the average time to close a ticket, and the share of tickets that met their SLA. Tick only the figures you want.
+- **Customer Satisfaction (CSAT)** -- described above.
+
+A figure shows a dash when no ticket in the period has the data yet, for example no reply sent. These widgets only appear if your workspace has the Helpdesk and you can view tickets.

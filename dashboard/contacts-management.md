@@ -1,6 +1,6 @@
 # Contacts Management
 
-**Last verified:** 2026-10-26 1:17am
+**Last verified:** 2026-10-31 1:47pm
 
 Contacts are your audience database in WebNesting. Every person who submits a form on your website, signs up for your newsletter, or is imported from a spreadsheet becomes a contact. Use the Contacts system to keep track of who your audience is, organize them into lists, and connect them to your marketing, forms, and support tools.
 
@@ -156,6 +156,18 @@ Click **Download Their Data** at the bottom of the right side. You get everythin
 3. Confirm the deletion.
 
 Deleted contacts are moved to the trash and can be restored if needed.
+
+---
+
+## Seeing How Your Contacts Grow
+
+Add the **Contacts Growth** widget to your workspace dashboard with **+ Add Widget**. Open its settings to pick the period (the last 7, 14, 30 or 90 days) and what it shows:
+
+- **Totals** -- all your contacts, how many were added in the period (next to the period before), and how many are inactive.
+- **New contacts per day** -- a chart of contacts added each day.
+- **Where they came from** -- new contacts grouped by how they arrived: a form on your site, a CSV import, the Helpdesk, or added by hand.
+
+The widget only appears for people who can view contacts.
 
 ---
 

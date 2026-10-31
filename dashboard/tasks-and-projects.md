@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-10-31 1:47pm
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -336,6 +336,10 @@ Open **Time Report** under **Reports** in the Tasks sidebar to see the hours you
 The report opens on **This month**. Click **Filters** to change the **Period** (this week, last week, this month, last month, the last 30 days, this year, all time, or your own dates), or to narrow it to one **Project**, one **Person**, only billable or non-billable time, or -- if you use the Helpdesk -- **Logged on** tasks only or Helpdesk tickets only. Filters apply as you pick them, and they're kept in the page address, so you can bookmark a report or send the link to a teammate.
 
 Click **Export CSV** to download every entry the report is showing as a spreadsheet (date, person, project, task or ticket, hours, billable, and notes), for invoicing or payroll. The download always includes every matching entry, not just the page on screen.
+
+#### The Time Report on your dashboard
+
+Add the **Time Report** widget from **+ Add Widget** to see the same hours without opening the report. It shows the total, billable hours and entries for a period, then the hours **By person** and **By project**. Open its settings to pick the period (this week, last week, this month, last month, the last 30 days or this year), to show people only or projects only, and to choose how many rows each list shows. **Open the full report** takes you to the report with the same period already chosen, and **Download CSV** gives you the same file as **Export CSV**.
 
 ---
 
