@@ -1,6 +1,6 @@
 # How to make, share and organize dashboards
 
-**Last verified:** 2026-10-31 3:46pm
+**Last verified:** 2026-10-31 4:54pm
 
 A dashboard is a page of widgets: your numbers from Sites, Marketing, Helpdesk, Tasks, billing and more, in one place. You can make as many as you like, keep them to yourself or share them with a team or the whole workspace.
 
@@ -19,9 +19,24 @@ A dashboard is a page of widgets: your numbers from Sites, Marketing, Helpdesk, 
 6. Under **Who can see it**, choose **Only me**, **A team** or **Everyone in the workspace**.
 7. Click **Create Dashboard**. The new dashboard opens.
 8. Click **+ Add Widget**, then pick a widget. Widgets are grouped by type.
-9. For a widget that shows one website, pick the site.
 
 Drag a widget by its handle to move it. Use a widget's **⋮** menu to make it **Small**, **Medium** or **Large**, or to delete it.
+
+## Show one website or all of them
+
+A website widget (visits, pages, forms, orders, site health, storage and more) shows **All sites** when you add it. It adds up the numbers of every website you can see. Rates, such as the bounce rate or the average order, are worked out from all the visits and orders together. Lists show the website each row comes from, and a row opens that website's record. If your workspace has one website, the widget shows it.
+
+To show one website, or to go back to all of them:
+
+1. Click the small site name next to the widget's title (for example **All sites**). The widget's settings open.
+2. Under **Site**, pick a website, or **All sites**.
+3. Click **Save**. The widget changes in place.
+
+You can also open the settings with the widget's gear icon.
+
+- If a website is still being set up or cannot be read right now, the widget leaves it out and names it under the numbers.
+- **Google Analytics** reads one website at a time. Pick a website under **Site** to connect it.
+- On a website's own dashboard, the widgets always show that website.
 
 ## Start from a template
 
@@ -29,7 +44,7 @@ A template is a dashboard with its widgets already chosen. The templates are **W
 
 - You see a template only when your workspace uses the products it needs. Support needs Helpdesk, Marketing needs Marketing and Projects and time needs Tasks. The website templates need a website, and **Signups and forms** and **Store** need a website that has forms or a store.
 - If a widget's product is off, it is left out of your copy.
-- If your workspace has one website, the website widgets show it. If it has several, pick the site on each widget.
+- If your workspace has one website, the website widgets show it. If it has several, they show **All sites**. You can change each one to a single website in its settings.
 - Your dashboard is a copy. You can change it freely, and a later change to the template never touches it.
 - Your own home dashboard, **Workspace Overview**, starts from the **Workspace overview** template. Once made, a template never changes it.
 - The templates are only in the **+ New Dashboard** window.
