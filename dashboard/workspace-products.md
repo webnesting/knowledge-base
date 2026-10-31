@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-10-31 3:46pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -54,7 +54,7 @@ Project and task management for your team. When you enable Tasks, you get:
 
 ### Internal Docs
 
-A private wiki for your team -- how-tos, runbooks, and onboarding notes that only your workspace members can read. **Internal Docs is free and switched on by default**, so it's ready the moment you open your workspace. It has its own section in the sidebar, which lists your docs by category. A doc with no category is listed under **Uncategorized**. You can turn it off any time to hide it, and turning it back on brings all your docs back exactly as they were -- nothing is ever deleted.
+A private wiki for your team -- how-tos, runbooks, and onboarding notes that only your workspace members can read. **Internal Docs is free and switched on by default**, so it's ready the moment you open your workspace. It has its own section in the sidebar, which lists your docs by category. A doc with no category is listed under **Uncategorized**. Click **Overview** at the top of its section for a dashboard of **Recently Updated Docs**, **Drafts**, **Stale Docs** (docs nobody has saved for 90 days or more; you can change that) and **Docs by Category**. You can turn it off any time to hide it, and turning it back on brings all your docs back exactly as they were -- nothing is ever deleted.
 
 - **A shared team wiki** -- Write and organize documentation in a familiar folder tree
 - **Always free** -- No base fee and no usage charges

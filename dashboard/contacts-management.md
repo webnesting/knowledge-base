@@ -1,6 +1,6 @@
 # Contacts Management
 
-**Last verified:** 2026-10-31 1:47pm
+**Last verified:** 2026-10-31 3:46pm
 
 Contacts are your audience database in WebNesting. Every person who submits a form on your website, signs up for your newsletter, or is imported from a spreadsheet becomes a contact. Use the Contacts system to keep track of who your audience is, organize them into lists, and connect them to your marketing, forms, and support tools.
 
@@ -371,6 +371,10 @@ You can combine multiple filters to get exactly the view you need. For example, 
 > **Tip:** Quality matters more than quantity. A database of 200 engaged, well-organized contacts is more valuable than 5,000 outdated records with missing information.
 
 ---
+
+## Contacts Overview
+
+Click **Contacts** in the left bar, then **Overview**. You see your total contacts, how many were added lately next to the period before, a chart of new contacts per day, where they came from, recent contacts (when Marketing is on) and recent workspace activity. You can add, remove and resize widgets, or pick another dashboard with **⋯ → Use as Contacts Overview**. See [Dashboards and Reports](dashboards-and-reports.md).
 
 ## Where to Go Next
 
