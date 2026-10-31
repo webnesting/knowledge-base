@@ -1,6 +1,6 @@
 # How to make, share and organize dashboards
 
-**Last verified:** 2026-10-31 4:54pm
+**Last verified:** 2026-10-31 7:23pm
 
 A dashboard is a page of widgets: your numbers from Sites, Marketing, Helpdesk, Tasks, billing and more, in one place. You can make as many as you like, keep them to yourself or share them with a team or the whole workspace.
 
@@ -89,7 +89,7 @@ The dashboard stays on the **Reports** page, and you can still open it there. Cl
 
 ## The Reports page
 
-The **Reports** page lists every dashboard you can see, hidden ones included. Each row shows the **Product** the dashboard is tagged with (**Helpdesk**, **Tasks**, **Marketing**, or **—** for none), who made it, how many widgets it has and when it last changed. A small house marks your home dashboard. To see one product's dashboards, pick the product in the list next to the search box.
+The **Reports** page lists every dashboard you can see, hidden ones included. Each row shows the **Product** the dashboard is tagged with (**Helpdesk**, **Tasks**, **Marketing**, or **—** for none), who made it, how many widgets it has and when it last changed. A small house marks your home dashboard. Click a dashboard's name to open it. To see one product's dashboards, pick the product in the list next to the search box.
 
 ## Check it worked
 
