@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-10-31 3:13pm
+**Last verified:** 2026-10-31 6:14pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -363,7 +363,11 @@ This is set per form, and it is off until you switch it on. Turning it on for yo
 
 Seeing **Assign to Team** and **Priority** after the save is your confirmation -- those two only show while the switch is on.
 
-> **Tip:** The switch above it, **Create Contact**, is separate and can be used at the same time. It adds the person who submitted the form to your workspace contacts, and lets you add them to a list or apply a tag. For that to work, one of your form's fields needs its **Marketing Field** set to **Email**, so WebNesting knows which box holds the email address.
+**You can reply to the person who filled in the form.** Each ticket is linked to that person's contact, found by the email address they typed (or added, if they are new), the same way a customer who emails you becomes the ticket's contact. Your reply on the ticket goes to that address. If the form has no email box, or the person typed an address that is not valid, the ticket still opens, but it has no contact and a reply cannot be sent.
+
+A contact made this way is not signed up for your marketing email. It counts toward your workspace contacts, like a contact from an email ticket.
+
+> **Tip:** The switch above it, **Create Contact**, is separate and can be used at the same time. It adds the person who submitted the form to your workspace contacts and signs them up for your marketing email (once they confirm, if you ask new subscribers to confirm by email), and lets you add them to a list or apply a tag. With both switches on, the ticket uses that same contact. For that to work, one of your form's fields needs its **Marketing Field** set to **Email**, so WebNesting knows which box holds the email address.
 
 ---
 
