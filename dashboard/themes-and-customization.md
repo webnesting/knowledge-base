@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-10-31 1:04pm
+**Last verified:** 2026-10-31 3:50pm
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -257,9 +257,10 @@ Pick the type of header at the top of every page, and the type of footer at the 
    - **Logo above menu** -- your logo on top, your menu in a row under it.
    - **Logo and menu button** -- your logo and a menu button. The menu opens in a side panel.
    - **Menu on both sides** -- your menu on the left, your logo in the middle, your buttons on the right.
-   - **Glass** -- see-through over the top of your page, frosted once visitors scroll. Your logo on the left, your menu in the middle, your button on the right. See [A see-through Glass header](../website-builder/layouts-and-structure.md#a-see-through-glass-header).
-4. Under **Footer**, click a layout: **Three columns**, **Centered**, **Large, with all menus** or **Simple**.
-5. Click **Save Changes**. Your site shows the new layouts at once.
+   - **Menu in the middle** -- your logo on the left, your menu in the middle, your button on the right.
+4. To make your header see-through over the top of your page, turn on **Glass header** under the layouts. It works with every layout, and with a header of your own. The header stays see-through until it sticks to the top of the screen, then it turns into a frosted bar. The pictures and previews show it at once. See [A see-through Glass header](../website-builder/layouts-and-structure.md#a-see-through-glass-header).
+5. Under **Footer**, click a layout: **Three columns**, **Centered**, **Large, with all menus** or **Simple**.
+6. Click **Save Changes**. Your site shows the new layouts at once.
 
 The large pictures at the top of each part are your own home page with the layout you picked. They change the moment you click a layout, with no reload. The phone picture shows the menu open. The layout marked **This theme's default** is the one your theme comes with.
 
