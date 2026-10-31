@@ -59,12 +59,33 @@ Each header and footer can have its own colors, lines, sizes and text style. The
 
 What you can change:
 
-- **Colors** -- the background, the text and its hover color, the menu links, the site name, the icons and small text. The header also has the drop-down menu, the phone menu and the top bar. The footer also has the bottom strip with your copyright line.
+- **Colors** -- the background, the text and its hover color, the menu links, the site name, the icons and small text. The header also has the drop-down menu, the phone menu and the top bar, and the Glass header has **Text before scrolling**. The footer also has the bottom strip with your copyright line.
 - **Border and shadow** -- the color and thickness of the line under the header (or above the footer), and a shadow: **None**, **Soft**, **Medium** or **Strong**.
 - **Size and spacing** -- the header's **Bar height** (on phones too) and the space at the sides. The footer has the space between its columns, the space at the sides and the size of the social icons.
 - **Text** -- the menu's text size and weight, and **Menu letters**: **As typed**, **CAPITALS** or **Each Word**. Also the site name's size and weight.
 
 Leave a box empty, or pick **Same as the theme**, to use your theme's value. A color picked from your theme's list also changes in dark mode. A color you mix yourself stays the same in light and dark mode.
+
+### A see-through Glass header
+
+The **Glass** header lies over the top of your page. Your first section's picture or color shows through it. When visitors scroll, the header turns into a frosted bar with a thin line under it, and it stays at the top of the screen.
+
+1. In the Website Builder, click your header. **Settings** opens.
+2. Under **Layout**, pick **Glass**. To use it on every page, go to **Site Settings → Appearance → Header & Footer** instead.
+3. Fill in the **Button** words and link. The Glass header starts with its button on; until it has words and a link, visitors see no button.
+4. Publish the page.
+
+How it works:
+
+- **Your first section starts at the top of the screen**, behind the header. Its words, pictures and buttons start below the header, so nothing is hidden.
+- **The header's words and icons** take a color that reads on your first section. Over a **Video background**, they take the color of that section's own words. Over a section set to a dark or a theme color, they take that section's text color. Otherwise they take the header's own text color.
+- **To pick the color yourself**, open **Header colors** and set **Text before scrolling**. Pick a light color over a dark picture. This setting shows only for the Glass header.
+- **Once visitors scroll**, the bar is your header's **Background** color, a little see-through and blurred. To change it, set **Background** in **Header colors**.
+- **The logo and the button line up with your page's content**, so they sit over your first section and not beside it.
+- **The announcement bar and the top bar** stay solid above the Glass header.
+- **On phones**, the menu, the second menu and the button move into the menu, as in the other layouts.
+
+> **Tip:** The Glass header looks best over a first section with a large picture, such as a **Video background** with a cover picture.
 
 ### Announcement bar
 
