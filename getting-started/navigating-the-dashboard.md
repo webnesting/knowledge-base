@@ -1,6 +1,6 @@
 # Navigating the Dashboard
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-10-31 2:12pm
 
 The Dashboard is your home base for managing one site in WebNesting. It is where you handle that site's pages, settings, content, and analytics. (Workspace-level features like billing, team members, helpdesk, marketing, and tasks live in your workspace -- see the **Workspaces** card in your account portal.)
 
@@ -81,7 +81,7 @@ On phones and tablets, tap a rail icon to open its panel, then tap a link or tap
 
 ### What Is on the Rail
 
-- **Home** -- Your workspace overview, recent activity, and a link back to all your workspaces
+- **Home** -- Your dashboards: **Personal**, one group per team, then **Workspace**, and **All dashboards** for the **Reports** page. See [Dashboards and Reports](../dashboard/dashboards-and-reports.md). Recent activity is in **Settings** > **Activity Log**; your other workspaces open from the **WebNesting logo**.
 - **Sites** -- Every site in the workspace; expand one to reach that site's own menu
 - **Contacts** -- Your workspace contact database
 - **Marketing**, **Helpdesk**, **Tasks** -- These appear only if the matching workspace product is enabled
