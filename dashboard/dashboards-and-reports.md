@@ -1,6 +1,6 @@
 # How to make, share and organize dashboards
 
-**Last verified:** 2026-10-31 2:12pm
+**Last verified:** 2026-10-31 2:45pm
 
 A dashboard is a page of widgets: your numbers from Sites, Marketing, Helpdesk, Tasks, billing and more, in one place. You can make as many as you like, keep them to yourself or share them with a team or the whole workspace.
 
@@ -13,13 +13,25 @@ A dashboard is a page of widgets: your numbers from Sites, Marketing, Helpdesk, 
 
 1. In the **Home** menu, click **All dashboards**. The **Reports** page opens.
 2. Click **+ New Dashboard**.
-3. Type a **Name**.
-4. Under **Who can see it**, choose **Only me**, **A team** or **Everyone in the workspace**.
-5. Click **Create Dashboard**. The new dashboard opens.
-6. Click **+ Add Widget**, then pick a widget. Widgets are grouped by type.
-7. For a widget that shows one website, pick the site.
+3. Pick **Blank dashboard**, or a template (see "Start from a template" below), then click **Continue**.
+4. Type a **Name**. A template fills in its own name.
+5. Under **Who can see it**, choose **Only me**, **A team** or **Everyone in the workspace**.
+6. Click **Create Dashboard**. The new dashboard opens.
+7. Click **+ Add Widget**, then pick a widget. Widgets are grouped by type.
+8. For a widget that shows one website, pick the site.
 
 Drag a widget by its handle to move it. Use a widget's **⋮** menu to make it **Small**, **Medium** or **Large**, or to delete it.
+
+## Start from a template
+
+A template is a dashboard with its widgets already chosen. The templates are **Website performance**, **Signups and forms**, **Store**, **Support**, **Marketing**, **Projects and time**, **Usage and costs** and **Workspace overview**. Each card lists the widgets it holds.
+
+- You see a template only when your workspace uses the products it needs. Support needs Helpdesk, Marketing needs Marketing and Projects and time needs Tasks. The website templates need a website, and **Signups and forms** and **Store** need a website that has forms or a store.
+- If a widget's product is off, it is left out of your copy.
+- If your workspace has one website, the website widgets show it. If it has several, pick the site on each widget.
+- Your dashboard is a copy. You can change it freely, and a later change to the template never touches it.
+- A new workspace's **Home** starts from **Workspace overview**. Your own **Home** is not changed.
+- When you have no dashboard but **Home**, the **Reports** page shows the templates under **Start with a template**.
 
 ## Share a dashboard
 
