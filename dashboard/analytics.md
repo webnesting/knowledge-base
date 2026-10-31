@@ -1,6 +1,6 @@
 # Analytics and Reports
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-10-31
 
 Analytics help you understand how people find and use your website. WebNesting includes built-in analytics so you can see how many visitors your site gets, which pages are most popular, and where your traffic comes from -- all from your dashboard.
 
@@ -94,6 +94,8 @@ The widget groups your visits by type, with the share of all visits for each:
 
 Under each type, you see each source by name and its number of visits, for example **facebook · social** or **google · search**. A **Campaigns** list at the bottom shows the visits for each campaign name you put on your links.
 
+If your site has a form, each channel, source and campaign also shows its **Signups** and its **Rate**. The rate is the signups divided by the visits. A dash means the signups came from visits the widget has no count for. These are the same sources you see on your form's **Analytics** page.
+
 ### Tag Your Links to See Where Visitors Come From
 
 Many apps hide where a click came from. A link in an Instagram story or an email often arrives as "Direct". To know for sure, add tags to the end of the links you share. These are called UTM tags.
@@ -131,6 +133,25 @@ What the names mean:
 - With no tag, you see the site that sent the visitor, such as **google** or **reddit**.
 - **Direct** means no tag and no sending site.
 - **Unknown** appears only on older signups, sent before WebNesting kept where each visit began, when the visitor first opened another page of your site.
+
+### See Your Form Results on the Dashboard
+
+The **Form Analytics** widget puts the same numbers on your dashboard.
+
+1. On your site's **Dashboard**, or on your workspace dashboard, click **+ Add Widget**.
+2. Choose **Form Analytics**. On a workspace dashboard, pick the site.
+3. Pick one form at the top of the widget, or keep **All forms**.
+4. Click the gear icon to pick the dates.
+
+The widget shows **Views**, **Signups** and **Conversion**. Views and conversion count the whole life of the form. Signups count the dates you picked. Below them you see a chart of signups by day, and the signups by source and by campaign.
+
+### See How Each Form Converts
+
+The **Conversions** widget lists every form on your site as a goal. You set up nothing. Each form shows its signups in the last 30 days and the share of your visits that signed up. Goals you set up yourself also stay in the list.
+
+### See Your Store Orders
+
+If your site has a store, add the **Orders** widget. It shows the paid orders and the revenue for the dates you pick, the average order, and your latest orders. It compares them with the period before.
 
 To see one signup's source, open it from the **Submissions** tab. The **Where they came from** section shows its source, medium, campaign, the site that sent the visitor, and the first page of the visit.
 
