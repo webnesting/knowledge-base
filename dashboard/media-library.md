@@ -1,10 +1,14 @@
 # Files (File Manager)
 
-**Last verified:** 2026-10-26 11:23pm
+**Last verified:** 2026-10-31
 
 The File Manager is where every file in your workspace lives — images, videos, documents, helpdesk email attachments, and files visitors upload through your forms. Think of it as your workspace's file cabinet: one place, organized in folders, just like the files on your computer.
 
 ---
+
+## See Your Storage on Your Dashboard
+
+On your workspace home, click **Add Widget** and choose **Media Library**. It shows how many files you have, how much storage they use and a bar for each file type. **Open media library** opens the File Manager. You need permission to see **Files**.
 
 ## Where to Find Your Files
 

@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-10-27 10:11am
+**Last verified:** 2026-10-31
 
 WebNesting uses simple, pay-for-what-you-use pricing. You are only charged for the features and resources your site actually uses. This page explains how billing works, what things cost, and how to keep track of your spending.
 
@@ -207,6 +207,10 @@ To see your current and past bills:
 3. You will see your billing summary on the **Current Period** tab. Past invoices are on **Invoice History**: select one to open it, or **Download PDF** for a copy. Anything outstanding appears in a banner at the top -- **Pay Now** pays a single invoice on the spot, and **Pay All Now** settles every unpaid invoice at once with one card payment and one receipt.
 4. Each invoice groups its charges by your workspace and by each of your websites, with a last group, **From WebNesting**, for anything WebNesting gave you -- collapsed to one line with a total for each. Click a group's name to open just that group, or **Show itemized** to open them all -- each charge is listed underneath with its price and free allowance. Underneath, **Charges** adds up those amounts (each already has its free amount taken off), then the **Processing fee**, then your **Total**, and a **Refunded** amount if any of this invoice has been refunded.
 5. **Click any line to see exactly how it was worked out.** A breakdown opens showing the math behind the amount (for example, "40 tickets − 20 free earned × $0.05 = $1.00"), a strip showing when the product was on this month, and -- for anything metered by events, like emails or tickets -- a chart of your usage against your free allowance with a projection to the end of the month.
+
+### See your charges on your dashboard
+
+You can also see this month's charges without opening the Billing page. On your workspace home, click **Add Widget** and choose **Usage and Cost**. It shows your charges so far, your estimated total, the free amount still to come and your bill by product, then what WebNesting gave you this month and a usage chart. A banner appears on it when you have an unpaid invoice. To see how much website bandwidth you used, add **Website Bandwidth**: it shows the GB your websites sent this month, the free GB you have left, and your top sites and files. You need permission to see **Billing** for Usage and Cost, and permission to see **Usage** for Website Bandwidth.
 
 If you have no unpaid bills, you will see an estimate of your current month's charges so far -- marked **Estimated Total** rather than a final number, since free amounts aren't final until the month closes on the 1st. Click any charge to see its projection to the end of the month.
 
