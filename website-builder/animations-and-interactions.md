@@ -1,6 +1,6 @@
 # Animations and Interactions
 
-**Last verified:** 2026-10-27 6:23pm
+**Last verified:** 2026-10-31 2:50pm
 
 Make your page feel alive when someone scrolls, without writing any code. This guide covers the animations you can add to any block in the Website Builder. Every effect on a block lives in one place: **Motion**, in the Styler.
 
@@ -275,6 +275,24 @@ Under **Plays**, pick where on the screen the style changes:
 - **Set my own start and end**: pick **Starts at** and **Ends at** yourself. 0% is when the block comes in at the bottom of the screen. 100% is when it leaves the top.
 
 Each linked style has its own **Plays**. To start and stop the whole effect at once, open **Motion**. Under **Scroll effect**, set **Starts at** and **Ends at**.
+
+### Choose What Turn Turns Around
+
+**Turn** has one more setting. Under **Turns around**, pick the direction the block turns:
+
+- **Z, spin flat like a dial**: the block spins in place, like a clock hand. This is the standard choice, so your **Turn** links keep working as they did.
+- **X, tilt forward or back**: the top of the block tips toward or away from the visitor.
+- **Y, turn side to side**: the block swings like a door.
+
+For example, to make a screenshot tilt back and then stand up as the page scrolls:
+
+1. Click the picture, then open **Styles** and **Transform**.
+2. Open **Move, turn and scale on their own** and click the link button next to **Turn**.
+3. Under **Turns around**, pick **X, tilt forward or back**.
+4. Set **From** to 24 and **To** to 0. The picture starts tilted and ends standing flat.
+5. Under **Plays**, pick **As it comes onto the screen**.
+
+Scroll the page in the builder to see it. If you unlink **Turn**, it keeps its direction, and the field then reads as written by hand (see below).
 
 ### A Value Written by Hand
 
