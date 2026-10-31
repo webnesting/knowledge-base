@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-10-27 3:20pm
+**Last verified:** 2026-10-31 3:13pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -40,7 +40,7 @@ Once enabled, you will see a new **Marketing** section appear in your workspace 
 
 After enabling the product, the envelope icon in your workspace sidebar opens **Marketing**:
 
-- **Overview** -- Your marketing stats, recent campaigns and automations.
+- **Overview** -- Your **Marketing Overview** dashboard: your marketing stats, recent campaigns and automations to start with. Change its widgets, or use another dashboard instead. See [Dashboards and Reports](../dashboard/dashboards-and-reports.md#choose-the-helpdesk-tasks-and-marketing-overviews).
 - **Campaigns** -- Create and send email campaigns to your contacts and lists.
 - **Templates** -- Reusable email designs for campaigns and automations.
 - **Automations** -- Automated email workflows triggered by contact actions.

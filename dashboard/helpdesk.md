@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-10-31 1:47pm
+**Last verified:** 2026-10-31 3:13pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -22,7 +22,7 @@ Beyond ticket management, the Helpdesk includes a knowledge base where you can p
 
 The inbox is the main view of the Helpdesk. It shows all your support tickets in one place, like a shared email inbox for your whole team.
 
-Click **Helpdesk** in your workspace sidebar. The Helpdesk menu has **Overview**, **All**, **Unclaimed**, **My tickets** and **Watching**, then your teams under **My Teams**, then **Site Connections** and **Settings**. **All** opens the **Tickets** list with key details at a glance:
+Click **Helpdesk** in your workspace sidebar. The Helpdesk menu has **Overview**, **All**, **Unclaimed**, **My tickets** and **Watching**, then your teams under **My Teams**, then **Site Connections** and **Settings**. **Overview** opens your **Helpdesk Overview** dashboard. Change its widgets, or use another dashboard instead (see [Dashboards and Reports](dashboards-and-reports.md#choose-the-helpdesk-tasks-and-marketing-overviews)). **All** opens the **Tickets** list with key details at a glance:
 
 - **Title** -- What the ticket is about
 - **#** -- The ticket number
@@ -567,7 +567,7 @@ With no ratings in the period, the widget says so instead of showing a score.
 
 ## Reports on Your Dashboard
 
-Three Helpdesk widgets give you reports. Add any of them from **+ Add Widget** on your workspace dashboard or the Helpdesk dashboard, and use the widget's settings to choose the period.
+Three Helpdesk widgets give you reports. Add any of them from **+ Add Widget** on your workspace dashboard or your Helpdesk Overview, and use the widget's settings to choose the period.
 
 - **Ticket Volume** -- tickets opened and resolved each day, with the totals next to the period before. Choose **Split tickets by** to see the same tickets by channel, priority or team.
 - **Response & Resolution Times** -- the average time to a first reply, the average time to close a ticket, and the share of tickets that met their SLA. Tick only the figures you want.

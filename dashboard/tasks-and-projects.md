@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-10-31 1:47pm
+**Last verified:** 2026-10-31 3:13pm
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -123,7 +123,7 @@ This view is great for:
 
 My Work is your personal task hub. Click **My Work** in the Tasks sidebar to open the task list filtered to the tasks assigned to you, across every project in your workspace and including tasks that belong to no project. Remove the filter to see every task.
 
-The **Tasks** overview page also has a **My Work** card with your next tasks, plus **Upcoming Deadlines** and **Recent Projects**.
+The **Tasks** **Overview** page also has a **My Work** card with your next tasks, plus **Upcoming Deadlines** and **Recent Projects**. It is your **Tasks Overview** dashboard: change its widgets, or use another dashboard instead. See [Dashboards and Reports](dashboards-and-reports.md#choose-the-helpdesk-tasks-and-marketing-overviews).
 
 My Work is the best place to start your day. Open it to see everything on your plate, then dive into individual projects as needed.
 
