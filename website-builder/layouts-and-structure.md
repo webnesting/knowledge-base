@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-10-31 12:48pm
+**Last verified:** 2026-10-31 1:08pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -96,7 +96,7 @@ A page layout can show its own header or footer. The other pages keep the header
 2. Click the header (or the footer) on the page. **Settings** opens.
 3. Pick a **Layout**, or **Use** one of your own headers.
 
-Each choice starts as **Same as the rest of the site**, so you only change what you want. Everything in the header's **Settings** changes this header only, never your whole site. The change is saved when you save the page. To make a header of your own, click **Make It My Own** on the header.
+Each choice starts as **Same as the rest of the site**, so you only change what you want. Everything in the header's **Settings** changes this header only, never your whole site. Visitors see the change when you publish the page. To make a header of your own, click **Make It My Own** on the header. When it is ready, click **Publish & Use as Header**, then publish the page: the pages of this layout then show your own header.
 
 To go back, pick **Same as the rest of the site** again. **Settings → Header & Footer** lists the layouts that keep their own header or footer, with a link to the Builder.
 
