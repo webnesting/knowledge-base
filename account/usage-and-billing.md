@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-11-01 8:07am
+**Last verified:** 2026-11-01 12:36pm
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -173,7 +173,7 @@ Pick **This Month**, **Last 3 Months** or **Last 12 Months**, or **Custom** to c
 
 ### How things are counted
 
-- **Emails, tickets, API calls and website bandwidth** add up: the number is everything that happened in the range. Website bandwidth shows in GB and updates once a day. Click its **Website Bandwidth** row to see one month: the last month of the range you picked. It shows that month's total, the GB each website sent that month and the 5 files that sent the most. If you picked more than one month, the number on the row adds all of them, so it can be larger than the total inside.
+- **Emails, tickets, API calls and website bandwidth** add up: the number is everything that happened in the range. Website bandwidth shows in GB and is counted within a few minutes of each visit. Click its **Website Bandwidth** row to see one month: the last month of the range you picked. It shows that month's total, the GB each website sent that month and the 5 files that sent the most. If you picked more than one month, the number on the row adds all of them, so it can be larger than the total inside.
 - **Automation emails** count with your marketing emails, in **Marketing Emails Sent**, and cost the same.
 - **Contacts, active tasks, pages, storage and API tokens** are what you have right now (or, for a past range, what you had at its end) -- they don't add up day after day.
 
