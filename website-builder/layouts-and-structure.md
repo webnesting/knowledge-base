@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-01 9:37am
+**Last verified:** 2026-11-01 11:12am
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -34,7 +34,26 @@ The header's parts:
 - **Top bar** -- a thin bar above the header with a short message, a phone number, an email address and your social links. Your whole message always shows: when it does not fit on one line, it wraps and the bar gets taller. On tablets and phones, a bar with a message leaves out the social links, which are still in your footer. On phones, the phone number and email address show as icons.
 - **Announcement bar** -- a short message in your theme's main color, above everything else. See [Announcement bar](#announcement-bar).
 
-The header's **Settings** also has **Phone menu opens from**: **Right**, **Left** or **Top**. On phones and small tablets, the menu sits behind a menu button and opens from this side.
+With **Dropdown** or **Mega menu**, **Page details** decides what each page under an item shows:
+
+- **Simple** -- each page shows its name. A page with a **Page Icon** shows it small, beside its name.
+- **Icon and description** -- each page shows its **Page Icon** and its **Menu Description** under its name, as on many software sites. Set both in each page's settings (see [Page management](page-management.md#menu-description)). The top items never show a description.
+
+With **Dropdown** and three or more levels, **Third level opens** decides where the pages under a page in the list go:
+
+- **Under its item** -- they open in place, under their page.
+- **Beside its item** -- they open in a list next to their page, on the side with room. Rest the mouse on a page to open its list. With the keyboard, the right arrow opens a list, the left arrow closes it, and Escape goes back one level. On a phone, the pages still open under their item.
+
+Both settings change the page in the Website Builder at once.
+
+The header's **Settings** also has **Phone menu opens from**: **Right**, **Left**, **Top** or **Full screen**. On phones and small tablets, the menu sits behind a menu button and opens from this side. **Full screen** covers the whole screen with large, well-spaced links. With the **Minimal** layout, the menu button shows on every screen, so the full-screen menu opens on a computer too.
+
+When your menu has pages under its items, **Phone menu sub-pages** decides how they show in the phone menu:
+
+- **Under the item** -- the pages open in a list under their item. This is how the phone menu has always worked.
+- **Slide in** -- tap the arrow next to an item, and its pages slide in on their own. A **Back** button at the top names the item and takes you back. Pages under those pages slide in the same way.
+
+Both settings change the page in the Website Builder at once. Open the phone view and tap the menu button to try them.
 
 The footer's parts:
 

@@ -1,6 +1,6 @@
 # Managing Pages in the Builder
 
-**Last verified:** 2026-10-31 8:58pm
+**Last verified:** 2026-11-01 11:12am
 
 The Website Builder is where you design and edit your pages visually. But it is also where you can switch between pages, create new ones, and manage how they are organized -- all without leaving the builder. This guide covers everything you need to know about working with pages inside the builder.
 
@@ -157,12 +157,23 @@ The **Sub-Menu** setting, just above **Menu Visibility**, has two choices: **Nor
 
 ### Page Icon
 
-You can assign an icon image to a page. This icon may appear in navigation menus or other areas of your site depending on your theme.
+You can assign an icon image to a page. This icon may appear in navigation menus or other areas of your site depending on your theme. In a menu, a simple line icon in SVG format looks best.
 
 1. Open the page properties.
 2. Find the **Page Icon** field.
 3. Click **Add image** and select an image.
 4. Save your changes.
+
+### Menu Description
+
+A menu description is one short line about the page, up to 80 characters, such as "See every visit, source and sale as it happens". It shows under the page's name in your header's drop-down or mega menu, next to its **Page Icon**.
+
+1. Open the page properties.
+2. Find the **Menu Description** field, under **Navigation**.
+3. Type one line.
+4. Save your changes.
+
+To show it, click your header in the Website Builder, open **Settings** and set **Page details** to **Icon and description** (see [Layouts and structure](layouts-and-structure.md)). The top items of a menu never show a description. On a site in more than one language, give each language its own menu description.
 
 ### Lock Page
 
