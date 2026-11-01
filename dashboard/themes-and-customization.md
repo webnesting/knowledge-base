@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-10-31 3:50pm
+**Last verified:** 2026-11-01 9:04am
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -259,7 +259,11 @@ Pick the type of header at the top of every page, and the type of footer at the 
    - **Menu on both sides** -- your menu on the left, your logo in the middle, your buttons on the right.
    - **Menu in the middle** -- your logo on the left, your menu in the middle, your button on the right.
 4. To make your header see-through over the top of your page, turn on **Glass header** under the layouts. It works with every layout, and with a header of your own. The header stays see-through until it sticks to the top of the screen, then it turns into a frosted bar. The pictures and previews show it at once. See [A see-through Glass header](../website-builder/layouts-and-structure.md#a-see-through-glass-header).
-5. Under **Footer**, click a layout: **Three columns**, **Centered**, **Large, with all menus** or **Simple**.
+5. Under **Footer**, click a layout:
+   - **Three columns** -- your name and social links, your details, and your menu as one list, with each page's sub-pages under it.
+   - **Centered** -- everything in one centered column.
+   - **Large, with all menus** -- every menu item heads its own column with its pages under it, and your second menu gets a column too. Good for sites with many pages.
+   - **Simple** -- one bar with your copyright line and your social links.
 6. Click **Save Changes**. Your site shows the new layouts at once.
 
 The large pictures at the top of each part are your own home page with the layout you picked. They change the moment you click a layout, with no reload. The phone picture shows the menu open. The layout marked **This theme's default** is the one your theme comes with.
