@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-11-01 1:21am
+**Last verified:** 2026-11-01 8:07am
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -33,7 +33,7 @@ Any workspace with a paid plan can make 25,000 API requests a month at no charge
 
 ### Add-ons for a site
 
-Add-ons turn on extra features for one site. A site needs a paid Websites plan first.
+Add-ons turn on extra features for one site. Any site can have them, a site on the Free plan too. A Free site stays on Free and pays only for its add-ons.
 
 | Add-on | Price for each site |
 |---|---|
