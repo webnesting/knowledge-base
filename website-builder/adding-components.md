@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-10-27 5:24pm
+**Last verified:** 2026-10-31 9:41pm
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -31,7 +31,7 @@ The component will appear on your page immediately. You can now click on it to e
 
 ## Find a Block: Search and Groups
 
-At the top of the **Add** panel, the **Search blocks** box finds a block by its name or by a plain word. Type "movie" and **Video** appears; "newsletter" finds **Email Signup**. A longer search needs every word to match. The box finds sections too (see [Add a Ready-Made Section](#add-a-ready-made-section)): "restaurant" finds **Book a time**. Under the box, a line says what you see: "58 blocks and 16 sections.", or "2 blocks and 3 sections match “hero”." while you search. Press **Esc** or choose **Clear search** to see everything again. If nothing matches, the panel says so and offers **Show all blocks**.
+At the top of the **Add** panel, the **Search blocks** box finds a block by its name or by a plain word. Type "movie" and **Video** appears; "newsletter" finds **Email Signup**. A longer search needs every word to match. The box finds sections too (see [Add a Ready-Made Section](#add-a-ready-made-section)): "restaurant" finds **Book a time**. Under the box, a line says what you see, such as "58 blocks and 16 sections." (the count depends on your site: a block for a module you have not turned on is not listed), or "2 blocks and 3 sections match “hero”." while you search. Press **Esc** or choose **Clear search** to see everything again. If nothing matches, the panel says so and offers **Show all blocks**.
 
 The blocks sit in groups by what you want to do. Select a group's name to open or close it. The first time you open the panel, only **Layout** is open; after that the panel remembers which groups you opened. While you search, every group with a match opens by itself.
 
@@ -90,7 +90,7 @@ The boxes that hold and organize everything else. Using them correctly also help
 - **Element** -- A box you can turn into any of 25 HTML elements, such as a quote, a list, a figure or a link. In its settings, **Element type** is a list you can search; each type has one plain line that says what it is for, and a note under it says which element your page gets. **Custom attributes** adds your own name and value pairs to the element, for styling hooks and screen readers: names that start with `aria-` or `data-`, and `role`, `title` and `lang`. A Link can also take `href`, and a Date or time can take `datetime`. A name the builder can't use (such as `id`, `class`, `style` or `onclick`) shows why under its row, and is never saved. Each row has its own **Remove** button.
 - **Card** -- A self-contained block combining an image, heading, description, and button.
 - **Divider** -- A horizontal line that visually separates content on your page.
-- **Spacer** -- An empty block that adds a gap between two sections. Pick its **Height** from the list: the steps run from small to large and follow your theme's spacing. For a different height on a phone or tablet, pick that screen size at the top of the builder, open **Styles** and set **Height** there. Type a step such as `var(--spacing-3)` to stay on your theme's scale. Screen readers skip a Spacer. In the editor it shows as a faint striped box so you can select it; visitors see only the gap.
+- **Spacer** -- An empty block that adds a gap between two sections. Pick its **Height** from the list: the steps run from small to large and follow your theme's spacing. For a different height on a phone or tablet, pick that screen size at the top of the builder, open **Styles**, choose the **Visual** tab and pick a **Height** step from 1 to 10. Screen readers skip a Spacer. In the editor it shows as a faint striped box so you can select it; visitors see only the gap.
 - **Header** and **Footer** -- The top and bottom regions of a layout.
 
 ### Text
@@ -139,7 +139,7 @@ Blocks a visitor can click or open.
 
 - **Button** -- A clickable button linking to another page, a section of your site, or an external website.
 - **File download** -- A button that gives visitors a file from your media, such as a menu, a price list or a brochure. Under **File**, choose **Choose from my media** and pick any file, or upload one in the media window. Type the **Button text**, or leave it empty to use the file's name. The button shows a small label with the file's type and size, such as "PDF · 2.4 MB". It is read from your media, so a file you replace shows its new size. Turn **Show file type and size** off to hide the label. Under **More options**, pick the **Theme**, **Size** and **Style**, the same choices as a Button. A button text over 80 characters is not accepted: the field tells you what to fix. Visitors get the real file when they click. If you delete the file, make it private in your media, or the virus scan holds it back, nothing shows on your published page, and the editor shows a note that says why. On a narrow screen a long button text wraps onto more lines instead of being cut.
-- **Accordion Item** -- An expandable section visitors can open and close. Good for FAQs: turn on **Mark as FAQ for search engines** in its settings so Google can show your questions in search results.
+- **Accordion Item** -- An expandable section visitors can open and close. Good for FAQs: select the **Accordion** that holds your items and turn on **Mark as FAQ for search engines** in its settings, so Google can show your questions in search results.
 - **Tabs** -- Panels that visitors switch between with a row of tab names. It starts with three tabs, each holding a text block. Select a tab in **Layers** to edit its panel, and rename it under **Tab name**. Use the **+** in the toolbar to add a tab, and Alt with the arrow keys to move one. In the settings, put the tab bar across the top or down the side, and choose which tab shows first. Visitors can also use the arrow keys, Home and End.
 
 ### Marketing

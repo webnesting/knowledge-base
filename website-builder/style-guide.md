@@ -1,6 +1,6 @@
 # Your Style Guide Page
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-10-31 9:41pm
 
 ## What it is
 
@@ -15,7 +15,7 @@ The page starts with a short introduction. Then it has one section for each grou
 - Each block appears under its name, the way it looks when you first add it to a page.
 - Blocks that start out empty, such as a Blank box, Inline Text or an Alert, show a line of sample text, so you can see how they look in your theme.
 - The **Text** section starts with samples of headings, paragraphs, a quote, lists, a picture and a divider line.
-- Blocks that only some sites can use (for example, blocks for a module you have not turned on) appear only on the sites that can use them.
+- Blocks that only some sites can use appear only on the sites that can use them: the Language switcher needs two or more languages, the Article, Event, Product and Form blocks need their module turned on, and Disqus and Google Maps need their key. The page says so under its introduction.
 
 Some blocks need something from you before they show on your live site:
 
