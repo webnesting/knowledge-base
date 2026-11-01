@@ -1,6 +1,6 @@
 # Connecting a Custom Domain
 
-**Last verified:** 2026-10-27 10:11am
+**Last verified:** 2026-11-01 12:28am
 
 A custom domain gives your website its own professional web address, like `www.yourcompany.com`, instead of the free WebNesting address. This guide explains what you can do today, and where to go for the steps at your domain registrar.
 
@@ -19,7 +19,7 @@ Using your own domain makes your site look more professional, builds trust with 
 ## What you can do today
 
 - **Use the free address.** Every site has one from the moment you create it. Nothing else is needed to publish.
-- **Enter your domain when you create a site.** The **Create Site** form has a **Custom Domain (optional)** box. Leave it blank to use the free address.
+- **Enter your domain when you create a site.** The **Create Site** form has a **Custom Domain (optional)** box. Leave it blank to use the free address. A custom domain comes with a paid site plan (Starter, Growth or Pro); on the Free plan the box is hidden. A Free site that already has a domain keeps it.
 - **Choose how your address is written.** Open your site, then **Settings** > **Site Settings** > **Site Configuration**. Under **Web address**, **Always use a secure (https://) address?** decides whether anyone who types `http://` is sent to the secure address. **Should your address start with "www."?** decides whether visitors who type it the other way are sent to your choice. Both settings start on **Either works**.
 
 A screen in the app where you connect, check and change a domain later is not available yet. Until it is, email Support at support@webnesting.com with your site name and your domain name. Support tells you what to do next.

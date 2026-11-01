@@ -1,6 +1,6 @@
 # Creating a Website
 
-**Last verified:** 2026-10-27 10:19am
+**Last verified:** 2026-11-01 12:28am
 
 Ready to build your first site? This guide walks you through creating a new website on WebNesting.
 
@@ -44,7 +44,7 @@ You can change the address before creating the site; if you do and want it to fo
 
 ### Connecting a custom domain (optional)
 
-If you already own a domain name (like mybakery.com), you can type it in **Custom Domain (optional)** during setup. This is completely optional. You can always connect one later; see [Connecting a Custom Domain](../getting-started/custom-domains.md).
+If you already own a domain name (like mybakery.com), you can type it in **Custom Domain (optional)** during setup. A custom domain comes with a paid site plan, so on the Free plan the box is hidden and the form says so. This is completely optional. You can always connect one later; see [Connecting a Custom Domain](../getting-started/custom-domains.md).
 
 ### How you want to start, and the look
 
