@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-01 11:12am
+**Last verified:** 2026-11-01 2:49pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -62,6 +62,8 @@ The footer's parts:
 - **Details** -- your footer details (such as your address), the copyright line and an extra line of text.
 - **Links and switches** -- your social links, the language switcher and the light and dark switch.
 - **Button** -- a button with your own words and link.
+
+The boxes for the top bar's message, the text under the logo, your footer details and the extra line have three buttons: **Bold**, **Italic** and **Link**. The top bar's message and the extra line stay on one line. The text under the logo and your footer details can have more than one paragraph: press Enter to start a new one. Text from before with headings, lists or sizes now shows as plain paragraphs, with its words and links kept.
 
 The words you type here replace the header and footer text that used to be in **Site Settings → Content → Site Messages**. Your old words were moved here for you.
 
