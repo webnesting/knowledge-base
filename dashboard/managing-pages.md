@@ -1,6 +1,6 @@
 # Managing Pages
 
-**Last verified:** 2026-10-27 7:50pm
+**Last verified:** 2026-10-31 11:37pm
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 
@@ -150,6 +150,12 @@ A few things to know:
 - A group inside a group works too. The nearest page set to **Children** decides the menu.
 - Your site logo still links to your home page. To give visitors a way back to the group's first page, add a link to it in the group's own header.
 - Your legal links and the sitemap don't change.
+
+---
+
+## Making a Page a Menu Link
+
+A page can link your menus to another address, such as your shop or a booking page. Open the page and type the address in **Menu Link**, under **Navigation**. Menus then link straight there, and a visitor who opens the page goes there too. For the steps, see [Setting Up Site Navigation](../website-builder/site-navigation.md#linking-a-menu-item-to-another-address).
 
 ---
 

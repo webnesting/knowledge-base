@@ -1,6 +1,6 @@
 # Setting Up Site Navigation
 
-**Last verified:** 2026-10-27 8:30pm
+**Last verified:** 2026-10-31 11:37pm
 
 Navigation is how visitors find their way around your website. Good navigation helps people quickly get to the pages they need, whether they are browsing on a desktop or a phone. This guide covers how navigation works in WebNesting, how to control which pages appear in your menus, and tips for creating a clear, easy-to-use navigation structure.
 
@@ -55,8 +55,19 @@ The footer is the section at the bottom of every page on your site. It is a grea
 WebNesting gives you three footer-related checkboxes in the menu visibility settings:
 
 - **Footer** -- The main footer navigation area. Use this for general links visitors might look for at the bottom of the page.
-- **Footer Secondary** -- A secondary footer navigation area, often used for less prominent links.
-- **Footer Important** -- A highlighted footer section, useful for links you want to stand out (like a phone number or a "Get Started" button).
+- **Footer Secondary** -- A second footer menu. With no title it shows as a row of small links under the first menu.
+- **Footer Important** -- The legal row at the very bottom, beside the copyright line. Use it for links such as your privacy policy and terms.
+
+### Give a Footer Menu a Title
+
+A title turns a footer menu into a column with a heading, such as **Product** or **Company**. Visitors scan titled columns faster.
+
+1. Open the Website Builder and click your footer.
+2. In **Settings**, open **Menus**.
+3. Type a heading in **Menu title**. For the second menu, type one in **Second menu title**.
+4. Save and publish.
+
+With a title, the second menu shows as a column of its own beside the first. Leave both titles empty to keep the footer as it was. Titles can have one text per language on a site with more than one language.
 
 ### Adding a Page to the Footer
 
@@ -75,6 +86,19 @@ Footer navigation is best for pages that visitors may need but that do not deser
 - Sitemap or help pages
 
 > **Tip:** You can include the same page in both the header and footer navigation by checking both boxes. This is common for important pages like "Contact Us."
+
+---
+
+## Linking a Menu Item to Another Address
+
+A menu can link to a place outside your site, such as your online shop, a booking page or a sign-in page.
+
+1. Add a page and give it the name visitors should see in the menu, such as **Book a table**.
+2. Check the menus it should show in under **Menu Visibility**.
+3. In **Menu Link**, type the address, such as `https://shop.example.com`. You can also type a page address like `/sale`, or an email (`mailto:`) or phone (`tel:`) link.
+4. Save the page.
+
+The menu now links straight to that address. A visitor who opens the page's own address goes there too. The page is left out of your sitemap. To make it a normal page again, empty **Menu Link**.
 
 ---
 

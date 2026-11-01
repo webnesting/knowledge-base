@@ -1,6 +1,6 @@
 # Custom Widgets
 
-**Last verified:** 2026-10-27 5:24pm
+**Last verified:** 2026-10-31 11:37pm
 
 Widgets are reusable content blocks that you create once and use across multiple pages on your site. Instead of rebuilding the same section over and over, you build it once as a widget, and then place it wherever you need it.
 
@@ -291,7 +291,7 @@ The quickest way to start is a copy of the header you have now:
 2. In the bar that shows on it, click **Make It My Own**.
 3. Click **Make My Header** to confirm.
 
-You get a new header widget named after your site (for example "Acme header"), made of **Site logo**, **Site menu** and **Menu button** blocks laid out like your current layout. It opens in the Website Builder, where you can change anything in it. Your site keeps showing your layout until you publish the widget with **Publish & Set as Header**. Click your footer instead to make your own footer. Its copy keeps everything your footer layout shows: your logo and footer text, your social links, your footer details, your footer menus, your copyright line and your extra footer text. The social links, footer details, copyright line, extra footer text, text under the logo and button are **Site details** blocks. The social links still change when you change them in **Site Settings**. The footer details, extra text, text under the logo and button keep the words you typed in the footer's **Settings**, and the copyright line always shows this year.
+You get a new header widget named after your site (for example "Acme header"), made of **Site logo**, **Site menu** and **Menu button** blocks laid out like your current layout. It opens in the Website Builder, where you can change anything in it. Your site keeps showing your layout until you publish the widget with **Publish & Set as Header**. Click your footer instead to make your own footer. Its copy keeps everything your footer layout shows: your logo and footer text, your social links, your footer details, your footer menus and their titles, your copyright line and your extra footer text. The social links, footer details, copyright line, extra footer text, text under the logo and button are **Site details** blocks. The social links still change when you change them in **Site Settings**. The footer details, extra text, text under the logo and button keep the words you typed in the footer's **Settings**, and the copyright line always shows this year.
 
 The copy keeps what you set on your header or footer. A part you turned on (the button, the social links, the top bar, the language or light and dark switch) is in the copy, and a part you turned off is not. The logo choice, the menus you picked and how many menu levels show carry over too. The words (site name, button, top bar text) stay in your header's **Settings**, so they stay the same.
 
