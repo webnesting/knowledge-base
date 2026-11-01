@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-10-31 3:50pm
+**Last verified:** 2026-11-01 9:37am
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -83,10 +83,24 @@ How it works:
 - **The header's words and icons** take a color that reads on your first section. Over a **Video background**, they take the color of that section's own words. Over a section set to a dark or a theme color, they take that section's text color. Otherwise they take the header's own text color.
 - **To pick the color yourself**, open **Header colors** and set **Text before scrolling**. Pick a light color over a dark picture. This setting shows only while Glass is on.
 - **Once the header sticks**, the bar is your header's **Background** color, a little see-through and blurred. To change it, set **Background** in **Header colors**.
-- **The logo and the button line up with your page's content**, so they sit over your first section and not beside it.
+- **Glass changes only how the header looks.** Its width and the place of the logo and the menu stay the same with Glass on or off. To line them up with your page, use **Content width** (below).
 - **On phones**, the menu, the second menu and the button move into the menu, as without Glass.
 
 > **Tip:** Glass looks best over a first section with a large picture, such as a **Video background** with a cover picture. **Menu in the middle** (your logo on the left, your menu in the middle and your button on the right) with Glass on looks like a modern product page.
+
+### How wide your header and footer spread
+
+On a large screen, you choose how far your header's logo, menu and buttons spread, and how far your footer's columns spread. The background color always fills the whole width of the screen.
+
+1. In the Website Builder, click your header (or your footer). **Settings** opens.
+2. Under **Content width**, pick one:
+   - **The theme's own** -- the header spreads up to 1600 pixels wide. The footer lines up with your page.
+   - **Line up with the page** (header only) -- the logo and the menu start and end where your page's sections do.
+   - **Full screen** -- the content spreads to the sides of the screen, however wide it is.
+   - **Custom** -- type the **Largest width** in pixels, from 480 to 3840.
+3. The page in the Website Builder changes at once. Publish the page.
+
+This works with every header and footer layout, and with a header or footer you made your own from a layout. Each layout keeps its own choice, so a landing page can have a full-screen header while the rest of your site lines up with the page. On a phone, the header and footer always fit the screen.
 
 ### Announcement bar
 
