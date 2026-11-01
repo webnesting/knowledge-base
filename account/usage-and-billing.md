@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-11-01 12:24am
+**Last verified:** 2026-11-01 1:21am
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -124,7 +124,9 @@ Bandwidth is counted for each site, not for the whole workspace. It is the data 
 
 Your site, its pages and its files stay safe while it is held, and you can keep editing. If a site stays held for **30 days**, we email you again. Search engines can lower a site that stays unavailable for a long time.
 
-The notice page covers the site's pages. It does not promise that every picture or file on the site stops loading.
+While a site is held, its pictures, videos and other files stop loading too: on the site, and anywhere else they are linked. Your other sites keep working. When the hold ends, the site and its files come back within a few minutes.
+
+While the site is held, its files show a pause badge in **Files**, with no preview. The Builder shows the site's pictures and videos as missing until the hold ends. Nothing is deleted.
 
 ---
 

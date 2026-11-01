@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-11-01 12:24am
+**Last verified:** 2026-11-01 1:21am
 
 WebNesting bills with plans and prepaid credits. You pick a plan for each part of WebNesting you use and pay for it on the 1st of the month. If you use more than a plan includes, prepaid credits pay for the extra. This page explains the details: what is included, what happens at a limit, and how to see and pay your bills. For the plan prices, how credits work and how a failed payment is handled, see [Usage and Billing](../account/usage-and-billing.md).
 
@@ -62,7 +62,7 @@ Website bandwidth is the data one site sends to its visitors: its pages, picture
 
 **When a site is held.** When the bandwidth and the credits are used up, the site is held. A Free site is held right away. A paid site keeps working for a further 15% of its plan's bandwidth at no charge, and is held after that. A held site's pages show a page that says the site is **temporarily unavailable**. Your site, its pages and its files are safe, and you can keep editing in your dashboard. The hold ends when you buy credits, move the site to a bigger plan, or the month starts over and the plan's bandwidth starts again. Search engines can lower a site that stays unavailable for a long time, which is why we email you after 30 days.
 
-The notice page covers the site's pages. We do not promise that every picture or file on a held site stops loading.
+While a site is held, its pictures, videos and other files stop loading too: on the site, and anywhere else they are linked. Your other sites keep working. When the hold ends, the site and its files come back within a few minutes. See [Website bandwidth for each site](../account/usage-and-billing.md#website-bandwidth-for-each-site).
 
 **See where it went.** On the **Usage** page, click the **Website Bandwidth** row. It shows the GB each website sent (bytes that belong to no site show as **Workspace media library**), and **Files that sent the most**: your top 5 files, each with a small picture, its type and where it is.
 
@@ -143,7 +143,7 @@ WebNesting can pause part of your workspace for billing. The **Billing** page al
 - **Your sites, for a review.** WebNesting reviews some new workspaces that have no payment method yet. During a review, WebNesting can pause all your sites. Visitors then see a "Temporarily unavailable" page in place of your site, and your videos are paused too. The workspace owner gets an email that says so. To turn your sites back on, add a payment method with the **Add Payment Method** button on the Billing page, or pay any overdue invoice. Your sites come back within a few minutes.
 - **Your videos only, for a review.** WebNesting can also pause only your videos during a review, and keep your sites on. The Billing page then says "Video playback on your sites is paused while we review this workspace." Add a payment method with **Add Payment Method**, and the videos come back within a few minutes.
 
-A pause deletes nothing. During a review you can still sign in and work in your dashboard. Each paused video shows a pause badge in **Files**.
+A pause deletes nothing. During a review you can still sign in and work in your dashboard. Each paused video shows a pause badge in **Files**. A site held at its bandwidth limit is a pause too: every file of that site shows a pause badge, see [Website bandwidth](#website-bandwidth).
 
 ---
 

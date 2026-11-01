@@ -1,6 +1,6 @@
 # Files (File Manager)
 
-**Last verified:** 2026-11-01 12:24am
+**Last verified:** 2026-11-01 1:21am
 
 The File Manager is where every file in your workspace lives — images, videos, documents, helpdesk email attachments, and files visitors upload through your forms. Think of it as your workspace's file cabinet: one place, organized in folders, just like the files on your computer.
 
@@ -8,7 +8,7 @@ The File Manager is where every file in your workspace lives — images, videos,
 
 ## See Your Storage on Your Dashboard
 
-On your workspace home, click **Add Widget** and choose **Media Library**. It shows how many files you have, how much storage they use and a bar for each file type. **Open media library** opens the File Manager. You need permission to see **Files**.
+On your workspace home, click **Add Widget** and choose **Media Library**. It shows how many files you have, how much storage they use and a bar for each file type. **Open Media Library** opens the File Manager. You need permission to see **Files**.
 
 ## Where to Find Your Files
 
@@ -48,7 +48,7 @@ Each file can be up to 100 MB. A larger file is stopped before it uploads, and a
 
 > **Tip:** Files you upload into the Helpdesk or Form Uploads folders are automatically kept private, since those folders usually hold customer information.
 
-**A video over 50 MB shows a note.** When an upload has a video over 50 MB (up to the 100 MB limit), a strip above the file list names the video, says that videos use website bandwidth each time they're watched, and suggests embedding long videos from YouTube or Vimeo, which costs nothing. The strip shows once for each upload. It stays until you click **Got it** or start another upload. It does not stop the upload. See [Website bandwidth](billing-and-usage.md#website-bandwidth) for what is counted.
+**A video over 50 MB shows a note.** When an upload has a video over 50 MB (up to the 100 MB limit), a strip above the file list names the video and says: "Videos use your site's included bandwidth each time they're watched, and then credits ($0.35 per GB). For long videos, embedding from YouTube or Vimeo costs nothing." The credit price in the strip is the price on your [credit price list](../account/usage-and-billing.md#credits). The strip shows once for each upload. It stays until you click **Got it** or start another upload. It does not stop the upload. See [Website bandwidth](billing-and-usage.md#website-bandwidth) for what is counted.
 
 ---
 
@@ -159,9 +159,11 @@ WebNesting supports a wide range of file types:
 
 When you upload a video, your browser takes a still from it, one second in (sooner in a very short clip). The still shows on the video's tile in Files, in its details, and on your page under the play button until a visitor presses play. If your browser can't read the video, it uploads without a still and shows a play icon instead. In the **Video** block, a **Cover image** you choose shows in place of the still.
 
-A video can be up to 100 MB, like any file. A video you upload uses website bandwidth each time a visitor watches it. For a longer video, put it on YouTube or Vimeo and paste its link into the **Video** block: that costs nothing.
+A video can be up to 100 MB, like any file. A video you upload uses your site's included bandwidth each time a visitor watches it, and then credits. For a longer video, put it on YouTube or Vimeo and paste its link into the **Video** block: that costs nothing.
 
 **A pause badge on a video.** When WebNesting pauses video playback for billing, each public video in Files shows a pause badge. Its details say **Playback: Paused on your sites. See the Billing page.** The video stays in Files, and you can still open and use it in the editor. Only visitors to your sites cannot play it. The **Billing** page says why playback is paused and how to bring it back. See [Paused sites and videos](billing-and-usage.md#paused-sites-and-videos).
+
+**A pause badge on any file of a site.** When a site is held at its bandwidth limit, every file of that site shows a pause badge: pictures, documents and videos. Its details say **On your sites: Paused. See the Billing page.** (a video says **Playback**). Files shows no preview of it, and the Builder shows it as missing, until the hold ends. Nothing is deleted. Files of your other sites are not paused. See [Website bandwidth for each site](../account/usage-and-billing.md#website-bandwidth-for-each-site).
 
 ### Documents
 - PDF, Word, Excel, PowerPoint

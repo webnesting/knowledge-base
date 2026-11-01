@@ -1,6 +1,6 @@
 # Your Workspace Home: A Quick Daily Check-In
 
-**Last verified:** 2026-10-31
+**Last verified:** 2026-11-01
 
 Your workspace home shows the numbers you check most, on one screen. If your workspace has Marketing, Helpdesk and Tasks turned on, you can see your email results, your open tickets and your own tasks without opening each area. This guide shows a short daily routine that stays inside WebNesting.
 
@@ -17,7 +17,7 @@ Sign in and click your workspace. The home screen opens with cards. You may see:
 - **Marketing Stats** -- your contacts, campaigns, lists and active automations
 - **Helpdesk Stats** -- open tickets, unassigned tickets, tickets closed today and the average response time
 - **My Work** -- the tasks assigned to you
-- **Usage and Cost** -- this month's charges so far, your estimated total, the free amount still to come, your bill by product and a usage chart
+- **Usage and Cost** -- this month's charges so far, your estimated total, your bill by product and a usage chart
 - **Website Bandwidth** -- the GB your websites sent this month, the free GB left, and your top sites and files
 - **Email Reputation** -- your bounce and complaint rates, your sending status and your daily sends
 - **API Usage** -- API requests, data transfer, active tokens and the latest token activity

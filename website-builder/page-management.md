@@ -1,6 +1,6 @@
 # Managing Pages in the Builder
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-10-31 8:58pm
 
 The Website Builder is where you design and edit your pages visually. But it is also where you can switch between pages, create new ones, and manage how they are organized -- all without leaving the builder. This guide covers everything you need to know about working with pages inside the builder.
 
@@ -20,6 +20,21 @@ The pages panel is your home base for navigating between pages while you work in
 4. The pages panel opens, showing a list of all your pages. Click the icon again to pin the panel open so it stays put while you work.
 
 The panel shows your pages organized into groups. Your main site pages are under **Pages**. Pages that belong to a module, such as blog articles, have their own groups. You will also see a **System Pages** group for the built-in pages every site needs (**Page Not Found**, **Style Guide** and **Coming Soon**) -- these can be edited but not deleted. Each row shows the page name, and pointing at it shows the page address, such as `/index`.
+
+---
+
+## How Many Pages a Site Can Have
+
+A site on the **Free** plan can have **5 pages**. If you try to make a 6th page, WebNesting says "Free sites have 5 pages. Upgrade to Starter for unlimited pages." and does not make it. This holds for every way of making a page: **New page**, **Duplicate**, and bringing back a page you deleted. Sites on a paid plan have unlimited pages.
+
+These do not count toward the 5:
+
+- Translations of a page into another language.
+- The sign-in pages (**Login**, **Register** and the others) that WebNesting makes when you turn on site accounts.
+- The pages that belong to a blog post, an event or a store product.
+- The built-in pages you cannot delete, such as your homepage and **Page Not Found**.
+
+To make room on a Free site, delete a page you no longer need, or upgrade the site to Starter.
 
 ---
 
