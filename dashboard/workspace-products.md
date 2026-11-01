@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-10-31 3:46pm
+**Last verified:** 2026-11-01 12:24am
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -18,7 +18,7 @@ Your workspace starts with the basics: website management, media, and team colla
 
 ### Websites
 
-Build and publish websites. **Websites is always on** -- it has no on/off switch and no monthly base fee of its own; each website you create is billed as it always has been. The data your websites send to visitors is billed too, as **website bandwidth**: $0.20 per GB, with your first 10 GB each month free (see [Billing and Usage](billing-and-usage.md#website-bandwidth)). Use **Create Site** on the Websites card to create a website -- including your first one. Once you have a website, the **Sites** section appears in your sidebar, where your websites live.
+Build and publish websites. **Websites is always on** -- it has no on/off switch. Each website you create starts on the Free plan, and a paid Websites plan is chosen for each site ($6, $12 or $22 a month; see [Usage and Billing](../account/usage-and-billing.md#plans)). Each site has its own included bandwidth, set by its plan (see [Billing and Usage](billing-and-usage.md#website-bandwidth)). Use **Create Site** on the Websites card to create a website -- including your first one. Once you have a website, the **Sites** section appears in your sidebar, where your websites live.
 
 ### Marketing
 
@@ -84,7 +84,7 @@ Turning on a product takes just a few seconds:
 
 Once a product is enabled, new menu items will appear in your workspace sidebar. For example, enabling Marketing adds sections for contacts, campaigns, and email templates.
 
-> **Tip:** Each product shows its base monthly cost and any usage-based charges before you enable it. Review the pricing details so there are no surprises.
+> **Tip:** Each product shows its plans and prices before you turn it on. Review them so there are no surprises.
 
 ### Add a product from your home page
 
@@ -94,45 +94,36 @@ The page that lists your workspaces, headed **Grow your workspace**, also shows 
 
 ## Understanding Product Pricing
 
-Each product has two types of costs:
+Each product is a plan with a flat monthly price and an included amount that starts over on the 1st. Past the included amount, prepaid credits pay for the extra. Contacts, team members and API tokens are unlimited on every plan.
 
-- **Base monthly fee** -- A fixed monthly charge for having the product enabled.
-- **Usage charges** -- Additional costs based on how much you use certain features. These charges include a free amount, so you are not charged until you use more than it.
+| Product | Starter | Growth | Pro |
+|---|---|---|---|
+| Marketing | $8: 10,000 emails | $29: 50,000 emails | $59: 125,000 emails |
+| Helpdesk | $7: 100 tickets | $19: 500 tickets | $34: 2,000 tickets |
+| Tasks | $5: 500 active tasks | $12: 5,000 active tasks | $25: unlimited active tasks |
+| API | $10: 100,000 requests, 10 GB data | $29: 300,000 requests, 30 GB data, longer audit history | $89: 1,000,000 requests, 100 GB data, longer audit history, a higher rate limit |
 
-The free amount builds up hour by hour while a product is turned on, rather than being handed out all at once when the month starts, and a product earns none while it's off. The exact free amount for a full month follows how many hours are in it (a 31-day month earns a little more than a 30-day one, February a little less). See [Billing and Usage](billing-and-usage.md) for the exact numbers.
+Buy Websites, Marketing, Helpdesk and Tasks at the same size and you pay 80% of the total. The details, what happens at a limit, and how credits work: [Usage and Billing](../account/usage-and-billing.md).
 
-If WebNesting has set a lower price for your workspace, the product's card shows that price with a **Your price** label and the list price under it. If the price comes with a bigger allowance, the card's free amount includes it. See [Your price](billing-and-usage.md#your-price).
+Your first plan, or a change, is charged for the days left in the month. Every plan renews on the 1st. A bigger plan starts at once. A smaller plan starts on the next 1st.
 
-Here is how pricing works for each product:
+If WebNesting has set a lower credit price for your workspace, see [Your price](billing-and-usage.md#your-price).
 
-**Contacts are shared across products.** Marketing, Helpdesk, and your site forms all draw on the same workspace contact database, so contacts are billed once for the whole workspace -- not once per product. Your first 500 contacts are free.
+### Marketing
 
-### Marketing Pricing
+Starter, Growth or Pro, by the emails you send each month. Emails sent by your automations count with campaign emails. Contacts are shared by Marketing, Helpdesk and your site forms, and they are unlimited.
 
-- Base monthly fee for having Marketing enabled
-- Additional charge per email sent (your first emails each month are free). Emails sent by your automations count with campaign emails
+### Helpdesk
 
-### Helpdesk Pricing
+Starter, Growth or Pro, by the tickets you receive each month. Your per-site knowledge base is included, with no per-article charge. (Internal Docs is a separate, always-free product.)
 
-- Base monthly fee for having Helpdesk enabled
-- Additional charge per ticket, counted when the ticket is created (with a free tier)
-- Your per-site knowledge base is included -- there is no per-article charge. (Internal Docs is a separate, always-free product -- see above.)
+### Tasks
 
-### Tasks Pricing
+Starter, Growth or Pro, by the active tasks you have. Projects are free. Their tasks count as active tasks.
 
-- Base monthly fee for having Tasks enabled
-- Additional charge per active task (with a free tier)
-- Projects are free -- their tasks are already covered by the active-task charge
+### API Access
 
-### API Access Pricing
-
-- Base monthly fee for having API Access enabled
-- Additional charge per API request (with a free tier)
-- Additional charge for data transfer, **priced per GB** (with a free tier of about 1 GB a month): $0.20 per GB
-- Additional charge per active API token (with a free tier)
-- Optional add-ons for a higher rate limit and extended audit-log retention
-
-> **Tip:** Usage charges include generous free tiers, so you can get started without paying anything beyond the base fee. You will only see additional charges once you exceed the free allowances.
+An API plan sets your requests and data each month. Any workspace with a paid plan can make 25,000 API requests a month with no API plan. The Growth and Pro plans keep your audit log longer, and Pro has a higher rate limit.
 
 ---
 
@@ -143,21 +134,18 @@ If you no longer need a product:
 1. Go to **Settings** > **Products** in your workspace.
 2. Find the product you want to turn off.
 3. Select **Turn off**.
-4. A confirmation window states what happens up front: you can turn it off on the 1st of next month, and give up nothing this month, or turn it off now. Either way its data is **permanently deleted 30 days after it turns off** unless you turn it back on before then. Below that it lists how many of your tickets, campaigns or projects are kept. Under **If you turn it off now** it lists what you give up with **Turn off now**, for example "You'd give up about 1,150 free emails this month." That figure includes the bigger allowance that can come with [your price](billing-and-usage.md#your-price). If WebNesting gave you bonus units for the product, a second line says how many of those you give up: "You'd give up about 1,200 bonus emails from WebNesting this month." Under **While it's off** it lists what stops while the product is off. For each balance you carry over from WebNesting (bonus units or a credit for the product), a line there says it is not used while the product is off and still ends on its end date.
-5. Choose how: **Turn off on {date}** (the end of this billing month) is the default and keeps the product working -- and its free allowance still building up -- until then; **Turn off now** stops it right away instead, giving up whatever free allowance it would have earned for the rest of the month. **Keep it on** cancels and leaves everything as it was.
+4. A confirmation window states what happens up front: the plan ends, you have paid for it until the date it names, and its data is **permanently deleted 30 days after it turns off** unless you turn it back on before then. Below that it lists how many of your tickets, campaigns or projects are kept.
+5. Confirm. **Keep it on** cancels and leaves everything as it was.
 
-If you scheduled a turn-off, the product's card shows a banner naming the date, with a **Keep it on** button to cancel it any time before then. The card has no **Turn off** button until then, because the turn-off is already set.
+When a plan is set to end, the product's card shows a banner naming the date, with a **Keep it on** button to cancel it any time before then. The card has no **Turn off** button until then, because the turn-off is already set.
 
-A site module works differently -- it has no free allowance worth keeping, so turning one off always takes effect right away (see [Modules and Features](modules-and-features.md#how-to-disable-a-module)).
+A site add-on works differently -- turning one off always takes effect right away (see [Modules and Features](modules-and-features.md#how-to-disable-a-module)).
 
 Once a product is off, its card shows a banner with:
 
 - **Turn back on** -- turns the product back on with its data, as long as it's before the deletion date.
 - **Delete now** -- permanently deletes the product's data right away instead of waiting. You'll be asked to type your workspace name to confirm, because this can't be undone.
-- **What is waiting** -- if WebNesting gave you bonus units or a credit for the product, the banner says so, for example "Your 2,000 bonus emails from WebNesting are waiting. They are not used while Marketing is off. They still end on Dec 31, 2026."
 - **Download a copy** -- makes a copy of the product's data (a spreadsheet file for each kind of record, plus attached files) and emails you a download link that works for 7 days. Your contacts are not included -- they stay in Contacts. You can download a copy any time the product is off, including right before you delete it.
-
-A product you have never turned on is off too. If WebNesting gave you bonus units or a credit for it, its card shows a short banner, for example "Helpdesk is off." with "Your 300 bonus tickets from WebNesting are waiting. They are not used while Helpdesk is off. They still end on Dec 31, 2026." Click **Turn on** on the card to start using them.
 
 > **Important:** Disabling a product removes it from your workspace for everyone on your team once it's off. Its data is **permanently deleted after 30 days** after that -- turn it back on before then if you want to keep it; turning it on after that starts it empty. Your contacts are never affected. **Internal Docs** is the exception -- it is free, so its documents are kept for as long as you like.
 
@@ -166,10 +154,6 @@ A product you have never turned on is off too. If WebNesting gave you bonus unit
 > **Storage:** files the product stored (for example ticket attachments or campaign images) still count toward your workspace storage while they are being kept.
 
 > **Websites** has no **Turn off** button -- it is always on, so the steps above don't apply to it.
-
-### Disabling the same product more than twice in a month
-
-Your first two turn-offs of a product in a billing month work as described above -- immediately if you choose **Turn off now**, or at the date you scheduled. The second time, the confirmation window also warns you about the rule below. If you turn the same product off a **third** time in the same month, there's no choice of timing: it keeps working normally -- and is billed as usual, still earning its free allowance -- until the **1st of next month**, and turns off then. The confirmation window says what you give up in the first month it is off, for example "From Nov 1, 2026, you'd give up about 9,863 free emails in the first month it's off.", and the same for any bonus units from WebNesting. Its card says when, and **Keep it on** cancels it. The count starts over on the 1st of each month.
 
 ---
 
@@ -181,9 +165,9 @@ Only workspace members with **Settings** edit permission can enable or disable p
 
 ## Tips
 
-- **Enable only what you need.** Each enabled product adds to your monthly bill. If you are not actively using a product, disable it to save money.
-- **Disabling has real consequences, so it isn't undone lightly.** Its data is **permanently deleted after 30 days** unless you turn it back on, and its free allowance stops building up while it's off. Weigh that before you turn something off, not after.
-- **Enabling takes effect immediately;** your first two disables of a product in a month can be immediate too, or scheduled for the end of the billing month (see [Disabling a Product](#disabling-a-product)). A third disable in the same month waits until the 1st either way (see above).
+- **Enable only what you need.** Each plan adds to your monthly bill. If you are not actively using a product, disable it to save money.
+- **Disabling has real consequences, so it isn't undone lightly.** Its data is **permanently deleted after 30 days** unless you turn it back on. Weigh that before you turn something off, not after.
+- **Enabling takes effect immediately.** A plan you turn off stays on until the end of the month you have paid for (see [Disabling a Product](#disabling-a-product)).
 - **30 days is your window to change your mind, not a guarantee.** Turn a disabled product back on within 30 days and nothing is lost; after that, its data is permanently deleted and starting it again means starting empty.
 - **All team members benefit.** When you enable a product, all workspace members with appropriate permissions can access it.
 

@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-10-27 5:49pm
+**Last verified:** 2026-11-01 12:24am
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -26,7 +26,7 @@ To see all the modules you can add to your site:
 
 ![The modules list showing available modules with their pricing and enable/disable controls](../images/dashboard/modules.png)
 
-Each module is shown as a card with its name, a short description of what it does, its **Off** or **On** state, and its **Base fee**. The cards are **Form**, **Hide WebNesting branding**, **API** (Site API Access, free), **Widget Builder**, **Article**, **Event**, **Store** and **Accounts**. A **Filters** button lets you narrow the list by status.
+Each module is shown as a card with its name, a short description of what it does, its **Off** or **On** state, and its price. The cards are **Form**, **Hide WebNesting branding**, **API** (Site API Access), **Widget Builder**, **Article**, **Event**, **Store** and **Accounts**. A **Filters** button lets you narrow the list by status.
 
 ---
 
@@ -36,7 +36,7 @@ Turning on a module is a quick, two-step confirmation -- you see exactly what it
 
 1. Go to **Settings** > **Modules** in your site menu.
 2. Find the module you want to enable and select **Turn on**.
-3. A window shows **What it costs** (its hourly rate and estimated monthly cost, plus any free pages it earns you) before anything happens.
+3. A window shows **What it costs** before anything happens.
 4. Select **Enable** to confirm, or **Cancel** to back out. Once you confirm, the module activates right away.
 
 Once a module is enabled, new menu items will appear in your dashboard. For example, enabling the Articles module adds an "Articles" section where you can create and manage blog posts.
@@ -56,24 +56,25 @@ If you no longer need a module:
 
 The module's card then shows a banner counting down the days until its content is deleted, with **Turn back on** (restores the module and its content, as long as it's before the deletion date), **Download a copy** (we email you a link to a copy of the module's content and its pages, valid for 7 days) and **Delete now** (deletes the content right away -- you'll be asked to type your site's name, because this can't be undone). The card's own **Turn on** button does the same thing as **Turn back on**.
 
-> **Important:** Disabling a module removes it from your site menu, and any extra free pages it adds stop counting. Its content is **permanently deleted after 30 days** -- turn the module back on before then to keep it; turning it on after that starts it empty. (Capabilities like Accounts and "Hide WebNesting branding" store no content, so there is nothing to keep or delete.)
+> **Important:** Disabling a module removes it from your site menu. Its content is **permanently deleted after 30 days** -- turn the module back on before then to keep it; turning it on after that starts it empty. (Capabilities like Accounts and "Hide WebNesting branding" store no content, so there is nothing to keep or delete.)
 
 
 ---
 
 ## Module Pricing
 
-Modules use simple, predictable pricing. Each module has a flat monthly fee that is the same regardless of how much you use it.
+Site modules are add-ons with a flat monthly price for each site, the same however much you use them. A site needs a paid Websites plan first: a site on the Free plan cannot turn an add-on on.
 
 Here is how it works:
 
 - **You are only charged for modules you have enabled.**
-- **Charges are calculated by the hour while a module is on**, at the hourly rate shown when you turn it on.
-- **Module fees appear on your monthly bill.** You can see a breakdown of all charges in your billing section.
+- **Turn one on partway through the month** and you pay only for the days left. After that it renews on the 1st with your other plans.
+- **All add-ons together** cost $15 a month for each site.
+- **Add-on prices appear on your plan invoice.**
 
 > **Tip:** Visit the **Billing** section of your account to see exactly what you are being charged for each month.
 
-**Website bandwidth is billed apart from modules.** It is the data your public websites send to visitors: pages, pictures, videos and files. It costs $0.20 per GB, and your first 10 GB each month are free. You do not turn it on or off. The **Usage** page shows it, with the files that sent the most. To lower it, embed long videos from YouTube or Vimeo. See [Website bandwidth](billing-and-usage.md#website-bandwidth).
+**Website bandwidth comes with your Websites plan, not with modules.** It is the data one site sends to its visitors: pages, pictures, videos and files. Each site has its own included bandwidth. You do not turn it on or off. The **Usage** page shows it, with the files that sent the most. To lower it, embed long videos from YouTube or Vimeo. See [Website bandwidth](billing-and-usage.md#website-bandwidth).
 
 ---
 
@@ -83,7 +84,7 @@ Here is a summary of each module you can add to your site.
 
 ### Articles
 
-**Monthly cost:** $5/month
+**Monthly cost:** $3/month for each site (the Blog add-on)
 
 The Articles module adds a full blogging and news section to your site. Use it to publish blog posts, company news, updates, or any written content you want to share with your visitors.
 
@@ -91,11 +92,10 @@ What you get when you enable it:
 - **Articles** under **Pages** in your site menu, to create and manage posts
 - **Article List** and **Article Detail** blocks in the website builder, to show your posts on your site
 - An article type for each post: **Article**, **News Article** or **Blog Posting**
-- 10 more free pages for this site, for as long as Articles stays on (see [Billing and Usage](billing-and-usage.md#pages))
 
 ### E-Commerce (Store)
 
-**Monthly cost:** $20/month
+**Monthly cost:** $10/month for each site
 
 The E-Commerce module turns your website into an online store. Sell physical or digital products, manage orders, and track your sales.
 
@@ -104,11 +104,10 @@ What you get when you enable it:
 - **Product List** and **Product Detail** blocks in the website builder
 - Product details like price, description, SKU, inventory and images
 - A place to record orders yourself. Online checkout is not available yet.
-- 10 more free pages for this site, for as long as Store stays on (see [Billing and Usage](billing-and-usage.md#pages))
 
 ### Events
 
-**Monthly cost:** $5/month
+**Monthly cost:** $3/month for each site
 
 The Events module lets you create and manage event listings on your site. Perfect for businesses that host classes, workshops, meetups, or any kind of gathering.
 
@@ -116,7 +115,6 @@ What you get when you enable it:
 - **Events** under **Pages** in your site menu
 - **Event List** and **Event Detail** blocks in the website builder
 - Tools for adding event details like dates, times, and descriptions
-- 10 more free pages for this site, for as long as Events stays on (see [Billing and Usage](billing-and-usage.md#pages))
 
 ### Event Showings and Ticketing
 
@@ -142,7 +140,7 @@ Events are laid out the way concert halls and venues show them, in your theme's 
 
 ### Email Marketing (Workspace Product)
 
-**Monthly cost:** $10/month base + per-email pricing once you exceed the free allowance
+**Monthly cost:** $8, $29 or $59 a month, by the emails you send
 
 Email marketing is a **workspace product**, not a site module. You enable it at the workspace level and it works across every site in the workspace.
 
@@ -152,13 +150,13 @@ What you get when you enable it:
 - Contact import from CSV files
 - Automatic unsubscribe handling
 
-**About 10,000 marketing emails each month are free.** After that, sending costs **$0.70 per 1,000 emails**. This free allowance builds up hour by hour while Marketing is turned on, so the exact amount follows the length of the month (a 31-day month earns a little more, February a little less). Marketing earns no free emails while it's off. Workspace contacts are billed separately, once for the whole workspace, at $5 per 1,000 contacts per month (first 500 free).
+**Starter includes 10,000 emails a month, Growth 50,000 and Pro 125,000.** The emails start over on the 1st. When they are used up, prepaid credits pay for more, at $0.90 per 1,000 emails. Contacts are unlimited on every plan. See [Usage and Billing](../account/usage-and-billing.md).
 
 > **Tip:** If you also have the Forms module enabled on your site, a form can add everyone who fills it in to your workspace contacts once you turn on **Create Contact** for that form -- no manual data entry needed. See the [Email Marketing guide](../content-modules/email-marketing.md) and [Workspace Products](workspace-products.md) for details.
 
 ### Forms
 
-**Monthly cost:** $10/month
+**Monthly cost:** $3/month for each site
 
 The Forms module lets you build custom forms for your website -- contact forms, surveys, registration forms, feedback forms, and more. Includes conditional logic, multi-page forms, file uploads, reCAPTCHA, webhooks, and submission management.
 
@@ -174,7 +172,7 @@ What you get when you enable it:
 
 ### API Access (Workspace Product)
 
-**Monthly cost:** $10/month base + usage
+**Monthly cost:** Free, or $10, $29 or $89 a month by the requests and data you need
 
 API Access is a **workspace product**, not a site module -- you enable it once at the workspace level and it covers every site in the workspace. It gives you access tokens for the REST API, so your own code and other systems can read and write your content programmatically.
 
@@ -190,13 +188,13 @@ Common use cases:
 - Syncing product data between your online store and a point-of-sale system
 - Automatically creating articles or events from an external content workflow
 
-Beyond the base fee you are charged for API requests (about 50,000 each month free), data transfer -- **priced per GB**, $0.20 per GB (about 1 GB each month free) -- and active API tokens (first 5 always free). The request and data-transfer allowances build up hour by hour while API Access is turned on, so they follow the length of the month rather than a fixed number; active tokens are a fixed free amount instead. Two optional add-ons are available: a higher rate limit and extended audit-log retention.
+Any workspace with a paid plan can make 25,000 API requests a month with no API plan. Starter includes 100,000 requests and 10 GB of data a month, Growth 300,000 requests and 30 GB, and Pro 1,000,000 requests and 100 GB. Growth and Pro keep your audit log longer, and Pro has a higher rate limit. Past the included amount, prepaid credits pay for more. Active API tokens are unlimited.
 
 > **Tip:** Connecting an AI assistant (Claude, ChatGPT, Cursor, and similar) is a **separate, free** feature -- it does not need this product and is not metered. See [Connecting an AI Tool](connecting-ai-tools.md).
 
 ### Widget Builder
 
-**Monthly cost:** $20/month
+**Monthly cost:** $5/month for each site
 
 The Widget Builder lets you create custom, reusable components in the Website Builder. Once created, widgets can be dragged onto any page, making it easy to maintain consistent elements like call-to-action sections, testimonial blocks, or pricing cards across your site.
 
@@ -207,9 +205,9 @@ What you get when you enable it:
 
 ### Hide WebNesting branding
 
-**Monthly cost:** $5/month
+**Monthly cost:** included in a paid Websites plan
 
-Turning this on hides the "Powered by WebNesting" badge on your published website, giving it a fully custom, professional look.
+A site on a paid Websites plan does not show the "Powered by WebNesting" badge, which gives it a fully custom, professional look. A site on the Free plan shows the badge.
 
 ### Accounts
 
@@ -236,7 +234,7 @@ When you turn on a module, a few things happen right away:
 
 1. **New menu items appear.** You will see new items in your site menu for managing the module's content.
 2. **New page types become available.** In the website builder, you can create pages that use the module's features (like product pages or blog post pages).
-3. **Your billing is updated.** The module's monthly fee starts counting from the moment you enable it.
+3. **Your billing is updated.** The add-on's price is charged for the days left in the month, then renews on the 1st.
 
 There is no setup process or waiting time. Modules are ready to use the instant you enable them.
 

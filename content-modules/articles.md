@@ -1,6 +1,6 @@
 # Articles and Blog Posts
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-11-01 12:18am
 
 The Articles module gives your website a full blog and news section. Use it to share company updates, how-to guides, industry news, or anything else you want to write about. Articles are one of the best ways to keep your website fresh and attract new visitors.
 
@@ -12,7 +12,7 @@ Think of the Articles module as your own built-in blogging tool. Once you turn i
 
 Each article you create gets its own page on your website, complete with a title, featured image, and the full article text. Each article automatically gets a URL based on its title. You can customize the URL slug when creating or editing the article. Your visitors can browse all your articles in one place, or you can display them on any page of your site.
 
-The Articles module costs $5/month. Each article also counts as a page for billing purposes -- but turning Articles on also gives your site 10 more free pages for as long as it stays on, so its own content is often covered by that extra allowance. See [Billing and Usage](../dashboard/billing-and-usage.md#pages).
+The Articles module is the **Blog** add-on. It costs **$3 a month** for each site. A site on a paid Websites plan has unlimited pages, so articles never cost extra. The add-on is for one site and needs a paid Websites plan on that site. A site on the Free plan cannot turn it on. Turn it on mid-month and you pay only for the days left in that month. After that it renews on the 1st with your other plans. The [All add-ons pack](../account/usage-and-billing.md#add-ons-for-a-site) is $15 a month for Blog, Events, Forms, Widget builder and Stores together.
 
 ---
 
@@ -23,7 +23,7 @@ Before you can start writing articles, you need to turn on the Articles module.
 1. Log in to your WebNesting dashboard.
 2. In the site menu, open **Settings** and click **Modules**.
 3. Find **Article** in the list of available modules and click **Turn on**.
-4. A window shows what it costs -- its rate and estimated monthly cost, plus the 10 free pages it earns your site while it's on -- before anything happens.
+4. A window shows what it costs before anything happens.
 5. Click **Enable** to confirm. The module activates right away.
 
 Once enabled, **Articles** appears under **Pages** in your site menu. This is where you create and manage all your articles. The **Add** panel in the Website Builder also gets **Article List** and **Article Detail** blocks.

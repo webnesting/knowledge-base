@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-10-31 3:13pm
+**Last verified:** 2026-11-01 12:18am
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -16,7 +16,17 @@ Every contact you collect gets stored at the workspace level with their name, em
 
 Email Marketing is designed to work alongside your websites. Visitors can sign up through forms on your pages, and their information flows directly into your workspace contact database. If you also have the Forms module enabled on a site, form submissions can automatically create workspace contacts, and fill in details missing from contacts you already have -- no manual data entry needed.
 
-Pricing: $10/month base plus per-email pricing once you exceed the free allowance -- **about 10,000 emails each month are free**, then sending costs **$0.70 per 1,000 emails**. That free allowance builds up hour by hour while Marketing is turned on, so a 31-day month earns a little more than "10,000" and February a little less. Marketing earns no free emails while it's off. Emails sent by your [automations](../dashboard/marketing-automation.md) count with campaign emails, at the same price and from the same free emails. Workspace contacts are billed separately, once for the whole workspace, at **$5 per 1,000 contacts per month (first 500 free)**.
+Pricing: Marketing is a monthly plan for the whole workspace, in three sizes.
+
+| Plan | Price | Emails each month |
+|---|---|---|
+| Starter | $8 | 10,000 |
+| Growth | $29 | 50,000 |
+| Pro | $59 | 125,000 |
+
+The emails reset on the 1st. If you buy a plan mid-month, you pay for the days left and get the matching share of the emails. Emails sent by your [automations](../dashboard/marketing-automation.md) count with campaign emails, from the same allowance. Contacts are unlimited on every plan.
+
+When the month's emails are used up, WebNesting pays for more from your prepaid credits, at $0.90 per 1,000 emails. With no credits left, a new campaign does not start and the screen tells you how many emails you have used and what to do: buy credits or upgrade. Automation emails wait and go out once you add credits, upgrade, or the next month starts. See [Usage and Billing](../account/usage-and-billing.md) for credits and what happens at a limit.
 
 ---
 

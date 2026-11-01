@@ -1,6 +1,6 @@
 # Closing Your Workspace or Account
 
-**Last verified:** 2026-10-27 10:11am
+**Last verified:** 2026-11-01 12:24am
 
 This guide shows how to save what you want to keep, and how to ask Support to close a workspace or your account.
 
@@ -12,7 +12,7 @@ You cannot close a workspace or an account yourself yet. **Settings** > **Genera
 
 Closing removes your sites, pages, files and contact data. Do these first.
 
-1. **Pay what you owe.** Open **Settings** > **Plans & Billing**. Pay any outstanding invoice with **Pay Now** or **Pay All Now**.
+1. **Pay what you owe.** Open **Settings** > **Plans & Billing**. Pay any outstanding invoice with **Pay Now**.
 2. **Save your contacts.** Open **Contacts** and select **Export CSV**.
 3. **Save form submissions.** Open each form's **Submissions** tab and export the list.
 4. **Save your files.** Open **Files** in the top bar and download what you want to keep.
@@ -36,7 +36,7 @@ Closing removes your sites, pages, files and contact data. Do these first.
 
 - **A product you turn off.** Its data is permanently deleted 30 days after it turns off, unless you turn it back on. **Delete now** deletes it at once.
 - **Backups.** WebNesting keeps backups of its databases for 30 days. A deletion reaches the backups when that time passes.
-- **Your final invoice.** Charges up to the day of closing are still billed. See [Billing and Usage](../dashboard/billing-and-usage.md).
+- **Your final invoice.** Plans you already paid for are not refunded when you close. See [Billing and Usage](../dashboard/billing-and-usage.md).
 
 ---
 

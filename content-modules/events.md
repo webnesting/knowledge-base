@@ -1,6 +1,6 @@
 # Events
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-11-01 12:18am
 
 The Events module lets you create and manage event listings on your website. Whether you host workshops, classes, concerts, conferences, or community meetups, this module gives you the tools to promote your events and share all the important details with your visitors.
 
@@ -12,7 +12,7 @@ The Events module is an event management system built right into your website. W
 
 Events appear on your website just like any other page, but with all the extra details that make event pages useful: dates, times, and links to tickets. Past events are automatically sorted below upcoming events in your event listings. Visitors will see upcoming events first.
 
-The Events module costs $5/month. Each event page also counts as a page for billing purposes -- but turning Events on also gives your site 10 more free pages for as long as it stays on. See [Billing and Usage](../dashboard/billing-and-usage.md#pages).
+The Events add-on costs **$3 a month** for each site. A site on a paid Websites plan has unlimited pages, so event pages never cost extra. The add-on is for one site and needs a paid Websites plan on that site. A site on the Free plan cannot turn it on. Turn it on mid-month and you pay only for the days left in that month. After that it renews on the 1st with your other plans. The [All add-ons pack](../account/usage-and-billing.md#add-ons-for-a-site) is $15 a month for Blog, Events, Forms, Widget builder and Stores together.
 
 ---
 
@@ -23,7 +23,7 @@ Before you can start creating events, you need to turn on the module.
 1. Log in to your WebNesting dashboard.
 2. In the site menu, open **Settings** and click **Modules**.
 3. Find **Event** in the list of available modules and click **Turn on**.
-4. A window shows what it costs -- its rate and estimated monthly cost, plus the 10 free pages it earns your site while it's on -- before anything happens.
+4. A window shows what it costs before anything happens.
 5. Click **Enable** to confirm. The module activates right away.
 
 Once enabled, **Events** appears in your site menu, below **Pages**. The **Add** panel in the Website Builder also gets **Event List** and **Event Detail** blocks. You are ready to start creating events.

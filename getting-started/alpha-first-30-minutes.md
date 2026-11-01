@@ -1,6 +1,6 @@
 # Your First 30 Minutes (Alpha Checklist)
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-11-01 12:24am
 
 WebNesting is in alpha. This checklist shows what you should be able to do in your first 30 minutes. Work through it in order. If a step does not work, or takes longer than it should, that is a finding: tell us with **Send feedback** (see the last section).
 
@@ -25,15 +25,15 @@ You are done when you can tick all six boxes.
 5. **Publish.** Click **Publish** in the builder toolbar, at the top right. Open your site address in a new tab.
    *Done when:* the live site shows your change.
 
-6. **Preview your bill.** Go to **Billing** and open the **Cost calculator** tab. It starts from what is on in your workspace and shows the estimated cost for each month.
-   *Done when:* you can see what your workspace costs per month and which line the cost comes from. More in [Billing and Usage](../dashboard/billing-and-usage.md).
+6. **Check your plan.** Go to **Billing** and look at the plans in your workspace.
+   *Done when:* you can see which plan each product is on and what it costs per month. More in [Billing and Usage](../dashboard/billing-and-usage.md).
 
 ---
 
 ## What to expect
 
 - WebNesting is an alpha. Some things are rough, and some things change from week to week.
-- Your usage bill follows the published rates. The **Cost calculator** shows an estimate, and your real bill is final on the 1st of the next month.
+- Plans renew on the 1st of each month at the published prices.
 - See what we already know about, and what changed lately, on the [What's new and known issues](https://webnesting.app/whats-new) page.
 
 ## Tell us what went wrong

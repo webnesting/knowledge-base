@@ -1,74 +1,151 @@
 # Usage and Billing
 
-**Last verified:** 2026-10-27 10:11am
+**Last verified:** 2026-11-01 12:24am
 
-WebNesting uses simple, usage-based pricing. This guide explains how pricing works, how to view your usage and bills, and how to pay.
+WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
 ---
 
-## How Pricing Works
+## Plans
 
-### You pay for what you use
+### What a plan is
 
-WebNesting charges based on what you actually use -- things like the number of pages on your site and how much storage you need. If you use more, you pay more. If you use less, you pay less.
+A plan is one part of WebNesting at one size. Each plan has a flat price per month and a set amount included. The amount starts over on the 1st of every month.
 
-### Free tier
+| Plan | Starter | Growth | Pro |
+|---|---|---|---|
+| **Websites** (price for each site) | $6 a month: 2 GB storage, 5 GB website bandwidth | $12: 5 GB storage, 15 GB bandwidth | $22: 20 GB storage, 40 GB bandwidth |
+| **Marketing** | $8: 10,000 emails | $29: 50,000 emails | $59: 125,000 emails |
+| **Helpdesk** | $7: 100 tickets | $19: 500 tickets | $34: 2,000 tickets |
+| **Tasks** | $5: 500 active tasks | $12: 5,000 active tasks | $25: unlimited active tasks |
+| **API** | $10: 100,000 requests, 10 GB data | $29: 300,000 requests, 30 GB data, longer audit history | $89: 1,000,000 requests, 100 GB data, longer audit history, a higher rate limit |
 
-Every site comes with free resources to get you started:
+- **Contacts, team members and API tokens are unlimited** on every plan.
+- **A paid Websites plan** has unlimited pages, your own domain and no WebNesting badge.
+- **Active tasks** are the tasks that are not done. "Unlimited" on Tasks Pro is for normal use.
+- Prices are in US dollars. Plans are billed monthly.
 
-- **5 free pages** -- Your first 5 pages are included at no charge. System pages (your homepage, the 404 page, and other built-in pages) are always free. Turning on the Articles, Events, or Store module adds 10 more free pages to that site for as long as the module stays on -- so a site with Store gets 15 free pages, and 25 with Store and Articles both on.
-- **2 GB of free storage** -- Covers your own uploads, helpdesk attachments, and form uploads across your whole workspace.
-- **10 GB of free website bandwidth each month** -- The data your public websites send to your visitors.
+### The Free plan for websites
 
-Many small sites fit entirely within the free tier.
+Every site starts on the **Free** plan at $0. It includes 5 pages, 500 MB of storage and 500 MB of website bandwidth each month. It shows the WebNesting badge and uses a `webnesting.site` address.
 
-### Usage-based pricing
+Any workspace with a paid plan can make 25,000 API requests a month at no charge, even with no API plan.
 
-When you go beyond the free tier, you pay for what you use:
+### Add-ons for a site
 
-| Resource | Rate | Free Allowance |
-|----------|------|----------------|
-| Pages | $0.50/page/month | First 5 pages free, +10 more per page module you turn on (Articles, Events, Store) |
-| Storage | $1/GB/month | First 2 GB free |
-| Contacts | $5 per 1,000/month | First 500 free |
-| Website bandwidth | $0.20/GB | First 10 GB free each month. |
+Add-ons turn on extra features for one site. A site needs a paid Websites plan first.
 
-**Website bandwidth** is the data your public websites send to visitors: pages, pictures, videos and files. All your websites count together. Videos send the most, so for a long video it is cheaper to put it on YouTube or Vimeo and paste its link into the **Video** block. That costs nothing in website bandwidth. For what is counted, how to see which files sent the most and how to lower it, see [Billing and Usage](../dashboard/billing-and-usage.md#website-bandwidth).
+| Add-on | Price for each site |
+|---|---|
+| Blog (the Articles module) | $3 a month |
+| Events | $3 a month |
+| Forms | $3 a month |
+| Widget builder | $5 a month |
+| Store | $10 a month |
+| **All add-ons together** | **$15 a month** |
 
-People who create an account on your site are counted as contacts in the row above. There is no separate charge for letting them sign in, and your team members are always included.
+### The bundle discount
 
-### Module add-ons
+Buy Websites, Marketing, Helpdesk and Tasks at the same size and you pay **80% of the total** (20% off). For example, the four Starter plans cost $26 separately and $20.80 together.
 
-Some optional features are available as add-ons. These have a flat monthly rate, so you always know what they cost. You only pay for the ones you choose to turn on.
+| Size | Together |
+|---|---|
+| Starter | $20.80 a month |
+| Growth | $57.60 a month |
+| Pro | $112.00 a month |
 
-| Add-on | Monthly Cost |
-|--------|-------------|
-| Articles module | $5/month |
-| Events module | $5/month |
-| Forms module | $10/month |
-| Store module | $20/month |
-| Widget Builder | $20/month |
-| API Access (REST API tokens) | $10/month |
-| Remove Branding | $5/month |
+### Storage is shared
 
-Workspace-level products are also available on a separate monthly rate. Each one also has an exact hourly rate -- the figure your bill actually multiplies by for every hour it's on:
+All your storage is one pool for the whole workspace. It is the storage of each Websites plan, plus 2 GB for each paid Marketing, Helpdesk, Tasks or API plan. Your site files, helpdesk attachments and form uploads all use the same pool. A workspace with no paid plan has the Free site's 500 MB.
 
-| Product | Rate While On |
-|---------|---------------|
-| Marketing | $0.013698630136986/hour -- about $10.00/month |
-| Helpdesk | $0.020547945205479/hour -- about $15.00/month |
-| Tasks | $0.013698630136986/hour -- about $10.00/month |
-| API Access | $0.013698630136986/hour -- about $10.00/month |
+---
 
-Some of these products also include per-unit usage (e.g. emails, tickets, active tasks, API requests, API data transfer -- priced at $0.20 per GB) once you exceed the included free allowances. For emails, tickets, and API requests/data transfer, that free allowance builds up hour by hour while the product is turned on, instead of all being granted the moment the month starts -- so the exact amount for a given month follows how many hours are in it. A product earns no free allowance while it's off. Active tasks and API tokens work differently: their free amount is a fixed number (25 tasks, 5 tokens) that's simply always available while the product is on, not something that builds up over time. See [Billing and Usage](../dashboard/billing-and-usage.md) for the full breakdown, including how "earned so far" and "estimated by month end" work while the current month is still open.
+## When You Pay
 
-### Turning a product or module off
+- **Buying a plan:** You pay for the time left in the month, down to the second, and you get the matching share of what the plan includes. The charge goes to your saved card.
+- **Renewing:** Every plan and add-on renews in one charge on the 1st of the month. You get an invoice and an email.
+- **Moving to a bigger plan:** It starts right away. You pay the difference for the rest of the month.
+- **Moving to a smaller plan:** It starts on the next 1st. You keep the bigger plan until then.
+- **Small charges:** A part-month charge under $0.50 is not sent to your card. It is added to your next renewal.
+- **The card fee is in the price.** Plan and credit invoices have no separate processing fee.
 
-**A site module always turns off right away** -- it has no earned allowance worth keeping. Its data is **permanently deleted after 30 days** unless you turn it back on before then; until then, any files it stored still count toward your storage total until they're deleted, either by you (**Delete now**) or automatically once the 30 days are up.
+You need a saved card to buy a plan or credits. Open the **Payment Methods** tab on the **Billing** page to add one.
 
-**A workspace product gives you a choice.** The default, **Turn off on {date}**, schedules it for the end of the current billing month -- it keeps working, keeps being billed, and keeps earning its free allowance until then, so you don't give any of this month's allowance up. **Turn off now** stops it immediately instead, and gives up whatever free allowance it would otherwise have earned for the rest of the month. If WebNesting gave you monthly bonus units for the product, **Turn off now** gives up the bonus units for the rest of the month too, and the confirmation says how many. Bonus units or a credit you carry over are not used while the product is off, and they still end on their end date. Either way, once it's off, its data is **permanently deleted after 30 days** unless you turn it back on, and any files it stored still count toward your storage total until deleted.
+---
 
-**Turning the same workspace product off a third time in one billing month is different.** Your first two turn-offs of a product each month work as above. A third one has no choice of timing -- the product keeps working, and keeps being billed and earning its allowance, until the 1st of next month, when it finally turns off. The confirmation says how many free units, and any bonus units from WebNesting, you give up in the first month it is off. This is a fairness rule, not a way to squeeze extra charges out of you: it exists so you can't flip a product on and off around the clock to dodge billing. The count resets to zero on the 1st of each month.
+## Credits
+
+Credits pay for use past what your plans include. Your workspace has one credit balance.
+
+- **Buying:** Open the **Billing** page and use **Buy credits**. Pick $10, $25, $50 or $100, or enter any amount from $5 to $5,000. We charge your saved card at once and add the credits right away.
+- **Auto top-up:** Turn it on and choose an amount. When your balance runs out, we charge your saved card that amount. We charge at most once an hour. If the card is declined, auto top-up turns off and we email you.
+- **Credits never expire.** Your plan's included amount starts over each month, but your credits carry over.
+- **Credits cannot be refunded.**
+
+What a credit pays for:
+
+| Use past your plan | Credit price |
+|---|---|
+| Marketing emails | $0.90 per 1,000 emails |
+| Helpdesk tickets | $0.06 for each ticket |
+| Active tasks | $0.01 for each active task, each month |
+| API requests | $0.08 per 1,000 requests |
+| API data | $0.35 per GB |
+| Website bandwidth | $0.35 per GB |
+| Storage | $0.25 per GB, each month |
+
+---
+
+## What Happens at a Limit
+
+You always see your numbers on the **Usage** page, under **Included this month**. When you use all of a plan's included amount, credits cover the rest. When the credits are gone too, this is what happens:
+
+| Part | At the limit |
+|---|---|
+| **Marketing emails** | A new campaign does not start. The message tells you how many emails you used. Emails from automations wait and go out when you add credits, move to a bigger plan, or the month starts over. |
+| **Helpdesk tickets** | Tickets keep arriving. Up to 25% above your limit works as normal. Past that, new tickets are marked as over the limit and replies to them are locked. |
+| **Active tasks** | You cannot create, reopen or restore a task. |
+| **API** | Requests are refused with a "usage limit" message. |
+| **Storage** | Uploads, imports and site publishing that add files are refused. Helpdesk attachments and form uploads are still stored and paid with credits. |
+| **Pages on a Free site** | The 6th page is not allowed. |
+| **Website bandwidth** | See the next section. |
+
+Buying credits, moving to a bigger plan, or the 1st of the month lifts a limit at once.
+
+### Website bandwidth for each site
+
+Bandwidth is counted for each site, not for the whole workspace. It is the data a site sends to its visitors.
+
+1. **At 80% of the site's bandwidth** we email you. We email you again when the site reaches **100%**.
+2. **Past the included bandwidth,** each extra GB is paid from your credits.
+3. **When the credits run out,** a paid site works for a further 15% of its plan's bandwidth at no charge. A Free site has no extra.
+4. **After that, the site is held.** Visitors who open the site's pages see a page that says the site is temporarily unavailable. We email you that the site is held.
+5. **The hold ends** when you buy credits, move the site to a bigger plan, or the month starts over.
+
+Your site, its pages and its files stay safe while it is held, and you can keep editing. If a site stays held for **30 days**, we email you again. Search engines can lower a site that stays unavailable for a long time.
+
+The notice page covers the site's pages. It does not promise that every picture or file on the site stops loading.
+
+---
+
+## If a Renewal Payment Fails
+
+If your card does not pay on the 1st, **everything keeps working for 7 days.** We try the card again on days 1, 3, 5 and 7, and email you each time. You can also pay the invoice yourself at any time with **Pay Now**.
+
+If the invoice is still unpaid after day 7, your paid plans move to **Free**. **Nothing is deleted.**
+
+- Your sites stay online on the Free plan with the WebNesting badge.
+- A custom domain shows a WebNesting page until you pay.
+- You can still see your paid products and add-ons, but you cannot change them. You cannot add new content to a Free site that is past its Free limits.
+- **Paying the invoice brings everything back at once.**
+
+An unpaid renewal invoice is cancelled on the next 1st.
+
+---
+
+## Enterprise
+
+Large teams can have a contract with their own terms. Enterprise is not a plan you pick on the Billing page: contact us. An Enterprise contract names a size for each product, and usage past that size is billed after the month on the contract's terms, at the credit prices. An Enterprise workspace does not use credits.
 
 ---
 
@@ -82,7 +159,7 @@ Some of these products also include per-unit usage (e.g. emails, tickets, active
 
 ### What you'll see
 
-The Usage tab shows how much you use over time -- counts only, no prices. (Everything to do with money, including your free allowances and what this month will cost, is on the **Billing** page.)
+The Usage tab shows how much you use over time -- counts only, no prices. (Everything to do with money, including your plans, credits and what you have left, is on the **Billing** page.)
 
 - **Show** picks one thing to chart at a time -- for example emails sent, tickets created, contacts or pages.
 - The chart covers every day of the range you picked, up to today, including days with nothing on them, so you can see exactly when things happened. Switch between **Bar** and **Line** to change how it is drawn.
@@ -104,7 +181,8 @@ The **Usage this period** table lists your workspace first, then each of your we
 
 ### From WebNesting
 
-Under **Usage this period**, the **From WebNesting** section lists everything WebNesting gave your workspace for the month your date range ends in: bonus units, your price, discounts, promotions, credits and complimentary periods. For bonus units it shows how many you earned, used and have left, and when they end. Everything else says **On your invoice**, because this page shows counts and never money. A **Waiting** label means the product was off all month, so nothing was used and what you have left is kept. **Ends this week** means it ends in 7 days or less.
+Under **Usage this period**, the **From WebNesting** section lists everything WebNesting gave your workspace for the month your date range ends in: bonus units, your price and complimentary periods. For bonus units it shows how many you earned, used and have left, and when they end. Everything else says **On your invoice**, because this page shows counts and never money. A **Waiting** label means the product was off all month, so nothing was used and what you have left is kept. **Ends this week** means it ends in 7 days or less.
+
 ---
 
 ## Viewing Your Bills
@@ -117,76 +195,33 @@ Under **Usage this period**, the **From WebNesting** section lists everything We
 
 ### What you'll see
 
-The **Billing** page has five tabs: **Current Period**, **Invoice History**, **Payment Methods**, **Settings** and **Cost calculator**.
+The **Billing** page lists **Your plans**, with the price and the date each one renews, and the **Next renewal**: what will be charged on the 1st. It also shows your **Credits**.
 
-Your billing period runs from the 1st to the last day of each month. Bills are generated on the 1st of the following month and are due by the 15th.
+**Invoice History** lists your invoices with their **Status**, **Total** and **Due Date**. There is one invoice for each plan purchase or renewal, and one for each credit purchase. Select an invoice to open it, and select **Download PDF** for a PDF copy.
 
-**Current Period** shows this month so far, marked **Accruing**. **Invoice History** lists your monthly invoices with their **Status**, **Total** and **Due Date**. Select an invoice to open it, and select **Download PDF** for a PDF copy. Each invoice groups its charges by your workspace and by each of your websites:
-
-- **Grouped totals** first -- your workspace and each website, collapsed to one line with a total for each.
-- Click a group's name to open it, or **Show itemized** to open every group -- each charge is listed with its price and free allowance. Click a charge to see exactly how it was worked out.
-- At the bottom, **Charges** (those amounts added up, each already after its free amount), the **Processing fee**, the **Total** (**Estimated Total** while the month is still open), and a **Refunded** amount if any of this invoice has been refunded.
-
-Anything still outstanding appears in a banner at the top of the Billing page, so unpaid invoices never hide in your history.
-
-### What WebNesting gave you
-
-WebNesting can give your workspace something on top of your normal pricing. You always see what you were given, how much you used, and when it ends:
-
-- **Bonus units** -- extra units, for example 5,000 bonus emails a month. They are used after your free allowance. Monthly bonus units build up hour by hour while their product is on, and none build up while it is off.
-- **Your price** -- a price for your workspace that is lower than the list price. Wherever a price is shown, it carries the label **Your price** with the list price beside it.
-- **A discount or a promotion** -- a percentage or dollar amount off one product or your whole bill, worked out on what the product still owes after your free allowance.
-- **A credit** -- dollars for one product, or for your whole bill.
-- **Complimentary** -- one product, or your whole account, is not charged for a period. A complimentary account's invoice closes at $0.00 and sends no invoice email.
-- **A refund** -- back to your card, or as a credit for your next bill. WebNesting refunds a charge it billed in error, if you ask within 30 days of the invoice date. See the [refund policy](../dashboard/billing-and-usage.md#refund-policy) and [Asking for a Refund](asking-for-a-refund.md).
-
-Where you see it:
-
-- **On your invoice.** Each one is its own line, in a last group called **From WebNesting** (for example "Your price: Marketing Emails Sent", "20% off Marketing", "Marketing credit" or "Complimentary account"). Bonus units show right under the charge they cover, as "Bonus emails from WebNesting". A bigger allowance that comes with your price shows the same way, as "Your allowance: 5,000 emails a month". "Late fee waived" shows struck through against the fee it cancels. A refund shows as a **Refunded** amount, and the invoice's status becomes **Refunded** once the full amount is returned -- a partial refund keeps the invoice's normal status.
-- **On the Usage page**, in the **From WebNesting** section (see [Viewing your usage](#viewing-your-usage)).
-- **In your email.** The workspace owner gets an email when something is given, 7 days before it ends, and if WebNesting ends it early.
-
-None of this ever changes what your products cost. The full explanation, with every line and email: [Billing and Usage](../dashboard/billing-and-usage.md#credits-discounts-and-refunds).
+Anything still outstanding appears in a banner at the top of the Billing page.
 
 ### Promotion codes
 
-If you have a promotion code from WebNesting, enter it in one of three places. Each place has **Have a code?** (on the Create Workspace page, **Have another code?** when you already hold a sign-up code): select it, enter the code and select **Check code** to see what it gives you.
+If you have a promotion code from WebNesting, enter it in one of three places. Each place has **Have a code?**: select it, enter the code and select **Check code** to see what it gives you.
 
 - **When you sign up** -- the code is kept for the first workspace you create. See [Creating Your Account](creating-your-account.md).
 - **When you create a workspace** -- it is applied when you create the workspace.
-- **On the Billing page** -- on the **Current Period** tab, under **Promotion code**. Select **Apply to this workspace**.
+- **On the Billing page** -- under **Promotion code**. Select **Apply to this workspace**.
 
-What a code gives shows on your invoice as its own line, or as bonus units or a credit. Details and the messages a refused code shows: [Promotion codes](../dashboard/billing-and-usage.md#promotion-codes).
+Details and the messages a refused code shows: [Promotion codes](../dashboard/billing-and-usage.md#promotion-codes).
 
 ---
 
 ## Paying Your Bill
 
-When you have an outstanding balance, a banner at the top of the **Billing** page names the amount and has a **Pay Now** button (**Pay All Now** when more than one invoice is outstanding). You can also select **Pay** beside an invoice on the **Invoice History** tab.
+When an invoice is outstanding, a banner at the top of the **Billing** page names the amount and has a **Pay Now** button. You can also select **Pay** beside an invoice on the **Invoice History** tab.
 
 1. Select **Pay Now**.
 2. Enter your payment details in the window that opens. WebNesting accepts credit and debit cards. The window shows the **Amount Due**.
 3. Select the **Pay** button that shows the amount. Your payment is processed securely through Stripe.
 4. You'll see a confirmation once your payment goes through.
 
-If several invoices are outstanding, **Pay All Now** settles all of them at once with a single card payment and a single receipt. To save a card without paying, open the **Payment Methods** tab and select **Add Payment Method**.
-
-### Autopay
-
-To stop thinking about bills altogether, open the **Settings** tab on the **Billing** page and turn on **Pay automatically each period**. When your bill is ready, we charge your saved card for exactly the amount due, once. The same tab holds **Billing email** (where invoices and payment receipts go) and **Billing name** (printed on each invoice). Select **Save Settings** after a change. If the card is declined, we email you and try the card again each day until the bill is paid. See [Late Payments](../dashboard/billing-and-usage.md#late-payments).
+To save a card without paying, open the **Payment Methods** tab and select **Add Payment Method**.
 
 > **Tip:** Your payment information is handled by Stripe, a trusted payment processor. WebNesting never sees or stores your full card number.
-
----
-
-## What Happens If You Don't Pay
-
-A bill is due on the 15th, and a payment any time on the 15th is on time. If it is still unpaid once the 15th is over, it is marked overdue. You'll get an email reminder, and a one-time late fee of 5% of the amount due is added. With autopay on and a working card, your bill is paid before then.
-
----
-
-## Free Months
-
-If your usage stays within the free tier for a given month, your bill will be $0. These bills show as **Closed**, so you don't need to do anything.
-
-> **Tip:** With 5 free pages (more if you have Articles, Events, or Store turned on), 2 GB of storage, and 500 free contacts, many personal and small business sites fit within the free tier. You might not owe anything at all!

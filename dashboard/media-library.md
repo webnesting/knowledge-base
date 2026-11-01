@@ -1,6 +1,6 @@
 # Files (File Manager)
 
-**Last verified:** 2026-10-31
+**Last verified:** 2026-11-01 12:24am
 
 The File Manager is where every file in your workspace lives — images, videos, documents, helpdesk email attachments, and files visitors upload through your forms. Think of it as your workspace's file cabinet: one place, organized in folders, just like the files on your computer.
 
@@ -48,7 +48,7 @@ Each file can be up to 100 MB. A larger file is stopped before it uploads, and a
 
 > **Tip:** Files you upload into the Helpdesk or Form Uploads folders are automatically kept private, since those folders usually hold customer information.
 
-**A video over 50 MB shows a note.** When an upload has a video over 50 MB (up to the 100 MB limit), a strip above the file list names the video and says: "Videos use website bandwidth each time they're watched ($0.20 per GB after 10 GB free each month). For long videos, embedding from YouTube or Vimeo costs nothing." The strip shows once for each upload. It stays until you click **Got it** or start another upload. It does not stop the upload. See [Website bandwidth](billing-and-usage.md#website-bandwidth) for what is counted.
+**A video over 50 MB shows a note.** When an upload has a video over 50 MB (up to the 100 MB limit), a strip above the file list names the video, says that videos use website bandwidth each time they're watched, and suggests embedding long videos from YouTube or Vimeo, which costs nothing. The strip shows once for each upload. It stays until you click **Got it** or start another upload. It does not stop the upload. See [Website bandwidth](billing-and-usage.md#website-bandwidth) for what is counted.
 
 ---
 

@@ -1,6 +1,6 @@
 # Asking for a Refund
 
-**Last verified:** 2026-10-27 10:11am
+**Last verified:** 2026-11-01 12:24am
 
 This guide shows how to ask Support for a refund of a charge that was billed in error, and what happens next.
 
@@ -35,22 +35,20 @@ Select **Download PDF** if you want to attach a copy to your request.
 2. Write from the email address on your account.
 3. Give your workspace name and the invoice number.
 4. Name the charge and say what is wrong with it.
-5. Say whether you want the refund **back to your card** or **as credit** on your next bill.
-6. Send the message.
+5. Send the message.
 
 ---
 
 ## What happens next
 
-WebNesting approves each refund, and Support tells you the result. If it is approved, it reaches you in the way you chose:
+WebNesting approves each refund, and Support tells you the result. An approved refund goes back to the card that paid the invoice. Your bank can take a few days to show it.
 
-- **Back to your card.** The money returns to the card that paid the invoice. Your bank can take a few days to show it.
-- **As account credit.** The amount comes off your next bill.
-- **As credit for one product.** The amount comes off that product's charges on your next bill.
+- **A plan invoice refunded in full** ends those plans on the next 1st. You keep them until then.
+- **A credit purchase refunded** takes back the credits you have not spent first.
 
 ## Check it worked
 
-Open the invoice again. Its summary shows the amount under **Refunded**. When the full amount is returned, the invoice status changes to **Refunded**. Your activity log (**Settings** > **Activity Log**) also records it, for example "Refund issued: $10.00 as Marketing credit".
+Open the invoice again. Its summary shows the amount under **Refunded**. When the full amount is returned, the invoice status changes to **Refunded**. Your activity log (**Settings** > **Activity Log**) also records it, for example "Refund issued: $10.00 back to your card".
 
 ---
 
@@ -58,7 +56,7 @@ Open the invoice again. Its summary shows the amount under **Refunded**. When th
 
 - **You have no reply.** Send your message again and mention the invoice number.
 - **The 30 days have passed.** Still write to Support and give the dates. Support tells you what is possible.
-- **The charge was billed correctly.** Use [Billing and Usage](../dashboard/billing-and-usage.md) to see how each line is worked out. Credits, discounts and your price are separate lines on your invoice.
+- **The charge was billed correctly.** Use [Usage and Billing](usage-and-billing.md) to see how plans and credits are charged.
 
 ---
 
