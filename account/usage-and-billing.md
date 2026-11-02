@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-11-01 11:41pm
+**Last verified:** 2026-11-02 8:50am
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -47,19 +47,28 @@ Add-ons turn on extra features for one site. Any site can have them, a site on t
 
 ### The multi-product discount
 
-**One plan at full price. Everything else 20% off.**
+**Your highest plan is full price. Every other plan is 5% off with two plans, 10% with three, 15% with four and 20% with five or more.**
 
-With two or more paid plans, your highest-priced plan is full price; every other plan is 20% off, on any tier.
+With two or more paid plans, your highest-priced plan is full price. Every other plan gets a discount, on any tier. The more paid plans you have, the bigger the discount:
+
+| Paid plans | Discount on every plan but your highest |
+|---|---|
+| 2 | 5% |
+| 3 | 10% |
+| 4 | 15% |
+| 5 or more | 20% |
 
 - Every paid plan counts: Websites, Marketing, Helpdesk, Tasks and the API. Two paid sites count as two plans.
 - A Free plan does not count, and it has no discount.
 - When two plans have the same highest price, the one you had first is the full-price plan.
 - Add-ons and credits are always full price.
-- The discount is taken from your plans on each renewal, on the 1st. The invoice shows it as one line: "20% off every plan but your highest", with the plans it is for.
+- The discount is taken from your plans on each renewal, on the 1st. The invoice shows it as one line, for example "10% off every plan but your highest", with the plans it is for.
 - When you add a plan or move to a bigger one during the month, you pay the change in your monthly total, for the rest of the month. The invoice shows the new plan at its full price and one discount line under it.
 - The plan picker, the cost calculator and the **Your plans** list on the **Billing** page show each discounted plan's full price struck through, its new price, and "You save $X a month".
 
-For example, a Starter site ($6) and Marketing Pro ($59) are $65 at full price. Marketing Pro is the highest-priced plan, so it stays at $59. The site is 20% off, at $4.80. You pay $63.80 a month.
+- A new plan can move your other plans to a bigger discount. Sometimes your monthly total then goes down. In that case you pay nothing for the new plan this month, and your next bill on the 1st is lower.
+
+For example, a Starter site ($6) and Marketing Pro ($59) are $65 at full price. Marketing Pro is the highest-priced plan, so it stays at $59. With two plans, the site is 5% off, at $5.70. You pay $64.70 a month. Add Helpdesk Starter ($7): with three plans, the site and Helpdesk are 10% off, at $5.40 and $6.30. You pay $70.70 a month.
 
 ### Storage is shared
 
