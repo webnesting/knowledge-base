@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-11-02 10:51am
+**Last verified:** 2026-11-02 1:44pm
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -21,7 +21,7 @@ A plan is one part of WebNesting at one size. Each plan has a flat price per mon
 | **API** | $10: 100,000 requests, 10 GB data | $29: 300,000 requests, 30 GB data, longer audit history | $89: 1,000,000 requests, 100 GB data, longer audit history, a higher rate limit |
 
 - **Contacts, team members and API tokens are unlimited** on every plan.
-- **A paid Websites plan** has unlimited pages, your own domain and no WebNesting badge.
+- **A paid Websites plan** has unlimited pages and no WebNesting badge.
 - **Active tasks** are the tasks that are not done. "Unlimited" on Tasks Pro is for normal use.
 - **Tasks has a Free plan.** It costs $0, needs no card and includes 10 active tasks. When you turn on Tasks, you start on Free unless you pick a paid plan. Free never uses credits: at 10 active tasks, a new task is refused until you finish a task or upgrade to Starter.
 - Prices are in US dollars. Plans are billed monthly.
