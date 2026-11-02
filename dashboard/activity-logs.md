@@ -1,6 +1,6 @@
 # Activity Logs
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-11-01 5:41pm
 
 Activity logs keep a record of everything that happens on your site. Every time someone makes a change -- whether it is editing a page, updating settings, or managing team members -- it is recorded in the activity log.
 
@@ -178,6 +178,6 @@ Even if you manage your site alone, the activity log gives you a clear history o
 
 WebNesting keeps your site activity logs for the lifetime of your site. You do not need to worry about logs being deleted or expiring.
 
-One kind of entry is removed after a set time: entries about API access tokens in the workspace activity log. They are kept for 30 days, or 365 days if you turned on the **API Audit Log — 365-day Retention** add-on.
+One kind of entry is removed after a set time: entries about API access tokens in the workspace activity log. They are kept for 30 days, or 365 days on the Growth and Pro API plans.
 
 > **Tip:** Make it a habit to glance at your activity log when you log in. It takes just a few seconds and helps you stay on top of what is happening on your site, especially if you have team members making changes.

@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-11-01 9:53am
+**Last verified:** 2026-11-01 6:35pm
 
 WebNesting bills with plans and prepaid credits. You pick a plan for each part of WebNesting you use and pay for it on the 1st of the month. If you use more than a plan includes, prepaid credits pay for the extra. This page explains the details: what is included, what happens at a limit, and how to see and pay your bills. For the plan prices, how credits work and how a failed payment is handled, see [Usage and Billing](../account/usage-and-billing.md).
 
@@ -130,7 +130,7 @@ If you turn a site add-on off, its content is **permanently deleted after 30 day
 
 ### Payment Processing
 
-The card fee is part of the price. Plan and credit invoices have no separate processing fee line.
+The card fee is part of the price. No invoice has a separate processing fee line.
 
 ### Late Payments
 
@@ -173,7 +173,9 @@ Sometimes WebNesting gives your workspace something extra. It is never mixed sil
 
 WebNesting can set a lower credit price for your workspace, for one meter or one site. Where a message names the price of one more unit, such as the message when a limit is reached, it shows your price. A price can have an end date. After it, the list price applies again.
 
-WebNesting can also set your own price for a Marketing, Helpdesk or Tasks plan, or for the Articles add-on on one site. Your plan invoice then lists the plan at its normal price and a separate **Your price** line under it, for example "Your price: Marketing · $5.00 / month in place of $10.00 / month". You pay the difference less.
+WebNesting can also set your own price for one plan, such as Marketing Growth, or for an add-on, on every site or on one site. Your plan invoice then lists the plan at its normal price and a separate **Your price** line under it, for example "Your price: Marketing Growth plan" with "$19.00 / month in place of $29.00 / month". You pay the difference less. If your price starts or ends during a month, that month's line takes off only its part of the month. On the **Billing** page, **Your plans** shows your price beside the list price, which is struck out. The **Next renewal** shows your price too, and so does the amount charged when you change a plan. When you choose a plan, the plan picker shows the price the 1st renews at, beside the list price.
+
+**A later end date.** If WebNesting moves the end of your price to a later date, and you already paid a plan invoice for those days, the difference is added to your credit balance as prepaid credits. If that plan invoice is not paid yet, its total goes down instead. If the end then moves earlier again, only the credits for the days it no longer covers come off.
 
 ### Complimentary
 
@@ -185,12 +187,14 @@ WebNesting can also make one product complimentary, such as Marketing, from a da
 
 WebNesting can give your workspace a discount, as a percent or a fixed amount, for a set time. It can be for one product, for one product's monthly plan price only, for one site, or for the whole bill. On a plan invoice, the discount is its own line under the plans it is for. A discount comes off before a promotion and before product credit.
 
+With two or more paid plans, you also get the multi-product discount: your highest-priced plan is full price, and every other plan is 20% off. It comes off after your price and before any other discount. See [The multi-product discount](../account/usage-and-billing.md#the-multi-product-discount).
+
 ### Credits from WebNesting
 
 - **Product credit** is a dollar amount for one product, such as $20 for Marketing. It pays that product's plan on your next invoices until it is used up or ends. It pays only for that product.
 - **Account credit** from WebNesting is added to your credit balance as prepaid credits. It works like credits you buy: it pays for use past your plans and it never expires. You see it on the **Billing** page with your balance, and the workspace owner gets an email that says how many credits were added.
 
-**Given for days you already paid for.** WebNesting can give something from a date in the past, such as a complimentary period from the 16th. If you already paid a plan invoice for those days, the part you paid for them is added to your credit balance as prepaid credits. Nothing goes back to your card.
+**Given for days you already paid for.** WebNesting can give something from a date in the past, such as a complimentary period from the 16th. If you already paid a plan invoice for those days, the part you paid for them is added to your credit balance as prepaid credits. Nothing goes back to your card. If that plan invoice is not paid yet, its total goes down instead. If WebNesting then ends it early, the credits for the days it no longer covers come off your balance, as a line that starts "Ended early". Credits you already spent are not taken back.
 
 ### Where you see it
 

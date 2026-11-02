@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-10-31 3:13pm
+**Last verified:** 2026-11-01 5:41pm
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -13,6 +13,8 @@ Tasks is a workspace product that adds project management tools to your workspac
 You do not need a project for every task. Tasks can also stand on their own as personal items -- quick to-dos or one-off items that do not belong to a larger effort.
 
 > **Tip:** Tasks is a workspace product, which means it is available across your entire workspace and all team members with the right permissions can use it. See [Workspace Products](workspace-products.md) for how to enable it.
+
+> **Free plan:** Tasks starts on a Free plan with 10 active tasks. It needs no card. When you reach 10, finish a task or upgrade to Starter to add more. See [Usage and Billing](../account/usage-and-billing.md).
 
 ---
 

@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-11-01 3:31pm
+**Last verified:** 2026-11-01 5:41pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -65,7 +65,7 @@ A private wiki for your team -- how-tos, runbooks, and onboarding notes that onl
 Programmatic REST API access to your workspace for developers. When you enable API Access, you get:
 
 - **API tokens** -- Create scoped access tokens so external software, scripts, and integrations can read and update your content
-- **Usage controls** -- Free monthly allowances for API requests, data transfer, and active tokens, with optional add-ons for higher rate limits and extended audit-log retention
+- **Usage controls** -- Your API plan sets your requests and data each month. The Pro plan has a higher rate limit, and the Growth and Pro plans keep your audit log for 365 days
 - **API reference** -- The **API reference (OpenAPI)** button on the API Access page opens a description of every request a token can make, in the standard OpenAPI format that coding tools and AI assistants can read
 
 > **Connecting an AI assistant (Claude, Cursor, or another MCP tool) is free and does not require API Access.** That is a separate, no-cost feature -- see [Connecting AI Tools](connecting-ai-tools.md).
@@ -119,7 +119,7 @@ Starter, Growth or Pro, by the tickets you receive each month. Your per-site kno
 
 ### Tasks
 
-Starter, Growth or Pro, by the active tasks you have. Projects are free. Their tasks count as active tasks.
+Free, Starter, Growth or Pro, by the active tasks you have. **Free** costs $0, needs no card and includes 10 active tasks. Turn on Tasks and you start on Free, unless you pick a paid plan. At 10 active tasks, a new task is refused with a message that points to Starter. If you move from a paid plan to Free with more than 10 active tasks, you keep them all, and you cannot add more until you are under 10. Projects are free. Their tasks count as active tasks.
 
 ### API Access
 

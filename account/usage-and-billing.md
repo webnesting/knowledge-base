@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-11-01 12:36pm
+**Last verified:** 2026-11-01 5:41pm
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -23,6 +23,7 @@ A plan is one part of WebNesting at one size. Each plan has a flat price per mon
 - **Contacts, team members and API tokens are unlimited** on every plan.
 - **A paid Websites plan** has unlimited pages, your own domain and no WebNesting badge.
 - **Active tasks** are the tasks that are not done. "Unlimited" on Tasks Pro is for normal use.
+- **Tasks has a Free plan.** It costs $0, needs no card and includes 10 active tasks. When you turn on Tasks, you start on Free unless you pick a paid plan. Free never uses credits: at 10 active tasks, a new task is refused until you finish a task or upgrade to Starter.
 - Prices are in US dollars. Plans are billed monthly.
 
 ### The Free plan for websites
@@ -44,15 +45,21 @@ Add-ons turn on extra features for one site. Any site can have them, a site on t
 | Store | $10 a month |
 | **All add-ons together** | **$15 a month** |
 
-### The bundle discount
+### The multi-product discount
 
-Buy Websites, Marketing, Helpdesk and Tasks at the same size and you pay **80% of the total** (20% off). For example, the four Starter plans cost $26 separately and $20.80 together.
+**One plan at full price. Everything else 20% off.**
 
-| Size | Together |
-|---|---|
-| Starter | $20.80 a month |
-| Growth | $57.60 a month |
-| Pro | $112.00 a month |
+With two or more paid plans, your highest-priced plan is full price; every other plan is 20% off, on any tier.
+
+- Every paid plan counts: Websites, Marketing, Helpdesk, Tasks and the API. Two paid sites count as two plans.
+- A Free plan does not count, and it has no discount.
+- When two plans have the same highest price, the one you had first is the full-price plan.
+- Add-ons and credits are always full price.
+- The discount is taken from your plans on each renewal, on the 1st. The invoice shows it as one line: "20% off every plan but your highest", with the plans it is for.
+- When you add a plan or move to a bigger one during the month, you pay the change in your monthly total, for the rest of the month. The invoice shows the new plan at its full price and one discount line under it.
+- The plan picker and the cost calculator show each discounted plan's full price struck through, its new price, and "You save $X a month".
+
+For example, a Starter site ($6) and Marketing Pro ($59) are $65 at full price. Marketing Pro is the highest-priced plan, so it stays at $59. The site is 20% off, at $4.80. You pay $63.80 a month.
 
 ### Storage is shared
 
@@ -67,7 +74,7 @@ All your storage is one pool for the whole workspace. It is the storage of each 
 - **Moving to a bigger plan:** It starts right away. You pay the difference for the rest of the month.
 - **Moving to a smaller plan:** It starts on the next 1st. You keep the bigger plan until then.
 - **Small charges:** A part-month charge under $0.50 is not sent to your card. It is added to your next renewal.
-- **The card fee is in the price.** Plan and credit invoices have no separate processing fee.
+- **The card fee is in the price.** No invoice has a separate processing fee.
 
 You need a saved card to buy a plan or credits. Open the **Payment Methods** tab on the **Billing** page to add one.
 
@@ -104,7 +111,7 @@ You always see your numbers on the **Usage** page, under **Included this month**
 |---|---|
 | **Marketing emails** | A new campaign does not start. The message tells you how many emails you used. Emails from automations wait and go out when you add credits, move to a bigger plan, or the month starts over. |
 | **Helpdesk tickets** | Tickets keep arriving. Up to 25% above your limit works as normal. Past that, new tickets are marked as over the limit and replies to them are locked. |
-| **Active tasks** | You cannot create, reopen or restore a task. |
+| **Active tasks** | You cannot create, reopen or restore a task. On the Free plan, the message points you to Starter, and credits are not used. |
 | **API** | Requests are refused with a "usage limit" message. |
 | **Storage** | Uploads, imports and site publishing that add files are refused. Helpdesk attachments and form uploads are still stored and paid with credits. |
 | **Pages on a Free site** | The 6th page is not allowed. |

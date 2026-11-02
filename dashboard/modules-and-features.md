@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-11-01 8:07am
+**Last verified:** 2026-11-01 5:40pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -26,7 +26,9 @@ To see all the modules you can add to your site:
 
 ![The modules list showing available modules with their pricing and enable/disable controls](../images/dashboard/modules.png)
 
-Each module is shown as a card with its name, a short description of what it does, its **Off** or **On** state, and its price. The cards are **Form**, **Hide WebNesting branding**, **API** (Site API Access), **Widget Builder**, **Article**, **Event**, **Store** and **Accounts**. A **Filters** button lets you narrow the list by status.
+Each module is shown as a card with its name, a short description of what it does, its **Off** or **On** state, and its price. The cards are **Form**, **API** (Site API Access), **Widget Builder**, **Article**, **Event**, **Store** and **Accounts**. A **Filters** button lets you narrow the list by status.
+
+The "Powered by WebNesting" badge is not a module. A site on a paid Websites plan never shows it. A site on the Free plan shows it.
 
 ---
 
@@ -56,7 +58,7 @@ If you no longer need a module:
 
 The module's card then shows a banner counting down the days until its content is deleted, with **Turn back on** (restores the module and its content, as long as it's before the deletion date), **Download a copy** (we email you a link to a copy of the module's content and its pages, valid for 7 days) and **Delete now** (deletes the content right away -- you'll be asked to type your site's name, because this can't be undone). The card's own **Turn on** button does the same thing as **Turn back on**.
 
-> **Important:** Disabling a module removes it from your site menu. Its content is **permanently deleted after 30 days** -- turn the module back on before then to keep it; turning it on after that starts it empty. (Capabilities like Accounts and "Hide WebNesting branding" store no content, so there is nothing to keep or delete.)
+> **Important:** Disabling a module removes it from your site menu. Its content is **permanently deleted after 30 days** -- turn the module back on before then to keep it; turning it on after that starts it empty. (A capability like Accounts stores no content, so there is nothing to keep or delete.)
 
 
 ---
@@ -203,12 +205,6 @@ What you get when you enable it:
 - Tools for designing and configuring custom widgets
 - The ability to place widgets on any page of your site
 
-### Hide WebNesting branding
-
-**Monthly cost:** included in a paid Websites plan
-
-A site on a paid Websites plan does not show the "Powered by WebNesting" badge, which gives it a fully custom, professional look. A site on the Free plan shows the badge.
-
 ### Accounts
 
 **Monthly cost:** free
@@ -223,7 +219,7 @@ What you get when you turn it on:
 
 A few things worth knowing:
 - **One account works across all your websites.** If you run several sites in the same workspace, a person signs up once and uses the same password everywhere -- but they still have to confirm by email before they can sign in to each additional site, so one site's audience never quietly becomes another's.
-- **People who sign up are counted as contacts**, not as a separate charge. See [Billing and usage](billing-and-usage.md).
+- **Sign-ups cost nothing.** People who sign up are contacts, and contacts are unlimited on every plan.
 - **Turning it off leaves your pages alone.** Your Login and Register pages stay exactly as you designed them; visitors just can't sign in any more. Nobody is removed from your contacts.
 
 ---
