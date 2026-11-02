@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-11-01 5:41pm
+**Last verified:** 2026-11-01 10:14pm
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -154,7 +154,7 @@ An unpaid renewal invoice is cancelled on the next 1st.
 
 ## Enterprise
 
-Large teams can have a contract with their own terms. Enterprise is not a plan you pick on the Billing page: contact us. An Enterprise contract names a size for each product, and usage past that size is billed after the month on the contract's terms, at the credit prices. An Enterprise workspace does not use credits.
+Large teams can have a contract with their own terms. Enterprise is not a plan you pick on the Billing page: contact us. An Enterprise contract names a size for each product, and usage past that size is billed after the month on the contract's terms, at the credit prices. An Enterprise workspace does not use credits. It gets the first 10 GB of website bandwidth each month free. Its **Cost calculator** tab prices each unit you use, not plans. A workspace on plans gets neither.
 
 ---
 
