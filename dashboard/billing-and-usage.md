@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-11-01 10:14pm
+**Last verified:** 2026-11-01 11:53pm
 
 WebNesting bills with plans and prepaid credits. You pick a plan for each part of WebNesting you use and pay for it on the 1st of the month. If you use more than a plan includes, prepaid credits pay for the extra. This page explains the details: what is included, what happens at a limit, and how to see and pay your bills. For the plan prices, how credits work and how a failed payment is handled, see [Usage and Billing](../account/usage-and-billing.md).
 
@@ -19,7 +19,7 @@ You pay in advance. Nothing is billed after the month, unless your workspace has
 
 ## What Is Included
 
-Each plan includes an amount that starts over on the 1st of every month. It is your **included amount**. The **Usage** page shows it as **Included this month**: what you used, what is left, and **Using credits** when you are past it.
+Each plan includes an amount that starts over on the 1st of every month. It is your **included amount**. The **Usage** page shows it as **Included this month**: what you used, what is left, and **Using credits** when you are past it. When nothing is left, the line says **Used up**. Credits you bought never add to "what is left". They only pay once the included amount is gone.
 
 Every site starts on the **Free** plan, which costs $0 and includes 5 pages, 500 MB of storage and 500 MB of website bandwidth each month. Contacts, team members and API tokens are unlimited on every plan. The full table of plans and prices: [Usage and Billing](../account/usage-and-billing.md#plans).
 

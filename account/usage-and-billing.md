@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-11-01 10:14pm
+**Last verified:** 2026-11-01 11:41pm
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -57,7 +57,7 @@ With two or more paid plans, your highest-priced plan is full price; every other
 - Add-ons and credits are always full price.
 - The discount is taken from your plans on each renewal, on the 1st. The invoice shows it as one line: "20% off every plan but your highest", with the plans it is for.
 - When you add a plan or move to a bigger one during the month, you pay the change in your monthly total, for the rest of the month. The invoice shows the new plan at its full price and one discount line under it.
-- The plan picker and the cost calculator show each discounted plan's full price struck through, its new price, and "You save $X a month".
+- The plan picker, the cost calculator and the **Your plans** list on the **Billing** page show each discounted plan's full price struck through, its new price, and "You save $X a month".
 
 For example, a Starter site ($6) and Marketing Pro ($59) are $65 at full price. Marketing Pro is the highest-priced plan, so it stays at $59. The site is 20% off, at $4.80. You pay $63.80 a month.
 
