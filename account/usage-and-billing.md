@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-11-02 9:54am
+**Last verified:** 2026-11-02 10:51am
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -64,7 +64,7 @@ With two or more paid plans, your highest-priced plan is full price. Every other
 - Add-ons and credits are always full price.
 - The discount is taken from your plans on each renewal, on the 1st. The invoice shows it as one line, for example "10% off every plan but your highest", with the plans it is for.
 - When you add a plan or move to a bigger one during the month, you pay the change in your monthly total, for the rest of the month. The invoice shows the new plan at its full price and one discount line under it.
-- The plan picker, the cost calculator and the **Your plans** list on the **Billing** page show each discounted plan's full price struck through, its new price, and "You save $X a month".
+- The plan picker, the cost calculator and the **Your Plans** list on the **Billing** page show each discounted plan's full price struck through, its new price, and "You save $X a month".
 
 - A new plan can move your other plans to a bigger discount. Sometimes your monthly total then goes down. In that case you pay nothing for the new plan this month, and your next bill on the 1st is lower.
 
@@ -94,7 +94,7 @@ You need a saved card to buy a plan or credits. Open the **Payment Methods** tab
 Credits pay for use past what your plans include. Your workspace has one credit balance.
 
 - **Buying:** Open the **Billing** page and use **Buy Credits**. Pick $10, $25, $50 or $100, or enter any amount from $5 to $5,000. We charge your saved card at once and add the credits right away.
-- **Auto top-up:** Turn it on and choose an amount. When your balance runs out, we charge your saved card that amount. We charge at most once an hour. If the card is declined, auto top-up turns off and we email you.
+- **Auto Top-Up:** Turn it on and choose an amount. When your balance runs out, we charge your saved card that amount. We charge at most once an hour. If the card is declined, auto top-up turns off and we email you.
 - **Credits never expire.** Your plan's included amount starts over each month, but your credits carry over.
 - **Credits cannot be refunded.**
 
@@ -114,7 +114,7 @@ What a credit pays for:
 
 ## What Happens at a Limit
 
-You always see your numbers on the **Usage** page, under **Included this month**. When you use all of a plan's included amount, credits cover the rest. When the credits are gone too, this is what happens:
+You always see your numbers on the **Usage** page, under **Included This Month**. When you use all of a plan's included amount, credits cover the rest. When the credits are gone too, this is what happens:
 
 | Part | At the limit |
 |---|---|
@@ -195,11 +195,11 @@ Pick **This Month**, **Last 3 Months** or **Last 12 Months**, or **Custom** to c
 
 ### Usage by where it's used
 
-The **Usage this period** table lists your workspace first, then each of your websites, so you can see which site is driving your usage. Use **Where** to narrow it to one website or your workspace.
+The **Usage This Period** table lists your workspace first, then each of your websites, so you can see which site is driving your usage. Use **Where** to narrow it to one website or your workspace.
 
 ### From WebNesting
 
-Under **Usage this period**, the **From WebNesting** section lists everything WebNesting gave your workspace for the month your date range ends in: bonus units, your price and complimentary periods. For bonus units it shows how many you earned, used and have left, and when they end. Everything else says **On your invoice**, because this page shows counts and never money. A **Waiting** label means the product was off all month, so nothing was used and what you have left is kept. **Ends this week** means it ends in 7 days or less.
+Under **Usage This Period**, the **From WebNesting** section lists everything WebNesting gave your workspace for the month your date range ends in: bonus units, your price and complimentary periods. For bonus units it shows how many you earned, used and have left, and when they end. Everything else says **On your invoice**, because this page shows counts and never money. A **Waiting** label means the product was off all month, so nothing was used and what you have left is kept. **Ends this week** means it ends in 7 days or less.
 
 ---
 
@@ -213,7 +213,7 @@ Under **Usage this period**, the **From WebNesting** section lists everything We
 
 ### What you'll see
 
-The **Billing** page lists **Your plans**, with the price and the date each one renews, and the **Next renewal**: what will be charged on the 1st. It also shows your **Credits**.
+The **Billing** page lists **Your Plans**, with the price and the date each one renews, and the **Next Renewal**: what will be charged on the 1st. It also shows your **Credits**.
 
 **Invoice History** lists your invoices with their **Status**, **Total** and **Due Date**. There is one invoice for each plan purchase or renewal, and one for each credit purchase. Select an invoice to open it, and select **Download PDF** for a PDF copy.
 

@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-11-02 9:54am
+**Last verified:** 2026-11-02 10:51am
 
 WebNesting bills with plans and prepaid credits. You pick a plan for each part of WebNesting you use and pay for it on the 1st of the month. If you use more than a plan includes, prepaid credits pay for the extra. This page explains the details: what is included, what happens at a limit, and how to see and pay your bills. For the plan prices, how credits work and how a failed payment is handled, see [Usage and Billing](../account/usage-and-billing.md).
 
@@ -19,7 +19,7 @@ You pay in advance. Nothing is billed after the month, unless your workspace has
 
 ## What Is Included
 
-Each plan includes an amount that starts over on the 1st of every month. It is your **included amount**. The **Usage** page shows it as **Included this month**: what you used, what is left, and **Using credits** when you are past it. When nothing is left, the line says **Used up**. Credits you bought never add to "what is left". They only pay once the included amount is gone.
+Each plan includes an amount that starts over on the 1st of every month. It is your **included amount**. The **Usage** page shows it as **Included This Month**: what you used, what is left, and **Using credits** when you are past it. When nothing is left, the line says **Used up**. Credits you bought never add to "what is left". They only pay once the included amount is gone.
 
 Every site starts on the **Free** plan, which costs $0 and includes 5 pages, 500 MB of storage and 500 MB of website bandwidth each month. Contacts, team members and API tokens are unlimited on every plan. The full table of plans and prices: [Usage and Billing](../account/usage-and-billing.md#plans).
 
@@ -153,10 +153,10 @@ To see your current and past bills:
 
 1. Open the workspace you want to look at.
 2. Select **Settings** at the bottom of the left icon rail, then **Plans & Billing** under **Billing**. (You can also reach it from the **⋮** menu in the top bar → **Billing**.)
-3. The **Billing** page shows **Your plans**, with the price and the date each one renews, and the **Next renewal**: what will be charged on the 1st, with each discount, special price, complimentary period or product credit as its own line. It also shows your **Credits** and balance. Past invoices are on **Invoice History**: select one to open it, or **Download PDF** for a copy. Anything outstanding appears in a banner at the top -- **Pay Now** pays a single invoice on the spot.
+3. The **Billing** page shows **Your Plans**, with the price and the date each one renews, and the **Next Renewal**: what will be charged on the 1st, with each discount, special price, complimentary period or product credit as its own line. It also shows your **Credits** and balance. Past invoices are on **Invoice History**: select one to open it, or **Download PDF** for a copy. Anything outstanding appears in a banner at the top -- **Pay Now** pays a single invoice on the spot.
 4. There is one invoice for each plan purchase or renewal and one for each credit purchase.
 
-To see how much you have used, open the **Usage** page: **Included this month** shows each part of your plans, what you used and what is left, and your credit balance, with **Buy Credits**.
+To see how much you have used, open the **Usage** page: **Included This Month** shows each part of your plans, what you used and what is left, and your credit balance, with **Buy Credits**.
 
 ### What WebNesting gives you
 
@@ -173,7 +173,7 @@ Sometimes WebNesting gives your workspace something extra. It is never mixed sil
 
 WebNesting can set a lower credit price for your workspace, for one meter or one site. Where a message names the price of one more unit, such as the message when a limit is reached, it shows your price. A price can have an end date. After it, the list price applies again.
 
-WebNesting can also set your own price for one plan, such as Marketing Growth, or for an add-on, on every site or on one site. Your plan invoice then lists the plan at its normal price and a separate **Your price** line under it, for example "Your price: Marketing Growth plan" with "$19.00 / month in place of $29.00 / month". You pay the difference less. If your price starts or ends during a month, that month's line takes off only its part of the month. On the **Billing** page, **Your plans** shows your price beside the list price, which is struck out. The **Next renewal** shows your price too, and so does the amount charged when you change a plan. When you choose a plan, the plan picker shows the price the 1st renews at, beside the list price.
+WebNesting can also set your own price for one plan, such as Marketing Growth, or for an add-on, on every site or on one site. Your plan invoice then lists the plan at its normal price and a separate **Your price** line under it, for example "Your price: Marketing Growth plan" with "$19.00 / month in place of $29.00 / month". You pay the difference less. If your price starts or ends during a month, that month's line takes off only its part of the month. On the **Billing** page, **Your Plans** shows your price beside the list price, which is struck out. The **Next Renewal** shows your price too, and so does the amount charged when you change a plan. When you choose a plan, the plan picker shows the price the 1st renews at, beside the list price.
 
 **A later end date.** If WebNesting moves the end of your price to a later date, and you already paid a plan invoice for those days, the difference is added to your credit balance as prepaid credits. If that plan invoice is not paid yet, its total goes down instead. If the end then moves earlier again, only the credits for the days it no longer covers come off.
 
@@ -198,7 +198,7 @@ With two or more paid plans, you also get the multi-product discount: your highe
 
 ### Where you see it
 
-The **Usage** page has a **From WebNesting** section under **Usage this period**. It lists what WebNesting gave your workspace for the month your date range ends in. For bonus units it shows how many you earned, used and have left, and when they end. WebNesting emails the workspace owner when something is given, and 7 days before it ends.
+The **Usage** page has a **From WebNesting** section under **Usage This Period**. It lists what WebNesting gave your workspace for the month your date range ends in. For bonus units it shows how many you earned, used and have left, and when they end. WebNesting emails the workspace owner when something is given, and 7 days before it ends.
 
 The Usage page shows counts, never money.
 
@@ -253,7 +253,7 @@ You need permission to manage billing in the workspace to see the **Promotion co
 
 ### Use What Your Plans Include
 
-Your included amounts start over on the 1st, and unused included amounts do not carry over. Credits do. Check **Included this month** on the **Usage** page now and then to see whether a smaller or bigger plan would fit.
+Your included amounts start over on the 1st, and unused included amounts do not carry over. Credits do. Check **Included This Month** on the **Usage** page now and then to see whether a smaller or bigger plan would fit.
 
 ### Only Turn On Add-ons You Need
 
