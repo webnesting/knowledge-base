@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-11-02 8:50am
+**Last verified:** 2026-11-02 9:54am
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -93,7 +93,7 @@ You need a saved card to buy a plan or credits. Open the **Payment Methods** tab
 
 Credits pay for use past what your plans include. Your workspace has one credit balance.
 
-- **Buying:** Open the **Billing** page and use **Buy credits**. Pick $10, $25, $50 or $100, or enter any amount from $5 to $5,000. We charge your saved card at once and add the credits right away.
+- **Buying:** Open the **Billing** page and use **Buy Credits**. Pick $10, $25, $50 or $100, or enter any amount from $5 to $5,000. We charge your saved card at once and add the credits right away.
 - **Auto top-up:** Turn it on and choose an amount. When your balance runs out, we charge your saved card that amount. We charge at most once an hour. If the card is declined, auto top-up turns off and we email you.
 - **Credits never expire.** Your plan's included amount starts over each month, but your credits carry over.
 - **Credits cannot be refunded.**
@@ -163,7 +163,7 @@ An unpaid renewal invoice is cancelled on the next 1st.
 
 ## Enterprise
 
-Large teams can have a contract with their own terms. Enterprise is not a plan you pick on the Billing page: contact us. An Enterprise contract names a size for each product, and usage past that size is billed after the month on the contract's terms, at the credit prices. An Enterprise workspace does not use credits. It gets the first 10 GB of website bandwidth each month free. Its **Cost calculator** tab prices each unit you use, not plans. A workspace on plans gets neither.
+Large teams can have a contract with their own terms. Enterprise is not a plan you pick on the Billing page: contact us. An Enterprise contract names a size for each product, and usage past that size is billed after the month on the contract's terms, at the credit prices. An Enterprise workspace does not use credits. It gets the first 10 GB of website bandwidth each month free. Its **Cost Calculator** tab prices each unit you use, not plans. A workspace on plans gets neither.
 
 ---
 

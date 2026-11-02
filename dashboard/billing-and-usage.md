@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-11-02 8:50am
+**Last verified:** 2026-11-02 9:54am
 
 WebNesting bills with plans and prepaid credits. You pick a plan for each part of WebNesting you use and pay for it on the 1st of the month. If you use more than a plan includes, prepaid credits pay for the extra. This page explains the details: what is included, what happens at a limit, and how to see and pay your bills. For the plan prices, how credits work and how a failed payment is handled, see [Usage and Billing](../account/usage-and-billing.md).
 
@@ -156,7 +156,7 @@ To see your current and past bills:
 3. The **Billing** page shows **Your plans**, with the price and the date each one renews, and the **Next renewal**: what will be charged on the 1st, with each discount, special price, complimentary period or product credit as its own line. It also shows your **Credits** and balance. Past invoices are on **Invoice History**: select one to open it, or **Download PDF** for a copy. Anything outstanding appears in a banner at the top -- **Pay Now** pays a single invoice on the spot.
 4. There is one invoice for each plan purchase or renewal and one for each credit purchase.
 
-To see how much you have used, open the **Usage** page: **Included this month** shows each part of your plans, what you used and what is left, and your credit balance, with **Buy credits**.
+To see how much you have used, open the **Usage** page: **Included this month** shows each part of your plans, what you used and what is left, and your credit balance, with **Buy Credits**.
 
 ### What WebNesting gives you
 
