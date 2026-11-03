@@ -1,6 +1,6 @@
 # Files (File Manager)
 
-**Last verified:** 2026-11-03 2:30am
+**Last verified:** 2026-11-03 4:41pm
 
 The File Manager is where every file in your workspace lives — images, videos, documents, helpdesk email attachments, and files visitors upload through your forms. Think of it as your workspace's file cabinet: one place, organized in folders, just like the files on your computer.
 
@@ -163,7 +163,7 @@ A video can be up to 100 MB, like any file. A video you upload uses your site's 
 
 **A pause badge on a video.** When WebNesting pauses video playback for billing, each public video in Files shows a pause badge. Its details say **Playback: Paused on your sites. See the Billing page.** The video stays in Files, and you can still open and use it in the editor. Only visitors to your sites cannot play it. The **Billing** page says why playback is paused and how to bring it back. See [Paused sites and videos](billing-and-usage.md#paused-sites-and-videos).
 
-**A pause badge on any file of a site.** When a site is held at its bandwidth limit, every file of that site shows a pause badge: pictures, documents and videos. Its details say **On your sites: Paused. See the Billing page.** (a video says **Playback**). Files shows no preview of it, and the Builder shows it as missing, until the hold ends. Nothing is deleted. Files of your other sites are not paused. See [Website bandwidth for each site](../account/usage-and-billing.md#website-bandwidth-for-each-site).
+**A site held at its bandwidth limit leaves your files alone.** The site's pages do not open for visitors, but its pictures, documents and videos show no pause badge. Files still shows their previews, and the Builder still shows them. See [Website bandwidth for each site](../account/usage-and-billing.md#website-bandwidth-for-each-site).
 
 ### Documents
 - PDF, Word, Excel, PowerPoint

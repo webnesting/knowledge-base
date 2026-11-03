@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-11-02 10:51am
+**Last verified:** 2026-11-03 4:41pm
 
 WebNesting bills with plans and prepaid credits. You pick a plan for each part of WebNesting you use and pay for it on the 1st of the month. If you use more than a plan includes, prepaid credits pay for the extra. This page explains the details: what is included, what happens at a limit, and how to see and pay your bills. For the plan prices, how credits work and how a failed payment is handled, see [Usage and Billing](../account/usage-and-billing.md).
 
@@ -143,7 +143,7 @@ WebNesting can pause part of your workspace for billing. The **Billing** page al
 
 - **Your videos, for a review.** WebNesting can pause your videos while it reviews your workspace. Your sites stay on. The Billing page then says "Video playback on your sites is paused while we review this workspace." Add a payment method with **Add Payment Method**, and the videos come back within a few minutes.
 
-A pause deletes nothing. During a pause you can still sign in and work in your dashboard. Each paused video shows a pause badge in **Files**. A site held at its bandwidth limit is a pause too: every file of that site shows a pause badge, see [Website bandwidth](#website-bandwidth).
+A pause deletes nothing. During a pause you can still sign in and work in your dashboard. Each paused video shows a pause badge in **Files**. A site held at its bandwidth limit is a different stop: its pages do not open, but its files stay as they are, see [Website bandwidth](#website-bandwidth).
 
 ---
 
