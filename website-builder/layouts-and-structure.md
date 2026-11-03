@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-03 9:01am
+**Last verified:** 2026-11-03 11:14am
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -245,6 +245,7 @@ A **Divider** is a simple horizontal line that separates content visually. Use d
 Sections, blank boxes and Elements have a **Spacing** panel in **Settings**.
 
 - **Space between rows** sets the space between the rows inside the block, such as between a heading and a grid of photos under it. Choose **Small**, **Medium**, **Large** or **X-large**. Each size is smaller on a phone and larger on a wide screen. **Default** keeps the block's own spacing. It does not change the space between columns that sit side by side.
+- **Space between rows on a phone** sets a different space for a phone only, where the columns stack. **Same** keeps **Space between rows**. Use it when cards look too close or too far apart on a phone.
 - **Line above** draws a thin line across the top of the block, with space between the line and the content. Use it for a row of facts under a photo. Your theme sets the line's color. It replaces a Divider when you want the space under the line to stay even.
 
 To use them:
@@ -253,6 +254,19 @@ To use them:
 2. Click **Settings**.
 3. Open **Spacing**.
 4. Pick a size in **Space between rows**, or tick **Line above**.
+
+A Section also has a **Band spacing** panel. **Space above and below** sets the space between the section's edges and its content: **Small**, **Medium**, **Large** or **X-large**. Each size looks the same in every theme. It is smaller on a phone. **Theme default** keeps your theme's space.
+
+#### Text Width
+
+A text block can be narrower than its column. This keeps a short line, such as a caption under a stat number, easy to read.
+
+1. Select the text block.
+2. Click **Settings**.
+3. Open **Text width**.
+4. Pick **Wide**, **Medium** or **Narrow**.
+
+**Full** makes the text fill its column again. If the column is narrower than the size you pick, the text keeps the column's width.
 
 ---
 
@@ -320,6 +334,15 @@ For a zigzag, where every second column sits lower than its neighbor.
 3. Find **Columns layout** and click **Staggered**.
 
 With two columns, the second column of each pair sits lower. With three columns, the middle one sits lower. **Even** puts every column at the same height again. On a phone, the columns stack in one even column, so nothing is offset.
+
+#### Space Between and Before Columns
+
+The **Columns layout** panel has two more settings.
+
+- **Space between columns**, on the Element that holds your columns, sets the space between the columns. Choose **Small**, **Medium**, **Large** or **X-large**. **Default** keeps the space the layout already has.
+- **Space before this column**, on a column, moves the column 1, 2 or 3 columns to the right. A row has 12 columns. For example, a 5-column heading and a 6-column list with 1 column before it fill the row, with a gap in the middle.
+
+The column's width plus the space before it must be 12 columns or less, or the column moves to a new line. On a phone, the columns stack at full width, so the space before a column is not used.
 
 #### Card Grid
 
