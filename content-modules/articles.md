@@ -1,6 +1,6 @@
 # Articles and Blog Posts
 
-**Last verified:** 2026-11-01 8:07am
+**Last verified:** 2026-11-03 2:17pm
 
 The Articles module gives your website a full blog and news section. Use it to share company updates, how-to guides, industry news, or anything else you want to write about. Articles are one of the best ways to keep your website fresh and attract new visitors.
 
@@ -69,7 +69,7 @@ You can categorize your article by type. This helps organize your content and ca
 
 Your article has two text areas for content:
 
-**Preview text** -- This is a short summary or teaser of your article. It shows up in article lists and search results to give readers a quick idea of what the article is about. Keep it to a sentence or two.
+**Preview text** -- This is a short summary or teaser of your article. It shows up in article lists and search results to give readers a quick idea of what the article is about. Keep it to a sentence or two. When you share the article on social media or in a chat, the preview card shows the article's featured image and this text. If you write a search description for the page, that description shows instead.
 
 1. Find the **Preview** field.
 2. Write a brief summary of your article. This is what visitors see before they click to read the full post.
