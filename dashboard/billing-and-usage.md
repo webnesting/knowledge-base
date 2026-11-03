@@ -83,6 +83,7 @@ Each of these has an included amount in its plan, and credits pay for more. What
 - **Helpdesk tickets.** Tickets keep arriving. Up to 25% above your limit works as normal. Past that, new tickets are marked as over the limit and replies to them are locked.
 - **Active tasks.** You cannot create, reopen or restore a task.
 - **API requests.** They are refused with a "usage limit" message.
+- **API data.** When your API data goes past your plan and your credits cannot pay for the extra, API calls stop with the same message. Buying credits lets them work again.
 
 Buying credits, moving to a bigger plan, or the 1st of the month lifts each limit at once.
 

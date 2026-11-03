@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-11-01 5:41pm
+**Last verified:** 2026-11-03 4:42pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -124,6 +124,8 @@ Free, Starter, Growth or Pro, by the active tasks you have. **Free** costs $0, n
 ### API Access
 
 An API plan sets your requests and data each month. Any workspace with a paid plan can make 25,000 API requests a month with no API plan. The Growth and Pro plans keep your audit log longer, and Pro has a higher rate limit.
+
+API calls stop when your API data goes past your plan and your credits cannot pay for the extra. Each call then gets a "usage limit" message. Buy credits or move to a bigger API plan, and the calls work again at once. On the 1st, the month starts over and the calls work again too.
 
 ---
 
