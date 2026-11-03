@@ -1,10 +1,10 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-03 1:12pm
+**Last verified:** 2026-11-03 6:27pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
-![A page layout showing header, sections with content, and footer](../images/website-builder/layout-example.png)
+![A page open in the Website Builder: a header above sections of content, with the site's pages listed on the right](../images/website-builder/layout-example.png)
 
 ---
 
@@ -266,7 +266,7 @@ A text block can be narrower than its column. This keeps a short line, such as a
 3. Open **Text width**.
 4. Pick **Wide**, **Medium** or **Narrow**.
 
-**Wide** holds about 75 letters a line, **Medium** about 60 and **Narrow** about 45. **Full** makes the text fill its column again. If the column is narrower than the size you pick, the text keeps the column's width.
+**Wide** holds about 75 letters a line, **Medium** about 60 and **Narrow** about 45. **Full** makes the text fill its column again. If the column is narrower than the size you pick, the text keeps the column's width. A heading in the text also keeps the column's width; only the lines under it stop at the size. Your theme can change each size: see [Themes and customization](../dashboard/themes-and-customization.md).
 
 ---
 
@@ -337,12 +337,16 @@ With two columns, the second column of each pair sits lower. With three columns,
 
 #### Space Between and Before Columns
 
-The **Columns layout** panel has two more settings.
+The **Columns layout** panel has three more settings.
+
+- **Columns stack**, on the Element that holds your columns, sets where the columns stack in one column, one under the other. **On phones**, the default, stacks them on a screen narrower than 768px. A tablet then shows them side by side. **On phones and tablets** stacks them on a screen narrower than 1024px, so a tablet shows one column, as a phone does. A laptop or a wider screen shows them side by side. With **On phones and tablets**, the **Space between rows on a phone** of that Element shows on a tablet too.
 
 - **Space between columns**, on the Element that holds your columns, sets the space between the columns. Choose **Small**, **Medium**, **Large** or **X-large**. **Default** keeps the space the layout already has.
 - **Space before this column**, on a column, moves the column 1, 2 or 3 columns to the right. A row has 12 columns. For example, a 5-column heading and a 6-column list with 1 column before it fill the row, with a gap in the middle.
 
-The column's width plus the space before it must be 12 columns or less, or the column moves to a new line. On a phone, the columns stack at full width, so the space before a column is not used.
+The column's width plus the space before it must be 12 columns or less, or the column moves to a new line. Where the columns stack, each one is full width, so the space before a column is not used.
+
+> **Tip:** When you stack columns on tablets, open **Site design**, then **Sizes and shapes**, and set **Text size on a tablet** to **Phone size**. The theme editor's **Sizes and shapes** tab has the same slider. Headings and text then keep their phone size until the screen is 1024px wide, so a stacked tablet page does not get oversized headings.
 
 #### Card Grid
 

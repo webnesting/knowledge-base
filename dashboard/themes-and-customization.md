@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-11-03 4:34pm
+**Last verified:** 2026-11-03 6:27pm
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -174,6 +174,7 @@ Each slider moves through named steps:
 - **Heading letter spacing** -- how close the letters in a heading sit (Very tight to Open). Tight suits big, bold headings.
 - **Heading line breaks** -- Balanced splits a heading into lines of even length, so one word never sits alone on the last line. Plain breaks lines only when they are full.
 - **Big headline size** -- the large headline at the top of a page, such as a hero (Smaller, Normal, Bigger). It also grows and shrinks with the screen.
+- **Text size on a tablet** -- **Grows with the screen** (the default) makes headings and text a little larger on each wider screen. **Phone size** keeps them at their phone size on a screen narrower than 1024px, such as a tablet. It suits a page whose columns stack on tablets (**Columns stack** in the Website Builder).
 - **Space between things** -- gaps between columns, cards and blocks (Compact, Normal, Roomy).
 - **Corners** -- buttons, fields and cards (Square to Pill buttons).
 - **Shadows** -- under cards, buttons and the header (None, your theme's own, Subtle, Normal, Deep).
@@ -194,7 +195,7 @@ Until you choose a size, the sliders and boxes show the numbers closest to your 
 - **Phone** -- the size on a phone screen.
 - **Computer** -- the size on a computer screen.
 
-Screens in between get a size on the way from one to the other. The rows are in two groups. **Text sizes** covers the headlines, each heading level, card titles, big numbers, intro text, body text, labels, tags and the hero button text. **Space and number circles** covers the space above and below the hero, the space around section content, the space under a top line, the number circles on cards and steps, and the space beside and around a numbered step. A row you changed shows **Yours**. Click **Reset** on that row to go back to your theme's size, or to the size from your **Text sizes** when you set them.
+Screens in between get a size on the way from one to the other. The rows are in two groups. **Text sizes** covers the headlines, each heading level, card titles, big numbers, intro text, body text, labels, tags and the hero button text. **Space and number circles** covers the space above and below the hero, the space around section content, each size of **Space between rows** and **Text width** (change one, and every block that uses that size follows), the space under a top line, the number circles on cards and steps, and the space beside and around a numbered step. A row you changed shows **Yours**. Click **Reset** on that row to go back to your theme's size, or to the size from your **Text sizes** when you set them.
 
 **Text sizes** and **Exact sizes** are also in the Website Builder: open **Site design**, then **Sizes and shapes**. They work the same way there.
 
