@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-11-02 9:11pm
+**Last verified:** 2026-11-03 1:40am
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -58,6 +58,8 @@ The **Block** dropdown lets you change the type of text block. Options include:
 - **Paragraph** -- Normal body text. This is the default.
 - **Paragraph (lead)** -- A larger opening paragraph.
 - **Eyebrow** -- A small, spaced-out label that sits above a heading, such as "OUR STORY".
+- **Label (no dot)** -- The same small, spaced-out label as Eyebrow, but never with a dot or line before it. Use it for tags, such as "Brand · Website".
+- **Paragraph (muted)** -- A paragraph in a softer color. Use it for the line under a number or a title. In a Primary or Secondary section it uses the section's text color, so it stays easy to read.
 - **Display heading** -- The one big title at the top of a page, larger than Heading 1.
 - **Heading 1** through **Heading 4** -- Different heading levels, from the largest (Heading 1) to the smallest (Heading 4). Use headings to create titles and section headers on your page.
 

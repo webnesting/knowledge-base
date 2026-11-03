@@ -1,6 +1,6 @@
 # Files (File Manager)
 
-**Last verified:** 2026-11-01 1:21am
+**Last verified:** 2026-11-03 2:30am
 
 The File Manager is where every file in your workspace lives — images, videos, documents, helpdesk email attachments, and files visitors upload through your forms. Think of it as your workspace's file cabinet: one place, organized in folders, just like the files on your computer.
 
@@ -186,7 +186,7 @@ Large, unoptimized images are one of the most common reasons websites load slowl
 
 You don't need to resize pictures before you upload them. A few moments after an upload, WebNesting makes smaller copies of the picture, from 320 to 2560 pixels wide. Each visitor's browser then loads the copy that fits their screen, so a phone never downloads a picture made for a large monitor. Upload the sharpest version you have, up to 2560 pixels wide; a wider picture works too, and its copies stop at 2560.
 
-The first large picture on a page loads first. The pictures further down load when a visitor scrolls near them.
+The first large picture in the first section of a page loads first. The pictures further down load when a visitor scrolls near them. Only one picture can load first, so setting **Load this picture first** to **Yes** on a picture further down the page does not change this.
 
 ### Choose the Right Format
 
