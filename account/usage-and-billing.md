@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-11-03 4:41pm
+**Last verified:** 2026-11-03 5:28pm
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -121,7 +121,7 @@ You always see your numbers on the **Usage** page, under **Included This Month**
 | **Marketing emails** | A new campaign does not start. The message tells you how many emails you used. Emails from automations wait and go out when you add credits, move to a bigger plan, or the month starts over. |
 | **Helpdesk tickets** | Tickets keep arriving. Up to 25% above your limit works as normal. Past that, new tickets are marked as over the limit and replies to them are locked. |
 | **Active tasks** | You cannot create, reopen or restore a task. On the Free plan, the message points you to Starter, and credits are not used. |
-| **API** | Requests are refused with a "usage limit" message. |
+| **API** | Requests are refused with a "usage limit" message. This also happens when the API data of the month is past your plan and credits did not pay for it. |
 | **Storage** | Uploads, imports and site publishing that add files are refused. Helpdesk attachments and form uploads are still stored and paid with credits. |
 | **Pages on a Free site** | The 6th page is not allowed. |
 | **Website bandwidth** | See the next section. |
@@ -134,13 +134,31 @@ Bandwidth is counted for each site, not for the whole workspace. It is the data 
 
 1. **At 80% of the site's bandwidth** we email you. We email you again when the site reaches **100%**.
 2. **Past the included bandwidth,** each extra GB is paid from your credits.
-3. **When the credits run out,** a paid site works for a further 15% of its plan's bandwidth at no charge. A Free site has no extra.
+3. **When the credits run out,** a paid site keeps working for a further 15% of its plan's bandwidth. That 15% is not free: credits you buy later pay for it first, and the rest is [extra usage on your next bill](#extra-usage-on-your-next-bill). A Free site has no extra.
 4. **After that, the site is held.** Visitors who open the site's pages see a page that says the site is temporarily unavailable. We email you that the site is held.
 5. **The hold ends** when you buy credits, move the site to a bigger plan, or the month starts over.
 
 Your site, its pages and its files stay safe while it is held, and you can keep editing. If a site stays held for **30 days**, we email you again. Search engines can lower a site that stays unavailable for a long time.
 
 While a site is held, its pages do not open. The pictures and videos in **Files** are not touched: they keep loading, in **Files**, in the Builder and anywhere else they are linked, and they still count toward bandwidth. Your other sites keep working. When the hold ends, the site comes back within a few minutes.
+
+### Extra usage on your next bill
+
+Some use is counted only after it happens, so a limit cannot stop it in time:
+
+- the website bandwidth of each site, the 15% extra of a paid site included;
+- files sent from your workspace media library (not from a site), which keep loading at a limit;
+- the data your API calls send;
+- helpdesk attachments and form uploads;
+- storage and active tasks you still have above your plan on the 1st.
+
+Credits pay for this use first. What credits did not pay for is extra usage, and you pay it on your next bill:
+
+1. **On your next renewal on the 1st,** we first take what you still owe from any credits you bought in the meantime.
+2. **The rest is one line on that invoice** for each kind of use and each site. For example, the November 1 invoice has "Website bandwidth, October 2026". The line shows the amount that credits did not pay for and the price of October. You pay it with the renewal.
+3. **With no paid plan,** there is no monthly bill. Instead, that amount comes off what the site or workspace includes next month. If next month's amount is not enough, the rest comes off the month after.
+
+Each month is billed once. If a later check finds the month was counted a little low, credits pay the difference, and what they cannot pay is a "(recounted)" line on a later bill. If the month was counted a little high, the difference goes back to your credit balance.
 
 ---
 
