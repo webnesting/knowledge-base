@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-03 1:26am
+**Last verified:** 2026-11-03 9:01am
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -59,7 +59,7 @@ The footer's parts:
 
 - **Logo and text** -- the logo, as in the header, and a short text under it.
 - **Menus** -- the footer menu, a second menu and your legal links (such as Privacy and Terms).
-- **Details** -- your footer details (such as your address), the copyright line and an extra line of text.
+- **Details** -- your footer details (such as your address), the copyright line and an extra line of text. Under **Extra text position**, choose **Left** to put the extra line first in the bottom bar, where a copyright line usually sits, or **Right** to keep it at the end.
 - **Links and switches** -- your social links, the language switcher and the light and dark switch.
 - **Button** -- a button with your own words and link.
 
@@ -239,6 +239,20 @@ A **Divider** is a simple horizontal line that separates content visually. Use d
 3. Drag it between the elements you want to separate.
 
 > **Tip:** Use dividers sparingly. Too many dividers can make your page look cluttered. Often, adding spacing (padding or margin) between sections is a cleaner alternative.
+
+### Spacing Inside a Section or Box
+
+Sections, blank boxes and Elements have a **Spacing** panel in **Settings**.
+
+- **Space between rows** sets the space between the rows inside the block, such as between a heading and a grid of photos under it. Choose **Small**, **Medium**, **Large** or **X-large**. Each size is smaller on a phone and larger on a wide screen. **Default** keeps the block's own spacing. It does not change the space between columns that sit side by side.
+- **Line above** draws a thin line across the top of the block, with space between the line and the content. Use it for a row of facts under a photo. Your theme sets the line's color. It replaces a Divider when you want the space under the line to stay even.
+
+To use them:
+
+1. Select the section, blank box or Element.
+2. Click **Settings**.
+3. Open **Spacing**.
+4. Pick a size in **Space between rows**, or tick **Line above**.
 
 ---
 
