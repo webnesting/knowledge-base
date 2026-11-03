@@ -1,6 +1,6 @@
 # Analytics and Reports
 
-**Last verified:** 2026-10-31
+**Last verified:** 2026-11-02 11:10pm
 
 Analytics help you understand how people find and use your website. WebNesting includes built-in analytics so you can see how many visitors your site gets, which pages are most popular, and where your traffic comes from -- all from your dashboard.
 
@@ -127,6 +127,8 @@ Each form shows which sources and campaigns bring you signups.
 4. Pick the dates at the top right (last 7, 30 or 90 days, or all time).
 
 **Signups by source** lists each source with its kind, for example **facebook · social**, and its number of signups and share. **Signups by campaign** lists each campaign name from your links.
+
+A submission marked as spam is not a signup. WebNesting marks a post as spam by itself when it comes from a script that never opened your page, so a bot cannot add signups. To mark one yourself, open it from the **Submissions** tab, set its **Status** to **Spam** and save. It stays in the list, and the **Status Breakdown** still counts it, but every signup number and the conversion rate leave it out. This includes the **Form Analytics** widget, **Conversions** and **Traffic Sources**.
 
 What the names mean:
 - A name from your link tag, such as **facebook**, comes first.
