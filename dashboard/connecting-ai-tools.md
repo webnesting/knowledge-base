@@ -1,6 +1,6 @@
 # Connecting an AI Tool
 
-**Last verified:** 2026-11-01 10:14pm
+**Last verified:** 2026-11-02 8:38pm
 
 You can connect an AI assistant — like Claude Desktop, Claude Code, or Cursor — directly to your WebNesting workspace. Once connected, you can ask the AI to look things up and make changes for you in plain language: "list my draft articles," "create a new event for next Friday," "what's my current usage this month." The AI works **as you**, with **your** permissions, and never sees your password.
 
@@ -79,6 +79,7 @@ The AI is signed in as **your** WebNesting account, so:
 - Add a picture to your **Files** from its web address. Ask for this only for a picture you have the right to use. The AI can give it alt text and put it in one of your folders or in one site's files. The same picture added twice is kept once.
 - Find the pictures in your **Files** that still need alt text, and change a picture: its alt text, title, description (the caption shown with it on your site), whether it is decorative (screen readers skip it) and where it crops from. The change shows on your site within about a minute. It needs your permission to edit files, the same as changing them yourself.
 - Turn on a workspace product, such as Help Desk or Tasks — but only after it shows you the monthly price and you say yes.
+- Tell WebNesting when the Builder could not do what you asked. When your AI adds its own style rules, a Style or an HTML component, or cannot do something at all, it sends us a short report and tells you it did. The report names you, your site and your AI app, and goes only to WebNesting's help desk. See [How to Tell Us What the Builder Can't Do](../website-builder/telling-us-what-the-builder-cannot-do.md).
 
 **It can't** (these always stay in your hands):
 
@@ -104,6 +105,8 @@ WebNesting gives your AI app a few ready-made requests. Each one tells your AI, 
 **Where to find them:** in your AI app's list of commands or prompts. In Claude Code they are slash commands, such as `/mcp__webnesting__build_site` (the middle part is the name you gave the connection). If your app takes one word for each box, type your full description anyway: your AI reads everything you typed.
 
 You do not have to use them. If you just ask your AI to build you a site, it follows the same order: first the pages and their words, then the look, then a check of every page.
+
+At the end of **Build a website**, **Add a section** and **Restyle a page**, your AI reports to WebNesting anything it built with its own code, and anything it could not do. It tells you when it sends a report.
 
 Your AI can also read your theme's settings list (the colours, spacing, text sizes, corners, shadows and fonts a theme sets). With it, your AI styles pages with your theme's values instead of fixed ones, so your pages follow when you change your theme.
 

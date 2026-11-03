@@ -76,6 +76,7 @@ Welcome to the WebNesting help center. These guides will help you build and mana
 | [Site Navigation](website-builder/site-navigation.md) | Set up header menus, footer links, dropdowns, and breadcrumbs |
 | [Accessibility Guide](website-builder/accessibility-guide.md) | Make your site usable for everyone with alt text, headings, contrast, and more |
 | [Animations and Interactions](website-builder/animations-and-interactions.md) | Entrance effects, scroll effects, and other motion for your blocks |
+| [Telling Us What the Builder Can't Do](website-builder/telling-us-what-the-builder-cannot-do.md) | Report custom code you or your AI added, so we can build it in |
 
 ## Content Modules
 
