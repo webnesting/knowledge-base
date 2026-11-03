@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-11-03 3:55pm
+**Last verified:** 2026-11-03 4:34pm
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -185,9 +185,9 @@ If your theme's values match none of a slider's steps, the slider reads **Custom
 **Text sizes** sets every text size from four numbers:
 
 - **Text size on a phone** and **Text size on a computer** -- your body text, in px (10 to 40).
-- **Size step on a phone** and **Size step on a computer** -- how much bigger each size is than the one below it (1 to 2). For example, 1.25 makes each heading level a quarter bigger than the next one down.
+- **Size step on a phone** and **Size step on a computer** -- how much bigger each size is than the one below it. Slide to **Gentle** (1.125), **Balanced** (1.2), **Strong** (1.25), **Bold** (1.333) or **Dramatic** (1.5). The number shows beside the name. For example, **Strong** makes each heading level a quarter bigger than the next one down. Slide to **Custom** to type your own number from 1 to 2.
 
-Until you type a number, the boxes show the numbers closest to your theme's own sizes. When you type one, every heading, big headline, intro text and small label follows your four numbers, and the boxes show **Yours**. Phones and computers each get their own sizes, and screens in between get a size on the way. While these numbers are set, the **Text size** and **Heading size** sliders and **Scale text with screen size** are hidden, because your four numbers set those sizes. Click **Reset** next to **Text sizes** to go back to your theme's own sizes.
+Until you choose a size, the sliders and boxes show the numbers closest to your theme's own sizes. When you type one, every heading, big headline, intro text and small label follows your four numbers, and the boxes show **Yours**. Phones and computers each get their own sizes, and screens in between get a size on the way. While these numbers are set, the **Text size** and **Heading size** sliders and **Scale text with screen size** are hidden, because your four numbers set those sizes. Click **Reset** next to **Text sizes** to go back to your theme's own sizes.
 
 **Exact sizes** lets you type a size yourself. A size you type here wins over **Text sizes** for that one size. Click **Show Exact Sizes** below the sliders. Each row has two boxes, in px:
 
