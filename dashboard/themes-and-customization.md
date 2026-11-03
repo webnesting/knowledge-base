@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-11-01 9:04am
+**Last verified:** 2026-11-02 8:35pm
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -171,6 +171,9 @@ Each slider moves through named steps:
 
 - **Text size** -- all text, headings included (Small, Normal, Large).
 - **Heading size** -- how much bigger headings are than text (Quiet to Dramatic).
+- **Heading letter spacing** -- how close the letters in a heading sit (Very tight to Open). Tight suits big, bold headings.
+- **Heading line breaks** -- Balanced splits a heading into lines of even length, so one word never sits alone on the last line. Plain breaks lines only when they are full.
+- **Big headline size** -- the large headline at the top of a page, such as a hero (Smaller, Normal, Bigger). It also grows and shrinks with the screen.
 - **Space between things** -- gaps between columns, cards and blocks (Compact, Normal, Roomy).
 - **Corners** -- buttons, fields and cards (Square to Pill buttons).
 - **Shadows** -- under cards, buttons and the header (None, your theme's own, Subtle, Normal, Deep).

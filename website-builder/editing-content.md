@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-10-29 11:42am
+**Last verified:** 2026-11-02 9:11pm
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -57,6 +57,8 @@ The **Block** dropdown lets you change the type of text block. Options include:
 
 - **Paragraph** -- Normal body text. This is the default.
 - **Paragraph (lead)** -- A larger opening paragraph.
+- **Eyebrow** -- A small, spaced-out label that sits above a heading, such as "OUR STORY".
+- **Display heading** -- The one big title at the top of a page, larger than Heading 1.
 - **Heading 1** through **Heading 4** -- Different heading levels, from the largest (Heading 1) to the smallest (Heading 4). Use headings to create titles and section headers on your page.
 
 To change a block type:
