@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-11-03 2:19pm
+**Last verified:** 2026-11-02 1:44pm
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -121,7 +121,7 @@ You always see your numbers on the **Usage** page, under **Included This Month**
 | **Marketing emails** | A new campaign does not start. The message tells you how many emails you used. Emails from automations wait and go out when you add credits, move to a bigger plan, or the month starts over. |
 | **Helpdesk tickets** | Tickets keep arriving. Up to 25% above your limit works as normal. Past that, new tickets are marked as over the limit and replies to them are locked. |
 | **Active tasks** | You cannot create, reopen or restore a task. On the Free plan, the message points you to Starter, and credits are not used. |
-| **API** | Requests are refused with a "usage limit" message. API data never stops: see [Media library bandwidth and API data](#media-library-bandwidth-and-api-data). |
+| **API** | Requests are refused with a "usage limit" message. |
 | **Storage** | Uploads, imports and site publishing that add files are refused. Helpdesk attachments and form uploads are still stored and paid with credits. |
 | **Pages on a Free site** | The 6th page is not allowed. |
 | **Website bandwidth** | See the next section. |
@@ -143,16 +143,6 @@ Your site, its pages and its files stay safe while it is held, and you can keep 
 While a site is held, its pictures, videos and other files stop loading too: on the site, and anywhere else they are linked. Your other sites keep working. When the hold ends, the site and its files come back within a few minutes.
 
 While the site is held, its files show a pause badge in **Files**, with no preview. The Builder shows the site's pictures and videos as missing until the hold ends. Nothing is deleted.
-
-### Media library bandwidth and API data
-
-Two kinds of data never stop at a limit: files sent from your workspace media library (not from a site), and the data your API calls send. Your credits pay for them first. When your credits run out, the files keep loading and the API keeps answering. What credits did not pay for is billed on a later monthly invoice:
-
-1. **We wait until the month is final.** Its counts can still be checked until the end of the next month.
-2. **On the 1st after that,** we take what you still owe from any credits you bought in the meantime.
-3. **The rest is one line on that invoice** for each kind: for example, "Media library bandwidth, December 2026" on the February 1 invoice. The line shows the GB that credits did not pay for and the price per GB. You pay it with the renewal, even if you have no plan to renew.
-
-Each month is billed once. If a later check finds the month was counted a little high or low, the difference goes to or comes from your credit balance. You never get a second line for that month.
 
 ---
 
