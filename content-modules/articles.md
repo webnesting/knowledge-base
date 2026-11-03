@@ -1,6 +1,6 @@
 # Articles and Blog Posts
 
-**Last verified:** 2026-11-03 2:17pm
+**Last verified:** 2026-11-03 2:30pm
 
 The Articles module gives your website a full blog and news section. Use it to share company updates, how-to guides, industry news, or anything else you want to write about. Articles are one of the best ways to keep your website fresh and attract new visitors.
 
@@ -42,7 +42,7 @@ Ready to write your first post? Here is how to create a new article.
 4. Open the **Page** tab. Fill in **Title**, **Page URI** and **Layout**. The page needs all three before you can create the article. The **Page URI** fills in from the title, and you can change it. For **Layout**, choose **Article**.
 5. Select **Create**. The editor stays open so you can add the rest.
 
-![The article editor showing title, content, and publishing options](../images/content-modules/article-editor.png)
+![The New Article editor on its Article tab, with the Media image and the Preview text box](../images/content-modules/article-editor.png)
 
 ### Setting the Title
 
