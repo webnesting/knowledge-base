@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-11-01 1:12am
+**Last verified:** 2026-11-02 7:35pm
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -138,7 +138,7 @@ Visual content.
 
 Blocks a visitor can click or open.
 
-- **Button** -- A clickable button linking to another page, a section of your site, or an external website.
+- **Button** -- A clickable button linking to another page, a section of your site, or an external website. Under **Width**, choose **Auto** (the button is as wide as its label, and the default), **Full** (the button fills the row) or **Full on phones** (full width on a phone, label width on larger screens). A group of buttons shares one choice. Buttons you placed before keep their look, because **Auto** is how they always showed.
 - **File download** -- A button that gives visitors a file from your media, such as a menu, a price list or a brochure. Under **File**, choose **Choose from my media** and pick any file, or upload one in the media window. Type the **Button text**, or leave it empty to use the file's name. The button shows a small label with the file's type and size, such as "PDF · 2.4 MB". It is read from your media, so a file you replace shows its new size. Turn **Show file type and size** off to hide the label. Under **More options**, pick the **Theme**, **Size** and **Style**, the same choices as a Button. A button text over 80 characters is not accepted: the field tells you what to fix. Visitors get the real file when they click. If you delete the file, make it private in your media, or the virus scan holds it back, nothing shows on your published page, and the editor shows a note that says why. On a narrow screen a long button text wraps onto more lines instead of being cut.
 - **Accordion Item** -- An expandable section visitors can open and close. Good for FAQs: select the **Accordion** that holds your items and turn on **Mark as FAQ for search engines** in its settings, so Google can show your questions in search results.
 - **Tabs** -- Panels that visitors switch between with a row of tab names. It starts with three tabs, each holding a text block. Select a tab in **Layers** to edit its panel, and rename it under **Tab name**. Use the **+** in the toolbar to add a tab, and Alt with the arrow keys to move one. In the settings, put the tab bar across the top or down the side, and choose which tab shows first. Visitors can also use the arrow keys, Home and End.
