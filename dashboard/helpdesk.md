@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-10-31 6:14pm
+**Last verified:** 2026-11-03 12:21pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -386,7 +386,7 @@ Use this table to match your situation to a setup option. You can always change 
 | **I just want to try Helpdesk in 30 seconds** | Option 0 — WebNesting-hosted | No DNS, no accounts. Customers email a `@webnesting.email` address we provide. Easy to switch later. |
 | **I already use Gmail / Google Workspace for support** | Option 1 — Gmail OAuth | Connect with one click. Existing `support@yourcompany.com` keeps working unchanged; tickets are read from your inbox and replies thread cleanly. |
 | **I already use Microsoft 365 / Outlook for support** | Option 2 — Outlook OAuth (when available) | Same as Gmail but for Microsoft. |
-| **I'm setting up a brand-new branded support address and I don't want to give a third-party OAuth access** | Option 3 — Vanity subdomain | Publish one MX record on a subdomain like `help.yourcompany.com`. Multiple addresses (`support@`, `billing@`, `careers@`) work automatically. No mailbox accounts to create. |
+| **I'm setting up a brand-new branded support address and I don't want to give a third-party OAuth access** | Option 3 — Your own subdomain | Publish one MX record on a subdomain like `help.yourcompany.com`. Multiple addresses (`support@`, `billing@`, `careers@`) work automatically. No mailbox accounts to create. |
 | **I want to send marketing emails from my own domain** | Option 4 — Verified domain (DKIM-signed outbound) | The setup our **deliverability** rests on. Required for marketing campaigns. Works alongside any of the inbound options above. |
 | **I use a niche email provider (Zoho, FastMail, my own server)** | Option 5 — IMAP / SMTP | Works with any provider that supports IMAP + an app password. |
 
@@ -405,7 +405,7 @@ Best for teams already running on Google Workspace or personal Gmail with a `sup
 1. Go to **Settings → Email** → click **+ Add Inbox**.
 2. Pick **Helpdesk** (or **Both** if you also want to send marketing from the same address).
 3. Enter the email address customers send to (e.g. `support@yourcompany.com`).
-4. Choose **Gmail / Google Workspace** as the inbound source. Save → we'll open Google's OAuth consent screen.
+4. Choose **Gmail** as the inbound source (it covers Google Workspace too). Save → we'll open Google's OAuth consent screen.
 5. Authorize WebNesting to read + send. Helpdesk now receives every email at that address as a ticket; replies go out through your existing Gmail account.
 
 If you've already connected a Google account in this workspace that isn't powering another inbox, the wizard offers it under **Which account?** so you can skip Google's sign-in. The same choice appears if an inbox ever needs its account connected again: click **Connect Gmail** on the inbox in **Settings → Email** and pick the account, or choose **Connect a new account** to sign in. Each Google account can power one inbox.
@@ -414,18 +414,18 @@ If you've already connected a Google account in this workspace that isn't poweri
 
 ### Option 2: Connect Outlook / Microsoft 365 (OAuth)
 
-> **Coming soon.** Outlook OAuth is not yet available. In the meantime, use Option 3 (vanity subdomain) or Option 5 (IMAP with an Outlook app password) instead.
+> **Coming soon.** Outlook OAuth is not yet available. In the meantime, use Option 3 (your own subdomain) or Option 5 (IMAP with an Outlook app password) instead.
 
-When available, the flow is identical to Gmail OAuth — pick **Microsoft 365 / Outlook** as the inbound source, authorize through Microsoft, and replies thread cleanly through your existing Outlook conversations.
+When available, the flow is identical to Gmail OAuth — pick **Outlook** as the inbound source (it covers Microsoft 365 too), authorize through Microsoft, and replies thread cleanly through your existing Outlook conversations.
 
-### Option 3: Vanity Subdomain on Your Own Domain
+### Option 3: Your Own Subdomain
 
 Best for: **you're setting up a brand-new branded support address, you don't want to give us OAuth into your main mailbox, and you want your apex domain (`yourcompany.com`) email completely untouched.**
 
 Example: keep your existing Gmail at `you@yourcompany.com` for personal mail, but route support emails through `support@help.yourcompany.com` directly into Helpdesk.
 
 1. Go to **Settings → Email → + Add Inbox**.
-2. Pick **Vanity subdomain on your own domain** as the inbound source.
+2. Pick **Your own subdomain** as the inbound source.
 3. The wizard suggests `help.<yourdomain>` — accept it or pick `support`, `tickets`, `desk`, whatever you want.
 4. Save → the wizard shows you one MX record to publish at your DNS provider:
    ```
@@ -436,7 +436,7 @@ Example: keep your existing Gmail at `you@yourcompany.com` for personal mail, bu
 **Why this is different from Option 4 (verified domain):**
 - Option 4 sets up *outbound* signing on your apex domain. It doesn't change where mail arrives.
 - Option 3 sets up *inbound* routing on a subdomain. It doesn't touch the apex.
-- Many customers use **both together** — verified domain for marketing campaigns + vanity subdomain for helpdesk inbox.
+- Many customers use **both together** — verified domain for marketing campaigns + your own subdomain for helpdesk inbox.
 
 > **Important:** You can only use Option 3 on a domain you control DNS for. If you can't publish DNS records on that domain, use Option 0 or Option 1 instead. (The wizard's DNS-control confirmation checkbox catches the most common mistake here.)
 

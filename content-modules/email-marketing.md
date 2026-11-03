@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-11-02 9:49am
+**Last verified:** 2026-11-03 12:21pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -459,7 +459,7 @@ Marketing's sending domain uses the same domain-verification flow as Helpdesk's 
 
 ### Why Marketing doesn't support Gmail OAuth or IMAP
 
-Helpdesk has five inbound options (WebNesting-hosted, Gmail OAuth, Outlook OAuth, Vanity subdomain, IMAP). Marketing only supports two — the WebNesting-hosted shared sender or your verified domain. Why the restriction?
+Helpdesk has five inbound options (WebNesting-hosted, Gmail OAuth, Outlook OAuth, your own subdomain, IMAP). Marketing only supports two — the WebNesting-hosted shared sender or your verified domain. Why the restriction?
 
 - **Gmail's per-day quota is ~2,000 emails.** Outlook's is ~10,000/day. Any non-trivial marketing campaign hits these limits and stops mid-send.
 - **Recipients see "via gmail.com" in their inbox** when you send marketing through Gmail OAuth — which makes the email look like spam.
