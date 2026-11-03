@@ -1,6 +1,6 @@
 # URL Redirects
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-11-03 10:41am
 
 Sometimes you need to change a page's web address, or you want to point an old address to a new one. Redirects make sure that anyone who visits the old address is automatically sent to the right place -- no dead ends, no error pages.
 
@@ -31,7 +31,7 @@ You can see all the redirects currently set up on your site.
 3. You will see the **Active Redirects** list, showing:
    - **Input Path** -- The old address that visitors might try to visit.
    - **Target** -- Where they will be sent instead.
-   - **Type** -- Whether the redirect is a silent alias, permanent, or temporary.
+   - **Type** -- Whether the redirect is a silent alias, permanent, temporary, or gone. A rule that covers a whole section of your site also shows "and everything under it" below its path.
 
 ---
 
@@ -51,6 +51,8 @@ This is the address you want to redirect away from -- the old or incorrect URL.
 
 > **Tip:** Always start the input path with a forward slash (`/`). For example: `/about-us`, `/services/consulting`, `/blog/old-post-title`.
 
+To cover a whole section at once, tick **Also match every address under this path**. For example, `/support` then also covers `/support/articles/1`, but not `/supportive`. Every address it covers goes to the same destination. A rule for one exact address always wins over a rule that covers a whole section. Of two section rules, the more specific one wins.
+
 ### Setting the Output (Where It Goes)
 
 This is where visitors will be sent when they visit the old address.
@@ -61,7 +63,7 @@ This is where visitors will be sent when they visit the old address.
 
 ### Choosing the Redirect Type
 
-WebNesting offers three types of redirect. Here is what each one means in plain terms:
+WebNesting offers four types. Here is what each one means in plain terms:
 
 - **Alias** -- The old address quietly shows the page in place, without sending the visitor anywhere. The web address in their browser stays exactly as they typed it. Use this when you want an old address to keep working indefinitely and don't want the URL to change on screen -- for example, keeping a memorable short address alive alongside the real page.
 
@@ -69,7 +71,9 @@ WebNesting offers three types of redirect. Here is what each one means in plain 
 
 - **Temporary (302)** -- Use this when the change is only for a short while. For example, if you are redesigning a page and want to send visitors somewhere else during the update, a temporary redirect is appropriate. Search engines will keep the old address in their records.
 
-1. Select **Alias**, **301 - Permanently Moved**, or **302 - Temporarily Moved**.
+- **Gone (410)** -- Use this when a page was removed on purpose and has no replacement. Visitors see your site's "Page Not Found" page, and search engines learn the page is gone for good, so they drop it sooner than they would after a plain "not found". A Gone rule has no destination, so the **Output** menu disappears when you choose it.
+
+1. Select **Alias**, **301 - Permanently Moved**, **302 - Temporarily Moved**, or **410 - Gone (removed on purpose)**.
 
 > **Note:** **Alias** works only for a page on your site. When you choose **External URL**, the type switches to **302 - Temporarily Moved**, and you can change it to **301 - Permanently Moved**.
 
@@ -142,6 +146,14 @@ Once deleted, visitors who go to the old source URL will no longer be redirected
 **Situation:** You are redesigning your "Services" page and want to send visitors to a temporary "Coming Soon" page.
 
 **What to do:** Create a temporary (302) redirect from `/services` to `/coming-soon`. Remove or update the redirect once the new page is ready.
+
+---
+
+### Retired a Whole Section
+
+**Situation:** You closed your old help center. Every address under `/support` is gone, and you do not want search engines to keep them.
+
+**What to do:** Create a rule with Input Path `/support`, type **410 - Gone (removed on purpose)**, and tick **Also match every address under this path**. Every address under `/support` now shows your "Page Not Found" page and tells search engines the pages are gone.
 
 ---
 
