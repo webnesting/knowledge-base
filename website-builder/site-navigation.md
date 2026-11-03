@@ -1,6 +1,6 @@
 # Setting Up Site Navigation
 
-**Last verified:** 2026-10-31 11:37pm
+**Last verified:** 2026-11-02 8:16pm
 
 Navigation is how visitors find their way around your website. Good navigation helps people quickly get to the pages they need, whether they are browsing on a desktop or a phone. This guide covers how navigation works in WebNesting, how to control which pages appear in your menus, and tips for creating a clear, easy-to-use navigation structure.
 
@@ -99,6 +99,18 @@ A menu can link to a place outside your site, such as your online shop, a bookin
 4. Save the page.
 
 The menu now links straight to that address. A visitor who opens the page's own address goes there too. The page is left out of your sitemap. To make it a normal page again, empty **Menu Link**.
+
+---
+
+## Linking a Menu Item to a Section
+
+A menu item or a button can jump to one section of a page, such as **Our work** on your home page.
+
+1. Open the page in the builder. Click the section and give it an **Anchor name**, such as `work`. See [Giving a Section a Link Name](layouts-and-structure.md#giving-a-section-a-link-name).
+2. Save the page.
+3. For a menu item, add a page as in the steps above and type `/#work` in **Menu Link**. For a button, type `/#work` as its link.
+
+A visitor who clicks it lands on that section, just below your sticky header. For a section on another page, type that page's address first, such as `/about#team`.
 
 ---
 

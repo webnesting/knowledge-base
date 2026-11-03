@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-01 2:49pm
+**Last verified:** 2026-11-02 8:16pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -193,6 +193,23 @@ Common uses for sections:
 2. Look under **Layout** for the **Section** block.
 3. Drag it onto your page where you want it.
 4. The section will appear as an empty area, ready for you to add content inside it.
+
+#### Giving a Section a Dark Background
+
+1. Click the section, then open its settings.
+2. Under **Theme color**, pick **Dark**.
+
+The section turns dark and its words, links, buttons and cards change to stay easy to read. **Primary** and **Secondary** give a band of your theme's main colors in the same way.
+
+#### Giving a Section a Link Name
+
+A link name lets a menu item or button jump to a section of the page.
+
+1. Click the section, then open its settings.
+2. In **Page link**, type a name in **Anchor name**, such as `work`. Use lowercase letters, numbers and dashes.
+3. Save the page.
+
+The page can now link to `/#work`. Each name works once per page. The page stops below your sticky header, so the section title stays visible. To use it in a menu, see [Linking a Menu Item to a Section](site-navigation.md#linking-a-menu-item-to-a-section).
 
 > **Tip:** Build your page by stacking sections from top to bottom. Each section should focus on one idea or purpose. This keeps your page organized and easy for visitors to scan.
 
