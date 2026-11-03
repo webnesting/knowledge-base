@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-11-03 1:03pm
+**Last verified:** 2026-11-03 3:55pm
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -182,12 +182,21 @@ If your theme's values match none of a slider's steps, the slider reads **Custom
 
 **Scale text with screen size** makes headings a little smaller on phones, so long words fit. On a computer screen, your text sizes stay the same. While you change it, the preview shows your page 1,000 px wide, where the scaling shows. Click **Back to the Computer View** (or **Phone View**) to leave that view.
 
-**Exact sizes** lets you type a size yourself. Click **Show Exact Sizes** below the sliders. Each row has two boxes, in px:
+**Text sizes** sets every text size from four numbers:
+
+- **Text size on a phone** and **Text size on a computer** -- your body text, in px (10 to 40).
+- **Size step on a phone** and **Size step on a computer** -- how much bigger each size is than the one below it (1 to 2). For example, 1.25 makes each heading level a quarter bigger than the next one down.
+
+Until you type a number, the boxes show the numbers closest to your theme's own sizes. When you type one, every heading, big headline, intro text and small label follows your four numbers, and the boxes show **Yours**. Phones and computers each get their own sizes, and screens in between get a size on the way. While these numbers are set, the **Text size** and **Heading size** sliders and **Scale text with screen size** are hidden, because your four numbers set those sizes. Click **Reset** next to **Text sizes** to go back to your theme's own sizes.
+
+**Exact sizes** lets you type a size yourself. A size you type here wins over **Text sizes** for that one size. Click **Show Exact Sizes** below the sliders. Each row has two boxes, in px:
 
 - **Phone** -- the size on a phone screen.
 - **Computer** -- the size on a computer screen.
 
-Screens in between get a size on the way from one to the other. The rows are in two groups. **Text sizes** covers the headlines, each heading level, card titles, big numbers, intro text, body text, labels, tags and the hero button text. **Space and number circles** covers the space above and below the hero, the space around section content, the space under a top line, the number circles on cards and steps, and the space beside and around a numbered step. A row you changed shows **Yours**. Click **Reset** on that row to go back to your theme's size.
+Screens in between get a size on the way from one to the other. The rows are in two groups. **Text sizes** covers the headlines, each heading level, card titles, big numbers, intro text, body text, labels, tags and the hero button text. **Space and number circles** covers the space above and below the hero, the space around section content, the space under a top line, the number circles on cards and steps, and the space beside and around a numbered step. A row you changed shows **Yours**. Click **Reset** on that row to go back to your theme's size, or to the size from your **Text sizes** when you set them.
+
+**Text sizes** and **Exact sizes** are also in the Website Builder: open **Site design**, then **Sizes and shapes**. They work the same way there.
 
 > **Tip:** **Space above the hero** and **Space below the hero** are the space a visitor sees, from the edge of the hero to its first or last line.
 
