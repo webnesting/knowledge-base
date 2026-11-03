@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-11-02 8:35pm
+**Last verified:** 2026-11-03 1:03pm
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -181,6 +181,17 @@ Each slider moves through named steps:
 If your theme's values match none of a slider's steps, the slider reads **Custom** and keeps your values until you move it.
 
 **Scale text with screen size** makes headings a little smaller on phones, so long words fit. On a computer screen, your text sizes stay the same. While you change it, the preview shows your page 1,000 px wide, where the scaling shows. Click **Back to the Computer View** (or **Phone View**) to leave that view.
+
+**Exact sizes** lets you type a size yourself. Click **Show Exact Sizes** below the sliders. Each row has two boxes, in px:
+
+- **Phone** -- the size on a phone screen.
+- **Computer** -- the size on a computer screen.
+
+Screens in between get a size on the way from one to the other. The rows are in two groups. **Text sizes** covers the headlines, each heading level, card titles, big numbers, intro text, body text, labels, tags and the hero button text. **Space and number circles** covers the space above and below the hero, the space around section content, the space under a top line, the number circles on cards and steps, and the space beside and around a numbered step. A row you changed shows **Yours**. Click **Reset** on that row to go back to your theme's size.
+
+> **Tip:** **Space above the hero** and **Space below the hero** are the space a visitor sees, from the edge of the hero to its first or last line.
+
+In the Website Builder, a Hero section's **Space above and below** setting (**Small** to **X-large**) sets the space at the top and the bottom of the hero. Leave it empty to use your theme's hero space.
 
 ### Previewing Your Changes
 

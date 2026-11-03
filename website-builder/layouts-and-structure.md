@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-03 11:14am
+**Last verified:** 2026-11-03 1:12pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -266,7 +266,7 @@ A text block can be narrower than its column. This keeps a short line, such as a
 3. Open **Text width**.
 4. Pick **Wide**, **Medium** or **Narrow**.
 
-**Full** makes the text fill its column again. If the column is narrower than the size you pick, the text keeps the column's width.
+**Wide** holds about 75 letters a line, **Medium** about 60 and **Narrow** about 45. **Full** makes the text fill its column again. If the column is narrower than the size you pick, the text keeps the column's width.
 
 ---
 
