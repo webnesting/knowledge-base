@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-11-03 5:28pm
+**Last verified:** 2026-11-03 6:45pm
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -114,7 +114,7 @@ What a credit pays for:
 
 ## What Happens at a Limit
 
-You always see your numbers on the **Usage** page, under **Included This Month**. When you use all of a plan's included amount, credits cover the rest. When the credits are gone too, this is what happens:
+You always see your numbers on the **Usage** page, under **Included This Month**. When you use all of a plan's included amount, credits pay first. When the credits are gone too, this is what happens:
 
 | Part | At the limit |
 |---|---|
@@ -155,7 +155,7 @@ Some use is counted only after it happens, so a limit cannot stop it in time:
 Credits pay for this use first. What credits did not pay for is extra usage, and you pay it on your next bill:
 
 1. **On your next renewal on the 1st,** we first take what you still owe from any credits you bought in the meantime.
-2. **The rest is one line on that invoice** for each kind of use and each site. For example, the November 1 invoice has "Website bandwidth, October 2026". The line shows the amount that credits did not pay for and the price of October. You pay it with the renewal.
+2. **The rest is one line on that invoice** for each kind of use and each site. For example, the January 1 invoice has "Website bandwidth, December 2026". The line shows the amount that credits did not pay for and the price of December. You pay it with the renewal.
 3. **With no paid plan,** there is no monthly bill. Instead, that amount comes off what the site or workspace includes next month. If next month's amount is not enough, the rest comes off the month after.
 
 Each month is billed once. If a later check finds the month was counted a little low, credits pay the difference, and what they cannot pay is a "(recounted)" line on a later bill. If the month was counted a little high, the difference goes back to your credit balance.
