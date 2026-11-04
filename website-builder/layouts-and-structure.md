@@ -115,8 +115,8 @@ On a large screen, you choose how far your header's logo, menu and buttons sprea
 
 1. In the Website Builder, click your header (or your footer). **Settings** opens.
 2. Under **Content width**, pick one:
-   - **The theme's own** -- the header spreads up to 1600 pixels wide. The footer lines up with your page.
-   - **Line up with the page** (header only) -- the logo and the menu start and end where your page's sections do.
+   - **The theme's own** -- the header and the footer line up with your page, unless your theme sets another width.
+   - **Line up with the page** (header only) -- the logo and the menu start and end where your page's sections do, whatever your theme sets. If a long menu no longer fits, it moves behind the menu button; **Full screen** gives it more room.
    - **Full screen** -- the content spreads to the sides of the screen, however wide it is.
    - **Custom** -- type the **Largest width** in pixels, from 480 to 3840.
 3. The page in the Website Builder changes at once. Publish the page.
