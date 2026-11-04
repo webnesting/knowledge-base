@@ -61,7 +61,7 @@ You can't delete a site yourself yet: the **Sites** page has no delete button. T
 
 **Warning:** Deleting a website removes all of its content, pages, images, and settings permanently. This action cannot be undone. Download anything you want to keep first. For form submissions, use the CSV export on each form's **Submissions** tab. For a module's content, use **Download a copy** on its card under **Settings** > **Modules**.
 
-> **Tip:** If you're unsure, keep the site. You can ask Support to remove it later. To give a site to someone else, see [Moving a Site to Someone Else](moving-a-site-to-someone-else.md). To close a whole workspace, see [Closing Your Workspace or Account](closing-your-account.md).
+> **Tip:** If you're unsure, keep the site. You can ask Support to remove it later. To give a site to someone else, see [Moving a Site to Someone Else](moving-a-site-to-someone-else.md). To close a whole workspace, see [Closing Your Workspace or Account](account-closing-your-account.md).
 
 ---
 

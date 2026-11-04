@@ -59,4 +59,4 @@ The workspace owner pays the workspace's bill. After a transfer, the new owner s
 ## Where to go next
 
 - [Team and Permissions](../dashboard/team-and-permissions.md)
-- [Closing Your Workspace or Account](closing-your-account.md)
+- [Closing Your Workspace or Account](account-closing-your-account.md)

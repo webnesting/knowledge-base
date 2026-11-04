@@ -55,4 +55,4 @@ If they ask you to remove them, select **Delete Contact** on the same page and c
 ## Where to go next
 
 - [Contacts Management](../dashboard/contacts-management.md)
-- [Closing Your Workspace or Account](closing-your-account.md)
+- [Closing Your Workspace or Account](account-closing-your-account.md)
