@@ -1,6 +1,6 @@
 # Managing Pages
 
-**Last verified:** 2026-10-31 11:37pm
+**Last verified:** 2026-11-04 1:31pm
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 
@@ -253,6 +253,8 @@ The page will be removed from your page list and will no longer be visible on yo
 ### Pages That Cannot Be Deleted or Moved
 
 Some pages are essential to your site working properly -- your homepage, your "page not found" page, and other built-in pages. These are protected: you will not be able to delete or unpublish them, so they cannot be removed by accident.
+
+Your **Page Not Found** page shows when someone opens an address that does not exist. It starts with your header and footer, a short message and a button to your home page. You can edit it in the builder like any other page.
 
 Their web address is fixed as well. When you open one of these pages, the **Page URI** field shows its current value with a note that it can't be changed, and you can't nest the page under another page (which would change its address). Everything else about the page -- its title, layout, content, and search settings -- can still be edited as usual.
 
