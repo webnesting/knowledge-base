@@ -1,6 +1,6 @@
 # Connecting a Custom Domain
 
-**Last verified:** 2026-11-02 1:44pm
+**Last verified:** 2026-11-03 9:28pm
 
 A custom domain gives your website its own professional web address, like `www.yourcompany.com`, instead of the free WebNesting address. This guide explains what you can do today, and where to go for the steps at your domain registrar.
 
@@ -55,7 +55,7 @@ The steps at the registrar are in [Connect a domain from another registrar](conn
 - **Try a private window.** Your browser may remember the old address. Open your domain in a private or incognito window.
 - **Security warning in the browser.** The certificate may still be on its way. Wait and try again. It can only be issued once your domain points to WebNesting.
 - **Wrong site appears.** The record may point to another host. Check the value against what Support gave you.
-- **Works without "www." but not with it, or the other way round.** Add a record for both versions, then check **Should your address start with "www."?** in **Site Configuration**.
+- **Works without "www." but not with it, or the other way round.** Add a record for both versions, then check **Should your address start with "www."?** in **Site Configuration**. A subdomain such as `help.yourcompany.com` needs only its own record, with no "www." version.
 
 Still not working after 48 hours? Email Support at support@webnesting.com. Include your domain name and a screenshot of your DNS settings so Support can help you quickly.
 
