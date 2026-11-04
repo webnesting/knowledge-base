@@ -51,6 +51,3 @@ Closing removes your sites, pages, files and contact data. Do these first.
 
 - [Requesting a Copy of Your Data](requesting-your-data.md)
 - [Managing Your Websites](managing-your-websites.md)
-
-
-Compression test marker 7K2F
