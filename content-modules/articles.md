@@ -1,6 +1,6 @@
 # Articles and Blog Posts
 
-**Last verified:** 2026-11-03 2:30pm
+**Last verified:** 2026-11-04 10:10am
 
 The Articles module gives your website a full blog and news section. Use it to share company updates, how-to guides, industry news, or anything else you want to write about. Articles are one of the best ways to keep your website fresh and attract new visitors.
 
@@ -206,7 +206,7 @@ An Article List shows a collection of your articles on a page -- perfect for a b
 5. The component will automatically display your published articles with their titles, preview text, featured images, and links to read more.
 6. Save your page.
 
-Your visitors will see a list of your articles with a preview of each one. They can click **More Info** to read the full article.
+Your visitors will see your articles as a row of cards, each with a preview. They can click **Read more** to read the full article.
 
 ### Adding an Article Detail to a Page
 
