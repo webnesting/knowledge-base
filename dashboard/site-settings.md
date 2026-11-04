@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-11-04 12:43pm
+**Last verified:** 2026-11-04 12:56pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -337,7 +337,7 @@ These are the key images that represent your brand across your website. They liv
 
 Your logo appears in your site's header and anywhere else your theme displays it.
 
-On a phone, the header shows your logo picture by itself. If your site has no logo picture, the phone header shows your site's name instead.
+On a phone, the header shows your logo picture by itself. If your site has no logo picture, the phone header shows your site's name instead. A new site starts with no logo picture, so its header and footer show the site's name until you choose a logo.
 
 The header and the footer each choose whether they show the picture, your site's name, or both: click the header or the footer in the Website Builder and open **Settings → Logo**. One logo picture serves both.
 
