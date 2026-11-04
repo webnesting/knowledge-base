@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-10-31 3:46pm
+**Last verified:** 2026-11-04 12:43pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -156,6 +156,7 @@ Only people with the **Custom Code** permission can change this field, because i
 
 - **Google Analytics ID** -- your GA4 measurement ID, from Google Analytics → **Admin** → **Data streams**. Type the part after `G-`; the box already shows the `G-`. WebNesting adds Google's tracking code to every page.
 - **Google Tag Manager container** -- your container ID, shown next to the container's name in Tag Manager. Type the part after `GTM-`. Click **Check** to ask Google whether that container exists and is published -- an unpublished container does nothing on your site.
+- **Wait for the visitor before starting Google's tracking** -- makes your pages load faster. Google's tracking starts when the visitor scrolls, taps or presses a key, or after 10 seconds. Google does not count someone who leaves sooner. WebNesting's own analytics still does, while it is on.
 
 If you set a Tag Manager container, the Google Analytics ID is not used: add Google Analytics inside Tag Manager instead, so your visitors aren't counted twice.
 
