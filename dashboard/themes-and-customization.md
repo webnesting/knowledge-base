@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-11-03 6:27pm
+**Last verified:** 2026-11-04 3:24pm
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -254,7 +254,7 @@ The theme joins **Your themes**. Nothing is added until you click **Add to This 
 - **A theme made from a theme your site doesn't have.** We keep its colors and fonts on top of Default, so it looks the same.
 - **A font that wasn't in the file.** A similar Google font stands in until you upload that font yourself.
 - **Settings WebNesting doesn't have yet.** We leave them out and name them.
-- **Ready-made sections.** A theme can come with its own sections. The upload says how many come with it, and they show in the Builder's **Sections** list while that theme is on your site. If one section doesn't work, we leave it out and name it. The rest still come in.
+- **Ready-made sections.** A theme can come with its own sections. The upload says how many come with it, and they show in the Builder's **Ready-made sections** list while that theme is on your site. If one section doesn't work, we leave it out and name it. The rest still come in.
 - **A name your site already has.** The theme gets a number, such as "Bakery (2)". You can type another name.
 
 WebNesting refuses a file that isn't a theme file, or one that contains code, and adds nothing.

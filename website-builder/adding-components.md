@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-11-04 12:56pm
+**Last verified:** 2026-11-04 3:24pm
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -14,10 +14,24 @@ You combine these components to create complete pages. A typical page might have
 
 ---
 
+## Start a New Page
+
+A new, empty page opens on a list of ready-made sections, right on the Canvas. This is the plain way to start any page.
+
+1. Open the **Website Builder** for your new page.
+2. Under **Start with a ready-made section**, find one you like. To see one type, such as Pricing, use the list above the pictures.
+3. Select the picture, or press **Add**. The section goes on your page and the **Add** panel opens, so you can add the next one.
+
+To see them all, choose **Show all**. To start with an empty page and single blocks, choose **Build from blocks**. If you change your mind about a section, press **Undo**. When you leave the **Add** panel on an empty page, the list comes back.
+
+The sections at the top of the list, under **Made for your site's design**, come with your site's theme. **More sections** take their colors and fonts from your theme too.
+
+---
+
 ## How to Add a Component
 
 1. Open the **Website Builder** for the page you want to edit.
-2. Click **Add** in the panel rail on the **right** side of the screen. You will see every available component, organized into groups. To find one fast, type a name or a plain word, such as "movie", in **Search blocks**.
+2. Click **Add** in the panel rail on the **right** side of the screen. You will see every available component, organized into groups. To find one fast, type a name or a plain word, such as "movie", in **Search sections and blocks**.
 3. Find the component you want to add.
 4. **Click and hold** on the component, then **drag it** onto the Canvas (the main area showing your page).
 5. Drop it where you want it to appear. You will see a visual guide showing you where the component will land.
@@ -31,27 +45,27 @@ The component will appear on your page immediately. You can now click on it to e
 
 ## Find a Block: Search and Groups
 
-At the top of the **Add** panel, the **Search blocks** box finds a block by its name or by a plain word. Type "movie" and **Video** appears; "newsletter" finds **Email Signup**. A longer search needs every word to match. The box finds sections too (see [Add a Ready-Made Section](#add-a-ready-made-section)): "restaurant" finds **Book a time**. Under the box, a line says what you see, such as "58 blocks and 16 sections." (the count depends on your site: a block for a module you have not turned on is not listed), or "2 blocks and 3 sections match “hero”." while you search. Press **Esc** or choose **Clear search** to see everything again. If nothing matches, the panel says so and offers **Show all blocks**.
+At the top of the **Add** panel, the **Search sections and blocks** box finds a block by its name or by a plain word. Type "movie" and **Video** appears; "newsletter" finds **Email Signup**. A longer search needs every word to match. The box finds sections too (see [Add a Ready-Made Section](#add-a-ready-made-section)): "restaurant" finds **Book a time**. Under the box, a line says what you see, such as "58 blocks and 16 sections." (the count depends on your site: a block for a module you have not turned on is not listed), or "2 blocks and 3 sections match “hero”." while you search. Press **Esc** or choose **Clear search** to see everything again. If nothing matches, the panel says so and offers **Show all blocks**.
 
-The blocks sit in groups by what you want to do. Select a group's name to open or close it. The first time you open the panel, only **Layout** is open; after that the panel remembers which groups you opened. While you search, every group with a match opens by itself.
+The blocks sit in groups by what you want to do. Select a group's name to open or close it. The first time you open the panel, **Ready-made sections** and **Layout** are open; after that the panel remembers which groups you opened. While you search, every group with a match opens by itself.
 
 ## Add a Ready-Made Section
 
-A section is a designed part of a page, such as a banner at the top or three customer reviews, made of several blocks. The last group of the **Add** panel, **Sections**, lists them. Each one is a small live picture of the section in your theme, as tall as the section itself.
+A section is a designed part of a page, such as a banner at the top or three customer reviews, made of several blocks. The first group of the **Add** panel, **Ready-made sections**, lists them. It shows the first four; **Show all** shows the rest. Each one is a small live picture of the section in your theme, as tall as the section itself.
 
-1. Open the **Add** panel and select **Sections**.
+1. Open the **Add** panel. If **Ready-made sections** is closed, select its name.
 2. Select one section on your page if you want the new one to go right after it. If you select nothing, the new section goes at the end of the page.
 3. Select the picture, or press **Add**. The section goes in and is selected, so you can start changing its words.
 
 A line at the top of the group says what was added, for example "Added “Customer reviews” after “Section”.", and offers **Undo**. Press **Undo** to take the section back. The line goes away as soon as you change anything else on the page, so **Undo** never takes back something you did later. You can also drag a picture onto the page and drop it where you want it. One **Undo** (or the Undo button at the top of the page) removes the whole section.
 
-The **Ready-made** list holds 16 sections: two heroes (**Hero with photo** and **Hero, centred**), **Three reasons**, two call-to-action bands (**Call to action band** and **Closing call to action**), three that show proof (**Customer reviews**, **Customer quote** and **Case study**), **Pricing, three plans**, **Questions and answers**, **Contact details and form**, **Numbers that count**, **Meet the team**, **Logos of clients**, **Portfolio gallery** and **Book a time**. Each one takes its colors, fonts and corners from your theme, so it looks right in light and dark mode on every built-in theme. Search finds them by the words you would use, for example "restaurant" finds **Book a time**.
+The **More sections** list holds 16 sections: two heroes (**Hero with photo** and **Hero, centred**), **Three reasons**, two call-to-action bands (**Call to action band** and **Closing call to action**), three that show proof (**Customer reviews**, **Customer quote** and **Case study**), **Pricing, three plans**, **Questions and answers**, **Contact details and form**, **Numbers that count**, **Meet the team**, **Logos of clients**, **Portfolio gallery** and **Book a time**. Each one takes its colors, fonts and corners from your theme, so it looks right in light and dark mode on every built-in theme. Search finds them by the words you would use, for example "restaurant" finds **Book a time**.
 
-A section in the **Ready-made** list holds no pictures. Where a picture goes (the photo in **Hero with photo**, the tiles in **Portfolio gallery**), you see a colored block. Select it and choose a picture from your media library. The words, prices and names are examples. Change them to yours. **Contact details and form** has buttons for email and phone; add a form block from the **Marketing** group where you want a form. In **Book a time**, open the booking block and enter your booking address.
+A section in the **More sections** list holds no pictures. Where a picture goes (the photo in **Hero with photo**, the tiles in **Portfolio gallery**), you see a colored block. Select it and choose a picture from your media library. The words, prices and names are examples. Change them to yours. **Contact details and form** has buttons for email and phone; add a form block from the **Marketing** group where you want a form. In **Book a time**, open the booking block and enter your booking address.
 
-Use **Show** to narrow the list to one type, such as Hero, Pricing or FAQ, or to the sections you saved. The list has up to three parts, in this order: **Saved by you**, **From your theme** (sections that come with your theme, shown only while that theme is on your site) and **Ready-made**. If a picture does not load, the tile says "Preview not available". You can still add the section, and **Try again** loads the picture again.
+Use **Show** to narrow the list to one type, such as Hero, Pricing or FAQ, or to the sections you saved. The list has up to three parts, in this order: **Saved by you**, **Made for your site's design** (sections that come with your theme, shown only while that theme is on your site) and **More sections**. If a picture does not load, the tile says "Preview not available". You can still add the section, and **Try again** loads the picture again.
 
-Each built-in theme (Default, Bold Deco, Kiln, Midnight Slate and Soft Elegant) comes with 10 sections of its own, made in that theme's style. Together, they make a whole page: a hero, what you offer, how you work, reviews, prices, questions and a closing call to action. They come with real photos picked for the theme's kind of business, such as pots for Kiln and gardens for Soft Elegant, so a section looks finished when you add it. When you add one, its photos go into your media library under **Files**. Add the same section again and it uses the same files, so nothing is copied twice. To use your own picture, select the photo on your page and choose another from your media library. If the photos cannot be added, a message says so and the section is not added; try again. If you change to another theme, **From your theme** shows that theme's sections, and the sections already on your pages stay and take the new theme's look.
+Each built-in theme (Default, Bold Deco, Kiln, Midnight Slate and Soft Elegant) comes with 10 sections of its own, made in that theme's style. Together, they make a whole page: a hero, what you offer, how you work, reviews, prices, questions and a closing call to action. They come with real photos picked for the theme's kind of business, such as pots for Kiln and gardens for Soft Elegant, so a section looks finished when you add it. When you add one, its photos go into your media library under **Files**. Add the same section again and it uses the same files, so nothing is copied twice. To use your own picture, select the photo on your page and choose another from your media library. If the photos cannot be added, a message says so and the section is not added; try again. If you change to another theme, **Made for your site's design** shows that theme's sections, and the sections already on your pages stay and take the new theme's look.
 
 ## Save Your Own Section
 
@@ -60,7 +74,7 @@ When you have made a part of a page you like, save it as a section and add copie
 1. Right-click the section on your page. (On a keyboard, select it and press **Shift+F10** or the menu key.)
 2. Choose **Save as section**. Under it, the menu says "A copy to reuse. Each copy changes on its own."
 3. Give it a name. If you already have a section with that name, the window says the name it will get, such as "Open day (2)".
-4. Optional: pick a **Type**, such as Hero or Pricing, or type your own. The type sorts the **Sections** group.
+4. Optional: pick a **Type**, such as Hero or Pricing, or type your own. The type sorts the **Ready-made sections** group.
 5. Choose **Save section**.
 
 A small picture of the section shows at the top of the window, so you can check what you save. After the save, the **Add** panel opens on **Saved by you**, and the new section wears "Just saved". Add it to any page of the site, as you add a ready-made one.
@@ -78,7 +92,7 @@ Saving, renaming and deleting a section needs permission to edit the website bui
 
 ## Component Categories
 
-Components are grouped by what you want to do. The groups are Layout, Text, Media, Interactive, Marketing and Site modules. **Sections** sits after Site modules and holds ready-made sections, which are described above. **Header & Footer Widgets**, at the end, holds your own header and footer widgets.
+Components are grouped by what you want to do. **Ready-made sections** comes first and is described above. The block groups follow: Layout, Text, Media, Interactive, Marketing and Site modules. **Header & Footer Widgets**, at the end, holds your own header and footer widgets.
 
 ![The Add panel showing component categories](../images/website-builder/component-palette.png)
 

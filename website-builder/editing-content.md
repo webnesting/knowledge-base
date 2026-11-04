@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-11-03 9:01am
+**Last verified:** 2026-11-04 3:24pm
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -60,7 +60,7 @@ The **Block** dropdown lets you change the type of text block. Options include:
 - **Eyebrow** -- A small, spaced-out label that sits above a heading, such as "OUR STORY".
 - **Label (no dot)** -- The same small, spaced-out label as Eyebrow, but never with a dot or line before it. Use it for tags, such as "Brand · Website".
 - **Paragraph (muted)** -- A paragraph in a softer color. Use it for the line under a number or a title. In a Primary or Secondary section it uses the section's text color, and in a Dark section it uses a softer light color, so it stays easy to read. The larger opening paragraph also stays easy to read in those sections.
-- **Display heading** -- The one big title at the top of a page, larger than Heading 1.
+- **Display heading** -- The one big title at the top of a page, larger than Heading 1. In a narrow column it gets smaller by itself, so a word stays whole.
 - **Heading 1** through **Heading 4** -- Different heading levels, from the largest (Heading 1) to the smallest (Heading 4). Use headings to create titles and section headers on your page.
 - **Stat number** -- A big figure in a row of facts, such as "9 people" or "Since 2016". It sits between Heading 2 and Heading 3 in the menu, and its size sits between them too, in every theme. It is not a heading, so it does not change your page's heading order. Put a **Paragraph (muted)** line under it for the words that explain the number.
 

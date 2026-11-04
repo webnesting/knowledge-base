@@ -1,6 +1,6 @@
 # Website Builder Overview
 
-**Last verified:** 2026-11-02 8:12pm
+**Last verified:** 2026-11-04 3:24pm
 
 The Website Builder is where you design and create your web pages. It is a visual editor -- meaning you can see exactly how your page will look as you build it. No coding required.
 
@@ -100,7 +100,7 @@ On a window narrower than 1200px, such as a tablet, the workspace menu on the fa
 
 Building a page follows a simple pattern. Here is the basic workflow:
 
-1. **Pick a component** from the **Add** panel. Type a name or a plain word in **Search blocks** ("movie" finds Video), or open a group such as Layout, Text or Media (a text block, an image, a button, and so on).
+1. **Pick a ready-made section or a component.** A new, empty page opens on a list of [ready-made sections](adding-components.md#start-a-new-page): select one to add it. For anything else, use the **Add** panel. Type a name or a plain word in **Search sections and blocks** ("movie" finds Video), or open a group such as Layout, Text or Media (a text block, an image, a button, and so on).
 2. **Drag it onto your page.** Drop it wherever you want it to appear on the Canvas.
 3. **Click to select and edit.** Click on the component you just added. If it has text, click the text to start typing. If it is an image, click it to change the picture.
 4. **Style it in the Styles panel.** With the component selected, open **Styles** to adjust colors, spacing, fonts, and other visual settings.
