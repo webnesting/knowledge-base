@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-11-04 12:56pm
+**Last verified:** 2026-11-04 1:32pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -386,7 +386,7 @@ A new website starts in **Coming soon** mode: visitors see a "Coming Soon" page 
 
 To take the site back down later, choose **Coming soon** and save. Either way, you always see your real site while you are signed in -- open it in a private browser window to see what visitors see.
 
-While your site is in **Coming soon** mode, only your home address shows the Coming Soon page as a normal page. Any other address shows the same Coming Soon page, marked as "page not found", so search engines do not list those addresses.
+While your site is in **Coming soon** mode, only your home address shows the Coming Soon page as a normal page. Any other address shows the same Coming Soon page, marked as "page not found", so search engines do not list those addresses. Your sitemap lists only your home address until you go live.
 
 ### Business Name
 
