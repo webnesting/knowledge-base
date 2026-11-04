@@ -284,10 +284,10 @@ Pick the type of header at the top of every page, and the type of footer at the 
    - **Menu in the middle** -- your logo on the left, your menu in the middle, your button on the right.
 4. To make your header see-through over the top of your page, turn on **Glass header** under the layouts. It works with every layout, and with a header of your own. The header stays see-through until it sticks to the top of the screen, then it turns into a frosted bar. The pictures and previews show it at once. See [A see-through Glass header](../website-builder/layouts-and-structure.md#a-see-through-glass-header).
 5. Under **Footer**, click a layout:
-   - **Three columns** -- your name and social links, your details, and your menu as one list, with each page's sub-pages under it.
+   - **Three columns** -- three columns of the same width: your name and social links, your details, and your menu as one list, with each page's sub-pages under it. A long menu with many sub-pages fits better in **Large, with all menus**.
    - **Centered** -- everything in one centered column.
    - **Large, with all menus** -- every menu item heads its own column with its pages under it, and your second menu gets a column too. Good for sites with many pages.
-   - **Simple** -- one bar with your copyright line and your social links.
+   - **Simple** -- one bar with your copyright line and your social links. If you show a menu here, it shows its top pages in one row, without their sub-pages.
 6. Click **Save Changes**. Your site shows the new layouts at once.
 
 The large pictures at the top of each part are your own home page with the layout you picked. They change the moment you click a layout, with no reload. The phone picture shows the menu open. The layout marked **This theme's default** is the one your theme comes with.
@@ -310,7 +310,7 @@ Two settings for your whole site sit on the **Theme** page, under your themes: *
 
 ### Back to Top Button
 
-**Back to top** has one setting, **Show a Back to top button**. It saves the moment you click it, and a message says so. When it is on, a small button shows in the corner of the page after a visitor scrolls down one screen. A short page never shows it. The button takes the visitor back to the top of the page, and the keyboard moves to the top too. On a site that shows the WebNesting badge at the bottom, the button sits just above the badge on every screen size.
+**Back to top** has one setting, **Show a Back to top button**. It saves the moment you click it, and a message says so. When it is on, a small button shows in the corner of the page after a visitor scrolls down one screen. At the end of the page it rides above your footer, so it never covers your footer's links. A short page never shows it. The button takes the visitor back to the top of the page, and the keyboard moves to the top too. On a site that shows the WebNesting badge at the bottom, the button sits just above the badge on every screen size.
 
 ### Fade Between Pages
 
