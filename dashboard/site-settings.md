@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-11-04 1:32pm
+**Last verified:** 2026-11-04 6:35pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -106,6 +106,8 @@ When someone shares a link to your site on social media (Facebook, LinkedIn, X, 
 1. On the **SEO Defaults** page, find the **Image** setting.
 2. Click to choose an image from your File Manager, or upload a new one.
 3. Save your changes.
+
+To use a different picture for one page, open that page and choose a **Share Image** in its **SEO** group.
 
 > **Tip:** Use an image that is at least 1200 x 630 pixels for the best results across all platforms.
 
@@ -390,7 +392,7 @@ While your site is in **Coming soon** mode, only your home address shows the Com
 
 ### Business Name
 
-**Business name** appears in the copyright line at the bottom of every page ("Copyright © 2026 Your Business"). Leave it blank to use your Site Name instead.
+**Business name** appears in the copyright line at the bottom of every page ("Copyright © 2026 Your Business"). Leave it blank to use your Site Name instead. To show a different name in one footer, use **Name in the copyright line** in that footer's settings.
 
 ### Choosing a Theme
 

@@ -1,6 +1,6 @@
 # Managing Pages
 
-**Last verified:** 2026-11-04 1:31pm
+**Last verified:** 2026-11-04 6:35pm
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 
@@ -255,6 +255,8 @@ The page will be removed from your page list and will no longer be visible on yo
 Some pages are essential to your site working properly -- your homepage, your "page not found" page, and other built-in pages. These are protected: you will not be able to delete or unpublish them, so they cannot be removed by accident.
 
 Your **Page Not Found** page shows when someone opens an address that does not exist. It starts with your header and footer, a short message and a button to your home page. You can edit it in the builder like any other page.
+
+A part of your site with its own header and footer can have its own Page Not Found page. Add a page under that part's top page, and make its address the top page's address plus `-404`. For example, a page at `personal` gets its own with a child page at `personal-404`. Visitors who open a missing address in that part of your site then see this page, with that part's header and footer. Set **Show on search engines** to **No** on it.
 
 Their web address is fixed as well. When you open one of these pages, the **Page URI** field shows its current value with a note that it can't be changed, and you can't nest the page under another page (which would change its address). Everything else about the page -- its title, layout, content, and search settings -- can still be edited as usual.
 
