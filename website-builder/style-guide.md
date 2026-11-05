@@ -1,6 +1,6 @@
 # Your Style Guide Page
 
-**Last verified:** 2026-10-31 9:41pm
+**Last verified:** 2026-11-04 10:05pm
 
 ## What it is
 
@@ -15,7 +15,7 @@ The page starts with a short introduction. Then it has one section for each grou
 - Each block appears under its name, the way it looks when you first add it to a page.
 - Blocks that start out empty, such as a Blank box, Inline Text or an Alert, show a line of sample text, so you can see how they look in your theme.
 - The **Text** section starts with samples of headings, paragraphs, a quote, lists, a picture and a divider line.
-- Blocks that only some sites can use appear only on the sites that can use them: the Language switcher needs two or more languages, the Article, Event, Product and Form blocks need their module turned on, and Disqus and Google Maps need their key. The page says so under its introduction.
+- Blocks that only some sites can use appear only on the sites that can use them: the Language switcher needs two or more languages, and the Article, Event, Product and Form blocks need their module turned on. The page says so under its introduction.
 
 Some blocks need something from you before they show on your live site:
 
@@ -23,7 +23,6 @@ Some blocks need something from you before they show on your live site:
 |-------|---------------|
 | Image, Image comparison, Slideshow, Logo strip | Pictures from your files |
 | Video, Video background, Animation (Lottie), Audio, File download | A file, or for a video a link |
-| 3D scene (Spline), Booking form, Social post | A link from that service |
 | Podcast episodes | Your podcast's feed address |
 | Site menu | Pages added to your site menu |
 | Login, Registration, Forgot Password, Reset Password and Account Security forms | Accounts turned on for your site (**Modules**, then **Accounts**) |
