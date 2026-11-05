@@ -1,6 +1,6 @@
 # Setting Up Site Navigation
 
-**Last verified:** 2026-11-02 8:16pm
+**Last verified:** 2026-11-04 5:58pm
 
 Navigation is how visitors find their way around your website. Good navigation helps people quickly get to the pages they need, whether they are browsing on a desktop or a phone. This guide covers how navigation works in WebNesting, how to control which pages appear in your menus, and tips for creating a clear, easy-to-use navigation structure.
 
@@ -247,7 +247,7 @@ On mobile devices, your navigation menu automatically collapses into a hamburger
 
 ### Active Page Highlighting
 
-The current page is automatically highlighted in the navigation, so visitors always know where they are on your site.
+The current page has a line under its name in the header menu, the phone menu and the footer menu, so visitors always know where they are on your site. When a visitor is on a page under a menu item, that item has the line too. The line uses the color of the menu's words, so it fits every theme. There is nothing to set up.
 
 ### Do Not Hide Important Pages
 

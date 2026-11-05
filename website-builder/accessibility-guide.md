@@ -1,6 +1,6 @@
 # Making Your Site Accessible
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-11-04 5:58pm
 
 Accessibility means making sure everyone can use your website, regardless of how they browse the web. Some visitors use screen readers, some navigate with a keyboard instead of a mouse, and some have difficulty seeing certain colors. This guide explains what accessibility is, why it matters, and how you can make your WebNesting site welcoming to all visitors.
 
@@ -159,6 +159,11 @@ The key is that the link text itself should make sense even if you read it on it
 ## Keyboard Navigation
 
 Not every visitor uses a mouse. Some people navigate websites entirely with their keyboard, using the Tab key to move between interactive elements like links, buttons, and form fields. This includes people with motor disabilities, power users, and visitors who prefer keyboard shortcuts.
+
+### What Your Site Does for You
+
+- **Skip link.** On every page, the first press of Tab shows a **Skip to main content** link. Keyboard visitors use it to go past the menu to the page's content.
+- **Current page.** Your menus mark the page a visitor is on with a line under its name, and they tell screen readers which page it is.
 
 ### What You Can Do
 

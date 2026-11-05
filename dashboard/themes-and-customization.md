@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-11-04 3:24pm
+**Last verified:** 2026-11-04 6:42pm
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -195,7 +195,7 @@ Until you choose a size, the sliders and boxes show the numbers closest to your 
 - **Phone** -- the size on a phone screen.
 - **Computer** -- the size on a computer screen.
 
-Screens in between get a size on the way from one to the other. The rows are in two groups. **Text sizes** covers the headlines, each heading level, card titles, big numbers, intro text, body text, labels, tags and the hero button text. **Space and number circles** covers the space above and below the hero, the space around section content, each size of **Space between rows** and **Text width** (change one, and every block that uses that size follows), the space under a top line, the number circles on cards and steps, and the space beside and around a numbered step. A row you changed shows **Yours**. Click **Reset** on that row to go back to your theme's size, or to the size from your **Text sizes** when you set them.
+Screens in between get a size on the way from one to the other. The rows are in two groups. **Text sizes** covers the headlines, each heading level, card titles, big numbers, intro text, body text, labels, tags and the hero button text. **Space and number circles** covers the space above and below the hero, the space around section content, the space at the sides of the page (from the side of the screen to the text in your header, page and footer), each size of **Space between rows** and **Text width** (change one, and every block that uses that size follows), the space under a top line, the number circles on cards and steps, and the space beside and around a numbered step. A row you changed shows **Yours**. Click **Reset** on that row to go back to your theme's size, or to the size from your **Text sizes** when you set them.
 
 **Text sizes** and **Exact sizes** are also in the Website Builder: open **Site design**, then **Sizes and shapes**. They work the same way there.
 
@@ -310,7 +310,7 @@ Two settings for your whole site sit on the **Theme** page, under your themes: *
 
 ### Back to Top Button
 
-**Back to top** has one setting, **Show a Back to top button**. It saves the moment you click it, and a message says so. When it is on, a small button shows in the corner of the page after a visitor scrolls down one screen. At the end of the page it rides above your footer, so it never covers your footer's links. A short page never shows it. The button takes the visitor back to the top of the page, and the keyboard moves to the top too. On a site that shows the WebNesting badge at the bottom, the button sits just above the badge on every screen size.
+**Back to top** has one setting, **Show a Back to top button**. It saves the moment you click it, and a message says so. When it is on, a small arrow button shows in the corner of the page after a visitor scrolls down one screen. It fades away while the visitor reads down the page, so it never covers the words, and it comes back when they scroll up. At the end of the page it rides above your footer, so it never covers your footer's links. A short page never shows it. The button takes the visitor back to the top of the page, and the keyboard moves to the top too. On a site that shows the WebNesting badge at the bottom, the button sits just above the badge on every screen size.
 
 ### Fade Between Pages
 
@@ -323,6 +323,8 @@ Under it, your home page shows on a computer and on a phone. While the fade is o
 ## Light and Dark Mode
 
 Your site can use light backgrounds, dark backgrounds, or the same mode as each visitor's phone or computer.
+
+In dark mode, a section with the theme color **Primary** or **Secondary** shows a deep tint of that color with the page's light text, so it does not outshine the rest of the page.
 
 ### Picking a Mode
 

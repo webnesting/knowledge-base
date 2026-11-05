@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-03 6:27pm
+**Last verified:** 2026-11-04 6:42pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -29,7 +29,7 @@ The header's parts:
 
 - **Logo** -- your logo picture, your site's name, or both (**Image and text**, **Image**, **Text**), in three sizes. **Text** starts as your site's name; type other words to replace it. Upload the picture in **Site Settings → Content → Site Images**. If you pick **Image** and have no picture yet, your site's name shows instead. **Logo links to** is the page the logo opens, such as `/shop`; leave it empty for your home page.
 - **Menus** -- the main menu and a second, smaller menu. Pick which of your menus each one shows, how many levels show, and whether the pages under an item open in a list (**Dropdown**) or a wide panel (**Mega menu**). Under each menu you pick, **Edit this menu's pages** opens your Pages list showing only the pages in that menu. Open a page's settings there to add it to a menu or take it out.
-- **Links and switches** -- your social links, the language switcher and the light and dark switch. Your social profiles are in **Site Settings → Connections → Social Settings**. On phones, the second menu, the language links and the social links move into the menu.
+- **Links and switches** -- your social links, the language switcher and the light and dark switch. Your social profiles are in **Site Settings → Connections → Social Settings**. When the menu folds behind its button, on phones and tablets or where a long menu does not fit, the second menu, the language links and the social links move into the menu with it.
 - **Button** -- a button with your own words and link, such as "Book a call". It can open in a new tab. Its **Style** is **Filled**, **Outline** or **Dark**. **Dark** is a solid button in your header's text color: dark on a light header, light on a dark header and in dark mode. Its **Shape** is **Theme** (your theme's own corners), **Square**, **Rounded** or **Pill**, as for any button. The footer button has the same **Shape**. On phones, the header button moves into the menu.
 - **Top bar** -- a thin bar above the header with a short message, a phone number, an email address and your social links. Your whole message always shows: when it does not fit on one line, it wraps and the bar gets taller. On tablets and phones, a bar with a message leaves out the social links, which are still in your footer. On phones, the phone number and email address show as icons.
 - **Announcement bar** -- a short message in your theme's main color, above everything else. See [Announcement bar](#announcement-bar).
@@ -59,7 +59,7 @@ The footer's parts:
 
 - **Logo and text** -- the logo, as in the header, and a short text under it.
 - **Menus** -- the footer menu, a second menu and your legal links (such as Privacy and Terms).
-- **Details** -- your footer details (such as your address), the copyright line and an extra line of text. Under **Extra text position**, choose **Left** to put the extra line first in the bottom bar, where a copyright line usually sits, or **Right** to keep it at the end.
+- **Details** -- your footer details (such as your address), the copyright line and an extra line of text. **Name in the copyright line** shows a name of your choice, such as your own on a personal site. Leave it empty to use your business name from Site Settings. Under **Extra text position**, choose **Left** to put the extra line first in the bottom bar, where a copyright line usually sits, or **Right** to keep it at the end.
 - **Links and switches** -- your social links, the language switcher and the light and dark switch.
 - **Button** -- a button with your own words and link.
 
@@ -116,7 +116,7 @@ On a large screen, you choose how far your header's logo, menu and buttons sprea
 1. In the Website Builder, click your header (or your footer). **Settings** opens.
 2. Under **Content width**, pick one:
    - **The theme's own** -- the header and the footer line up with your page, unless your theme sets another width.
-   - **Line up with the page** (header only) -- the logo and the menu start and end where your page's sections do, whatever your theme sets. If a long menu no longer fits, it moves behind the menu button; **Full screen** gives it more room.
+   - **Line up with the page** (header only) -- the logo and the menu start and end where your page's sections do, whatever your theme sets. If a menu is a little too long, its words move closer together. If it still does not fit, it moves behind the menu button; **Full screen** gives it more room.
    - **Full screen** -- the content spreads to the sides of the screen, however wide it is.
    - **Custom** -- type the **Largest width** in pixels, from 480 to 3840.
 3. The page in the Website Builder changes at once. Publish the page.
@@ -259,14 +259,14 @@ A Section also has a **Band spacing** panel. **Space above and below** sets the 
 
 #### Text Width
 
-A text block can be narrower than its column. This keeps a short line, such as a caption under a stat number, easy to read.
+Long lines are hard to read, so text in a wide column stops at **Wide** by default. You can make a text block narrower, such as a caption under a stat number, or let it fill its column.
 
 1. Select the text block.
 2. Click **Settings**.
 3. Open **Text width**.
-4. Pick **Wide**, **Medium** or **Narrow**.
+4. Pick **Full**, **Wide**, **Medium** or **Narrow**.
 
-**Wide** holds about 75 letters a line, **Medium** about 60 and **Narrow** about 45. **Full** makes the text fill its column again. If the column is narrower than the size you pick, the text keeps the column's width. A heading in the text also keeps the column's width; only the lines under it stop at the size. Your theme can change each size: see [Themes and customization](../dashboard/themes-and-customization.md).
+**Wide** holds about 70 letters a line, **Medium** about 56 and **Narrow** about 42. **Full** makes the text fill its column. If the column is narrower than the size you pick, the text keeps the column's width. A heading in the text also keeps the column's width; only the lines under it stop at the size. Your theme can change each size: see [Themes and customization](../dashboard/themes-and-customization.md).
 
 ---
 
