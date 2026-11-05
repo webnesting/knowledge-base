@@ -1,6 +1,6 @@
 # WebNesting User Documentation
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-11-04 12:54pm
 
 Welcome to the WebNesting help center. These guides will help you build and manage your website.
 
@@ -14,7 +14,7 @@ Welcome to the WebNesting help center. These guides will help you build and mana
 | [Managing Your Websites](account/managing-your-websites.md) | View, access, edit, and delete your websites |
 | [Usage and Billing](account/usage-and-billing.md) | Understand pricing, view usage, pay bills, and manage costs |
 | [Asking for a Refund](account/asking-for-a-refund.md) | Find the invoice, ask Support, and see how a refund reaches you |
-| [Closing Your Workspace or Account](account/closing-your-account.md) | Save what you need, then ask Support to close a workspace or your account |
+| [Closing Your Workspace or Account](account/account-closing-your-account.md) | Save what you need, then ask Support to close a workspace or your account |
 | [Moving a Site to Someone Else](account/moving-a-site-to-someone-else.md) | Add a team member or ask Support to transfer a workspace |
 | [Requesting a Copy of Your Data](account/requesting-your-data.md) | Download your data yourself or ask Support for a copy |
 

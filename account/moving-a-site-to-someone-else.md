@@ -1,6 +1,6 @@
 # Moving a Site to Someone Else
 
-**Last verified:** 2026-10-27 10:11am
+**Last verified:** 2026-11-04 12:54pm
 
 This guide shows the ways to hand a site to another person or business. A site stays in the workspace where you created it. The app has no button that moves one site to a different workspace.
 

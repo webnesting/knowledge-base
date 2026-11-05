@@ -1,6 +1,6 @@
 # Requesting a Copy of Your Data
 
-**Last verified:** 2026-10-27 10:11am
+**Last verified:** 2026-11-04 12:54pm
 
 This guide shows how to get a copy of your data, either yourself or by asking Support. It also covers a person on your contact list who asks you for their data.
 
