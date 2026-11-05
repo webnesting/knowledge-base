@@ -1,6 +1,6 @@
 # Asking for a Refund
 
-**Last verified:** 2026-11-01 12:24am
+**Last verified:** 2026-11-05 5:32pm
 
 This guide shows how to ask Support for a refund of a charge that was billed in error, and what happens next.
 
@@ -48,7 +48,7 @@ WebNesting approves each refund, and Support tells you the result. An approved r
 
 ## Check it worked
 
-Open the invoice again. Its summary shows the amount under **Refunded**. When the full amount is returned, the invoice status changes to **Refunded**. Your activity log (**Settings** > **Activity Log**) also records it, for example "Refund issued: $10.00 back to your card".
+Open the invoice again. Its summary shows the amount under **Refunded**. When the full amount is returned, the invoice status changes to **Refunded**. Your activity log (**Settings** > **Activity Log**) also records it, with the amount returned to your card.
 
 ---
 

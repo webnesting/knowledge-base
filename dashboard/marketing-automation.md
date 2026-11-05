@@ -1,6 +1,6 @@
 # Marketing Automations
 
-**Last verified:** 2026-11-01 12:24am
+**Last verified:** 2026-11-05 5:32pm
 
 Marketing automations let you create set-it-and-forget-it workflows that send emails, update contacts, and perform actions automatically when something happens. Instead of manually sending a welcome email every time someone signs up, or remembering to tag contacts after an event, you build the workflow once and let it run on its own.
 
@@ -14,7 +14,7 @@ For example, you could create a welcome series that sends a thank-you email imme
 
 Automations are part of the Marketing product in your workspace. You will find them under **Automations** in the **Marketing** menu of your workspace sidebar.
 
-**What automation emails cost.** Each email an automation sends counts as a marketing email, with the same allowance as campaign emails (10,000, 50,000 or 125,000 a month, by your Marketing plan). When the allowance is used up, automation emails wait until you add credits or the month starts over. The **Usage** page counts them in **Marketing Emails Sent**. An email that fails to send is not counted. See [Usage and Billing](../account/usage-and-billing.md#what-happens-at-a-limit).
+**What automation emails cost.** Each email an automation sends counts as a marketing email, with the same monthly allowance as campaign emails. When the allowance is used up, automation emails wait until you add credits or the month starts over. The **Usage** page counts them in **Marketing Emails Sent**. An email that fails to send is not counted. See [Usage and Billing](../account/usage-and-billing.md#what-happens-at-a-limit).
 
 ---
 
