@@ -1,10 +1,12 @@
 # Connecting an AI Tool
 
-**Last verified:** 2026-11-02 8:38pm
+**Last verified:** 2026-11-05 8:25pm
 
 You can connect an AI assistant — like Claude Desktop, Claude Code, or Cursor — directly to your WebNesting workspace. Once connected, you can ask the AI to look things up and make changes for you in plain language: "list my draft articles," "create a new event for next Friday," "what's my current usage this month." The AI works **as you**, with **your** permissions, and never sees your password.
 
 This is free. Using an AI assistant does not put you on the paid API plan.
+
+WebNesting has no AI of its own, and we do not train AI on your content. Your AI app reads what you ask it to read, and that app's own terms cover what it does with it.
 
 ---
 

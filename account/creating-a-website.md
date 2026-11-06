@@ -1,6 +1,6 @@
 # Creating a Website
 
-**Last verified:** 2026-11-02 1:44pm
+**Last verified:** 2026-11-05 8:16pm
 
 Ready to build your first site? This guide walks you through creating a new website on WebNesting.
 
@@ -20,7 +20,7 @@ You can also start from **Settings** > **Products**: find the **Websites** card 
 
 ### The quick way — from your workspace list
 
-The page that lists your workspaces has a blue **Start with a website** banner at the top. Select **Create a website** and a short popup walks you through the same thing without leaving the page: pick which workspace the site belongs to (it asks only if you have more than one), fill in the details below, choose how to start, and watch it set up. When it's ready, an **Open Site Admin** button takes you straight into your new site.
+The page that lists your workspaces has a blue **Websites** banner at the top. Select **Create a website** and a short popup walks you through the same thing without leaving the page: pick which workspace the site belongs to (it asks only if you have more than one), fill in the details below, choose how to start, and watch it set up. When it's ready, an **Open Site Admin** button takes you straight into your new site.
 
 ---
 

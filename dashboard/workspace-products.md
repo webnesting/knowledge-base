@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-11-03 4:42pm
+**Last verified:** 2026-11-05 8:16pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -8,9 +8,9 @@ WebNesting's workspace includes optional products you can enable to add powerful
 
 ## What Are Workspace Products?
 
-Workspace products are add-on features that extend your workspace beyond website management. Each product adds a complete set of tools for a specific purpose. Think of them like apps you install on your phone -- each one adds new abilities to your workspace.
+Each product is a complete set of tools for one kind of work. Use any one on its own, or any mix. You don't need a website to use Marketing, Helpdesk or Tasks.
 
-Your workspace starts with the basics: website management, media, and team collaboration. When you need more, you enable a product, and new tools appear in your workspace sidebar right away.
+Every workspace includes your contact list, media and team collaboration. When you enable a product, its tools appear in your workspace sidebar right away.
 
 ---
 
