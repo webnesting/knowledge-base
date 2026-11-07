@@ -1,6 +1,6 @@
 # URL Redirects
 
-**Last verified:** 2026-11-07 10:36am
+**Last verified:** 2026-11-07 11:21am
 
 Sometimes you need to change a page's web address, or you want to point an old address to a new one. Redirects make sure that anyone who visits the old address is automatically sent to the right place -- no dead ends, no error pages.
 
@@ -58,7 +58,9 @@ This is the address you want to redirect away from -- the old or incorrect URL.
 
 To cover a whole section at once, tick **Also match every address under this path**. For example, `/support` then also covers `/support/articles/1`, but not `/supportive`. Every address it covers goes to the same destination.
 
-![A Gone rule for a whole section, with the Also match every address under this path box ringed and no Output menu](../images/dashboard/url-redirects-section-gone.png) A rule for one exact address always wins over a rule that covers a whole section. Of two section rules, the more specific one wins.
+![A Gone rule for a whole section, with the Also match every address under this path box ringed and no Output menu](../images/dashboard/url-redirects-section-gone.png)
+
+A rule for one exact address always wins over a rule that covers a whole section. Of two section rules, the more specific one wins.
 
 ### Setting the Output (Where It Goes)
 

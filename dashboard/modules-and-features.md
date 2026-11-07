@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-11-07 10:33am
+**Last verified:** 2026-11-07 11:21am
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -66,7 +66,6 @@ If you no longer need a module:
 The module's card then shows a banner counting down the days until its content is deleted, with **Turn back on** (restores the module and its content, as long as it's before the deletion date), **Download a copy** (we email you a link to a copy of the module's content and its pages, valid for 7 days) and **Delete now** (deletes the content right away -- you'll be asked to type your site's name, because this can't be undone). The card's own **Turn on** button does the same thing as **Turn back on**.
 
 > **Important:** Disabling a module removes it from your site menu. Its content is **permanently deleted after 30 days** -- turn the module back on before then to keep it; turning it on after that starts it empty. (A capability like Accounts stores no content, so there is nothing to keep or delete.)
-
 
 ---
 

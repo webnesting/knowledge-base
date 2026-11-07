@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-11-07 10:32am
+**Last verified:** 2026-11-07 11:21am
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -129,7 +129,7 @@ If your site is not ready for the public yet (for example, if you are still buil
 
 While it is on, the setting shows a warning reminding you that the site is hidden, and your site tells search engines not to index it in two ways: its `robots.txt` file blocks everything, and every page carries a "noindex" instruction. Visitors can still open the site by typing its address.
 
-![The Hide site from search engines choice with List my site and Hide my whole site ringed](../images/dashboard/site-settings-hide-from-search.png)
+![The Search engines choice with List my site and Hide my whole site ringed, above the Advanced sitemap and extra code settings](../images/dashboard/site-settings-hide-from-search.png)
 
 **Important:** Remember to switch this back to **List my site** when your site is ready to launch. If you leave it on, people will not be able to find your site through Google or other search engines.
 

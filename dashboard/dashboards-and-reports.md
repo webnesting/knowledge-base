@@ -1,6 +1,6 @@
 # How to make, share and organize dashboards
 
-**Last verified:** 2026-11-07 10:48am
+**Last verified:** 2026-11-07 11:21am
 
 A dashboard is a page of widgets: your numbers from Sites, Marketing, Helpdesk, Tasks, billing and more, in one place. You can make as many as you like, keep them to yourself or share them with a team or the whole workspace.
 
@@ -87,7 +87,9 @@ Each product's menu starts with **Overview**: Helpdesk, Tasks, Marketing, Contac
 - **Your first one:** the first time you open a product's **Overview**, you get your own dashboard named **Helpdesk Overview** (or **Tasks Overview**, **Marketing Overview**, **Contacts Overview**, **Sites Overview**, **Internal Docs Overview**). If you had arranged that product's page before, your widgets are kept. If not, it starts from that product's template.
 - **Use another dashboard:** open any dashboard from the **Home** menu or the **Reports** page. Click the **⋮** menu, then **Use as Helpdesk Overview** (or Tasks, Marketing, Contacts, Sites or Internal Docs).
 
-![The menu at the end of a row on the Reports page with Set as My Home, the Use as choices and Rename and Share](../images/dashboard/dashboards-row-menu.png) The menu offers only the products you can use, and only when that product is on in your workspace. Your choice changes only that product's **Overview**, and only for you.
+![The menu at the end of a row on the Reports page with Set as My Home, the Use as choices and Rename and Share](../images/dashboard/dashboards-row-menu.png)
+
+The menu offers only the products you can use, and only when that product is on in your workspace. Your choice changes only that product's **Overview**, and only for you.
 - **Go back:** on your own **Helpdesk Overview**, click **⋯**, then **Use as Helpdesk Overview**. If the dashboard you chose is deleted, unshared or hidden from your menu, your own overview opens again.
 - **Change it:** you change an overview's widgets like any dashboard. If someone else made it, the page says so, and only they can change it.
 - **Who sees them:** a dashboard tagged with a product shows only to people who can use that product. If your role does not include the Helpdesk, you see no Helpdesk dashboards anywhere.
