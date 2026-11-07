@@ -1,6 +1,6 @@
 # Asking for a Refund
 
-**Last verified:** 2026-11-07 10:12am
+**Last verified:** 2026-11-07 10:37am
 
 This guide shows how to ask Support for a refund of a charge that was billed in error, and what happens next.
 
