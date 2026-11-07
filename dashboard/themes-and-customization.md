@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-11-07 10:57am
+**Last verified:** 2026-11-07 3:52pm
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -177,15 +177,15 @@ Your uploaded fonts show under **Your fonts** at the top of both lists, and in t
 
 Each slider moves through named steps:
 
-- **Text size** -- all text, headings included (Small, Normal, Large).
-- **Heading size** -- how much bigger headings are than text (Quiet to Dramatic).
-- **Heading letter spacing** -- how close the letters in a heading sit (Very tight to Open). Tight suits big, bold headings.
-- **Heading line breaks** -- Balanced splits a heading into lines of even length, so one word never sits alone on the last line. Plain breaks lines only when they are full.
-- **Big headline size** -- the large headline at the top of a page, such as a hero (Smaller, Normal, Bigger). It also grows and shrinks with the screen.
-- **Text size on a tablet** -- **Grows with the screen** (the default) makes headings and text a little larger on each wider screen. **Phone size** keeps them at their phone size on a screen narrower than 1024px, such as a tablet. It suits a page whose columns stack on tablets (**Columns stack** in the Website Builder).
-- **Space between things** -- gaps between columns, cards and blocks (Compact, Normal, Roomy).
-- **Corners** -- buttons, fields and cards (Square to Pill buttons).
-- **Shadows** -- under cards, buttons and the header (None, your theme's own, Subtle, Normal, Deep).
+- **Text size**: all text, headings included (Small, Normal, Large).
+- **Heading size**: how much bigger headings are than text (Quiet to Dramatic). On a phone, the steps between heading levels are smaller, so long words fit.
+- **Heading letter spacing**: how close the letters in a heading sit (Very tight to Open). Tight suits big, bold headings.
+- **Heading line breaks**: Balanced splits a heading into lines of even length, so one word never sits alone on the last line. Plain breaks lines only when they are full.
+- **Big headline size**: the large headline at the top of a page, such as a hero (Smaller, Normal, Bigger). It also grows and shrinks with the screen.
+- **Text size on a tablet**: **Grows with the screen** (the default) makes headings and text a little larger on each wider screen. **Phone size** keeps them at their phone size on a screen narrower than 1024px, such as a tablet. It suits a page whose columns stack on tablets (**Columns stack** in the Website Builder).
+- **Space between things**: gaps between columns, cards and blocks (Compact, Normal, Roomy).
+- **Corners**: buttons, fields and cards (Square to Pill buttons).
+- **Shadows**: under cards, buttons and the header (None, your theme's own, Subtle, Normal, Deep).
 
 If your theme's values match none of a slider's steps, the slider reads **Custom** and keeps your values until you move it.
 
