@@ -1,6 +1,6 @@
 # Moving a Site to Someone Else
 
-**Last verified:** 2026-11-07 10:11am
+**Last verified:** 2026-11-07 10:12am
 
 This guide shows the ways to hand a site to another person or business. A site stays in the workspace where you created it. The app has no button that moves one site to a different workspace.
 
@@ -17,7 +17,7 @@ This guide shows the ways to hand a site to another person or business. A site s
 ## Add the person to your workspace
 
 1. Open your workspace.
-2. Point at **Settings** at the bottom of the left icon rail, then select **Members & Permissions**.
+2. Select **Settings** at the bottom of the left icon rail, then **Members & Permissions**.
 
    ![The Settings menu in the left rail with Members & Permissions highlighted](../images/account/moving-a-site-settings-menu-members.png)
 

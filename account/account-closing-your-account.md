@@ -1,10 +1,12 @@
 # Closing Your Workspace or Account
 
-**Last verified:** 2026-11-01 12:24am
+**Last verified:** 2026-11-07 10:12am
 
 This guide shows how to save what you want to keep, and how to ask Support to close a workspace or your account.
 
 You cannot close a workspace or an account yourself yet. **Settings** > **General** says so under **Danger Zone**: to delete or transfer a workspace, contact Support.
+
+![The Danger Zone section on the General settings page](../images/account/account-closing-danger-zone.png)
 
 ---
 
@@ -13,7 +15,13 @@ You cannot close a workspace or an account yourself yet. **Settings** > **Genera
 Closing removes your sites, pages, files and contact data. Do these first.
 
 1. **Pay what you owe.** Open **Settings** > **Plans & Billing**. Pay any outstanding invoice with **Pay Now**.
+
+   ![The Settings menu in the left rail with Plans & Billing highlighted](../images/account/usage-and-billing-settings-menu-plans-and-billing.png)
+
 2. **Save your contacts.** Open **Contacts** and select **Export CSV**.
+
+   ![The Contacts page with the Export CSV button highlighted](../images/account/account-closing-contacts-export-csv.png)
+
 3. **Save form submissions.** Open each form's **Submissions** tab and export the list.
 4. **Save your files.** Open **Files** in the top bar and download what you want to keep.
 5. **Save a product's data.** For Marketing, Helpdesk or Tasks, turn the product off, then select **Download a copy** on its card. WebNesting emails you a link that works for 7 days. See [Workspace Products](../dashboard/workspace-products.md#disabling-a-product).
