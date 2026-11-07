@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-11-03 12:21pm
+**Last verified:** 2026-11-07 9:51am
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -22,7 +22,11 @@ Beyond ticket management, the Helpdesk includes a knowledge base where you can p
 
 The inbox is the main view of the Helpdesk. It shows all your support tickets in one place, like a shared email inbox for your whole team.
 
-Click **Helpdesk** in your workspace sidebar. The Helpdesk menu has **Overview**, **All**, **Unclaimed**, **My tickets** and **Watching**, then your teams under **My Teams**, then **Site Connections** and **Settings**. **Overview** opens your **Helpdesk Overview** dashboard. Change its widgets, or use another dashboard instead (see [Dashboards and Reports](dashboards-and-reports.md#choose-the-helpdesk-tasks-and-marketing-overviews)). **All** opens the **Tickets** list with key details at a glance:
+Click **Helpdesk** in your workspace sidebar. The Helpdesk menu has **Overview**, **All**, **Unclaimed**, **My tickets** and **Watching**, then your teams under **My Teams**, then **Site Connections** and **Settings**. **Overview** opens your **Helpdesk Overview** dashboard. Change its widgets, or use another dashboard instead (see [Dashboards and Reports](dashboards-and-reports.md#choose-the-helpdesk-tasks-and-marketing-overviews)). **All** opens the **Tickets** list with key details at a glance.
+
+![The Helpdesk Overview dashboard with the Helpdesk menu on the left](../images/dashboard/helpdesk-overview.png)
+
+The columns are:
 
 - **Title** -- What the ticket is about
 - **#** -- The ticket number
@@ -31,6 +35,10 @@ Click **Helpdesk** in your workspace sidebar. The Helpdesk menu has **Overview**
 - **Assigned To** -- Which team member is handling it
 - **Contact** -- The customer who wrote in
 - **Received** -- When the ticket was submitted
+
+![The Tickets list with the Open, Unclaimed, Closed and All tabs above it](../images/dashboard/helpdesk-ticket-list.png)
+
+The gear at the right end of the header row opens **Customize columns**. There you can remove a column, add others such as **Tags**, **Teams**, **Updated** or **Channel**, and use **Reset to Default** to go back.
 
 You can sort and filter the list to find specific tickets. Use filters to show only tickets with a certain status, priority, assignee, or tag.
 
@@ -49,7 +57,7 @@ The number beside **Unclaimed** in the menu is how many there are across the wor
 
 ### Saved Views
 
-If you find yourself applying the same filters often, you can save them as a view for quick access. For example, you might create a saved view for "My Open Tickets" or "Urgent Unassigned Tickets." Click **Filters**, set them, then click **Save as view…**. Your saved views are listed in the same filter panel, so you can switch between them with one click.
+If you find yourself applying the same filters often, you can save them as a view for quick access. For example, you might create a saved view for "My Open Tickets" or "Urgent Unassigned Tickets." Click **Filters**, set them, then click **Save as View…**. Your saved views are listed in the same filter panel, so you can switch between them with one click.
 
 > **Tip:** Start your day by checking the inbox for any new or unassigned tickets. This helps you stay on top of incoming requests and make sure nothing falls through the cracks.
 
@@ -113,6 +121,8 @@ Open **Settings** in the Helpdesk menu, then the **Statuses** tab, to change the
 
 If you also use Tasks, a category can be shared by both: tick **Also use in Tasks**. Shared categories show a **Tasks** label, and changes to them apply in both places.
 
+![The Statuses tab with the ticket statuses above and their categories below](../images/dashboard/helpdesk-settings-statuses.png)
+
 ### Setting Priority
 
 Priority tells your team how urgently a ticket needs attention:
@@ -159,7 +169,9 @@ Replies are visible to the customer. Use these to respond to the customer's ques
 
 Internal notes are visible only to your team. The customer never sees them. Use internal notes to discuss the issue with teammates, share background information, leave instructions for the next person who works on the ticket, or document your troubleshooting steps.
 
-To add a comment, open a ticket and type your message in the box under the conversation. Choose whether it is a reply (customer-visible) or an internal note (team-only) before sending. The button reads **Reply** for a reply and **Add Note** for an internal note.
+To add a comment, open a ticket and type your message in the box under the conversation. Choose whether it is a reply (customer-visible) or an internal note (team-only) before sending. Tick **Internal note** under the box to write a note. The button reads **Reply** for a reply and **Add Note** for an internal note.
+
+![The reply box under a ticket's conversation, with the Internal note tick box ringed](../images/dashboard/helpdesk-ticket-reply-box.png)
 
 > **Important:** Double-check whether you are writing a reply or an internal note before sending. Replies are visible to the customer, so make sure internal discussions stay in internal notes.
 
@@ -254,6 +266,8 @@ Each SLA policy defines two types of time targets:
 6. Click **Save Policy**.
 
 Your workspace starts with a **Default SLA** policy that already gives the most pressing tickets tighter targets -- Urgent tickets are due for a reply in 1 hour and a resolution in 4, and High tickets in 2 hours and 8.
+
+![The SLA Policies tab with the Default SLA policy and its Targets button](../images/dashboard/helpdesk-settings-sla-policies.png)
 
 You can also adjust per-priority targets directly from the policy list without opening the full form: click **Targets** next to any policy to expand its priority ladder inline, change the hours, then click **Save Targets**.
 
@@ -486,7 +500,7 @@ Customers reply to this address, so before you switch, make sure mail sent to th
 If you start adding a domain but don't finish publishing the DNS records:
 
 - A **countdown banner** appears on the domain's DNS Records page showing how many days until we auto-clean it up. After 12 days unfinished, you'll get a reminder email; after 14 days, we automatically remove the domain so it doesn't sit pending forever (and to keep our email provider's identity quota tidy).
-- You can also **Remove now** any time from the same page if you've decided you don't need that domain after all.
+- You can also **Remove Now** any time from the same page if you've decided you don't need that domain after all.
 
 This is intentional — it prevents typos and abandoned setups from creating long-running orphans on either your side or ours.
 
