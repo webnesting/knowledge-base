@@ -1,6 +1,6 @@
 # Marketing Automations
 
-**Last verified:** 2026-11-05 5:32pm
+**Last verified:** 2026-11-07 9:54am
 
 Marketing automations let you create set-it-and-forget-it workflows that send emails, update contacts, and perform actions automatically when something happens. Instead of manually sending a welcome email every time someone signs up, or remembering to tag contacts after an event, you build the workflow once and let it run on its own.
 
@@ -101,14 +101,13 @@ Pauses the automation for a set amount of time before moving to the next step.
 
 Creates a branch in your automation based on whether something is true or false. Contacts who meet the condition follow one path, and contacts who do not follow a different path.
 
-Conditions can check things like:
+A Condition step checks the contact's own details. In the step's settings:
 
-- **Opened email** -- Did the contact open a previous email in this automation?
-- **Clicked link** -- Did the contact click a link in a previous email?
-- **Has tag** -- Does the contact currently have a specific tag?
-- **In list** -- Is the contact currently on a specific mailing list?
+1. Under **Match**, choose **All conditions (AND)** or **Any condition (OR)**.
+2. Click **+ Add Condition**.
+3. Pick a contact field, a test, and a value. The tests are equals, not equals, contains, greater than, less than, is empty and is not empty.
 
-This lets you create personalized experiences -- for example, sending a reminder only to contacts who did not open the first email, or offering a special deal to contacts who clicked a product link.
+The step has two outputs, **Yes** and **No**. For example, you can send a reminder only to contacts whose **Company** is empty.
 
 > **Not switched on yet:** for now an automation stops when it reaches a Condition step -- any steps you place after it will not run. Keep your automations to a straight line of steps (emails, waits, tags, lists, field updates) until branching is turned on; you can still save a workflow that includes a condition, it just ends there.
 
@@ -147,21 +146,13 @@ When a contact reaches a condition step, the automation checks whether the condi
 - **If true** -- The contact follows the "yes" path and runs the steps you have placed there.
 - **If false** -- The contact follows the "no" path and runs those steps instead.
 
-### Example: Re-engage Non-Openers
+### Example: Ask Contacts for Missing Details
 
-1. **Send Email** -- Send your weekly newsletter.
-2. **Wait** -- Wait 2 days.
-3. **Condition** -- Did they open the email?
-   - **Yes path** -- Add the tag "Engaged."
-   - **No path** -- Send a follow-up email with a new subject line.
-
-### Example: Reward Engaged Contacts
-
-1. **Send Email** -- Send a product announcement.
-2. **Wait** -- Wait 1 day.
-3. **Condition** -- Did they click a link?
-   - **Yes path** -- Send a discount code email, then add the tag "Interested."
-   - **No path** -- No further action.
+1. **Send Email**: send a welcome email.
+2. **Wait**: wait 2 days.
+3. **Condition**: is **Company** empty?
+   - **Yes path**: send an email that asks for their company name.
+   - **No path**: add the tag "Complete profile."
 
 > **Tip:** Do not over-complicate your first automations. Start with one or two conditions at most. You can always add more branches later as you learn what works.
 
@@ -204,15 +195,15 @@ You can edit an automation at any time -- add steps, remove steps, change the tr
 
 ## Viewing Enrollments
 
-You can see which contacts are currently in an automation and where they are in the workflow.
+You can see how many contacts are in an automation and how many have finished.
 
 1. Open the automation you want to check.
-2. Look for the enrollments section, which shows:
-   - **Currently enrolled contacts** -- People who are actively going through the automation.
-   - **Current step** -- Which step each contact is on right now.
-   - **Completed contacts** -- People who have finished all the steps.
+2. Look at **Enrollment Summary** on the Details tab, which shows:
+   - **Currently Enrolled**: people who are going through the automation now.
+   - **Completed**: people who have finished all the steps.
+   - **Total**: everyone who has entered.
 
-This gives you visibility into how your automation is performing and how many people are moving through each step.
+A draft automation shows no summary until you turn it on.
 
 > **Tip:** Check your enrollments regularly when you first launch an automation. This helps you spot any issues early, like contacts getting stuck on a step or not entering the automation as expected.
 
