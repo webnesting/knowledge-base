@@ -1,6 +1,6 @@
 # Making Your Site Look Great on All Devices
 
-**Last verified:** 2026-11-07 10:19am
+**Last verified:** 2026-11-07 10:43am
 
 Your visitors will view your website on all kinds of screens -- large desktop monitors, tablets, and small phone screens. Responsive design means your site automatically adjusts to look good on every device. This guide explains how WebNesting helps you create a site that works everywhere.
 
@@ -41,9 +41,15 @@ In the middle of the top toolbar you will find the device controls that resize y
 
 The preview frame will resize to match the selected breakpoint, so you can see exactly what your visitors will see on that device.
 
+![The page on the Tablet view, with the Tablet button ringed, the picker reading "md · ≤1023px" and the width box reading 1023](../images/website-builder/responsive-tablet-view.png)
+
+![The page on the Mobile view, with the Mobile button ringed, the picker reading "xs · ≤575px" and the width box reading 575](../images/website-builder/responsive-mobile-view.png)
+
 On a tablet or phone, the toolbar has less room. The device buttons become one button that shows the current device: tap it and pick a size. The breakpoint picker, the width box and the zoom controls are in the **More** button (three dots), next to **Publish**.
 
 > **Tip:** The breakpoint picker always shows which breakpoint you are currently authoring at, and the width box shows the exact pixel width of the preview.
+
+![The breakpoint picker showing "md · ≤1023px", with its tooltip explaining which screen widths your style edits apply to](../images/website-builder/responsive-breakpoint-picker.png)
 
 ---
 
@@ -61,7 +67,7 @@ Here are the exact screen widths for each size:
 | LG | Large | 1024px to 1399px (desktops) |
 | XL | Extra Large | 1400px and up (large desktops) |
 
-![The device buttons in the top toolbar with the Tablet button ringed, beside the breakpoint picker and width box](../images/website-builder/responsive-preview.png)
+![The device buttons in the top toolbar, ringed as a group, beside the breakpoint picker and the width box](../images/website-builder/responsive-preview.png)
 
 ### The Cascade Rule
 
@@ -74,7 +80,9 @@ This means:
 
 In other words, start by designing for desktop. Then switch to the tablet view and adjust anything that does not look right. Finally, switch to the mobile view and make your final tweaks.
 
-This is how the device buttons work by default. To change it, open **Builder settings** in the panel rail, then go to **Editing** and open **Advanced**. Turn on **Follow the canvas size** to see **Apply changes to**. It has three choices: **Current & larger**, **Current & smaller** (the default) and **Only current (in range)**. The breakpoint picker also lets you pick one size and one direction yourself, such as "md · ≤1023px". **Auto · All widths** applies a style at every width.
+This is how the device buttons work by default. To change it, open **Builder settings** in the panel rail, then open **Advanced**. **Follow the canvas size** is on by default. While it is on, **Apply changes to** has three choices: **Current & larger**, **Current & smaller** (the default) and **Only current (in range)**. The breakpoint picker also lets you pick one size and one direction yourself, such as "md · ≤1023px". **Auto · All widths** applies a style at every width.
+
+![Builder settings with Advanced open: Follow the canvas size is on and the Apply changes to menu is ringed, set to Current and smaller](../images/website-builder/responsive-advanced-settings.png)
 
 ### Example
 
@@ -91,6 +99,8 @@ Let us say you set a heading to 48 pixels on desktop. If you do nothing else, th
 When a layout needs to change at a width the five built-in sizes don't cover, add a breakpoint of your own.
 
 1. In the top toolbar, click **Manage breakpoints** (the sliders button right after the breakpoint picker). On a smaller screen, open **More** (three dots) first, then click **Manage breakpoints**.
+
+![The Manage breakpoints dialog with the five built-in breakpoints and their widths, an empty Your breakpoints list and the Add a breakpoint button](../images/website-builder/responsive-manage-breakpoints.png)
 2. Click **Add a breakpoint**.
 3. Type a **Name**, such as "Small tablet".
 4. Type a **From** width, an **Up to** width, or both, in pixels.
