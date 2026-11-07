@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-11-04 6:42pm
+**Last verified:** 2026-11-07 10:57am
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -62,6 +62,8 @@ The Theme page shows two groups:
 
 Each card shows a small picture of your site in that theme, with your site's name and menus. The theme your site uses now is first, marked **In use**.
 
+![The Theme page with the built-in theme cards, the one in use marked and a Customize or Use This Theme button on each](../images/dashboard/themes-theme-page.png)
+
 ---
 
 ## Choosing a Theme for a New Site
@@ -94,6 +96,8 @@ Your site shows the new look right away. Your pages, text and images stay as the
 
 Every card shows your own home page in that theme. To see a theme before you switch, click its picture. The theme opens almost full screen. Use **See it on** to look at any other page of your site. Use **Light** and **Dark** to see both modes, and **Computer** and **Phone** to see both screen sizes. If you like it, click **Use This Theme**. Click **Close** to go back.
 
+![The full-screen theme preview with the See it on list, Light and Dark, Computer and Phone, Close and Use This Theme](../images/dashboard/themes-preview.png)
+
 ---
 
 ## Making a Theme Your Own
@@ -108,6 +112,8 @@ You can change a theme's colors and shapes. Your changes go into your own versio
 To change one of your own themes later, open the **⋮** menu on its card in **Your themes** and choose **Customize**.
 
 The editor has three tabs: **Colors**, **Fonts**, and **Sizes and shapes**.
+
+![The theme editor on the Colors tab, with the five colors and ready-made color sets beside a live preview of the home page](../images/dashboard/themes-editor-colors.png)
 
 ### Colors
 
@@ -138,6 +144,8 @@ Some colors show only on one kind of block, such as buttons, tabs, a pop-up or a
 ### Fonts
 
 The Fonts tab sets two fonts: the **Heading font** for titles and headings, and the **Body font** for paragraphs, menus and buttons. A sample under each list shows the font.
+
+![The Fonts tab with the Heading font and Body font lists, a sample line and the Upload a Font button](../images/dashboard/themes-editor-fonts.png)
 
 **To pick a Google Font:**
 
@@ -195,7 +203,7 @@ Until you choose a size, the sliders and boxes show the numbers closest to your 
 - **Phone** -- the size on a phone screen.
 - **Computer** -- the size on a computer screen.
 
-Screens in between get a size on the way from one to the other. The rows are in two groups. **Text sizes** covers the headlines, each heading level, card titles, big numbers, intro text, body text, labels, tags and the hero button text. **Space and number circles** covers the space above and below the hero, the space around section content, the space at the sides of the page (from the side of the screen to the text in your header, page and footer), each size of **Space between rows** and **Text width** (change one, and every block that uses that size follows), the space under a top line, the number circles on cards and steps, and the space beside and around a numbered step. A row you changed shows **Yours**. Click **Reset** on that row to go back to your theme's size, or to the size from your **Text sizes** when you set them.
+Screens in between get a size on the way from one to the other. The rows are in two groups. **Text sizes** covers the headlines, each heading level, card titles, big numbers, intro text, body text, labels, tags and the hero button text. **Space and number circles** covers the space above and below the hero, the space around section content, the space at the sides of the page (from the side of the screen to the text in your header, page and footer), each size of **Space between rows** (change one, and every block that uses that size follows), the space under a top line, the number circles on cards and steps, and the space beside and around a numbered step. A row you changed shows **Yours**. Click **Reset** on that row to go back to your theme's size, or to the size from your **Text sizes** when you set them.
 
 **Text sizes** and **Exact sizes** are also in the Website Builder: open **Site design**, then **Sizes and shapes**. They work the same way there.
 
@@ -275,19 +283,25 @@ Pick the type of header at the top of every page, and the type of footer at the 
 
 1. In the site menu, open **Settings** and click **Site Settings**.
 2. Under **Appearance**, click **Header & Footer**.
-3. Under **Header**, click a layout. Each one is drawn with your own site name and menu:
+3. Under **Header**, find **Layout** and click one. Each one is drawn with your own site name and menu:
+
    - **Logo left** -- your logo on the left, your menu on the right.
    - **Logo centered** -- your logo in the middle, with your menu split on both sides.
    - **Logo above menu** -- your logo on top, your menu in a row under it.
    - **Logo and menu button** -- your logo and a menu button. The menu opens in a side panel.
    - **Menu on both sides** -- your menu on the left, your logo in the middle, your buttons on the right.
    - **Menu in the middle** -- your logo on the left, your menu in the middle, your button on the right.
+![The header Layout choices, each drawn with the site name, and the Glass header switch](../images/dashboard/themes-header-layouts.png)
+
 4. To make your header see-through over the top of your page, turn on **Glass header** under the layouts. It works with every layout, and with a header of your own. The header stays see-through until it sticks to the top of the screen, then it turns into a frosted bar. The pictures and previews show it at once. See [A see-through Glass header](../website-builder/layouts-and-structure.md#a-see-through-glass-header).
-5. Under **Footer**, click a layout:
+5. Under **Footer**, find **Layout** and click one:
+
    - **Three columns** -- three columns of the same width: your name and social links, your details, and your menu as one list, with each page's sub-pages under it. A long menu with many sub-pages fits better in **Large, with all menus**.
    - **Centered** -- everything in one centered column.
    - **Large, with all menus** -- every menu item heads its own column with its pages under it, and your second menu gets a column too. Good for sites with many pages.
    - **Simple** -- one bar with your copyright line and your social links. If you show a menu here, it shows its top pages in one row, without their sub-pages.
+![The four footer Layout choices drawn with the site name](../images/dashboard/themes-footer-layouts.png)
+
 6. Click **Save Changes**. Your site shows the new layouts at once.
 
 The large pictures at the top of each part are your own home page with the layout you picked. They change the moment you click a layout, with no reload. The phone picture shows the menu open. The layout marked **This theme's default** is the one your theme comes with.
@@ -338,6 +352,8 @@ In dark mode, a section with the theme color **Primary** or **Secondary** shows 
 
 Under the choices, two pictures show your own home page in light mode and in dark mode. The mode your visitors see is marked **Visitors see this**.
 
+![The Color Mode page with Light, Dark and Match each visitor's device, and the site shown in light and in dark](../images/dashboard/themes-color-mode.png)
+
 ### Letting Visitors Switch
 
 You can give your visitors a sun and moon button, so each person picks light or dark for themselves. Their choice is remembered on their device.
@@ -383,8 +399,6 @@ In short, your content is not touched. Only the way it looks changes.
 > **Tip:** If you styled single components with the website builder's style controls, those styles still apply on top of the theme. The theme gives the base look, and your component styles sit on top.
 
 ---
-
---
 
 ## Tips for Choosing the Right Look
 
