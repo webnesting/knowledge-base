@@ -1,6 +1,6 @@
 # Integrations
 
-**Last verified:** 2026-11-07 9:19am
+**Last verified:** 2026-11-07 10:25am
 
 Integrations connect WebNesting to the other tools you already use — your Google or Microsoft account for email and analytics, and GitHub for content. Everything lives on one page: **Settings** > **Integrations** in your workspace (the **⋮** menu in the top bar also opens **Workspace Settings**). You can also reach the same page from a site's settings, where it shows just the connections that power that site.
 
