@@ -1,6 +1,6 @@
 # Articles and Blog Posts
 
-**Last verified:** 2026-11-04 10:10am
+**Last verified:** 2026-11-07 11:37am
 
 The Articles module gives your website a full blog and news section. Use it to share company updates, how-to guides, industry news, or anything else you want to write about. Articles are one of the best ways to keep your website fresh and attract new visitors.
 
@@ -28,6 +28,8 @@ Before you can start writing articles, you need to turn on the Articles module.
 
 Once enabled, **Articles** appears under **Pages** in your site menu. This is where you create and manage all your articles. The **Add** panel in the Website Builder also gets **Article List** and **Article Detail** blocks.
 
+![The site menu with Articles under Pages](../images/content-modules/articles-site-menu.png)
+
 > **Tip:** Enabling the Articles module takes just a few seconds. There is no setup or configuration needed -- you can start writing your first article as soon as you confirm.
 
 ---
@@ -52,12 +54,17 @@ The title is the first thing your readers will see. It appears at the top of the
 2. Type a clear, descriptive title for your article.
 3. Keep it concise but informative. For example, "5 Ways to Improve Your Morning Routine" is better than "Blog Post #7."
 
+![The Page tab of the article editor with Title, Page URI and Layout](../images/content-modules/articles-page-settings.png)
+
 ### Choosing the Article Type
 
 You can categorize your article by type. This helps organize your content and can affect how search engines understand your posts.
 
 1. On the **Article** tab, open the **Article Settings** group. It is closed until you click it.
 2. Find the **Article Type** dropdown.
+
+![The Article Settings group with Article Type and Author](../images/content-modules/articles-article-settings.png)
+
 3. Choose one of the following:
    - **Article** -- A general article or post.
    - **News Article** -- A news story or current events piece.
@@ -111,7 +118,9 @@ To publish:
 1. Open the article in the editor.
 2. Select **Save & Publish** at the bottom of the page.
 
-You can also choose **Publish** from the ⋮ menu on the article's row in the list.
+You can also choose **Publish** from the ⋮ menu on the article's row in the list. The same menu has **Duplicate**, which makes a copy of the article.
+
+![The menu on an article row in the list](../images/content-modules/articles-row-menu.png)
 
 To take a published article offline, choose **Unpublish** from the ⋮ menu at the top right of the editor, or from the row's ⋮ menu in the list. **Save** keeps your changes as a draft without publishing them.
 
@@ -129,7 +138,7 @@ Need to fix a typo or update your content? Editing is easy.
 4. Make your changes to any field -- title, content, image, or type.
 5. Select **Save** to keep your changes as a draft, or **Save & Publish** to put them on your live website.
 
-The article list shows **Draft** or **Published** for each article. If a published article has changes you have not published yet, **Preview** at the top of the editor shows them, and **Restore Published Version** in the ⋮ menu drops them.
+The article list shows **Draft**, **Published** or **Unpublished Changes** for each article. If a published article has changes you have not published yet, **Preview** at the top of the editor shows them, and **Restore Published Version** in the ⋮ menu drops them.
 
 To add code from another service to one article, such as a booking widget, click **Edit Custom Code** in the **Custom Code** group on the article's **Page** tab, after **SEO**. It needs the **Custom Code** permission, and the code runs on that article only. See [Custom Code for One Page](../dashboard/managing-pages.md#custom-code-for-one-page).
 
@@ -160,6 +169,8 @@ Use the **Search** bar at the very top of the dashboard and type a word from the
 1. In the **Article** list, select **Filters** at the top right.
 2. Next to **Status**, choose **Published**, **Draft** or **Trashed**.
 3. The list updates as you pick. Select **Clear** to see every article again.
+
+![The Filters panel with the Status setting](../images/content-modules/articles-filters.png)
 
 ---
 
@@ -202,6 +213,9 @@ An Article List shows a collection of your articles on a page -- perfect for a b
 1. Open the page where you want to display articles in the **Website Builder**.
 2. Open the **Add** panel.
 3. Look for **Article List** in the **Site modules** group.
+
+![The Add panel with the Article List and Article Detail components under Site modules](../images/content-modules/articles-add-article-list.png)
+
 4. Drag the Article List component onto your page.
 5. The component will automatically display your published articles with their titles, preview text, featured images, and links to read more.
 6. Save your page.

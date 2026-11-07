@@ -1,6 +1,6 @@
 # Email Marketing
 
-**Last verified:** 2026-11-03 12:21pm
+**Last verified:** 2026-11-07 11:37am
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -57,7 +57,9 @@ After enabling the product, the envelope icon in your workspace sidebar opens **
 - **Contacts** -- Everyone you can email.
 - **Settings** -- Your senders, email footer, custom campaign fields and sending limits.
 
-Your contacts' **Lists**, **Tags** and **Custom Fields** are under the people icon, **Contacts**.
+![The Marketing Overview dashboard with the Marketing sidebar](../images/content-modules/email-marketing-overview.png)
+
+Your contacts' **Companies**, **Lists**, **Tags** and **Custom Fields** are under the people icon, **Contacts**.
 
 ---
 
@@ -71,7 +73,11 @@ Contacts are the heart of the Email Marketing module. Every person who signs up 
 2. You will see a list of all your contacts with their name, company, tags, status, and the date they were created.
 3. Use the search bar to find a specific contact by name or email.
 
+![The Contacts list with names, companies, tags and status](../images/content-modules/email-marketing-contacts-list.png)
+
 ### Email Status
+
+![The right column of a contact, with the Email marketing setting under Can we contact them?](../images/content-modules/email-marketing-contact-panel.png)
 
 Each contact has an email status. You see and change it under **Email marketing**, in the **Can we contact them?** section on the right of the contact's page:
 
@@ -117,6 +123,8 @@ Lists help you organize your contacts into groups so you can target the right pe
    - **Description** -- An internal description to help you remember what this list is for.
 4. Click **Create List**.
 
+![The Lists page with a Manual type and a contact count for each list](../images/content-modules/email-marketing-lists.png)
+
 New lists are manual lists: you choose who is on them. A segment fills itself from its rules, and new segments can't be created from the Lists page yet.
 
 ### How Contacts Get Added to Lists
@@ -141,6 +149,8 @@ There are several ways contacts end up on a list:
 ## Tags
 
 Tags are labels you can attach to contacts to categorize them in flexible ways. Unlike lists (which are for sending emails to groups), tags are for organizing and filtering. A contact can have as many tags as you want.
+
+![The Tags page with the number of contacts for each tag](../images/content-modules/email-marketing-tags.png)
 
 Common tag examples: "VIP," "New Lead," "Attended Workshop," "Purchased," "Follow Up Needed."
 
@@ -231,12 +241,16 @@ Both the campaign editor and the template editor use the same visual builder you
 3. Design the email on the canvas, dragging blocks from the **Add** panel and styling them in the **Styles** panel. The text toolbar in the email builder has no video or embed buttons, because email apps such as Gmail and Outlook remove videos and embedded frames. To point people to a video, add an image that links to it.
 4. Save your work.
 
+![The Campaigns list showing Draft, Scheduled and Sent campaigns](../images/content-modules/email-marketing-campaigns-list.png)
+
 ### Choosing who a campaign goes to
 
 Every campaign has a **Send to** setting on its **Details** tab, at the bottom of the **Campaign Details** panel, with two kinds of audience:
 
 - **Whole workspace** -- reaches contacts whose Email Status is **Subscribed** (you can set that on each contact's page, under **Email marketing**). This is the default.
 - **A single site** -- reaches only the people who opted in to email **on that site** (for example, by ticking the email opt-in box when they signed up there). The campaign also sends from that site's own domain, so it looks like it comes from the brand they know.
+
+![The Details tab of a draft campaign with the Setup Checklist: Recipients, Subject and design, and Sender](../images/content-modules/email-marketing-campaign-details.png)
 
 Someone who unsubscribes stops getting email either way -- unsubscribing always applies everywhere, no matter which site they originally opted in on.
 
@@ -245,6 +259,8 @@ Someone who unsubscribes stops getting email either way -- unsubscribing always 
 > **Tip:** A contact you add by hand starts with an Email Status of **Pending**, not Subscribed, so they are not in the whole-workspace audience until you change it. Adding someone's address is not the same as them agreeing to hear from you.
 
 ### Sending a campaign
+
+![The Send tab with Test Send and the Schedule for Later and Send Now buttons](../images/content-modules/email-marketing-campaign-send-tab.png)
 
 A campaign needs three things before it can go out. The **Setup Checklist** on the **Details** tab shows each one:
 
@@ -358,6 +374,9 @@ If you have an existing email list or customer database, you can import contacts
 ### How to Import
 
 1. Go to **Contacts** and click **Import CSV**.
+
+![The Import contacts dialog with the Choose CSV File button](../images/content-modules/email-marketing-import-csv.png)
+
 2. Click **Choose CSV File** and pick your file.
 3. Map your CSV columns to contact fields:
    - The system will show you the columns in your file and let you match each one to a contact field (email, first name, last name, phone, status, or any custom field).
@@ -423,6 +442,8 @@ Click **Settings** under the Marketing section. The page has four tabs:
 - **Signups & Sending** -- Tick **Ask new subscribers to confirm by email** to turn on "double opt-in." When a form or an **Email Signup** component on one of your sites adds someone to Marketing, they get a "Confirm your subscription" email first, and they receive your marketing emails only after clicking **Yes, Subscribe Me** in it — so nobody can sign up someone else, and your list stays clean. The tab shows the exact email they'll get. People who already confirmed, or who created an account on your site, aren't asked again.
 
   The same tab has a **Daily Sending Limit**: enter the most marketing emails to send per day (campaigns and automations together), or leave it empty for no limit. It's handy while a new sending domain builds its reputation, or to spread a big campaign over several days. Anything over the limit isn't lost — it waits and goes out the next day, starting at midnight in your workspace's timezone. The tab shows how many emails went out today, and a campaign that's waiting says on its **Performance** tab when it will pick up again. Click **Save Settings** when you're done.
+
+![The Signups & Sending tab with the confirm-by-email checkbox and the Daily Sending Limit](../images/content-modules/email-marketing-settings-signups.png)
 
 ---
 
