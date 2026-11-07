@@ -1,6 +1,6 @@
 # Glossary of Terms
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-11-07 9:47am
 
 This glossary explains common terms you will encounter while using WebNesting. If you come across a word you do not recognize, check here for a quick explanation.
 
@@ -22,7 +22,7 @@ This glossary explains common terms you will encounter while using WebNesting. I
 
 **Add panel** (component palette) -- The panel in the Website Builder that lists all available components. Open it from the icon rail on the right, then drag components onto the Canvas to add them to your page.
 
-**Dashboard** -- The admin area where you manage your site's content, settings, and features. You access it by signing in to the WebNesting app, opening your workspace, and selecting **Manage Site** on your site's card in the **Sites** list. The Dashboard is your home base for everything that happens behind the scenes of your website.
+**Dashboard**: the admin area where you manage your site's content, settings, and features. You access it by signing in to the WebNesting app, opening your workspace, and selecting **Sites**, then **Overview**, then **Manage Site** on your site's card. The Dashboard is your home base for everything that happens behind the scenes of your website.
 
 **Draft** -- Changes that have been saved but not yet published to your live site. Drafts let you work on updates without affecting what your visitors see until you are ready.
 
@@ -34,7 +34,7 @@ This glossary explains common terms you will encounter while using WebNesting. I
 
 **Margin** -- The space outside an element, between it and neighboring elements. Increasing the margin pushes other elements further away.
 
-**Module** -- An add-on feature that extends your site's capabilities. Examples include Articles (for a blog), Events (for scheduling), and Store (for selling products). You can enable or disable modules from your Dashboard.
+**Module**: an add-on feature that extends your site's capabilities. Examples include Articles (for a blog), Events (for scheduling), and Store (for selling products). You can turn modules on or off under **Settings** > **Modules** in the site menu.
 
 **Padding** -- The space inside an element, between its edge and its content. Increasing the padding gives the content more breathing room within the element.
 

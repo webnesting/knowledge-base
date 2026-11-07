@@ -1,6 +1,6 @@
 # Navigating the Dashboard
 
-**Last verified:** 2026-10-31 2:12pm
+**Last verified:** 2026-11-07 9:47am
 
 The Dashboard is your home base for managing one site in WebNesting. It is where you handle that site's pages, settings, content, and analytics. (Workspace-level features like billing, team members, helpdesk, marketing, and tasks live in your workspace -- see the **Workspaces** card in your account portal.)
 
@@ -29,7 +29,7 @@ Here are the types of widgets you may see on your home screen:
 
 You can personalize which widgets appear and how they are arranged:
 
-1. **Add widgets** -- Select **+ Add Widget** to browse every available widget (**Site Stats**, **Quick Actions**, **Site Health**, **Recent Pages**, **Activity Log**, **Storage Usage**, **Conversions**, **Analytics** and **Form Submissions**) and add one to your dashboard. Widgets marked **Per site** show one site's data; if you have more than one site, the picker asks which site before the widget appears. Anything you remove can always be added back from the same list.
+1. **Add widgets**: select **+ Add Widget** to browse every available widget (**Site Stats**, **Quick Actions**, **Site Health**, **Recent Pages**, **Activity Log**, **Storage Usage**, **Conversions**, **Analytics**, **Form Submissions** and **Form Analytics**) and add one to your dashboard. When the Store module is on, the list also has **E-commerce Overview**, **Top Products** and **Orders**. Widgets marked **Per site** show one site's data; if you have more than one site, the picker asks which site before the widget appears. Anything you remove can always be added back from the same list.
 2. **Remove widgets** -- Each widget has options to remove it if you do not need it.
 3. **Rearrange widgets** -- Drag and drop widgets to put them in the order that works best for you.
 4. **Resize widgets** -- Some widgets can be made wider or narrower to fit your preference.
@@ -57,6 +57,8 @@ The toolbar runs across the top of every page. It holds the controls you reach f
 - **Files** -- Opens the File Manager, where you can browse everything your workspace stores.
 - **Notification bell** -- Shows what needs your attention. Click through to your activity feed.
 - **⋮ menu** -- Quick links to **Billing**, **Usage** and **Workspace Settings**, plus **Send Feedback…**, **Documentation** and **Get Support**.
+
+![The top bar ⋮ menu with Billing, Usage, Workspace Settings, Send Feedback…, Documentation and Get Support](../images/getting-started/navigating-toolbar-menu.png)
 - **Your avatar** -- Opens a menu with **Manage Account**, an out-of-office setting, a **Dark Mode** switch, the language choice and **Sign Out**.
 
 > **Tip:** Dark mode lives in the avatar menu on the far right. It is not just a style preference -- if you work in a dimly lit room, dark mode can be easier on your eyes. Your choice is remembered.
@@ -84,8 +86,14 @@ On phones and tablets, tap a rail icon to open its panel, then tap a link or tap
 - **Home** -- Your dashboards: **Personal**, one group per team, then **Workspace**, and **All dashboards** for the **Reports** page. See [Dashboards and Reports](../dashboard/dashboards-and-reports.md). Recent activity is in **Settings** > **Activity Log**; your other workspaces open from the **WebNesting logo**.
 - **Sites** -- Every site in the workspace; expand one to reach that site's own menu
 - **Contacts** -- Your workspace contact database
-- **Marketing**, **Helpdesk**, **Tasks** -- These appear only if the matching workspace product is enabled
-- **Settings** (pinned at the bottom) -- Workspace settings (General, Products, and Email, each its own link so the sidebar always shows which one you're on), database, members and permissions, teams, activity log, integrations, and your billing and usage pages
+- **Marketing**, **Helpdesk**, **Tasks**, **Internal Docs**: these appear only if the matching workspace product is enabled
+- **Settings** (pinned at the bottom): workspace settings (General, Products, and Email, each its own link so the sidebar always shows which one you're on), database, members and permissions, teams, activity log, integrations, API access, and your billing and usage pages
+
+![The Settings panel open beside the icon rail, with the Settings button ringed](../images/getting-started/navigating-settings-panel.png)
+
+When you open a site from **Sites**, the panel changes to that site's own menu. It holds **Pages** and **Settings**, with **Widgets** and **Website Builder** at the bottom.
+
+![A site's menu with Pages and Settings, and Website Builder ringed at the bottom](../images/getting-started/navigating-site-menu.png)
 
 ---
 
@@ -135,7 +143,9 @@ The Settings section is where you configure how your site works and looks. Setti
 - **Connections** -- **Social Settings**, **Google Settings** (Google Analytics, Google Tag Manager and reCAPTCHA) and **Code from Other Services**
 - **Advanced** -- **Security Policy**, **Site Image Groups**, **HTML Blocks** and **All Settings**, every raw setting in one place
 
-The **Settings** menu in the site menu also holds **Database Tables**, **Modules**, **Site Settings**, **URLs and Redirects** and **Integrations**.
+![The Site Settings page with the groups Your site, Appearance, Content and Connections](../images/getting-started/navigating-site-settings.png)
+
+The **Settings** menu in the site menu also holds **API**, **Database Tables**, **Modules**, **Site Settings**, **URLs and Redirects** and **Integrations**. You see only the ones your role allows.
 
 To change a setting:
 

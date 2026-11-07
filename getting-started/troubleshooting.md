@@ -1,6 +1,6 @@
 # Troubleshooting and Common Issues
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-11-07 9:55am
 
 Every website owner runs into the occasional hiccup. The good news is that most issues have simple fixes. This guide walks you through the most common problems you might encounter and how to solve them quickly.
 
@@ -95,7 +95,7 @@ Every site has a maximum file size for uploads. If your image exceeds that limit
 
 ### Unsupported File Format
 
-WebNesting supports the most common image formats: **JPG**, **PNG**, **GIF**, **SVG**, and **WebP**. If your image is in a different format, it will not display.
+Images work best as **JPG**, **PNG**, **GIF**, **SVG**, or **WebP**. Other formats, such as HEIC from some phones, may upload but not show in a browser.
 
 1. Check the file extension of your image.
 2. If it is not one of the supported formats, convert it to JPG or PNG using any image editing tool or free online converter.
@@ -163,7 +163,6 @@ Many features in WebNesting are provided by modules that you need to turn on.
 2. Browse the list of available modules.
 3. Find the one you need and select **Turn on**, then **Enable**.
 4. Once enabled, the module's item will appear in your site menu, and its blocks will become available in the builder.
-
 For more details, see [Modules and Features](../dashboard/modules-and-features.md).
 
 ### Feature Requires a Different Module

@@ -1,17 +1,20 @@
 # Quick Start Guide
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-11-07 9:36am
 
 Welcome to WebNesting! This guide will get you up and running in about 10 minutes. Follow these steps to set up your site, make your first edits, and publish your changes.
 
 ---
 
-## Step 1: Log In and Complete Setup
+## Step 1: Log In and Open Your Site
 
-1. Sign in to the WebNesting app with your email and password, open your **workspace**, and click your site in the **Sites** list to open its dashboard.
+1. Sign in to the WebNesting app with your email and password, and open your **workspace**.
 2. If you have two-factor authentication turned on, enter your verification code when prompted.
 3. If you have not created a site yet, see [Setting Up Your Site](setting-up-your-site.md). You name the site, pick how it starts and pick a look when you create it.
-4. Select **Manage Site** on your site's card. You land on your site's dashboard -- the home base for managing your site.
+4. Select **Sites** in the left icon rail, then **Overview**.
+5. Select **Manage Site** on your site's card. You land on your site's dashboard, the home base for managing your site.
+
+![The Sites page with the Manage Site button on a site's card](../images/getting-started/sites-list-manage-site.png)
 
 > **Tip:** Do not worry about getting everything perfect during setup. You can change your theme, colors, and every other setting at any time.
 
@@ -19,13 +22,13 @@ Welcome to WebNesting! This guide will get you up and running in about 10 minute
 
 ## Step 2: Open the Website Builder
 
-1. From your site menu, look for **Website Builder** at the bottom of the panel.
-2. Click it to open the visual editor.
+1. In the site menu on the left, find **Website Builder** at the bottom of the panel.
+2. Select it to open the visual editor.
 3. The Website Builder loads your homepage in the main editing area, with controls along the top and a panel rail down the right side.
 
-> **Tip:** The icon rail on the right opens panels for Pages, Add (components), Settings, Styles, Site design, Layers, and Audit. You will use these throughout this guide.
+![The Website Builder interface with the canvas, the toolbar and the panel rail](../images/getting-started/builder-first-open.png)
 
-![The Website Builder interface with the canvas, toolbar, and panel rail](../images/getting-started/builder-first-open.png)
+> **Tip:** The icon rail on the right opens panels for Pages, Add (components), Settings, Styles, Site design, Layers, Audit and Builder settings. You will use these throughout this guide.
 
 ---
 
@@ -44,18 +47,28 @@ Welcome to WebNesting! This guide will get you up and running in about 10 minute
 
 1. In the builder, select the **Pages** icon at the top of the rail on the right (it looks like a small document).
 2. Select **New page** at the top of the pages panel.
-3. Enter a title for your page (for example, "About Us" or "Contact"), set the **Page URI**, and choose a layout.
-4. Click **Save**. It will appear in your pages list and you can start adding content to it right away.
+
+![The Pages panel with the New page button ringed above the list of pages](../images/getting-started/quick-start-builder-new-page-button.png)
+
+3. Enter a **Title** for your page (for example, "About Us" or "Contact").
+4. Set the **Page URI**, the last part of the page's web address.
+5. Choose a **Layout**.
+6. Select **Create**. The page appears in your pages list and you can start adding content to it right away.
+
+![The New page form with Title, Page URI and Layout fields and the Create button](../images/getting-started/quick-start-builder-new-page-form.png)
+
+The form also lets you choose which menus show the page, such as **Header** and **Footer**, and whether to include it in the sitemap.
 
 ---
 
 ## Step 5: Add Your Logo and Favicon
 
-1. Go back to your site's dashboard by selecting the site name at the top of the site menu on the left.
-2. Open **Settings** in the site menu, then **Site Settings**.
-3. Under **Content**, select **Site Images**.
-4. Upload your **Logo** and **Favicon** (the small icon that appears in browser tabs) by clicking the image areas and selecting files from your files.
-5. Select **Save Changes**.
+1. In the site menu on the left, open **Settings**, then **Site Settings**.
+2. Under **Content**, select **Site Images**.
+3. Upload your **Logo** and **Favicon** (the small icon that appears in browser tabs) by selecting each image area and choosing a file.
+4. Select **Save Changes**.
+
+![The Site Images page with a Logo, a Favicon and the Save Changes button](../images/getting-started/quick-start-site-images.png)
 
 > **Tip:** For the best results, use a logo image with a transparent background. Favicons should be a simple square image, at least 512 x 512 pixels.
 
@@ -65,9 +78,14 @@ Welcome to WebNesting! This guide will get you up and running in about 10 minute
 
 1. From the site menu, open **Settings** > **Site Settings**.
 2. Under **Your site**, select **SEO Defaults**.
-3. Fill in the **Title** field with your site name or brand name. This appears in search engine results.
-4. Write a short **Description** that tells people what your site is about. Keep it under 155 characters.
-5. Select **Save Changes**.
+3. Fill in the **Title** field with your site name or brand name. This appears in search engine results. The field already holds a starter title that adds each page's title after your site name. You can keep it.
+4. Write a short **Description** that tells people what your site is about. The limit is 155 characters.
+5. Add an **Image** if you want one to show when people share your pages on social media.
+6. Select **Save Changes**.
+
+![The SEO Defaults page with the Title and Description fields and a preview of how the page looks in search results](../images/getting-started/quick-start-seo-defaults.png)
+
+The preview under **How it looks in search results** shows your title and description as search engines may show them.
 
 You can also set SEO details for each individual page. Open any page's settings in the builder and look for the **SEO** fields.
 
@@ -78,11 +96,11 @@ You can also set SEO details for each individual page. Open any page's settings 
 ## Step 7: Preview Your Site
 
 1. In the builder, select **Save draft** (the disk icon) at the top right, next to **Publish**.
-2. Select **Preview** (the eye icon) next to it.
-3. A preview of your site will open, showing exactly what your visitors will see.
+2. Select **Preview (hide editing chrome)** (the eye icon) next to it.
+3. The editing controls hide, and you see your site as your visitors will see it.
 4. Check that your text reads well, images look good, and links work correctly.
 
-You can also use the responsive size controls in the top toolbar to preview your site at different screen sizes -- desktop, tablet, and mobile.
+You can also use the device buttons in the top toolbar to see your site at different screen sizes: mobile, tablet, laptop and desktop.
 
 ---
 
@@ -90,7 +108,9 @@ You can also use the responsive size controls in the top toolbar to preview your
 
 1. In the builder, find the blue **Publish** button at the top right.
 2. Select **Publish**.
-3. All of your saved changes will go live. Your visitors will now see the updated version of your site.
+3. All of your saved changes go live. Your visitors see the updated version of your site.
+
+![The builder toolbar with the device buttons, the save pill, Save draft and the Publish button ringed](../images/getting-started/quick-start-builder-publish-bar.png)
 
 Until you publish, your changes are saved as drafts that only you can see. This means you can make as many edits as you want without affecting the live site, then publish everything at once when you are ready.
 
