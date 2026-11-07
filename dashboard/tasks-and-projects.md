@@ -1,6 +1,6 @@
 # Tasks and Projects
 
-**Last verified:** 2026-11-01 5:41pm
+**Last verified:** 2026-11-07 10:01am
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -29,6 +29,8 @@ To create a new project:
 3. Give your project a **Name** and optionally add a **Description**.
 4. Choose a **Color** to make the project easy to identify at a glance.
 5. Click **Create**.
+
+![The Projects page with a card for each project and the + New Project button](../images/dashboard/tasks-and-projects-project-list.png)
 
 Your new project appears in your project list, and you can start adding tasks right away. To set a start date and target date for the project's timeline, open the project's settings (see below).
 
@@ -79,6 +81,8 @@ One of the most powerful features of Tasks is the ability to see your work in di
 
 The Board view shows your tasks as cards arranged in columns by status -- similar to a Kanban board. Each column represents a status (like To Do, In Progress, or Done), and you drag tasks from one column to the next as work progresses.
 
+![The Board view with a column for each status](../images/dashboard/tasks-and-projects-board-view.png)
+
 This view is great for:
 
 - Seeing the overall flow of work at a glance
@@ -88,6 +92,8 @@ This view is great for:
 ### List View
 
 The List view shows your tasks in a table format with rows and columns. Each row is a task, and the columns show details like status, priority, assignee, and due date.
+
+![The List view with a table for each status](../images/dashboard/tasks-and-projects-list-view.png)
 
 This view is great for:
 
@@ -101,6 +107,8 @@ The Timeline view shows your tasks on a horizontal timeline, similar to a Gantt 
 
 Bars for open tasks are colored by priority (Urgent, High, Normal, Low). Finished tasks show as green when their status counts as Done, or dark gray when it counts as Closed. The legend under the timeline shows every color.
 
+![The Timeline view with task bars, milestones and the color legend](../images/dashboard/tasks-and-projects-timeline-view.png)
+
 This view is great for:
 
 - Understanding how tasks overlap and relate to each other in time
@@ -110,6 +118,8 @@ This view is great for:
 ### Calendar View
 
 The Calendar view shows your tasks on a monthly or weekly calendar based on their due dates. Tasks appear on the date they are due, giving you a clear picture of upcoming deadlines.
+
+![The Calendar view for one month with tasks and milestones on their dates](../images/dashboard/tasks-and-projects-calendar-view.png)
 
 This view is great for:
 
@@ -124,6 +134,8 @@ This view is great for:
 ## My Work
 
 My Work is your personal task hub. Click **My Work** in the Tasks sidebar to open the task list filtered to the tasks assigned to you, across every project in your workspace and including tasks that belong to no project. Remove the filter to see every task.
+
+![My Work in the Tasks sidebar, opening the task list filtered to your tasks](../images/dashboard/tasks-and-projects-my-work.png)
 
 The **Tasks** **Overview** page also has a **My Work** card with your next tasks, plus **Upcoming Deadlines** and **Recent Projects**. It is your **Tasks Overview** dashboard: change its widgets, or use another dashboard instead. See [Dashboards and Reports](dashboards-and-reports.md#choose-the-helpdesk-tasks-and-marketing-overviews).
 
@@ -156,6 +168,8 @@ Every project has its own list of statuses, so one project can use "To Do / Desi
 
 The steps below work the same in both places.
 
+![A project's Statuses tab with + Add Status and a row for each status](../images/dashboard/tasks-and-projects-project-statuses.png)
+
 **To add a status:**
 1. Click **+ Add Status**.
 2. Give it a name (for example "Waiting for Feedback"), pick its **Category**, and choose a color.
@@ -183,6 +197,8 @@ Priority tells your team how urgent a task is. There are four levels:
 You can assign a task to any team member in your workspace. The assignee is the person responsible for completing the task. Assigned tasks appear in that person's My Work view.
 
 To assign a task, open it and select a team member from the assignee field. You can change the assignee at any time.
+
+![A task open with the Assigned To field, status, priority and due date in the side panel](../images/dashboard/tasks-and-projects-task-detail.png)
 
 ### Linking a Task to a Contact
 
@@ -272,6 +288,8 @@ Milestones belong to one project. To add a milestone:
 1. Open your project and click the **gear icon** (**Project Settings**) at the top right.
 2. Choose the **Milestones** tab.
 3. Type a name, pick a target date, and click **Add**.
+
+![The Milestones tab with the name box and the list of milestones](../images/dashboard/tasks-and-projects-project-milestones.png)
 
 To mark a milestone as reached, click the diamond next to its name -- it turns into a check mark and the name is crossed out. Click it again to reopen it. Open the **⋮** menu at the end of a milestone's row and choose **Edit** or **Delete** to change or remove it. While you edit, **Save** keeps the change, and **Cancel** or the Esc key drops it. A milestone whose date has passed while it's still open shows its date in red.
 
