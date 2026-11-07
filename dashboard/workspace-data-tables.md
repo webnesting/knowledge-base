@@ -1,6 +1,6 @@
 # Workspace Data Tables
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-11-07 10:23am
 
 Your workspace keeps its own set of tables, separate from the ones inside each website. They hold the information your products share -- your contacts, your support tickets, your tasks and projects, your marketing campaigns. You will find them under **Settings → Database**. The page is titled **Database Tables**.
 
@@ -23,6 +23,8 @@ The list shows every table in your workspace:
 | **Group** | Which group or product the table belongs to, or a dash if it is not in one |
 | **Columns** | How many of your own fields you have added to it |
 
+![The workspace Database Tables page listing Contacts, Marketing Campaigns, Helpdesk Tickets, Internal Docs, Projects and Tasks, with the Create Table button circled in orange](../images/dashboard/workspace-data-tables-table-list.png)
+
 Use **Filters** to narrow the list by **Kind** (all tables, in a group, or not in a group), **Has columns** and **Group**.
 
 Tables like **Contacts**, and the tables of each product you have on, such as **Helpdesk Tickets** and **Tasks**, came with your workspace. You can add your own fields to them, but you cannot rename or delete them -- other parts of the product depend on them existing.
@@ -39,6 +41,8 @@ Say you want to record which trade show a contact came from, or how urgent a tic
 4. Give it a **Display Name** -- what you and your team will see on screen, like "Trade show". The **Field Name** fills in by itself.
 5. Choose the **Type** -- Text, Number, Date, Select Dropdown, Checkbox, and so on.
 6. Click **Create Column**.
+
+![The New Column form for the Contacts table with the Display Name field circled in orange](../images/dashboard/workspace-data-tables-new-column.png)
 
 The new field appears wherever that record is edited. A field added to Contacts shows up on every contact; one added to Helpdesk Tickets shows up on every ticket.
 
@@ -77,6 +81,8 @@ Once you have a few tables of your own, groups keep the related ones together. A
 2. Click **+ New Group**, beside the **Table groups** heading.
 3. Give it a **Name**, and a **Description** if you want one.
 4. Click **Create Group**.
+
+![The Table groups section below the table list, with the New Group button circled in orange](../images/dashboard/workspace-data-tables-table-groups.png)
 
 **To put a table in a group**, open the table's settings and choose the group from the **Group** list. To take it out again, click the small **x** on that field and save. To see just one group's tables, use **Filters** and pick the group under **Group**.
 
