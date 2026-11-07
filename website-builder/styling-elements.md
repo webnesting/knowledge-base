@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-11-07 10:42am
+**Last verified:** 2026-11-07 1:21pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -74,7 +74,45 @@ When a setting shows a value from your theme, it says so. For example, a size pi
 
 **Hover lift** is set on the **Default** look, so it plays when the pointer moves over the element and back out. On the **Hover** look the setting is shown but cannot be changed: click **Default** to change it.
 
-> **Tip:** If Styles shows your own CSS instead of the element controls, nothing is selected. Click directly on an element -- clicking empty space deselects everything. See [Your Own CSS](#your-own-css) for that view.
+> **Tip:** With nothing selected, Styles shows the page itself. See [The Whole Page](#the-whole-page). To style one element, click directly on it.
+
+---
+
+## The Whole Page
+
+The page itself has settings and styles, like any element. Use them for the page's background, its text colour and anything else you want on the whole page.
+
+1. Open your page in the Website Builder.
+2. Click an empty spot on the page, or press **Escape**. Settings shows **Page**.
+3. Pick where the change applies with **Applies to** at the top of the panel.
+4. Set **Background colour** or **Text colour** in **Settings**, or open **Styles** for every other setting.
+
+**Applies to** has three choices:
+
+- **This page** changes only the page you are editing.
+- **This layout** changes every page that uses this page's layout. A page with a layout of its own does not show this choice.
+- **Every page** changes every page of your site.
+
+The switch starts on the choice that matches **Page**, **Layout** or **Unlocked** at the top of the builder. In Styles, the bar at the bottom names the place too, for example "body (This page)".
+
+When two places set the same thing, this page wins over the layout, and the layout wins over every page. A setting for one page still applies after you rename the page or its layout.
+
+### Behind the Page
+
+**Behind the page** is the area around your page when the page does not fill the screen. To select it, open **Layers** and click **Behind the page** at the top. Its settings are:
+
+- **Colour behind the page**.
+- **Scroll smoothly to a link on the same page**, for a link that jumps to a section.
+- **Space above a section a link jumps to**, so a bar that sticks to the top of the screen does not cover the section.
+
+In Layers, **Page** sits inside **Behind the page**, and your page's blocks sit inside **Page**. You cannot move, copy or delete these two rows.
+
+To reach them from the page, hold **Shift** and click a block. Each Shift-click selects the next element out. After the outermost block comes **Page**, then **Behind the page**.
+
+Two notes show under **Applies to** when they apply:
+
+- A text size set on **Behind the page** changes the size of all text on your site, and text stops growing with the screen.
+- A colour you type stays the same in dark mode. Pick a colour from your theme to follow light and dark mode.
 
 ---
 
@@ -727,7 +765,7 @@ The CSS tab does not save CSS that would break the rest of your site. A brace, b
 
 ## Your Own CSS
 
-The Styler can do most things with its controls. For anything it cannot do yet, write your own CSS. In a website's builder, the top of the **Styles** panel has a **Site stylesheet** button (the page icon) beside **Visual** and **CSS**. With nothing selected, Styles opens on it.
+The Styler can do most things with its controls. For anything it cannot do yet, write your own CSS. In a website's builder, the top of the **Styles** panel has a **Site stylesheet** button (the page icon) beside **Visual** and **CSS**.
 
 ![The Styles panel on the Site stylesheet, with the Whole site, This layout and This page switch above the CSS editor](../images/website-builder/styler-stylesheet.png)
 
@@ -744,7 +782,7 @@ Your CSS comes after the Styler's own styles: first the whole site's, then the l
 ### Writing and Publishing CSS
 
 1. Open your page in the Website Builder.
-2. Click on empty space so that nothing is selected, then click **Styles**. Or click **Site stylesheet** at the top of Styles.
+2. Click **Styles**, then click **Site stylesheet** at the top.
 3. Choose **Whole site**, **This layout** or **This page**.
 4. Type your CSS. The page in the builder shows it as you type.
 5. Click **Publish** in the builder. Your CSS goes live on your site with the page.
