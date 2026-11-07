@@ -1,6 +1,6 @@
 # WebNesting User Documentation
 
-**Last verified:** 2026-11-04 12:54pm
+**Last verified:** 2026-11-07 11:50am
 
 Welcome to the WebNesting help center. These guides will help you build and manage your website.
 
@@ -44,6 +44,7 @@ Welcome to the WebNesting help center. These guides will help you build and mana
 | [Modules and Features](dashboard/modules-and-features.md) | Enable add-on features like articles, events, and e-commerce |
 | [Team and Permissions](dashboard/team-and-permissions.md) | Invite team members, set roles, and manage access |
 | [Analytics and Reports](dashboard/analytics.md) | Track visitors, pageviews, traffic sources, and more |
+| [Dashboards](dashboard/dashboards-and-reports.md) | Put your numbers from every product on one page and share it with your team |
 | [Themes and Customization](dashboard/themes-and-customization.md) | Change your theme, customize colors, and choose the right look |
 | [Billing and Usage](dashboard/billing-and-usage.md) | Understand your bill, pricing, usage tracking, and manage costs |
 | [Account Security](dashboard/account-security.md) | Passwords, two-factor authentication, SSO, and keeping your account safe |

@@ -1,6 +1,6 @@
 # Products and E-Commerce
 
-**Last verified:** 2026-11-07 11:37am
+**Last verified:** 2026-11-07 11:50am
 
 The E-Commerce module turns your WebNesting website into an online store. You can list products, manage orders, and give your customers a place to browse and buy -- all from the same dashboard you use to manage the rest of your site.
 
@@ -230,7 +230,7 @@ Photos are the most important part of selling online. Customers cannot touch or 
 
 ### Price Clearly
 
-Make sure your prices are accurate and easy to understand. If there are additional costs (like shipping), mention them in the product description so customers are not surprised at checkout.
+Make sure your prices are accurate and easy to understand. If there are additional costs (like shipping), mention them in the product description so customers know the full price before they order.
 
 ### Keep Inventory Up to Date
 
