@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-11-07 10:13am
+**Last verified:** 2026-11-07 10:37am
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
