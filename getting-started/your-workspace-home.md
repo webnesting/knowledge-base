@@ -1,6 +1,6 @@
 # Your Workspace Home: A Quick Daily Check-In
 
-**Last verified:** 2026-11-01
+**Last verified:** 2026-11-07 9:40am
 
 Your workspace home shows the numbers you check most, on one screen. If your workspace has Marketing, Helpdesk and Tasks turned on, you can see your email results, your open tickets and your own tasks without opening each area. This guide shows a short daily routine that stays inside WebNesting.
 
@@ -15,8 +15,10 @@ Sign in and click your workspace. The home screen opens with cards. You may see:
 - **Workspace Overview** -- how many sites, members and products the workspace has
 - **Quick Actions** -- shortcuts such as **Create a Site** and **Invite Member**
 - **Marketing Stats** -- your contacts, campaigns, lists and active automations
+- **Analytics - Traffic Chart**: pageviews, visitors, average duration and bounce rate for all your sites, or for one site you pick in the card's settings
 - **Helpdesk Stats** -- open tickets, unassigned tickets, tickets closed today and the average response time
 - **My Work** -- the tasks assigned to you
+- **Upcoming Deadlines**: the tasks due soon, with the nearest date first
 - **Usage and Cost** -- this month's charges so far, your estimated total, your bill by product and a usage chart
 - **Website Bandwidth** -- the GB your websites sent this month, the free GB left, and your top sites and files
 - **Email Reputation** -- your bounce and complaint rates, your sending status and your daily sends
@@ -24,7 +26,15 @@ Sign in and click your workspace. The home screen opens with cards. You may see:
 - **Media Library** -- how many files you have and how much storage they use, by file type
 - **Workspace Activity** -- the latest changes in your workspace and who made them
 
-The Marketing, Helpdesk and My Work cards appear only when that product is turned on for the workspace. The account cards (Usage and Cost, Website Bandwidth, Email Reputation, API Usage, Media Library and Workspace Activity) are not on by default: click **Add Widget** to add one. You see one only if you have permission to see its data. For example, Usage and Cost needs permission to see **Billing**. To change what shows, click **Add Widget** or **Reset Layout** at the bottom of the screen.
+Under the title, a row of chips shows your member and site counts and the products that are on, such as **Marketing**, **Helpdesk**, **Tasks**, **Internal Docs** and **API Access**.
+
+The Marketing, Helpdesk and My Work cards appear only when that product is turned on for the workspace. Other cards are not on by default: click **Add Widget** to add one. These include Team Workload, Team Inbox, Team Activity, Contacts Growth, Usage and Cost, Website Bandwidth, Email Reputation, API Usage, Media Library and Workspace Activity. You see one only if you have permission to see its data. For example, Usage and Cost needs permission to see **Billing**.
+
+Cards marked **Per site** start on all your sites. Pick one site in the card's settings.
+
+To change what shows, click **Add Widget** or **Reset Layout** at the bottom of the screen.
+
+![The Add a widget window listing the cards you can add, from Workspace Overview to Usage and Cost](../images/getting-started/workspace-home-add-widget.png)
 
 ---
 
@@ -34,6 +44,8 @@ The Marketing, Helpdesk and My Work cards appear only when that product is turne
 
 1. Click **Helpdesk** in the left bar.
 2. In the menu that opens, click **Unclaimed**.
+
+![The Helpdesk menu with Unclaimed ringed, beside the workspace home cards](../images/getting-started/workspace-home-helpdesk-unclaimed.png)
 
 If you see **No tickets found**, nobody is waiting for a first reply. If tickets are listed, open one and assign it to someone.
 
