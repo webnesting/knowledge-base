@@ -1,6 +1,6 @@
 # URL Redirects
 
-**Last verified:** 2026-11-03 10:41am
+**Last verified:** 2026-11-07 10:36am
 
 Sometimes you need to change a page's web address, or you want to point an old address to a new one. Redirects make sure that anyone who visits the old address is automatically sent to the right place -- no dead ends, no error pages.
 
@@ -24,10 +24,13 @@ Here are some common reasons to use redirects:
 
 You can see all the redirects currently set up on your site.
 
-![The URL Redirects page with options to create new redirects](../images/dashboard/url-redirects.png)
-
 1. Open your WebNesting dashboard.
-2. In the site menu, open **Settings** and click **URLs and Redirects**. The page is titled **URL Redirects**. You can narrow the list with the filters for **Type** and **Target**.
+2. In the site menu, open **Settings** and click **URLs and Redirects**. The page is titled **URL Redirects**. You can narrow the list with **Filters**, for **Type** and **Target**.
+
+![The site menu with Settings open and URLs and Redirects ringed](../images/dashboard/url-redirects-site-menu.png)
+
+![The URL Redirects page with a list of redirects, each with its input path, target and type](../images/dashboard/url-redirects.png)
+
 3. You will see the **Active Redirects** list, showing:
    - **Input Path** -- The old address that visitors might try to visit.
    - **Target** -- Where they will be sent instead.
@@ -43,6 +46,8 @@ Setting up a new redirect takes just a minute.
 2. Click **+ New Redirect**.
 3. Fill in the following fields:
 
+![The New Redirect form with an input path, an output page and the Type list ringed](../images/dashboard/url-redirects-new-redirect.png)
+
 ### Setting the Input Path (Old Address)
 
 This is the address you want to redirect away from -- the old or incorrect URL.
@@ -51,7 +56,9 @@ This is the address you want to redirect away from -- the old or incorrect URL.
 
 > **Tip:** Always start the input path with a forward slash (`/`). For example: `/about-us`, `/services/consulting`, `/blog/old-post-title`.
 
-To cover a whole section at once, tick **Also match every address under this path**. For example, `/support` then also covers `/support/articles/1`, but not `/supportive`. Every address it covers goes to the same destination. A rule for one exact address always wins over a rule that covers a whole section. Of two section rules, the more specific one wins.
+To cover a whole section at once, tick **Also match every address under this path**. For example, `/support` then also covers `/support/articles/1`, but not `/supportive`. Every address it covers goes to the same destination.
+
+![A Gone rule for a whole section, with the Also match every address under this path box ringed and no Output menu](../images/dashboard/url-redirects-section-gone.png) A rule for one exact address always wins over a rule that covers a whole section. Of two section rules, the more specific one wins.
 
 ### Setting the Output (Where It Goes)
 
@@ -93,6 +100,9 @@ You can change any redirect at any time.
 1. Open the **URL Redirects** page.
 2. Find the redirect you want to change in the list.
 3. Click on it, or open the **⋮** menu at the end of its row and choose **Edit**.
+
+![The menu at the end of a redirect row with Edit and Delete](../images/dashboard/url-redirects-row-menu.png)
+
 4. Update the source URL, destination, or redirect type as needed.
 5. Click **Save Changes**.
 
