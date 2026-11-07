@@ -1,8 +1,10 @@
 # Contacts Management
 
-**Last verified:** 2026-10-31 3:46pm
+**Last verified:** 2026-11-07 10:06am
 
 Contacts are your audience database in WebNesting. Every person who submits a form on your website, signs up for your newsletter, or is imported from a spreadsheet becomes a contact. Use the Contacts system to keep track of who your audience is, organize them into lists, and connect them to your marketing, forms, and support tools.
+
+![The Contacts list showing name, company, tags, status and created date, with the Add Contact button ringed in orange](../images/dashboard/contacts-management-contact-list.png)
 
 ---
 
@@ -41,6 +43,8 @@ If you have an existing list of contacts in a spreadsheet, you can import them a
 
 ### How to Import
 
+![The Import contacts window with the Choose CSV File button ringed in orange](../images/dashboard/contacts-management-import-csv.png)
+
 1. Go to the **Contacts** section in your workspace sidebar.
 2. Click the **Import CSV** button.
 3. Click **Choose CSV File** and pick your file.
@@ -69,6 +73,8 @@ For the smoothest import experience:
 ## Contact Details
 
 Click a contact in your list to open their page. It slides out over the list, so you keep your place. Use the arrows at the top to move to the previous or next contact in the list, and the link icon to copy a link to this contact.
+
+![A contact's page showing their details, tabs and recent activity](../images/dashboard/contacts-management-contact-detail.png)
 
 The page has two parts:
 
@@ -175,6 +181,8 @@ The widget only appears for people who can view contacts.
 
 Lists help you organize your contacts into groups. You can use lists to keep track of different audiences, target specific people with email campaigns, or simply stay organized.
 
+![The Lists page showing each list with its type and contact count, and the Add List button ringed in orange](../images/dashboard/contacts-management-lists.png)
+
 There are two types of lists:
 
 ### Manual Lists
@@ -211,6 +219,8 @@ Tags are color-coded labels you attach to contacts to categorize them in flexibl
 
 Common tag examples: "VIP," "New Lead," "Attended Workshop," "Purchased," "Follow Up Needed."
 
+![The Tags page showing color-coded tags with contact counts, and the Add Tag button ringed in orange](../images/dashboard/contacts-management-tags.png)
+
 ### Creating a Tag
 
 1. Go to **Contacts → Tags**.
@@ -244,6 +254,8 @@ Every contact that had one of the merged tags keeps the tag you kept, and the ot
 ## Companies
 
 Companies let you associate contacts with the organizations they belong to. This is especially useful for B2B businesses where you work with multiple people at the same company.
+
+![The Companies page showing each company with domain, industry and contact count, and the Add Company button ringed in orange](../images/dashboard/contacts-management-companies.png)
 
 ### Company Information
 
