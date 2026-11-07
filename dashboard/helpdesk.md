@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-11-07 10:34am
+**Last verified:** 2026-11-07 12:46pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -522,6 +522,96 @@ Once you have a verified domain (Option 4) with DMARC enforcement, you can show 
 | VMC verified (logo + cert) | $1,500-$3,000/yr | Yahoo, La Poste, **Gmail, Apple Mail** |
 
 The BIMI section in the wizard tells you which tier you're currently at and what's needed to reach the next one.
+
+---
+
+## Filtering Email
+
+Some email never needs a reply: newsletters, notices from a service you use, test messages and automatic replies. Email filters keep that mail out of your ticket list, so your team sees only the email that needs them. Filtered email waits in **Filtered** for 30 days, and one click brings any of it back.
+
+### Adding an Email Filter
+
+1. Click **Settings** in the Helpdesk menu.
+2. Open the **Email Filters** tab.
+3. Click **+ Add Filter**.
+4. Choose what to check, how to compare it, and the value. For example: **Sender domain** **is** `example.com`.
+5. To add another condition, click **+ Add Condition**. An email must match all the conditions.
+6. Under **Then**, choose what happens to a matching email.
+7. Click **Save Filter**.
+
+You can check these parts of an email:
+
+| Check | What it looks at |
+|---|---|
+| Sender address | The full address the email came from |
+| Sender domain | The part after the @ in the sender's address |
+| Sent to (To or Cc) | Every address the email went to, including addresses like support+test@ |
+| Subject | The subject line |
+| Is an automatic message | Whether a machine sent it, such as an auto-reply or a newsletter |
+
+You can compare with **is**, **contains**, **starts with** or **ends with**. Upper and lower case are the same. A `*` matches any text, so `*.example.com` matches every address at a subdomain of example.com.
+
+### What a Filter Can Do
+
+| Choice | What happens |
+|---|---|
+| **Move to Filtered** (the usual choice) | The email skips the ticket list, notifications and automations. It waits in Filtered for 30 days. |
+| **Close quietly** | The email becomes a closed ticket that you can search. Nobody gets a notification and the customer gets no automatic reply. <!-- qc-ignore: seeded-copy-tells until 2027-05-07 owner marketing — "Close quietly" is the action's exact label in the app, and the guide names it as the reader sees it --> |
+| **Delete immediately** | The Helpdesk makes no ticket, and you cannot bring the email back. Only your activity log records it. |
+
+> **Warning:** You cannot restore a deleted email. That is why **Delete immediately** sits under **Advanced**. Use it only for mail you are sure nobody needs.
+
+### The Order of Your Filters
+
+The Helpdesk checks each new email against your filters from the top of the list, and the first filter that matches decides. Drag a filter to change the order.
+
+A reply to an existing ticket is never filtered, so a customer who answers your team always reaches that ticket.
+
+### Test a Filter
+
+**Test a Filter**, below your filters, shows what would happen to an email before one arrives. Type a sender, an address it went to and a subject. The box tells you whether the email becomes a normal ticket, goes to Filtered, or is closed or deleted, and which filter decides. The test sends and saves nothing.
+
+While you edit a filter, the same test email tells you whether it matches the filter you are editing.
+
+### Never Filter
+
+Mail from a sender on the **Never Filter** list always becomes a ticket, whatever your filters say. Add a customer or partner by address (name@example.com) or by domain (example.com). A domain also covers its subdomains.
+
+### Built-in Filters
+
+The Helpdesk also catches common machine mail for you. Each built-in filter moves mail to Filtered and never deletes it. You can turn each one on or off.
+
+| Built-in filter | Starts | Why |
+|---|---|---|
+| Mail system messages | On | Mail from mailer-daemon and postmaster addresses comes from mail servers. |
+| Bounced emails | On | A notice that an email could not be delivered needs no answer. |
+| Out-of-office replies | On | An "I am away" reply needs no answer either. |
+| Mail from your own helpdesk address | On | Mail from your own support address can start a loop of replies. |
+| Bulk and automatic mail | Off | Newsletters carry the same marks as mail from some contact forms and customer tools. If you turn it on, check Filtered often for real messages. |
+
+The Helpdesk checks your own filters first, then the built-in ones.
+
+### The Filtered List
+
+Open **All** in the Helpdesk menu and click the **Filtered** tab. Each email shows its sender, its subject, the filter that caught it and when it arrived. Click an email to read all of it.
+
+- **Restore** turns the email into a normal open ticket. Notifications, the automatic reply and automations run then, as if the email had just arrived.
+- **Always Allow Sender** adds the sender to Never Filter and restores the email.
+- **Delete Forever** deletes the email now.
+
+The Helpdesk deletes each filtered email 30 days after it was filtered. Filtered email stays out of your ticket counts, the sidebar numbers, reports and SLA times.
+
+### Filter Sender From a Ticket
+
+When a ticket does not belong in your list, open it and click **Filter Sender**. Then choose one:
+
+- **This email only** moves this ticket to Filtered and adds no filter.
+- **Everything from** the sender's address adds a filter for that address.
+- **Everything from** the sender's domain adds a filter for the whole domain. Domains that many people share, such as gmail.com, do not have this choice.
+
+If the sender has other open tickets, a checkbox offers to move those too, and says how many it moves. It stays off until you tick it.
+
+> **Tip:** An email that a filter moves to Filtered or closes still counts as a ticket on your plan. A deleted email does not.
 
 ---
 
