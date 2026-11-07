@@ -1,6 +1,6 @@
 # Creating a Website
 
-**Last verified:** 2026-11-07 10:11am
+**Last verified:** 2026-11-07 10:37am
 
 Ready to build your first site? This guide walks you through creating a new website on WebNesting.
 
