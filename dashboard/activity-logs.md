@@ -1,10 +1,10 @@
 # Activity Logs
 
-**Last verified:** 2026-11-01 5:41pm
+**Last verified:** 2026-11-07 10:25am
 
 Activity logs keep a record of everything that happens on your site. Every time someone makes a change -- whether it is editing a page, updating settings, or managing team members -- it is recorded in the activity log.
 
-![The Activity Log widget showing recent site changes](../images/dashboard/activity-log.png)
+![The site dashboard with the Activity Log widget circled in orange, listing recent page changes with who made them and when](../images/dashboard/activity-log.png)
 
 The Activity Log shows recent actions taken in your site's dashboard, including page edits, setting changes, and content updates.
 
@@ -30,13 +30,13 @@ Each log entry includes what happened, who did it, and when it occurred.
 
 To view your site's activity log:
 
-1. Go to your **Dashboard**.
+1. Open your site and go to its **Dashboard**.
 2. Look for the **Activity Log** widget. It shows a timeline of recent actions on your site.
 3. Each entry shows what was changed, who made the change, and how long ago it happened.
 
 The most recent activity appears at the top, so you can quickly see what has been happening on your site.
 
-> **Tip:** If the Activity Log widget is not on your dashboard, click the **Add Widget** button and select "Activity Log" from the list.
+> **Tip:** If the Activity Log widget is not on your dashboard, click **+ Add Widget** at the bottom of the page and select **Activity Log** from the list.
 
 ---
 
@@ -67,10 +67,15 @@ The workspace has its own activity log. It shows workspace-level changes and the
 
 The Activity Log widget on your dashboard shows the most recent entries. You can adjust how many entries are shown:
 
-1. Open the Activity Log widget's settings by clicking the settings icon (the gear icon) on the widget.
+1. Click the gear icon in the top right corner of the Activity Log widget.
+
+   ![The gear icon on the Activity Log widget](../images/dashboard/activity-logs-widget-settings-icon.png)
+
 2. In **Number of entries**, choose 10, 25 or 50 entries.
-3. In **Filter by type**, choose which kind of activity to show.
-4. Save your choice.
+3. In **Filter by type**, choose **All activity**, **Page edits**, **Settings changes** or **User activity**.
+4. Click **Save Settings**.
+
+![The Activity Log Settings dialog with the Number of entries setting circled in orange, above Filter by type](../images/dashboard/activity-logs-widget-settings.png)
 
 > **Tip:** If you are looking for a specific change, try filtering by type first. This narrows down the list and makes it easier to find what you need.
 
@@ -97,6 +102,8 @@ In addition to workspace-level events, the log also shows activity from all your
 
 ### Viewing the Workspace Activity Log
 
+![The workspace Activity Log page with the Event History list of time, event, source and resource, and the Filters button circled in orange](../images/dashboard/activity-logs-workspace-page.png)
+
 1. Go to your **Workspace** dashboard.
 2. Click **Settings** at the bottom of the icon rail, then **Activity Log**.
 3. You will see a chronological list of all activity across your workspace and sites.
@@ -118,7 +125,11 @@ The workspace activity log includes several filters to help you find specific ac
 - **When** — Choose **Any time**, **Today**, **Last 7 days**, **Last 30 days** or **Custom** (a start and an end date). The dates are your own days, in the timezone on your profile — the same days the list shows next to each entry.
 - **Search** — Type keywords to search across all activity entries
 
-Filters apply the moment you pick them -- there is nothing to submit. If you use the same combination often, click **Save as view…** in the filter panel to keep it as a named view you can return to with one click.
+To open the filters, click **Filters** at the top right of the page.
+
+![The Filters panel open beside the Event History list, with the Source, Resource and When choices and a Page resource filter applied](../images/dashboard/activity-logs-workspace-filters.png)
+
+Filters apply the moment you pick them, so there is nothing to submit. If you use the same combination often, click **Save as View…** in the filter panel to keep it as a named view you can return to with one click.
 
 > **Tip:** Use the source filter to quickly see all changes made to a specific site, or set it to "Workspace" to see only workspace-level management activity.
 

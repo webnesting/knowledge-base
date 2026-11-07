@@ -1,6 +1,6 @@
 # Database Tables
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-11-07 10:23am
 
 The **Database Tables** section (in your site menu, under **Settings**) is where you define the structure of your own custom content types. Think of it as creating a spreadsheet -- you choose what columns it has, what kind of information each column holds, and how different tables relate to each other.
 
@@ -30,7 +30,7 @@ If you can imagine it as a spreadsheet with rows and columns, you can build it a
 
 Each table in the list shows its name, a short line about what it holds, and how many columns it has. Click a table, or its **Columns** button, to see its columns.
 
-![The Database Tables page listing available tables with their descriptions](../images/dashboard/database-tables.png)
+![The Database Tables page listing the site's tables with their descriptions and column counts, and the Create Table button circled in orange](../images/dashboard/database-management-table-list.png)
 
 > **Tip:** If you do not see **Database Tables** in your menu, you may need to ask your site administrator to grant you permission.
 
@@ -51,6 +51,8 @@ Setting up a new table is straightforward. You will give it a name and some basi
    - **Advanced → Internal name** -- You can leave this alone. It is generated from the display name and used behind the scenes (in code and the API). It can only contain letters and numbers, and it can't be changed after the table is created.
 4. Click **Create Table**.
 
+![The Create Table form with the Display Name field circled in orange, and the Description, Parent table and Advanced options below](../images/dashboard/database-management-create-table.png)
+
 After creating the table, you will be taken to the columns page where you can start adding fields.
 
 > **Tip:** Choose a clear and descriptive display name. This name will appear in your dashboard menus, so "Team Members" is much better than "TM Data" or "Table 3."
@@ -69,6 +71,8 @@ Columns define what information each entry in your table contains. For example, 
 4. Fill in the details for your new column (described below).
 5. Click **Create Column** when you are done.
 
+![The New Column form with the Display Name field circled in orange, and the Type, Default Value and checkbox settings below](../images/dashboard/database-management-new-column.png)
+
 ### Column Settings
 
 Each column has several settings you can configure:
@@ -81,6 +85,7 @@ Each column has several settings you can configure:
 - **Required** -- Check this box if every entry must have a value for this column. If checked, you will not be able to save an entry without filling in this field.
 - **Unique** -- Check this box if no two entries can have the same value in this column. Useful for things like email addresses or employee IDs. If you mark a column as Unique, the system will prevent you from saving an entry with a duplicate value in that column.
 - **Show in List** -- Check this box if you want this column's value to appear when browsing entries in a list view.
+- **Per Language**: Check this box if each of your site's languages should get its own text for this column. It only shows for text-type columns.
 
 ### Column Types Explained
 

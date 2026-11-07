@@ -1,6 +1,6 @@
 # Connecting an AI Tool
 
-**Last verified:** 2026-11-05 8:25pm
+**Last verified:** 2026-11-07 10:25am
 
 You can connect an AI assistant — like Claude Desktop, Claude Code, or Cursor — directly to your WebNesting workspace. Once connected, you can ask the AI to look things up and make changes for you in plain language: "list my draft articles," "create a new event for next Friday," "what's my current usage this month." The AI works **as you**, with **your** permissions, and never sees your password.
 
@@ -29,6 +29,8 @@ The exact button labels vary by app, but the flow is always the same:
 3. Your browser opens to **WebNesting**. Sign in the way you normally do (your browser may already have you signed in).
 4. You'll see a short approval screen titled **Connect {your AI app}**. It says the app wants to connect and act as you, with your account and your permissions. Pick **which workspaces** the AI may access — tick one or several. If you only have one workspace, it's selected for you.
 5. Click **Connect {your AI app}**. A page says **You're connected**, and you can return to your AI app, which is now linked. That's it — no token to copy, nothing to keep secret.
+
+![The approval screen, with its list of workspaces and the Example workspace ticked in orange](../images/dashboard/connecting-ai-tools-approval-screen.png)
 
 Changed your mind, or don't recognise the app asking? Click **Cancel** instead. You're sent back to the AI app, nothing is connected, and the app is told you said no.
 
