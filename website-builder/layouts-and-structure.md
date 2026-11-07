@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-07 10:49am
+**Last verified:** 2026-11-07 4:07pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -258,6 +258,8 @@ To use them:
 2. Click **Settings**.
 3. Open **Spacing**.
 4. Pick a size in **Space between rows**, or tick **Line above**.
+
+A Section also has a **Section style** panel. **Background** sets the look of the section's background: **Plain** (the default) keeps the page's own background, **Page heading** adds a soft glow and faint dots behind the title with extra space above, and **Tinted** gives a light tinted background with a thin line at the top and bottom. Pick one at a time. Your theme chooses the colors, so each style fits every theme, in light and dark mode.
 
 A Section also has a **Band spacing** panel. **Space above and below** sets the space between the section's edges and its content: **Small**, **Medium**, **Large** or **X-large**. Each size looks the same in every theme. It is smaller on a phone. **Theme default** keeps your theme's space.
 
