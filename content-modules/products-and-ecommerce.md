@@ -1,6 +1,6 @@
 # Products and E-Commerce
 
-**Last verified:** 2026-11-01 8:07am
+**Last verified:** 2026-11-07 11:37am
 
 The E-Commerce module turns your WebNesting website into an online store. You can list products, manage orders, and give your customers a place to browse and buy -- all from the same dashboard you use to manage the rest of your site.
 
@@ -94,6 +94,8 @@ Your products appear in a list in your dashboard. You can browse through them an
 2. Select **Filters** at the top right and set **Status** to **Published**, **Draft** or **Trashed**.
 3. Scroll through the list to browse all your products. The **Search** bar at the top of the dashboard also finds a product by name.
 
+![The Products list with a draft product on each row](../images/content-modules/products-list.png)
+
 ### Product Status (Draft vs. Published)
 
 Like other content in WebNesting, products can be saved as drafts or published.
@@ -117,7 +119,11 @@ You can view and manage your orders from your dashboard, and add an order yourse
 2. You will see a list of your orders.
 3. Click an order to open it.
 
+![The Orders list with one order](../images/content-modules/store-orders-list.png)
+
 ### Order Details
+
+![The New Order form with Status set to Processing and Payment Status set to Paid](../images/content-modules/store-order-editor.png)
 
 Click on any order in the list to see its full details:
 
@@ -188,6 +194,9 @@ A Product List shows a collection of your products -- perfect for a "Shop" or "P
 1. Open the page where you want to display products in the **Website Builder**.
 2. Open the **Add** panel.
 3. Look for **Product List** in the **Site modules** group.
+
+![The Add panel with the Product List and Product Detail components under Site modules](../images/content-modules/products-add-product-list.png)
+
 4. Drag the Product List component onto your page.
 5. The component will automatically display your published products.
 6. Save your page.

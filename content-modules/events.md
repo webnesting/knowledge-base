@@ -1,6 +1,6 @@
 # Events
 
-**Last verified:** 2026-11-01 8:07am
+**Last verified:** 2026-11-07 11:37am
 
 The Events module lets you create and manage event listings on your website. Whether you host workshops, classes, concerts, conferences, or community meetups, this module gives you the tools to promote your events and share all the important details with your visitors.
 
@@ -41,6 +41,8 @@ Here is how to create an event listing for your website.
 3. The event editor opens with four tabs: **Event**, **Primary Ticket**, **Page** and **Content**. Most of what you fill in is on the **Event** tab.
 4. To give the event its own page on your site, open the **Page** tab and turn on **Enable page for this record**. Fill in **Title**, **Page URI** and **Layout** (choose **Event**).
 5. Select **Create**.
+
+![The Page tab with Enable page for this record, Title, Page URI and Layout set to Event](../images/content-modules/events-page-tab.png)
 
 ![The event editor with showings and ticket configuration](../images/content-modules/event-editor.png)
 
@@ -133,7 +135,7 @@ For example, if your "Holiday Craft Fair" runs on December 10, 11, and 12, you w
 
 1. Open the event.
 2. Find the showing you want to remove.
-3. Click **Remove** next to it and confirm.
+3. Click the trash icon on its card and confirm.
 4. Save your event.
 
 > **Tip:** Showings are what help your visitors see when your event is happening at a glance. Even if your event only happens once, add a showing so the date and time appear on your event page.
@@ -157,6 +159,8 @@ If your event requires tickets or registration, you can set up ticket informatio
    - **Link** -- A web address where visitors can buy the ticket (such as a link to an external ticketing service).
    - **Image** -- An optional image for the ticket.
 5. Save your event.
+
+![The Primary Ticket tab with Title, Description, On Sale Start, On Sale End and Link](../images/content-modules/events-primary-ticket.png)
 
 ### Multiple Ticket Types
 
@@ -216,6 +220,9 @@ An Event List displays a collection of your events -- perfect for an "Events" or
 1. Open the page where you want to display events in the **Website Builder**.
 2. Open the **Add** panel.
 3. Look for **Event List** in the **Site modules** group.
+
+![The Add panel with the Event List and Event Detail components under Site modules](../images/content-modules/events-add-event-list.png)
+
 4. Drag the Event List component onto your page.
 5. The component will automatically display your published events with their titles, dates, images, and links to read more.
 6. Save your page.

@@ -1,6 +1,6 @@
 # Custom Data Tables
 
-**Last verified:** 2026-10-27 3:20pm
+**Last verified:** 2026-11-07 11:37am
 
 Custom data tables let you store and organize any kind of information on your website. Think of them like spreadsheets -- you create a table, set up columns for the information you want to track, and then add rows of data. That data can then be displayed on your website however you like.
 
@@ -57,30 +57,40 @@ Here is how to set up a custom data table from scratch.
 1. Select **+ Create Table**.
 2. Enter a **Display Name**. This is the name that appears in menus and lists. Use a clear, descriptive name like "Team Members," "Testimonials," or "FAQ."
 3. Optionally add a **Description**. Leave **Parent table** on **None** unless the table belongs under another one.
-4. Select **Create Table**.
+4. Select **Advanced** to see the **Internal name**. It comes from the display name and uses letters and numbers only. You cannot change it after you create the table.
+5. Select **Create Table**.
+
+![The Create Table form with Display Name, Description, Parent table and the Advanced section](../images/content-modules/custom-table-create.png)
 
 > **Tip:** Use a singular name for your table (like "Team Member" instead of "Team Members"). WebNesting will handle the plural form automatically where needed.
-
-![The table editor showing columns and their configuration](../images/content-modules/custom-table-editor.png)
 
 ### Step 3 -- Add Columns
 
 Columns define what information each entry in your table will hold. Think of columns as the headers in a spreadsheet -- they describe what goes in each cell.
 
-1. After you select **Create Table**, the table's **Columns** page opens. It says "No custom columns yet."
+1. After you select **Create Table**, the table's **Columns** page opens, with the buttons **Options**, **Edit Table** and **+ Add Column**. It says "No custom columns yet."
 2. Select **+ Add Column**. The **New Column** form opens.
 3. For each column, fill in:
-   - **Display Name** -- The label for this column. This is what you will see when adding or editing entries. For example, "Full Name" or "Job Title."
-   - **Field Name** -- An internal name used by the system. This is generated automatically from the display name. It uses lowercase letters, numbers and underscores (like `full_name` or `address_2`), and never starts with a number.
-   - **Type** -- What kind of information this column holds (see the section below for details).
-   - **Default Value** -- A value that fills in for each new entry. Leave it empty if you do not need one.
+   - **Display Name**: The label for this column. You see it when you add or edit entries. For example, "Full Name" or "Job Title."
+   - **Field Name**: An internal name used by the system. It comes from the display name. It uses lowercase letters, numbers and underscores (like `full_name` or `address_2`), and never starts with a number.
+   - **Type**: What kind of information this column holds (see the section below for details).
+   - **Default Value**: A value that fills in for each new entry. Leave it empty if you do not need one.
+   - **Tab** and **Group**: Where the field sits in the entry form. Leave both empty to keep the default place.
+   - **Description**: Help text that shows under the field when you add or edit an entry.
 4. You can also set some optional settings for each column:
-   - **Required** -- Check this if every entry must have a value in this column.
-   - **Unique** -- Check this if no two entries should have the same value in this column (for example, an email address). If you mark a column as Unique, the system will prevent you from saving an entry with a duplicate value in that column.
-   - **Show in List** -- Check this if you want this column to appear in the list view of your entries.
-   - **Per Language** -- For a text, text area, rich text or markdown column. Check it to write the column's text in each of your site's languages. With more than one language, each entry has a row of language names over that field, and a visitor reads the text in the language of the page. A language you leave empty shows your main language's text. With one language, the field works as before.
+   - **Multiple**: Check this if one entry can hold several values in this column.
+   - **Required**: Check this if every entry must have a value in this column.
+   - **Unique**: Check this if no two entries can have the same value in this column (for example, an email address). WebNesting blocks an entry that repeats a value.
+   - **Show in List**: Check this if you want this column in the list view of your entries.
+   - **Per Language**: For a text, text area, rich text or markdown column. Check it to write the column's text in each of your site's languages. With more than one language, each entry has a row of language names over that field, and a visitor reads the text in the language of the page. A language you leave empty shows your main language's text. With one language, the field works as before.
 5. Select **Create Column**. The column shows in the list.
 6. Repeat for each column you need.
+
+![The New Column form with Required and Show in List selected](../images/content-modules/custom-table-new-column.png)
+
+Each column row shows badges for its type and settings, such as **Text**, **Required** and **In List**.
+
+![The Columns page of a Team Member table with four columns](../images/content-modules/custom-table-columns.png)
 
 ---
 
@@ -198,12 +208,19 @@ When you choose this type, you will also select:
 
 Once your table and columns are set up, you can start adding data. Each entry is like a row in your spreadsheet.
 
-1. In the site menu, select your table. (After you create a table, it appears below **Pages** under its plural name, for example **Team Members**.)
+1. In the site menu, select your table. (After you create a table, it appears in the site menu under its plural name, for example **Team Members**.)
+
+![The site menu with the Team Members table](../images/content-modules/custom-table-list.png)
+
 2. Select the **+ New** button with your table's name (for example, **+ New Team Member**).
 3. Fill in the fields for each column you set up. For example, if your table has columns for Name, Photo, and Bio, you will see a form with fields for each one.
 4. Select **Create**.
 
-Repeat this for each item you want to add.
+![The New Team Member form with the fields from the table's columns](../images/content-modules/custom-table-new-entry.png)
+
+Repeat this for each item you want to add. The entries list shows the columns you marked **Show in List**.
+
+![The Team Member entries list with three entries](../images/content-modules/custom-table-entries.png)
 
 > **Tip:** You do not have to fill in every field right away. Required fields must be completed, but optional fields can be left blank and filled in later.
 
