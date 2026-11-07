@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-11-07 2:40pm
+**Last verified:** 2026-11-07 3:46pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -107,7 +107,7 @@ When two places set the same thing, this page wins over the layout, and the layo
 
 In Layers, **Page** sits inside **Behind the page**, and your page's blocks sit inside **Page**. You cannot move, copy or delete these two rows. On the page, the one you picked has the blue outline and its name, with no move, copy or delete buttons.
 
-To reach them from the page, hold **Shift** and click a block. Each Shift-click selects the next element out. After the outermost block comes **Page**, then **Behind the page**.
+To reach them from the page, hold **Shift** and click a block. Each Shift-click selects the next element out. After the outermost block comes **Page**, then **Behind the page**. You can also right-click and pick **Select parent**, or press the left arrow, to climb the same way.
 
 Two notes show under **Applies to** when they apply:
 
