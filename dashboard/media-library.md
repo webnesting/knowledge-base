@@ -1,6 +1,6 @@
 # Files (File Manager)
 
-**Last verified:** 2026-11-03 4:41pm
+**Last verified:** 2026-11-07 10:27am
 
 The File Manager is where every file in your workspace lives — images, videos, documents, helpdesk email attachments, and files visitors upload through your forms. Think of it as your workspace's file cabinet: one place, organized in folders, just like the files on your computer.
 
@@ -19,7 +19,9 @@ There are two ways to open the File Manager:
 
 Both show the same files and folders.
 
-![The File Manager showing uploaded images with search, upload, and external media options](../images/dashboard/media-manager.png)
+![The File Manager showing a grid of pictures, with search, a file type filter, sorting, and the storage total on the right](../images/dashboard/media-manager.png)
+
+Above your files, **Search files…** finds a file by name. The first list narrows the view to one kind of file: **Images**, **Missing Alt Text**, **Videos**, **Documents**, **Audio**, **Archives** or **Animations**. The second list sorts by **Date**, **Name**, **Size** or **Type**, and the two buttons after it switch between a grid and a list. When no file is selected, the panel on the right shows how many files you have and how much storage they use.
 
 ---
 
@@ -41,7 +43,7 @@ Managed folders can't be renamed or deleted (files land in them automatically), 
 
 1. Open **Files** from the top bar.
 2. Navigate to the folder you want the files in (or stay at Root).
-3. Click **Upload files** and choose one or more files — or simply drag files from your computer into the window.
+3. Click **Upload** at the bottom left and choose one or more files. You can also drag files from your computer into the window.
 4. Watch the progress bar; your files appear as soon as they finish.
 
 Each file can be up to 100 MB. A larger file is stopped before it uploads, and a message says "That file is larger than 100 MB."
@@ -76,6 +78,8 @@ When you select more than one file, a bar appears above the grid with **Move to 
 
 Click any file to open its detail panel, showing:
 
+![A picture selected in the File Manager, with its Title, Alt Text, decorative option and the crop point in the panel on the right](../images/dashboard/media-library-file-details.png)
+
 - A preview of the file.
 - Editable **Title**, **Alt Text**, and **Description**. **Alt Text** is what a screen reader says about a picture; **Description** shows with the picture on your site, as its caption.
 - For a picture, **This image is decorative (no alt text needed)**. Tick it for a picture that only adds looks, such as a texture or a divider. Screen readers then skip it on every page. Alt text you already wrote is kept but not used while it is ticked, and typing new alt text unticks it.
@@ -85,6 +89,10 @@ Click any file to open its detail panel, showing:
 - Where the file came from — for example "Email attachment (Helpdesk)" or "Form upload".
 - Its virus-scan status.
 - **Referenced by** — the helpdesk tickets or form submissions this file is attached to, with links to jump straight there.
+
+At the bottom of the panel are four buttons: **Open** shows the file in a new tab, **Move** picks another folder, **Public** or **Private** switches who can see it, and **Delete** removes it.
+
+![The bottom of the details panel with Open, Move and Delete, and the Move button ringed](../images/dashboard/media-library-file-actions.png)
 
 > **Tip:** Always add alt text to your images. It makes your site more accessible to people using screen readers, and it can improve your search engine ranking. To find the pictures that still need it, choose **Missing Alt Text** in the file type list above your files. A picture leaves that list when you give it alt text or mark it decorative, and you move on to another file.
 

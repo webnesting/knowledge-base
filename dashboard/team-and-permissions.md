@@ -1,10 +1,10 @@
 # Team and Permissions
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-11-07 10:41am
 
 WebNesting lets you invite other people to help manage your website. You control exactly what each person can see and do by assigning them roles with specific permissions.
 
-![The Permissions page showing current admins and roles sections](../images/dashboard/permissions.png)
+![The Roles section of the Permissions page with the three built-in roles and a Create Role button](../images/dashboard/team-and-permissions-roles.png)
 
 ---
 
@@ -12,7 +12,9 @@ WebNesting lets you invite other people to help manage your website. You control
 
 Team members, roles, and permissions are all managed **at the workspace level**, in one place, and apply across every site in that workspace.
 
-To get there: open your workspace, click **Settings** at the bottom of the icon rail, then **Members & Permissions**.
+To get there: open your workspace, point at **Settings** at the bottom of the icon rail, then select **Members & Permissions**. The page is titled **Permissions**.
+
+![The Settings menu with Members & Permissions ringed](../images/dashboard/team-and-permissions-settings-menu.png)
 
 ---
 
@@ -24,6 +26,8 @@ To get there: open your workspace, click **Settings** at the bottom of the icon 
 4. Optionally, pick one or more roles. Each role card explains what it lets the person do, and you can change roles later from their member page.
 5. Optionally, add a personal message -- it goes out in the invitation email, in your words.
 6. Click **Send Invitation**.
+
+![The Invite Member window with an example email address and the Viewer role ticked](../images/dashboard/team-and-permissions-invite.png)
 
 The person receives an email with an invite link that is valid for 7 days. If it expires, you can send a new one.
 
@@ -97,6 +101,8 @@ To create a new role:
 4. Add a **Description** so you remember what this role is for.
 5. Click **Create Role**.
 
+![The Create Role form with a title and a description filled in](../images/dashboard/team-and-permissions-create-role.png)
+
 After creating the role, the permissions editor opens, where you set exactly what this role is allowed to do.
 
 ---
@@ -130,6 +136,8 @@ Allows the person to remove items. For example, Delete permission on Files lets 
 1. Go to **Settings → Members & Permissions**.
 2. Under **Roles**, click **Edit Permissions** on the role you want to change. (**Edit Role** changes only its title and description.)
 3. You will see a grid showing every feature area along the left side, and the five permission levels across the top.
+
+![The permissions grid for the Member role, with Browse, Read, Edit, Add and Delete columns](../images/dashboard/team-and-permissions-edit-permissions.png)
 4. Check the boxes to grant permission, or uncheck them to remove permission.
 5. Click **Save Permissions** when you are finished.
 
@@ -206,7 +214,7 @@ Permissions can be set at two levels:
 - **Workspace-wide** — Applies across all sites in your workspace (default)
 - **Per-site** — Applies only to a specific site
 
-When editing permissions for a role, use the site selector to switch between workspace-wide permissions and site-specific permissions. This is useful when you want a team member to have full access to one site but limited access to another.
+When editing permissions for a role, use the **Site** list at the top right to switch between workspace-wide permissions and site-specific permissions. Workspace-wide, the grid groups rows as **Workspace**, **Workspace Modules** and **Workspace Data**. For one site, it groups them as **Admin Sections**, **Content Modules** and **Builder Access**. This is useful when you want a team member to have full access to one site but limited access to another.
 
 ### Builder Access
 
@@ -217,6 +225,8 @@ When you pick a site, the matrix has a **Builder Access** group. It sets what a 
 | Page Editor | Edit pages and layouts in the Web Builder. |
 | Widget Editor | Create and edit widgets in the Widget Builder. |
 | Custom Code | Add or change code in an HTML component, in **Site Settings → Code from Other Services** and **Security Policy**, in a page's **Custom Code** group (**Edit Custom Code**), in **SEO Defaults → Extra code for every page's `<head>`**, and your own CSS in the builder (**Styles → Site stylesheet**), and publish that CSS. This code runs for every visitor to your site, so give it only to people you trust. With **Read** only, a person sees that code but cannot change it. |
+
+![The Builder Access group with the Custom Code row ringed and unticked](../images/dashboard/team-and-permissions-builder-access.png)
 
 Admins have **Custom Code** on every site. Members and new roles you create do not, until you check **Edit** on the **Custom Code** row. Site owners always have it. To give one person Custom Code without changing their role, use a member override (below).
 
@@ -242,6 +252,8 @@ Each permission for a member can be set to one of three states:
 2. Find the team member in the members list.
 3. Open the actions menu at the end of their row and select **Overrides**. The **Permission Overrides** page opens.
 4. For each feature area, choose Allow, Deny, or Inherit for each action level.
+
+![The Permission Overrides grid with an Inherit, Allow and Deny button in each cell](../images/dashboard/team-and-permissions-overrides.png)
 5. Select **Save Overrides**.
 
 > **Tip:** Overrides are useful for temporary access changes. For example, you might temporarily allow a team member to manage billing during a transition, without changing the role for everyone.
@@ -263,6 +275,8 @@ It also means your changes take effect straight away. If you untick a permission
 ## Organizing Teams
 
 Teams group teammates so work can be routed to the right people — a ticket or task assigned to a team shows up for everyone in it. Teams can sit inside other teams (for example, **Frontend** and **Backend** inside **Engineering**). Manage them from **Settings > Teams** in your workspace sidebar.
+
+![The Teams page with a list of teams, their member counts and a menu on each row](../images/dashboard/team-and-permissions-teams.png)
 
 - **Add a team** — click **+ Add Team**. To add one inside an existing team, open that team's **⋮** menu and choose **Add Sub-Team**.
 - **Put teams in order** — drag a team by its grip (**⋮⋮** on the left of the row) up or down. The order you set is the order teams appear everywhere.

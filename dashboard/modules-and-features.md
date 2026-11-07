@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-11-01 5:40pm
+**Last verified:** 2026-11-07 11:21am
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -24,7 +24,11 @@ To see all the modules you can add to your site:
 2. In the site menu on the left, open **Settings** and select **Modules**.
 3. You will see a list of all available modules, showing which ones are currently turned on and which are off.
 
-![The modules list showing available modules with their pricing and enable/disable controls](../images/dashboard/modules.png)
+![The site menu with Settings open and Modules ringed](../images/dashboard/modules-site-menu.png)
+
+![The Modules page with Your Site Plan at the top, then a card for each module with its On or Off state, its price and a Turn on or Turn off button](../images/dashboard/modules.png)
+
+At the top, **Your Site Plan** shows the plan this site is on and how many visits it holds each month. **All add-ons together** under it is what the site's add-ons cost a month. To change the plan, pick another plan card. The button under the cards says what will happen before you confirm. Prices in the picture read $0.00 because the Example workspace has its add-ons included. Your page shows your own prices.
 
 Each module is shown as a card with its name, a short description of what it does, its **Off** or **On** state, and its price. The cards are **Form**, **API** (Site API Access), **Widget Builder**, **Article**, **Event**, **Store** and **Accounts**. A **Filters** button lets you narrow the list by status.
 
@@ -39,6 +43,9 @@ Turning on a module is a quick, two-step confirmation -- you see exactly what it
 1. Go to **Settings** > **Modules** in your site menu.
 2. Find the module you want to enable and select **Turn on**.
 3. A window shows **What it costs** before anything happens.
+
+![The window for turning on Widget Builder, with the What it costs table and the Cancel and Enable buttons](../images/dashboard/modules-turn-on-cost.png)
+
 4. Select **Enable** to confirm, or **Cancel** to back out. Once you confirm, the module activates right away.
 
 Once a module is enabled, new menu items will appear in your dashboard. For example, enabling the Articles module adds an "Articles" section where you can create and manage blog posts.
@@ -59,7 +66,6 @@ If you no longer need a module:
 The module's card then shows a banner counting down the days until its content is deleted, with **Turn back on** (restores the module and its content, as long as it's before the deletion date), **Download a copy** (we email you a link to a copy of the module's content and its pages, valid for 7 days) and **Delete now** (deletes the content right away -- you'll be asked to type your site's name, because this can't be undone). The card's own **Turn on** button does the same thing as **Turn back on**.
 
 > **Important:** Disabling a module removes it from your site menu. Its content is **permanently deleted after 30 days** -- turn the module back on before then to keep it; turning it on after that starts it empty. (A capability like Accounts stores no content, so there is nothing to keep or delete.)
-
 
 ---
 

@@ -1,6 +1,6 @@
 # Your Account and Security
 
-**Last verified:** 2026-10-27 10:10am
+**Last verified:** 2026-11-07 11:07am
 
 Your WebNesting account is the key to everything you build. This guide walks you through signing in, protecting your account, and what to do if something goes wrong.
 
@@ -26,6 +26,9 @@ If you want to update your password, you can do so from your account security pa
 
 1. Sign in to your account.
 2. Select your avatar (top right), then **Manage Account**, then the **Security** card. The **Change Password** section is at the top.
+
+![The My Account page with the Profile, Security and Workspaces cards](../images/dashboard/account-security-my-account.png)
+
 3. Enter your password in **Current Password**, then your new password in **New Password**.
 4. Enter the new password again in **Confirm New Password**.
 5. Select **Update Password**.
@@ -40,15 +43,19 @@ When you change your password, WebNesting signs you out on every other device. T
 
 ## Where You're Signed In
 
-The Security page also lists every browser or device that is currently signed in to your account -- which browser it is, its network address, when it last did something, and when it signed in. The one you are using right now is marked **This device**.
+The Security page also lists every browser or device that is currently signed in to your account. It shows which browser it is, its network address, when it last did something, and when it signed in. The one you are using right now is marked **This device**.
+
+![The Where You're Signed In list with a This device row and Sign Out Everywhere Else](../images/dashboard/account-security-signed-in.png)
 
 If you see a device you don't recognize, or you signed in somewhere you no longer use:
 
 1. Select your avatar, then **Manage Account**, then the **Security** card.
 2. Under **Where You're Signed In**, open the row's actions menu and select **Sign Out**, then confirm.
+
+![A device row's actions menu showing Sign Out](../images/dashboard/account-security-sign-out-menu.png)
 3. To sign out of every device except this one at once, select **Sign Out Everywhere Else**.
 
-A signed-out device is logged out the next time it does anything; whoever is using it will have to sign in again, even if "Keep me signed in" was checked there. Signing a device out also ends "Keep me signed in" on your other devices, so they will ask for your password once their current session ends. Your own device is never signed out from this list -- use **Sign Out** in the avatar menu for that.
+A signed-out device is logged out the next time it does anything; whoever is using it will have to sign in again, even if "Keep me signed in" was checked there. Signing a device out also ends "Keep me signed in" on your other devices, so they will ask for your password once their current session ends. Your own device is never signed out from this list. Use **Sign Out** in the avatar menu for that.
 
 > **Tip:** If you find a sign-in you don't recognize, change your password right after signing it out.
 
@@ -60,8 +67,8 @@ A signed-out device is logged out the next time it does anything; whoever is usi
 
 Two-factor authentication adds an extra layer of security to your account. When 2FA is turned on, signing in requires two things:
 
-- **Something you know** -- your password.
-- **Something you have** -- a temporary code from your phone or email.
+- **Something you know:** your password.
+- **Something you have:** a temporary code from your phone or email.
 
 Even if someone learns your password, they still can't get into your account without that second code. We strongly recommend turning on 2FA.
 
@@ -69,10 +76,12 @@ Even if someone learns your password, they still can't get into your account wit
 
 WebNesting offers two ways to receive your verification code:
 
-- **Authenticator app** -- A free app on your phone generates a new code every 30 seconds. This is the most secure option.
-- **Email code** -- A 6-digit code is sent to your email address each time you sign in. This code expires after 10 minutes.
+- **Authenticator app:** A free app on your phone generates a new code every 30 seconds. This is the most secure option.
+- **Email code:** A 6-digit code is sent to your email address each time you sign in. This code expires after 10 minutes.
 
 You can enable one or both methods. If you have both enabled, you can pick which one you prefer to use at sign-in.
+
+![The Two-Factor Authentication status with the Enable Authenticator App and Enable Email 2FA buttons](../images/dashboard/account-security-two-factor.png)
 
 ### How to Enable 2FA with an Authenticator App
 
@@ -195,7 +204,7 @@ You sign in to WebNesting once. That one sign-in covers your account, your works
 
 1. Sign in to WebNesting.
 2. Open a workspace, then select **Manage Site** on any site.
-3. The site dashboard opens right away -- no second password.
+3. The site dashboard opens right away, with no second password.
 4. Select your avatar, then **Manage Account**, to go back to your account.
 
 > **Tip:** If you are asked to sign in again, your session may have expired, or you signed out. Sign in with your email and password.
@@ -208,7 +217,7 @@ To sign out of your account:
 
 1. Select your avatar in the top-right corner, then **Sign Out**.
 
-You will be signed out and returned to the sign-in page -- this also ends "Keep me signed in" on that device.
+You will be signed out and returned to the sign-in page. This also ends "Keep me signed in" on that device.
 
 > **Tip:** Always sign out when using a shared or public computer to keep your account safe.
 

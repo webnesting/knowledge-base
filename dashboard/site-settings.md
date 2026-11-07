@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-11-04 6:35pm
+**Last verified:** 2026-11-07 11:21am
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -10,9 +10,13 @@ Site Settings is where you control the behind-the-scenes details of your website
 
 1. Open your WebNesting dashboard.
 2. In the site menu, open **Settings** and click **Site Settings**.
-3. You will see several sections organized by category. Click on any section to expand it and make changes.
+3. The page groups its settings in cards: **Your site**, **Appearance**, **Content**, **Connections** and **Advanced**. Click a card to open that page.
 
-![The site settings page with categories for SEO, Google, Social Media, and more](../images/dashboard/site-settings.png)
+![The site menu with Settings open and Site Settings ringed](../images/dashboard/site-settings-site-menu.png)
+
+![The Site Settings page with its cards for Site Configuration, SEO Defaults, Languages, Theme and more](../images/dashboard/site-settings.png)
+
+Each page has its own **Save Changes** button. A **Settings** link at the top of each page takes you back to this list.
 
 ---
 
@@ -30,6 +34,8 @@ Click **Save Changes** to apply it. Team members who haven't set a timezone on t
 ## Languages
 
 Your site can be written in one language or in several. Open **Site Settings** and click **Languages** under **Your site**.
+
+![The Languages page with the Site language list and Add a Language](../images/dashboard/site-settings-languages.png)
 
 - **Site language** -- the language your pages are written in. Browsers, screen readers and search engines read your pages in it. Search for a language by its name in English or in the language itself.
 - **More languages** -- click **+ Add a Language** to publish your pages in another one. The language list then shows each language with its address.
@@ -66,6 +72,8 @@ A language you leave empty shows your main language's words. A hollow circle nex
 SEO stands for Search Engine Optimization. These settings help search engines like Google understand your site and display it correctly in search results.
 
 All of these live on the **SEO Defaults** page: go to **Site Settings** and click **SEO Defaults**.
+
+![The SEO Defaults page with the Title, Description and Image fields and a preview of the search result](../images/dashboard/site-settings-seo-defaults.png)
 
 ### Title
 
@@ -121,6 +129,8 @@ If your site is not ready for the public yet (for example, if you are still buil
 
 While it is on, the setting shows a warning reminding you that the site is hidden, and your site tells search engines not to index it in two ways: its `robots.txt` file blocks everything, and every page carries a "noindex" instruction. Visitors can still open the site by typing its address.
 
+![The Search engines choice with List my site and Hide my whole site ringed, above the Advanced sitemap and extra code settings](../images/dashboard/site-settings-hide-from-search.png)
+
 **Important:** Remember to switch this back to **List my site** when your site is ready to launch. If you leave it on, people will not be able to find your site through Google or other search engines.
 
 > **Tip:** This is a request that search engines honor, not a lock. Most major search engines respect it, but it is not a guarantee, and pages already listed can take a while to drop out of results.
@@ -134,7 +144,11 @@ Two on/off switches control how the addresses inside it are written:
 - **Use secure (https) links in your sitemap** -- leave this on if your site uses a secure `https://` address (almost all do).
 - **Start sitemap links with "www."** -- turn this on only if your site's address includes `www.`
 
-Pick the form that matches how visitors actually reach your site so search engines see one consistent address for every page.
+Pick the form that matches how visitors reach your site so search engines see one consistent address for every page. These two switches only apply while **Always use a secure (https://) address?** or **Should your address start with "www."?** on the **Site Configuration** page is set to **Either works**. Otherwise the sitemap follows that choice.
+
+### Keywords
+
+The **Keywords** box, under **Advanced**, takes comma-separated words that describe your site. Google and Bing ignore them today, so most sites leave it blank.
 
 ### Extra Code for Every Page's Head
 
@@ -153,6 +167,8 @@ Only people with the **Custom Code** permission can change this field, because i
 ## Google Settings
 
 **Google Settings** (under **Connections** on the Settings page) adds Google's tracking code to your site and holds the reCAPTCHA keys that protect your forms from spam. It has two sections: **Visitor tracking** and **Spam protection**.
+
+![The Google Settings page with Visitor tracking and Spam protection](../images/dashboard/site-settings-google.png)
 
 ### Google Analytics and Tag Manager (Visitor tracking)
 
@@ -191,6 +207,8 @@ WebNesting also has its own privacy-friendly visitor stats -- no Google account 
 The code never runs while you edit your site. It runs on your published pages only. To see it run before it goes live, use **Preview with Code**.
 
 ### Adding code from a service
+
+![The Code from Other Services page with the Top of every page and Bottom of every page boxes, Preview with Code and Publish](../images/dashboard/site-settings-code-from-other-services.png)
 
 The page has two places:
 
@@ -252,6 +270,8 @@ Your live site has a security policy. It says which scripts may run on your page
 
 To open it, go to **Site Settings**, find **Advanced**, and click **Security Policy**. Most sites never need to change it.
 
+![The Security Policy page in Report only mode, with Switch to Enforce and See Details](../images/dashboard/site-settings-security-policy.png)
+
 ### What the page says
 
 The first line says what the policy would block, in plain words:
@@ -308,6 +328,8 @@ Add your social media links so they can appear in your site's header, footer, or
 
 ### Adding Your Social Media Links
 
+![The Social Settings page with a box for each network and Add another network](../images/dashboard/site-settings-social.png)
+
 1. Go to **Site Settings** and open the **Connections** section, then click **Social Settings**.
 2. You will see fields for each supported platform.
 3. For each platform, enter your handle (like `@yourcompany`) or paste the link to your profile (like `https://www.instagram.com/yourcompany`). Either works.
@@ -334,6 +356,8 @@ You can also add more platforms yourself — open **Add another network** at the
 ## Site Images
 
 These are the key images that represent your brand across your website. They live on the **Site Images** page, under **Content** in Site Settings. Each image on the page says where it appears, and the pictures are shown two to a row.
+
+![The Site Images page with Fallback image, Logo and Favicon, and Add your own image](../images/dashboard/site-settings-site-images.png)
 
 ### Setting Your Logo
 
@@ -386,6 +410,8 @@ A new website starts in **Coming soon** mode: visitors see a "Coming Soon" page 
 2. Under **Visibility**, click the **Live** card.
 3. Save your changes.
 
+![The Visibility choice on Site Configuration with the Live and Coming soon cards ringed](../images/dashboard/site-settings-visibility.png)
+
 To take the site back down later, choose **Coming soon** and save. Either way, you always see your real site while you are signed in -- open it in a private browser window to see what visitors see.
 
 While your site is in **Coming soon** mode, only your home address shows the Coming Soon page as a normal page. Any other address shows the same Coming Soon page, marked as "page not found", so search engines do not list those addresses. Your sitemap lists only your home address until you go live.
@@ -430,6 +456,10 @@ If you choose **With "www."** or **Without "www."**, WebNesting automatically re
 **Site Messages** (under **Content**) holds your maintenance message. Your header and footer words are on the header and footer themselves: click them in the Website Builder and open **Settings** (see [Choosing what your header and footer show](../website-builder/layouts-and-structure.md#choosing-what-your-header-and-footer-show)). **HTML Blocks** (under **Advanced**) holds named blocks of formatted text that your theme shows by name. Both keep your formatting: headings, bold and italic text, lists, tables, links, images and embedded videos or maps.
 
 Code does not run there. If you paste a script, or a tag with code inside it, WebNesting removes the code when you save, and your visitors never run it. To add code from another service, such as a chat widget or a tracking tag, use **Code from Other Services**.
+
+### Site Image Groups
+
+**Site Image Groups**, under **Advanced**, manages named collections of pictures that galleries and sliders on your pages can show.
 
 ### All Settings (power-user view)
 

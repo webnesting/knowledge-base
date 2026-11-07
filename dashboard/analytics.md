@@ -1,6 +1,6 @@
 # Analytics and Reports
 
-**Last verified:** 2026-11-02 11:10pm
+**Last verified:** 2026-11-07 10:44am
 
 Analytics help you understand how people find and use your website. WebNesting includes built-in analytics so you can see how many visitors your site gets, which pages are most popular, and where your traffic comes from -- all from your dashboard.
 
@@ -14,7 +14,7 @@ WebNesting gives you two ways to track your website traffic:
 
 2. **Google Analytics integration** -- If you already use Google Analytics, you can connect it to your dashboard and see that data alongside your WebNesting analytics.
 
-![The Analytics dashboard showing traffic charts, site stats, and activity log](../images/dashboard/analytics-dashboard.png)
+![The Analytics widget on a dashboard, showing a traffic chart for the WebNesting Demo site](../images/dashboard/analytics-traffic-chart.png)
 
 ---
 
@@ -30,6 +30,10 @@ Built-in analytics are enabled by default for all sites. To check or change this
 2. Find **Analytics** and the **Enable first-party analytics** switch.
 3. Make sure it is turned on, then select **Save Changes** if you changed it.
 
+![The Analytics switch in Site Configuration, turned on, with the Timezone setting below it](../images/dashboard/analytics-enable-switch.png)
+
+The **Site timezone** list below it sets the days your analytics, form reports and published dates count in. It uses your workspace timezone unless you pick another.
+
 That is it. Once enabled, WebNesting automatically starts collecting visitor data. Data typically appears within a few hours of enabling analytics.
 
 > **Tip:** WebNesting analytics respect your visitors' privacy. No cookies are used, no personal information is stored, and the system automatically honors "Do Not Track" browser settings.
@@ -40,7 +44,13 @@ Your analytics dashboard shows key numbers about your website's performance. To 
 
 1. Go to your **Dashboard** in the admin area.
 2. Find the **Analytics** widget. If there is none, select **+ Add Widget** and choose **Analytics**. It opens on **Overview**.
+
+![The Add a widget window with Analytics, Conversions, Form Submissions and Form Analytics in the list](../images/dashboard/analytics-add-widget.png)
+
 3. Select the view button at the top of the widget to switch between **Overview**, **Traffic Chart**, **Top Pages**, **Traffic Sources**, **Devices**, **Geography** and **Real-Time**.
+
+![The view menu of the Analytics widget open, listing the seven views](../images/dashboard/analytics-view-menu.png)
+
 4. Use the date range setting to view different time periods (last 7 days, 30 days, 90 days, or 12 months).
 
 Here is what each metric means:
@@ -62,7 +72,7 @@ Here is what each metric means:
 The Traffic Chart widget shows your traffic as a visual graph over time. This makes it easy to spot trends and see how your traffic changes from day to day or week to week.
 
 1. In the **Analytics** widget, switch the view to **Traffic Chart**.
-2. The chart shows pageviews by default. You can change it to show visitors or sessions using the widget settings.
+2. The chart shows pageviews, visitors, average duration and bounce rate. Select the filter icon (**Metrics**) at the top of the widget to pick which numbers to show, such as visitors, new users or sessions.
 3. Adjust the date range to zoom in on a specific time period or zoom out to see long-term trends.
 
 > **Tip:** Look for patterns in your traffic. Do you get more visitors on certain days of the week? Does traffic spike after you publish new content? These patterns can help you plan when to post new content.
@@ -200,7 +210,9 @@ Connecting a Google account adds it to your workspace's integrations, so only th
 
 1. On your dashboard, look for the **Analytics** widget. If it is not on your dashboard yet, select **+ Add Widget** and choose **Analytics**.
 2. Open the widget's settings by selecting its settings icon (the gear icon).
-3. Click the **Connect Google Analytics** button.
+3. Click the **Connect Google Analytics** button. The **Data Source** list above it switches the widget between **Internal Analytics** and Google Analytics.
+
+![The Analytics Settings window with the Data Source list and the Connect Google Analytics button](../images/dashboard/analytics-widget-settings.png)
 4. A window will open asking you to sign in to your Google account and grant permission. Follow the prompts to authorize the connection.
 5. Once connected, select which Google Analytics property you want to display.
 6. Choose which metrics you would like to see (sessions, users, pageviews, bounce rate, or average duration).
