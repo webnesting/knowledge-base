@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-07 10:00am
+**Last verified:** 2026-11-07 10:25am
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -259,14 +259,7 @@ A Section also has a **Band spacing** panel. **Space above and below** sets the 
 
 #### Text Width
 
-Long lines are hard to read, so text in a wide column stops at **Wide** by default. You can make a text block narrower, such as a caption under a stat number, or let it fill its column.
-
-1. Select the text block.
-2. Click **Settings**.
-3. Open **Text width**.
-4. Pick **Full**, **Wide**, **Medium** or **Narrow**.
-
-**Wide** holds about 70 letters a line, **Medium** about 56 and **Narrow** about 42. **Full** makes the text fill its column. If the column is narrower than the size you pick, the text keeps the column's width. A heading in the text also keeps the column's width; only the lines under it stop at the size. Your theme can change each size: see [Themes and customization](../dashboard/themes-and-customization.md).
+Text fills the column it is in. For shorter lines, such as long reading text on a wide page, put the text in a narrower column: see [Creating Multi-Column Layouts](#creating-multi-column-layouts).
 
 ---
 
