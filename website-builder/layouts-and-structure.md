@@ -1,10 +1,10 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-07 10:00am
+**Last verified:** 2026-11-07 10:49am
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
-![The builder in Layout edit mode: the shared header is editable and the page content is dimmed, with a tip explaining the mode](../images/website-builder/layout-example.png)
+![The builder in Layout edit mode, with a ring on the Page, Layout and Unlocked mode buttons: the shared header is editable and the page content is dimmed](../images/website-builder/layout-example.png)
 
 ---
 
@@ -24,6 +24,8 @@ Every header and footer layout can show every part. The layout only decides wher
 
 1. In the Website Builder, click the header (or the footer). **Settings** opens.
 2. Turn each part on or off, and fill in its words.
+
+![The header's Settings with rings on the Glass and Content width menus, above the Logo, Menus and Button groups](../images/website-builder/layouts-header-settings.png)
 
 The header's parts:
 
@@ -194,6 +196,8 @@ Common uses for sections:
 3. Drag it onto your page where you want it.
 4. The section will appear as an empty area, ready for you to add content inside it.
 
+![The Add panel with the Layout group open and the Section block ringed, beside Blank box, Divider, Spacer and Content area](../images/website-builder/layouts-add-panel.png)
+
 #### Giving a Section a Dark Background
 
 1. Click the section, then open its settings.
@@ -257,16 +261,11 @@ To use them:
 
 A Section also has a **Band spacing** panel. **Space above and below** sets the space between the section's edges and its content: **Small**, **Medium**, **Large** or **X-large**. Each size looks the same in every theme. It is smaller on a phone. **Theme default** keeps your theme's space.
 
+![A section's Settings with the Space between rows menu ringed, above Space between rows on a phone, Line above, Band spacing and Page link](../images/website-builder/layouts-section-settings.png)
+
 #### Text Width
 
-Long lines are hard to read, so text in a wide column stops at **Wide** by default. You can make a text block narrower, such as a caption under a stat number, or let it fill its column.
-
-1. Select the text block.
-2. Click **Settings**.
-3. Open **Text width**.
-4. Pick **Full**, **Wide**, **Medium** or **Narrow**.
-
-**Wide** holds about 70 letters a line, **Medium** about 56 and **Narrow** about 42. **Full** makes the text fill its column. If the column is narrower than the size you pick, the text keeps the column's width. A heading in the text also keeps the column's width; only the lines under it stop at the size. Your theme can change each size: see [Themes and customization](../dashboard/themes-and-customization.md).
+Text fills the column it is in. For shorter lines, such as long reading text on a wide page, put the text in a narrower column: see [Creating Multi-Column Layouts](#creating-multi-column-layouts).
 
 ---
 
@@ -298,7 +297,9 @@ For evenly spaced columns, use the Grid layout.
 3. Select the box.
 4. In the **Styles** panel, find the **Layout** section.
 5. Click the **Grid** button.
-6. Click the gear icon to set the number of columns and rows.
+6. Under **Grid**, set **Cols** (columns) and **Rows**. The gear icon beside **Grid** opens more grid options.
+
+![The Layout section for a group of items, with a ring on the Grid display button and the Grid options below it: Cols, Rows and Gap](../images/website-builder/layouts-flex-grid-options.png)
 
 ### Common Layout Examples
 
@@ -322,7 +323,7 @@ Great for showcasing services, features, or team members.
 2. Add a Blank box inside the section.
 3. Add three child blank boxes or Card blocks inside.
 4. Select the parent box and set its display to **Grid**.
-5. Click the gear icon and set the columns to 3.
+5. Under **Grid**, set **Cols** to 3.
 6. Each item will take up one-third of the width.
 
 #### Staggered Columns
@@ -470,3 +471,5 @@ A dramatic full-width image with text overlay.
 5. **Start simple.** Begin with one section at a time. Get each section looking good before adding the next one.
 
 6. **Use the component hierarchy.** The **Layers** panel in the panel rail shows a tree view of all your components. Use it to check your structure and make sure everything is nested correctly.
+
+![The Layers panel, opened from the ringed button in the panel rail, showing the Content area with its Sections, Elements and Inline Text nested inside](../images/website-builder/layouts-layers-panel.png)
