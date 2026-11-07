@@ -1,6 +1,6 @@
 # Requesting a Copy of Your Data
 
-**Last verified:** 2026-11-04 12:54pm
+**Last verified:** 2026-11-07 10:12am
 
 This guide shows how to get a copy of your data, either yourself or by asking Support. It also covers a person on your contact list who asks you for their data.
 
@@ -16,6 +16,10 @@ You can download most of what your workspace holds without asking anyone.
 - **Files.** Open **Files** in the top bar and download what you need.
 - **A product's data.** Turn the product off, then select **Download a copy** on its card. WebNesting emails you a link that works for 7 days. Your contacts are not in it; they stay in **Contacts**. Turning a product off ends it and its data is deleted after 30 days, so read [Workspace Products](../dashboard/workspace-products.md#disabling-a-product) first.
 - **Invoices.** Open an invoice under **Plans & Billing** > **Invoice History** and select **Download PDF**.
+
+![The Contacts page with the Export CSV button highlighted](../images/account/account-closing-contacts-export-csv.png)
+
+![An invoice with the Download PDF button highlighted](../images/account/asking-for-a-refund-invoice-download-pdf.png)
 
 ---
 
@@ -40,6 +44,8 @@ You hold their data for your sites. Do this:
 2. Open the contact.
 3. Select **Download Their Data**.
 4. Send them the file.
+
+![A contact's page with Merge with Another Contact, Download Their Data and Delete Contact](../images/account/requesting-your-data-download-their-data.png)
 
 If they ask you to remove them, select **Delete Contact** on the same page and confirm. This cannot be undone.
 
