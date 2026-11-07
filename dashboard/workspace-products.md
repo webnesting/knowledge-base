@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-11-05 8:16pm
+**Last verified:** 2026-11-07 9:19am
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -82,11 +82,15 @@ Turning on a product takes just a few seconds:
 4. Select **Turn on** on the product you want to activate.
 5. The product will be available immediately in your workspace sidebar.
 
+![The Products tab in workspace Settings, with a card for each product](../images/dashboard/workspace-products-settings-tab.png)
+
 Once a product is enabled, new menu items will appear in your workspace sidebar. For example, enabling Marketing adds sections for contacts, campaigns, and email templates.
 
 > **Tip:** Each product shows its plans and prices before you turn it on. Review them so there are no surprises.
 
 ### Add a product from your home page
+
+![The home page with a card for each product and where it is active](../images/dashboard/workspace-products-home-page.png)
 
 The page that lists your workspaces, headed **Grow your workspace**, also shows every product available to your workspaces, each with its pricing and where it is already active (for example, **Active on 3 of 8 workspaces**). Select **Enable** on a product to turn it on. If you have more than one workspace, you can choose which workspaces to enable it on — one, several, or all — in a single step, and you will see the estimated added cost before you confirm. Workspaces where you already have the product, or where you do not have permission to manage products, are shown but cannot be changed from here. Once a product is active on every workspace, its card says so (for example, **Active on all 2 workspaces**), and clicking it shows where it is active with a **View products** link for each workspace.
 
@@ -103,7 +107,7 @@ Each product is a plan with a flat monthly price and an included amount that sta
 | Tasks | $5: 500 active tasks | $12: 5,000 active tasks | $25: unlimited active tasks |
 | API | $10: 100,000 requests, 10 GB data | $29: 300,000 requests, 30 GB data, longer audit history | $89: 1,000,000 requests, 100 GB data, longer audit history, a higher rate limit |
 
-Buy Websites, Marketing, Helpdesk and Tasks at the same size and you pay 80% of the total. The details, what happens at a limit, and how credits work: [Usage and Billing](../account/usage-and-billing.md).
+With two or more paid plans, your highest-priced plan is full price and every other plan is 5% off with two plans, up to 20% off with five or more. The details, what happens at a limit, and how credits work: [Usage and Billing](../account/usage-and-billing.md).
 
 Your first plan, or a change, is charged for the days left in the month. Every plan renews on the 1st. A bigger plan starts at once. A smaller plan starts on the next 1st.
 
