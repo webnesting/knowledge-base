@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-11-04 10:05pm
+**Last verified:** 2026-11-07 10:00am
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -21,6 +21,8 @@ A new, empty page opens on a list of ready-made sections, right on the Canvas. T
 1. Open the **Website Builder** for your new page.
 2. Under **Start with a ready-made section**, find one you like. To see one type, such as Pricing, use the list above the pictures.
 3. Select the picture, or press **Add**. The section goes on your page and the **Add** panel opens, so you can add the next one.
+
+![The ready-made section list on an empty page, with Show all 26 sections ringed](../images/website-builder/adding-components-start-new-page.png)
 
 To see them all, choose **Show all**. To start with an empty page and single blocks, choose **Build from blocks**. If you change your mind about a section, press **Undo**. When you leave the **Add** panel on an empty page, the list comes back.
 
@@ -45,7 +47,9 @@ The component will appear on your page immediately. You can now click on it to e
 
 ## Find a Block: Search and Groups
 
-At the top of the **Add** panel, the **Search sections and blocks** box finds a block by its name or by a plain word. Type "movie" and **Video** appears; "newsletter" finds **Email Signup**. A longer search needs every word to match. The box finds sections too (see [Add a Ready-Made Section](#add-a-ready-made-section)): "restaurant" finds **Book a time**. Under the box, a line says what you see, such as "58 blocks and 16 sections." (the count depends on your site: a block for a module you have not turned on is not listed), or "2 blocks and 3 sections match “hero”." while you search. Press **Esc** or choose **Clear search** to see everything again. If nothing matches, the panel says so and offers **Show all blocks**.
+![The Add panel after a search for movie, showing one match: the Video block](../images/website-builder/adding-components-search.png)
+
+At the top of the **Add** panel, the **Search sections and blocks** box finds a block by its name or by a plain word. Type "movie" and **Video** appears; "newsletter" finds **Email Signup**. A longer search needs every word to match. The box finds sections too (see [Add a Ready-Made Section](#add-a-ready-made-section)): "restaurant" finds **Book a time**. Under the box, a line says what you see, such as "56 blocks and 26 sections." (the count depends on your site: a block for a module you have not turned on is not listed), or "2 blocks and 3 sections match “hero”." while you search. Press **Esc** or choose **Clear search** to see everything again. If nothing matches, the panel says so and offers **Show all blocks**.
 
 The blocks sit in groups by what you want to do. Select a group's name to open or close it. The first time you open the panel, **Ready-made sections** and **Layout** are open; after that the panel remembers which groups you opened. While you search, every group with a match opens by itself.
 
@@ -101,6 +105,7 @@ Components are grouped by what you want to do. **Ready-made sections** comes fir
 The boxes that hold and organize everything else. Using them correctly also helps screen readers and search engines understand your page.
 
 - **Content area** -- The primary content area, used once per page.
+- **Unique to page content container**: the spot in a layout where each page's own content goes. A layout needs one. You rarely add it to a page.
 - **Section** -- A major division of your page.
 - **Blank box** -- An empty box with no meaning of its own, for grouping or spacing other blocks.
 - **Element** -- A box you can turn into any of 25 HTML elements, such as a quote, a list, a figure or a link. In its settings, **Element type** is a list you can search; each type has one plain line that says what it is for, and a note under it says which element your page gets. **Custom attributes** adds your own name and value pairs to the element, for styling hooks and screen readers: names that start with `aria-` or `data-`, and `role`, `title` and `lang`. A Link can also take `href`, and a Date or time can take `datetime`. A name the builder can't use (such as `id`, `class`, `style` or `onclick`) shows why under its row, and is never saved. Each row has its own **Remove** button.
@@ -188,6 +193,8 @@ Your own custom, reusable components. Build something once and use it across mul
 ---
 
 ## Moving Components Around
+
+![The small toolbar above a selected text element, with the drag, duplicate and delete buttons](../images/website-builder/adding-components-element-toolbar.png)
 
 You can rearrange components on your page at any time.
 

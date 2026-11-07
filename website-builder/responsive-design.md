@@ -1,6 +1,6 @@
 # Making Your Site Look Great on All Devices
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-11-07 10:00am
 
 Your visitors will view your website on all kinds of screens -- large desktop monitors, tablets, and small phone screens. Responsive design means your site automatically adjusts to look good on every device. This guide explains how WebNesting helps you create a site that works everywhere.
 
@@ -61,7 +61,7 @@ Here are the exact screen widths for each size:
 | LG | Large | 1024px to 1399px (desktops) |
 | XL | Extra Large | 1400px and up (large desktops) |
 
-![The responsive preview controls showing different device sizes](../images/website-builder/responsive-preview.png)
+![The device buttons in the top toolbar with the Tablet button ringed, beside the breakpoint picker and width box](../images/website-builder/responsive-preview.png)
 
 ### The Cascade Rule
 

@@ -1,6 +1,6 @@
 # Saving and Publishing Your Site
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-11-07 10:00am
 
 All your hard work designing and building your site leads to this: getting it live for the world to see. This guide explains the difference between saving and publishing, how to use undo and redo, and all the keyboard shortcuts that make your workflow faster.
 
@@ -10,20 +10,20 @@ All your hard work designing and building your site leads to this: getting it li
 
 These two actions do very different things:
 
-- **Save** stores your changes as a draft. Only you and your team can see your saved work. Your visitors will not see any changes until you publish.
+- **Save draft** stores your changes as a draft. Only you and your team can see your saved work. Your visitors will not see any changes until you publish.
 - **Publish** takes your saved work and makes it live on your website. Once you publish, anyone who visits your site will see the updated version.
 
 Think of it like writing a letter. Saving is like putting the letter in your desk drawer -- it is safe, but nobody else can see it. Publishing is like putting the letter in the mailbox -- now everyone can read it.
 
 ---
 
-![The builder toolbar showing Save and Publish buttons](../images/website-builder/save-publish.png)
+![The top right of the builder with the Save draft and Publish buttons ringed, beside the Saved pill](../images/website-builder/save-publish.png)
 
 ## How to Save Your Work
 
 You have three ways to save your work in the builder.
 
-### Option 1: Click the Save Button
+### Option 1: Click Save draft
 
 1. Look at the top right of the builder's toolbar.
 2. Select **Save draft** (the disk icon, left of **Publish**).
@@ -40,7 +40,7 @@ Your work saves instantly without needing to click anything.
 
 ### Option 3: Auto-Save
 
-WebNesting automatically saves your work as you go. About two and a half seconds after you stop editing, the builder quietly saves your progress in the background. If you keep editing without pausing, it saves anyway at least every ten seconds. The save pill in the top toolbar shows the current state: **Unsaved**, **Saving…**, or **Saved**.
+WebNesting automatically saves your work as you go. About two and a half seconds after you stop editing, the builder saves your progress in the background. If you keep editing without pausing, it saves anyway at least every ten seconds. The save pill in the top toolbar shows the current state: **Unsaved**, **Saving…**, **Saved** or **Save failed**.
 
 Auto-save is a safety net. It protects you from losing work if your internet connection drops or if you accidentally close the browser. But you should still save manually before important milestones, just to be safe.
 
@@ -110,7 +110,7 @@ Keyboard shortcuts let you work faster by using key combinations instead of clic
 
 | Action | Windows | Mac |
 |--------|---------|-----|
-| Save | Ctrl + S | Cmd + S |
+| Save draft | Ctrl + S | Cmd + S |
 | Publish | Ctrl + Shift + S | Cmd + Shift + S |
 | Undo | Ctrl + Z | Cmd + Z |
 | Redo | Ctrl + Y or Ctrl + Shift + Z | Cmd + Y or Cmd + Shift + Z |
@@ -188,7 +188,7 @@ Before each publish, run through a quick mental checklist:
 
 ### What if I publish and then notice a mistake?
 
-Simply fix the mistake in the builder, save your changes, and publish again. The updated version will replace the previous one immediately.
+Fix the mistake in the builder, select **Save draft**, and publish again. The updated version will replace the previous one immediately.
 
 ### Can I unpublish a page?
 

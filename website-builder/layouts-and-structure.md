@@ -1,10 +1,10 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-04 6:42pm
+**Last verified:** 2026-11-07 10:00am
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
-![A page open in the Website Builder: a header above sections of content, with the site's pages listed on the right](../images/website-builder/layout-example.png)
+![The builder in Layout edit mode: the shared header is editable and the page content is dimmed, with a tip explaining the mode](../images/website-builder/layout-example.png)
 
 ---
 

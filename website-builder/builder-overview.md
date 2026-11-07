@@ -1,6 +1,6 @@
 # Website Builder Overview
 
-**Last verified:** 2026-11-04 3:24pm
+**Last verified:** 2026-11-07 10:00am
 
 The Website Builder is where you design and create your web pages. It is a visual editor -- meaning you can see exactly how your page will look as you build it. No coding required.
 
@@ -49,6 +49,8 @@ The Builder opens ready to edit both your page **and** its shared header and foo
 
 The toolbar along the top of the screen holds your main controls:
 
+![The top of the builder: edit mode, undo and redo, device buttons, save status, Preview, Save draft and Publish](../images/website-builder/builder-overview-toolbar.png)
+
 **On the left:**
 - **Edit mode** -- Choose whether you are editing the **Page**, its **Layout** (the shared header/footer), or **Unlocked** (everything at once)
 - **Undo and Redo**
@@ -59,10 +61,10 @@ The toolbar along the top of the screen holds your main controls:
 - **Breakpoint picker** and a custom width box, for finer control
 
 **On the right:**
-- **Save status** -- A small pill that reads Saved, Unsaved, or Saving…, so you always know where your work stands
+- **Save status**: a small pill that reads Saved, Unsaved, Saving… or Save failed, so you always know where your work stands
 - **Who else is here** -- Avatars of any teammates editing the same page with you
 - **Preview** -- Hides all the editing chrome so you can see the page as a visitor would
-- **Save** -- Saves your work as a draft
+- **Save draft**: the disk icon. It saves your work as a draft
 - **Publish** -- Makes your changes live
 
 The toolbar always stays on one line. When the Builder has less room, some tools move into the **More** button (three dots), just left of **Publish**:
@@ -83,10 +85,12 @@ Everything else lives in a single column of icon buttons down the **right** side
 | **Add** | The component palette -- search for a block or open a group, then drag it onto your page |
 | **Settings** | Options for whatever you currently have selected |
 | **Styles** | Colors, spacing, size, fonts, borders, shadows, and layout for the selected element |
-| **Site design** | Change your whole site's look while you build. The panel opens on your theme, shown in its own fonts and colors. Click it to try another theme. Below it, change the colors, fonts, sizes and shapes, header and footer, and light or dark mode. Every change shows on the page at once. **Save** and **Cancel** appear once you change something: click **Save** to keep it or **Cancel** to put the page back |
+| **Site design** | Change your whole site's look while you build. The panel opens on your theme, shown in its own fonts and colors. Click it to try another theme. Below it, change the colors, fonts, sizes and shapes, header and footer, and light or dark mode. Every change shows on the page at once. **Save Changes** and **Cancel** appear once you change something. Click **Save Changes** (**Use This Theme** after you pick a theme) to keep it, or **Cancel** to put the page back. Site design changes go live as soon as you save them, without **Publish** |
 | **Layers** | A tree view of everything on the page, useful for selecting things buried inside other things |
 | **Audit** | Scores your page on performance, accessibility, best practices, and SEO before you publish |
 | **Builder settings** | Your own preferences -- canvas overlays, guide colors, default measurement unit |
+
+![The panel rail on the right side of the builder, ringed](../images/website-builder/builder-overview-panel-rail.png)
 
 Hover a rail button to peek at its panel; click it to pin the panel open so the canvas makes room for it. Click the pinned button again to go back to peeking.
 
@@ -104,7 +108,7 @@ Building a page follows a simple pattern. Here is the basic workflow:
 2. **Drag it onto your page.** Drop it wherever you want it to appear on the Canvas.
 3. **Click to select and edit.** Click on the component you just added. If it has text, click the text to start typing. If it is an image, click it to change the picture.
 4. **Style it in the Styles panel.** With the component selected, open **Styles** to adjust colors, spacing, fonts, and other visual settings.
-5. **Save and publish.** When you are happy with your changes, click **Save** to store your work. When you are ready for the world to see it, click **Publish**.
+5. **Save and publish.** When you are happy with your changes, click **Save draft** to store your work. When you are ready for the world to see it, click **Publish**.
 
 That is the entire process. Pick, place, edit, style, publish.
 
@@ -132,7 +136,7 @@ There is an important difference between saving and publishing:
 
 ### Saving (Draft)
 
-- When you click **Save**, your changes are stored safely but are **not visible to your website visitors**.
+- When you click **Save draft**, your changes are stored safely but are **not visible to your website visitors**.
 - Think of it as saving a draft. You can come back later, make more changes, and save again as many times as you like.
 - The Builder also saves for you: a couple of seconds after you stop editing, your work is saved automatically in the background. The save pill in the toolbar tells you where things stand.
 - Drafts belong to the site, not to you personally -- teammates with builder access see the same draft, and can edit the same page alongside you.

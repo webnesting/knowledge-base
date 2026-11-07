@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-11-04 6:42pm
+**Last verified:** 2026-11-07 10:00am
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -163,7 +163,7 @@ If your text has gotten messy with too many styles applied, you can start fresh:
 
 #### More Tools
 
-The toolbar also has **Insert horizontal rule**, **Insert image**, **Insert video**, **Embed iframe**, **Insert code block**, and **Toggle HTML view**, which switches the block between the formatted text and its HTML. Emails leave out **Insert video** and **Embed iframe**, because email apps remove them.
+The toolbar also has **Insert horizontal rule**, **Insert image**, **Insert video**, **Insert iframe embed**, **Insert code block**, and **Toggle HTML view**, which switches the block between the formatted text and its HTML. Emails leave out **Insert video** and **Insert iframe embed**, because email apps remove them.
 
 ### Pasting Content
 
@@ -189,6 +189,8 @@ You can undo any content change by pressing Ctrl+Z (Cmd+Z on Mac).
 2. The **media picker** will open, showing your files.
 3. Choose an image from your library, or upload a new one.
 4. The image on your page will update immediately.
+
+![The Settings panel for a selected image](../images/website-builder/editing-content-image-settings.png)
 
 ### Adding Alt Text
 
@@ -223,6 +225,8 @@ You can also control the **Object position** of the image within its container (
 ## Working with Buttons
 
 Buttons are one of the most important elements on your page. They guide visitors toward taking action -- like contacting you, buying a product, or learning more.
+
+![The Settings panel for a selected button](../images/website-builder/editing-content-button-settings.png)
 
 ### Setting Button Text
 

@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-10-25 5:16pm
+**Last verified:** 2026-11-07 10:00am
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -27,7 +27,7 @@ A style you set in one tab shows in the other. In a website's builder, the **Sit
 4. The Styler opens on **Visual** the first time. After that, it opens on the tab you used last.
 5. Click a section's name, like Spacing, Layout or Position, to open or close it. The Styler remembers which sections you keep open or closed, on every page and every element, until you change them.
 
-![The Styler's Spacing section on the Visual tab, with the Space inside and Space around choices above the spacing diagram](../images/website-builder/styler-panel.png)
+![The Styler open on the Visual tab for a selected heading, with the Effects, Layout and Sizing sections](../images/website-builder/styler-panel.png)
 
 ---
 
