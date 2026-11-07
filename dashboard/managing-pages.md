@@ -1,6 +1,6 @@
 # Managing Pages
 
-**Last verified:** 2026-11-04 6:35pm
+**Last verified:** 2026-11-07 10:27am
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 
@@ -14,7 +14,9 @@ When you log in to your WebNesting dashboard, you can see all of your pages in o
 2. In the site menu, open **Pages**, then select **Pages**.
 3. You will see a list of all your pages with their titles and current status.
 
-![The pages list in the dashboard](../images/dashboard/pages-list.png)
+![The site menu open on Pages, with the Pages item ringed](../images/dashboard/managing-pages-site-menu.png)
+
+![The Pages list with each page's last update and its Draft or Published status](../images/dashboard/pages-list.png)
 
 Each page in the list shows:
 
@@ -22,7 +24,9 @@ Each page in the list shows:
 - **Updated** -- When the page was last changed.
 - **Status** -- **Draft** or **Published**.
 
-Each row also has a ⋮ menu with **Edit**, **Duplicate**, **Publish** or **Unpublish**, and **Delete**. When your site has more than one language, the menu also has **Translate into…**, and the list has a **Language** column.
+Each row also has a ⋮ menu with **Edit**, **Duplicate**, **Publish** or **Unpublish**, and **Delete**. When your site has more than one language, the menu also has **Translate into…**, and the list has a **Language** column. The gear at the end of the header row lets you choose which columns show.
+
+![A page's ⋮ menu open, with Publish ringed](../images/dashboard/managing-pages-row-menu.png)
 
 > **Tip:** If you have many pages, use the **Search** bar at the very top of the dashboard to find the one you need.
 
@@ -57,7 +61,11 @@ You can update any page's basic information at any time.
 4. Update the title, **Page URI**, layout, menu settings, search settings, or any other settings.
 5. Click **Save** to keep your changes as a draft, or **Save & Publish** to put them on your live site.
 
-To edit the actual content of the page (text, images, sections), you will use the Website Builder. Click **Open in Builder** at the top of the page settings, or see the "Opening a Page in the Website Builder" section below.
+![The page settings for the About page, with the Page URI field ringed](../images/dashboard/managing-pages-page-settings.png)
+
+The settings are in groups: **Page Settings**, **Navigation**, **Advanced** and **SEO**. Under **Navigation**, **Menu Description** is one short line, up to 80 characters, that shows under the page's name in drop-down and mega menus. Under **Advanced**, **Page Icon** is the small picture shown with it. **Lock Page** set to **Site Admin** shows the page only to people who can edit your site.
+
+To edit the actual content of the page (text, images, sections), you will use the Website Builder. Click **Open in Builder** at the top of the page settings, or see the "Opening a Page in the Website Builder" section below. The **Content** tab next to the **Page** tab holds the builder inside the page settings, so you can change the content without leaving.
 
 ### Custom Code for One Page
 
@@ -67,9 +75,13 @@ A page can hold code that should run on that page only, such as a booking widget
 2. Click the page name to open it.
 3. Scroll to the **Custom Code** group, after **SEO**.
 4. Click **Edit Custom Code**. The code opens in a window.
+
+![The Custom Code group with Edit Custom Code ringed](../images/dashboard/managing-pages-custom-code-group.png)
 5. Paste the code into **Top of this page** or **Bottom of this page**. Verification tags and analytics go at the top. Chat and booking widgets go at the bottom.
 6. Optional: click **Preview with Code** to see the page run the code in a safe preview.
 7. Click **Publish**.
+
+![The Custom Code window with a Top of this page and a Bottom of this page editor, History links, Preview with Code and Publish](../images/dashboard/managing-pages-custom-code-window.png)
 
 The code has no draft: **Publish** puts it on your live site at once. The window stays open and each place shows when it was published. The group's lines change to the new code. Publishing the code doesn't publish the page, and the page's **Save & Publish** doesn't publish the code.
 
@@ -184,6 +196,10 @@ Type a word from the page title into the **Search** bar at the very top of the d
 1. In the **Pages** list, click **Filters** at the top right.
 2. Next to **Status**, choose **Published**, **Draft** or **Trashed**.
 3. The list updates as you pick. Click **Clear** to see every page again.
+
+![The Filters panel with the Status choices Any status, Published, Draft and Trashed](../images/dashboard/managing-pages-filters.png)
+
+The **View** choice under **Status** narrows the list to the pages in one menu, such as **Header menu** or **Footer menu**.
 
 ---
 
