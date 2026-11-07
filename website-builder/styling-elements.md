@@ -107,7 +107,7 @@ An element can look different while a visitor points at it, while it has focus, 
 3. Change any style, such as a color, a shadow or a border. The change applies only on hover.
 4. Click **Default** to go back to the usual look.
 
-![The four looks at the top of the Styler, ringed, with Hover lit and the line "Showing the Hover look" under the element toolbar](../images/website-builder/styling-elements-states.png)
+![The four looks at the top of the Styler, ringed, with Hover lit](../images/website-builder/styling-elements-states.png)
 
 The four looks:
 
@@ -564,7 +564,7 @@ Most of the time, you will not need to change an element's position. But when yo
 
 Under the position choices, **Stick while scrolling** keeps an element on screen as visitors scroll. **Stick at the top** makes the element scroll normally until it reaches the top of the screen, then stay there while the block around it scrolls past. It is great for section headers that should remain visible. On a section, **Hold its content for 1, 1.5, 2 or 3 screens** keeps the section's first block on screen for that long. See [Stick While Scrolling](animations-and-interactions.md#stick-while-scrolling).
 
-![The Position section with a ring on the Stick while scrolling menu, set to Off, above the Offsets, Z Index, Float and Clear settings](../images/website-builder/styling-elements-position.png)
+![The Position section with a ring on the Stick while scrolling menu, set to Off](../images/website-builder/styling-elements-position.png)
 
 ### Anchor Presets
 

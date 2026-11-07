@@ -25,7 +25,7 @@ Every header and footer layout can show every part. The layout only decides wher
 1. In the Website Builder, click the header (or the footer). **Settings** opens.
 2. Turn each part on or off, and fill in its words.
 
-![The header's Settings with rings on the Glass and Content width menus, above the Logo, Menus and Button groups](../images/website-builder/layouts-header-settings.png)
+![The header's Settings with rings on the Glass and Content width menus, above the Logo group](../images/website-builder/layouts-header-settings.png)
 
 The header's parts:
 
@@ -261,7 +261,7 @@ To use them:
 
 A Section also has a **Band spacing** panel. **Space above and below** sets the space between the section's edges and its content: **Small**, **Medium**, **Large** or **X-large**. Each size looks the same in every theme. It is smaller on a phone. **Theme default** keeps your theme's space.
 
-![A section's Settings with the Space between rows menu ringed, above Space between rows on a phone, Line above, Band spacing and Page link](../images/website-builder/layouts-section-settings.png)
+![A section's Settings with the Space between rows menu ringed, above Space between rows on a phone](../images/website-builder/layouts-section-settings.png)
 
 #### Text Width
 
