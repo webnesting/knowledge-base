@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-11-03 6:45pm
+**Last verified:** 2026-11-07 11:07am
 
 WebNesting bills with plans and prepaid credits. You pick a plan for each part of WebNesting you use and pay for it on the 1st of the month. If you use more than a plan includes, prepaid credits pay for the extra. This page explains the details: what is included, what happens at a limit, and how to see and pay your bills. For the plan prices, how credits work and how a failed payment is handled, see [Usage and Billing](../account/usage-and-billing.md).
 
@@ -41,7 +41,7 @@ When the pool is full, credits pay for more storage. When the credits are gone t
 
 Files belonging to a product you have turned off still count while they are kept, and stop counting once they are deleted.
 
-> **Tip:** You can see and manage every stored file from the File Manager (click **Files** in the top bar) -- helpdesk attachments live in the managed **Helpdesk** folder and visitor uploads in **Form Uploads**. Deleting files you no longer need frees room in the pool.
+> **Tip:** You can see and manage every stored file from the File Manager (click **Files** in the top bar). Helpdesk attachments live in the managed **Helpdesk** folder and visitor uploads in **Form Uploads**. Deleting files you no longer need frees room in the pool.
 
 ### Website bandwidth
 
@@ -154,10 +154,17 @@ To see your current and past bills:
 
 1. Open the workspace you want to look at.
 2. Select **Settings** at the bottom of the left icon rail, then **Plans & Billing** under **Billing**. (You can also reach it from the **⋮** menu in the top bar → **Billing**.)
-3. The **Billing** page shows **Your Plans**, with the price and the date each one renews, and the **Next Renewal**: what will be charged on the 1st, with each discount, special price, complimentary period or product credit as its own line. It also shows your **Credits** and balance. Past invoices are on **Invoice History**: select one to open it, or **Download PDF** for a copy. Anything outstanding appears in a banner at the top -- **Pay Now** pays a single invoice on the spot.
-4. There is one invoice for each plan purchase or renewal and one for each credit purchase.
+3. The **Billing** page has five tabs: **Current Period**, **Invoice History**, **Payment Methods**, **Settings** and **Cost Calculator**. Each tab is described in [Usage and Billing](../account/usage-and-billing.md#viewing-your-bills).
 
-To see how much you have used, open the **Usage** page: **Included This Month** shows each part of your plans, what you used and what is left, and your credit balance, with **Buy Credits**.
+![The Billing page, Current Period tab, with Credits, Your Plans and Current Billing Period](../images/dashboard/billing-and-usage-billing-page.png)
+
+4. **Current Period** shows your **Credits** and balance, **Your Plans** with the price and the date each one renews, and the **Next Renewal**: what will be charged on the 1st, with each discount, special price, complimentary period or product credit as its own line. **Credits**, **Your Plans** and **Next Renewal** show only when the workspace has them. The **Current Billing Period** charges, **Invoice History**, **Payment Methods** and the **Cost Calculator** are always there.
+5. Past invoices are on **Invoice History**: select one to open it, or **Download PDF** for a copy. Anything outstanding appears in a banner at the top. **Pay Now** pays a single invoice on the spot.
+6. There is one invoice for each plan purchase or renewal and one for each credit purchase.
+
+To see how much you have used, open the **Usage** page. When your workspace has plans or credits, **Included This Month** shows each part of your plans, what you used and what is left, and your credit balance, with **Buy Credits**.
+
+![Included This Month with a storage meter, the credits used this month and Buy Credits](../images/dashboard/billing-and-usage-included.png)
 
 When you use more than your plan includes and your credits did not pay for it, the **Usage** page also shows **Extra Usage on Your Next Bill**. It lists each kind of use, and each site, with the amount so far this month and a total. Credits you buy before the 1st pay for this first, so the total drops. The amount goes on your renewal invoice on the 1st as one **Extra usage** line for each kind of use and each site, with its month, units and price. The invoice email names the same lines. With no paid plan, the section is called **Extra Usage Carried Into Next Month** and shows no dollars: the use comes off next month's included amount. The section does not show when you owe nothing. More: [Extra usage on your next bill](../account/usage-and-billing.md#extra-usage-on-your-next-bill).
 
@@ -232,6 +239,8 @@ To use a code on a workspace you already have:
 
 1. Open the workspace, then **Settings** → **Plans & Billing**.
 2. On the **Billing** page, find **Promotion code** and click **Have a code?**
+![The Promotion code section with the Code box and Check code button](../images/dashboard/billing-and-usage-promotion-code.png)
+
 3. Type the code and click **Check code**. You see what the code gives you, for example "5,000 bonus Marketing emails a month for 3 months". Nothing is applied yet.
 4. Click **Apply to this workspace**. To try another code, click **Use a different code**.
 
@@ -262,7 +271,7 @@ Your included amounts start over on the 1st, and unused included amounts do not 
 
 Each add-on adds to your monthly bill. If you are not using one, turn it off.
 
-> **Important:** Turning off a module permanently deletes its content -- blog posts, events, products -- after 30 days, or right away if you choose **Delete now**. Turn the module back on before then to keep it. See [Modules and Features](modules-and-features.md#how-to-disable-a-module).
+> **Important:** Turning off a module permanently deletes its content (blog posts, events, products) after 30 days, or right away if you choose **Delete now**. Turn the module back on before then to keep it. See [Modules and Features](modules-and-features.md#how-to-disable-a-module).
 
 ### Keep Website Bandwidth Low
 
@@ -284,7 +293,7 @@ With auto top-up, a site that uses all its bandwidth or a campaign that uses all
 
 ## Where to Go Next
 
-- **[Modules and Features](modules-and-features.md)** -- Learn more about each module and how to enable or disable them.
-- **[Files (File Manager)](media-library.md)** -- Learn how to manage your uploaded files and keep storage under control.
-- **[Managing Pages](managing-pages.md)** -- Learn how to create, edit, and organize your site's pages.
-- **[Team and Permissions](team-and-permissions.md)** -- Learn how to manage admin users and team access.
+- **[Modules and Features](modules-and-features.md)**: Learn more about each module and how to enable or disable them.
+- **[Files (File Manager)](media-library.md)**: Learn how to manage your uploaded files and keep storage under control.
+- **[Managing Pages](managing-pages.md)**: Learn how to create, edit, and organize your site's pages.
+- **[Team and Permissions](team-and-permissions.md)**: Learn how to manage admin users and team access.
