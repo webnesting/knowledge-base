@@ -1,6 +1,6 @@
 # Marketing Automations
 
-**Last verified:** 2026-11-07 9:54am
+**Last verified:** 2026-11-07 10:02am
 
 Marketing automations let you create set-it-and-forget-it workflows that send emails, update contacts, and perform actions automatically when something happens. Instead of manually sending a welcome email every time someone signs up, or remembering to tag contacts after an event, you build the workflow once and let it run on its own.
 
@@ -37,6 +37,9 @@ To create a new automation:
 
 1. Click **Marketing** in your workspace sidebar, then **Automations** under **Automation**.
 2. Click **+ New Automation**.
+
+   ![The Automations list with the + New Automation button](../images/dashboard/marketing-automation-list.png)
+
 3. Give your automation a title -- something descriptive like "Welcome Series" or "Post-Purchase Follow-Up."
 4. Choose a **Trigger Type** (the event that starts the automation).
 5. Click **Create Automation**. The new automation opens.
@@ -80,6 +83,8 @@ The trigger is what kicks off the automation. When the trigger event happens, th
 ## Adding Steps
 
 After choosing your trigger, you build out what happens by adding steps. Steps run in the order you add them, one after another.
+
+![The Workflow Builder with the Actions list on the left and the steps on the canvas](../images/dashboard/marketing-automation-workflow-builder.png)
 
 ### Send Email
 
@@ -185,6 +190,9 @@ Contacts who are already in the automation will remain where they are. They will
 You can edit an automation at any time -- add steps, remove steps, change the trigger, or update email templates. If the automation is active, consider pausing it first to avoid unexpected behavior while you make changes.
 
 1. Click on the automation you want to edit. It opens showing its details, with a **Details** tab and a **Workflow** tab. The **Workflow** tab lists each step with the email template, tag or list it uses, by name. If that template, tag or list was deleted, the step says so.
+
+   ![The Workflow tab listing each step, with the Edit Workflow button](../images/dashboard/marketing-automation-workflow-steps.png)
+
 2. Click **Edit**. The fields become editable in place.
 3. Make your changes — rename it or update its description on the **Details** tab; add, remove, or reorder steps on the **Workflow** tab.
 4. Click **Save** (or **Cancel** to discard).
@@ -202,6 +210,8 @@ You can see how many contacts are in an automation and how many have finished.
    - **Currently Enrolled**: people who are going through the automation now.
    - **Completed**: people who have finished all the steps.
    - **Total**: everyone who has entered.
+
+![The Enrollment Summary with Currently Enrolled, Completed and Total](../images/dashboard/marketing-automation-enrollment-summary.png)
 
 A draft automation shows no summary until you turn it on.
 
