@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-11-07 10:00am
+**Last verified:** 2026-11-07 10:42am
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -27,7 +27,7 @@ A style you set in one tab shows in the other. In a website's builder, the **Sit
 4. The Styler opens on **Visual** the first time. After that, it opens on the tab you used last.
 5. Click a section's name, like Spacing, Layout or Position, to open or close it. The Styler remembers which sections you keep open or closed, on every page and every element, until you change them.
 
-![The Styler open on the Visual tab for a selected heading, with the Effects, Layout and Sizing sections](../images/website-builder/styler-panel.png)
+![The Styler open for a selected heading, with a ring on the Visual and CSS tabs above the Effects, Layout and Position sections](../images/website-builder/styler-panel.png)
 
 ---
 
@@ -41,6 +41,8 @@ On the **Visual** tab, the settings most people need have a row of one-tap choic
 4. To take a choice away, click it again.
 
 To set an exact value instead, use the setting under the choices.
+
+![The Typography section with a ring on the Font Size row: the Small, Normal, Large and XL choices, with the menu arrow and an exact size box below](../images/website-builder/styling-elements-theme-choices.png)
 
 Where the choices are:
 
@@ -104,6 +106,8 @@ An element can look different while a visitor points at it, while it has focus, 
 2. At the top of **Visual**, click **Hover**. The page shows the element as it looks on hover, so you do not have to move your mouse over it.
 3. Change any style, such as a color, a shadow or a border. The change applies only on hover.
 4. Click **Default** to go back to the usual look.
+
+![The four looks at the top of the Styler, ringed, with Hover lit and the line "Showing the Hover look" under the element toolbar](../images/website-builder/styling-elements-states.png)
 
 The four looks:
 
@@ -188,6 +192,8 @@ For a linear gradient, turn the **Direction** dial, or type the angle beside it.
 ### Adding a Color Layer
 
 Choose **Color** under **Add a layer**. A color layer covers every layer below it, so use a see-through color to tint an image under it.
+
+![The Background section with a ring on the Add a layer button and its menu open, showing Gradient, Image and Color](../images/website-builder/styling-elements-background-layers.png)
 
 ### Layer Options
 
@@ -283,9 +289,13 @@ Spacing controls how much room an element has around and inside it. Think of it 
 4. Click on any value in the diagram (top, right, bottom, or left).
 5. A small editor will appear where you can type a number, drag a slider, or choose a preset value.
 
+![The Spacing section with a ring on the Space inside and Space around rows, each with the steps 0 to 5 and a menu arrow, above the margin and padding diagram](../images/website-builder/styling-elements-spacing-diagram.png)
+
 ### Quick Preset Values
 
-When you click a spacing value, you will see preset buttons like 0, 4, 8, 16, 24, and 32. These let you quickly set common spacing amounts without typing.
+When you click a spacing value, a small editor opens with a slider, a number box and preset buttons: 0px, 4px, 8px, 16px, 24px and 32px. These let you quickly set common spacing amounts without typing.
+
+![The small spacing editor with a slider, a number box and preset buttons from 0px to 32px, with 0px and 32px ringed](../images/website-builder/styling-elements-spacing-presets.png)
 
 > **Tip:** Start with even, consistent spacing. Using the same spacing values throughout your page (like 16 for small gaps and 32 for large gaps) creates a clean, professional look.
 
@@ -298,15 +308,19 @@ Size controls how wide and tall an element is.
 ### Width and Height
 
 1. Select the element.
-2. In the Styler, look for the **Width** and **Height** controls. These may appear in the Spacing or Size section.
+2. In the Styler, open the **Sizing** section. It has **Width** and **Height**, with **Min** and **Max** limits for each.
 3. Type a number or drag the slider to set the size.
-4. Choose your unit from the dropdown next to the number.
+4. Choose your unit from the **Unit** button next to the number.
+
+![The Sizing section with the Width Unit button ringed and its menu open, showing %, px, rem, em, vw and dvw](../images/website-builder/styling-elements-size-units.png)
 
 ### Understanding Units
 
 - **Pixels (px)** -- An exact, fixed size. Use pixels when you want something to be a specific size no matter what. For example, "200px" will always be 200 pixels wide.
 - **Percent (%)** -- A size relative to the parent container. If you set something to "50%", it will take up half of its parent's width. Great for flexible, responsive layouts.
-- **Auto** -- Lets the browser decide the best size based on the content. This is often the default and works well in most cases.
+- **rem** and **em**: a size that grows with the text size. **rem** follows the page's base text size. **em** follows the text size of the element itself.
+- **vw** and **dvw**: a share of the screen's width. **100vw** is the full width of the screen.
+- **Auto**: the browser picks the size from the content. This is often the default and works well in most cases. Pick it with the **Keyword values** button next to the unit.
 
 ### When to Use Each Unit
 
@@ -396,6 +410,8 @@ Masks have **Size**, **Position** and **Repeat**, like background layers.
 ## Motion
 
 Motion moves, turns and scales an element, animates a change such as a hover, and plays animations. It is in three sections of the Styler: **Transform**, **Transition** and **Motion**.
+
+![The Motion section of the Styler with a ring on the Add motion button, above the Keep it moving menu](../images/website-builder/styling-elements-motion.png)
 
 ### Moving, Turning and Scaling (Transform)
 
@@ -537,7 +553,7 @@ The Position controls determine where an element sits on the page.
 
 ### Position Types
 
-Most of the time, you will not need to change an element's position. But when you do, here are the options:
+Most of the time, you will not need to change an element's position. But when you do, the **Position** row shows **Relative**, **Absolute** and **Fixed**. The menu arrow at the end of the row has the other choices, such as **Static**. Here are the options:
 
 - **Static** -- The default. The element flows naturally with the rest of the page content.
 - **Relative** -- The element stays in its normal place but can be nudged up, down, left, or right from where it would normally be.
@@ -547,6 +563,8 @@ Most of the time, you will not need to change an element's position. But when yo
 ### Stick While Scrolling
 
 Under the position choices, **Stick while scrolling** keeps an element on screen as visitors scroll. **Stick at the top** makes the element scroll normally until it reaches the top of the screen, then stay there while the block around it scrolls past. It is great for section headers that should remain visible. On a section, **Hold its content for 1, 1.5, 2 or 3 screens** keeps the section's first block on screen for that long. See [Stick While Scrolling](animations-and-interactions.md#stick-while-scrolling).
+
+![The Position section with a ring on the Stick while scrolling menu, set to Off, above the Offsets, Z Index, Float and Clear settings](../images/website-builder/styling-elements-position.png)
 
 ### Anchor Presets
 
@@ -574,7 +592,7 @@ If you have made changes and want to start fresh, you can clear individual style
 
 1. Click on the value you want to clear in the visual spacing diagram.
 2. In the popover that appears, look for preset buttons.
-3. Click the "0" preset to remove spacing, or use the clear button to reset the value entirely.
+3. Click the **0px** preset to remove spacing, or use the clear button to reset the value entirely.
 
 > **Tip:** Clearing a style does not delete the element -- it just removes your customization, letting the default or theme style show through.
 
@@ -666,6 +684,8 @@ Apply the same Effect to another element, and it uses the same Style, so you nev
 ## The CSS Tab: Any CSS for One Element
 
 The **CSS** tab at the top of the **Styles** panel shows the CSS of the element you selected, as rules you can type in. It takes any CSS: properties the Styler has no control for, your own variables such as `--brand: #0af`, browser-prefixed properties, fallbacks and `!important`. Nothing you type is dropped or changed.
+
+![The Styles panel on the CSS tab, ringed, showing the element's rule with Raw CSS, Add a condition and Add a state block](../images/website-builder/styling-elements-css-tab.png)
 
 Each rule shows as a block. The block's first lines say when it applies, for example `@media only screen and (max-width: 1023px) { /* MD ≤ */`. Each row is a property and its value. Clear a row's checkbox to turn it off and keep its value. Click **×** on a row to remove it.
 
