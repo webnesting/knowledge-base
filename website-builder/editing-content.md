@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-11-07 10:00am
+**Last verified:** 2026-11-07 10:19am
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -185,12 +185,12 @@ You can undo any content change by pressing Ctrl+Z (Cmd+Z on Mac).
 
 ### Selecting or Changing an Image
 
-1. Click on the image component on the Canvas.
-2. The **media picker** will open, showing your files.
+1. Click the image on the canvas. A small toolbar appears above it.
+2. Click **Choose image(s)** (the picture icon) in that toolbar. The **media picker** opens and shows your files.
 3. Choose an image from your library, or upload a new one.
-4. The image on your page will update immediately.
+4. The image on your page updates at once.
 
-![The Settings panel for a selected image](../images/website-builder/editing-content-image-settings.png)
+![The Settings panel for a selected image, with the Choose image(s) button in its toolbar ringed](../images/website-builder/editing-content-image-settings.png)
 
 ### Adding Alt Text
 
