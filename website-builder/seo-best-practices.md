@@ -1,6 +1,6 @@
 # SEO Best Practices for Your Website
 
-**Last verified:** 2026-11-04 1:32pm
+**Last verified:** 2026-11-07 11:07am
 
 Search engine optimization (SEO) is one of the most powerful ways to bring visitors to your website. This guide covers practical, easy-to-follow steps you can take right inside WebNesting to help your site show up in Google and other search engines. No technical background required -- just a willingness to put in a little effort on each page you create.
 
@@ -11,8 +11,15 @@ Search engine optimization (SEO) is one of the most powerful ways to bring visit
 The builder has a built-in **Audit** panel that checks the page you are working on and scores it in four categories: **Performance**, **Accessibility**, **Best Practices**, and **SEO**.
 
 1. Open the page in the **Website Builder**.
-2. Click **Audit** in the panel rail on the right.
-3. Run the audit and review the findings. Each one points at the element it is about, so you can jump straight to the problem and fix it.
+2. Select the **Audit** icon in the column of icons on the right.
+3. Select **Quick check**. It tests the page as it is in the builder, including changes you have not saved.
+4. Read the four scores, then open a category to see its findings. Each finding points at the element it is about, so you can jump straight to the problem and fix it.
+
+![The Audit panel with the Quick check button ringed](../images/website-builder/seo-audit-panel.png)
+
+![The four scores after a quick check, with a finding listed under Accessibility](../images/website-builder/seo-audit-results.png)
+
+Select **Full report** for a slower test of your published page, the way a visitor loads it. It takes about half a minute. Use **Mobile** or **Desktop** to pick the screen size to test.
 
 Running the audit before you publish is the quickest way to catch issues while you can still do something about them, rather than discovering them later.
 
@@ -178,7 +185,9 @@ For example, if you run a bakery in Seattle, you might naturally use phrases lik
 
 ## Open Graph Tags for Social Media
 
-WebNesting automatically generates Open Graph tags for social media sharing based on your page title, description, and featured image. You can customize these in Site Settings under the Social Media section. Open Graph tags control how your pages look when someone shares a link to your site on Facebook, LinkedIn, or other social platforms.
+WebNesting automatically generates Open Graph tags for social media sharing based on your page title, description, and featured image. To set the default sharing image, go to **Site Settings**, select **SEO Defaults** and use the **Image** field. A page can set its own **Share Image** in its page settings (see [Managing Pages in the Builder](page-management.md)). Open Graph tags control how your pages look when someone shares a link to your site on Facebook, LinkedIn, or other social platforms.
+
+![The SEO Defaults page with the Image field ringed under the Title and Description](../images/website-builder/seo-defaults-search-and-sharing.png)
 
 ---
 
@@ -209,6 +218,8 @@ Once connected, you can learn things like:
 Google Search Console shows you how your site appears in Google search results. You can see which search terms bring people to your site, how often your pages appear in results, and whether Google has any trouble accessing your pages.
 
 You set up Search Console on Google's website. To prove the site is yours, Google gives you a verification tag. Paste it in **SEO Defaults**, under **Advanced**, in **Extra code for every page's `<head>`**, then click **Save Changes** (see [Site Settings](../dashboard/site-settings.md#extra-code-for-every-pages-head)). Pinterest and Bing verification tags work the same way. Only people with the Custom Code permission can change this field.
+
+![The SEO Defaults page scrolled to Advanced, with the Extra code for every page's head box ringed](../images/website-builder/seo-defaults-advanced.png)
 
 > **Tip:** Check your analytics at least once a month. Look for trends -- which pages are growing in traffic, and which ones might need a refresh.
 

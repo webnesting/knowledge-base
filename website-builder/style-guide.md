@@ -1,12 +1,14 @@
 # Your Style Guide Page
 
-**Last verified:** 2026-11-04 10:05pm
+**Last verified:** 2026-11-07 10:59am
 
 ## What it is
 
 Every WebNesting site has a **Style Guide** page. It shows every block you can add in the builder, in your site's own theme, on one page. Use it to see how your colors, fonts and buttons look on each kind of block, and to copy a ready-made block onto another page.
 
-The page lives at `/style-guide` on your site (for example, `yoursite.com/style-guide`). It is not in your menus or your sitemap, so visitors only find it if they have the address. To open it in the builder, click the **Pages** icon in the column of icons on the right, then click **Style Guide**.
+The page lives at `/style-guide` on your site (for example, `yoursite.com/style-guide`). It is not in your menus or your sitemap, so visitors only find it if they have the address. To open it in the builder, click the **Pages** icon in the column of icons on the right, then click **Style Guide**. It sits under **System Pages**.
+
+![The Pages panel with Style Guide ringed under System Pages, and the Style Guide page open in the builder](../images/website-builder/style-guide-page-in-builder.png)
 
 ## How it works
 
@@ -16,6 +18,8 @@ The page starts with a short introduction. Then it has one section for each grou
 - Blocks that start out empty, such as a Blank box, Inline Text or an Alert, show a line of sample text, so you can see how they look in your theme.
 - The **Text** section starts with samples of headings, paragraphs, a quote, lists, a picture and a divider line.
 - Blocks that only some sites can use appear only on the sites that can use them: the Language switcher needs two or more languages, and the Article, Event, Product and Form blocks need their module turned on. The page says so under its introduction.
+
+![The Interactive section of the Style Guide page, with sample blocks and a grey line under the Slideshow that says what it needs](../images/website-builder/style-guide-block-samples.png)
 
 Some blocks need something from you before they show on your live site:
 

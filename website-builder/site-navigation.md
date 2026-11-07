@@ -1,6 +1,6 @@
 # Setting Up Site Navigation
 
-**Last verified:** 2026-11-04 5:58pm
+**Last verified:** 2026-11-07 11:08am
 
 Navigation is how visitors find their way around your website. Good navigation helps people quickly get to the pages they need, whether they are browsing on a desktop or a phone. This guide covers how navigation works in WebNesting, how to control which pages appear in your menus, and tips for creating a clear, easy-to-use navigation structure.
 
@@ -28,7 +28,9 @@ The header navigation is the main menu at the top of your site. It is usually th
 4. Check the **Header** box.
 5. Click **Save**.
 
-That page will now appear in the main navigation at the top of your site.
+![The page settings window scrolled to Menu Visibility, with the Header checkbox ringed](../images/website-builder/site-navigation-menu-visibility.png)
+
+That page will now appear in the main navigation at the top of your site. **Header Secondary** is a second header menu, for layouts that show one.
 
 > **Shortcut:** In the Website Builder, click your header (or footer) and open **Settings**. Under **Which menu**, click **Edit this menu's pages**. Your Pages list opens showing only the pages in that menu.
 
@@ -135,7 +137,9 @@ To create a child page:
 1. Open the **Pages** panel in the builder.
 2. Find the page you want to be the parent.
 3. Point at the page's row and click **New sub-page under** that page (the arrow icon at the end of the row).
-4. Fill in the page details and click **Save**.
+4. Fill in the page details and select **Create**.
+
+![The Pages panel with the New sub-page arrow ringed on the Services row](../images/website-builder/site-navigation-new-sub-page.png)
 
 For a full walkthrough, see **[Managing Pages in the Builder](page-management.md)** -- the section on creating child pages.
 

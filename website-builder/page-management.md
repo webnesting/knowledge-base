@@ -1,12 +1,12 @@
 # Managing Pages in the Builder
 
-**Last verified:** 2026-11-01 11:12am
+**Last verified:** 2026-11-07 10:54am
 
 The Website Builder is where you design and edit your pages visually. But it is also where you can switch between pages, create new ones, and manage how they are organized -- all without leaving the builder. This guide covers everything you need to know about working with pages inside the builder.
 
 ---
 
-![The Pages panel in the builder showing page hierarchy](../images/website-builder/pages-panel.png)
+![The Pages panel in the builder, listing the site's pages and system pages, with the gear on a page's row ringed](../images/website-builder/pages-panel.png)
 
 ## The Pages Panel
 
@@ -81,8 +81,10 @@ You do not need to go back to the dashboard to add a page. You can create one ri
 1. Open the **Pages** panel.
 2. Click the **New page** button at the top of the panel.
 3. A form will appear where you can set the page details (title, URL, layout, and more).
-4. Fill in the information and click **Save**.
-5. Any unsaved canvas work is saved first, then you land straight on the new page, ready to edit.
+4. Enter a **Title**, pick a **Layout**, and fill in anything else you need.
+5. Select **Create**. Any unsaved canvas work is saved first, then you land on the new page, ready to edit.
+
+![The New page window with a title entered and the Create button ringed](../images/website-builder/page-management-new-page-dialog.png)
 
 ### Creating a Child Page (Sub-Page)
 
@@ -90,7 +92,7 @@ You do not need to go back to the dashboard to add a page. You can create one ri
 2. Find the page that you want to be the parent.
 3. Point at the page's row and click **New sub-page under** that page (the arrow icon at the end of the row).
 4. A form will appear with the parent page already selected.
-5. Fill in the page details and click **Save**.
+5. Fill in the page details and select **Create**.
 6. The new child page will appear nested under the parent in the list.
 
 ---
@@ -104,7 +106,9 @@ Each page has a set of properties that control its title, URL, layout, and other
 1. Open the **Pages** panel.
 2. Find the page you want to edit.
 3. Point at the page's row and click the **gear icon** (**Page settings for** that page).
-4. A window will open showing all of the page's settings. Click **Save** to keep your changes or **Cancel** to drop them.
+4. A window opens with all of the page's settings. Select **Save** to keep your changes or **Cancel** to drop them.
+
+![The Page settings window with the Sub-Menu choices ringed, above the Navigation settings](../images/website-builder/page-management-page-settings.png)
 
 ### Page Title
 
@@ -154,6 +158,10 @@ You can control which navigation menus include a link to this page.
 4. Save your changes.
 
 The **Sub-Menu** setting, just above **Menu Visibility**, has two choices: **Normal** and **Children**. **Children** shows this page's own pages in the header menu, on this page and every page under it.
+
+### Menu Link
+
+A page can send visitors somewhere else. Enter an address in the **Menu Link** field, such as `https://shop.example.com` or `/sale`. Menus then link there, and visitors who open this page go there too. Leave the field empty for a normal page.
 
 ### Page Icon
 
@@ -235,11 +243,14 @@ Each page has its own SEO settings that help search engines understand and displ
 
 ### Available SEO Fields
 
-- **Show on search engines** -- Choose "Yes" to let search engines find and list this page, or "No" to hide it.
-- **SEO Title** -- The title that appears in search engine results. If left blank, your page title is used.
-- **SEO Author** -- The author name shown in search results for this page.
-- **SEO Description** -- A short summary of the page that appears below the title in search results. Keep it under 160 characters for best results.
-- **SEO Keywords** -- Words and phrases related to the page's content that help search engines categorize it.
+- **Show on search engines**: Choose **Yes** to let search engines find and list this page, or **No** to hide it. A new page starts on **No**, so change it to **Yes** when the page is ready for visitors.
+- **SEO Title**: The title that appears in search engine results. If left blank, your page title is used.
+- **SEO Author**: The author name shown in search results for this page.
+- **SEO Description**: A short summary of the page that appears below the title in search results. Keep it under 160 characters for best results.
+- **SEO Keywords**: Words and phrases related to the page's content that help search engines categorize it.
+- **Share Image**: The picture shown when someone shares this page on social media. Leave it empty to use the image from your site's SEO defaults.
+
+![The SEO group in Page settings with the Show on search engines choice ringed](../images/website-builder/page-management-seo-fields.png)
 
 > **Tip:** The SEO description is what people see in Google or other search engines before they click on your link. Write a clear, inviting summary that tells visitors what the page is about.
 
