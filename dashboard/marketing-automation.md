@@ -1,6 +1,6 @@
 # Marketing Automations
 
-**Last verified:** 2026-11-07 10:02am
+**Last verified:** 2026-11-07 10:35am
 
 Marketing automations let you create set-it-and-forget-it workflows that send emails, update contacts, and perform actions automatically when something happens. Instead of manually sending a welcome email every time someone signs up, or remembering to tag contacts after an event, you build the workflow once and let it run on its own.
 
