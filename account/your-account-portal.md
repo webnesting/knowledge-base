@@ -1,6 +1,6 @@
 # Your Account Portal
 
-**Last verified:** 2026-10-27 10:10am
+**Last verified:** 2026-11-07 10:10am
 
 Your account portal is where you manage personal account details and jump into your workspaces. Workspaces are where your websites, billing, usage, team members, and workspace-level features live.
 
@@ -8,18 +8,22 @@ Your account portal is where you manage personal account details and jump into y
 
 ## The Account Portal Cards
 
-When you open your account portal, you'll see three cards. If you don't have a workspace yet -- for example, right after verifying a new account -- the portal leads with a **Create Your First Workspace** button above the cards, since a workspace is where everything else in WebNesting happens.
+When you open your account portal, you'll see three cards: **Profile**, **Security** and **Workspaces**. If you don't have a workspace yet, for example right after you verify a new account, the portal leads with a **Create Your First Workspace** button above the cards. A workspace is where everything else in WebNesting happens.
+
+![The My Account page with the Profile, Security and Workspaces cards](../images/account/your-account-portal-cards.png)
 
 ### Profile
 
 This is where your personal information lives. The page opens with your account details (like when your account was created), then lets you update:
 
-- **Profile picture**
+- **Profile picture**. Select **Upload Photo**. The file can be JPG, PNG or GIF, up to 2 MB.
 - **First name** and **last name**
 - **Email address** -- when you change it, WebNesting sends a confirmation link to the new address. Your workspaces open again after you click the link.
 - **Phone**, **Date of Birth**, and **Gender**
 - **Timezone** -- every date and time you see is shown in this timezone. If you leave it empty, your workspace's timezone is used. Due dates always show exactly as they were set, whatever your timezone.
 - **Email Preferences** -- the **Send me product updates and tips** checkbox. Turn it on to get occasional emails about new features, or off to stop them at any time.
+
+![The Profile page with the Profile Picture section and the Upload Photo button](../images/account/your-account-portal-profile-picture.png)
 
 ### Security
 
@@ -50,7 +54,7 @@ Lists every workspace you belong to. Click a workspace to open it. From inside a
 1. Go to your account portal.
 2. Click the **Profile** card.
 3. Change the information you want to update.
-4. Click **Save Changes** at the bottom right to apply your changes.
+4. Select **Save Changes** at the bottom right to apply your changes.
 
 ---
 
@@ -79,4 +83,8 @@ These are three different places, and it's helpful to understand the difference.
 
 In short: the account portal is about **you**, a workspace is about a **group of sites and people**, and a site dashboard is about **one website**.
 
-> **Tip:** You can always get back to your account portal by clicking your avatar in the top-right corner of any page and choosing **Manage Account**. The account portal has no left sidebar -- the sidebar belongs to a workspace, so it appears once you open one.
+> **Tip:** You can always get back to your account portal by clicking your avatar in the top-right corner of any page and choosing **Manage Account**.
+
+![The avatar menu open, with Manage Account highlighted](../images/account/your-account-portal-avatar-menu.png)
+
+The account portal has no left sidebar. The sidebar belongs to a workspace, so it appears once you open one.

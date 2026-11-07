@@ -1,6 +1,6 @@
 # Creating a Website
 
-**Last verified:** 2026-11-05 8:16pm
+**Last verified:** 2026-11-07 10:37am
 
 Ready to build your first site? This guide walks you through creating a new website on WebNesting.
 
@@ -18,9 +18,13 @@ You can also start from **Settings** > **Products**: find the **Websites** card 
 
 > **New workspace?** Until a workspace has its first site, the **Websites** card under **Settings** > **Products** is the place to start. Once your first site is ready, the **Sites** button in the rail is there for everything after that.
 
-### The quick way — from your workspace list
+![The Settings Products page with the Create Site button on the Websites card](../images/account/creating-a-website-products-websites-card.png)
 
-The page that lists your workspaces has a blue **Websites** banner at the top. Select **Create a website** and a short popup walks you through the same thing without leaving the page: pick which workspace the site belongs to (it asks only if you have more than one), fill in the details below, choose how to start, and watch it set up. When it's ready, an **Open Site Admin** button takes you straight into your new site.
+### The quick way from your workspace list
+
+The page that lists your workspaces has a **Websites** banner under your workspaces. It reads **Launch your next site in about a minute**. Select the banner and a short popup walks you through the same steps without leaving the page: pick which workspace the site belongs to (it asks only if you have more than one), fill in the details below, choose how to start, and watch it set up. When it's ready, an **Open Site Admin** button takes you straight into your new site.
+
+![The workspace list with the Websites banner highlighted](../images/account/creating-a-website-workspace-list-banner.png)
 
 ---
 
@@ -30,7 +34,9 @@ The form has three parts: the site details, how you want to start, and the look.
 
 ### Choosing a site name
 
-Enter a name in **Site Name** -- this is what you'll see in your site list and in the builder. It can include letters, numbers, and spaces, for example "My Bakery".
+Enter a name in **Site Name**. You will see it in your site list and in the builder. It can include letters, numbers, and spaces, for example "My Bakery".
+
+![The Site Name field filled in, with the site address and custom domain fields below it](../images/getting-started/setting-up-your-site-name.png)
 
 ### Your site address
 
@@ -58,7 +64,13 @@ Once you select **Create Site** (**Create Website** in the popup):
 
 1. Your site begins setting up. This takes about a minute.
 2. A progress list shows each step, from **Creating folders** to **Applying your look**, with a tick beside each step that is done.
+
+   ![The progress list with the first three steps done and Running migrations in progress](../images/getting-started/setting-up-your-site-progress.png)
+
 3. If you started from a theme, a **Make it yours** screen opens next. Pick your colors, fonts, header layout and light or dark mode. Your new home page changes beside the choices. Click **Done** to save them, or **Skip for Now** to change them later in **Site Settings**, under **Appearance**.
+
+   ![The Make it yours screen with ready-made color sets beside a preview of the new home page](../images/getting-started/setting-up-your-site-make-it-yours-colors.png)
+
 4. The page then says **Complete!** and shows a **Go to Sites** button.
 
 ---
@@ -69,6 +81,8 @@ Select **Go to Sites**. Your new site is on the **Sites** page, which shows one 
 
 - **Manage Site** opens your site's admin dashboard. This is where you'll manage content, design your pages, and adjust settings.
 - **View Site** shows your live site as visitors will see it.
+
+![The Sites page with a card for each site and the Manage Site button highlighted](../images/getting-started/sites-list-manage-site.png)
 
 > **Tip:** Your site is live right away. Its look is the one you picked, and its home page is empty unless you chose a theme with an example site or starter pages. Open **Manage Site**, then **Website Builder**, to start adding your own content.
 

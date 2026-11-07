@@ -1,6 +1,6 @@
 # Creating Your Account
 
-**Last verified:** 2026-10-27 11:40am
+**Last verified:** 2026-11-07 10:10am
 
 Welcome to WebNesting! Getting started takes just a few minutes. This guide walks you through creating your account and getting ready to build your first website.
 
@@ -9,8 +9,14 @@ Welcome to WebNesting! Getting started takes just a few minutes. This guide walk
 ## Signing Up
 
 1. Go to [webnesting.app](https://webnesting.app).
-2. On the sign-in page, select **Create an account** under the **Sign in** button. (Starting from [WebNesting.com](https://webnesting.com) works too -- it sends you to the same place.)
+2. On the sign-in page, select **Create an account** under the **Sign in** button. (Starting from [WebNesting.com](https://webnesting.com) works too. It sends you to the same place.)
+
+   ![The WebNesting sign-in page](../images/getting-started/login-page.png)
+
 3. Fill in the registration form:
+
+   ![The empty Create your account form with its name, email and password fields, the sign-up choices and the Create Account button](../images/account/creating-your-account-sign-up-form.png)
+
    - **First name** -- Your first name.
    - **Last name** -- Your last name.
    - **Email** -- The email address you want to use for your account.
@@ -18,7 +24,7 @@ Welcome to WebNesting! Getting started takes just a few minutes. This guide walk
    - **Confirm password** -- Enter the same password again.
    - **Where did you hear about us?** -- Optional. It helps us see which channels work. The list starts with **Choose one**. The choices are **A web search**, **Social media**, **A friend or colleague**, **An article, blog or newsletter**, **A video or podcast**, **An advertisement**, **An event or community** and **Somewhere else**. If you pick **Somewhere else**, a **Where was it?** field opens. Type your answer there (up to 200 characters). You can leave all of this empty.
 4. Optionally, check **Send me product updates and tips** if you'd like occasional emails about new features. It's unchecked by default, and you can change your mind anytime from your account portal.
-5. If you have a promotion code for new accounts, find **Promotion code**, type the code and select **Check code**. You see what the code gives you. To use another code, select **Use a different code**.
+5. If you have a promotion code for new accounts, select **Have a code?** under **Promotion code**. Type the code and select **Check code**. You see what the code gives you. To use another code, select **Use a different code**.
 6. Select **Create Account**.
 
 > **Note:** If the email address you entered is already registered, you will see a message letting you know an account already exists. You can sign in instead or use a different email.
@@ -61,6 +67,8 @@ Once your email is verified, you'll land on your **account portal**. This is you
 - **Profile** -- Your personal information.
 - **Security** -- Your password, two-factor authentication, and where you're signed in.
 - **Workspaces** -- Open one of your workspaces. Workspaces are where your websites, billing, usage, and team members live.
+
+![The account portal with the Profile, Security and Workspaces cards](../images/account/your-account-portal-cards.png)
 
 You're all set! Select **Create Your First Workspace** to create your first workspace and site.
 

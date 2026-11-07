@@ -1,6 +1,6 @@
 # Managing Your Websites
 
-**Last verified:** 2026-11-04 12:54pm
+**Last verified:** 2026-11-07 10:37am
 
 The **Sites** page inside a workspace is where you manage all your sites. This guide covers everything you need to know about viewing, opening, editing, and deleting your websites.
 
@@ -14,12 +14,16 @@ The **Sites** page inside a workspace is where you manage all your sites. This g
 
 You'll see one card for every website in that workspace. Each card shows:
 
-- **The site name** -- The name you gave your site.
-- **The web address** -- Where your site lives (for example, my-bakery.dev.webnesting.site while you try WebNesting out).
-- **When it was last updated** -- For example, "Updated Oct 27, 2026".
+- **The site name**: the name you gave your site.
+- **The web address**: where your site lives, for example my-bakery.webnesting.site.
+- **When it was last updated**: for example, "Updated Oct 27, 2026".
 - **View Site** and **Manage Site** buttons.
 
-Select **Filters** at the top right and pick a status (**Active**, **Provisioning** or **Failed**) to narrow the list.
+![The Sites page with a card for each site and the Manage Site button highlighted](../images/getting-started/sites-list-manage-site.png)
+
+Select **Filters** at the top right. Pick a status (**Active**, **Provisioning** or **Failed**) to narrow the list.
+
+![The Sites page with the + New Site button and the Filters button at the top right](../images/account/managing-your-websites-new-site-button.png)
 
 ---
 

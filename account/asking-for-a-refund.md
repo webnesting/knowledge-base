@@ -1,6 +1,6 @@
 # Asking for a Refund
 
-**Last verified:** 2026-11-05 5:32pm
+**Last verified:** 2026-11-07 10:37am
 
 This guide shows how to ask Support for a refund of a charge that was billed in error, and what happens next.
 
@@ -21,17 +21,28 @@ The full policy is in [Billing and Usage](../dashboard/billing-and-usage.md#refu
 
 1. Open your workspace.
 2. Select **Settings** at the bottom of the left icon rail, then **Plans & Billing** under **Billing**.
+
+   ![The Settings menu in the left rail with Plans & Billing highlighted](../images/account/usage-and-billing-settings-menu-plans-and-billing.png)
+
 3. Open the **Invoice History** tab.
-4. Select the invoice. Its title shows the invoice number, for example **Invoice #12**.
-5. Find the charge that looks wrong. Select the line to see how it was worked out.
+4. Select the invoice period. Its title shows the invoice number, for example **Invoice #12**.
+
+   ![The Invoice History tab with the invoice period highlighted](../images/account/usage-and-billing-invoice-history.png)
+
+5. Find the charge that looks wrong. Select **Show Itemized** to see how each charge was worked out.
 
 Select **Download PDF** if you want to attach a copy to your request.
+
+![An invoice with the Download PDF button highlighted](../images/account/asking-for-a-refund-invoice-download-pdf.png)
 
 ---
 
 ## Ask Support
 
-1. Select the **⋮** menu in the top bar, then **Get Support**. Or email Support at support@webnesting.com.
+1. Select the **⋮** menu in the top bar, then **Get Support**. It opens the contact form on webnesting.com. Or email Support at support@webnesting.com.
+
+   ![The top bar menu with Get Support highlighted](../images/account/asking-for-a-refund-get-support-menu.png)
+
 2. Write from the email address on your account.
 3. Give your workspace name and the invoice number.
 4. Name the charge and say what is wrong with it.

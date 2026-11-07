@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-11-03 6:45pm
+**Last verified:** 2026-11-07 10:37am
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -93,10 +93,12 @@ You need a saved card to buy a plan or credits. Open the **Payment Methods** tab
 
 Credits pay for use past what your plans include. Your workspace has one credit balance.
 
-- **Buying:** Open the **Billing** page and use **Buy Credits**. Pick $10, $25, $50 or $100, or enter any amount from $5 to $5,000. We charge your saved card at once and add the credits right away.
+- **Buying:** Open the **Billing** page and use **Buy Credits**. Pick $10, $25, $50 or $100, or select **Other Amount** and enter any amount from $5 to $5,000. We charge your saved card at once and add the credits right away. With no saved card, the page shows **Add a Card** instead.
 - **Auto Top-Up:** Turn it on and choose an amount. When your balance runs out, we charge your saved card that amount. We charge at most once an hour. If the card is declined, auto top-up turns off and we email you.
 - **Credits never expire.** Your plan's included amount starts over each month, but your credits carry over.
 - **Credits cannot be refunded.**
+
+![The Credits section of the Billing page with the Buy Credits amounts and the Auto Top-Up settings](../images/account/usage-and-billing-credits-and-auto-top-up.png)
 
 What a credit pays for:
 
@@ -191,9 +193,14 @@ Large teams can have a contract with their own terms. Enterprise is not a plan y
 2. Open the workspace whose usage you want to see.
 3. Select **Settings** at the bottom of the left icon rail, then **Usage** under **Billing**. (The **⋮** menu in the top bar has a shortcut to **Usage** too.)
 
+![The top bar menu with Billing highlighted. Usage is in the same menu](../images/account/usage-and-billing-menu-shortcuts.png)
+
 ### What you'll see
 
-The Usage tab shows how much you use over time -- counts only, no prices. (Everything to do with money, including your plans, credits and what you have left, is on the **Billing** page.)
+The **Usage** page shows how much you use over time. It shows counts only, no prices.
+
+![The Usage page with the date ranges, the Show and Where lists, the chart and the Usage This Period table](../images/account/usage-and-billing-usage-page.png)
+ (Everything to do with money, including your plans, credits and what you have left, is on the **Billing** page.)
 
 - **Show** picks one thing to chart at a time -- for example emails sent, tickets created, contacts or pages.
 - The chart covers every day of the range you picked, up to today, including days with nothing on them, so you can see exactly when things happened. Switch between **Bar** and **Line** to change how it is drawn.
@@ -227,11 +234,23 @@ Under **Usage This Period**, the **From WebNesting** section lists everything We
 2. Open the workspace whose bills you want to see.
 3. Select **Settings** at the bottom of the left icon rail, then **Plans & Billing** under **Billing**. (The **⋮** menu in the top bar has a shortcut to **Billing** too.)
 
+![The Settings menu in the left rail with Plans & Billing highlighted](../images/account/usage-and-billing-settings-menu-plans-and-billing.png)
+
 ### What you'll see
 
-The **Billing** page lists **Your Plans**, with the price and the date each one renews, and the **Next Renewal**: what will be charged on the 1st. It also shows your **Credits**.
+The **Billing** page has five tabs: **Current Period**, **Invoice History**, **Payment Methods**, **Settings** and **Cost Calculator**.
+
+**Current Period** shows your **Credits**, **Your Plans** with the price and the date each one renews, and the **Next Renewal**: what will be charged on the 1st. Below them, **Current Billing Period** lists the charges so far. Its status reads **Accruing** until the month ends. **Your Plans** and **Credits** show only when the workspace has them. A workspace with no paid plan shows "You have no paid plans."
+
+**Payment Methods** holds your saved cards. **Settings** holds **Billing email** and **Billing name**, which print on each invoice, and the **Pay automatically each period** choice.
+
+**Cost Calculator** shows what a set of plans costs. Pick a plan for **Marketing**, **Helpdesk**, **Tasks** and **API**, and select **+ Add a Website** for each site. **Your Monthly Total** updates as you pick. It changes nothing on your account. Select **Start Over from My Account** to go back to the plans you have.
+
+![The Cost Calculator tab with a plan list on the left and Your Monthly Total on the right](../images/account/usage-and-billing-cost-calculator.png)
 
 **Invoice History** lists your invoices with their **Status**, **Total** and **Due Date**. There is one invoice for each plan purchase or renewal, and one for each credit purchase. Select an invoice to open it, and select **Download PDF** for a PDF copy.
+
+![The Invoice History tab with an invoice period highlighted](../images/account/usage-and-billing-invoice-history.png)
 
 Anything still outstanding appears in a banner at the top of the Billing page.
 
