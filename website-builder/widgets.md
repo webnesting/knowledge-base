@@ -1,6 +1,6 @@
 # Custom Widgets
 
-**Last verified:** 2026-11-01 8:07am
+**Last verified:** 2026-11-07 10:52am
 
 Widgets are reusable content blocks that you create once and use across multiple pages on your site. Instead of rebuilding the same section over and over, you build it once as a widget, and then place it wherever you need it.
 
@@ -41,7 +41,8 @@ The Widget Builder is an add-on feature. It costs $5 a month for each site, on a
 1. Open your site's dashboard.
 2. In the site menu, open **Settings** and click **Modules**.
 3. Find **Widget Builder** in the list.
-4. Click **Turn on**.
+4. Select **Turn on**.
+5. Select **Enable** in the window that asks you to confirm.
 
 Once enabled, you will see widget options appear in the Website Builder.
 
@@ -55,10 +56,15 @@ There are two ways to create a widget. Both end up in the same place.
 
 1. Open the site you want to work on.
 2. In the site menu on the left, click **Widgets** (it sits at the bottom of the panel, next to **Website Builder**).
-3. Click **New Widget**.
-4. Give your widget a **name**. Choose something descriptive so you can find it easily later -- for example "Contact Block", "Page Header", or "Sidebar Newsletter Signup".
-5. Save. Your widget appears in the list.
-6. Click **Edit in Builder** on its row to start designing it.
+3. Select **+ New Widget**.
+4. Enter a **Name** you can find later, such as "Contact Block" or "Sidebar Newsletter Signup".
+5. Select **Create & Open**. The widget opens in the builder and joins the list.
+
+![The Widgets page with the New Widget button ringed](../images/website-builder/widgets-list.png)
+
+![The New Widget window with a Name field and the Create & Open button ringed](../images/website-builder/widgets-new-dialog.png)
+
+To open a widget again later, select its name, or choose **Edit in Builder** in its row's **⋮** menu.
 
 ### From the builder, while you are working
 
@@ -66,6 +72,8 @@ There are two ways to create a widget. Both end up in the same place.
 2. Find the **My Widgets** group.
 3. Click the **+** on the group header and enter a name.
 4. The new widget appears as a tile you can drop onto any page.
+
+![The Add panel with the My Widgets group and a widget tile ringed](../images/website-builder/widgets-add-panel-my-widgets.png)
 
 ### From something already on your page
 
@@ -119,6 +127,8 @@ Once you have created and saved a widget, it becomes available as a component yo
 4. The widget content will load onto your page automatically.
 
 That is it. The widget and all its content will appear on your page exactly as you designed it.
+
+![A page in the builder with a widget dropped in as a blue call-to-action band, and a second widget below it](../images/website-builder/widgets-placed-on-page.png)
 
 > **Tip:** You can place the same widget on as many pages as you like, and more than once on one page. It looks the same in each spot, unless you give a spot its own values (see **Widget properties** below).
 
@@ -220,6 +230,9 @@ A widget that shows records from a collection (see **Connecting Widgets to Data*
 You can see all your widgets in two places:
 
 - **On the Widgets page:** Click **Widgets** in your site menu for the full list, with **Edit in Builder**, **Rename**, **Share with Your Other Sites** and **Delete** in each row's **⋮** menu.
+
+  ![A widget row's menu open, showing Edit in Builder, Rename, Share with Your Other Sites and Delete](../images/website-builder/widgets-row-menu.png)
+
 - **In the Website Builder:** Open the **Add** panel and look under **My Widgets**. Every widget is listed there, ready to drag onto a page.
 
 ### Renaming a Widget

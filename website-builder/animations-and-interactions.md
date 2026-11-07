@@ -1,6 +1,6 @@
 # Animations and Interactions
 
-**Last verified:** 2026-10-31 2:50pm
+**Last verified:** 2026-11-07 11:12am
 
 Make your page feel alive when someone scrolls, without writing any code. This guide covers the animations you can add to any block in the Website Builder. Every effect on a block lives in one place: **Motion**, in the Styler.
 
@@ -19,6 +19,8 @@ An entrance effect plays once when a block scrolls into view. The block waits ou
 5. To use another effect, pick it under **Effect**, such as **Zoom in**.
 6. Scroll the page in the builder. The block plays its effect as it enters the screen.
 7. Click **Publish** to put it on your live site.
+
+![The Styles panel with a button selected, scrolled to Motion, with Add motion ringed](../images/website-builder/animations-add-motion.png)
 
 To take the effect away, click the **×** next to it in the list.
 
@@ -241,6 +243,8 @@ A screen reader reads each item once, and the Tab key reaches each link once.
 
 The builder keeps loops still while you edit, so your page does not move while you work. To see them move, click **Preview motion** in the top bar, next to the screen size menu. Click it again to hold them still. It starts off each time you open the builder, and it does not change your site.
 
+![The builder top bar with the Preview motion button ringed next to the screen size buttons](../images/website-builder/animations-preview-motion.png)
+
 ### Visitors Who Ask for Less Motion
 
 Visitors who turn on **Reduce motion** on their device see a loop standing still, with no pause button, because nothing moves. A marquee shows all its items standing still, in as many rows as they need.
@@ -346,6 +350,8 @@ When a visitor clicks a link on your site, the next page can fade in over the la
 2. Under **Appearance**, click **Theme**.
 3. Scroll past your themes to **Between pages**.
 4. Turn on **Fade smoothly between pages**. It saves at once, and a message says so. You do not need to publish. Visitors see the fade within about a minute.
+
+![The Theme page scrolled to Between pages, with Fade smoothly between pages ringed](../images/website-builder/animations-page-fade.png)
 
 To go back to normal page changes, turn the setting off. In the Website Builder, the same setting is in **Site design → Theme**.
 

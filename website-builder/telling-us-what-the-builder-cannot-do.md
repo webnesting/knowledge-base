@@ -1,6 +1,6 @@
 # How to Tell Us What the Builder Can't Do
 
-**Last verified:** 2026-11-02 8:38pm
+**Last verified:** 2026-11-07 11:02am
 
 Sometimes the Builder has no block, setting or theme option for what you want. Then you, or the AI app you connected, may add your own code to get it: your own style rules, a Style, or an HTML component. That works, but your page now depends on code you have to look after yourself.
 
@@ -39,11 +39,16 @@ Do not want reports sent? Tell your AI not to send them.
 
 To send the report yourself:
 
-1. Click the **⋮** menu in the top bar.
-2. Click **Send Feedback…**.
+1. Select the **⋮** menu in the top bar.
+2. Select **Send Feedback…**.
+
+   ![The top-bar menu open, with Send Feedback ringed](../images/website-builder/feedback-send-feedback-menu.png)
+
 3. Pick **I have an idea**.
-4. In the message, write the four things below.
-5. Click **Send**.
+4. In **Your message**, write the four things below.
+5. Select **Send**.
+
+![The Send feedback window with I have an idea picked, a message written and the Send button ringed](../images/website-builder/feedback-send-feedback-dialog.png)
 
 What to write:
 
@@ -54,7 +59,7 @@ What to write:
 
 ## Check it worked
 
-- **Send Feedback** says your message was sent. It goes to our help desk with your name and email.
+- **Send Feedback** says "Thanks. Your message is in our helpdesk." It goes to our help desk with your name and email.
 - A connected AI app tells you in the chat that it sent WebNesting a report.
 
 When the Builder can do what you asked, we send you a message. It names your page and the custom work on it. It also gives you a ready request to paste into your AI app. That request asks your AI to remove your own code and use the new built-in part instead.
