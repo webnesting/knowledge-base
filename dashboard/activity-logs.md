@@ -1,10 +1,10 @@
 # Activity Logs
 
-**Last verified:** 2026-11-07 9:14am
+**Last verified:** 2026-11-07 10:25am
 
 Activity logs keep a record of everything that happens on your site. Every time someone makes a change -- whether it is editing a page, updating settings, or managing team members -- it is recorded in the activity log.
 
-![The Activity Log widget showing recent site changes](../images/dashboard/activity-log.png)
+![The site dashboard with the Activity Log widget circled in orange, listing recent page changes with who made them and when](../images/dashboard/activity-log.png)
 
 The Activity Log shows recent actions taken in your site's dashboard, including page edits, setting changes, and content updates.
 
@@ -75,7 +75,7 @@ The Activity Log widget on your dashboard shows the most recent entries. You can
 3. In **Filter by type**, choose **All activity**, **Page edits**, **Settings changes** or **User activity**.
 4. Click **Save Settings**.
 
-![The Activity Log Settings dialog with Number of entries and Filter by type](../images/dashboard/activity-logs-widget-settings.png)
+![The Activity Log Settings dialog with the Number of entries setting circled in orange, above Filter by type](../images/dashboard/activity-logs-widget-settings.png)
 
 > **Tip:** If you are looking for a specific change, try filtering by type first. This narrows down the list and makes it easier to find what you need.
 
@@ -102,7 +102,7 @@ In addition to workspace-level events, the log also shows activity from all your
 
 ### Viewing the Workspace Activity Log
 
-![The workspace Activity Log page with the Event History list and the Filters button](../images/dashboard/activity-logs-workspace-page.png)
+![The workspace Activity Log page with the Event History list of time, event, source and resource, and the Filters button circled in orange](../images/dashboard/activity-logs-workspace-page.png)
 
 1. Go to your **Workspace** dashboard.
 2. Click **Settings** at the bottom of the icon rail, then **Activity Log**.
@@ -127,7 +127,7 @@ The workspace activity log includes several filters to help you find specific ac
 
 To open the filters, click **Filters** at the top right of the page.
 
-![The Filters panel with Source, Resource and When](../images/dashboard/activity-logs-workspace-filters.png)
+![The Filters panel open beside the Event History list, with the Source, Resource and When choices and a Page resource filter applied](../images/dashboard/activity-logs-workspace-filters.png)
 
 Filters apply the moment you pick them, so there is nothing to submit. If you use the same combination often, click **Save as View…** in the filter panel to keep it as a named view you can return to with one click.
 
