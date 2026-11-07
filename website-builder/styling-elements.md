@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-11-07 1:21pm
+**Last verified:** 2026-11-07 2:40pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -83,7 +83,7 @@ When a setting shows a value from your theme, it says so. For example, a size pi
 The page itself has settings and styles, like any element. Use them for the page's background, its text colour and anything else you want on the whole page.
 
 1. Open your page in the Website Builder.
-2. Click an empty spot on the page, or press **Escape**. Settings shows **Page**.
+2. Click an empty spot on the page, or press **Escape**. Settings shows **Page**. A blue line just inside the edge outlines the page, and its name shows at the top.
 3. Pick where the change applies with **Applies to** at the top of the panel.
 4. Set **Background colour** or **Text colour** in **Settings**, or open **Styles** for every other setting.
 
@@ -105,7 +105,7 @@ When two places set the same thing, this page wins over the layout, and the layo
 - **Scroll smoothly to a link on the same page**, for a link that jumps to a section.
 - **Space above a section a link jumps to**, so a bar that sticks to the top of the screen does not cover the section.
 
-In Layers, **Page** sits inside **Behind the page**, and your page's blocks sit inside **Page**. You cannot move, copy or delete these two rows.
+In Layers, **Page** sits inside **Behind the page**, and your page's blocks sit inside **Page**. You cannot move, copy or delete these two rows. On the page, the one you picked has the blue outline and its name, with no move, copy or delete buttons.
 
 To reach them from the page, hold **Shift** and click a block. Each Shift-click selects the next element out. After the outermost block comes **Page**, then **Behind the page**.
 
