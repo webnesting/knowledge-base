@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-11-07 10:25am
+**Last verified:** 2026-11-07 10:34am
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -366,7 +366,7 @@ A form on your website -- a contact form, a support request form, a "get a quote
 
 This is set per form, and it is off until you switch it on. Turning it on for your contact form does not affect your newsletter signup.
 
-![The Routing tab on a form, with Create Contact and Create Helpdesk Ticket](../images/dashboard/form-workspace-routing.png)
+![The Routing tab of a form, with the Create Helpdesk Ticket option ringed below Create Contact](../images/dashboard/form-workspace-routing.png)
 
 1. In the site menu, open **Forms** and click **Forms**.
 2. Open the form you want (or click **+ New Form** and then **Create** -- the Routing tab only appears once a form has been created).
