@@ -1,6 +1,6 @@
 # Welcome to WebNesting
 
-**Last verified:** 2026-10-27 11:18am
+**Last verified:** 2026-11-07 9:28am
 
 Thanks for choosing WebNesting! This guide will help you get comfortable with the platform and show you everything you need to know to start building your website.
 
@@ -49,6 +49,8 @@ The Dashboard is your home base. Think of it as the control room for your websit
 
 You will spend time here when you need to organize, configure, or review your site.
 
+![A site dashboard with the Site Stats and Quick Actions widgets](../images/getting-started/admin-dashboard.png)
+
 ### The Website Builder
 
 The Website Builder is where the creative work happens. This is a visual editor that lets you design your pages by dragging and dropping components directly onto the page. You can:
@@ -62,18 +64,24 @@ The Website Builder is where the creative work happens. This is a visual editor 
 
 The Builder opens in its own view so you can focus entirely on designing your page.
 
+![The Website Builder with a home page in the editing area and the Pages panel on the right](../images/getting-started/builder-first-open.png)
+
 ---
 
 ## How to Log In
 
-1. Open your browser and go to the WebNesting app and sign in with your **email address** and **password**.
-2. Once you're signed in you land in your **workspace**. (If you belong to more than one, you land on the workspace list instead -- open the one that contains your site.)
-3. Select **Sites** in the left icon rail, then select **Manage Site** on your site's card to open its dashboard. All of your sites are managed from the same place once you're signed in -- you no longer go to a separate per-site web address to log in.
+1. Open your browser and go to the WebNesting app.
+2. Enter your **email address** and **password**.
 
-![The WebNesting login screen](../images/getting-started/login-page.png)
+![The WebNesting sign-in screen with Email and Password fields, the Forgot password link and the Sign in button](../images/getting-started/login-page.png)
 
-4. Select **Sign in**.
-5. If you have two-factor authentication turned on, you will be asked to enter a verification code. Check your authenticator app or email for the code, then enter it on the screen. You can set up two-factor authentication from the Security card in your account portal.
+3. Select **Sign in**.
+4. If you have two-factor authentication turned on, enter the verification code from your authenticator app or email. You can set up two-factor authentication from the Security card in your account portal.
+5. You land in your **workspace**. If you belong to more than one, you land on the workspace list instead. Open the one that contains your site.
+6. Select **Sites** in the left icon rail, then **Overview**.
+7. Select **Manage Site** on your site's card to open its dashboard.
+
+You manage all of your sites from this one place, so you do not sign in at a separate web address for each site.
 
 > **Tip:** Check the "Keep me signed in" box on the sign-in page if you want to stay logged in on this device. This saves you from typing your password every time.
 
@@ -89,8 +97,9 @@ You set up a new site in one short form. It takes about a minute:
 2. **Choose how to start.** Pick **Start from a theme** (the quickest way), or **Build it with your AI**.
 3. **Pick a look.** Choose a theme. Some come with an example site, some with starter pages (**Business**, **Personal** or **Portfolio**), and some give you just colors and fonts with an empty home page.
 4. **Create it.** Select **Create Site** and watch the progress list until it says **Complete!**.
+5. **Make it yours.** If you started from a theme, pick your colors, fonts and header on the **Make it yours** screen, or select **Skip for Now**.
 
-Then select **Manage Site** to open your dashboard, ready to start building.
+Then select **Go to Sites** and **Manage Site** on your new site's card to open your dashboard, ready to start building.
 
 > **Tip:** Do not worry about making perfect choices. You can change your theme, colors, example content, and every other setting at any time.
 
