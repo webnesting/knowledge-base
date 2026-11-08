@@ -1,6 +1,6 @@
 # Managing Pages in the Builder
 
-**Last verified:** 2026-11-08 11:52am
+**Last verified:** 2026-11-08 4:26pm
 
 The Website Builder is where you design and edit your pages visually. But it is also where you can switch between pages, create new ones, and manage how they are organized -- all without leaving the builder. This guide covers everything you need to know about working with pages inside the builder.
 
@@ -165,7 +165,7 @@ A page can send visitors somewhere else. Enter an address in the **Menu Link** f
 
 ### Page Icon
 
-You can assign an icon image to a page. This icon may appear in navigation menus or other areas of your site depending on your theme. In a menu, a simple line icon in SVG format looks best.
+You can assign an icon image to a page. This icon may appear in navigation menus or other areas of your site depending on your theme. In a menu, a simple line icon in SVG format looks best. Use a square icon with no words in it: a menu shows it small, so a wide logo with its name becomes too small to read. An SVG drawn in "currentColor" takes the menu's text color, in light and dark mode.
 
 1. Open the page properties.
 2. Find the **Page Icon** field.

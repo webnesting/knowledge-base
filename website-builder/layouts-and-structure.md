@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-08 10:24am
+**Last verified:** 2026-11-08 2:33pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -31,8 +31,8 @@ The header's parts:
 
 - **Logo** -- your logo picture, your site's name, or both (**Image and text**, **Image**, **Text**), in three sizes. **Text** starts as your site's name; type other words to replace it. Upload the picture in **Site Settings → Content → Site Images**. If you pick **Image** and have no picture yet, your site's name shows instead. **Logo links to** is the page the logo opens, such as `/shop`; leave it empty for your home page.
 - **Menus** -- the main menu and a second, smaller menu. Pick which of your menus each one shows, how many levels show, and whether the pages under an item open in a list (**Dropdown**) or a wide panel (**Mega menu**). Under each menu you pick, **Edit this menu's pages** opens your Pages list showing only the pages in that menu. Open a page's settings there to add it to a menu or take it out.
-- **Links and switches** -- your social links, the language switcher and the light and dark switch. Your social profiles are in **Site Settings → Connections → Social Settings**. When the menu folds behind its button, on phones and tablets or where a long menu does not fit, the second menu, the language links and the social links move into the menu with it.
-- **Button** -- a button with your own words and link, such as "Book a call". It can open in a new tab. Its **Style** is **Filled**, **Outline** or **Dark**. **Dark** is a solid button in your header's text color: dark on a light header, light on a dark header and in dark mode. Its **Shape** is **Theme** (your theme's own corners), **Square**, **Rounded** or **Pill**, as for any button. The footer button has the same **Shape**. On phones, the header button moves into the menu.
+- **Links and switches**: your social links, the language switcher and the light and dark switch. Your social profiles are in **Site Settings → Connections → Social Settings**. On a wide screen they sit with your second menu in a small row of their own, apart from the main menu. Your layout puts that row across the top of the header or above the main menu. When the menu folds behind its button, on phones and tablets or where a long menu does not fit, the second menu, the language links and the social links move into the menu with it.
+- **Button**: a button with your own words and link, such as "Book a call". It can open in a new tab. Its **Style** is **Filled**, **Outline** or **Dark**. **Dark** is a solid button in your header's text color: dark on a light header, light on a dark header and in dark mode. Its **Shape** is **Theme** (your theme's own corners), **Square**, **Rounded** or **Pill**, as for any button. The footer button has the same **Shape**. **Button on phones** decides where the header button goes on a phone. **In the phone menu** puts it at the foot of the menu. **In the phone bar** keeps it in view, small, next to the menu button, so keep its words short. On a narrow phone it gets narrower, and your logo keeps its room.
 - **Top bar** -- a thin bar above the header with a short message, a phone number, an email address and your social links. Your whole message always shows: when it does not fit on one line, it wraps and the bar gets taller. On tablets and phones, a bar with a message leaves out the social links, which are still in your footer. On phones, the phone number and email address show as icons.
 - **Announcement bar** -- a short message in your theme's main color, above everything else. See [Announcement bar](#announcement-bar).
 
@@ -40,6 +40,11 @@ With **Dropdown** or **Mega menu**, **Page details** decides what each page unde
 
 - **Simple** -- each page shows its name. A page with a **Page Icon** shows it small, beside its name.
 - **Icon and description** -- each page shows its **Page Icon** and its **Menu Description** under its name, as on many software sites. Set both in each page's settings (see [Page management](page-management.md#menu-description)). The top items never show a description.
+
+With **Mega menu**, two more settings fill each wide panel:
+
+- **Show a feature card** shows a card for the menu item: its page's **Share Image**, its name and its **Menu Description**. Set both in the page's settings. A page with neither shows no card.
+- **Show a "See all" link** ends each panel with a link to the item's own page, such as "See all Services".
 
 With **Dropdown** and three or more levels, **Third level opens** decides where the pages under a page in the list go:
 
@@ -57,10 +62,19 @@ When your menu has pages under its items, **Phone menu sub-pages** decides how t
 
 Both settings change the page in the Website Builder at once. Open the phone view and tap the menu button to try them.
 
+**Phone menu animation** decides how the phone menu opens and closes. It closes the same way it opened:
+
+- **Slide**: the menu moves in from its side. A full-screen menu fades in and lifts a little.
+- **Fade**: the menu fades in where it stops.
+- **None**: the menu shows and hides at once.
+
+**Phone menu speed** is **Fast**, **Normal** or **Slow**. It does nothing when the animation is **None**. A visitor whose device asks for less motion gets the menu at once.
+
 The footer's parts:
 
 - **Logo and text** -- the logo, as in the header, and a short text under it.
-- **Menus** -- the footer menu, a second menu and your legal links (such as Privacy and Terms).
+- **Menus**: the footer menu, a second menu and your legal links (such as Privacy and Terms). A menu with pages under its items shows each item as a heading with its pages below it, in columns that line up at the top. A menu with no pages under its items spreads its links into even columns. The second menu sits under the first, past a thin line. On a phone, each heading becomes a button that opens and closes its pages.
+- **Email sign-up**: **Show an email sign-up** adds a box where visitors type their email to join your list, with a heading and a short text of your own. It shows while your workspace has the Marketing product on.
 - **Details** -- your footer details (such as your address), the copyright line and an extra line of text. **Name in the copyright line** shows a name of your choice, such as your own on a personal site. Leave it empty to use your business name from Site Settings. Under **Extra text position**, choose **Left** to put the extra line first in the bottom bar, where a copyright line usually sits, or **Right** to keep it at the end.
 - **Links and switches** -- your social links, the language switcher and the light and dark switch.
 - **Button** -- a button with your own words and link.
@@ -89,6 +103,15 @@ What you can change:
 
 Leave a box empty, or pick **Same as the theme**, to use your theme's value. A color picked from your theme's list also changes in dark mode. A color you mix yourself stays the same in light and dark mode.
 
+### A picture behind your header or footer
+
+1. In the Website Builder, click your header (or your footer). **Settings** opens.
+2. Open **Header colors** (or **Footer colors**) and pick a **Background picture** from your media library.
+3. Set **Picture color layer**, the color laid over the picture so your words stay readable. Leave it empty to use the **Background** color.
+4. Set **Picture color layer strength**. **Light** shows more of the picture. **Strong** hides more of it and reads best.
+
+The header's and footer's words take a color that reads on the color layer. The header's picture does not show while **Glass** is on.
+
 ### A see-through Glass header
 
 **Glass** is a switch every header layout has, and a header of your own too. Turn it on and your header lies over the top of your page, so your first section's picture or color shows through it. The header stays see-through until it sticks to the top of the screen. From then on it is a frosted bar with a thin line under it.
@@ -108,6 +131,18 @@ How it works:
 - **Once the header sticks**, the bar is your header's **Background** color, a little see-through and blurred. To change it, set **Background** in **Header colors**.
 - **Glass changes only how the header looks.** Its width and the place of the logo and the menu stay the same with Glass on or off. To line them up with your page, use **Content width** (below).
 - **On phones**, the menu, the second menu and the button move into the menu, as without Glass.
+
+### What your header does when visitors scroll
+
+1. In the Website Builder, click your header. **Settings** opens.
+2. Under **When visitors scroll**, pick one:
+   - **Stays and shrinks**: the header stays at the top. The announcement bar, the top bar and the small links above the menu scroll away, and on wide screens the header gets shorter and the logo smaller. This is the default.
+   - **Stays as is**: the whole header stays at the top at its full size.
+   - **Scrolls away**: the header scrolls away with the page and shows only at the top of the page.
+   - **Hides while scrolling down**: the header slides out of view while visitors scroll down and comes back as soon as they scroll up.
+3. Publish the page, then scroll the published page to see it.
+
+Every choice works with Glass, with every layout and with a header you made your own. A visitor who moves through the page with the keyboard always sees the header when they reach it. A visitor whose device asks for less motion sees no sliding.
 
 > **Tip:** Glass looks best over a first section with a large picture, such as a **Video background** with a cover picture. **Menu in the middle** (your logo on the left, your menu in the middle and your button on the right) with Glass on looks like a modern product page.
 

@@ -1,6 +1,6 @@
 # Setting Up Site Navigation
 
-**Last verified:** 2026-11-07 3:28pm
+**Last verified:** 2026-11-08 2:17pm
 
 Navigation is how visitors find their way around your website. Good navigation helps people quickly get to the pages they need, whether they are browsing on a desktop or a phone. This guide covers how navigation works in WebNesting, how to control which pages appear in your menus, and tips for creating a clear, easy-to-use navigation structure.
 
@@ -69,7 +69,7 @@ A title turns a footer menu into a column with a heading, such as **Product** or
 3. Type a heading in **Menu title**. For the second menu, type one in **Second menu title**.
 4. Save and publish.
 
-With a title, the second menu shows as a column of its own beside the first. Leave both titles empty to keep the footer as it was. Titles can have one text per language on a site with more than one language.
+With a title, the second menu shows under the first, past a thin line, with its title as a heading. Leave both titles empty to keep the footer as it was. Titles can have one text per language on a site with more than one language.
 
 ### Adding a Page to the Footer
 
