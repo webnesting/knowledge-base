@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-11-08 4:52pm
+**Last verified:** 2026-11-08 5:05pm
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -344,18 +344,19 @@ Each card has several parts you can edit:
 
 When you select a card, the settings panel gives you layout choices:
 
-- **No Image** -- A card with only text and a button (no image area).
-- **Image 25, 50, or 75** -- Controls how much of the card width the image takes up, with the text beside it.
-- **Stacked** -- The image appears above the text content (full width).
-- **Absolute** -- The text overlays the image.
+- **No picture**: A card with only text and a button.
+- **Picture beside the text**: A quarter (the default), half or three quarters of the card width is the picture, with the text beside it.
+- **Picture above the text**: The picture takes the full width, with the text under it.
+- **Text over the picture**: The text sits on a see-through box over the picture.
 
 You can also control:
 
+- **Style**: **Box** (the default) draws a thin line around the card in your theme's border color. **Top line** and **Strong top line** drop the box and draw a line along the top.
 - **Text alignment** -- Left, center, or right
 - **Content position** -- Where the text content sits within the card (top-left, center, bottom-right, and so on)
-- **Text box width**: How much of the room beside the picture the text uses, from Full to Quarter. With a narrower box, **Content position** moves the text to a side. With **Stacked** or **Absolute**, the width is a share of the card.
+- **Text box width**: How much of the room beside the picture the text uses, from Full to Quarter. With a narrower box, **Content position** moves the text to a side. With the picture above the text or the text over the picture, the width is a share of the card.
 - **Vertical size**: Makes the card at least 20%, 40%, 60%, 80% or all of the screen tall. The picture fills the extra height.
-- **Alternate** -- Reverses the layout direction for cards placed side by side, creating a zigzag pattern
+- **Picture side**: **Picture on the right** puts the picture on the other side of the text. With the picture above the text, it goes below. Set it on a **Cards** group to move every picture.
 - **Object fit** and **Object position** (under **Media Object**) -- How the picture fills its space. **Cover** fills the space and trims the edges. **Contain** shows the whole picture and leaves space around it. **Object position** picks which part shows, or where the picture sits in its space.
 
 ### Picture Captions
