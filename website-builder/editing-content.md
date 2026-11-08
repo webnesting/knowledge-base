@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-11-07 10:19am
+**Last verified:** 2026-11-08 4:52pm
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -353,6 +353,8 @@ You can also control:
 
 - **Text alignment** -- Left, center, or right
 - **Content position** -- Where the text content sits within the card (top-left, center, bottom-right, and so on)
+- **Text box width**: How much of the room beside the picture the text uses, from Full to Quarter. With a narrower box, **Content position** moves the text to a side. With **Stacked** or **Absolute**, the width is a share of the card.
+- **Vertical size**: Makes the card at least 20%, 40%, 60%, 80% or all of the screen tall. The picture fills the extra height.
 - **Alternate** -- Reverses the layout direction for cards placed side by side, creating a zigzag pattern
 - **Object fit** and **Object position** (under **Media Object**) -- How the picture fills its space. **Cover** fills the space and trims the edges. **Contain** shows the whole picture and leaves space around it. **Object position** picks which part shows, or where the picture sits in its space.
 
