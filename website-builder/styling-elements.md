@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-11-07 3:46pm
+**Last verified:** 2026-11-08 9:55am
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -569,7 +569,7 @@ When you choose Grid, a gear icon appears with grid-specific options:
 
 1. Set the number of columns.
 2. Set the number of rows (optional).
-3. The items inside will automatically fill the grid cells.
+3. The items inside fill the grid one column each. On a Cards group, two columns put two cards side by side.
 
 ### Gap (Spacing Between Items)
 
