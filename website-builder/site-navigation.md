@@ -1,6 +1,6 @@
 # Setting Up Site Navigation
 
-**Last verified:** 2026-11-08 2:17pm
+**Last verified:** 2026-11-08 6:08pm
 
 Navigation is how visitors find their way around your website. Good navigation helps people quickly get to the pages they need, whether they are browsing on a desktop or a phone. This guide covers how navigation works in WebNesting, how to control which pages appear in your menus, and tips for creating a clear, easy-to-use navigation structure.
 
@@ -223,15 +223,17 @@ To add a sitemap:
 
 1. Open the page where you want the sitemap to appear.
 2. Open the **Add** panel and drag a **Site Map** component from the **Site modules** group onto the page.
-3. The component lists all your pages. It leaves out a page whose **Include on Sitemap** box is not checked.
+3. The component lists all your pages. Your home page sits beside your other top-level pages, and a page you placed under another page is indented below it. It leaves out a page whose **Include on Sitemap** box is not checked.
 
 To list only part of your site, for example one small site inside your site:
 
 1. Select the Site Map component and open **Settings**.
 2. Next to **Pages to list**, choose **Pages under**.
-3. Choose the page in the **Page** list. The sitemap then starts with that page and shows the pages under it.
+3. Choose the page in the **Page** list. The sitemap then lists that page beside the pages directly under it, the same way your home page sits beside your top-level pages.
 
 If you choose **Pages under** and pick no page, the sitemap lists the whole site. Choose **Whole site** to go back to the full list.
+
+To show every page in one plain list, with none indented, turn on **One list, no levels** in the component's **Settings**. It works with **Whole site** and with **Pages under**.
 
 > **Tip:** A dedicated sitemap page is a nice touch for larger websites. Link to it from your footer so visitors always have a way to see everything your site offers.
 
