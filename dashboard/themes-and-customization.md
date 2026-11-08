@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-11-07 3:52pm
+**Last verified:** 2026-11-08 12:06pm
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -11,6 +11,7 @@ Your site's theme controls its overall look and feel -- the colors, fonts, spaci
 A theme is a collection of visual styles applied to your entire site. It determines things like:
 
 - The colors used for buttons, links, backgrounds, and text
+- The page background behind every section: a plain color, or a soft glow, a pattern or a texture
 - The style of your header and footer
 - The overall mood of your site (light and airy, dark and modern, warm and elegant, etc.)
 
@@ -43,6 +44,8 @@ An art deco editorial style with dramatic serif typography and rich burgundy-and
 ### Kiln
 
 A warm, hand-made studio look with terracotta and deep teal on a sand background. Headings use a bold, friendly typeface. Buttons are fully rounded, and cards have a crisp outline with a solid offset shadow, like a printed stamp. Your site name sits in the middle of the header, with your menu on both sides. This light theme comes with a matching dark mode. It suits makers, studios, cafés, craft shops and anyone who wants a site that feels made by hand.
+
+Soft Elegant, Midnight Slate, Bold Deco and Kiln each draw a page background of their own: soft glows of the theme's colors at the top, Bold Deco's gold lattice, and Kiln's paper texture. It runs behind every section and changes with light and dark mode, and it always stays faint enough that text on it is easy to read. Soft Elegant, Bold Deco and Kiln show their glows in dark mode only. Default keeps a plain page. To change it for one page, a layout or your whole site, see [The Page Background](../website-builder/styling-elements.md#the-page-background).
 
 > **Tip:** Each theme card shows your own home page, and you can open any theme full screen before you switch. Take your time and try them all to see which one fits your brand best.
 
