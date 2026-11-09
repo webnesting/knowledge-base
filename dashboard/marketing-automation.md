@@ -1,6 +1,6 @@
 # Marketing Automations
 
-**Last verified:** 2026-11-07 10:35am
+**Last verified:** 2026-11-08 10:39pm
 
 Marketing automations let you create set-it-and-forget-it workflows that send emails, update contacts, and perform actions automatically when something happens. Instead of manually sending a welcome email every time someone signs up, or remembering to tag contacts after an event, you build the workflow once and let it run on its own.
 
@@ -135,6 +135,42 @@ Removes the contact from a mailing list. Useful when you want to move contacts f
 ### Update Field
 
 Changes a value on the contact's profile. For example, you could update a custom field like "Onboarding Status" to "Complete" when a contact finishes a series of steps.
+
+### Webhook
+
+Sends the contact's details to another service, such as your CRM or your own app, when the contact reaches this step.
+
+To set it up:
+
+1. Add a **Webhook** step to the workflow and select it.
+2. In **Send to (web address)**, type the address the other service gave you. It must start with `https://` or `http://`.
+3. Under **Method**, keep **POST** unless the other service asks for **PUT** or **PATCH**.
+4. Click **Send test**. WebNesting sends a sample contact to the address, and the panel shows what the address answered.
+5. Save the automation.
+
+#### What each request holds
+
+Each request has the contact's email, name, phone and custom fields. It also names the automation and the step, and it gives the details of the trigger that started the run, for example which form or list. A test request says it is a test and uses a sample contact.
+
+#### Check that a request came from your workspace
+
+Each request has an `X-WN-Signature` header. Your service can use it to confirm that the request came from your workspace:
+
+1. In the Webhook step's settings, under **Signing key**, click **Show**, then **Copy**.
+2. Give the key to the person or service that receives the requests.
+3. The receiver makes an HMAC-SHA256 of the raw request body with the key. The header holds `sha256=` followed by that value.
+
+All webhook steps in your workspace use the same key. To make a new one, click **New key**, then **Replace the key**. The old key stops working at once, so update your receiver right away.
+
+#### When the address does not answer
+
+If the address is busy or gives no answer within 10 seconds, WebNesting tries again after 1, 2, 5 and 10 minutes. After 5 failed tries, the automation stops for that contact. It stops at once when the address answers with an error that another try cannot fix, such as "not found".
+
+#### See what was sent
+
+Open the automation and find **Webhook calls** on the **Workflow** tab. It lists the latest 50 tries with the contact, the address, the result and any error.
+
+> **Good to know:** WebNesting sends webhooks only to addresses on the public internet. It refuses an address on a private network or on your own computer, such as `localhost`.
 
 > **Tip:** A good starting automation might be: **Send Email** (welcome message) then **Wait** (3 days) then **Send Email** (follow-up with your best content). Keep it simple and build from there.
 
