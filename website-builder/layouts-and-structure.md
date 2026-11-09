@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-09 12:45pm
+**Last verified:** 2026-11-09 4:02pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -175,6 +175,7 @@ How it works:
 - **With an announcement bar or a top bar above it**, the header stays see-through while the bar scrolls away. It frosts the moment it sticks to the top of the screen. The announcement bar and the top bar keep their own solid colors.
 - **The header's words and icons** take a color that reads on your first section. Over a **Video background**, they take the color of that section's own words. Over a section set to a dark or a theme color, they take that section's text color. Otherwise they take the header's own text color.
 - **To pick the color yourself**, open **Header colors** and set **Text before scrolling**. Pick a light color over a dark picture. This setting shows only while Glass is on.
+- **Over a picture or a video**, a shade sits behind the header's words and fades out below the header. It is dark under light words and light under dark words, so the words stay readable on any picture you choose. The shade goes away when the header sticks and turns frosted.
 - **Once the header sticks**, the bar is your header's **Background** color, a little see-through and blurred. To change it, set **Background** in **Header colors**.
 - **Glass changes only how the header looks.** Its width and the place of the logo and the menu stay the same with Glass on or off. To line them up with your page, use **Content width** (below).
 - **On phones**, the menu, the second menu and the button move into the menu, as without Glass.
