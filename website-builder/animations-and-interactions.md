@@ -1,6 +1,6 @@
 # Animations and Interactions
 
-**Last verified:** 2026-11-07 11:12am
+**Last verified:** 2026-11-09 2:42am
 
 Make your page feel alive when someone scrolls, without writing any code. This guide covers the animations you can add to any block in the Website Builder. Every effect on a block lives in one place: **Motion**, in the Styler.
 
@@ -175,7 +175,7 @@ You can design an animation of your own and use it anywhere a built-in effect go
 A keyframe has stops along a track. **Start** is how the block looks when the animation begins, and **End** is how it looks when it ends.
 
 1. Click **Add a stop** to put a stop between Start and End. You can also click the track where you want the stop.
-2. Under **Add a style at this stop**, pick a style: **Opacity**, **Move**, **Turn**, **Scale**, **Background colour**, **Text colour** or **Letter spacing**.
+2. Under **Add a style at this stop**, pick a style: **Opacity**, **Move**, **Turn**, **Scale**, **Background color**, **Text color** or **Letter spacing**.
 3. Set the style with the same control you use in **Visual**.
 4. To move a stop, drag **Position**, or select the stop and press the Left or Right arrow key. Hold Shift to move it 10% at a time.
 5. Click **Play on** and the block's name to see it run on the selected block.

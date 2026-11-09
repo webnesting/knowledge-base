@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-11-08 11:22am
+**Last verified:** 2026-11-09 2:42am
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -80,12 +80,12 @@ When a setting shows a value from your theme, it says so. For example, a size pi
 
 ## The Whole Page
 
-The page itself has settings and styles, like any element. Use them for the page's background, its text colour and anything else you want on the whole page.
+The page itself has settings and styles, like any element. Use them for the page's background, its text color and anything else you want on the whole page.
 
 1. Open your page in the Website Builder.
 2. Click an empty spot on the page, or press **Escape**. Settings shows **Page**. A blue line just inside the edge outlines the page, and its name shows at the top.
 3. Pick where the change applies with **Applies to** at the top of the panel.
-4. Set the **Background** or the **Text colour** in **Settings**, or open **Styles** for every other setting.
+4. Set the **Background** or the **Text color** in **Settings**, or open **Styles** for every other setting.
 
 **Applies to** has three choices. The line under it says how far a change reaches.
 
@@ -103,8 +103,8 @@ Many themes give the page a background of their own: a soft glow at the top, a p
 
 **Background** in the page's **Settings** has two parts:
 
-- **Colour.** Leave it empty to keep the theme's page colour. Pick a colour from your theme to follow light and dark mode.
-- **Images and gradients.** **Default** keeps what the theme or a wider choice gives, and the line under it says which. **None** shows only the colour. **Custom** lets you add your own layers: a picture from your media, a gradient or a glow. Each layer has the same controls as in **Styles**, and the top layer shows over the ones under it.
+- **Color.** Leave it empty to keep the theme's page color. Pick a color from your theme to follow light and dark mode.
+- **Images and gradients.** **Default** keeps what the theme or a wider choice gives, and the line under it says which. **None** shows only the color. **Custom** lets you add your own layers: a picture from your media, a gradient or a glow. Each layer has the same controls as in **Styles**, and the top layer shows over the ones under it.
 
 Your layers take the place of the theme's for the choice in **Applies to**. To use the theme's background again, click **Reset background to default**.
 
@@ -112,9 +112,9 @@ If this page or its layout sets its own background, a note says so when you edit
 
 ### Behind the Page
 
-**Behind the page** is the area around your page. Its colour shows only when **Styles** gives the page a width or space around it. To select it, open **Layers** and click **Behind the page** at the top. Its settings are:
+**Behind the page** is the area around your page. Its color shows only when **Styles** gives the page a width or space around it. To select it, open **Layers** and click **Behind the page** at the top. Its settings are:
 
-- **Colour around the page**.
+- **Color around the page**.
 - **Scroll smoothly to a section**, for a link that jumps to a section on the same page. It is on by default. A visitor who asked their device for less motion always jumps straight there.
 - **Space above a linked section**, in pixels, so a bar that sticks to the top of the screen does not cover the section.
 
@@ -125,7 +125,7 @@ To reach them from the page, hold **Shift** and click a block. Each Shift-click 
 Two notes show under **Applies to** when they apply:
 
 - A text size set on **Behind the page** changes the size of all text on your site, and text stops growing with the screen.
-- A colour you type stays the same in dark mode. Pick a colour from your theme to follow light and dark mode.
+- A color you type stays the same in dark mode. Pick a color from your theme to follow light and dark mode.
 
 ---
 
