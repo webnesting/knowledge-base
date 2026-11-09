@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-09 9:45am
+**Last verified:** 2026-11-09 9:57am
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -33,6 +33,7 @@ The header's parts:
 - **Menus** -- the main menu and a second, smaller menu. Pick which of your menus each one shows, how many levels show, and whether the pages under an item open in a list (**Dropdown**) or a wide panel (**Mega menu**). Under each menu you pick, **Edit this menu's pages** opens your Pages list showing only the pages in that menu. Open a page's settings there to add it to a menu or take it out.
 - **Links and switches**: your social links, the language switcher and the light and dark switch. Your social profiles are in **Site Settings → Connections → Social Settings**. On a wide screen they sit with your second menu in a small row of their own, apart from the main menu. Your layout puts that row across the top of the header or above the main menu. When the menu folds behind its button, on phones and tablets or where a long menu does not fit, the second menu, the language links and the social links move into the menu with it.
 - **Button**: a button with your own words and link, such as "Book a call". It can open in a new tab. Its **Style** is **Filled**, **Outline** or **Dark**. A new button starts as **Outline**, so your header button and footer button match. If you picked **Filled** before, your button stays **Filled**. **Dark** is a solid button in your header's text color: dark on a light header, light on a dark header and in dark mode. Its **Shape** is **Theme** (your theme's own corners), **Square**, **Rounded** or **Pill**, as for any button. The footer button has the same **Shape**. **Button on phones** decides where the header button goes on a phone. **In the phone menu** puts it at the foot of the menu. **In the phone bar** keeps it in view, small, next to the menu button, so keep its words short. On a narrow phone it gets narrower, and your logo keeps its room.
+- **Category row**: a row of links across the foot of the header, such as your shop's categories. **Three rows** shows it to start with. For any other layout, turn on **Show the category row**. It shows the top pages of your **Header category menu**; pick another menu under **Which menu**. On phones, its links move into the menu, under your main menu.
 - **Top bar** -- a thin bar above the header with a short message, a phone number, an email address and your social links. Your whole message always shows: when it does not fit on one line, it wraps and the bar gets taller. On tablets and phones, a bar with a message leaves out the social links, which are still in your footer. On phones, the phone number and email address show as icons.
 - **Announcement bar** -- a short message in your theme's main color, above everything else. See [Announcement bar](#announcement-bar).
 
@@ -112,6 +113,24 @@ Leave a box empty, or pick **Same as the theme**, to use your theme's value. A c
 
 The header's and footer's words take a color that reads on the color layer. The header's picture does not show while **Glass** is on.
 
+### A full-screen picture header
+
+With the **Full-screen picture** layout, your header's picture fills the first screen your visitors see. Your logo and menu sit in a bar at its foot.
+
+1. In the Website Builder, click your header. **Settings** opens.
+2. Under **Layout**, pick **Full-screen picture**.
+3. Open **Header colors** and pick a **Background picture**. Set its color layer as in [A picture behind your header or footer](#a-picture-behind-your-header-or-footer).
+4. Publish the page.
+
+How it works:
+
+- **The picture and the bar fit the first screen**, on phones and on wide screens. An announcement bar or a top bar sits above the picture, and the picture gets shorter to make room for it.
+- **Your logo and menu take a color that reads on the picture's color layer.**
+- **When visitors scroll**, the picture scrolls away first. Then the bar at its foot does what you picked under **When visitors scroll**, as with **Logo above menu**. With **Stays as is**, the bar stays at the top at its full size.
+- **Without a picture**, the header looks like **Logo above menu**.
+- **Glass does not apply**, so its setting does not show.
+- **Your picture loads first**, before the rest of the page, so the page does not feel slow.
+
 ### A see-through Glass header
 
 **Glass** is a switch every header layout has, and a header of your own too. Turn it on and your header lies over the top of your page, so your first section's picture or color shows through it. The header stays see-through until it sticks to the top of the screen. From then on it is a frosted bar with a thin line under it.
@@ -122,7 +141,7 @@ The header's and footer's words take a color that reads on the color layer. The 
 
 How it works:
 
-- **It works with every layout**: **Logo left**, **Logo centered**, **Logo above menu**, **Logo and menu button**, **Menu on both sides** and **Menu in the middle**, and with a header you made your own.
+- **It works with every layout**: **Logo left**, **Logo centered**, **Logo above menu**, **Logo and menu button**, **Menu on both sides**, **Menu in the middle** and **Three rows**, and with a header you made your own. **Full-screen picture** has no Glass, because its picture already fills the top of the page. While it is picked, the **Glass** setting does not show.
 - **Your first section starts at the top of the screen**, behind the header. Its words, pictures and buttons start below the header, so nothing is hidden. With **Logo above menu**, the space is as tall as the logo row and the menu row together.
 - **A section you hide at one screen size** (its display set to **None** in that device view, see [Responsive design](responsive-design.md)) is skipped at that size. The next section starts behind the header there instead.
 - **With an announcement bar or a top bar above it**, the header stays see-through while the bar scrolls away. It frosts the moment it sticks to the top of the screen. The announcement bar and the top bar keep their own solid colors.
