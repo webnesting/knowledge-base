@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-11-07 11:21am
+**Last verified:** 2026-11-08 11:32pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -89,7 +89,7 @@ You can insert your site's name or the current page's title automatically by typ
 
 ### Description
 
-This is the short summary that appears below your site's title in search engine results. It helps visitors decide whether to click through to your site.
+This is the short summary that appears below your site's title in search engine results. It helps visitors decide whether to click through to your site. Every page with no **SEO Description** of its own shows this one, your homepage included until you write one for it.
 
 1. On the **SEO Defaults** page, find the **Description** field.
 2. Write a brief, compelling description of your website (one to two sentences). The same `{{ site.name }}` and `{{ page.title }}` shortcuts work here.

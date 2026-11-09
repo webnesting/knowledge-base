@@ -1,6 +1,6 @@
 # Managing Pages in the Builder
 
-**Last verified:** 2026-11-08 4:26pm
+**Last verified:** 2026-11-08 11:32pm
 
 The Website Builder is where you design and edit your pages visually. But it is also where you can switch between pages, create new ones, and manage how they are organized -- all without leaving the builder. This guide covers everything you need to know about working with pages inside the builder.
 
@@ -246,7 +246,7 @@ Each page has its own SEO settings that help search engines understand and displ
 - **Show on search engines**: Choose **Yes** to let search engines find and list this page, or **No** to hide it. A new page starts on **No**, so change it to **Yes** when the page is ready for visitors.
 - **SEO Title**: The title that appears in search engine results. If left blank, your page title is used.
 - **SEO Author**: The author name shown in search results for this page.
-- **SEO Description**: A short summary of the page that appears below the title in search results. Keep it under 160 characters for best results.
+- **SEO Description**: A short summary of the page that appears below the title in search results. Keep it under 160 characters for best results. Leave it empty to use the **Description** from your site's SEO defaults. A new site's homepage starts empty.
 - **SEO Keywords**: Words and phrases related to the page's content that help search engines categorize it.
 - **Share Image**: The picture shown when someone shares this page on social media. Leave it empty to use the image from your site's SEO defaults.
 
