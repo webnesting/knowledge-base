@@ -1,6 +1,6 @@
 # Managing Your Websites
 
-**Last verified:** 2026-11-07 10:37am
+**Last verified:** 2026-11-08 11:55pm
 
 The **Sites** page inside a workspace is where you manage all your sites. This guide covers everything you need to know about viewing, opening, editing, and deleting your websites.
 
@@ -63,7 +63,7 @@ Open the site with **Manage Site**, then open **Settings** > **Site Settings**. 
 
 You can't delete a site yourself yet: the **Sites** page has no delete button. To remove a site, email Support at support@webnesting.com. Name the site and the workspace it is in.
 
-**Warning:** Deleting a website removes all of its content, pages, images, and settings permanently. This action cannot be undone. Download anything you want to keep first. For form submissions, use the CSV export on each form's **Submissions** tab. For a module's content, use **Download a copy** on its card under **Settings** > **Modules**.
+**Warning:** Deleting a website removes all of its content, pages, images, and settings permanently. This action cannot be undone. Free stock photos the website added stay in your Media library, because your other websites can show them too. Download anything you want to keep first. For form submissions, use the CSV export on each form's **Submissions** tab. For a module's content, use **Download a copy** on its card under **Settings** > **Modules**.
 
 > **Tip:** If you're unsure, keep the site. You can ask Support to remove it later. To give a site to someone else, see [Moving a Site to Someone Else](moving-a-site-to-someone-else.md). To close a whole workspace, see [Closing Your Workspace or Account](account-closing-your-account.md).
 
