@@ -1,6 +1,6 @@
 # Marketing Automations
 
-**Last verified:** 2026-11-08 11:43pm
+**Last verified:** 2026-11-09 12:14am
 
 Marketing automations let you create set-it-and-forget-it workflows that send emails, update contacts, and perform actions automatically when something happens. Instead of manually sending a welcome email every time someone signs up, or remembering to tag contacts after an event, you build the workflow once and let it run on its own.
 
@@ -66,11 +66,13 @@ The trigger is what kicks off the automation. When the trigger event happens, th
 
 - **Date Field** -- Runs based on a date stored in a contact's profile, like a birthday or anniversary. Use this for automated birthday wishes, renewal reminders, or anniversary discounts.
 
-- **Manual Enrollment** -- No automatic trigger. You manually add specific contacts to the automation whenever you choose. Useful for one-off workflows or situations where you want full control over who enters.
+- **Manual Enrollment**: no automatic trigger. You choose who enters, whenever you like. Useful for one-off workflows or situations where you want full control over who enters. See [Starting an automation by hand](#starting-an-automation-by-hand).
 
 - **Ticket Created** -- Runs when a helpdesk ticket is created. This trigger is available when the Helpdesk product is enabled in your workspace. Use it to send a confirmation email to the customer or notify your team.
 
 - **Ticket Resolved** -- Runs when a helpdesk ticket is resolved. Available when the Helpdesk product is enabled. Great for sending satisfaction surveys or follow-up messages after a support issue is closed.
+
+- **Ticket Rated**: runs when a customer rates a helpdesk ticket, or your team records a rating when closing one. Available when the Helpdesk product is enabled. The **Rating** choice picks which ratings start it: any rating, 1 or 2 stars, 3 stars, or 4 or 5 stars. Use it to reach out after a low rating or to ask a happy customer for a review.
 
 - **Task Completed** -- Runs when a linked task is completed. Available when the Tasks product is enabled in your workspace. Use it to notify stakeholders or trigger next steps when a piece of work is finished.
 
@@ -215,6 +217,16 @@ When you are ready for an automation to start running:
 
 Contacts who triggered the event before the automation was activated will not be enrolled retroactively -- only new trigger events are processed.
 
+### Starting an Automation by Hand
+
+An automation with the **Manual Enrollment** trigger runs only for the contacts you pick. Turn it on first.
+
+1. Go to **Contacts**.
+2. Tick the contacts you want, then choose **Start Automation**. On one contact's page, choose **Start an Automation** instead.
+3. Pick the automation and choose **Start for These Contacts**.
+
+A message tells you how many contacts started. A contact who is already in that automation is skipped. A contact who is not subscribed to email marketing still enters, but the automation pauses for them at the first step and sends nothing. You can start up to 500 contacts at a time.
+
 ### Pausing an Automation
 
 If you need to stop an automation temporarily:
@@ -267,6 +279,7 @@ If your workspace has the **Helpdesk** or **Tasks** products enabled, you can cr
 
 - **Ticket created** -- Automatically send a confirmation email when a customer submits a support request. You could also tag the contact as "Support Customer" for future reference.
 - **Ticket resolved** -- Send a satisfaction survey after a ticket is closed, or add the contact to a "Recent Support" list for follow-up.
+- **Ticket rated**: tag a contact who gave 1 or 2 stars so your team calls them, or thank a contact who gave 4 or 5 stars.
 
 ### Tasks Triggers
 
@@ -295,7 +308,7 @@ Your contacts, lists, tags, and templates are all kept -- see [Workspace Product
 - **Start simple.** Your first automation should be straightforward -- a welcome email with a follow-up delay is a great starting point. Add complexity as you get comfortable.
 - **Name automations clearly.** Use descriptive names like "Welcome Series -- Newsletter" or "Post-Purchase Follow-Up" so you can find them easily later.
 - **Use delays between emails.** Sending multiple emails in quick succession overwhelms contacts. Space them out by at least a day or two.
-- **Test before activating.** Create a test contact and manually enroll them to make sure the automation behaves as expected before turning it on for everyone.
+- **Test before activating.** Make a copy with the **Manual Enrollment** trigger, turn it on, and start it for a test contact. Check that it does what you expect before you turn on the real one.
 - **Review enrollments regularly.** Check how contacts are moving through your automations, especially in the first few days after activation.
 - **One automation per purpose.** It is better to have several focused automations than one giant automation trying to do everything. Keep each workflow focused on a single goal.
 - **Pause before editing.** If you need to make significant changes to an active automation, pause it first to avoid unexpected behavior.
