@@ -1,6 +1,6 @@
 # Saving and Publishing Your Site
 
-**Last verified:** 2026-11-07 10:00am
+**Last verified:** 2026-11-09 12:47am
 
 All your hard work designing and building your site leads to this: getting it live for the world to see. This guide explains the difference between saving and publishing, how to use undo and redo, and all the keyboard shortcuts that make your workflow faster.
 
@@ -132,7 +132,7 @@ Save and Publish work even while you are typing, so you never have to click away
 
 | Action | Windows | Mac |
 |--------|---------|-----|
-| Deselect | Escape | Escape |
+| Deselect (while you type in a text block, the first press stops the typing and keeps the block selected) | Escape | Escape |
 | Next / previous element | Tab / Shift + Tab | Tab / Shift + Tab |
 | Move selection to a sibling, parent, or child | Arrow keys | Arrow keys |
 | Zoom the canvas | Ctrl + scroll | Cmd + scroll |
