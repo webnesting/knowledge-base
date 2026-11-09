@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-11-07 12:46pm
+**Last verified:** 2026-11-08 8:39pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -445,7 +445,7 @@ Example: keep your existing Gmail at `you@yourcompany.com` for personal mail, bu
    ```
    help.yourcompany.com   MX 10 inbound-smtp.us-east-1.amazonaws.com
    ```
-5. Once DNS propagates (typically 5-15 min), **every address at `*@help.yourcompany.com` works automatically** — `support@`, `billing@`, `careers@`, anything you want. We catch them all and route by recipient prefix to the right team.
+5. Click **Verify** on the records list. When DNS has updated (usually 5-15 minutes), we find the record and switch on incoming mail for you. If we cannot switch it on, the page says why and you can click **Verify** again. Then **every address at `*@help.yourcompany.com` works automatically**, including `support@`, `billing@`, `careers@` and any other name you want. We catch them all and route by recipient prefix to the right team.
 
 **Why this is different from Option 4 (verified domain):**
 - Option 4 sets up *outbound* signing on your apex domain. It doesn't change where mail arrives.
