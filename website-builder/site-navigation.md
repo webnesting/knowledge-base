@@ -223,7 +223,7 @@ To add a sitemap:
 
 1. Open the page where you want the sitemap to appear.
 2. Open the **Add** panel and drag a **Site Map** component from the **Site modules** group onto the page.
-3. The component lists all your pages. Your home page sits beside your other top-level pages, and a page you placed under another page is indented below it. It leaves out a page whose **Include on Sitemap** box is not checked.
+3. The component lists all your pages. Your home page sits beside your other top-level pages, and a page you placed under another page is indented below it. Pages are in the same order as in your Pages list, so moving a page there moves it in the sitemap. It leaves out a page whose **Include on Sitemap** box is not checked.
 
 To list only part of your site, for example one small site inside your site:
 
