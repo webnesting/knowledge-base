@@ -1,6 +1,6 @@
 # Files (File Manager)
 
-**Last verified:** 2026-11-07 10:27am
+**Last verified:** 2026-11-08 10:15pm
 
 The File Manager is where every file in your workspace lives — images, videos, documents, helpdesk email attachments, and files visitors upload through your forms. Think of it as your workspace's file cabinet: one place, organized in folders, just like the files on your computer.
 
@@ -108,7 +108,7 @@ A page often shows a photo in a box of a different shape (a wide banner, a squar
 2. Drag the dot onto the part that matters, such as a face or a product.
 3. Check the three shapes under the photo: **Square**, **Wide** and **Tall** show how a page will crop it.
 
-The point saves when you let go of the dot. An **Image** or **Slideshow** on your pages then crops around it. A **Gallery** still crops its photos from the center for now.
+The point saves when you let go of the dot. An **Image**, **Slideshow** or **Gallery** on your pages then crops around it.
 
 - **Keyboard:** press Tab to reach the photo. The first stop moves the dot left and right, and the next stop moves it up and down. The arrow keys move it a little, Shift with an arrow moves it further, and Home and End move it to the edge.
 - **Reset to Center** goes back to cropping from the middle of the photo.
