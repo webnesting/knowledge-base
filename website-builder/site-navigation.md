@@ -1,6 +1,6 @@
 # Setting Up Site Navigation
 
-**Last verified:** 2026-11-09 3:39am
+**Last verified:** 2026-11-09 8:43am
 
 Navigation is how visitors find their way around your website. Good navigation helps people quickly get to the pages they need, whether they are browsing on a desktop or a phone. This guide covers how navigation works in WebNesting, how to control which pages appear in your menus, and tips for creating a clear, easy-to-use navigation structure.
 
@@ -56,20 +56,22 @@ The footer is the section at the bottom of every page on your site. It is a grea
 
 WebNesting gives you three footer-related checkboxes in the menu visibility settings:
 
-- **Footer** -- The main footer navigation area. Use this for general links visitors might look for at the bottom of the page.
-- **Footer Secondary** -- A second footer menu. With no title it shows as a row of small links under the first menu.
-- **Footer Important** -- The legal row at the very bottom, beside the copyright line. Use it for links such as your privacy policy and terms.
+- **Footer**: the main footer navigation area. Use this for general links visitors might look for at the bottom of the page.
+- **Footer Secondary**: a second footer menu. It shows as a row of small links under the first menu.
+- **Footer Important**: the legal row at the very bottom, beside the copyright line. Use it for links such as your privacy policy and terms.
 
-### Give a Footer Menu a Title
+### Footer Menu Headings
 
-A title turns a footer menu into a column with a heading, such as **Product** or **Company**. Visitors scan titled columns faster.
+Footer headings come from your pages. A page with pages under it heads a column, and its pages list below it. A page with no pages under it is a plain link.
 
-1. Open the Website Builder and click your footer.
-2. In **Settings**, open **Menus**.
-3. Type a heading in **Menu title**. For the second menu, type one in **Second menu title**.
+To make a column with a heading, such as **Company**:
+
+1. In the **Pages** panel, place your pages (for example **About** and **Contact**) under a **Company** page. See [Creating Child Pages](#creating-child-pages).
+2. Check **Footer** in the menu visibility of the **Company** page and of each page under it.
+3. Click your footer, open **Settings**, and set **Levels shown** to **2** or more.
 4. Save and publish.
 
-With a title, the second menu shows under the first, past a thin line, with its title as a heading. Leave both titles empty to keep the footer as it was. Titles can have one text per language on a site with more than one language.
+A footer menu with no headings spreads its links into even columns. The second footer menu and the **Simple** footer show only your top pages, in one row.
 
 ### Adding a Page to the Footer
 
