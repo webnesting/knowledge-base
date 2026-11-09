@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-11-08 8:39pm
+**Last verified:** 2026-11-08 10:25pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -170,6 +170,8 @@ Replies are visible to the customer. Use these to respond to the customer's ques
 Internal notes are visible only to your team. The customer never sees them. Use internal notes to discuss the issue with teammates, share background information, leave instructions for the next person who works on the ticket, or document your troubleshooting steps.
 
 To add a comment, open a ticket and type your message in the box under the conversation. Choose whether it is a reply (customer-visible) or an internal note (team-only) before sending. Tick **Internal note** under the box to write a note. The button reads **Reply** for a reply and **Add Note** for an internal note.
+
+To copy a colleague or another person on a reply, click **CC** and type their email addresses, separated by commas. Each person gets a copy, and the sent message lists them. You can copy up to 10 people. The customer is never copied on their own reply. If an address is not valid, the reply is not sent and a message names it.
 
 ![The reply box under a ticket's conversation, with the Internal note tick box ringed](../images/dashboard/helpdesk-ticket-reply-box.png)
 
