@@ -1,6 +1,6 @@
 # Setting Up Site Navigation
 
-**Last verified:** 2026-11-09 8:43am
+**Last verified:** 2026-11-09 9:57am
 
 Navigation is how visitors find their way around your website. Good navigation helps people quickly get to the pages they need, whether they are browsing on a desktop or a phone. This guide covers how navigation works in WebNesting, how to control which pages appear in your menus, and tips for creating a clear, easy-to-use navigation structure.
 
@@ -173,7 +173,7 @@ Each top item that has pages under it now opens a panel. An item with no pages u
 
 On the menu's bar, click an item under **Open on the page**. The builder opens that item's panel, and **What opens** shows what the panel holds:
 
-- **Its pages** -- The item's pages, in columns. This is where every item starts.
+- **Its pages**: the item's pages, in columns. This is where every item starts. A page whose **Menu look** is **Promo card in a mega menu** shows as a card beside the columns ([Layouts and structure](layouts-and-structure.md)).
 - **A widget** -- One of your widgets. Pick it in **What opens**, and the panel shows that widget instead of the pages.
 - **+ New Panel** -- Makes a new widget named after the item (for example "Services menu panel") with three columns, and picks it for the item, and opens it on your page. In the panel widget's **Settings**, **Columns** picks two, three or four columns.
 

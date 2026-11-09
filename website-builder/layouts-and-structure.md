@@ -32,7 +32,7 @@ The header's parts:
 - **Logo** -- your logo picture, your site's name, or both (**Image and text**, **Image**, **Text**), in three sizes. **Text** starts as your site's name; type other words to replace it. Upload the picture in **Site Settings → Content → Site Images**. If you pick **Image** and have no picture yet, your site's name shows instead. **Logo links to** is the page the logo opens, such as `/shop`; leave it empty for your home page.
 - **Menus** -- the main menu and a second, smaller menu. Pick which of your menus each one shows, how many levels show, and whether the pages under an item open in a list (**Dropdown**) or a wide panel (**Mega menu**). Under each menu you pick, **Edit this menu's pages** opens your Pages list showing only the pages in that menu. Open a page's settings there to add it to a menu or take it out.
 - **Links and switches**: your social links, the language switcher and the light and dark switch. Your social profiles are in **Site Settings → Connections → Social Settings**. On a wide screen they sit with your second menu in a small row of their own, apart from the main menu. Your layout puts that row across the top of the header or above the main menu. When the menu folds behind its button, on phones and tablets or where a long menu does not fit, the second menu, the language links and the social links move into the menu with it.
-- **Button**: a button with your own words and link, such as "Book a call". It can open in a new tab. Its **Style** is **Filled**, **Outline** or **Dark**. A new button starts as **Outline**, so your header button and footer button match. If you picked **Filled** before, your button stays **Filled**. **Dark** is a solid button in your header's text color: dark on a light header, light on a dark header and in dark mode. Its **Shape** is **Theme** (your theme's own corners), **Square**, **Rounded** or **Pill**, as for any button. The footer button has the same **Shape**. **Button on phones** decides where the header button goes on a phone. **In the phone menu** puts it at the foot of the menu. **In the phone bar** keeps it in view, small, next to the menu button, so keep its words short. On a narrow phone it gets narrower, and your logo keeps its room.
+- **Button**: a button with your own words and link, such as "Book a call". It can open in a new tab. Its **Style** is **Filled**, **Outline** or **Dark**. A new button starts as **Outline**, so your header button and footer button match. If you picked **Filled** before, your button stays **Filled**. **Dark** is a solid button in your header's text color: dark on a light header, light on a dark header and in dark mode. Its **Shape** is **Theme** (your theme's own corners), **Square**, **Rounded** or **Pill**, as for any button. The footer button has the same **Shape**. **Button on phones** decides where the header button goes on a phone. **In the phone menu** puts it last in the menu's list. **Pinned at the menu's foot** keeps it at the bottom of the phone menu, where it stays in view while visitors scroll a long menu. **In the phone bar** keeps it in view, small, next to the menu button, so keep its words short. On a narrow phone it gets narrower, and your logo keeps its room.
 - **Category row**: a row of links across the foot of the header, such as your shop's categories. **Three rows** shows it to start with. For any other layout, turn on **Show the category row**. It shows the top pages of your **Header category menu**; pick another menu under **Which menu**. On phones, its links move into the menu, under your main menu.
 - **Top bar** -- a thin bar above the header with a short message, a phone number, an email address and your social links. Your whole message always shows: when it does not fit on one line, it wraps and the bar gets taller. On tablets and phones, a bar with a message leaves out the social links, which are still in your footer. On phones, the phone number and email address show as icons.
 - **Announcement bar** -- a short message in your theme's main color, above everything else. See [Announcement bar](#announcement-bar).
@@ -42,10 +42,20 @@ With **Dropdown** or **Mega menu**, **Page details** decides what each page unde
 - **Simple** -- each page shows its name. A page with a **Page Icon** shows it small, beside its name.
 - **Icon and description** -- each page shows its **Page Icon** and its **Menu Description** under its name, as on many software sites. Set both in each page's settings (see [Page management](page-management.md#menu-description)). The top items never show a description.
 
-With **Mega menu**, two more settings fill each wide panel:
+With **Mega menu**, three more settings fill each wide panel:
 
 - **Show a feature card** shows a card for the menu item: its page's **Share Image**, its name and its **Menu Description**. Set both in the page's settings. A page with neither shows no card.
 - **Show a "See all" link** ends each panel with a link to the item's own page, such as "See all Services".
+- **Wide panel layout** is **Columns** (each page under the item is a column) or **Two groups**. With **Two groups**, the first page under the item is a wide group with its pages in two columns, and the other pages stack beside it. Each group's label is its own page, so put a group's pages under that page in Pages. The item needs at least two pages under it.
+
+To show a page as a promo card in its mega menu panel, such as a sale or a case study:
+
+1. Open the page properties of a page under a mega menu item.
+2. Under **Navigation**, set **Menu look** to **Promo card in a mega menu**.
+3. Give the page a **Share Image**, a **Menu Description** or both.
+4. Save your changes.
+
+The card has the picture, the page's name and its description, and sits beside the feature card. A page with neither a picture nor a description stays a link in its column. Drop-down menus and the phone menu show the page as a normal link.
 
 With **Dropdown** and three or more levels, **Third level opens** decides where the pages under a page in the list go:
 
@@ -70,6 +80,14 @@ Both settings change the page in the Website Builder at once. Open the phone vie
 - **None**: the menu shows and hides at once.
 
 **Phone menu speed** is **Fast**, **Normal** or **Slow**. It does nothing when the animation is **None**. A visitor whose device asks for less motion gets the menu at once.
+
+The **Phone menu** group in the header's **Settings** adds parts to the phone menu:
+
+- **Second menu on phones**: **In the menu** lists your second menu's links with the others. **Pinned at the foot** shows them as buttons at the bottom of the phone menu, where they stay in view while visitors scroll. Use it for two or three short links, such as Apply and Give. If **Button on phones** is pinned too, your button sits under them.
+- **Audience links**: pick a page such as "Information for". The phone menu shows its name as a heading, with links to the pages under it, such as Students and Parents. Those pages can stay out of your menus.
+- **Help box**: a short note near the end of the phone menu, such as "Questions? Call (555) 010-2030", with a link. Leave it empty for none.
+
+The phone menu shows its parts in this order: your main menu, the category row, audience links, the second menu, languages, social links, the help box and the button. A part you pin at the foot shows only there.
 
 The footer's parts:
 
