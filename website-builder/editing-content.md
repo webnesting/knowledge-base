@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-11-08 5:05pm
+**Last verified:** 2026-11-09 1:16am
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -317,11 +317,11 @@ When you select a slideshow, you will find these options in the settings panel:
 - **Bullets** -- Show small dots below the slideshow that let visitors jump to a specific slide.
 - **Arrows** -- Show left and right arrows for manual navigation between slides.
 - **Show thumbnails** -- Display small preview images below the slideshow.
-- **Pause on mouse over** -- The slideshow pauses when a visitor hovers their mouse over it.
+- **Pause on mouse over**: The slideshow pauses when a visitor hovers their mouse over it. A new slideshow has this on.
 - **Transition speed** -- How fast the slides change (a lower number means faster transitions).
 - **Transition delay** -- How long each slide stays visible before moving to the next one.
 - **Slide transition** -- The animation style used when changing slides. Options include Fade, Slide, Slide Reverse, Slide Vertical, Flip, and more.
-- **Aspect preset** -- Controls the height of the slideshow. You can choose tallest image, shortest image, or 25%, 50%, 75% or 100% of the screen height. Or choose Manual to set a custom **Aspect width** and **Aspect height**.
+- **Aspect preset**: Controls the height of the slideshow. You can choose tallest image, shortest image, or 25%, 50%, 75% or 100% of the screen height. A new slideshow uses the shortest image. Or choose Manual to set a custom **Aspect width** and **Aspect height**, which start at 30 and 10.
 
 > **Tip:** For a smooth, professional look, the "Fade" transition with a 5-second delay works well for most slideshows.
 
