@@ -64,7 +64,7 @@ The trigger is what kicks off the automation. When the trigger event happens, th
 
 - **Tagged** -- Runs when a specific tag is applied to a contact. Useful for actions that should happen whenever a contact reaches a certain status, like getting tagged as "VIP" or "Interested in Product X."
 
-- **Date Field** -- Runs based on a date stored in a contact's profile, like a birthday or anniversary. Use this for automated birthday wishes, renewal reminders, or anniversary discounts.
+- **Date Field** -- Runs based on a date stored in a contact's profile, like a birthday or anniversary. Use this for automated birthday wishes, renewal reminders, or anniversary discounts. Pick the date, and set "Offset days" to start the automation some days after it (a positive number) or before it (a negative number).
 
 - **Manual Enrollment**: no automatic trigger. You choose who enters, whenever you like. Useful for one-off workflows or situations where you want full control over who enters. See [Starting an automation by hand](#starting-an-automation-by-hand).
 
