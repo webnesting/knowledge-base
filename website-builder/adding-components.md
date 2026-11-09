@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-11-08 9:27pm
+**Last verified:** 2026-11-08 9:55pm
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -180,7 +180,7 @@ The parts that frame every page, and blocks that show content from your site's m
 - **Site Map** -- An automatically generated list of all the pages on your site.
 - **Article List / Article Detail** -- Articles from your Articles module.
 - **Event List / Event Detail** -- Events from your Events module.
-- **Product List / Product Detail** -- Products from your Store module.
+- **Product List / Product Detail**: Products from your Store module. The Product List shows your products as cards in a grid, three across on a wide screen. Each card has the product's photo, name, price and a **More info** button that opens the product's page. Prices show in US dollars, the currency your store charges.
 - **Form** -- Embeds a form from your Forms module. Requires the Forms module.
 - **Login Form**, **Registration Form**, **Forgot Password Form**, **Reset Password Form**, **Account Security** and **Two-Factor Code Form** -- The pages a visitor uses to sign up, sign in, reset a password and manage their account on your site.
 
