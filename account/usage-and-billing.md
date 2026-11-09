@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-11-07 10:37am
+**Last verified:** 2026-11-08 8:42pm
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -83,7 +83,7 @@ All your storage is one pool for the whole workspace. It is the storage of each 
 - **Moving to a bigger plan:** It starts right away. You pay the difference for the rest of the month.
 - **Moving to a smaller plan:** It starts on the next 1st. You keep the bigger plan until then.
 - **Small charges:** A part-month charge under $0.50 is not sent to your card. It is added to your next renewal.
-- **The card fee is in the price.** No invoice has a separate processing fee.
+- **The card fee is in the price.** New invoices have no separate processing fee. An older invoice sent with one still shows it, and you pay the total it was sent with.
 
 You need a saved card to buy a plan or credits. Open the **Payment Methods** tab on the **Billing** page to add one.
 

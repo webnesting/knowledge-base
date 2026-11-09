@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-11-07 11:07am
+**Last verified:** 2026-11-08 8:42pm
 
 WebNesting bills with plans and prepaid credits. You pick a plan for each part of WebNesting you use and pay for it on the 1st of the month. If you use more than a plan includes, prepaid credits pay for the extra. This page explains the details: what is included, what happens at a limit, and how to see and pay your bills. For the plan prices, how credits work and how a failed payment is handled, see [Usage and Billing](../account/usage-and-billing.md).
 
@@ -132,7 +132,7 @@ If you turn a site add-on off, its content is **permanently deleted after 30 day
 
 ### Payment Processing
 
-The card fee is part of the price. No invoice has a separate processing fee line.
+The card fee is part of the price, so new invoices have no separate processing fee line. An older invoice that was sent with a processing fee still shows it, and you pay the total that invoice was sent with.
 
 ### Late Payments
 
