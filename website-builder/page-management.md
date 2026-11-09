@@ -192,7 +192,7 @@ If you want to hide a page from visitors, you can lock it so only your team can 
 3. Check **Site Admin**.
 4. Save your changes.
 
-A locked page shows only in the builder's preview, and only to team members who can use the Website Builder on that site. Everyone else, on your published site too, sees your **Page Not Found** page.
+A locked page shows only to team members who can use the Website Builder on that site. Sign in to WebNesting first, then open the page on your published site: it sends you to WebNesting for a moment and brings you back. Everyone else sees your **Page Not Found** page.
 
 ---
 
