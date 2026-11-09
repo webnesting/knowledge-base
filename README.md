@@ -1,6 +1,6 @@
 # WebNesting User Documentation
 
-**Last verified:** 2026-11-08 11:52am
+**Last verified:** 2026-11-08 9:13pm
 
 Welcome to the WebNesting help center. These guides will help you build and manage your website.
 
@@ -42,6 +42,7 @@ Welcome to the WebNesting help center. These guides will help you build and mana
 | [Site Settings](dashboard/site-settings.md) | SEO, Google Analytics, social media profiles, logo, and favicon |
 | [URL Redirects](dashboard/url-redirects.md) | Set up redirects for moved or renamed pages |
 | [Modules and Features](dashboard/modules-and-features.md) | Enable add-on features like articles, events, and e-commerce |
+| [Put a Form on Another Website](dashboard/embed-a-form-on-another-website.md) | Show a form from your site on your blog or a partner's page, in the page or behind a button |
 | [Team and Permissions](dashboard/team-and-permissions.md) | Invite team members, set roles, and manage access |
 | [Analytics and Reports](dashboard/analytics.md) | Track visitors, pageviews, traffic sources, and more |
 | [Dashboards](dashboard/dashboards-and-reports.md) | Put your numbers from every product on one page and share it with your team |
