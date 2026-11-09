@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-09 10:26am
+**Last verified:** 2026-11-09 10:56am
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -200,7 +200,7 @@ To make one page stand out in your main menu:
 2. Under **Navigation**, set **Menu look** to **Highlighted** or **Campaign pill**.
 3. Save your changes.
 
-A **Highlighted** page is bolder and underlined, in your menu's hover color. On a phone it stays in the phone bar, next to the menu button, while your header has no button there. A **Campaign pill** is an outlined pill, for a sale or an event. Only the top items of your main menu take these looks. Your second menu and your footer show the page as a normal link.
+A **Highlighted** page is bolder and underlined, in your menu's hover color. On a phone it stays in the phone bar, next to the menu button, while your header has no button there. In a header you made your own, a **Site details** block set to **Highlighted page (phone bar)** does this. **Make It My Own** adds it for you. A **Campaign pill** is an outlined pill, for a sale or an event. Only the top items of your main menu take these looks. Your second menu and your footer show the page as a normal link.
 
 Click your header in the Website Builder to find these in its **Settings**:
 
