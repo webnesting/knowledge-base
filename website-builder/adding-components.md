@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-11-08 11:36pm
+**Last verified:** 2026-11-09 12:26am
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -39,7 +39,7 @@ The sections at the top of the list, under **Made for your site's design**, come
 5. Drop it where you want it to appear. You will see a visual guide showing you where the component will land.
 6. Release your mouse button to place it.
 
-You can also add a component without dragging. Click it, or Tab to it and press Enter or Space. WebNesting puts it after the block you selected, or at the end of the page when nothing is selected. A line for screen readers says where it went.
+You can also add a component without dragging. Click it, or Tab to it and press Enter or Space. WebNesting puts it after the block you selected, or at the end of the page when nothing is selected. A line for screen readers says where it went. The new component is then selected, so you can change its settings and styles right away.
 
 The component will appear on your page immediately. You can now click on it to edit its content, or open the **Styles** panel to change how it looks.
 
