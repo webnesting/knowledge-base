@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-11-08 10:42pm
+**Last verified:** 2026-11-08 11:05pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -327,7 +327,7 @@ When replying to a ticket, open the **Canned Responses** menu below the reply bo
 
 The knowledge base holds the help articles that answer common questions. When customers can find answers on their own, they do not need to submit a ticket.
 
-Knowledge base articles live on your websites. When Helpdesk is on, each of your sites gets a **Knowledge Base** module. Each article is a page of that site, so it has its own web address and can show in your site menus.
+Knowledge base articles live on your websites. When Helpdesk is on, each of your sites gets a **Knowledge Base** module. Each article is a page of that site, so it has its own web address and can show in your site menus. An article page shows your site's header and footer, like your other pages, so visitors can get back to the rest of your site.
 
 ### Writing an Article
 
