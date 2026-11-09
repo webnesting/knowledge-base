@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-08 6:48pm
+**Last verified:** 2026-11-08 9:44pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -141,9 +141,15 @@ How it works:
    - **Scrolls away**: the header scrolls away with the page and shows only at the top of the page.
    - **Hides while scrolling down**: the header shrinks first, as with **Stays and shrinks**. Then it slides out of view while visitors scroll down, and comes back shrunk as soon as they scroll up. At the top of the page it is full size again.
 3. With **Stays and shrinks** or **Hides while scrolling down**, you can set **Shrink after scrolling**: how far visitors scroll, in pixels, before the header gets smaller. Leave it at 0 to shrink the header as soon as it reaches the top of the screen. Type 200 to show the full header until visitors scroll 200 pixels down.
-4. Publish the page, then scroll the published page to see it.
+4. With the same two choices, pick **How the header shrinks**:
+   - **At a set point**: the header shrinks in one quick step when visitors pass **Shrink after scrolling**. This is the default.
+   - **Follows the scroll**: the header shrinks a little with each bit visitors scroll, and grows back the same way when they scroll up. With **Hides while scrolling down**, it then slides out of view as fast as the page scrolls.
+5. With **Follows the scroll**, you can also set:
+   - **Fully shrunk after scrolling**: how far visitors scroll, in pixels, before the header is at its smallest. Leave it empty to shrink at the same speed as the page scrolls.
+   - **Finish when scrolling stops**: when visitors stop part of the way, the header finishes to its full or its small size, whichever is nearer.
+6. Publish the page, then scroll the published page to see it.
 
-Every choice works with Glass, with every layout and with a header you made your own. A visitor who moves through the page with the keyboard always sees the header when they reach it. A visitor whose device asks for less motion sees no sliding.
+Every choice works with Glass, with every layout and with a header you made your own. A visitor who moves through the page with the keyboard always sees the header when they reach it. A visitor whose device asks for less motion sees no sliding of its own. With **Follows the scroll**, the header moves only as they scroll. On phones, the header shrinks and hides the same way with either choice of **How the header shrinks**.
 
 > **Tip:** Glass looks best over a first section with a large picture, such as a **Video background** with a cover picture. **Menu in the middle** (your logo on the left, your menu in the middle and your button on the right) with Glass on looks like a modern product page.
 
