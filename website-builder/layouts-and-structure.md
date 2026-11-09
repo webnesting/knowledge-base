@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-09 10:56am
+**Last verified:** 2026-11-09 11:22am
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -92,11 +92,21 @@ The phone menu shows its parts in this order: your main menu, the category row, 
 The footer's parts:
 
 - **Logo and text** -- the logo, as in the header, and a short text under it.
-- **Menus**: the footer menu, a second menu and your legal links (such as Privacy and Terms). A menu with pages under its items shows each item as a heading with its pages below it, in columns that line up at the top. A menu with no pages under its items spreads its links into even columns. The second menu sits under the first, past a thin line. On a phone, each heading becomes a button that opens and closes its pages.
+- **Menus**: the footer menu, a second menu and your legal links (such as Privacy and Terms). A menu with pages under its items shows each item as a heading with its pages below it, in columns that line up at the top. A menu with no pages under its items spreads its links into even columns. The second menu sits under the first, past a thin line. **On phones** decides how a menu with headings shows on a phone:
+  - **Fold into sections**: each heading becomes a button that opens and closes its pages. The footer stays short, and every link is one tap away.
+  - **Headings only**: only the headings show. Visitors reach the pages under them from each heading's own page.
+  - **Every link**: every heading and page shows in columns, as on a computer. The footer gets longer.
+
+  **Second menu look** is **Links**, **Chips** or **Buttons**. **Chips** puts each link in a soft rounded box. **Buttons** makes the first link a filled button and the second an outlined one; the rest stay links. Put your most important page first in the menu, such as Donate. Your header's second menu has the same looks.
 - **Email sign-up**: **Show an email sign-up** adds a box where visitors type their email to join your list, with a heading and a short text of your own. It shows while your workspace has the Marketing product on.
 - **Details** -- your footer details (such as your address), the copyright line and an extra line of text. **Name in the copyright line** shows a name of your choice, such as your own on a personal site. Leave it empty to use your business name from Site Settings. Under **Extra text position**, choose **Left** to put the extra line first in the bottom bar, where a copyright line usually sits, or **Right** to keep it at the end.
+- **Locations**: turn it on to list your offices or stores. Under **Your locations**, add up to six. Each has a **Name**, an **Address** and an optional **Phone**. Each line of the address shows on its own line, and visitors tap a phone number to call it. The locations sit side by side where they fit, after your footer details.
+- **Badges**: turn it on to show trust badges, such as a license or an award. Under **Your badges**, add up to six. Each has a **Picture**, a **Description** and an optional **Link**, such as the page that confirms the badge. Leave **Description** empty to use the picture's description from your media library. A badge with no description stays off your live site, because screen readers need words to read. The Website Builder shows such a badge faded, with a note.
+- **Legal text**: a short paragraph of fine print, such as your license number or a note about prices. It sits with your badges, above the copyright line.
 - **Links and switches** -- your social links, the language switcher and the light and dark switch.
 - **Button** -- a button with your own words and link.
+
+A part with nothing in it shows nothing on your site. In a footer you made your own, a **Site details** block can show **Locations (footer)**, **Badges (footer)** or **Legal text (footer)**.
 
 The boxes for the top bar's message, the text under the logo, your footer details and the extra line have three buttons: **Bold**, **Italic** and **Link**. The top bar's message and the extra line stay on one line. The text under the logo and your footer details can have more than one paragraph: press Enter to start a new one. Text from before with headings, lists or sizes now shows as plain paragraphs, with its words and links kept.
 
