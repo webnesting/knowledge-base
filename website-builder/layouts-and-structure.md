@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-08 2:33pm
+**Last verified:** 2026-11-08 6:48pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -139,8 +139,9 @@ How it works:
    - **Stays and shrinks**: the header stays at the top. The announcement bar, the top bar and the small links above the menu scroll away, and on wide screens the header gets shorter and the logo smaller. This is the default.
    - **Stays as is**: the whole header stays at the top at its full size.
    - **Scrolls away**: the header scrolls away with the page and shows only at the top of the page.
-   - **Hides while scrolling down**: the header slides out of view while visitors scroll down and comes back as soon as they scroll up.
-3. Publish the page, then scroll the published page to see it.
+   - **Hides while scrolling down**: the header shrinks first, as with **Stays and shrinks**. Then it slides out of view while visitors scroll down, and comes back shrunk as soon as they scroll up. At the top of the page it is full size again.
+3. With **Stays and shrinks** or **Hides while scrolling down**, you can set **Shrink after scrolling**: how far visitors scroll, in pixels, before the header gets smaller. Leave it at 0 to shrink the header as soon as it reaches the top of the screen. Type 200 to show the full header until visitors scroll 200 pixels down.
+4. Publish the page, then scroll the published page to see it.
 
 Every choice works with Glass, with every layout and with a header you made your own. A visitor who moves through the page with the keyboard always sees the header when they reach it. A visitor whose device asks for less motion sees no sliding.
 
