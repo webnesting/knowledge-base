@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-09 9:57am
+**Last verified:** 2026-11-09 10:26am
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -189,6 +189,25 @@ How it works:
 Every choice works with Glass, with every layout and with a header you made your own. A visitor who moves through the page with the keyboard always sees the header when they reach it. A visitor whose device asks for less motion sees no sliding of its own. With **Follows the scroll**, the header moves only as they scroll. On phones, the header shrinks and hides the same way with either choice of **How the header shrinks**.
 
 > **Tip:** Glass looks best over a first section with a large picture, such as a **Video background** with a cover picture. **Menu in the middle** (your logo on the left, your menu in the middle and your button on the right) with Glass on looks like a modern product page.
+
+### Set a menu item apart and change your header's shape
+
+Each setting below works with every header layout and every theme, on phones and on wide screens.
+
+To make one page stand out in your main menu:
+
+1. Open the page properties of a page in your header's main menu.
+2. Under **Navigation**, set **Menu look** to **Highlighted** or **Campaign pill**.
+3. Save your changes.
+
+A **Highlighted** page is bolder and underlined, in your menu's hover color. On a phone it stays in the phone bar, next to the menu button, while your header has no button there. A **Campaign pill** is an outlined pill, for a sale or an event. Only the top items of your main menu take these looks. Your second menu and your footer show the page as a normal link.
+
+Click your header in the Website Builder to find these in its **Settings**:
+
+- **Second menu look** draws your second menu as **Links** (the default), **Chips** (each link in a soft rounded box) or **Buttons**. With **Buttons**, the first page is a filled button, the second an outlined one, and the rest stay links. Put your most important page first, such as Donate, then Membership.
+- **Top row look** shows for layouts with a row of small links above the menu. **Tab** draws that row as a box at the right end only, with rounded lower corners.
+- **Shape** set to **Floating pill** makes your header a rounded pill with a gap above it and at its sides, so the page shows around it. It works with Glass and with every scroll setting. **Full-screen picture** has no **Shape**, because its picture fills the first screen.
+- **While shrunk, show** shows when **When visitors scroll** is **Stays and shrinks** or **Hides while scrolling down**. On wide screens, **Only the button** fades the menu away once the header shrinks and keeps your header's button. With no button, your **Highlighted** page stays. Point at the header, or move into it with the keyboard, and the whole menu comes back.
 
 ### How wide your header and footer spread
 
