@@ -1,6 +1,6 @@
 # Setting Up Site Navigation
 
-**Last verified:** 2026-11-08 6:08pm
+**Last verified:** 2026-11-08 8:59pm
 
 Navigation is how visitors find their way around your website. Good navigation helps people quickly get to the pages they need, whether they are browsing on a desktop or a phone. This guide covers how navigation works in WebNesting, how to control which pages appear in your menus, and tips for creating a clear, easy-to-use navigation structure.
 
@@ -234,6 +234,8 @@ To list only part of your site, for example one small site inside your site:
 If you choose **Pages under** and pick no page, the sitemap lists the whole site. Choose **Whole site** to go back to the full list.
 
 To show every page in one plain list, with none indented, turn on **One list, no levels** in the component's **Settings**. It works with **Whole site** and with **Pages under**.
+
+To change how many columns the list uses, open the component's **Settings** and pick a number in **Columns**. A short list looks tidier in fewer columns. On a phone the list always shows one column.
 
 > **Tip:** A dedicated sitemap page is a nice touch for larger websites. Link to it from your footer so visitors always have a way to see everything your site offers.
 
