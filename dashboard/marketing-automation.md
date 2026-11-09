@@ -1,6 +1,6 @@
 # Marketing Automations
 
-**Last verified:** 2026-11-08 10:39pm
+**Last verified:** 2026-11-08 11:43pm
 
 Marketing automations let you create set-it-and-forget-it workflows that send emails, update contacts, and perform actions automatically when something happens. Instead of manually sending a welcome email every time someone signs up, or remembering to tag contacts after an event, you build the workflow once and let it run on its own.
 
@@ -110,11 +110,15 @@ A Condition step checks the contact's own details. In the step's settings:
 
 1. Under **Match**, choose **All conditions (AND)** or **Any condition (OR)**.
 2. Click **+ Add Condition**.
-3. Pick a contact field, a test, and a value. The tests are equals, not equals, contains, greater than, less than, is empty and is not empty.
+3. Pick a contact field, a test, and a value. The tests are is, is not, contains, is more than, is less than, is empty and is not empty. The last two need no value.
 
-The step has two outputs, **Yes** and **No**. For example, you can send a reminder only to contacts whose **Company** is empty.
+The step has two outputs, **Yes** and **No**. Connect the steps for each answer to its output. For example, you can send a reminder only to contacts whose **Company** is empty.
 
-> **Not switched on yet:** for now an automation stops when it reaches a Condition step -- any steps you place after it will not run. Keep your automations to a straight line of steps (emails, waits, tags, lists, field updates) until branching is turned on; you can still save a workflow that includes a condition, it just ends there.
+A contact who matches the rules goes down **Yes**, and anyone else goes down **No**. If an output has nothing connected to it, the automation ends there for contacts with that answer. You cannot save a Condition step that has no rules, or a rule with no field or test.
+
+#### See how contacts answered
+
+Open the automation and find **Condition results** on the **Workflow** tab. It lists the latest 50 checks with the contact, the step and the answer.
 
 ### Add Tag
 
