@@ -1,6 +1,6 @@
 # Events
 
-**Last verified:** 2026-11-08 3:40pm
+**Last verified:** 2026-11-10 3:18pm
 
 The Events module lets you create and manage event listings on your website. Whether you host workshops, classes, concerts, conferences, or community meetups, this module gives you the tools to promote your events and share all the important details with your visitors.
 
@@ -181,6 +181,28 @@ You can create more than one ticket type for an event. This is useful when you o
 
 ---
 
+## Sorting Events into Categories
+
+Categories group your events, for example "Concerts" and "Workshops". An event can be in more than one category, and an Event List can show only some categories.
+
+### Adding a Category
+
+1. In the site menu, select **Event Categories**.
+2. Select **New Event Category** and type the category's name.
+3. Save it.
+
+To rename a category, open it from the same list. Deleting a category does not delete its events.
+
+### Putting an Event in Categories
+
+1. Open the event in the editor.
+2. In **Categories**, pick each category the event belongs to.
+3. Select **Save & Publish**.
+
+> **Note:** Your live website shows a category change as soon as you save, even when you save the event as a draft.
+
+---
+
 ## Editing and Deleting Events
 
 ### Editing an Event
@@ -228,6 +250,18 @@ An Event List displays a collection of your events -- perfect for an "Events" or
 6. Save your page.
 
 Visitors will see a card-style layout of your events. Each card shows the event title, date, a preview image, and a link to the full event page. A new Event List shows your upcoming events, soonest first. To let visitors switch to a list or a calendar, open the Event List's **Settings** and tick them under **Views visitors can pick**.
+
+### Showing Only Some Categories
+
+1. Select the Event List in the **Website Builder** and open its **Settings**.
+2. In **Categories**, pick how to match:
+   - **Contains any of** shows events in at least one picked category.
+   - **Matches all of** shows events in every picked category.
+   - **Does not contain** shows events in none of the picked categories.
+3. In **Which categories**, pick one or more categories.
+4. Save your page.
+
+The grid, the list and the calendar show the same events. Until you pick a category, the list shows every event. To show all events again, set **Categories** to **Every category**.
 
 ### Adding an Event Detail to a Page
 
