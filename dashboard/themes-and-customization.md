@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-11-10 1:48pm
+**Last verified:** 2026-11-10 2:05pm
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -144,6 +144,24 @@ Some colors show only on one kind of block, such as buttons, tabs, a pop-up or a
 > **Tip:** If a color makes text hard to read, a warning appears under your colors. It says which text is hard to read and by how much. Click the button in the warning to go straight to those colors. The check covers the text in your header and footer, your footer's site name, social icons and bottom bar, your links, your buttons and outline buttons, text on your secondary and tertiary colors and tab titles.
 
 **Colors for Light Mode / Dark Mode.** When your site shows a mode your theme was not made in (for example, you picked **Dark** for a light theme), the Colors tab starts with two buttons: **Light Mode** and **Dark Mode**. Click one to change the colors of that mode. The preview shows the same mode. A color you pick for the other mode shows only in that mode. A color you change under **Advanced** shows in both modes.
+
+#### Extra colors
+
+Some brands use more than three colors. **Extra colors**, under your six colors, holds up to 5 more, each with its own name. In the Website Builder, each one shows by its name wherever you pick a color: the **Color** choices under **Typography** and **Background** in the **Styles** panel, and the **Color** choices of an **Icon**.
+
+To add one:
+
+1. Click **+ Add a Color**. A new color named "Extra color" and a number appears.
+2. Type your own name for it, such as "Terracotta". Each extra color needs a different name.
+3. Click its colored square and pick the color.
+
+Under each extra color you see its color code and how easy it is to read on your page background. A color too faint for small text can still suit icons and big headings.
+
+To remove one, click **Remove** next to it. If a style or an icon on your site uses that color, WebNesting tells you how many places use it and asks first. Those places go back to their normal color. Click **Keep It** if you change your mind.
+
+When you have 5 extra colors, the **+ Add a Color** button goes away. Remove one to add another.
+
+You can also add, rename, recolor and remove extra colors in the Website Builder: open **Site design** and click **Colors**.
 
 ### Fonts
 
@@ -378,6 +396,13 @@ Each theme comes with colors for both modes. Click **Show Light and Dark Colors*
 - If your site uses a built-in theme, your first change makes your site's own version of it, under **Your themes**. Click **Customize [theme name]** to start.
 
 Your **Primary color**, **Secondary color** and **Tertiary color** stay the same in both modes until you change one of them for one mode.
+
+Your extra colors show after the six main colors, each by its name. An extra color is the same in both modes until you give it a color for the other mode. To do that in the theme editor:
+
+1. On the **Colors** tab, click **Dark Mode** (or **Light Mode**, for a dark theme).
+2. Under **Extra colors**, click the color's square and pick its color for that mode.
+
+An extra color with no color of its own in that mode reads **Same as light mode**. To use one color for both modes again, click **Use the Light Color** under it. On a dark theme, these read **Same as dark mode** and **Use the Dark Color**.
 
 > **Tip:** If text is hard to read in one of the modes, a warning says which text and in which mode. Click **Change It in Customize** to open the theme editor on that mode and those colors.
 

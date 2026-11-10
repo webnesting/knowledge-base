@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-11-10 1:54pm
+**Last verified:** 2026-11-10 2:05pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -46,12 +46,12 @@ To set an exact value instead, use the setting under the choices.
 
 Where the choices are:
 
-- **Typography** -- **Font Family** (**Body font** or **Heading font**), **Font Size** (from **Small** to **XL**, with more sizes in the menu at the end of the row) and **Color** (up to five colors from your theme). For the weight, use the **Font Weight** buttons.
-- **Background** -- **Color**, with up to five colors from your theme. If the element has a photo behind it, **Overlay** under the layers puts a dark tint over the photo, so text on top is easier to read. Click **Add overlay**, then pick **Light**, **Medium** or **Strong**, or click **Remove overlay**.
-- **Spacing** -- **Space inside** (the room between the element's edge and its content) and **Space around** (the room between the element and its neighbors), above the spacing diagram. Each sets all four sides. The numbers are the steps of your theme's spacing scale, from **0** (none) to **10**. The line under the row says the step's size, for example "Step 4 of 10 · 22px". Steps 6 to 10 are in the menu at the end of the row.
-- **Border** -- **Corners**: **None**, **Subtle**, **Rounded**, **Extra round** or **Pill**.
-- **Box Shadow** -- **None**, **Soft**, **Medium** or **Strong**.
-- **Transition** -- **Hover lift**, at the top of the section. **On** makes the element move up a little and get a shadow when the pointer is over it.
+- **Typography**: **Font Family** (**Body font** or **Heading font**), **Font Size** (from **Small** to **XL**, with more sizes in the menu at the end of the row) and **Color** (your theme's brand colors and [extra colors](../dashboard/themes-and-customization.md#extra-colors), each by its name, then its page and text colors). For the weight, use the **Font Weight** buttons.
+- **Background**: **Color**, with the same colors from your theme. If the element has a photo behind it, **Overlay** under the layers puts a dark tint over the photo, so text on top is easier to read. Click **Add overlay**, then pick **Light**, **Medium** or **Strong**, or click **Remove overlay**.
+- **Spacing**: **Space inside** (the room between the element's edge and its content) and **Space around** (the room between the element and its neighbors), above the spacing diagram. Each sets all four sides. The numbers are the steps of your theme's spacing scale, from **0** (none) to **10**. The line under the row says the step's size, for example "Step 4 of 10 · 22px". Steps 6 to 10 are in the menu at the end of the row.
+- **Border**: **Corners** has **None**, **Subtle**, **Rounded**, **Extra round** or **Pill**.
+- **Box Shadow**: **None**, **Soft**, **Medium** or **Strong**.
+- **Transition**: **Hover lift**, at the top of the section. **On** makes the element move up a little and get a shadow when the pointer is over it.
 
 On a **Spacer**, **Height** has steps 1 to 10 of your theme's spacing scale.
 
