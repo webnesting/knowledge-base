@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-11-10 12:14pm
+**Last verified:** 2026-11-10 1:48pm
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -296,10 +296,9 @@ Pick the type of header at the top of every page, and the type of footer at the 
    - **Menu on both sides** -- your menu on the left, your logo in the middle, your buttons on the right.
    - **Menu in the middle** -- your logo on the left, your menu in the middle, your button on the right.
    - **Three rows**: small links across the top, then your menu, your logo in the middle and your buttons, then a row of your shop categories. It suits an online store.
-   - **Full-screen picture**: your header's **Background picture** fills the first screen, with your logo and menu at its foot. You add the picture in the Website Builder (see [A full-screen picture header](../website-builder/layouts-and-structure.md#a-full-screen-picture-header)).
 ![The header Layout choices, each drawn with the site name, and the Glass header switch](../images/dashboard/themes-header-layouts.png)
 
-4. To make your header see-through over the top of your page, turn on **Glass header** under the layouts. It works with every layout but **Full-screen picture**, and with a header of your own. While **Full-screen picture** is picked, the switch does not show. The header stays see-through until it sticks to the top of the screen, then it turns into a frosted bar. The pictures and previews show it at once. See [A see-through Glass header](../website-builder/layouts-and-structure.md#a-see-through-glass-header).
+4. To make your header see-through over the top of your page, turn on **Glass header** under the layouts. It works with every layout, and with a header of your own. The header stays see-through until it sticks to the top of the screen, then it turns into a frosted bar. The pictures and previews show it at once. See [A see-through Glass header](../website-builder/layouts-and-structure.md#a-see-through-glass-header).
 5. Under **Footer**, find **Layout** and click one:
 
    - **Three columns** -- three columns of the same width: your name and social links, your details, and your menu as one list, with each page's sub-pages under it. A long menu with many sub-pages fits better in **Large, with all menus**.

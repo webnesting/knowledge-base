@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-10 12:36pm
+**Last verified:** 2026-11-10 1:48pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -141,14 +141,7 @@ Leave a box empty, or pick **Same as the theme**, to use your theme's value. A c
 
 The header's and footer's words take a color that reads on the color layer. The header's picture does not show while **Glass** is on.
 
-### A full-screen picture header
-
-With the **Full-screen picture** layout, your header's picture fills the first screen your visitors see. Your logo and menu sit in a bar at its foot.
-
-1. In the Website Builder, click your header. **Settings** opens.
-2. Under **Layout**, pick **Full-screen picture**.
-3. Open **Header colors** and pick a **Background picture**. Set its color layer as in [A picture behind your header or footer](#a-picture-behind-your-header-or-footer).
-4. Publish the page.
+The picture fills your header at its own height. For a large picture across the top of the first screen, start your page with a section that has a large picture, and turn on **Glass** so your header sits over it.
 
 How it works:
 
@@ -169,7 +162,7 @@ How it works:
 
 How it works:
 
-- **It works with every layout**: **Logo left**, **Logo centered**, **Logo above menu**, **Logo and menu button**, **Menu on both sides**, **Menu in the middle** and **Three rows**, and with a header you made your own. **Full-screen picture** has no Glass, because its picture already fills the top of the page. While it is picked, the **Glass** setting does not show.
+- **It works with every layout**: **Logo left**, **Logo centered**, **Logo above menu**, **Logo and menu button**, **Menu on both sides**, **Menu in the middle** and **Three rows**, and with a header you made your own.
 - **Your first section starts at the top of the screen**, behind the header. Its words, pictures and buttons start below the header, so nothing is hidden. With **Logo above menu**, the space is as tall as the logo row and the menu row together.
 - **A section you hide at one screen size** (its display set to **None** in that device view, see [Responsive design](responsive-design.md)) is skipped at that size. The next section starts behind the header there instead.
 - **With an announcement bar or a top bar above it**, the header stays see-through while the bar scrolls away. It frosts the moment it sticks to the top of the screen. The announcement bar and the top bar keep their own solid colors.
@@ -217,7 +210,7 @@ Click your header in the Website Builder to find these in its **Settings**:
 
 - **Second menu look** draws your second menu as **Links** (the default) or **Buttons**. With **Buttons**, the first page is your theme's button, the second its outline button, and the rest stay links. Put your most important page first, such as Donate, then Membership.
 - **Top row look** shows for layouts with a row of small links above the menu. **Tab** draws that row as a box at the right end only, with rounded lower corners.
-- **Shape** set to **Floating** makes your header a rounded bar with a gap above it and at its sides, so the page shows around it. It works with Glass and with every scroll setting. **Full-screen picture** has no **Shape**, because its picture fills the first screen.
+- **Shape** set to **Floating** makes your header a rounded bar with a gap above it and at its sides, so the page shows around it. It works with every layout, with Glass and with every scroll setting.
 - **While shrunk, show** shows when **When visitors scroll** is **Stays and shrinks** or **Hides while scrolling down**. On wide screens, **Only the button** fades the menu away once the header shrinks and keeps your header's button. With no button, your **Highlighted** page stays. Point at the header, or move into it with the keyboard, and the whole menu comes back.
 
 ### How wide your header and footer spread
