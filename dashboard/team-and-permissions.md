@@ -1,6 +1,6 @@
 # Team and Permissions
 
-**Last verified:** 2026-11-07 10:41am
+**Last verified:** 2026-11-10 9:52am
 
 WebNesting lets you invite other people to help manage your website. You control exactly what each person can see and do by assigning them roles with specific permissions.
 
@@ -138,6 +138,7 @@ Allows the person to remove items. For example, Delete permission on Files lets 
 3. You will see a grid showing every feature area along the left side, and the five permission levels across the top.
 
 ![The permissions grid for the Member role, with Browse, Read, Edit, Add and Delete columns](../images/dashboard/team-and-permissions-edit-permissions.png)
+
 4. Check the boxes to grant permission, or uncheck them to remove permission.
 5. Click **Save Permissions** when you are finished.
 
@@ -254,6 +255,7 @@ Each permission for a member can be set to one of three states:
 4. For each feature area, choose Allow, Deny, or Inherit for each action level.
 
 ![The Permission Overrides grid with an Inherit, Allow and Deny button in each cell](../images/dashboard/team-and-permissions-overrides.png)
+
 5. Select **Save Overrides**.
 
 > **Tip:** Overrides are useful for temporary access changes. For example, you might temporarily allow a team member to manage billing during a transition, without changing the role for everyone.

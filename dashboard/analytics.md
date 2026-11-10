@@ -1,6 +1,6 @@
 # Analytics and Reports
 
-**Last verified:** 2026-11-07 10:44am
+**Last verified:** 2026-11-10 9:52am
 
 Analytics help you understand how people find and use your website. WebNesting includes built-in analytics so you can see how many visitors your site gets, which pages are most popular, and where your traffic comes from -- all from your dashboard.
 
@@ -213,6 +213,7 @@ Connecting a Google account adds it to your workspace's integrations, so only th
 3. Click the **Connect Google Analytics** button. The **Data Source** list above it switches the widget between **Internal Analytics** and Google Analytics.
 
 ![The Analytics Settings window with the Data Source list and the Connect Google Analytics button](../images/dashboard/analytics-widget-settings.png)
+
 4. A window will open asking you to sign in to your Google account and grant permission. Follow the prompts to authorize the connection.
 5. Once connected, select which Google Analytics property you want to display.
 6. Choose which metrics you would like to see (sessions, users, pageviews, bounce rate, or average duration).

@@ -1,6 +1,6 @@
 # Managing Pages
 
-**Last verified:** 2026-11-07 10:27am
+**Last verified:** 2026-11-10 9:52am
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 
@@ -77,6 +77,7 @@ A page can hold code that should run on that page only, such as a booking widget
 4. Click **Edit Custom Code**. The code opens in a window.
 
 ![The Custom Code group with Edit Custom Code ringed](../images/dashboard/managing-pages-custom-code-group.png)
+
 5. Paste the code into **Top of this page** or **Bottom of this page**. Verification tags and analytics go at the top. Chat and booking widgets go at the bottom.
 6. Optional: click **Preview with Code** to see the page run the code in a safe preview.
 7. Click **Publish**.

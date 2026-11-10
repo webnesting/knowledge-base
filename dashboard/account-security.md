@@ -1,6 +1,6 @@
 # Your Account and Security
 
-**Last verified:** 2026-11-07 11:07am
+**Last verified:** 2026-11-10 9:52am
 
 Your WebNesting account is the key to everything you build. This guide walks you through signing in, protecting your account, and what to do if something goes wrong.
 
@@ -53,6 +53,7 @@ If you see a device you don't recognize, or you signed in somewhere you no longe
 2. Under **Where You're Signed In**, open the row's actions menu and select **Sign Out**, then confirm.
 
 ![A device row's actions menu showing Sign Out](../images/dashboard/account-security-sign-out-menu.png)
+
 3. To sign out of every device except this one at once, select **Sign Out Everywhere Else**.
 
 A signed-out device is logged out the next time it does anything; whoever is using it will have to sign in again, even if "Keep me signed in" was checked there. Signing a device out also ends "Keep me signed in" on your other devices, so they will ask for your password once their current session ends. Your own device is never signed out from this list. Use **Sign Out** in the avatar menu for that.

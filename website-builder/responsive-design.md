@@ -1,6 +1,6 @@
 # Making Your Site Look Great on All Devices
 
-**Last verified:** 2026-11-07 10:43am
+**Last verified:** 2026-11-10 9:52am
 
 Your visitors will view your website on all kinds of screens -- large desktop monitors, tablets, and small phone screens. Responsive design means your site automatically adjusts to look good on every device. This guide explains how WebNesting helps you create a site that works everywhere.
 
@@ -101,6 +101,7 @@ When a layout needs to change at a width the five built-in sizes don't cover, ad
 1. In the top toolbar, click **Manage breakpoints** (the sliders button right after the breakpoint picker). On a smaller screen, open **More** (three dots) first, then click **Manage breakpoints**.
 
 ![The Manage breakpoints dialog with the five built-in breakpoints and their widths, an empty Your breakpoints list and the Add a breakpoint button](../images/website-builder/responsive-manage-breakpoints.png)
+
 2. Click **Add a breakpoint**.
 3. Type a **Name**, such as "Small tablet".
 4. Type a **From** width, an **Up to** width, or both, in pixels.
