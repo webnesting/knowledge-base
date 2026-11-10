@@ -1,6 +1,6 @@
 # Setting Up Your Site
 
-**Last verified:** 2026-11-07 9:27am
+**Last verified:** 2026-11-10 8:20am
 
 When you create a new WebNesting site, you give it a name and pick how it starts. This page walks you through each choice so you know exactly what to expect.
 
@@ -45,9 +45,9 @@ If you picked a theme on WebNesting.com before you signed up or signed in, that 
 
 The list comes in this order:
 
-1. **Themes with an example site** -- a full look plus example pages and sample text.
-2. **Starter pages** -- **Business**, **Personal** and **Portfolio**. Each brings a set of pages, like About and Contact, on the Default look.
-3. **Themes with just a look** -- colors and fonts only. Your site starts with one empty home page.
+1. **Themes with an example site**: a full look plus example pages and sample text.
+2. **Starter pages**: **Business**, **Events**, **Help center**, **Personal** and **Portfolio**. Each brings a set of pages, like About and Contact, on the Default look. **Events** also brings sample events, each with its own page, and a page that tells visitors how to book tickets. **Help center** turns on the Knowledge Base and brings three help topics with four sample articles each, and a Contact support page.
+3. **Themes with just a look**: colors and fonts only. Your site starts with one empty home page.
 
 ![The Pick a look list with Kiln selected, next to the Business and Personal starter pages](../images/getting-started/setting-up-your-site-pick-a-look.png)
 
