@@ -1,6 +1,6 @@
 # Events
 
-**Last verified:** 2026-11-10 3:18pm
+**Last verified:** 2026-11-10 3:52pm
 
 The Events module lets you create and manage event listings on your website. Whether you host workshops, classes, concerts, conferences, or community meetups, this module gives you the tools to promote your events and share all the important details with your visitors.
 
@@ -185,19 +185,18 @@ You can create more than one ticket type for an event. This is useful when you o
 
 Categories group your events, for example "Concerts" and "Workshops". An event can be in more than one category, and an Event List can show only some categories.
 
-### Adding a Category
-
-1. In the site menu, select **Event Categories**.
-2. Select **New Event Category** and type the category's name.
-3. Save it.
-
-To rename a category, open it from the same list. Deleting a category does not delete its events.
-
 ### Putting an Event in Categories
+
+You add categories on the event itself.
 
 1. Open the event in the editor.
 2. In **Categories**, pick each category the event belongs to.
-3. Select **Save & Publish**.
+3. To add a category, type its name and select **Create "name"**.
+4. Select **Save & Publish**.
+
+The new category is saved with the event. Other events and every Event List can then pick it.
+
+To rename or delete a category, select **View All Event Categories** under the event's **Categories** field. Deleting a category does not delete its events.
 
 > **Note:** Your live website shows a category change as soon as you save, even when you save the event as a draft.
 
