@@ -82,7 +82,7 @@ You pick your first look when you create a site, so your site opens already look
    - **Just the look** -- your site gets the theme's colors and fonts, and starts with one empty home page.
 6. Click **Create Site** (or **Create Website** in the pop-up).
 
-The looks come in this order: themes with an example site first, then starter pages like **Business** and **Portfolio** (these use the Default look), then themes that bring only colors and fonts.
+The looks come in this order: themes with an example site first, then starter pages like **Business**, **Events** and **Portfolio** (these use the Default look), then themes that bring only colors and fonts.
 
 While your site is set up, the last step reads **Applying your look**. If a look can't be applied, your site still opens, on the Default look. Open the Theme page (see [Where to Find Your Theme](#where-to-find-your-theme)) and click **Try Again** in the notice at the top.
 

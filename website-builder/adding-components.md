@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-11-09 12:45pm
+**Last verified:** 2026-11-10 9:39am
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -71,7 +71,7 @@ The **More sections** list holds 20 sections: two heroes (**Hero with photo** an
 
 Use **Show** to narrow the list to one type, such as Hero, Pricing or FAQ, or to the sections you saved. The list has up to three parts, in this order: **Saved by you**, **Made for your site's design** (sections that come with your theme, shown only while that theme is on your site) and **More sections**. If a picture does not load, the tile says "Preview not available". You can still add the section, and **Try again** loads the picture again.
 
-Bold Deco, Kiln, Midnight Slate and Soft Elegant each have 10 sections of their own, made in that theme's style. The Default theme uses the **More sections** list. Together, they make a whole page: a hero, what you offer, how you work, reviews, prices, questions and a closing call to action. They come with real photos picked for the theme's kind of business, such as pots for Kiln and gardens for Soft Elegant, so a section looks finished when you add it. When you add one, its photos go into your media library under **Files**. Add the same section again and it uses the same files, so nothing is copied twice. To use your own picture, select the photo on your page and choose another from your media library. If the photos cannot be added, a message says so and the section is not added; try again. If you change to another theme, **Made for your site's design** shows that theme's sections, and the sections already on your pages stay and take the new theme's look.
+Bold Deco, Kiln, Midnight Slate and Soft Elegant have no sections of their own right now, so **Made for your site's design** stays empty on them. Every theme uses the **More sections** list. Together, they make a whole page: a hero, what you offer, how you work, reviews, prices, questions and a closing call to action. They come with real photos, so a section looks finished when you add it. When you add one, its photos go into your media library under **Files**. Add the same section again and it uses the same files, so nothing is copied twice. To use your own picture, select the photo on your page and choose another from your media library. If the photos cannot be added, a message says so and the section is not added; try again. If you change to another theme, **Made for your site's design** shows that theme's sections, and the sections already on your pages stay and take the new theme's look.
 
 ## Save Your Own Section
 
