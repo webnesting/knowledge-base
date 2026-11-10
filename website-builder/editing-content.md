@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-11-09 1:16am
+**Last verified:** 2026-11-10 6:22pm
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -344,8 +344,9 @@ Each card has several parts you can edit:
 
 When you select a card, the settings panel gives you layout choices:
 
+- **Automatic** (the default): The card goes by its own width. A wide card puts the picture beside the text, at a quarter of the card. A narrow card, such as one in a row of three, puts the picture above the text. Every picture is cut to the same shape, so the cards in a row line up. **Object fit** and **Object position** still change how a picture fills that shape.
 - **No picture**: A card with only text and a button.
-- **Picture beside the text**: A quarter (the default), half or three quarters of the card width is the picture, with the text beside it.
+- **Picture beside the text**: A quarter, half or three quarters of the card width is the picture, with the text beside it, however narrow the card is.
 - **Picture above the text**: The picture takes the full width, with the text under it.
 - **Text over the picture**: The text sits on a see-through box over the picture.
 
