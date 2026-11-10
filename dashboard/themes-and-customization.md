@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-11-09 9:57am
+**Last verified:** 2026-11-10 11:33am
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -43,9 +43,9 @@ An art deco editorial style with dramatic serif typography and rich burgundy-and
 
 ### Kiln
 
-A warm, hand-made studio look with terracotta and deep teal on a sand background. Headings use a bold, friendly typeface. Buttons are fully rounded, and cards have a crisp outline with a solid offset shadow, like a printed stamp. Your site name sits in the middle of the header, with your menu on both sides. This light theme comes with a matching dark mode. It suits makers, studios, cafés, craft shops and anyone who wants a site that feels made by hand.
+A warm, hand-made studio look: an oatmeal page with a light speckle, cream cards, and deep green and rust colors. Headings use a classic serif typeface. Buttons are fully rounded with a firm outline, cards have rounded corners and no shadow, and a small rust mark sits beside each label over a heading. This light theme comes with a matching dark mode in warm charcoal with sage green and amber. It suits makers, studios, cafés, craft shops and anyone who wants a site that feels made by hand.
 
-Soft Elegant, Midnight Slate, Bold Deco and Kiln each draw a page background of their own: soft glows of the theme's colors at the top, Bold Deco's gold lattice, and Kiln's paper texture. It runs behind every section and changes with light and dark mode, and it always stays faint enough that text on it is easy to read. Soft Elegant, Bold Deco and Kiln show their glows in dark mode only. Default keeps a plain page. To change it for one page, a layout or your whole site, see [The Page Background](../website-builder/styling-elements.md#the-page-background).
+Soft Elegant, Midnight Slate, Bold Deco and Kiln each draw a page background of their own: soft glows of the theme's colors at the top, Bold Deco's gold lattice, and Kiln's fine speckle. It runs behind every section and changes with light and dark mode, and it always stays faint enough that text on it is easy to read. Soft Elegant and Bold Deco show their glows in dark mode only, and Kiln has no glows. Default keeps a plain page. To change it for one page, a layout or your whole site, see [The Page Background](../website-builder/styling-elements.md#the-page-background).
 
 > **Tip:** Each theme card shows your own home page, and you can open any theme full screen before you switch. Take your time and try them all to see which one fits your brand best.
 
