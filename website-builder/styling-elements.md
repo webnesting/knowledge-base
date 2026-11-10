@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-11-09 2:42am
+**Last verified:** 2026-11-10 12:14pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -205,7 +205,7 @@ You can change the background color and text color of most elements.
 
 ### Using Your Theme's Colors
 
-Next to each color swatch is a **Theme token** menu. It lists the colors your theme already has, each with a plain name such as **Main color**, **Page background** or **Text on main-color buttons**. The names sit in groups: **Main colors**, **Made from your main colors**, **Messages** and **Grays and neutrals**. Type in the search box to find one.
+Next to each color swatch is a **Theme token** menu. It lists the colors your theme already has, each with a plain name such as **Primary color**, **Page background** or **Text on primary-color buttons**. The names sit in groups: **Main colors**, **Made from your main colors**, **Messages** and **Grays and neutrals**. Type in the search box to find one.
 
 Pick a theme color instead of a color code. When you change the theme's colors later, every element that uses a theme color changes with it. A color a theme adds later shows up in the menu on its own.
 
@@ -232,7 +232,7 @@ A private file from Media cannot be used, because your visitors could not see it
 
 ### Adding a Gradient
 
-1. Click **Add a layer** and choose **Gradient**. It starts with your theme's two main colors.
+1. Click **Add a layer** and choose **Gradient**. It starts with your theme's primary and secondary colors.
 2. Under **Kind**, choose **Linear** (a straight blend), **Radial** (rings out from a center) or **Conic** (a sweep around a center).
 3. Under **Pattern**, choose **Repeat** to repeat the colors as stripes or rings.
 4. Click a color's circle on the strip to pick it. Change its **Color**, drag it along the strip, or press the left and right arrow keys to move it.

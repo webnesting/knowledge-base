@@ -1,6 +1,6 @@
 # Setting Up Your Site
 
-**Last verified:** 2026-11-10 8:20am
+**Last verified:** 2026-11-10 12:14pm
 
 When you create a new WebNesting site, you give it a name and pick how it starts. This page walks you through each choice so you know exactly what to expect.
 
@@ -74,11 +74,11 @@ When every step is done, the list says **Complete!** and your site is ready to o
 
 If you chose **Start from a theme**, a **Make it yours** screen opens when the site is ready. It asks you to pick your site's colors, fonts and header. A live preview of your new home page sits beside the tabs. Use **Computer** and **Phone** above the preview to see both sizes.
 
-![The Make it yours screen on the Colors tab, with the Main color, ready-made color sets and a live home page preview](../images/getting-started/setting-up-your-site-make-it-yours-colors.png)
+![The Make it yours screen on the Colors tab, with the Primary color, ready-made color sets and a live home page preview](../images/getting-started/setting-up-your-site-make-it-yours-colors.png)
 
 The screen has four tabs:
 
-- **Colors**: set your **Main color**, or choose a ready-made color set such as **Ocean Breeze**, **Monochrome**, **Arctic** or **Sunset Warm**.
+- **Colors**: set your **Primary color**, or choose a ready-made color set such as **Ocean Breeze**, **Monochrome**, **Arctic** or **Sunset Warm**.
 - **Fonts**: choose a pair of fonts that work well together.
 - **Header**: choose a layout (**Logo left**, **Logo centered**, **Logo above menu** or **Logo and menu button**). Turn on **Glass header** for a see-through header.
 - **Color mode**: choose **Light**, **Dark**, or **Match each visitor's device**.

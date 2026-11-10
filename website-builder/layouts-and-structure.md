@@ -312,9 +312,9 @@ Common uses for sections:
 1. Click the section, then open its settings.
 2. Under **Theme color**, pick **Dark**.
 
-The section turns dark and its words, links, buttons and cards change to stay easy to read. Solid buttons in a dark section use your theme's accent color. **Primary** and **Secondary** give a band of your theme's main colors in the same way.
+The section turns dark and its words, links, buttons and cards change to stay easy to read. Solid buttons in a dark section use your theme's primary color. **Primary**, **Secondary** and **Tertiary** give a band of your theme's brand colors in the same way.
 
-A **Primary** or **Secondary** section has a **Fill** setting. **Gradient** fades the color across the band. **Flat** paints one solid color. Text and buttons stay easy to read on both.
+A **Primary**, **Secondary** or **Tertiary** section has a **Fill** setting. **Gradient** fades the color across the band. **Flat** paints one solid color. Text and buttons stay easy to read on both.
 
 #### Giving a Section a Link Name
 

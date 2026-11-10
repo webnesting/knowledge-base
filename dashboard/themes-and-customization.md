@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-11-10 11:33am
+**Last verified:** 2026-11-10 12:14pm
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -116,31 +116,32 @@ To change one of your own themes later, open the **⋮** menu on its card in **Y
 
 The editor has three tabs: **Colors**, **Fonts**, and **Sizes and shapes**.
 
-![The theme editor on the Colors tab, with the five colors and ready-made color sets beside a live preview of the home page](../images/dashboard/themes-editor-colors.png)
+![The theme editor on the Colors tab, with the six colors and ready-made color sets beside a live preview of the home page](../images/dashboard/themes-editor-colors.png)
 
 ### Colors
 
-**Your colors** are the five colors that set the look of your whole site:
+**Your colors** are the six colors that set the look of your whole site:
 
-- **Main color** -- buttons, links and highlights. Your visitors notice this color the most.
-- **Accent color** -- lines, icons and small details.
+- **Primary color**: buttons, links and highlights. Your visitors notice this color the most.
+- **Secondary color**: lines, icons and small details.
+- **Tertiary color**: a third color for buttons, badges and sections. A theme that sets none shows a standard third color until you change it.
 - **Page background** -- the color behind everything on the page.
 - **Card background** -- cards, the header and boxes.
 - **Text color** -- paragraphs and labels.
 
 To change one, click its colored square. In the color picker you can drag to find a shade, or type your brand's exact color code (for example, `#1d4e89`). The color changes as you pick it. Press **Enter** or click outside the picker to close it.
 
-To go back to the theme's own five colors, click **Reset to [theme name]'s Colors** under the list.
+To go back to the theme's own six colors, click **Reset to [theme name]'s Colors** under the list.
 
-**Ready-made color sets** fill all five colors in one click. The sets made for your theme come first. Click **Show All** under the sets to see the rest. You can still change any color after you pick a set.
+**Ready-made color sets** fill your colors in one click. A set with no third color leaves your **Tertiary color** as it is. The sets made for your theme come first. Click **Show All** under the sets to see the rest. You can still change any color after you pick a set.
 
-**Colors made from yours** lists the colors WebNesting makes from your five colors, such as button hover colors, quiet text and lines. They change when your five colors change, so you normally do not need to touch them. Click **Show** to see them.
+**Colors made from yours** lists the colors WebNesting makes from your six colors, such as button hover colors, quiet text and lines. They change when your six colors change, so you normally do not need to touch them. Click **Show** to see them.
 
 **Advanced** lists every color on your site, from links to the footer. Click **Show All** to open the list. Search for a color by the start of a word in its name (for example "tab" or "menu link"), or choose a part of the site (such as the header) to see only its colors. Change any of them, and click **Reset** next to a color to give it back to the theme. A color you changed shows a **Yours** label.
 
 Some colors show only on one kind of block, such as buttons, tabs, a pop-up or a small tip. When you change one of them, the preview shows a sample of that block between your header and footer, so you can see the color. Click **Back to my page** to see your home page again. A phone menu color opens the phone menu in the preview; click **Close the Menu** to close it.
 
-> **Tip:** If a color makes text hard to read, a warning appears under your colors. It says which text is hard to read and by how much. Click the button in the warning to go straight to those colors. The check covers the text in your header and footer, your footer's site name, social icons and bottom bar, your links, your buttons and outline buttons, text on your accent color and tab titles.
+> **Tip:** If a color makes text hard to read, a warning appears under your colors. It says which text is hard to read and by how much. Click the button in the warning to go straight to those colors. The check covers the text in your header and footer, your footer's site name, social icons and bottom bar, your links, your buttons and outline buttons, text on your secondary and tertiary colors and tab titles.
 
 **Colors for Light Mode / Dark Mode.** When your site shows a mode your theme was not made in (for example, you picked **Dark** for a light theme), the Colors tab starts with two buttons: **Light Mode** and **Dark Mode**. Click one to change the colors of that mode. The preview shows the same mode. A color you pick for the other mode shows only in that mode. A color you change under **Advanced** shows in both modes.
 
@@ -372,12 +373,12 @@ To show the switch somewhere else too, open the Website Builder and add the **Li
 
 ### Colors for Each Mode
 
-Each theme comes with colors for both modes. Click **Show Light and Dark Colors** under **Colors for each mode** to see a light and a dark color for each of your five main colors.
+Each theme comes with colors for both modes. Click **Show Light and Dark Colors** under **Colors for each mode** to see a light and a dark color for each of your six main colors.
 
 - If your site uses one of your own themes, click a color to change it. Click **Save Changes** to save the mode and the colors together.
 - If your site uses a built-in theme, your first change makes your site's own version of it, under **Your themes**. Click **Customize [theme name]** to start.
 
-Your **Main color** and **Accent color** stay the same in both modes until you change one of them for one mode.
+Your **Primary color**, **Secondary color** and **Tertiary color** stay the same in both modes until you change one of them for one mode.
 
 > **Tip:** If text is hard to read in one of the modes, a warning says which text and in which mode. Click **Change It in Customize** to open the theme editor on that mode and those colors.
 
@@ -411,7 +412,7 @@ Here are some guidelines to help you pick a theme and colors that work well for 
 
 ### Match Your Brand
 
-If you already have brand colors (from a logo, business cards, or other materials), use them as your Main color and Accent color. This keeps your online presence consistent with everything else.
+If you already have brand colors (from a logo, business cards, or other materials), use them as your Primary color, Secondary color and Tertiary color. This keeps your online presence consistent with everything else.
 
 ### Consider Your Audience
 
@@ -433,7 +434,7 @@ The most important thing is that your visitors can easily read your content.
 
 ### Less Is More
 
-You do not need very different colors for your Main color and Accent color. Colors that are related (like a dark blue and a slightly different blue) often look more polished than colors that clash. If you are unsure, start with a ready-made color set and adjust from there.
+You do not need very different colors for your Primary color and Secondary color. Colors that are related (like a dark blue and a slightly different blue) often look more polished than colors that clash. If you are unsure, start with a ready-made color set and adjust from there.
 
 ### Try Before You Decide
 
