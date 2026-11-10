@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-10 1:48pm
+**Last verified:** 2026-11-10 2:05pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -32,7 +32,7 @@ The header's parts:
 - **Logo** -- your logo picture, your site's name, or both (**Image and text**, **Image**, **Text**), in three sizes. **Text** starts as your site's name; type other words to replace it. Upload the picture in **Site Settings → Content → Site Images**. If you pick **Image** and have no picture yet, your site's name shows instead. **Logo links to** is the page the logo opens, such as `/shop`; leave it empty for your home page.
 - **Menus** -- the main menu and a second, smaller menu. Pick which of your menus each one shows, how many levels show, and whether the pages under an item open in a list (**Dropdown**) or a wide panel (**Mega menu**). Under each menu you pick, **Edit this menu's pages** opens your Pages list showing only the pages in that menu. Open a page's settings there to add it to a menu or take it out.
 - **Links and switches**: your social links, the language switcher and the light and dark switch. Your social profiles are in **Site Settings → Connections → Social Settings**. On a wide screen they sit with your second menu in a small row of their own, apart from the main menu. Your layout puts that row across the top of the header or above the main menu. When the menu folds behind its button, on phones and tablets or where a long menu does not fit, the second menu, the language links and the social links move into the menu with it.
-- **Button**: a button with your own words and link, such as "Book a call". It can open in a new tab. Its **Style** is **Filled**, **Outline** or **Dark**. A new button starts as **Outline**, so your header button and footer button match. If you picked **Filled** before, your button stays **Filled**. **Dark** is a solid button in your header's text color: dark on a light header, light on a dark header and in dark mode. Its corners come from your theme's buttons, so your header and footer buttons match the buttons on your pages. To change them, change your theme's button corners. **Button on phones** decides where the header button goes on a phone. **In the phone menu** puts it last in the menu's list. **Pinned at the menu's foot** keeps it at the bottom of the phone menu, where it stays in view while visitors scroll a long menu. **In the phone bar** keeps it in view, small, next to the menu button, so keep its words short. On a narrow phone it gets narrower, and your logo keeps its room.
+- **Button**: a button with your own words and link, such as "Book a call". It can open in a new tab. Its **Style** is **Filled**, **Outline**, **Link** or **Dark** in the header, and **Filled** or **Outline** in the footer. A new button starts as **Outline**, so your header button and footer button match. If you picked **Filled** before, your button stays **Filled**. **Dark** is a solid button in your header's text color: dark on a light header, light on a dark header and in dark mode. The header button has the same **Color**, **Size** and **Shape** choices as the Button block. **Shape** starts on **Theme**, which uses your theme's button corners, and the footer button always uses them. The header has a **Search button** switch. It is off until you turn it on, and it shows only when your site has the Search module. **Button on phones** decides where the header button goes on a phone. **In the phone menu** puts it last in the menu's list. **Pinned at the menu's foot** keeps it at the bottom of the phone menu, where it stays in view while visitors scroll a long menu. **In the phone bar** keeps it in view, small, next to the menu button, so keep its words short. On a narrow phone it gets narrower, and your logo keeps its room.
 - **Category row**: a row of links across the foot of the header, such as your shop's categories. **Three rows** shows it to start with. For any other layout, turn on **Show the category row**. It shows the top pages of your **Header category menu**; pick another menu under **Which menu**. On phones, its links move into the menu, under your main menu.
 - **Top bar** -- a thin bar above the header with a short message, a phone number, an email address and your social links. Your whole message always shows: when it does not fit on one line, it wraps and the bar gets taller. On tablets and phones, a bar with a message leaves out the social links, which are still in your footer. On phones, the phone number and email address show as icons.
 - **Announcement bar** -- a short message in your theme's main color, above everything else. See [Announcement bar](#announcement-bar).
@@ -463,6 +463,17 @@ For a gallery of cards, product listings, or a portfolio.
 4. Select the parent box and set its display to **Grid**.
 5. Set the columns to 2, 3, or 4 depending on how many cards you want per row.
 6. Set the **Gap** to add space between the cards (16 or 24 pixels works well).
+
+#### Masonry Cards
+
+Masonry suits cards or pictures of different heights, such as stories, recipes or photos. Each card goes into the shortest column, so the columns have no empty holes. The cards keep the order you put them in: the first ones sit along the top, from left to right.
+
+1. Select the group of cards or pictures.
+2. Click **Settings**.
+3. Under **Layout**, set **Arrange** to **Masonry**.
+4. Under **Masonry columns**, choose **2**, **3** or **4** for a wide screen.
+
+A phone shows one column and a tablet shows two. With **4**, the fourth column shows on screens 1400px wide or more. **Grid** puts the cards back in even rows. To change the space between the cards, open **Space between cards** in the same **Settings**.
 
 ---
 
