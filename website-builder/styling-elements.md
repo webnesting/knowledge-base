@@ -1,6 +1,6 @@
 # Styling Your Page Elements
 
-**Last verified:** 2026-11-10 12:14pm
+**Last verified:** 2026-11-10 1:54pm
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -229,6 +229,10 @@ An element's background can hold several images, gradients and colors, stacked o
 4. The image covers the element, once, from its center. Change that with **Size**, **Position** and **Repeat**.
 
 A private file from Media cannot be used, because your visitors could not see it. Make it public in Media, then pick it again.
+
+Once the layer has a file, a **Describe this picture** box shows under it. Type a short description, such as "Friends at a long table". People who use a screen reader hear these words. Leave the box empty if the picture only adds looks.
+
+A picture from your Media library loads a smaller copy on a phone or other small screen, so the page opens faster. WebNesting makes the smaller copies when you save or publish.
 
 ### Adding a Gradient
 
