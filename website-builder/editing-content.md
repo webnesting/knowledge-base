@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-11-10 6:22pm
+**Last verified:** 2026-11-11 3:05pm
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -71,6 +71,12 @@ To change a block type:
 3. Select the option you want (for example, Heading 2).
 
 The text will immediately change to the new style.
+
+Some themes add their own styles to the bottom of the **Block** dropdown, such as a check list or a small colored tag. Click into the text, open the dropdown and select one.
+
+#### Text Style (Styling Words)
+
+If your theme has styles for a few words, a **Text style** dropdown appears next to **Block**. Select the words, open the dropdown and choose a style, such as a pill or gradient words. Choose **No style** to take it off.
 
 > **Tip:** Use Heading 1 for your main page title, Heading 2 for major sections, and Heading 3 for subsections. This structure helps both visitors and search engines understand your content.
 

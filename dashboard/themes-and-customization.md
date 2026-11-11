@@ -63,6 +63,8 @@ The Theme page shows two groups:
 - **Built-in themes** -- the designs that come with WebNesting.
 - **Your themes** -- themes you made from a built-in one, with your own colors and shapes.
 
+When WebNesting makes a theme for your site alone, a group called **Made for this site** appears between the two. Only your site sees those themes. The Site design panel in the builder has the same groups.
+
 Each card shows a small picture of your site in that theme, with your site's name and menus. The theme your site uses now is first, marked **In use**.
 
 ![The Theme page with the built-in theme cards, the one in use marked and a Customize or Use This Theme button on each](../images/dashboard/themes-theme-page.png)
