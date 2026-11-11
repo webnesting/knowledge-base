@@ -1,6 +1,6 @@
 # Website Builder Overview
 
-**Last verified:** 2026-11-07 10:00am
+**Last verified:** 2026-11-11 5:44pm
 
 The Website Builder is where you design and create your web pages. It is a visual editor -- meaning you can see exactly how your page will look as you build it. No coding required.
 
@@ -54,6 +54,7 @@ The toolbar along the top of the screen holds your main controls:
 **On the left:**
 - **Edit mode** -- Choose whether you are editing the **Page**, its **Layout** (the shared header/footer), or **Unlocked** (everything at once)
 - **Undo and Redo**
+- **Add section**: The button with the plus sign. It opens the **Add a section** window, where you pick a designed section for your page (see [Add a Section](adding-components.md#add-a-section)). On a narrow screen, it is in the **More** menu.
 - **Canvas View** -- Toggle the multi-page pan-and-zoom canvas
 
 **In the middle:**
@@ -104,8 +105,8 @@ On a window narrower than 1200px, such as a tablet, the workspace menu on the fa
 
 Building a page follows a simple pattern. Here is the basic workflow:
 
-1. **Pick a ready-made section or a component.** A new, empty page opens on a list of [ready-made sections](adding-components.md#start-a-new-page): select one to add it. For anything else, use the **Add** panel. Type a name or a plain word in **Search sections and blocks** ("movie" finds Video), or open a group such as Layout, Text or Media (a text block, an image, a button, and so on).
-2. **Drag it onto your page.** Drop it wherever you want it to appear on the Canvas.
+1. **Pick a ready-made section or a block.** A new, empty page opens on a list of [ready-made sections](adding-components.md#start-a-new-page): select one to add it. To add a section later, press **Add section** at the top of the builder, or use the **+** under a section ([Add a Section](adding-components.md#add-a-section)). For a single block, use the **Add** panel. Type a name or a plain word in **Search blocks** ("movie" finds Video), or open a group such as Layout, Text or Media (a text block, an image, a button, and so on).
+2. **Drag a block onto your page.** Drop it wherever you want it to appear on the Canvas. A section needs no dragging: it goes in when you press **Add**.
 3. **Click to select and edit.** Click on the component you just added. If it has text, click the text to start typing. If it is an image, click it to change the picture.
 4. **Style it in the Styles panel.** With the component selected, open **Styles** to adjust colors, spacing, fonts, and other visual settings.
 5. **Save and publish.** When you are happy with your changes, click **Save draft** to store your work. When you are ready for the world to see it, click **Publish**.
