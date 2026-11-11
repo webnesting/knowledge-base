@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-10 2:05pm
+**Last verified:** 2026-11-10 8:52pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -442,7 +442,7 @@ With two columns, the second column of each pair sits lower. With three columns,
 
 #### Space Between and Before Columns
 
-The **Columns layout** panel has three more settings.
+The **Columns layout** panel has four more settings. The part after this one explains **Last row**.
 
 - **Columns stack**, on the Element that holds your columns, sets where the columns stack in one column, one under the other. **On phones**, the default, stacks them on a screen narrower than 768px. A tablet then shows them side by side. **On phones and tablets** stacks them on a screen narrower than 1024px, so a tablet shows one column, as a phone does. A laptop or a wider screen shows them side by side. With **On phones and tablets**, the **Space between rows on a phone** of that Element shows on a tablet too.
 
@@ -452,6 +452,18 @@ The **Columns layout** panel has three more settings.
 The column's width plus the space before it must be 12 columns or less, or the column moves to a new line. Where the columns stack, each one is full width, so the space before a column is not used.
 
 > **Tip:** When you stack columns on tablets, open **Site design**, then **Sizes and shapes**, and set **Text size on a tablet** to **Phone size**. The theme editor's **Sizes and shapes** tab has the same slider. Headings and text then keep their phone size until the screen is 1024px wide, so a stacked tablet page does not get oversized headings.
+
+#### Last Row
+
+When the last row of a grid is not full, its items grow to fill the row. With three cards two to a row, the third card spans the whole row, and two cards left in a row of four take half the row each. Full rows keep their widths.
+
+The fill is on by default for columns of one width, for a group of cards or pictures set to Grid, and for a box with 2 to 6 columns of one size. To keep every item at its own width:
+
+1. Select the **Element** that holds your columns, or the group of cards or pictures.
+2. Click **Settings**.
+3. Under **Columns layout** or **Layout**, set **Last row** to **Keep column widths** or **Keep card widths**.
+
+**Fill the row** turns the fill on again. A last row fills only when its items can share the row evenly, so two cards left in a row of three keep their widths. Columns of different widths keep their widths too, as do a column with space before it and a Masonry group.
 
 #### Card Grid
 
