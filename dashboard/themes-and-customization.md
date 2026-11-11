@@ -31,25 +31,25 @@ A clean, professional design with classic blue tones. This is a light theme that
 
 ### Soft Elegant
 
-A warm, refined look with gentle green accents. This light theme uses softer background tones and earthy colors that feel inviting and polished. It is a great fit for wellness brands, boutiques, creative professionals, and anyone who wants a calm, elegant feel.
+This theme is being redesigned and shows the Default look for now. When the redesign is ready, it gets its new look and its own sections. Your content stays as it is.
 
 ### Midnight Slate
 
-A dark, sophisticated design with cyan-blue accents. This modern dark theme is eye-catching and gives your site a sleek, high-end feel. It works well for technology companies, portfolios, creative agencies, and anyone who wants a bold, contemporary look.
+A quiet, lamp-lit look that opens in dark mode: a deep blue-grey page, chalk-white text and warm amber buttons that stand out like lit lamps. Headings use a calm serif with letters like carved stone. Cards and buttons have softly eased corners. The light mode is its own design: a pale slate-fog page with deep mahogany buttons. It suits interior designers, architects, studios and anyone whose work looks best in an evening light.
 
 ### Bold Deco
 
-An art deco editorial style with dramatic serif typography and rich burgundy-and-gold tones. This light theme has real personality and makes a strong first impression. It suits restaurants, event venues, publications, luxury brands, and anyone who wants their site to feel designed rather than templated.
+A grand, theatre-poster look that opens in dark mode, like house lights going down: a plum-black page, warm ivory text, gold buttons and rose links. Headings are tall and bold, and buttons and menu links are in capitals. Coloured sections carry a sunburst of rays and fine gold double lines, and labels look like square ticket stubs. The light mode is its own design: claret, gold and teal on an ivory page. It suits events, venues, festivals, bars and anyone who wants an evening-out feel.
 
 ### Kiln
 
 A warm, hand-made studio look: an oatmeal page with a light speckle, cream cards, and deep green and rust colors. Headings use a classic serif typeface. Buttons are fully rounded with a firm outline, cards have rounded corners and no shadow, and a small rust mark sits beside each label over a heading. This light theme comes with a matching dark mode in warm charcoal with sage green and amber. It suits makers, studios, cafés, craft shops and anyone who wants a site that feels made by hand.
 
-Soft Elegant, Midnight Slate, Bold Deco and Kiln each draw a page background of their own: soft glows of the theme's colors at the top, Bold Deco's gold lattice, and Kiln's fine speckle. It runs behind every section and changes with light and dark mode, and it always stays faint enough that text on it is easy to read. Soft Elegant and Bold Deco show their glows in dark mode only, and Kiln has no glows. Default keeps a plain page. To change it for one page, a layout or your whole site, see [The Page Background](../website-builder/styling-elements.md#the-page-background).
+Kiln draws a page background of its own, a fine speckle. It runs behind every section and changes with light and dark mode, and it always stays faint enough that text on it is easy to read. Default keeps a plain page. To change it for one page, a layout or your whole site, see [The Page Background](../website-builder/styling-elements.md#the-page-background).
 
 > **Tip:** Each theme card shows your own home page, and you can open any theme full screen before you switch. Take your time and try them all to see which one fits your brand best.
 
-Every theme has a light mode and a dark mode. Midnight Slate is made dark; the others are made light. Your site shows the mode its theme was made in until you pick one (see [Light and Dark Mode](#light-and-dark-mode)).
+Every theme has a light mode and a dark mode. Midnight Slate and Bold Deco are made dark; the others are made light. Your site shows the mode its theme was made in until you pick one (see [Light and Dark Mode](#light-and-dark-mode)).
 
 ## Where to Find Your Theme
 
@@ -440,11 +440,11 @@ If you already have brand colors (from a logo, business cards, or other material
 
 ### Consider Your Audience
 
-- **Professional services** (law firms, accounting, consulting) -- Clean, classic themes like Default with blue or neutral tones convey trust and reliability.
-- **Creative businesses** (design studios, photographers, artists) -- Dark themes like Midnight Slate or warm themes like Soft Elegant help your work stand out.
-- **Makers and small studios** (potters, bakers, craft shops, cafés) -- Kiln's warm earth colors and rounded shapes feel hand-made and friendly.
-- **Wellness and lifestyle** (spas, yoga studios, coaches) -- Soft Elegant with green or earth-toned colors creates a calm, inviting feel.
-- **Technology companies** -- Midnight Slate with cyan or blue accents gives a modern, cutting-edge impression.
+- **Professional services** (law firms, accounting, consulting): clean, classic themes like Default with blue or neutral tones convey trust and reliability.
+- **Creative businesses** (design studios, photographers, artists): dark mode or quiet colors help your work stand out.
+- **Makers and small studios** (potters, bakers, craft shops, cafés): Kiln's warm earth colors and rounded shapes feel hand-made and friendly.
+- **Wellness and lifestyle** (spas, yoga studios, coaches): green or earth-toned colors create a calm, inviting feel.
+- **Technology companies**: blue or cyan accents give a modern, cutting-edge impression.
 
 ### Keep It Readable
 
