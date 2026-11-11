@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-10 8:52pm
+**Last verified:** 2026-11-10 11:16pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -457,13 +457,14 @@ The column's width plus the space before it must be 12 columns or less, or the c
 
 When the last row of a grid is not full, its items grow to fill the row. With three cards two to a row, the third card spans the whole row, and two cards left in a row of four take half the row each. Full rows keep their widths.
 
-The fill is on by default for columns of one width, for a group of cards or pictures set to Grid, and for a box with 2 to 6 columns of one size. To keep every item at its own width:
+The fill is on by default for columns of one width, for a group of cards or pictures set to Grid, and for a box with 2 to 6 columns of one size. It is also on for the cards of **Team member**, **Pricing table**, **Customer reviews** set to Grid, **Event List** in its Grid view, and **Page navigation** set to **Pages under this page**. To keep every item at its own width:
 
-1. Select the **Element** that holds your columns, or the group of cards or pictures.
+1. Select the **Element** that holds your columns, the group of cards or pictures, or the block.
 2. Click **Settings**.
-3. Under **Columns layout** or **Layout**, set **Last row** to **Keep column widths** or **Keep card widths**.
+3. Find **Last row**. It is under **Columns layout** or **Layout**, or under the block's own heading, such as **Events**.
+4. Set **Last row** to **Keep column widths** or **Keep card widths**.
 
-**Fill the row** turns the fill on again. A last row fills only when its items can share the row evenly, so two cards left in a row of three keep their widths. Columns of different widths keep their widths too, as do a column with space before it and a Masonry group.
+**Fill the row** turns the fill on again. In columns, cards and pictures, a last row fills only when its items can share the row evenly, so two cards left in a row of three keep their widths. Columns of different widths keep their widths too, as do a column with space before it and a Masonry group. The cards of the five blocks above always share a short last row. An event card that grows wider than two cards shows its picture beside its words. With **Keep card widths**, one or two events or page cards keep the width of one card.
 
 #### Card Grid
 
