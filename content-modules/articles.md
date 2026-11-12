@@ -1,6 +1,6 @@
 # Articles and Blog Posts
 
-**Last verified:** 2026-11-07 11:37am
+**Last verified:** 2026-11-11 3:45pm
 
 The Articles module gives your website a full blog and news section. Use it to share company updates, how-to guides, industry news, or anything else you want to write about. Articles are one of the best ways to keep your website fresh and attract new visitors.
 
@@ -12,7 +12,7 @@ Think of the Articles module as your own built-in blogging tool. Once you turn i
 
 Each article you create gets its own page on your website, complete with a title, featured image, and the full article text. Each article automatically gets a URL based on its title. You can customize the URL slug when creating or editing the article. Your visitors can browse all your articles in one place, or you can display them on any page of your site.
 
-The Articles module is the **Blog** add-on. It costs **$3 a month** for each site. A site on a paid Websites plan has unlimited pages, so articles never cost extra. The add-on is for one site. Any site can turn it on, a site on the Free plan too. A Free site stays on Free and pays only for the add-on, and its blog posts do not count toward its 5 pages. Turn it on mid-month and you pay only for the days left in that month. After that it renews on the 1st with your other plans. The [All add-ons pack](../account/usage-and-billing.md#add-ons-for-a-site) is $15 a month for Blog, Events, Forms, Widget builder and Stores together.
+The Articles module is the **Blog** add-on. It costs **$3 a month** for each site. Every site has unlimited pages, so articles never cost extra. The add-on is for one site. Any site can turn it on, a site on the Free plan too. A Free site stays on Free and pays only for the add-on. Turn it on mid-month and you pay only for the days left in that month. After that it renews on the 1st with your other plans. The [All add-ons pack](../account/usage-and-billing.md#add-ons-for-a-site) is $15 a month for Blog, Events, Forms, Widget builder and Stores together.
 
 ---
 

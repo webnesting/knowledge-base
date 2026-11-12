@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-11-08 8:42pm
+**Last verified:** 2026-11-11 3:45pm
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -21,14 +21,14 @@ A plan is one part of WebNesting at one size. Each plan has a flat price per mon
 | **API** | $10: 100,000 requests, 10 GB data | $29: 300,000 requests, 30 GB data, longer audit history | $89: 1,000,000 requests, 100 GB data, longer audit history, a higher rate limit |
 
 - **Contacts, team members and API tokens are unlimited** on every plan.
-- **A paid Websites plan** has unlimited pages and no WebNesting badge.
+- **Every site has unlimited pages**, a Free site too. **A paid Websites plan** has no WebNesting badge.
 - **Active tasks** are the tasks that are not done. "Unlimited" on Tasks Pro is for normal use.
 - **Tasks has a Free plan.** It costs $0, needs no card and includes 10 active tasks. When you turn on Tasks, you start on Free unless you pick a paid plan. Free never uses credits: at 10 active tasks, a new task is refused until you finish a task or upgrade to Starter.
 - Prices are in US dollars. Plans are billed monthly.
 
 ### The Free plan for websites
 
-Every site starts on the **Free** plan at $0. It includes 5 pages, 500 MB of storage and 500 MB of website bandwidth each month. It shows the WebNesting badge and uses a `webnesting.site` address.
+Every site starts on the **Free** plan at $0. It includes unlimited pages, 500 MB of storage and 500 MB of website bandwidth each month. It shows the WebNesting badge and uses a `webnesting.site` address.
 
 Any workspace with a paid plan can make 25,000 API requests a month at no charge, even with no API plan.
 
@@ -125,7 +125,7 @@ You always see your numbers on the **Usage** page, under **Included This Month**
 | **Active tasks** | You cannot create, reopen or restore a task. On the Free plan, the message points you to Starter, and credits are not used. |
 | **API** | Requests are refused with a "usage limit" message. This also happens when the API data of the month is past your plan and credits did not pay for it. |
 | **Storage** | Uploads, imports and site publishing that add files are refused. Helpdesk attachments and form uploads are still stored and paid with credits. |
-| **Pages on a Free site** | The 6th page is not allowed. |
+| **Pages** | No limit. If a site's paid plan is not renewed, you cannot make a new page until you renew it. |
 | **Website bandwidth** | See the next section. |
 
 Buying credits, moving to a bigger plan, or the 1st of the month lifts a limit at once.

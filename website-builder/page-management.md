@@ -1,6 +1,6 @@
 # Managing Pages in the Builder
 
-**Last verified:** 2026-11-08 11:32pm
+**Last verified:** 2026-11-11 3:45pm
 
 The Website Builder is where you design and edit your pages visually. But it is also where you can switch between pages, create new ones, and manage how they are organized -- all without leaving the builder. This guide covers everything you need to know about working with pages inside the builder.
 
@@ -25,16 +25,9 @@ The panel shows your pages organized into groups. Your main site pages are under
 
 ## How Many Pages a Site Can Have
 
-A site on the **Free** plan can have **5 pages**. If you try to make a 6th page, WebNesting says "Free sites have 5 pages. Upgrade to Starter for unlimited pages." and does not make it. This holds for every way of making a page: **New page**, **Duplicate**, and bringing back a page you deleted. Sites on a paid plan have unlimited pages.
+Every site has unlimited pages, a site on the **Free** plan too.
 
-These do not count toward the 5:
-
-- Translations of a page into another language.
-- The sign-in pages (**Login**, **Register** and the others) that WebNesting makes when you turn on site accounts.
-- The pages that belong to a blog post, an event or a store product.
-- The built-in pages you cannot delete, such as your homepage and **Page Not Found**.
-
-To make room on a Free site, delete a page you no longer need, or upgrade the site to Starter.
+If the site's paid plan is not renewed, you cannot make a new page until you renew it. WebNesting says "The site plan is not paid, so you cannot add new pages. Renew it to add more." This holds for every way of making a page: **New page**, **Duplicate**, and bringing back a page you deleted. Your existing pages stay, and you can still edit them. Translations of a page and the sign-in pages that site accounts make are still made.
 
 ---
 

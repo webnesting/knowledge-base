@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-11-08 8:42pm
+**Last verified:** 2026-11-11 3:45pm
 
 WebNesting bills with plans and prepaid credits. You pick a plan for each part of WebNesting you use and pay for it on the 1st of the month. If you use more than a plan includes, prepaid credits pay for the extra. This page explains the details: what is included, what happens at a limit, and how to see and pay your bills. For the plan prices, how credits work and how a failed payment is handled, see [Usage and Billing](../account/usage-and-billing.md).
 
@@ -21,7 +21,7 @@ You pay in advance. Nothing is billed after the month, unless your workspace has
 
 Each plan includes an amount that starts over on the 1st of every month. It is your **included amount**. The **Usage** page shows it as **Included This Month**: what you used, what is left, and **Past included amount** when you are past it. When nothing is left, the line says **Used up**. Credits you bought never add to "what is left". They only pay once the included amount is gone.
 
-Every site starts on the **Free** plan, which costs $0 and includes 5 pages, 500 MB of storage and 500 MB of website bandwidth each month. Contacts, team members and API tokens are unlimited on every plan. The full table of plans and prices: [Usage and Billing](../account/usage-and-billing.md#plans).
+Every site starts on the **Free** plan, which costs $0 and includes unlimited pages, 500 MB of storage and 500 MB of website bandwidth each month. Contacts, team members and API tokens are unlimited on every plan. The full table of plans and prices: [Usage and Billing](../account/usage-and-billing.md#plans).
 
 ---
 
@@ -29,9 +29,9 @@ Every site starts on the **Free** plan, which costs $0 and includes 5 pages, 500
 
 ### Pages
 
-A Free site can have 5 pages. A site on a paid Websites plan has unlimited pages.
+Every site has unlimited pages, a Free site too. Pages never use credits.
 
-On a Free site, these do not count toward the 5: the built-in system pages (like the 404 page), translations of a page, the sign-in pages, and the pages of blog posts, events and store products. If you make a 6th page, duplicate a page, or bring a deleted page back past 5, WebNesting says "Free sites have 5 pages. Upgrade to Starter for unlimited pages." and makes nothing. Your existing pages stay.
+If a site's paid Websites plan is not renewed, a new page, a duplicate or a deleted page brought back is refused until you renew. WebNesting says "The site plan is not paid, so you cannot add new pages. Renew it to add more." and makes nothing. Your existing pages stay.
 
 ### Storage
 
