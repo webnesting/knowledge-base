@@ -1,6 +1,6 @@
 # Contacts Management
 
-**Last verified:** 2026-11-07 10:06am
+**Last verified:** 2026-11-12 4:08pm
 
 Contacts are your audience database in WebNesting. Every person who submits a form on your website, signs up for your newsletter, or is imported from a spreadsheet becomes a contact. Use the Contacts system to keep track of who your audience is, organize them into lists, and connect them to your marketing, forms, and support tools.
 
@@ -149,7 +149,7 @@ Sometimes one person ends up as two contacts, for example after signing up with 
 4. Where the two records disagree, for example on email or phone, choose which value to keep.
 5. Click **Merge and Delete Duplicate**.
 
-The kept contact gets the duplicate's tickets, campaign history, automations, notes, tasks, lists, tags, site memberships and form submissions, and then the duplicate is deleted. If either record unsubscribed from email or from a list, the kept contact stays unsubscribed -- a merge never makes anyone receive email they opted out of. If both records have their own password for the same website, WebNesting asks you to remove one of them from that site first.
+The kept contact gets the duplicate's tickets, campaign history, automations, notes, tasks, lists, tags, site memberships and form submissions, and then the duplicate is deleted. Custom table entries that name the duplicate in an Owner Contact column move to the kept contact too. If either record unsubscribed from email or from a list, the kept contact stays unsubscribed. A merge never makes anyone receive email they opted out of. If both records have their own password for the same website, WebNesting asks you to remove one of them from that site first.
 
 ### Downloading a Person's Data
 

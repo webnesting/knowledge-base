@@ -1,6 +1,6 @@
 # Custom Data Tables
 
-**Last verified:** 2026-11-07 11:37am
+**Last verified:** 2026-11-12 4:41pm
 
 Custom data tables let you store and organize any kind of information on your website. Think of them like spreadsheets -- you create a table, set up columns for the information you want to track, and then add rows of data. That data can then be displayed on your website however you like.
 
@@ -201,6 +201,25 @@ When you choose this type, you will also select:
   - In most cases, add the relationship on the "child" table (the one with many entries) using "Belongs to", pointing to the "parent" table (the one with fewer entries).
 
 > **Tip:** You do not need to use relationships right away. Start with simple columns like text, number, and image. You can always add relationship columns later as your content grows more complex.
+
+### Owner Contact
+
+**Owner Contact**
+Links each entry to one person from your Contacts, for example the member who owns a listing.
+
+*Use it for:* A member's directory listing, or the client a project is for.
+
+- When you add or edit an entry, type part of a name or email address and pick the person from the list.
+- Under the field, **View contact** opens that person's contact page.
+- The list of entries shows the person's name in this column.
+- To remove the person, clear the field and save the entry.
+- An Owner Contact column holds one person, so it has no **Default Value** or **Multiple** setting.
+- If you delete the contact, the entry keeps its other details. The field shows "Deleted contact" until you pick someone else.
+- If you merge two contacts, the entries move to the contact you keep. The merge window counts them before you confirm.
+- Turn on **Unique** to allow one entry per person, for example one member profile each. Entries with no contact are always allowed. If you pick a person who already has an entry, the field says so and WebNesting does not save the entry. When you merge two contacts who each have an entry in a Unique column, the kept contact keeps its own entry. The other entry stays, and its field shows "Deleted contact".
+- A team member who cannot see Contacts sees a contact number in place of the name, and cannot change the field.
+
+You can add an Owner Contact column to a site's custom tables. Workspace tables do not have it.
 
 ---
 
