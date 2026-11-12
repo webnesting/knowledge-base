@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-11-11 5:44pm
+**Last verified:** 2026-11-11 10:09pm
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -53,7 +53,7 @@ The component will appear on your page immediately. You can now click on it to e
 
 At the top of the **Add** panel, the **Search blocks** box finds a block by its name or by a plain word. Type "movie" and **Video** appears; "newsletter" finds **Email Signup**. A longer search needs every word to match. Under the box, a line says how many blocks you see, such as "56 blocks." The count depends on your site, because a block for a module you have not turned on is not listed. While you search, the line reads like "2 blocks match "hero"." Press **Esc** or choose **Clear search** to see everything again.
 
-When no block matches but your words fit a section, the panel shows **Looking for a section? Add section**. Select **Add section** and the **Add a section** window opens with your words in its search box. When nothing matches at all, the panel says so and offers **Show all blocks**.
+When no block matches but your words fit a section, the panel shows **Looking for a section?** with an **Add section** button under it. Select **Add section** and the **Add a section** window opens with your words in its search box. When nothing matches at all, the panel says so. Choose **Clear search** to see every block again.
 
 ![The Add panel after a search for restaurant: no block matches, so the panel offers Add section](../images/website-builder/add-panel-section-line.png)
 
@@ -61,7 +61,7 @@ The blocks sit in groups by what you want to do. Select a group's name to open o
 
 ## Add a Section
 
-A section is a designed part of a page, such as a banner at the top or three customer reviews, made of several blocks. You choose one in the **Add a section** window. The window fills the screen, so each section shows as a large live picture in your theme, as tall as the section itself.
+A section is a designed part of a page, such as a banner at the top or three customer reviews, made of several blocks. You choose one in the **Add a section** window. The window fills the screen, so each section shows as a large live picture in your theme. Every picture is the same size and shows the top of its section. A long section fades out at the bottom of its picture.
 
 ![The Add a section window: types on the left, a search box and a Show choice at the top, and a picture of each section with an Add button](../images/website-builder/add-section-window.png)
 
@@ -100,14 +100,14 @@ Bold Deco, Kiln, Midnight Slate and Soft Elegant have no sections of their own r
 When you have made a part of a page you like, save it as a section and add copies of it to other pages. It keeps its blocks, its words and its look.
 
 1. Select the section on your page.
-2. In the small toolbar above it, press the bookmark button, **Save as section**. You can also right-click the section and choose **Save as section** (on a keyboard, press **Shift+F10** or the menu key). Under it, the menu says "A copy to reuse. Each copy changes on its own."
-3. Give it a name. If you already have a section with that name, the window says the name it will get, such as "Open day (2)".
-4. Optional: pick a **Type**, such as Hero or Pricing, or type your own. The type sorts the section in the **Add a section** window.
+2. In the small toolbar on the section, press the folder button with a plus sign, **Save as section**. Point at a button to see its name. You can also right-click the section and choose **Save as section** (on a keyboard, press **Shift+F10** or the menu key). Under it, the menu says "A copy to reuse. Each copy changes on its own."
+3. Check the name. It starts as the section's heading. A section with no heading starts with an empty name, so type one. If you already have a section with that name, the window says the name it will get, such as "Open day (2)".
+4. Optional: pick a **Type**, such as Hero or Pricing, or type a new one. The type is where the section shows in the **Add a section** window.
 5. Choose **Save section**.
 
 ![The small toolbar above a selected section, with the Save as section button ringed](../images/website-builder/save-as-section-button.png)
 
-A small picture of the section shows at the top of the window, so you can check what you save. After the save, a message says "Saved "Name". Find it under Add section → Saved by you." Press **Open** in the message to see it: the **Add a section** window opens on **Saved by you**, and the new section wears "Just saved". Add it to any page of the site, as you add a ready-made one.
+A picture of the section fills the top of the window, so you can check what you save. After the save, a message says "Saved "Name". Find it under Add section → Saved by you." Press **Open** in the message to see it: the **Add a section** window opens on **Saved by you**, and the new section wears "Just saved". Add it to any page of the site, as you add a ready-made one.
 
 ![The message after a save, with its Open button ringed](../images/website-builder/save-as-section-toast.png)
 
@@ -115,7 +115,7 @@ A saved section is a copy. Changing it on one page never changes the other pages
 
 You cannot save the page content area itself, or a part of the page that holds it: the menu item is off and says "Pick a section on your page. The page content area cannot be saved." A section with an **HTML** block in it cannot be saved either, because an HTML block holds code.
 
-**Rename or delete a saved section:** in the **Add a section** window, choose **Saved by you** and open the **⋮** menu on its tile.
+**Rename or delete a saved section:** in the **Add a section** window, choose **Saved by you** and open the **⋮** menu in the top right corner of its picture.
 
 ![A saved section's tile with its menu open, showing Rename and Delete](../images/website-builder/add-section-saved-by-you.png)
 
