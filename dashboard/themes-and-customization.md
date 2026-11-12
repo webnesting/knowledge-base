@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-11-11 7:36pm
+**Last verified:** 2026-11-11 10:40pm
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -47,9 +47,13 @@ A warm, hand-made studio look: an oatmeal page with a light speckle, cream cards
 
 Kiln draws a page background of its own, a fine speckle. It runs behind every section and changes with light and dark mode, and it always stays faint enough that text on it is easy to read. Default keeps a plain page. To change it for one page, a layout or your whole site, see [The Page Background](../website-builder/styling-elements.md#the-page-background).
 
+### Marginalia
+
+A calm, bookish look for long reading. Headings and text use Literata, a serif made for screens. The page is warm, unbleached paper with dark ink text, ink-blue links and wide margins, and labels are small, spaced-out capitals. In dark mode the page turns a warm near-black with soft cream text and pale blue links. The theme has two page backgrounds: Laid paper, fine lines like good writing paper, and Lamplight, two soft pools of warm light that drift slowly and can be paused. It suits writers and bloggers whose sites are mostly essays or articles. It comes with six ready-made sections: a featured essay, an essay list, an author note, a book spotlight, talks and classes, and an email sign-up band.
+
 > **Tip:** Each theme card shows your own home page, and you can open any theme full screen before you switch. Take your time and try them all to see which one fits your brand best.
 
-Every theme has a light mode and a dark mode. Midnight Slate and Bold Deco are made dark; the others are made light. Your site shows the mode its theme was made in until you pick one (see [Light and Dark Mode](#light-and-dark-mode)).
+Every theme has a light mode and a dark mode. Midnight Slate and Bold Deco are made dark; the others, Marginalia included, are made light. Your site shows the mode its theme was made in until you pick one (see [Light and Dark Mode](#light-and-dark-mode)).
 
 ## Where to Find Your Theme
 
