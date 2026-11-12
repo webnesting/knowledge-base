@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-11-10 8:39pm
+**Last verified:** 2026-11-11 7:36pm
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -39,7 +39,7 @@ A quiet, lamp-lit look that opens in dark mode: a deep blue-grey page, chalk-whi
 
 ### Bold Deco
 
-A grand, theatre-poster look that opens in dark mode, like house lights going down: a plum-black page, warm ivory text, gold buttons and rose links. Headings are tall and bold, and buttons and menu links are in capitals. Coloured sections carry a sunburst of rays and fine gold double lines, and labels look like square ticket stubs. The light mode is its own design: claret, gold and teal on an ivory page. It suits events, venues, festivals, bars and anyone who wants an evening-out feel.
+A grand, theater-poster look that opens in dark mode, like house lights going down: a plum-black page, warm ivory text, gold buttons and rose links. Headings are tall and bold, and buttons and menu links are in capitals. Colored sections carry a sunburst of rays and fine gold double lines, and labels look like square ticket stubs. The light mode is its own design: claret, gold and teal on an ivory page. It suits events, venues, festivals, bars and anyone who wants an evening-out feel.
 
 ### Kiln
 
