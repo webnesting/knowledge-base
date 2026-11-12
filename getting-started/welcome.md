@@ -95,7 +95,7 @@ You set up a new site in one short form. It takes about a minute:
 
 1. **Name it.** Enter a **Site Name**. WebNesting fills in a web address for you.
 2. **Choose how to start.** Pick **Start from a theme** (the quickest way), or **Build it with your AI**.
-3. **Pick a look.** Choose a theme. Some come with an example site, some with starter pages (**Business**, **Personal** or **Portfolio**), and some give you just colors and fonts with an empty home page.
+3. **Pick a look.** Choose a theme. Some come with an example site, some with starter pages (**Business**, **Help center**, **Personal** or **Portfolio**), and some give you just colors and fonts with an empty home page.
 4. **Create it.** Select **Create Site** and watch the progress list until it says **Complete!**.
 5. **Make it yours.** If you started from a theme, pick your colors, fonts and header on the **Make it yours** screen, or select **Skip for Now**.
 
