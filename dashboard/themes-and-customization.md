@@ -209,7 +209,7 @@ Your uploaded fonts show under **Your fonts** at the top of both lists, and in t
 
 Each slider moves through named steps:
 
-- **Text size**: all text, headings included (Small, Normal, Large).
+- **Text size**: all text, headings included (Small, Normal, Large). Tags, captions, header links and footer labels change with it.
 - **Heading size**: how much bigger headings are than text (Quiet to Dramatic). On a phone, the steps between heading levels are smaller, so long words fit.
 - **Heading letter spacing**: how close the letters in a heading sit (Very tight to Open). Tight suits big, bold headings.
 - **Heading line breaks**: Balanced splits a heading into lines of even length, so one word never sits alone on the last line. Plain breaks lines only when they are full.
