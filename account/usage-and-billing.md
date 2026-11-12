@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-11-11 3:45pm
+**Last verified:** 2026-11-11 9:11pm
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -21,14 +21,14 @@ A plan is one part of WebNesting at one size. Each plan has a flat price per mon
 | **API** | $10: 100,000 requests, 10 GB data | $29: 300,000 requests, 30 GB data, longer audit history | $89: 1,000,000 requests, 100 GB data, longer audit history, a higher rate limit |
 
 - **Contacts, team members and API tokens are unlimited** on every plan.
-- **Every site has unlimited pages**, a Free site too. **A paid Websites plan** has no WebNesting badge.
+- **Every site has unlimited pages**, a Free site too.
 - **Active tasks** are the tasks that are not done. "Unlimited" on Tasks Pro is for normal use.
 - **Tasks has a Free plan.** It costs $0, needs no card and includes 10 active tasks. When you turn on Tasks, you start on Free unless you pick a paid plan. Free never uses credits: at 10 active tasks, a new task is refused until you finish a task or upgrade to Starter.
 - Prices are in US dollars. Plans are billed monthly.
 
 ### The Free plan for websites
 
-Every site starts on the **Free** plan at $0. It includes unlimited pages, 500 MB of storage and 500 MB of website bandwidth each month. It shows the WebNesting badge and uses a `webnesting.site` address.
+Every site starts on the **Free** plan at $0. It includes unlimited pages, 500 MB of storage and 500 MB of website bandwidth each month. It uses a `webnesting.site` address.
 
 Any workspace with a paid plan can make 25,000 API requests a month at no charge, even with no API plan.
 
@@ -168,14 +168,13 @@ Each month is billed once. If a later check finds the month was counted a little
 
 If your card does not pay on the 1st, **everything keeps working for 7 days.** We try the card again on days 1, 3, 5 and 7, and email you each time. You can also pay the invoice yourself at any time with **Pay Now**.
 
-If the invoice is still unpaid after day 7, your paid plans move to **Free**. **Nothing is deleted.**
+If the invoice is still unpaid after day 7, your paid plans go on hold. **Nothing is deleted.**
 
-- Your sites stay online on the Free plan with the WebNesting badge.
-- A custom domain shows a WebNesting page until you pay.
-- You can still see your paid products and add-ons, but you cannot change them. You cannot add new content to a Free site that is past its Free limits.
+- Your site shows a "not available" page to visitors until the plan is paid. This holds for its `webnesting.site` address and for a custom domain. You can still open and edit the site in your dashboard.
+- You can still see your paid products and add-ons, but you cannot change them.
 - **Paying the invoice brings everything back at once.**
 
-An unpaid renewal invoice is cancelled on the next 1st.
+An unpaid renewal invoice is cancelled on the next 1st. After that, pick a plan again on the site's plan card and the site comes back at once.
 
 ---
 

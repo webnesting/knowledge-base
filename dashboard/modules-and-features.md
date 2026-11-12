@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-11-08 9:13pm
+**Last verified:** 2026-11-11 9:11pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -31,8 +31,6 @@ To see all the modules you can add to your site:
 At the top, **Your Site Plan** shows the plan this site is on and how many visits it holds each month. **All add-ons together** under it is what the site's add-ons cost a month. To change the plan, pick another plan card. The button under the cards says what will happen before you confirm. Prices in the picture read $0.00 because the Example workspace has its add-ons included. Your page shows your own prices.
 
 Each module is shown as a card with its name, a short description of what it does, its **Off** or **On** state, and its price. The cards are **Form**, **API** (Site API Access), **Widget Builder**, **Article**, **Event**, **Store** and **Accounts**. A **Filters** button lets you narrow the list by status.
-
-The "Powered by WebNesting" badge is not a module. A site on a paid Websites plan never shows it. A site on the Free plan shows it.
 
 ---
 

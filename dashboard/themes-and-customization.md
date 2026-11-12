@@ -353,7 +353,7 @@ Two settings for your whole site sit on the **Theme** page, under your themes: *
 
 ### Back to Top Button
 
-**Back to top** has one setting, **Show a Back to top button**. It saves the moment you click it, and a message says so. When it is on, a small arrow button shows in the corner of the page after a visitor scrolls down one screen. It fades away while the visitor reads down the page, so it never covers the words, and it comes back when they scroll up. At the end of the page it rides above your footer, so it never covers your footer's links. A short page never shows it. The button takes the visitor back to the top of the page, and the keyboard moves to the top too. On a site that shows the WebNesting badge at the bottom, the button sits just above the badge on every screen size.
+**Back to top** has one setting, **Show a Back to top button**. It saves the moment you click it, and a message says so. When it is on, a small arrow button shows in the corner of the page after a visitor scrolls down one screen. It fades away while the visitor reads down the page, so it never covers the words, and it comes back when they scroll up. At the end of the page it rides above your footer, so it never covers your footer's links. A short page never shows it. The button takes the visitor back to the top of the page, and the keyboard moves to the top too.
 
 ### Fade Between Pages
 

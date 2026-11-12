@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-11-11 3:45pm
+**Last verified:** 2026-11-11 9:07pm
 
 WebNesting bills with plans and prepaid credits. You pick a plan for each part of WebNesting you use and pay for it on the 1st of the month. If you use more than a plan includes, prepaid credits pay for the extra. This page explains the details: what is included, what happens at a limit, and how to see and pay your bills. For the plan prices, how credits work and how a failed payment is handled, see [Usage and Billing](../account/usage-and-billing.md).
 
@@ -136,7 +136,7 @@ The card fee is part of the price, so new invoices have no separate processing f
 
 ### Late Payments
 
-If your card does not pay on the 1st, everything keeps working for 7 days. We try the card again on days 1, 3, 5 and 7 and email you each time. You can pay the invoice yourself at any time. After day 7, your paid plans move to Free and nothing is deleted. Paying the invoice brings everything back at once. An unpaid renewal invoice is cancelled on the next 1st. The details, and what a lapsed site shows, are in [Usage and Billing](../account/usage-and-billing.md#if-a-renewal-payment-fails).
+If your card does not pay on the 1st, everything keeps working for 7 days. We try the card again on days 1, 3, 5 and 7 and email you each time. You can pay the invoice yourself at any time. After day 7, your paid plans go on hold, your site shows a "not available" page and nothing is deleted. Paying the invoice brings everything back at once. An unpaid renewal invoice is cancelled on the next 1st, and picking a plan again on the site's plan card brings the site back. The details, and what a lapsed site shows, are in [Usage and Billing](../account/usage-and-billing.md#if-a-renewal-payment-fails).
 
 ### Paused sites and videos
 
