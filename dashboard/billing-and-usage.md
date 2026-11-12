@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-11-11 9:07pm
+**Last verified:** 2026-11-12 12:29am
 
 WebNesting bills with plans and prepaid credits. You pick a plan for each part of WebNesting you use and pay for it on the 1st of the month. If you use more than a plan includes, prepaid credits pay for the extra. This page explains the details: what is included, what happens at a limit, and how to see and pay your bills. For the plan prices, how credits work and how a failed payment is handled, see [Usage and Billing](../account/usage-and-billing.md).
 
@@ -226,7 +226,7 @@ The Usage page shows counts, never money.
 
 An approved refund goes back to the card that paid the invoice, or WebNesting can add it to your credit balance as prepaid credits. Your bank can take a few days to show a card refund. The earlier invoice does not change: its summary shows the amount under **Refunded**, and a refund can never be more than the invoice came to.
 
-- **A plan invoice refunded in full** ends those plans on the next 1st. You keep them until then.
+- **A plan invoice refunded in full** ends those plans on the next 1st. You keep them until then. A live website whose plan ends goes offline on that 1st. To keep it live, pick a plan for it again before then.
 - **A credit purchase refunded** takes back the credits you have not spent first.
 
 Your activity log records each refund.
