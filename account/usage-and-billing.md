@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-11-12 2:05am
+**Last verified:** 2026-11-12 2:53am
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -30,7 +30,7 @@ A plan is one part of WebNesting at one size. Each plan has a flat price per mon
 
 A new site has no plan, and its plan costs $0 while you build. It has unlimited pages, 500 MB of storage and 500 MB of bandwidth each month. Only your **Preview** and **Share** links use that bandwidth. Past 500 MB, a share link shows the "temporarily unavailable" page until the 1st or until the site goes live. The site has no public address yet. The usage page calls it "Not published: building free".
 
-Pick a plan when the site is ready. **Go Live** on the Sites page lists Starter, Growth and Pro. It shows the exact price first: the amount you pay now for the rest of this month, then the monthly price on the 1st. You tick two boxes to agree, and your card pays. Then WebNesting sets up the site on its `webnesting.site` address. A member who cannot manage billing sees "Ask a workspace owner to put this site live."
+Pick a plan when the site is ready. **Go Live** on the Sites page lists Starter, Growth and Pro. It shows the exact price first: the amount you pay now for the rest of this month, then the monthly price on the 1st. You tick two boxes to agree, and your card pays. Then WebNesting sets up the site on its `webnesting.site` address. If your bank asks you to confirm the payment, the site goes live as soon as the payment goes through. A member who cannot manage billing sees "Ask a workspace owner to put this site live."
 
 **Take Offline** works on the monthly cycle. The site stays live, and its plan stays billed, until the end of the current month. Then the site goes offline and its plan ends. Add-ons keep billing until you turn them off. Until the end of the month you can choose **Keep It Live**. To put the site live again afterwards, use **Go Live** and agree to a new price summary.
 
