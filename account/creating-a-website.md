@@ -1,6 +1,6 @@
 # Creating a Website
 
-**Last verified:** 2026-11-07 10:37am
+**Last verified:** 2026-11-12 12:32am
 
 Ready to build your first site? This guide walks you through creating a new website on WebNesting.
 
@@ -80,7 +80,7 @@ Once you select **Create Site** (**Create Website** in the popup):
 Select **Go to Sites**. Your new site is on the **Sites** page, which shows one card for each site with two buttons:
 
 - **Manage Site** opens your site's admin dashboard. This is where you'll manage content, design your pages, and adjust settings.
-- **View Site** shows your live site as visitors will see it.
+- **View Site** shows your live site as visitors will see it. A site that is not live yet has **Preview** and **Go Live** instead.
 
 ![The Sites page with a card for each site and the Manage Site button highlighted](../images/getting-started/sites-list-manage-site.png)
 

@@ -1,6 +1,6 @@
 # Navigating the Dashboard
 
-**Last verified:** 2026-11-07 9:47am
+**Last verified:** 2026-11-12 12:39am
 
 The Dashboard is your home base for managing one site in WebNesting. It is where you handle that site's pages, settings, content, and analytics. (Workspace-level features like billing, team members, helpdesk, marketing, and tasks live in your workspace -- see the **Workspaces** card in your account portal.)
 
@@ -19,7 +19,7 @@ When you log in, the first thing you see is the Dashboard home screen. It shows 
 Here are the types of widgets you may see on your home screen:
 
 - **Site Stats** -- Your number of pages, files and users, and how many modules are on
-- **Quick Actions** -- Shortcuts such as **New Page**, **Upload Files**, **View Site**, **Modules** and **Settings**
+- **Quick Actions**: Shortcuts such as **New Page**, **Upload Files**, **View Site** (**Preview** while the site is not live), **Modules** and **Settings**
 - **Site Health** -- A checkup on your site's status (homepage, published content, site title, meta description, favicon, SSL certificate and analytics), with a link to fix each thing that needs attention
 - **Recent Pages** -- A list of pages you have recently created or edited, with quick links to open them
 - **Activity Log** -- The latest changes made on your site

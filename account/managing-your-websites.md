@@ -1,6 +1,6 @@
 # Managing Your Websites
 
-**Last verified:** 2026-11-08 11:55pm
+**Last verified:** 2026-11-12 12:32am
 
 The **Sites** page inside a workspace is where you manage all your sites. This guide covers everything you need to know about viewing, opening, editing, and deleting your websites.
 
@@ -17,7 +17,9 @@ You'll see one card for every website in that workspace. Each card shows:
 - **The site name**: the name you gave your site.
 - **The web address**: where your site lives, for example my-bakery.webnesting.site.
 - **When it was last updated**: for example, "Updated Oct 27, 2026".
-- **View Site** and **Manage Site** buttons.
+- **View Site** and **Manage Site** buttons for a live site.
+
+A site that is built but not live yet sits in its own **Building free** group. Its card has **Preview**, **Manage Site** and **Go Live**. **Preview** shows the whole site to you only. **Go Live** asks you to pick a plan and confirm the price. **Active Sites** lists the sites that are live now.
 
 ![The Sites page with a card for each site and the Manage Site button highlighted](../images/getting-started/sites-list-manage-site.png)
 
