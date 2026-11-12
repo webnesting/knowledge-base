@@ -1,6 +1,6 @@
 # Saving and Publishing Your Site
 
-**Last verified:** 2026-11-09 12:47am
+**Last verified:** 2026-11-12 2:08am
 
 All your hard work designing and building your site leads to this: getting it live for the world to see. This guide explains the difference between saving and publishing, how to use undo and redo, and all the keyboard shortcuts that make your workflow faster.
 
@@ -56,14 +56,16 @@ When you are happy with your changes and ready for visitors to see them, it is t
 
 1. Look at the top right of the builder's toolbar.
 2. Select the blue **Publish** button.
-3. Your changes go live within moments. (There is no extra confirmation step, so publish when you mean to.)
+3. Your changes are saved to your site within moments. (There is no extra confirmation step, so publish when you mean to.)
+
+> **Note:** **Publish** here is not **Go Live**. **Publish** saves your pages to your site. **Go Live** puts the whole site on the web and starts its plan. You find **Go Live** on the site's card or dashboard. Until the site is live, visitors cannot see it, and you check your changes with **Preview** or **Share**.
 
 Publishing saves and promotes everything at once -- your page and its shared header/footer are published together.
 
 ### What Happens When You Publish
 
-- Your saved draft becomes the live version of your site.
-- Anyone who visits your site's web address will see the updated content.
+- Your saved draft becomes the current version of your site.
+- On a live site, anyone who visits your site's web address sees the updated content.
 - The published version replaces the previously published version.
 
 Before publishing, you can preview your site using the responsive preview controls in the builder to see how it will look on different devices.

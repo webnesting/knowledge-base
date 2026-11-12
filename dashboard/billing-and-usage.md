@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-11-12 12:29am
+**Last verified:** 2026-11-12 2:05am
 
 WebNesting bills with plans and prepaid credits. You pick a plan for each part of WebNesting you use and pay for it on the 1st of the month. If you use more than a plan includes, prepaid credits pay for the extra. This page explains the details: what is included, what happens at a limit, and how to see and pay your bills. For the plan prices, how credits work and how a failed payment is handled, see [Usage and Billing](../account/usage-and-billing.md).
 
@@ -21,7 +21,7 @@ You pay in advance. Nothing is billed after the month, unless your workspace has
 
 Each plan includes an amount that starts over on the 1st of every month. It is your **included amount**. The **Usage** page shows it as **Included This Month**: what you used, what is left, and **Past included amount** when you are past it. When nothing is left, the line says **Used up**. Credits you bought never add to "what is left". They only pay once the included amount is gone.
 
-Every site starts on the **Free** plan, which costs $0 and includes unlimited pages, 500 MB of storage and 500 MB of website bandwidth each month. Contacts, team members and API tokens are unlimited on every plan. The full table of plans and prices: [Usage and Billing](../account/usage-and-billing.md#plans).
+A new site has no plan while you build it, and that costs $0. It has unlimited pages, 500 MB of storage and 500 MB of bandwidth each month, used only by **Preview** and **Share** links. You pick a plan when you use **Go Live**. Contacts, team members and API tokens are unlimited on every plan. The full table of plans and prices: [Usage and Billing](../account/usage-and-billing.md#plans).
 
 ---
 
@@ -29,13 +29,13 @@ Every site starts on the **Free** plan, which costs $0 and includes unlimited pa
 
 ### Pages
 
-Every site has unlimited pages, a Free site too. Pages never use credits.
+Every site has unlimited pages, one you are still building free too. Pages never use credits.
 
 If a site's paid Websites plan is not renewed, a new page, a duplicate or a deleted page brought back is refused until you renew. WebNesting says "The site plan is not paid, so you cannot add new pages. Renew it to add more." and makes nothing. Your existing pages stay.
 
 ### Storage
 
-All your storage is one pool for the whole workspace. It is the storage of each Websites plan, plus 2 GB for each paid Marketing, Helpdesk, Tasks or API plan. It covers your own uploads (images, videos, documents), helpdesk ticket attachments, and files visitors upload through your forms. A workspace with no paid plan has the Free site's 500 MB.
+All your storage is one pool for the whole workspace. It is the storage of each Websites plan, plus 2 GB for each paid Marketing, Helpdesk, Tasks or API plan. It covers your own uploads (images, videos, documents), helpdesk ticket attachments, and files visitors upload through your forms. A workspace with no paid plan has 500 MB.
 
 When the pool is full, credits pay for more storage. When the credits are gone too, uploads, imports and site publishing that add files are refused, and the message tells you what is used. Helpdesk attachments and form uploads are still stored and paid with credits.
 
@@ -45,7 +45,7 @@ Files belonging to a product you have turned off still count while they are kept
 
 ### Website bandwidth
 
-Website bandwidth is the data one site sends to its visitors: its pages, pictures, videos and files. **Each site has its own bandwidth,** set by its Websites plan: 500 MB on Free, 5 GB on Starter, 15 GB on Growth and 40 GB on Pro each month. The line is named **Website Bandwidth** on the **Usage** page.
+Website bandwidth is the data one site sends to its visitors: its pages, pictures, videos and files. **Each site has its own bandwidth,** set by its Websites plan: 5 GB on Starter, 15 GB on Growth and 40 GB on Pro each month. The line is named **Website Bandwidth** on the **Usage** page.
 
 - **What is not counted.** Visits to your WebNesting dashboard and the website builder, and API calls (those are API data). A request that fails, such as a page not found, is not counted. If a visitor stops a video partway, only about the part that was sent is counted.
 - **It updates once a day.** The **Usage** page row says "Updated daily" and shows the date the count runs through. The newest hours can take a day to appear.
@@ -61,7 +61,7 @@ Website bandwidth is the data one site sends to its visitors: its pages, picture
 | **The site is unavailable** | The site is held (see below). |
 | **Unavailable for 30 days** | The site has been held for 30 days. |
 
-**When a site is held.** When the bandwidth and the credits are used up, the site is held. A Free site is held right away. A paid site keeps working for a further 15% of its plan's bandwidth, and is held after that. That 15% is not free: credits you buy later pay for it first, and the rest is [extra usage on your next bill](../account/usage-and-billing.md#extra-usage-on-your-next-bill). A held site's pages show a page that says the site is **temporarily unavailable**. Your site, its pages and its files are safe, and you can keep editing in your dashboard. The hold ends when you buy credits, move the site to a bigger plan, or the month starts over and the plan's bandwidth starts again. Search engines can lower a site that stays unavailable for a long time, which is why we email you after 30 days.
+**When a site is held.** When the bandwidth and the credits are used up, the site is held. A site you are still building free is held right away: its share link shows the unavailable page until the 1st or until the site goes live. A paid site keeps working for a further 15% of its plan's bandwidth, and is held after that. That 15% is not free: credits you buy later pay for it first, and the rest is [extra usage on your next bill](../account/usage-and-billing.md#extra-usage-on-your-next-bill). A held site's pages show a page that says the site is **temporarily unavailable**. Your site, its pages and its files are safe, and you can keep editing in your dashboard. The hold ends when you buy credits, move the site to a bigger plan, or the month starts over and the plan's bandwidth starts again. Search engines can lower a site that stays unavailable for a long time, which is why we email you after 30 days.
 
 While a site is held, its pages do not open. Its pictures, videos and other files are not touched: they keep loading, in **Files**, in the Builder and anywhere else they are linked, and they still count toward bandwidth. Your other sites keep working. When the hold ends, the site's pages come back within a few minutes. See [Website bandwidth for each site](../account/usage-and-billing.md#website-bandwidth-for-each-site).
 
@@ -95,7 +95,7 @@ Buying credits, moving to a bigger plan, or the 1st of the month lifts each limi
 
 ## Module Pricing
 
-Site modules are add-ons with a flat monthly price for each site. Any site can turn an add-on on, a site on the Free plan too. A Free site stays on Free and pays only for its add-ons.
+Site modules are add-ons with a flat monthly price for each site. Any site can turn an add-on on, one you are still building free too. Add-ons charge at once, even before the site has a plan.
 
 | Add-on | Price for each site | What it does |
 |--------|---------------------|--------------|

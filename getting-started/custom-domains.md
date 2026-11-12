@@ -1,8 +1,8 @@
 # Connecting a Custom Domain
 
-**Last verified:** 2026-11-07 9:55am
+**Last verified:** 2026-11-12 2:06am
 
-A custom domain gives your website its own professional web address, like `www.yourcompany.com`, instead of the free WebNesting address. This guide explains what you can do today, and where to go for the steps at your domain registrar.
+A custom domain gives your website its own professional web address, like `www.yourcompany.com`, instead of the WebNesting address. This guide explains what you can do today, and where to go for the steps at your domain registrar.
 
 > **This guide is for your WEBSITE domain only** — the address visitors type to reach your site. Setting up your domain for **email** (so support tickets arrive at `support@yourcompany.com` or marketing campaigns send from your domain) is a separate flow with different DNS records. See the [Email Setup section in the Helpdesk guide](../dashboard/helpdesk.md#connecting-your-email) for the email side. You can use the same domain for both — they don't conflict with each other.
 
@@ -10,7 +10,7 @@ A custom domain gives your website its own professional web address, like `www.y
 
 ## What Is a Custom Domain?
 
-When you create a site on WebNesting, it starts with a free address like `yoursite.webnesting.site`. A custom domain replaces that with a web address you own, such as `www.yourcompany.com` or `mybusiness.com`.
+When you put a site on the web with **Go Live**, it gets an address like `yoursite.webnesting.site`. A custom domain replaces that with a web address you own, such as `www.yourcompany.com` or `mybusiness.com`.
 
 Using your own domain makes your site look more professional, builds trust with visitors, and is easier for people to remember.
 
@@ -18,8 +18,8 @@ Using your own domain makes your site look more professional, builds trust with 
 
 ## What you can do today
 
-- **Use the free address.** Every site has one from the moment you create it. Nothing else is needed to publish.
-- **Enter your domain when you create a site.** The **Create Site** form has a **Custom Domain (optional)** box. Leave it blank to use the free address. A Free site that already has a domain keeps it.
+- **Use the WebNesting address.** Every site gets one when you use **Go Live**. A site you are still building has no public address. Use **Preview** or **Share** until then.
+- **Enter your domain when you create a site.** The **Create Site** form has a **Custom Domain (optional)** box. Leave it blank to use the WebNesting address. A site that already has a domain keeps it, and the domain starts working when you use **Go Live**.
 - **Choose how your address is written.** Open your site, then **Settings** > **Site Settings** > **Site Configuration**. Under **Web address**, **Always use a secure (https://) address?** decides whether anyone who types `http://` is sent to the secure address. **Should your address start with "www."?** decides whether visitors who type it the other way are sent to your choice. Both settings start on **Either works**.
 
 ![The two web address questions on the Site Configuration page, each with its choices ringed](../images/getting-started/custom-domains-web-address-settings.png)

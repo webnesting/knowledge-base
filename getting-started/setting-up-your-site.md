@@ -1,6 +1,6 @@
 # Setting Up Your Site
 
-**Last verified:** 2026-11-11 10:40pm
+**Last verified:** 2026-11-12 2:07am
 
 When you create a new WebNesting site, you give it a name and pick how it starts. This page walks you through each choice so you know exactly what to expect.
 
@@ -20,7 +20,7 @@ You can create a site from two places. Both ask the same questions:
 ## Step 1: Name Your Site
 
 1. In **Site Name**, type the name you want (for example, "Sunny Day Bakery" or "Alex's Portfolio").
-2. Check **Site address**. WebNesting fills it in from the name, and it becomes your site's free web address. You can change it before you create the site.
+2. Check **Site address**. WebNesting fills it in from the name, and it becomes your site's web address when you go live. You can change it before you create the site.
 3. If you already own a domain, you can type it in **Custom Domain (optional)**. You can also connect one later.
 
 ![The Create Site page with the Site Name filled in, the Site address and Custom Domain fields, and the three ways to start](../images/getting-started/setting-up-your-site-name.png)
@@ -46,7 +46,7 @@ If you picked a theme on WebNesting.com before you signed up or signed in, that 
 The list comes in this order:
 
 1. **Themes with an example site**: a full look plus example pages and sample text.
-2. **Starter pages**: **Business**, **Events**, **Help center**, **Personal**, **Portfolio** and **Writer**. Each brings a set of pages, like About and Contact, on the Default look. **Events** also brings sample events, each with its own page, and a page that tells visitors how to book tickets. **Help center** turns on the Knowledge Base and brings three help topics with four sample articles each, and a Contact support page. **Writer** is for one writer's blog: essays, a list of every essay and an About page.
+2. **Starter pages**: **Brand**, **Business**, **Events**, **Help center**, **Personal**, **Portfolio** and **Writer**. Each brings a set of pages, like About and Contact, on the Default look. **Brand** is for a company that makes a product and sells it through shops: it brings pages for the products, recipes and stories, questions, and shops that want to stock it. **Events** also brings sample events, each with its own page, and a page that tells visitors how to book tickets. **Help center** turns on the Knowledge Base and brings three help topics with four sample articles each, and a Contact support page. **Writer** is for one writer's blog: essays, a list of every essay and an About page.
 3. **Themes with just a look**: colors and fonts only. Your site starts with one empty home page.
 
 ![The Pick a look list with Kiln selected, next to the Business and Personal starter pages](../images/getting-started/setting-up-your-site-pick-a-look.png)

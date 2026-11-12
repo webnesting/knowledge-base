@@ -1,6 +1,6 @@
 # Managing Your Websites
 
-**Last verified:** 2026-11-12 1:22am
+**Last verified:** 2026-11-12 2:07am
 
 The **Sites** page inside a workspace is where you manage all your sites. This guide covers everything you need to know about viewing, opening, editing, and deleting your websites.
 
@@ -52,8 +52,8 @@ You're automatically signed in. There's no need to enter your email and password
 Want to see what your site looks like to visitors?
 
 1. Find the site in the workspace **Sites** list.
-2. Select **View Site** on its card.
-3. Your live site opens in a new tab.
+2. Select **View Site** on its card. A site that is not live yet shows **Preview** instead.
+3. Your site opens in a new tab.
 
 This is exactly what your visitors see when they come to your site.
 

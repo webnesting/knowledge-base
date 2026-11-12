@@ -1,6 +1,6 @@
 # Glossary of Terms
 
-**Last verified:** 2026-11-11 11:42pm
+**Last verified:** 2026-11-12 2:07am
 
 This glossary explains common terms you will encounter while using WebNesting. If you come across a word you do not recognize, check here for a quick explanation.
 
@@ -29,6 +29,8 @@ This glossary explains common terms you will encounter while using WebNesting. I
 **Draft** -- Changes that have been saved but not yet published to your live site. Drafts let you work on updates without affecting what your visitors see until you are ready.
 
 **Flex Layout** -- A flexible arrangement where items can be placed side by side or stacked in a row. Flex layouts adjust naturally as the screen size changes.
+
+**Go live**: the step that puts a site on the web. Until then the site is free to build, and only you and people with a **Share** link can see it. **Go Live** shows the monthly price first and starts the site's plan. **Take offline** reverses it.
 
 **Grid Layout** -- A structured arrangement of rows and columns that helps you organize content in an even, predictable pattern.
 

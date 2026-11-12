@@ -1,6 +1,6 @@
 # Managing Pages in the Builder
 
-**Last verified:** 2026-11-11 3:45pm
+**Last verified:** 2026-11-12 2:04am
 
 The Website Builder is where you design and edit your pages visually. But it is also where you can switch between pages, create new ones, and manage how they are organized -- all without leaving the builder. This guide covers everything you need to know about working with pages inside the builder.
 
@@ -25,7 +25,7 @@ The panel shows your pages organized into groups. Your main site pages are under
 
 ## How Many Pages a Site Can Have
 
-Every site has unlimited pages, a site on the **Free** plan too.
+Every site has unlimited pages, including a site you are still building and have not put live.
 
 If the site's paid plan is not renewed, you cannot make a new page until you renew it. WebNesting says "The site plan is not paid, so you cannot add new pages. Renew it to add more." This holds for every way of making a page: **New page**, **Duplicate**, and bringing back a page you deleted. Your existing pages stay, and you can still edit them. Translations of a page and the sign-in pages that site accounts make are still made.
 
@@ -314,6 +314,6 @@ The top toolbar runs across the top of the builder. The full tour of it is in th
 - **Mobile**, **Tablet**, **Laptop**, **Desktop** and **Auto** -- Preview the page at different screen widths. Click one to resize the editing area and see how your page adapts.
 - **Saved** pill -- Shows whether your changes are saved. It reads **Unsaved** or **Saving…** while a save is due or running.
 - **Preview** -- Hides the editing tools so you see the page as a visitor does.
-- **Save draft** and **Publish** -- Save your work as a draft, or put it on your live site.
+- **Save draft** and **Publish**: save your work as a draft, or publish the page to your site. **Publish** does not put the site on the web: a site you are still building has no public address until you use **Go Live** on the Sites page. Until then, use **Preview** or **Share** to see published pages.
 
 > **Tip:** Always check your page at the smallest screen size before publishing. Mobile visitors often make up a large portion of your site traffic, so you want to make sure everything is easy to read and use on a phone.

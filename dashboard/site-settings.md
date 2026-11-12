@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-11-11 9:19pm
+**Last verified:** 2026-11-12 2:08am
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -484,7 +484,7 @@ Code does not run there. If you paste a script, or a tag with code inside it, We
 
 ## Custom Domain
 
-By default, your website is available on a free WebNesting address. A custom domain is a web address you own, like `www.yourcompany.com`.
+When you go live, your website is available on a WebNesting address. A custom domain is a web address you own, like `www.yourcompany.com`.
 
 Site Settings has no screen to connect a domain yet. You can enter a domain in the **Custom Domain (optional)** box when you create a site, and **Site Configuration** decides how the address is written (see **Secure (HTTPS) Addresses** and **WWW Preferences** above). To connect or change a domain later, email Support. The steps, and what to expect at your domain registrar, are in [Connecting a Custom Domain](../getting-started/custom-domains.md).
 

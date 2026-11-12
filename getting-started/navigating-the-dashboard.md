@@ -1,6 +1,6 @@
 # Navigating the Dashboard
 
-**Last verified:** 2026-11-12 12:39am
+**Last verified:** 2026-11-12 2:07am
 
 The Dashboard is your home base for managing one site in WebNesting. It is where you handle that site's pages, settings, content, and analytics. (Workspace-level features like billing, team members, helpdesk, marketing, and tasks live in your workspace -- see the **Workspaces** card in your account portal.)
 
@@ -125,11 +125,11 @@ In the Website Builder, you can:
 - **Style elements** by adjusting colors, spacing, fonts, borders, and more
 - **Preview your page** on different screen sizes to make sure it looks great on phones, tablets, and desktops
 - **Save your work** as a draft without publishing
-- **Publish your changes** to make them live on your site
+- **Publish your changes** to save them to your site. They reach visitors once the site is live (**Go Live**).
 
 The Website Builder has its own toolbar with Save, Publish, Preview, undo/redo, and device-size controls, plus a panel rail down the right side for adding components, styling them, and managing pages.
 
-> **Tip:** The Website Builder uses a draft-and-publish system. This means you can make changes and save them without visitors seeing anything until you click Publish. Take your time getting things right.
+> **Tip:** The Website Builder uses a draft-and-publish system. This means you can make changes and save them without visitors seeing anything until you click Publish on a live site. Take your time getting things right.
 
 ---
 

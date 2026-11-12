@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-11-11 9:11pm
+**Last verified:** 2026-11-12 2:05am
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -21,20 +21,26 @@ A plan is one part of WebNesting at one size. Each plan has a flat price per mon
 | **API** | $10: 100,000 requests, 10 GB data | $29: 300,000 requests, 30 GB data, longer audit history | $89: 1,000,000 requests, 100 GB data, longer audit history, a higher rate limit |
 
 - **Contacts, team members and API tokens are unlimited** on every plan.
-- **Every site has unlimited pages**, a Free site too.
+- **Every site has unlimited pages**, one you are still building free too.
 - **Active tasks** are the tasks that are not done. "Unlimited" on Tasks Pro is for normal use.
 - **Tasks has a Free plan.** It costs $0, needs no card and includes 10 active tasks. When you turn on Tasks, you start on Free unless you pick a paid plan. Free never uses credits: at 10 active tasks, a new task is refused until you finish a task or upgrade to Starter.
 - Prices are in US dollars. Plans are billed monthly.
 
-### The Free plan for websites
+### Building a site free, then going live
 
-Every site starts on the **Free** plan at $0. It includes unlimited pages, 500 MB of storage and 500 MB of website bandwidth each month. It uses a `webnesting.site` address.
+A new site has no plan, and its plan costs $0 while you build. It has unlimited pages, 500 MB of storage and 500 MB of bandwidth each month. Only your **Preview** and **Share** links use that bandwidth. Past 500 MB, a share link shows the "temporarily unavailable" page until the 1st or until the site goes live. The site has no public address yet. The usage page calls it "Not published: building free".
+
+Pick a plan when the site is ready. **Go Live** on the Sites page lists Starter, Growth and Pro. It shows the exact price first: the amount you pay now for the rest of this month, then the monthly price on the 1st. You tick two boxes to agree, and your card pays. Then WebNesting sets up the site on its `webnesting.site` address. A member who cannot manage billing sees "Ask a workspace owner to put this site live."
+
+**Take Offline** works on the monthly cycle. The site stays live, and its plan stays billed, until the end of the current month. Then the site goes offline and its plan ends. Add-ons keep billing until you turn them off. Until the end of the month you can choose **Keep It Live**. To put the site live again afterwards, use **Go Live** and agree to a new price summary.
+
+The builder's **Publish** button is a different step. It publishes a page. It does not put the site on the web.
 
 Any workspace with a paid plan can make 25,000 API requests a month at no charge, even with no API plan.
 
 ### Add-ons for a site
 
-Add-ons turn on extra features for one site. Any site can have them, a site on the Free plan too. A Free site stays on Free and pays only for its add-ons.
+Add-ons turn on extra features for one site. Any site can have them, one you are still building free too. Add-ons charge at once, even before the site has a plan.
 
 | Add-on | Price for each site |
 |---|---|
@@ -59,7 +65,7 @@ With two or more paid plans, your highest-priced plan is full price. Every other
 | 5 or more | 20% |
 
 - Every paid plan counts: Websites, Marketing, Helpdesk, Tasks and the API. Two paid sites count as two plans.
-- A Free plan does not count, and it has no discount.
+- A site with no plan (still building free) and the Tasks Free plan do not count, and they have no discount.
 - When two plans have the same highest price, the one you had first is the full-price plan.
 - Add-ons and credits are always full price.
 - The discount is taken from your plans on each renewal, on the 1st. The invoice shows it as one line, for example "10% off every plan but your highest", with the plans it is for.
@@ -72,7 +78,7 @@ For example, a Starter site ($6) and Marketing Pro ($59) are $65 at full price. 
 
 ### Storage is shared
 
-All your storage is one pool for the whole workspace. It is the storage of each Websites plan, plus 2 GB for each paid Marketing, Helpdesk, Tasks or API plan. Your site files, helpdesk attachments and form uploads all use the same pool. A workspace with no paid plan has the Free site's 500 MB.
+All your storage is one pool for the whole workspace. It is the storage of each Websites plan, plus 2 GB for each paid Marketing, Helpdesk, Tasks or API plan. Your site files, helpdesk attachments and form uploads all use the same pool. A workspace with no paid plan has 500 MB.
 
 ---
 
@@ -136,7 +142,7 @@ Bandwidth is counted for each site, not for the whole workspace. It is the data 
 
 1. **At 80% of the site's bandwidth** we email you. We email you again when the site reaches **100%**.
 2. **Past the included bandwidth,** each extra GB is paid from your credits.
-3. **When the credits run out,** a paid site keeps working for a further 15% of its plan's bandwidth. That 15% is not free: credits you buy later pay for it first, and the rest is [extra usage on your next bill](#extra-usage-on-your-next-bill). A Free site has no extra.
+3. **When the credits run out,** a paid site keeps working for a further 15% of its plan's bandwidth. That 15% is not free: credits you buy later pay for it first, and the rest is [extra usage on your next bill](#extra-usage-on-your-next-bill). A site you are still building free has no extra.
 4. **After that, the site is held.** Visitors who open the site's pages see a page that says the site is temporarily unavailable. We email you that the site is held.
 5. **The hold ends** when you buy credits, move the site to a bigger plan, or the month starts over.
 

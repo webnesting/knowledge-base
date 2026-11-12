@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-11-07 9:19am
+**Last verified:** 2026-11-12 2:05am
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -18,7 +18,7 @@ Every workspace includes your contact list, media and team collaboration. When y
 
 ### Websites
 
-Build and publish websites. **Websites is always on** -- it has no on/off switch. Each website you create starts on the Free plan, and a paid Websites plan is chosen for each site ($6, $12 or $22 a month; see [Usage and Billing](../account/usage-and-billing.md#plans)). Each site has its own included bandwidth, set by its plan (see [Billing and Usage](billing-and-usage.md#website-bandwidth)). Use **Create Site** on the Websites card to create a website -- including your first one. Once you have a website, the **Sites** section appears in your sidebar, where your websites live.
+Build websites and put them on the web. **Websites is always on** and has no on/off switch. Each website you create is free to build and has no plan. You pick a paid Websites plan for each site when you use **Go Live** ($6, $12 or $22 a month; see [Usage and Billing](../account/usage-and-billing.md#plans)). Each site has its own included bandwidth, set by its plan (see [Billing and Usage](billing-and-usage.md#website-bandwidth)). Use **Create Site** on the Websites card to create a website, your first one included. Once you have a website, the **Sites** section appears in your sidebar, where your websites live.
 
 ### Marketing
 

@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-11-11 9:11pm
+**Last verified:** 2026-11-12 2:05am
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -69,7 +69,7 @@ The module's card then shows a banner counting down the days until its content i
 
 ## Module Pricing
 
-Site modules are add-ons with a flat monthly price for each site, the same however much you use them. Any site can turn an add-on on, a site on the Free plan too. A Free site stays on Free and pays only for its add-ons.
+Site modules are add-ons with a flat monthly price for each site, the same however much you use them. Any site can turn an add-on on, one you are still building free too. Add-ons charge at once, even before the site has a plan.
 
 Here is how it works:
 

@@ -1,6 +1,6 @@
 # Welcome to WebNesting
 
-**Last verified:** 2026-11-07 9:28am
+**Last verified:** 2026-11-12 2:07am
 
 Thanks for choosing WebNesting! This guide will help you get comfortable with the platform and show you everything you need to know to start building your website.
 
@@ -28,7 +28,7 @@ Here is a quick look at what the platform offers:
 - **Upload and organize media** -- Store your images and files in the built-in File Manager
 - **Control who has access** -- Set permissions for team members who help manage your site
 - **Track how your site is doing** -- View visitor stats and site health from your dashboard
-- **Publish when you are ready** -- Preview your changes first, then publish them live with one click
+- **Go live when you are ready.** Build and preview your site free, then put it on the web with **Go Live**.
 
 ---
 
@@ -60,7 +60,7 @@ The Website Builder is where the creative work happens. This is a visual editor 
 - Edit text and images by clicking directly on them
 - Style individual elements (colors, spacing, fonts, and more)
 - Preview your page on different screen sizes (phone, tablet, desktop)
-- Save drafts and publish when you are ready
+- Save drafts and publish your changes to the site when you are ready
 
 The Builder opens in its own view so you can focus entirely on designing your page.
 
@@ -93,7 +93,7 @@ If you have forgotten your password, select **Forgot password?** on the sign-in 
 
 You set up a new site in one short form. It takes about a minute:
 
-1. **Name it.** Enter a **Site Name**. WebNesting fills in a free web address for you.
+1. **Name it.** Enter a **Site Name**. WebNesting fills in a web address for you.
 2. **Choose how to start.** Pick **Start from a theme** (the quickest way), or **Build it with your AI**.
 3. **Pick a look.** Choose a theme. Some come with an example site, some with starter pages (**Business**, **Personal** or **Portfolio**), and some give you just colors and fonts with an empty home page.
 4. **Create it.** Select **Create Site** and watch the progress list until it says **Complete!**.

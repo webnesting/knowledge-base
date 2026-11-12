@@ -1,6 +1,6 @@
 # Your First 30 Minutes (Alpha Checklist)
 
-**Last verified:** 2026-11-07 9:55am
+**Last verified:** 2026-11-12 2:06am
 
 WebNesting is in alpha. This checklist shows what you should be able to do in your first 30 minutes. Work through it in order. If a step does not work, or takes longer than it should, that is a finding: tell us with **Send feedback** (see the last section).
 
@@ -14,7 +14,7 @@ You are done when you can tick all six boxes.
    *Done when:* you see your workspace home and no error messages. More in [Creating Your Account](../account/creating-your-account.md).
 
 2. **Create a site.** Select **Sites** in the left rail, then **Create site**. Type a site name and select **Create Site**.
-   *Done when:* your new site appears in the **Sites** list with its free `.webnesting.site` address.
+   *Done when:* your new site appears in the **Sites** list under **Building free**.
 
 3. **Pick a look.** Under **Pick a look** on the same form, choose a theme before you create the site. If the theme comes with an example site, keep it on. You can change the look later under **Appearance**.
    *Done when:* the new site shows the pages and colors of the theme you picked. More in [Setting Up Your Site](setting-up-your-site.md).
@@ -22,11 +22,11 @@ You are done when you can tick all six boxes.
 4. **Edit a page.** Open **Website Builder**, click any text on your homepage, and type a change.
    *Done when:* the save pill in the toolbar says **Saved**. More in [Quick Start Guide](quick-start-guide.md).
 
-5. **Publish.** Click **Publish** in the builder toolbar, at the top right. Open your site address in a new tab.
-   *Done when:* the live site shows your change.
+5. **Publish and preview.** Click **Publish** in the builder toolbar, at the top right. Then select **Preview** on the site. **Publish** saves the page to your site. A new site is not on the web yet.
+   *Done when:* the preview shows your change.
 
 6. **Check your plan.** Select the **⋮** menu in the top bar, then **Billing**. Look at the plans in your workspace.
-   *Done when:* you can see which plan each product is on and what it costs per month. More in [Billing and Usage](../dashboard/billing-and-usage.md).
+   *Done when:* you can see which plan each product is on and what it costs per month. A site you are still building has no plan and costs nothing until you use **Go Live**. More in [Billing and Usage](../dashboard/billing-and-usage.md).
 
 ---
 
