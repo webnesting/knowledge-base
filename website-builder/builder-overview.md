@@ -1,6 +1,6 @@
 # Website Builder Overview
 
-**Last verified:** 2026-11-11 5:44pm
+**Last verified:** 2026-11-11 11:42pm
 
 The Website Builder is where you design and create your web pages. It is a visual editor -- meaning you can see exactly how your page will look as you build it. No coding required.
 
@@ -54,7 +54,7 @@ The toolbar along the top of the screen holds your main controls:
 **On the left:**
 - **Edit mode** -- Choose whether you are editing the **Page**, its **Layout** (the shared header/footer), or **Unlocked** (everything at once)
 - **Undo and Redo**
-- **Add section**: The button with the plus sign. It opens the **Add a section** window, where you pick a designed section for your page (see [Add a Section](adding-components.md#add-a-section)). On a narrow screen, it is in the **More** menu.
+- **Add section**: The button with the plus sign. It opens the **Add section** window, where you pick a designed section for your page (see [Add a Section](adding-components.md#add-a-section)). On a narrow screen, it is in the **More** menu.
 - **Canvas View** -- Toggle the multi-page pan-and-zoom canvas
 
 **In the middle:**

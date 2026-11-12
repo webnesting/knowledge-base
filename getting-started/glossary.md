@@ -1,6 +1,6 @@
 # Glossary of Terms
 
-**Last verified:** 2026-11-11 5:44pm
+**Last verified:** 2026-11-11 11:42pm
 
 This glossary explains common terms you will encounter while using WebNesting. If you come across a word you do not recognize, check here for a quick explanation.
 
@@ -22,7 +22,7 @@ This glossary explains common terms you will encounter while using WebNesting. I
 
 **Add panel** (component palette): The panel in the Website Builder that lists all available blocks. Open it from the icon rail on the right, then drag blocks onto the Canvas to add them to your page.
 
-**Add a section** (window): The full-screen window where you pick a designed section for your page. Open it with **Add section** at the top of the Website Builder, with the **+** under a section, or from an empty page.
+**Add section** (window): The full-screen window where you pick a designed section for your page. Open it with **Add section** at the top of the Website Builder, with the **+** under a section, or from an empty page.
 
 **Dashboard**: the admin area where you manage your site's content, settings, and features. You access it by signing in to the WebNesting app, opening your workspace, and selecting **Sites**, then **Overview**, then **Manage Site** on your site's card. The Dashboard is your home base for everything that happens behind the scenes of your website.
 
