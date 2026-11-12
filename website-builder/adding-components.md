@@ -1,6 +1,6 @@
 # Adding Components to Your Page
 
-**Last verified:** 2026-11-11 11:42pm
+**Last verified:** 2026-11-12 10:19am
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -81,7 +81,7 @@ In the window:
 3. Use **Light** or **Dark** above the pictures to see the sections in either mode. Use **Desktop** or **Phone** to see how they look on a phone. The window remembers both choices.
 4. Select a picture, or press **Add**.
 
-The section goes in, the window closes, and the page scrolls to the new section. It is selected, so you can start changing its words. A line for screen readers says where it went. From the top button, from the empty page and from the **Add** panel, the section goes right after the section you selected. With nothing selected, it goes at the end of the page. From a **+**, it goes right after the section above that **+**.
+The section goes in, the window closes, and the page scrolls to the new section. It is selected, so you can start changing its words. A message says where it went and names the section above it by its heading, such as "Added "Hero, centered" after "Tell us what you need"." If you gave that section a name of your own in **Layers**, the message uses your name. From the top button, from the empty page and from the **Add** panel, the section goes right after the section you selected. With nothing selected, it goes at the end of the page. From a **+**, it goes right after the section above that **+**.
 
 To take a section back, press the **Undo** arrow at the top of the builder. One press removes the whole section.
 
@@ -91,7 +91,7 @@ The **Ready-made** source holds 23 sections: five heroes (**Hero with photo**, *
 
 The heroes with photos, **Results**, **Meet the team** and **Portfolio gallery** have example photos. When you add one, its photos go into your media library under **Files**. To use your own picture, select the photo on your page and choose another from your media library. The words, prices and names are examples. Change them to yours. **Contact details** has your phone number and email as links. **Contact with form** puts a contact form beside them, and **Hero with contact form** puts one beside your headline. When you add either, it uses your form made from the **Contact Form** template, or makes that form for you. To change the questions, open the form under **Forms**. In **Book a time**, open the booking block and enter your booking address.
 
-Use **Show** at the top of the window to narrow the list to one source: **All**, **Made for your site's design** (sections that come with your theme, shown only while that theme is on your site), **Ready-made** or **Saved by you**. A type, a source and your search work together. If nothing matches, the window says so and offers **Clear filters**. If a picture does not load, the tile says "Preview not available". You can still add the section, and **Try again** loads the picture again.
+Use **Show** at the top of the window to narrow the list to one source: **All**, **Made for your site's design** (sections that come with your theme, shown only while that theme is on your site), **Ready-made** or **Saved by you**. A type, a source and your search work together. If nothing matches, the window says so. After a search, **Clear search** shows every section again; after a type or a source, **Clear filters** does. If you have saved no sections yet, **Saved by you** says how to save one and offers **Show all sections**. If a picture does not load, the tile says "Preview not available". You can still add the section, and **Try again** loads the picture again.
 
 Bold Deco has three sections of its own: a centred poster with the date of the show and two buttons, a wide photo above a timetable of the evening, and a tab for each night with a photo. Kiln has five for a studio or workshop: a tab for each class, a feature piece beside four more, a four-step path from clay to finished pot, a first-visit guide with steps and what to bring, and a visit card with a photo and opening hours. Midnight Slate has four for a design studio or portfolio: a project with a wide photo and a table of facts, a project index with a tab for each kind of place, a client brief with a photo and a large quote, and a payment schedule beside what the fee covers. Soft Elegant has none right now, so **Made for your site's design** stays empty on it. Every theme uses the **Ready-made** sections. Together, they make a whole page: a hero, what you offer, how you work, reviews, prices, questions and a closing call to action. They come with real photos, so a section looks finished when you add it. When you add one, its photos go into your media library under **Files**. Add the same section again and it uses the same files, so nothing is copied twice. To use your own picture, select the photo on your page and choose another from your media library. If the photos cannot be added, a message says so and the section is not added; try again. If you change to another theme, **Made for your site's design** shows that theme's sections, and the sections already on your pages stay and take the new theme's look.
 
@@ -105,9 +105,9 @@ When you have made a part of a page you like, save it as a section and add copie
 4. Optional: pick a **Type** from the list, such as Hero or Pricing, or type a new one in the box. The type is where the section shows in the **Add section** window.
 5. Choose **Save section**.
 
-![The small toolbar above a selected section, with the Save as section button ringed](../images/website-builder/save-as-section-button.png)
+![The small toolbar inside the top of a selected section, with the Save as section button ringed](../images/website-builder/save-as-section-button.png)
 
-A picture of the top of the section shows above the name, so you can check what you save. After the save, a message says "Saved "Name". Find it under Add section → Saved by you." Press **Show it** in the message to see it: the **Add section** window opens on **Saved by you**, and the new section wears "Just saved". Add it to any page of the site, as you add a ready-made one.
+A picture of the top of the section shows above the name, so you can check what you save. After the save, a message says "Saved "Name". Find it under Add section → Saved by you." Press **Show it** in the message to see it: the **Add section** window opens on **Saved by you**, and the new section wears "Just saved". Add it to any page of the site, as you add a ready-made one. If the save does not work, the window says "We couldn't save the section. Try again." and keeps the name and type you entered.
 
 ![The message after a save, with its Show it button ringed](../images/website-builder/save-as-section-toast.png)
 
