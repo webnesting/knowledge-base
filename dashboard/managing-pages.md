@@ -1,6 +1,6 @@
 # Managing Pages
 
-**Last verified:** 2026-11-10 9:52am
+**Last verified:** 2026-11-11 9:19pm
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 
@@ -116,6 +116,8 @@ To take a published page offline:
 
 1. Open the page.
 2. Open the ⋮ menu at the top right and choose **Unpublish**. You can also choose **Unpublish** from the ⋮ menu on the page's row in the list.
+
+> **Keep a page off your site until launch:** unpublish it. The page keeps its draft, shows "page not found" to visitors, and stays out of your menus and sitemap. Publish it when you are ready, and it stays published.
 
 > **Tip:** If you need to make big changes to a live page, consider switching it to draft first. Make your updates, then publish it again when everything looks right.
 
