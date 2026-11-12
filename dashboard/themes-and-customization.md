@@ -56,6 +56,10 @@ Every theme has a light mode and a dark mode. Midnight Slate and Bold Deco are m
 1. In the site menu, open **Settings** and click **Site Settings**.
 2. Under **Appearance**, click **Theme**.
 
+### Loud Paper
+
+A poster look on an off-white paper page, with black text, black lines and square corners. Headings are tall, narrow capitals, and the text uses a typewriter font. Coral red fills the top bar and the buttons in a call-to-action section, and links turn coral when you point at them. Cards are plain white with no shadow, and labels are pale blue with a thin outline. In dark mode the text is off-white on near-black, with a lighter coral. It suits product brands, shops and food and drink makers. It comes with three ready-made sections: a flavor lineup of outlined cards with tags, a recipe card with a photo, and three pictures on a black band. It has two page backgrounds. Riso halftone is a screen of red printed dots that fades out from the top right corner and stays still. Pastel wash is soft pink, blue and yellow ink that drifts slowly, and you can pause it. Both have a darker version in dark mode.
+
 You can also get there from **Site Configuration**: its **Design** section has a link to the Theme page.
 
 The Theme page shows two groups:
