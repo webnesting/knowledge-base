@@ -47,6 +47,10 @@ A warm, hand-made studio look: an oatmeal page with a light speckle, cream cards
 
 Kiln draws a page background of its own, a fine speckle. It runs behind every section and changes with light and dark mode, and it always stays faint enough that text on it is easy to read. Default keeps a plain page. To change it for one page, a layout or your whole site, see [The Page Background](../website-builder/styling-elements.md#the-page-background).
 
+### Monograph
+
+A confident look for a designer's portfolio, where the work brings the color. Headings are huge, heavy and tightly spaced, set on a mustard page with near-black text, and corners are square everywhere. The one accent is a deep tomato red. In dark mode the page turns a near-black brown, the text cream, and the mustard becomes the accent. It has two page backgrounds: Layout grid, twelve hairline columns like a poster grid, and Press sheet, a soft pool of light in one corner. Both stay still. It comes with seven ready-made sections: an opening with a huge name, one line about your work and a portrait; a two-column grid of projects; a ruled index of projects with small pictures; a case study opening with a wide picture, a facts table and a story in three parts; a run of wide and paired pictures; an about section with a portrait and two lists; and a contact line that sets your email across the full width.
+
 ### Marginalia
 
 A calm, bookish look for long reading. Headings and text use Literata, a serif made for screens. The page is warm, unbleached paper with dark ink text, ink-blue links and wide margins, and labels are small, spaced-out capitals. In dark mode the page turns a warm near-black with soft cream text and pale blue links. The theme has two page backgrounds: Laid paper, fine lines like good writing paper, and Lamplight, two soft pools of warm light that drift slowly and can be paused. It suits writers and bloggers whose sites are mostly essays or articles. It comes with six ready-made sections: a featured essay, an essay list, an author note, a book spotlight, talks and classes, and an email sign-up band.

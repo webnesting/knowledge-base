@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-11-11 7:33pm
+**Last verified:** 2026-11-12 11:27am
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -61,6 +61,8 @@ The **Block** dropdown lets you change the type of text block. Options include:
 - **Label (no dot)** -- The same small, spaced-out label as Eyebrow, but never with a dot or line before it. Use it for tags, such as "Brand · Website".
 - **Paragraph (muted)** -- A paragraph in a softer color. Use it for the line under a number or a title. In a Primary or Secondary section it uses the section's text color, and in a Dark section it uses a softer light color, so it stays easy to read. The larger opening paragraph also stays easy to read in those sections.
 - **Display heading** -- The one big title at the top of a page, larger than Heading 1. In a narrow column it gets smaller by itself, so a word stays whole.
+<!-- qc-ignore: seeded-copy-tells until 2026-12-11 owner marketing — the " -- " is this list's own separator, every Block option line uses it -->
+- **Poster heading** -- A name or one short word set as large as your theme's text scale goes, for the top of a portfolio or studio page. In a narrow column it gets smaller by itself, so a word stays whole. Use a short name, because a long word runs wider than a phone screen.
 <!-- qc-ignore: seeded-copy-tells until 2026-12-11 owner marketing — the " -- " is this list's own separator, every Block option line uses it -->
 - **Fit to width** -- Text on one line that fills the width of its column, on a phone and on a wide screen. Use it for an email address or a name that must never wrap. The text size follows the words you type and the width of the column. A very short word, such as "Hi", becomes very large, so your theme may set a limit. A link inside the text still works.
 - **Heading 1** through **Heading 4** -- Different heading levels, from the largest (Heading 1) to the smallest (Heading 4). Use headings to create titles and section headers on your page.
