@@ -1,6 +1,6 @@
 # Custom Widgets
 
-**Last verified:** 2026-11-12 2:05am
+**Last verified:** 2026-11-12 4:00pm
 
 Widgets are reusable content blocks that you create once and use across multiple pages on your site. Instead of rebuilding the same section over and over, you build it once as a widget, and then place it wherever you need it.
 
@@ -393,6 +393,12 @@ When creating or editing a widget's settings in the Dashboard:
 - **Pagination** -- Choose whether to split results across multiple pages with navigation links.
 
 This is a powerful way to create dynamic content blocks. For example, you could build a "Latest Blog Posts" widget that always shows your three most recent articles without you ever having to update it manually.
+
+### Showing an item's values in text
+
+Type `{{` in a text box inside the widget to pick a value of each item, such as `{{ item.title }}`. A value of a linked item works too: a product's page title is `{{ item.page.title }}`, and you can follow up to two links. To show one entry of a list, add its place in the list, counting from 0. The time of an event's first showing is `{{ item.showing.0.date_time }}`, and its first category is `{{ item.event_category.0.name }}`.
+
+A whole linked item or a whole list shows nothing, so pick one of its values. Passwords and other private details never show.
 
 > **Tip:** If you are just getting started, you do not need to connect your widgets to data. Simple, static widgets work great for things like headers, footers, and contact blocks.
 
