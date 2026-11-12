@@ -1,6 +1,6 @@
 # Your Account and Security
 
-**Last verified:** 2026-11-10 9:52am
+**Last verified:** 2026-11-12 12:57pm
 
 Your WebNesting account is the key to everything you build. This guide walks you through signing in, protecting your account, and what to do if something goes wrong.
 
@@ -17,6 +17,8 @@ Your WebNesting account is the key to everything you build. This guide walks you
 You will be taken to your dashboard after signing in.
 
 > **Tip:** If you check "Keep me signed in," you won't need to enter your password every time you visit. Only use this on devices you trust.
+
+When you sign in, webnesting.com and the WebNesting help site also know you are signed in on that browser. On the way to your dashboard, your browser passes through each of them for a moment. When you sign out of the app, or you sign a device out from the list below, those sites forget you on that device.
 
 ---
 
