@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-10 11:40pm
+**Last verified:** 2026-11-11 8:51pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -168,7 +168,8 @@ How it works:
 - **With an announcement bar or a top bar above it**, the header stays see-through while the bar scrolls away. It frosts the moment it sticks to the top of the screen. The announcement bar and the top bar keep their own solid colors.
 - **The header's words and icons** take a color that reads on your first section. Over a **Video background**, they take the color of that section's own words. Over a section set to a dark or a theme color, they take that section's text color. Otherwise they take the header's own text color.
 - **To pick the color yourself**, open **Header colors** and set **Text before scrolling**. Pick a light color over a dark picture. This setting shows only while Glass is on.
-- **Over a picture or a video**, a shade sits behind the header's words and fades out below the header. It is dark under light words and light under dark words, so the words stay readable on any picture you choose. The shade goes away when the header sticks and turns frosted.
+- **Over a picture or a video**, the header has no bar, no shade and no shadow. If the words are hard to read, raise **Shade behind the words** (0 to 100 percent) in **Header colors**. **Blur behind the bar** (0 to 40 pixels) softens the picture under the words. Both start at 0 and show only while Glass is on. Neither one applies once the header sticks and turns frosted.
+- **Words that read on your photo.** When the first section of the page has a photo from your library behind the header, the header words turn dark on a bright photo and light on a dark one. If the photo has bright and dark parts, the header adds the least shade it needs to keep the words readable. Your own **Shade** setting wins when it is higher. A text color you set in **Header colors** wins over the automatic one. Once the header sticks, it uses its own colors.
 - **Once the header sticks**, the bar is your header's **Background** color, a little see-through and blurred. To change it, set **Background** in **Header colors**.
 - **Glass changes only how the header looks.** Its width and the place of the logo and the menu stay the same with Glass on or off. To line them up with your page, use **Content width** (below).
 - **On phones**, the menu, the second menu and the button move into the menu, as without Glass.
