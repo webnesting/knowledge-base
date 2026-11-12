@@ -341,6 +341,22 @@ The large pictures at the top of each part are your own home page with the layou
 
 On phones and small tablets, your menu sits behind a menu button. Visitors can open it with the keyboard too, and close it with **Esc**. It opens from the right. To change the side, click your header in the Website Builder and pick **Phone menu opens from** in its **Settings**.
 
+### Page background
+
+Some themes come with extra page backgrounds. Each one is a made design or picture, such as a screen of printed dots or a soft wash of ink. They stay quiet behind your text. A few move very slowly. Movement is an option, and you never have to use it.
+
+1. In the site menu, open **Settings** and click **Site Settings**.
+2. Under **Appearance**, click **Header & Footer**.
+3. Under **Page background**, click one:
+
+   - The first choice is what your theme comes with. Its name says what it shows, followed by "(default)": for example **Plain color (default)**, or **Fine speckle (default)** on Kiln.
+   - A background from your theme: each one shows a small picture of itself and a note if it moves.
+   - **Plain color**: the page's background color only, with no pattern or picture. It uses the color you already set for your page background, so there is no second color to set. When your theme's default is already a plain color, the list shows it once, as the first choice.
+
+4. Click **Save Changes**.
+
+The preview shows the background you click before you save. **Page background** does not appear for a theme that has no extra backgrounds. A moving background shows a pause button on your site. By default it sits at the end of each page, after the footer, and reads "Pause the moving background". To float a small round button in the corner of the screen instead, pick **Floating corner** under **Pause button**. That field shows only when the background you picked moves. Visitors who asked their device for less motion never see it move. On webnesting.com, each theme page lists its backgrounds, and the full screen preview has a **Page background** list to switch between them.
+
 A page layout can have its own header or footer. This page then names those layouts and links to the Website Builder, where you change them. To give one layout its own header, see [Layouts and Structure](../website-builder/layouts-and-structure.md#a-different-header-for-some-pages).
 
 > **Tip:** If your header menu has no pages yet, the page says so and links to **Pages**, where you add pages to the header menu.
