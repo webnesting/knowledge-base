@@ -22,7 +22,7 @@ A new, empty page opens on a list of ready-made sections, right on the Canvas. T
 2. Under **Start with a ready-made section**, find one you like. To see one type, such as Pricing, use the list above the pictures.
 3. Select the picture, or press **Add**. The section goes on your page. To add the next one, press **Add section** at the top of the builder.
 
-![The ready-made section list on an empty page, with Show all 26 sections ringed](../images/website-builder/adding-components-start-new-page.png)
+![The ready-made section list on an empty page, with Show all 23 sections ringed](../images/website-builder/adding-components-start-new-page.png)
 
 To see them all, choose **Show all**. The **Add a section** window opens (see [Add a Section](#add-a-section)). To start with an empty page and single blocks, choose **Build from blocks**. To take a section back, press the **Undo** arrow at the top of the builder.
 
