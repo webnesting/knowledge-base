@@ -1,6 +1,6 @@
 # Custom Widgets
 
-**Last verified:** 2026-11-12 4:00pm
+**Last verified:** 2026-11-13 11:37am
 
 Widgets are reusable content blocks that you create once and use across multiple pages on your site. Instead of rebuilding the same section over and over, you build it once as a widget, and then place it wherever you need it.
 
@@ -399,6 +399,20 @@ This is a powerful way to create dynamic content blocks. For example, you could 
 Type `{{` in a text box inside the widget to pick a value of each item, such as `{{ item.title }}`. A value of a linked item works too: a product's page title is `{{ item.page.title }}`, and you can follow up to two links. To show one entry of a list, add its place in the list, counting from 0. The time of an event's first showing is `{{ item.showing.0.date_time }}`, and its first category is `{{ item.event_category.0.name }}`.
 
 A whole linked item or a whole list shows nothing, so pick one of its values. Passwords and other private details never show.
+
+### Showing each visitor only their own entries
+
+A list on your page can show only the entries of the person who is signed in. For example, a member sees their own form submissions or their own listings. The table needs an [Owner Contact](../content-modules/custom-data-tables.md#owner-contact) column. Form submissions have one already, named `contact_id`.
+
+1. Select the element on your page and click **Data source** in its toolbar.
+2. Under **Module**, pick the table.
+3. Turn on **Advanced filters**.
+4. Under **Match ALL of these**, click **Add condition**.
+5. Pick the Owner Contact column as the field.
+6. Keep the condition **Belongs to this visitor**. It needs no value.
+7. Click **Save**.
+
+A visitor who is not signed in sees no entries. WebNesting loads the page fresh for each visitor, so one visitor never sees the entries of another. In the builder and in the data preview, you see every entry.
 
 > **Tip:** If you are just getting started, you do not need to connect your widgets to data. Simple, static widgets work great for things like headers, footers, and contact blocks.
 
