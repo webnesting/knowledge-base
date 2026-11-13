@@ -1,6 +1,6 @@
 # Creating Your Account
 
-**Last verified:** 2026-11-07 10:10am
+**Last verified:** 2026-11-13 10:55am
 
 Welcome to WebNesting! Getting started takes just a few minutes. This guide walks you through creating your account and getting ready to build your first website.
 
@@ -15,7 +15,7 @@ Welcome to WebNesting! Getting started takes just a few minutes. This guide walk
 
 3. Fill in the registration form:
 
-   ![The empty Create your account form with its name, email and password fields, the sign-up choices and the Create Account button](../images/account/creating-your-account-sign-up-form.png)
+   ![The empty Create your account form with its name, email and password fields, the Terms checkbox, the other sign-up choices and the Create Account button](../images/account/creating-your-account-sign-up-form.png)
 
    - **First name** -- Your first name.
    - **Last name** -- Your last name.
@@ -23,9 +23,10 @@ Welcome to WebNesting! Getting started takes just a few minutes. This guide walk
    - **Password** -- Choose a password of at least 8 characters. A note under the field tells you how many characters are left and how to make it stronger with numbers, capitals or symbols.
    - **Confirm password** -- Enter the same password again.
    - **Where did you hear about us?** -- Optional. It helps us see which channels work. The list starts with **Choose one**. The choices are **A web search**, **Social media**, **A friend or colleague**, **An article, blog or newsletter**, **A video or podcast**, **An advertisement**, **An event or community** and **Somewhere else**. If you pick **Somewhere else**, a **Where was it?** field opens. Type your answer there (up to 200 characters). You can leave all of this empty.
-4. Optionally, check **Send me product updates and tips** if you'd like occasional emails about new features. It's unchecked by default, and you can change your mind anytime from your account portal.
-5. If you have a promotion code for new accounts, select **Have a code?** under **Promotion code**. Type the code and select **Check code**. You see what the code gives you. To use another code, select **Use a different code**.
-6. Select **Create Account**.
+4. Check **I agree to the Terms and Conditions and the Privacy Policy**. You can't create an account without it. Select **Terms and Conditions** or **Privacy Policy** to read either one in a new tab. When you agree, you accept that our prices can change. We email you at least 30 days before a price goes up. If you leave the box empty, the form says "Please agree to the Terms and Conditions to create your account."
+5. Optionally, check **Send me product updates and tips** if you'd like occasional emails about new features. It's unchecked by default, and you can change your mind anytime from your account portal.
+6. If you have a promotion code for new accounts, select **Have a code?** under **Promotion code**. Type the code and select **Check code**. You see what the code gives you. To use another code, select **Use a different code**.
+7. Select **Create Account**.
 
 > **Note:** If the email address you entered is already registered, you will see a message letting you know an account already exists. You can sign in instead or use a different email.
 
