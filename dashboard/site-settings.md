@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-11-12 6:01pm
+**Last verified:** 2026-11-12 8:21pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -99,6 +99,8 @@ This is the name that appears in browser tabs and in search engine results for p
 3. Save your changes.
 
 You can insert your site's name or the current page's title automatically by typing `{{ site.name }}` or `{{ page.title }}`. For example, `{{ site.name }} | {{ page.title }}` shows as "Smith & Co. Accounting | About Us" on your About Us page.
+
+A title or description shows the same words to every visitor. `{{ user.first_name or "friend" }}` shows "friend" here, in search results too.
 
 > **Tip:** Keep your title under 60 characters so it does not get cut off in search results.
 

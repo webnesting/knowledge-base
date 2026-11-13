@@ -1,6 +1,6 @@
 # Troubleshooting and Common Issues
 
-**Last verified:** 2026-11-07 9:55am
+**Last verified:** 2026-11-12 8:01pm
 
 Every website owner runs into the occasional hiccup. The good news is that most issues have simple fixes. This guide walks you through the most common problems you might encounter and how to solve them quickly.
 
@@ -72,9 +72,9 @@ If changes are not appearing, try a hard refresh to clear your browser's cache:
 
 ### CDN Cache Is Still Updating
 
-After you publish, it may take a few minutes for the changes to appear everywhere. This is because your site uses a content delivery network that stores copies of your pages in different locations around the world.
+Your site uses a content delivery network that stores copies of your pages in different locations around the world. When you publish, we clear those copies, so your changes usually show everywhere within a minute.
 
-1. Wait two to five minutes after publishing.
+1. Wait a minute after publishing.
 2. Refresh the page.
 3. Your updated content should now appear.
 

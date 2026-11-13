@@ -175,6 +175,16 @@ If your text has gotten messy with too many styles applied, you can start fresh:
 
 The toolbar also has **Insert horizontal rule**, **Insert image**, **Insert video**, **Insert iframe embed**, **Insert code block**, and **Toggle HTML view**, which switches the block between the formatted text and its HTML. Emails leave out **Insert video** and **Insert iframe embed**, because email apps remove them.
 
+### Showing a Visitor's Own Name
+
+Type `{{` and a space in a text to pick a value. A value from the **user** group, such as `{{ user.first_name }}`, shows each signed-in visitor their own details. The page fills it in after it loads, so every visitor gets the same fast page.
+
+To give everyone else a word, add `or`: `Hi {{ user.first_name or "friend" }}` shows "Hi Ada" to Ada and "Hi friend" to a visitor who is not signed in.
+
+The same works in a form field. Put the value in a field's starting text or its hint text (the placeholder), and a signed-in visitor sees their own name or email there. It works in the browser tab title and the page description too, so a tab can read "Welcome, Ada". Search engines and visitors who are not signed in get the word after `or`.
+
+Emails, titles in search results and site settings always show the word after `or`.
+
 ### Pasting Content
 
 When pasting text from other applications like Microsoft Word or Google Docs, the builder will try to preserve basic formatting like bold, italic, and links. For best results, paste plain text and then apply formatting in the builder.
