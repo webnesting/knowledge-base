@@ -1,6 +1,6 @@
 # Events
 
-**Last verified:** 2026-11-12 2:05am
+**Last verified:** 2026-11-13 11:35am
 
 The Events module lets you create and manage event listings on your website. Whether you host workshops, classes, concerts, conferences, or community meetups, this module gives you the tools to promote your events and share all the important details with your visitors.
 
@@ -248,7 +248,7 @@ An Event List displays a collection of your events -- perfect for an "Events" or
 5. The component will automatically display your published events with their titles, dates, images, and links to read more.
 6. Save your page.
 
-Visitors will see a card-style layout of your events. Each card shows the event title, date, a preview image, and a link to the full event page. A new Event List shows your upcoming events, soonest first. To let visitors switch to a list or a calendar, open the Event List's **Settings** and tick them under **Views visitors can pick**.
+Visitors will see a card-style layout of your events. Each card shows the event title, date, a preview image, and a link to the full event page. A new Event List shows your upcoming events, soonest first. About a minute after an event starts, it leaves the upcoming events by itself, with no save from you. An all-day event leaves when its day ends. To let visitors switch to a list or a calendar, open the Event List's **Settings** and tick them under **Views visitors can pick**.
 
 ### Showing Only Some Categories
 
