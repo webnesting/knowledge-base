@@ -41,6 +41,14 @@ A quiet, lamp-lit look that opens in dark mode: a deep blue-grey page, chalk-whi
 
 A grand, theater-poster look that opens in dark mode, like house lights going down: a plum-black page, warm ivory text, gold buttons and rose links. Headings are tall and bold, and buttons and menu links are in capitals. Colored sections carry a sunburst of rays and fine gold double lines, and labels look like square ticket stubs. The light mode is its own design: claret, gold and teal on an ivory page. It suits events, venues, festivals, bars and anyone who wants an evening-out feel.
 
+### Good Proof
+
+A warm studio look. The page is warm white, buttons are deep fig purple and shaped like pills, and highlights are soft apricot. Headlines use a large serif typeface, and one phrase in a headline can be set in italic. Cards and photos have rounded corners and no borders or shadows. In dark mode the page turns plum black and buttons turn soft apricot pink.
+
+Good Proof also comes with four sections made for it. You find them under Made for your site's design when you add a section: an opening with two facts and a photo, recent work with photos, a client story with two results beside a photo, and the team with a studio photo and portraits.
+
+Good Proof has two page backgrounds, Paper warmth and Blueline. Pick one in Settings, Appearance, Header & Footer. It works well for design studios, consultants and other small service businesses.
+
 ### Kiln
 
 A warm, hand-made studio look: an oatmeal page with a light speckle, cream cards, and deep green and rust colors. Headings use a classic serif typeface. Buttons are fully rounded with a firm outline, cards have rounded corners and no shadow, and a small rust mark sits beside each label over a heading. This light theme comes with a matching dark mode in warm charcoal with sage green and amber. It suits makers, studios, cafés, craft shops and anyone who wants a site that feels made by hand.
@@ -214,7 +222,8 @@ Your uploaded fonts show under **Your fonts** at the top of both lists, and in t
 Each slider moves through named steps:
 
 - **Text size**: all text, headings included (Small, Normal, Large). Tags, captions, header links and footer labels change with it.
-- **Heading size**: how much bigger headings are than text (Quiet to Dramatic). On a phone, the steps between heading levels are smaller, so long words fit.
+- **Heading size**: how much bigger each heading level is than the one below it (Gentle, Balanced, Strong, Bold, Dramatic). The number shows beside the name. For example, **Strong** (1.25) makes each level a quarter bigger than the next one down.
+- **Phone headings**: how big headings are on a phone, next to a computer (Much smaller to Same as a computer). Smaller headings fit long words on a narrow screen.
 - **Heading letter spacing**: how close the letters in a heading sit (Very tight to Open). Tight suits big, bold headings.
 - **Heading line breaks**: Balanced splits a heading into lines of even length, so one word never sits alone on the last line. Plain breaks lines only when they are full.
 - **Big headline size**: the large headline at the top of a page, such as a hero (Smaller, Normal, Bigger). It also grows and shrinks with the screen.
@@ -225,14 +234,14 @@ Each slider moves through named steps:
 
 If your theme's values match none of a slider's steps, the slider reads **Custom** and keeps your values until you move it.
 
-**Scale text with screen size** makes headings a little smaller on phones, so long words fit. On a computer screen, your text sizes stay the same. While you change it, the preview shows your page 1,000 px wide, where the scaling shows. Click **Back to the Computer View** (or **Phone View**) to leave that view.
+Every text size on your site comes from one type scale: your text size, and steps up and down from it. **Text size**, **Heading size** and **Phone headings** set that scale, so every heading, big headline, intro text and small label changes together.
 
-**Text sizes** sets every text size from four numbers:
+**Text on screens** sets the text size every other size grows from, in px: one box **On a small phone** and one **On a computer** (10 to 40). Screens in between get a size on the way. The boxes show **Yours** once you type a number. Click **Reset** next to **Text on screens** to go back to your theme's own sizes. While you type, the preview shows your page at a width in between.
 
-- **Text size on a phone** and **Text size on a computer** -- your body text, in px (10 to 40).
-- **Size step on a phone** and **Size step on a computer** -- how much bigger each size is than the one below it. Slide to **Gentle** (1.125), **Balanced** (1.2), **Strong** (1.25), **Bold** (1.333) or **Dramatic** (1.5). The number shows beside the name. For example, **Strong** makes each heading level a quarter bigger than the next one down. Slide to **Custom** to type your own number from 1 to 2.
+**Exact sizes** changes one size at a time. Click **Show Exact Sizes** below the sliders. The rows are in two groups.
 
-Until you choose a size, the sliders and boxes show the numbers closest to your theme's own sizes. When you type one, every heading, big headline, intro text and small label follows your four numbers, and the boxes show **Yours**. Phones and computers each get their own sizes, and screens in between get a size on the way. While these numbers are set, the **Text size** and **Heading size** sliders and **Scale text with screen size** are hidden, because your four numbers set those sizes. Click **Reset** next to **Text sizes** to go back to your theme's own sizes.
+- **Text sizes** covers the headlines, each heading level, card titles, big numbers, intro text and the small label above a heading. Each row shows its size in px on a phone and on a computer. Click **Smaller** or **Larger** to move that kind of text one step down or up the type scale, so it stays in proportion with the rest.
+- **Space and number circles** has two boxes per row, in px: **Phone**, the size on a phone screen, and **Computer**, the size on a computer screen. Screens in between get a size on the way. It covers the space above and below the hero, the space around section content, the space at the sides of the page (from the side of the screen to the text in your header, page and footer), each size of **Space between rows** (change one, and every block that uses that size follows), the space under a top line, the number circles on cards and steps, and the space beside and around a numbered step. A row you changed shows **Yours**. Click **Reset** on that row to go back to your theme's own size or step.
 
 **Exact sizes** lets you type a size yourself. A size you type here wins over **Text sizes** for that one size. Click **Show Exact Sizes** below the sliders. Each row has two boxes, in px:
 
