@@ -1,6 +1,6 @@
 # Troubleshooting and Common Issues
 
-**Last verified:** 2026-11-12 8:01pm
+**Last verified:** 2026-11-13 2:43pm
 
 Every website owner runs into the occasional hiccup. The good news is that most issues have simple fixes. This guide walks you through the most common problems you might encounter and how to solve them quickly.
 
@@ -72,13 +72,20 @@ If changes are not appearing, try a hard refresh to clear your browser's cache:
 
 ### CDN Cache Is Still Updating
 
-Your site uses a content delivery network that stores copies of your pages in different locations around the world. When you publish, we clear those copies, so your changes usually show everywhere within a minute.
+Your site uses a content delivery network that stores copies of your pages in different locations around the world. Every time you publish a page or save something your visitors see (a blog post, a product, a site setting, your theme), we clear those copies, so your changes usually show everywhere within about 20 seconds.
 
-1. Wait a minute after publishing.
+1. Wait half a minute after saving.
 2. Refresh the page.
 3. Your updated content should now appear.
 
-> **Tip:** If changes still are not showing after several minutes, try the hard refresh method described above, or open the page in a private browsing window.
+If a page still looks out of date after a minute, you can clear it yourself. A normal save never needs this.
+
+1. To clear one page, open **Pages**, click the three dots on its row and choose **Clear Page Cache**.
+2. To clear the whole site, open **Site Settings**, scroll to **Clear Cache** and click **Clear Cache**.
+
+[Site Settings](../dashboard/site-settings.md#clear-cache) has more about both.
+
+> **Tip:** If changes still are not showing, try the hard refresh method described above, or open the page in a private browsing window.
 
 ---
 
