@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-11-12 2:05am
+**Last verified:** 2026-11-12 9:39pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -80,7 +80,10 @@ Turning on a product takes just a few seconds:
 2. Select **Products** (in the side menu, or the **Products** tab at the top of the page).
 3. You will see all available products with their pricing.
 4. Select **Turn on** on the product you want to activate.
-5. The product will be available immediately in your workspace sidebar.
+5. If the product costs money, a window called **Check the price** opens. It shows what you pay now, what you pay each month and the day the plan renews. Select **Turn on** in that window to agree, or **Cancel** to stop. The button reads **Pay $X and turn on** when a payment is due now.
+6. The product appears in your workspace sidebar right away.
+
+The window opens only for products that cost money. If the price changes while the window is open, it shows the new price and asks you to check it again. Turning a product back on at the same price needs no window.
 
 ![The Products tab in workspace Settings, with a card for each product](../images/dashboard/workspace-products-settings-tab.png)
 
@@ -92,7 +95,7 @@ Once a product is enabled, new menu items will appear in your workspace sidebar.
 
 ![The home page with a card for each product and where it is active](../images/dashboard/workspace-products-home-page.png)
 
-The page that lists your workspaces, headed **Grow your workspace**, also shows every product available to your workspaces, each with its pricing and where it is already active (for example, **Active on 3 of 8 workspaces**). Select **Enable** on a product to turn it on. If you have more than one workspace, you can choose which workspaces to enable it on — one, several, or all — in a single step, and you will see the estimated added cost before you confirm. Workspaces where you already have the product, or where you do not have permission to manage products, are shown but cannot be changed from here. Once a product is active on every workspace, its card says so (for example, **Active on all 2 workspaces**), and clicking it shows where it is active with a **View products** link for each workspace.
+The page that lists your workspaces, headed **Grow your workspace**, also shows every product available to your workspaces, each with its pricing and where it is already active (for example, **Active on 3 of 8 workspaces**). Select **Enable** on a product to turn it on. If you have more than one workspace, you can choose which workspaces to enable it on (one, several, or all) in a single step, and you will see the estimated added cost before you confirm. Then a **Check the price** window lists each workspace with what you pay now and each month, and you select **Turn on** to agree. Workspaces where you already have the product, or where you do not have permission to manage products, are shown but cannot be changed from here. Once a product is active on every workspace, its card says so (for example, **Active on all 2 workspaces**), and clicking it shows where it is active with a **View products** link for each workspace.
 
 ---
 
@@ -165,7 +168,11 @@ Once a product is off, its card shows a banner with:
 
 ## Who Can Manage Products?
 
-Only workspace members with **Settings** edit permission can enable or disable products. If you do not see the enable or disable buttons, ask your workspace owner or an admin with settings access to make the change for you.
+Only workspace members with **Settings** edit permission can turn products on or off. If you do not see the buttons, ask your workspace owner or an admin with settings access to make the change for you.
+
+Agreeing to a charge also needs the right to manage billing. Workspace owners have it, and so do members whose role allows it. If you can turn on products but cannot manage billing, **Turn on** sends a request to the owners instead. A window says **Request sent**. A window called **A charge needs your OK** opens for the owners, and you get a notice when they answer. Nothing is charged until an owner selects **Approve**. After that, select **Turn on** again.
+
+Every charge a workspace agreed to is listed under **Approved charges** on the **Settings** tab of **Plans & Billing**. It shows what the charge was for, where it applies, who agreed and when.
 
 ---
 

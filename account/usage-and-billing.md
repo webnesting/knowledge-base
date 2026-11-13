@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-11-12 3:12am
+**Last verified:** 2026-11-12 9:39pm
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -247,7 +247,7 @@ The **Billing** page has five tabs: **Current Period**, **Invoice History**, **P
 
 **Current Period** shows your **Credits**, **Your Plans** with the price and the date each one renews, and the **Next Renewal**: what will be charged on the 1st. Below them, **Current Billing Period** lists the charges so far. Its status reads **Accruing** until the month ends. **Your Plans** and **Credits** show only when the workspace has them. A workspace with no paid plan shows "You have no paid plans."
 
-**Payment Methods** holds your saved cards. **Settings** holds **Billing email** and **Billing name**, which print on each invoice, and the **Pay automatically each period** choice.
+**Payment Methods** holds your saved cards. **Settings** holds **Billing email** and **Billing name**, which print on each invoice, and the **Pay automatically each period** choice. Below them, **Approved charges** lists every charge your workspace agreed to in a **Check the price** window. Each row shows what the charge was for, where it applies, who agreed and when. The list is a record. To stop a charge, turn it off where you started it. When a member who cannot manage billing asks for a charge, a window called **A charge needs your OK** opens for the owners. They select **Approve**, **Decline** or **Not now**, and the member gets a notice.
 
 **Cost Calculator** shows what a set of plans costs. Pick a plan for **Marketing**, **Helpdesk**, **Tasks** and **API**, and select **+ Add a Website** for each site. **Your Monthly Total** updates as you pick. It changes nothing on your account. Select **Start Over from My Account** to go back to the plans you have.
 

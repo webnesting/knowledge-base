@@ -1,6 +1,6 @@
 # Modules and Features
 
-**Last verified:** 2026-11-12 2:05am
+**Last verified:** 2026-11-12 9:39pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -36,7 +36,7 @@ Each module is shown as a card with its name, a short description of what it doe
 
 ## How to Enable a Module
 
-Turning on a module is a quick, two-step confirmation -- you see exactly what it costs before anything is turned on:
+Turning on a module is a short confirmation. You see what it costs and agree to it before anything is charged:
 
 1. Go to **Settings** > **Modules** in your site menu.
 2. Find the module you want to enable and select **Turn on**.
@@ -44,7 +44,10 @@ Turning on a module is a quick, two-step confirmation -- you see exactly what it
 
 ![The window for turning on Widget Builder, with the What it costs table and the Cancel and Enable buttons](../images/dashboard/modules-turn-on-cost.png)
 
-4. Select **Enable** to confirm, or **Cancel** to back out. Once you confirm, the module activates right away.
+4. Select **Enable** to confirm, or **Cancel** to back out.
+5. If the module costs money, a second window called **Check the price** shows what you pay now and each month. Select **Turn on** to agree. The module activates right away.
+
+A module that costs nothing, and a module you turn back on at the same price, skip the second window. If the price changes while the window is open, you see the new price and agree again. The same window opens when you move your site to another plan. If you cannot manage billing, **Turn on** shows **Request sent** and asks a workspace owner to approve the charge. Nothing is charged until an owner does.
 
 Once a module is enabled, new menu items will appear in your dashboard. For example, enabling the Articles module adds an "Articles" section where you can create and manage blog posts.
 

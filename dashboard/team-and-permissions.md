@@ -1,6 +1,6 @@
 # Team and Permissions
 
-**Last verified:** 2026-11-10 9:52am
+**Last verified:** 2026-11-12 9:39pm
 
 WebNesting lets you invite other people to help manage your website. You control exactly what each person can see and do by assigning them roles with specific permissions.
 
@@ -259,6 +259,8 @@ Each permission for a member can be set to one of three states:
 5. Select **Save Overrides**.
 
 > **Tip:** Overrides are useful for temporary access changes. For example, you might temporarily allow a team member to manage billing during a transition, without changing the role for everyone.
+
+Billing permission also decides who can agree to a charge. A member without it can still select **Turn on** on a paid product, but the button sends a request to the workspace owners. The owners approve or decline it, and nothing is charged until they approve.
 
 ---
 

@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-11-12 2:05am
+**Last verified:** 2026-11-12 9:39pm
 
 WebNesting bills with plans and prepaid credits. You pick a plan for each part of WebNesting you use and pay for it on the 1st of the month. If you use more than a plan includes, prepaid credits pay for the extra. This page explains the details: what is included, what happens at a limit, and how to see and pay your bills. For the plan prices, how credits work and how a failed payment is handled, see [Usage and Billing](../account/usage-and-billing.md).
 
@@ -156,7 +156,7 @@ To see your current and past bills:
 
 1. Open the workspace you want to look at.
 2. Select **Settings** at the bottom of the left icon rail, then **Plans & Billing** under **Billing**. (You can also reach it from the **⋮** menu in the top bar → **Billing**.)
-3. The **Billing** page has five tabs: **Current Period**, **Invoice History**, **Payment Methods**, **Settings** and **Cost Calculator**. Each tab is described in [Usage and Billing](../account/usage-and-billing.md#viewing-your-bills).
+3. The **Billing** page has five tabs: **Current Period**, **Invoice History**, **Payment Methods**, **Settings** and **Cost Calculator**. Each tab is described in [Usage and Billing](../account/usage-and-billing.md#viewing-your-bills). The **Settings** tab also lists your **Approved charges**.
 
 ![The Billing page, Current Period tab, with Credits, Your Plans and Current Billing Period](../images/dashboard/billing-and-usage-billing-page.png)
 
