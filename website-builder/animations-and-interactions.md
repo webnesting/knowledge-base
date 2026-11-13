@@ -349,7 +349,7 @@ When a visitor clicks a link on your site, the next page can fade in over the la
 1. In the site menu, open **Settings** and click **Site Settings**.
 2. Under **Appearance**, click **Theme**.
 3. Scroll past your themes to **Between pages**.
-4. Turn on **Fade smoothly between pages**. It saves at once, and a message says so. You do not need to publish. Visitors see the fade within about a minute.
+4. Turn on **Fade smoothly between pages**. It saves at once, and a message says so. You do not need to publish. Visitors see the fade within a few seconds.
 
 ![The Theme page scrolled to Between pages, with Fade smoothly between pages ringed](../images/website-builder/animations-page-fade.png)
 

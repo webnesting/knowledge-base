@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-11-12 2:08am
+**Last verified:** 2026-11-12 6:01pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -28,6 +28,21 @@ Your site's timezone decides which days this site counts in -- the days its anal
 - **A specific timezone** -- pick one when this site serves customers somewhere else, for example a client's site in another country.
 
 Click **Save Changes** to apply it. Team members who haven't set a timezone on their own profile also see this site's times in it.
+
+---
+
+## Clear Cache
+
+Your site updates by itself after each save, so you do not need to clear anything. Use **Clear Cache** only when a page still looks out of date.
+
+1. Open **Site Settings**.
+2. Scroll to **Clear Cache** at the bottom of the page.
+3. Click **Clear Cache**.
+4. Wait up to about 30 seconds. The page shows "Clearing, this takes up to about 30 seconds".
+
+To clear one page, open **Pages**, click the three dots on its row and choose **Clear Page Cache**. The choice shows only for published pages.
+
+You can clear the whole site once a minute. If you try again sooner, WebNesting asks you to wait. You see these buttons only if you can edit pages.
 
 ---
 
