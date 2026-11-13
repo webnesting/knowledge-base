@@ -1,6 +1,6 @@
 # Themes and Customization
 
-**Last verified:** 2026-11-12 7:22pm
+**Last verified:** 2026-11-13 12:20am
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -62,6 +62,10 @@ A confident look for a designer's portfolio, where the work brings the color. He
 ### Marginalia
 
 A calm, bookish look for long reading. Headings and text use Literata, a serif made for screens. The page is warm, unbleached paper with dark ink text, ink-blue links and wide margins, and labels are small, spaced-out capitals. In dark mode the page turns a warm near-black with soft cream text and pale blue links. The theme has two page backgrounds: Laid paper, fine lines like good writing paper, and Lamplight, two soft pools of warm light that drift slowly and can be paused. It suits writers and bloggers whose sites are mostly essays or articles. It comes with six ready-made sections: a featured essay, an essay list, an author note, a book spotlight, talks and classes, and an email sign-up band.
+
+### Calling Card
+
+A warm, bold look for a one-page personal site. Colored sections are deep aubergine with saffron yellow headings and saffron pill buttons, and the page is a warm oat color. Headings use a heavy grotesk font, the text a softer, rounder one. Cards and link rows have large rounded corners, and labels are apricot. In dark mode the page turns a near-black plum and the saffron stays bright. The theme has two page backgrounds: Tea towel, a faint gingham check, and Saffron glow, saffron and apricot glows (plum and amber in dark mode) that drift slowly and can be paused. It suits cooks, makers, coaches and freelancers who want one page about themselves. It comes with four ready-made sections: a cover with your name, one line about you and a portrait, a list of link rows, three cards for your latest work, and a band for your next date with a button to book.
 
 > **Tip:** Each theme card shows your own home page, and you can open any theme full screen before you switch. Take your time and try them all to see which one fits your brand best.
 
@@ -173,15 +177,15 @@ Some brands use more than three colors. **Extra colors**, under your six colors,
 
 To add one:
 
-1. Click **Add a Color**. A new color named "Extra color" and a number appears.
+1. Click **+ Add a Color**. A new color named "Extra color" and a number appears.
 2. Type your own name for it, such as "Terracotta". Each extra color needs a different name.
 3. Click its colored square and pick the color.
 
 Under each extra color you see its color code and how easy it is to read on your page background. A color too faint for small text can still suit icons and big headings.
 
-To remove one, click the trash can next to its name. If a style or an icon on your site uses that color, WebNesting tells you how many places use it and asks first. Those places go back to their normal color. Click **Keep It** if you change your mind.
+To remove one, click **Remove** next to it. If a style or an icon on your site uses that color, WebNesting tells you how many places use it and asks first. Those places go back to their normal color. Click **Keep It** if you change your mind.
 
-When you have 5 extra colors, the **Add a Color** button goes away. Remove one to add another.
+When you have 5 extra colors, the **+ Add a Color** button goes away. Remove one to add another.
 
 You can also add, rename, recolor and remove extra colors in the Website Builder: open **Site design** and click **Colors**.
 
@@ -255,20 +259,6 @@ Screens in between get a size on the way from one to the other. The rows are in 
 > **Tip:** **Space above the hero** and **Space below the hero** are the space a visitor sees, from the edge of the hero to its first or last line.
 
 In the Website Builder, a Hero section's **Space above and below** setting (**Small** to **X-large**) sets the space at the top and the bottom of the hero. Leave it empty to use your theme's hero space.
-
-#### Long Text
-
-**Long text**, at the end of **Sizes and shapes**, sets how your blog articles and help articles read. It changes only that text, so a long read can be calmer than the rest of your pages. Every slider starts on your theme's own look, so nothing changes until you move one.
-
-- **Text size**: the article text next to the other text on your pages (A step smaller to Two steps larger).
-- **Heading sizes**: the article headings next to the headings on your other pages (Two steps smaller to The same). Smaller headings suit a long read.
-- **Line height**: the space between the lines of a paragraph (Close to Very open).
-- **Space between paragraphs**: also the space under a list, so the text keeps one rhythm (Close to Very roomy).
-- **Space above a heading**: between a paragraph or a list and the heading under it (Close to Very roomy).
-- **Links**: links in a paragraph or a list are underlined only when a visitor points at them, always underlined, or underlined a little lower. A button or an arrow link keeps its own look.
-- **Picture corners**: pictures in the text (Square to Very rounded). A picture with a shape of its own keeps it.
-
-**Long text** is also in the Website Builder: open **Site design**, then **Sizes and shapes**.
 
 ### Previewing Your Changes
 
