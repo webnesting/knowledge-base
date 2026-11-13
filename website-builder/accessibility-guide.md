@@ -1,6 +1,6 @@
 # Making Your Site Accessible
 
-**Last verified:** 2026-11-10 12:14pm
+**Last verified:** 2026-11-12 6:51pm
 
 Accessibility means making sure everyone can use your website, regardless of how they browse the web. Some visitors use screen readers, some navigate with a keyboard instead of a mouse, and some have difficulty seeing certain colors. This guide explains what accessibility is, why it matters, and how you can make your WebNesting site welcoming to all visitors.
 
@@ -189,7 +189,7 @@ Most blocks need nothing extra. When a block needs a label that only screen read
 
 1. Add an **Element** from the Add panel and put your blocks inside it.
 2. In its settings, pick the right **Element type**, for example **Navigation** for a group of links or **Quote** for a quotation.
-3. Under **Custom attributes**, click **+ Add attribute**, then type a name such as `aria-label` and the words a screen reader should say.
+3. Under **Custom attributes**, click **Add attribute**, then type a name such as `aria-label` and the words a screen reader should say.
 
 The settings panel warns you about two common mistakes, and still saves your work:
 
@@ -208,6 +208,8 @@ Some visitors feel dizzy or sick when parts of a page move as they scroll. Phone
 - **Slideshows** stop changing slides on their own. Visitors can still use the arrows.
 
 You don't need to turn anything on. To see what these visitors see, turn on **Reduce motion** on your own device (on a Mac: **System Settings → Accessibility → Display**; on Windows: **Settings → Accessibility → Visual effects → Animation effects** off; on an iPhone: **Settings → Accessibility → Motion**), then open your published site.
+
+Every other visitor needs a way to stop motion that keeps going. Your site gives each loop and scrolling strip a pause button by default. You can pick one pause button for the whole page, or let a loop stop by itself after 5 seconds. The **Accessibility** score in **Site audit** checks for motion a visitor cannot stop. See [Choose How Visitors Stop Motion](animations-and-interactions.md#choose-how-visitors-stop-motion).
 
 ---
 

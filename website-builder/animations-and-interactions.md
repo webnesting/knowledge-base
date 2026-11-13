@@ -1,6 +1,6 @@
 # Animations and Interactions
 
-**Last verified:** 2026-11-09 2:42am
+**Last verified:** 2026-11-12 7:52pm
 
 Make your page feel alive when someone scrolls, without writing any code. This guide covers the animations you can add to any block in the Website Builder. Every effect on a block lives in one place: **Motion**, in the Styler.
 
@@ -224,7 +224,7 @@ A loop keeps a block moving gently, with no start or end. Use it for a small tou
 
 A loop works with any effect you set above it. It is for decoration, so use it on a block, not on text people need to read.
 
-Every loop has a small pause button in the top corner of its block, so a visitor can stop the movement. The button shows on top of the block and does not push anything aside. On a touch screen it is big enough for a finger (44 px). A very small block, such as a badge, is mostly covered by it, so put the loop on a larger block that holds the badge.
+Every loop has a small pause button in the top corner of its block, so a visitor can stop the movement. You can change how visitors stop it (see **Choose How Visitors Stop Motion** below). The button shows on top of the block and does not push anything aside. On a touch screen it is big enough for a finger (44 px). A very small block, such as a badge, is mostly covered by it, so put the loop on a larger block that holds the badge.
 
 ### Add a Scrolling Logo Strip
 
@@ -238,6 +238,32 @@ Every loop has a small pause button in the top corner of its block, so a visitor
 The items scroll past one after another and start again with no gap. Each visitor sees a pause button on the strip, so they can stop it at any time. The strip also stops while a visitor points at it or moves through it with the keyboard. To keep it moving when someone points at it, turn off **Pause when a visitor points at it**. The pause button stays.
 
 A screen reader reads each item once, and the Tab key reaches each link once.
+
+### Choose How Visitors Stop Motion
+
+Some people cannot read or think while something on the page moves. So motion that never ends has to give visitors a way to stop it. You choose how for one block, or for the whole page.
+
+For one block, click a block with a loop, a marquee or an effect that plays **Forever**, and open **Motion** in **Styles**. Three choices show under it:
+
+- **How long it moves**: **Until paused** keeps it moving and gives it a pause button. **For 5 seconds** lets it move for 5 seconds and then stops it by itself, so it has no button. The 5 seconds start when a visitor can see it move: once it is on screen, after any start delay.
+- **Starts**: **When the page opens**, or **When it's on screen** to wait until a visitor scrolls to it.
+- **Pause button corner**: **Same as the page**, or a corner for this block's button.
+
+A loop on a picture has no room for a pause button. The builder shows a warning, and **Stop it after 5 seconds** fixes it in one click. An effect that plays longer than 5 seconds shows a warning with **Make it end within 5 seconds**.
+
+### One Pause Button for the Whole Page
+
+Click an empty part of the page, open **Settings**, and find **Motion**.
+
+- **Pause buttons**: **On each moving thing** is the default. **One for the whole page** puts one **Pause motion** button in a corner of the screen. It stops everything that moves on the page, and the small buttons hide. The page stays paused when the visitor opens another page of your site.
+- **Show the buttons**: **Always**, or **On hover or keyboard focus**. With the second, a button shows when a visitor points at the moving block or reaches it with the Tab key. Phones and tablets always show it.
+- **Button corner** or **Page button corner** sets where the buttons sit.
+
+Like other page settings, these can apply to every page, to one layout or to one page.
+
+### Check Your Page
+
+Open **Site audit** in the builder and click **Quick check**. The **Accessibility** score counts four motion checks: motion that never ends, motion longer than 5 seconds, motion only a mouse can stop, and a video that plays by itself with no controls. Click a finding to select its block. The **Full report** runs the same checks.
 
 ### See It in the Builder
 
@@ -279,6 +305,8 @@ Under **Plays**, pick where on the screen the style changes:
 - **Set my own start and end**: pick **Starts at** and **Ends at** yourself. 0% is when the block comes in at the bottom of the screen. 100% is when it leaves the top.
 
 Each linked style has its own **Plays**. To start and stop the whole effect at once, open **Motion**. Under **Scroll effect**, set **Starts at** and **Ends at**.
+
+To make the effect wait, set **Start when its top is** in the same place. It is how far up the screen the top of the block must be before the effect begins. **0%** is the standard: the effect starts as the block comes in at the bottom. At **40%**, it waits until the top of the block is 40% of the way up the screen. Use it for a block near the bottom of a short page, so the effect still has room to play.
 
 ### Choose What Turn Turns Around
 

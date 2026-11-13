@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-11 8:51pm
+**Last verified:** 2026-11-12 5:44pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -318,6 +318,8 @@ A link name lets a menu item or button jump to a section of the page.
 2. In **Page link**, type a name in **Anchor name**, such as `work`. Use lowercase letters, numbers and dashes.
 3. Save the page.
 
+To put the cursor in a form field as well, type the field's name in **Put the cursor in the field named**, such as `email`. This setting appears once the section has an anchor name. A visitor who clicks a link to the section lands on it with the cursor already in that field. The field must be inside the section, and its name is the one set in the form. A "Join the waitlist" button far from the form is a good fit.
+
 The page can now link to `/#work`. Each name works once per page. The page stops below your sticky header, so the section title stays visible. To use it in a menu, see [Linking a Menu Item to a Section](site-navigation.md#linking-a-menu-item-to-a-section).
 
 > **Tip:** Build your page by stacking sections from top to bottom. Each section should focus on one idea or purpose. This keeps your page organized and easy for visitors to scan.
@@ -353,6 +355,7 @@ Sections, blank boxes and Elements have a **Spacing** panel in **Settings**.
 
 - **Space between rows** sets the space between the rows inside the block, such as between a heading and a grid of photos under it. Choose **Small**, **Medium**, **Large** or **X-large**. Each size is smaller on a phone and larger on a wide screen. **Default** keeps the block's own spacing. It does not change the space between columns that sit side by side.
 - **Space between rows on a phone** sets a different space for a phone only, where the columns stack. **Same** keeps **Space between rows**. Use it when cards look too close or too far apart on a phone.
+- **Space only by the gap** is a switch, off by default. When it is on, the things inside the block lose their own top and bottom space, and so does the text inside its text blocks. The space between them then comes only from the block's gap. Cards and accordions keep their own inner space.
 - **Line above** draws a thin line across the top of the block, with space between the line and the content. Use it for a row of facts under a photo. Your theme sets the line's color. It replaces a Divider when you want the space under the line to stay even.
 
 To use them:
@@ -361,6 +364,8 @@ To use them:
 2. Click **Settings**.
 3. Open **Spacing**.
 4. Pick a size in **Space between rows**, or tick **Line above**.
+
+A blank box or Section also has a **Text width** setting in **Container**, next to **Width**. **Full** keeps the width the box already has. **Wide** limits the box to about 960px and **Narrow** to about 770px, and both centre the box. A box that is already narrower keeps its own width.
 
 A Section also has a **Section style** panel. **Background** sets the look of the section's background: **Plain** (the default) keeps the page's own background, **Page heading** adds a soft glow and faint dots behind the title with extra space above (it works anywhere on the page, and the glow stays inside the section), **Tinted** gives a light tinted background with a thin line at the top and bottom, and **Photo** fills the section with its first picture, under a dark wash, with light words on top. For **Photo**, put a Picture first in the section; to change the photo, select it and choose another. Pick one at a time. Your theme chooses the colors, so each style fits every theme, in light and dark mode.
 
@@ -440,6 +445,20 @@ For a zigzag, where every second column sits lower than its neighbor.
 3. Find **Columns layout** and click **Staggered**.
 
 With two columns, the second column of each pair sits lower. With three columns, the middle one sits lower. **Even** puts every column at the same height again. On a phone, the columns stack in one even column, so nothing is offset.
+
+#### Docs Columns
+
+For a help center or a manual: a menu of pages on the left, the text in the middle and a list of the page's headings on the right.
+
+1. Select the **Element** that holds your three columns.
+2. Click **Settings**.
+3. Find **Columns layout** and click **Docs**.
+
+The first column is the menu, the second is the text and the third is the contents list. Put a **Page navigation** block in the first column and a **Table of contents** block in the third.
+
+On a computer, both side columns stay on screen while a visitor scrolls the text, and a long menu scrolls inside itself. A side column with nothing in it closes, and the text takes its space. The contents list also closes when the text has no heading for it to list. On a phone or a tablet, the text comes first and the menu comes after it, and the contents list is not shown.
+
+> **Tip:** To start with every block in place, add the **Docs page, side menu and contents list** section. See [Add a Section](adding-components.md#add-a-section).
 
 #### Space Between and Before Columns
 

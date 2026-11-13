@@ -76,11 +76,18 @@ To change a block type:
 
 The text will immediately change to the new style.
 
-Some themes add their own styles to the bottom of the **Block** dropdown, such as a check list or a small colored tag. Click into the text, open the dropdown and select one.
+The last option, **Check list**, turns a bullet list into a list with a check mark before each line, in your theme's colors. Use it for what a plan includes or the steps a visitor has done. Click into the list, open the **Block** dropdown and select **Check list**.
+
+Some themes add their own styles to the bottom of the **Block** dropdown, such as a small colored tag. Click into the text, open the dropdown and select one.
 
 #### Text Style (Styling Words)
 
-If your theme has styles for a few words, a **Text style** dropdown appears next to **Block**. Select the words, open the dropdown and choose a style, such as a pill or gradient words. Choose **No style** to take it off.
+The **Text style** dropdown next to **Block** styles a few words. Select the words, open the dropdown and choose a style. Choose **No style** to take it off.
+
+- **Arrow link** is in every theme. It shows a link as a short call to action with an arrow after it, such as "Read the guide". The arrow moves a little when a visitor points at the link. Use it on a link, so the words go somewhere.
+- Your theme may add its own styles, such as a pill or gradient words.
+
+An email has no **Text style** dropdown, because email apps do not load your theme's styles.
 
 > **Tip:** Use Heading 1 for your main page title, Heading 2 for major sections, and Heading 3 for subsections. This structure helps both visitors and search engines understand your content.
 
@@ -499,6 +506,78 @@ A tooltip is a short hint that appears when a visitor points at a block, or move
 To remove the tooltip, clear **Tooltip text**.
 
 > **Tip:** Keep a tooltip short. It is a hint, not a place for important content: visitors on a phone cannot point at a block, so they may never see it.
+
+---
+
+## Show, Hide or Swap an Element with Logic
+
+Logic decides who sees an element. A rule shows or hides it, and versions show each visitor a different copy of it. For example, each of your ads can link to the same page, and the visitors from each ad see that ad's headline.
+
+### Show or Hide an Element
+
+1. Select the element.
+2. In the Settings panel, open **Logic**. An element with no rule says **Always shown**.
+3. Click **Add a rule**.
+4. Under **Show or hide**, choose **Show** or **Hide**.
+5. In the condition box under **When**, pick what the rule looks at. The list below explains each choice.
+6. Pick a comparison, such as **is** or **starts with**, then type or pick the value.
+7. To add another condition, click **Add condition**.
+8. Above the conditions, choose **All are true** or **Any is true**.
+9. Save, then publish.
+
+Until a condition is complete, a line under it says what it still needs. The rule does nothing until then.
+
+To remove the rule, click **Remove rule** under the conditions. The element is then always shown.
+
+### Group Conditions
+
+A group lets one rule mix "and" with "or". For example, a banner can show to signed-in visitors, or to visitors from ad C before the sale ends.
+
+1. Add the condition that stands alone, such as **Visitor** **is** **Signed in**.
+2. Click **Add group**. A shaded box opens with two conditions.
+3. Fill in the group's conditions, such as **Link value** `utm_content` **is** `ad_c` and **Date and time** **is before** the end of the sale.
+4. At the top of the group, choose **All are true**.
+5. Above all the conditions, choose **Any is true**.
+
+The whole group counts as one condition of the rule. A group can't hold another group. A rule holds up to 10 conditions, counting the ones in groups. To remove a group, click its bin icon.
+
+A rule can check:
+
+- **Link value**: the part after the `?` in a link. In `example.com/?utm_content=ad_c`, the name is `utm_content` and the value is `ad_c`. Ad platforms add these to the links in your ads.
+- **Visitor**: whether the visitor is **Signed in** or **Signed out** of your site.
+- **Date and time**: whether the time now **is after** or **is before** a date and time in your site's time zone. For a date range, such as a holiday sale, use two conditions with **All are true**.
+- **Page value**: a value of the page, such as `page.title`, or of a collection entry, such as `item.price`. A rule can't check a visitor's own details, because one visitor's details must not decide what other visitors see.
+- **Collection**: whether a collection **has entries**, **has no entries**, or has more or fewer than a number. For example, show "Upcoming events" only when the Events collection has entries.
+
+Text comparisons ignore capital letters, so **starts with** `ad_c` also matches `AD_C_video`.
+
+### Show a Different Version to Different Visitors
+
+1. Select the element.
+2. In the Settings panel, open **Logic**, then click **Add version**. The builder copies the element and selects Version 2.
+3. Change Version 2's content on the canvas.
+4. In **Logic**, under **Show this version when**, set the rule for Version 2, such as **Link value** `utm_content` **starts with** `ad_c`. The rule is already open, because a version with no rule never shows.
+5. To add more versions, click **Add another version**, then repeat steps 3 and 4.
+6. Save, then publish.
+
+A visitor sees the first version whose rule matches. When no rule matches, the visitor sees the default version, which is the version with no rule. Search engines always see the default version.
+
+The canvas shows one version at a time. To see every version in a list, select the **Versions** box that holds them. Each line says what decides that version. Click a version's eye icon to show it on the canvas, or its pencil icon to edit it. A rule on the **Versions** box shows or hides every version.
+
+### Check What a Visitor Sees
+
+The canvas shows every element so you can edit it. To see the page the way a visitor does:
+
+1. Save your changes.
+2. Click **Preview** in the top toolbar.
+3. Click **Preview as**.
+4. Under **Link values (after the ?)**, type the end of the link, such as `?utm_content=ad_c`.
+5. Under **Visitor**, choose **Signed out** or **Signed in**.
+6. Click **Apply**.
+
+Click **Reset** to go back to a plain preview.
+
+> **Note:** If an element's rule is incomplete or no longer works, your live site hides that element. Open its **Logic** settings to fix the rule.
 
 ---
 
