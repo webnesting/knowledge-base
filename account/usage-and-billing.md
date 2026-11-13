@@ -1,6 +1,6 @@
 # Usage and Billing
 
-**Last verified:** 2026-11-13 12:31am
+**Last verified:** 2026-11-13 9:58am
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -86,6 +86,8 @@ All your storage is one pool for the whole workspace. It is the storage of each 
 
 - **Buying a plan:** You pay for the time left in the month, down to the second, and you get the matching share of what the plan includes. The charge goes to your saved card.
 - **Renewing:** Every plan and add-on renews in one charge on the 1st of the month. You get an invoice and an email.
+- **The price you renew at:** A plan or add-on renews at the price you agreed to when you turned it on. If its price goes down, you pay the lower price from the next 1st.
+- **If a price goes up:** Everyone who can manage billing gets a bell entry, an email and a phone or browser push. The message names the old and new price and the date of your first bill at the new price, at least 30 days away. You pay the old price until then. To stop the item first, follow the link in the message. Losing the multi-product discount, when you turn a product off, changes your total on the next 1st with no 30-day wait.
 - **Moving to a bigger plan:** It starts right away. You pay the difference for the rest of the month.
 - **Moving to a smaller plan:** It starts on the next 1st. You keep the bigger plan until then.
 - **Small charges:** A part-month charge under $0.50 is not sent to your card. It is added to your next renewal.
@@ -245,7 +247,7 @@ Under **Usage This Period**, the **From WebNesting** section lists everything We
 
 The **Billing** page has five tabs: **Current Period**, **Invoice History**, **Payment Methods**, **Settings** and **Cost Calculator**.
 
-**Current Period** shows your **Credits**, **Your Plans** with the price and the date each one renews, and the **Next Renewal**: what will be charged on the 1st. Below them, **Current Billing Period** lists the charges so far. Its status reads **Accruing** until the month ends. **Your Plans** and **Credits** show only when the workspace has them. A workspace with no paid plan shows "You have no paid plans."
+**Current Period** shows your **Credits**, **Your Plans** with the price and the date each one renews, and the **Next Renewal**: what will be charged on the 1st. When a plan's price goes up, **Your Plans** shows a line under it such as "Price goes up to $35.00 a month from your bill on Jan 1, 2027". Below them, **Current Billing Period** lists the charges so far. Its status reads **Accruing** until the month ends. **Your Plans** and **Credits** show only when the workspace has them. A workspace with no paid plan shows "You have no paid plans."
 
 **Payment Methods** holds your saved cards. **Settings** holds **Billing email** and **Billing name**, which print on each invoice, and the **Pay automatically each period** choice. Below them, **Approved charges** lists every charge your workspace agreed to in a **Check the price** window. Each row shows what the charge was for, where it applies, who agreed and when. The list is a record. To stop a charge, follow the link in its row. A site's plan stops with **Take Offline** on the **Sites** page, and a product or add-on stops where you turned it on. When a member who cannot manage billing asks for a charge, a window called **A charge needs your OK** opens for the owners. They select **Approve**, **Decline** or **Not now**, and the member gets a notice.
 

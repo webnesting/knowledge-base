@@ -1,6 +1,6 @@
 # Workspace Products
 
-**Last verified:** 2026-11-13 12:31am
+**Last verified:** 2026-11-13 10:21am
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -113,6 +113,8 @@ Each product is a plan with a flat monthly price and an included amount that sta
 With two or more paid plans, your highest-priced plan is full price and every other plan is 5% off with two plans, up to 20% off with five or more. The details, what happens at a limit, and how credits work: [Usage and Billing](../account/usage-and-billing.md).
 
 Your first plan, or a change, is charged for the days left in the month. Every plan renews on the 1st. A bigger plan starts at once. A smaller plan starts on the next 1st.
+
+A product's card shows the price you pay at your next renewal. If that price is going up, the card also shows the new price and the date of your first bill at it, at least 30 days after we tell you. See [If a price goes up](../account/usage-and-billing.md#when-you-pay).
 
 If WebNesting has set a lower credit price for your workspace, see [Your price](billing-and-usage.md#your-price).
 

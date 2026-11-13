@@ -1,6 +1,6 @@
 # Billing and Usage
 
-**Last verified:** 2026-11-12 9:39pm
+**Last verified:** 2026-11-13 9:58am
 
 WebNesting bills with plans and prepaid credits. You pick a plan for each part of WebNesting you use and pay for it on the 1st of the month. If you use more than a plan includes, prepaid credits pay for the extra. This page explains the details: what is included, what happens at a limit, and how to see and pay your bills. For the plan prices, how credits work and how a failed payment is handled, see [Usage and Billing](../account/usage-and-billing.md).
 
@@ -160,7 +160,7 @@ To see your current and past bills:
 
 ![The Billing page, Current Period tab, with Credits, Your Plans and Current Billing Period](../images/dashboard/billing-and-usage-billing-page.png)
 
-4. **Current Period** shows your **Credits** and balance, **Your Plans** with the price and the date each one renews, and the **Next Renewal**: what will be charged on the 1st, with each discount, special price, complimentary period or product credit as its own line. **Credits**, **Your Plans** and **Next Renewal** show only when the workspace has them. The **Current Billing Period** charges, **Invoice History**, **Payment Methods** and the **Cost Calculator** are always there.
+4. **Current Period** shows your **Credits** and balance, **Your Plans** with the price and the date each one renews (and, when a plan's price goes up, the new price and the date of your first bill at it, at least 30 days after you are told), and the **Next Renewal**: what will be charged on the 1st, with each discount, special price, complimentary period or product credit as its own line. **Credits**, **Your Plans** and **Next Renewal** show only when the workspace has them. The **Current Billing Period** charges, **Invoice History**, **Payment Methods** and the **Cost Calculator** are always there.
 5. Past invoices are on **Invoice History**: select one to open it, or **Download PDF** for a copy. Anything outstanding appears in a banner at the top. **Pay Now** pays a single invoice on the spot.
 6. There is one invoice for each plan purchase or renewal and one for each credit purchase.
 
