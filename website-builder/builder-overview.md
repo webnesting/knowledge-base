@@ -1,6 +1,6 @@
 # Website Builder Overview
 
-**Last verified:** 2026-11-11 11:42pm
+**Last verified:** 2026-11-13 3:39pm
 
 The Website Builder is where you design and create your web pages. It is a visual editor -- meaning you can see exactly how your page will look as you build it. No coding required.
 
@@ -64,7 +64,7 @@ The toolbar along the top of the screen holds your main controls:
 **On the right:**
 - **Save status**: a small pill that reads Saved, Unsaved, Saving… or Save failed, so you always know where your work stands
 - **Who else is here** -- Avatars of any teammates editing the same page with you
-- **Preview** -- Hides all the editing chrome so you can see the page as a visitor would
+- **Preview**: hides all the editing chrome so you can see the page as a visitor would. Click a link in the preview to open that page of your site in the preview too
 - **Save draft**: the disk icon. It saves your work as a draft
 - **Publish** -- Makes your changes live
 
