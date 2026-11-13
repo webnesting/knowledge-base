@@ -23,6 +23,8 @@ Each plan includes an amount that starts over on the 1st of every month. It is y
 
 A new site has no plan while you build it, and that costs $0. It has unlimited pages, 500 MB of storage and 500 MB of bandwidth each month, used only by **Preview** and **Share** links. You pick a plan when you use **Go Live**. Contacts, team members and API tokens are unlimited on every plan. The full table of plans and prices: [Usage and Billing](../account/usage-and-billing.md#plans).
 
+A member who cannot manage billing can ask to use **Go Live**. The people who manage billing get a bell notification and an email. A window opens over the page they are on and shows who asked, what for, the site and the price. **Approve** lets the member go ahead. **Decline** turns the request down and charges nothing. **Not now** hides the window until another request comes. The member sees the answer in their bell and by email, with a link to try again.
+
 ---
 
 ## What Counts as Usage
