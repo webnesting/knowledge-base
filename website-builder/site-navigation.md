@@ -1,6 +1,6 @@
 # Setting Up Site Navigation
 
-**Last verified:** 2026-11-09 9:57am
+**Last verified:** 2026-11-14 2:53pm
 
 Navigation is how visitors find their way around your website. Good navigation helps people quickly get to the pages they need, whether they are browsing on a desktop or a phone. This guide covers how navigation works in WebNesting, how to control which pages appear in your menus, and tips for creating a clear, easy-to-use navigation structure.
 
@@ -130,6 +130,8 @@ For example, if you have a "Services" page with child pages called "Web Design,"
 
 To show a parent's child pages as the whole header menu, on the parent and on every page under it, set the parent's **Sub-Menu** to **Children**. See [Giving a Section Its Own Header Menu](../dashboard/managing-pages.md#giving-a-section-its-own-header-menu).
 
+Where the dropdown opens follows your header's layout. With **Menu in the middle**, **Logo centered** or **Logo above menu**, it opens centered under its menu item. With the other layouts it opens from the item's left edge. If a dropdown would run off the side of the screen, it opens the other way, or moves back onto the screen.
+
 Keyboard visitors press Tab to move through the menu. On a menu item that has a third-level menu, Tab also stops on its arrow: press Space to open or close that menu. A closed menu is skipped by Tab.
 
 ### Creating Child Pages
@@ -194,6 +196,8 @@ If you are already changing your header on the page, **Edit Panel** opens the pa
 - **With a mouse** -- Point at an item for a moment and its panel opens. Moving the pointer into the panel keeps it open. Move away, click somewhere else on the page or press Escape to close it.
 - **With a keyboard** -- Press Tab to reach the arrow beside an item, then press Enter or Space to open its panel. The Down arrow moves into the panel and the Up arrow moves back. The Left and Right arrows move between the top items. Escape closes the panel and puts you back on the arrow.
 - **On a phone** -- The panel opens as a section under its item inside the phone menu, one column wide. Tap the arrow beside an item to open or close its section.
+
+With **Menu in the middle**, **Logo centered** or **Logo above menu**, the panel's columns sit in the middle of the panel, under your centered menu. With the other layouts they start at the left, under your logo.
 
 Visitors who turn on reduced motion on their device see the panel appear without its slide.
 

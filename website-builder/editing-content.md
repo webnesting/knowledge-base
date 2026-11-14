@@ -1,6 +1,6 @@
 # Editing Content
 
-**Last verified:** 2026-11-12 11:27am
+**Last verified:** 2026-11-14 1:09pm
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -64,6 +64,7 @@ The **Block** dropdown lets you change the type of text block. Options include:
 <!-- qc-ignore: seeded-copy-tells until 2026-12-11 owner marketing — the " -- " is this list's own separator, every Block option line uses it -->
 - **Poster heading** -- A name or one short word set as large as your theme's text scale goes, for the top of a portfolio or studio page. In a narrow column it gets smaller by itself, so a word stays whole. Use a short name, because a long word runs wider than a phone screen.
 <!-- qc-ignore: seeded-copy-tells until 2026-12-11 owner marketing — the " -- " is this list's own separator, every Block option line uses it -->
+- **Small heading**: A heading or paragraph that is a little larger and bolder than body text. Use it for the title of a card or a list item. It keeps its own level, so a Heading 2 stays a Heading 2 and your page's heading order does not change. Pick another option in the menu to remove it.
 - **Fit to width** -- Text on one line that fills the width of its column, on a phone and on a wide screen. Use it for an email address or a name that must never wrap. The text size follows the words you type and the width of the column. A very short word, such as "Hi", becomes very large, so your theme may set a limit. A link inside the text still works.
 - **Heading 1** through **Heading 4** -- Different heading levels, from the largest (Heading 1) to the smallest (Heading 4). Use headings to create titles and section headers on your page.
 - **Stat number** -- A big figure in a row of facts, such as "9 people" or "Since 2016". It sits between Heading 2 and Heading 3 in the menu, and its size sits between them too, in every theme. It is not a heading, so it does not change your page's heading order. Put a **Paragraph (muted)** line under it for the words that explain the number.
@@ -85,7 +86,8 @@ Some themes add their own styles to the bottom of the **Block** dropdown, such a
 The **Text style** dropdown next to **Block** styles a few words. Select the words, open the dropdown and choose a style. Choose **No style** to take it off.
 
 - **Arrow link** is in every theme. It shows a link as a short call to action with an arrow after it, such as "Read the guide". The arrow moves a little when a visitor points at the link. Use it on a link, so the words go somewhere.
-- Your theme may add its own styles, such as a pill or gradient words.
+- **Badge** is in every theme. It puts the words in a small pill, such as "New" or "Popular". Use one or two words.
+- Your theme may add its own styles, such as gradient words.
 
 An email has no **Text style** dropdown, because email apps do not load your theme's styles.
 
@@ -379,11 +381,13 @@ When you select a card, the settings panel gives you layout choices:
 
 You can also control:
 
-- **Style**: **Box** (the default) draws a thin line around the card in your theme's border color. **Top line** and **Strong top line** drop the box and draw a line along the top.
+- **Style**: **Box** (the default) draws a thin line around the card in your theme's border color. **Top line** and **Strong top line** drop the box and draw a line along the top. **Box with top bar** keeps the box and adds a thicker bar along the top, in your theme's main color.
 - **Text alignment** -- Left, center, or right
 - **Content position** -- Where the text content sits within the card (top-left, center, bottom-right, and so on)
 - **Text box width**: How much of the room beside the picture the text uses, from Full to Quarter. With a narrower box, **Content position** moves the text to a side. With the picture above the text or the text over the picture, the width is a share of the card.
 - **Vertical size**: Makes the card at least 20%, 40%, 60%, 80% or all of the screen tall. The picture fills the extra height.
+- **Accent**: Sets the color of the card's small details, such as the top bar.
+- **Click anywhere opens the first link**: A switch. When it is on, a click anywhere on the card opens the first link in it. Other links and buttons in the card still work on their own. A visitor who uses the keyboard sees a ring around the whole card.
 - **Picture side**: **Picture on the right** puts the picture on the other side of the text. With the picture above the text, it goes below. Set it on a **Cards** group to move every picture.
 - **Object fit** and **Object position** (under **Media Object**) -- How the picture fills its space. **Cover** fills the space and trims the edges. **Contain** shows the whole picture and leaves space around it. **Object position** picks which part shows, or where the picture sits in its space.
 

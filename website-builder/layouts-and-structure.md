@@ -1,6 +1,6 @@
 # Page Layouts and Structure
 
-**Last verified:** 2026-11-12 5:44pm
+**Last verified:** 2026-11-14 2:53pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -171,6 +171,7 @@ How it works:
 - **Over a picture or a video**, the header has no bar, no shade and no shadow. If the words are hard to read, raise **Shade behind the words** (0 to 100 percent) in **Header colors**. **Blur behind the bar** (0 to 40 pixels) softens the picture under the words. Both start at 0 and show only while Glass is on. Neither one applies once the header sticks and turns frosted.
 - **Words that read on your photo.** When the first section of the page has a photo from your library behind the header, the header words turn dark on a bright photo and light on a dark one. If the photo has bright and dark parts, the header adds the least shade it needs to keep the words readable. Your own **Shade** setting wins when it is higher. A text color you set in **Header colors** wins over the automatic one. Once the header sticks, it uses its own colors.
 - **Once the header sticks**, the bar is your header's **Background** color, a little see-through and blurred. To change it, set **Background** in **Header colors**.
+- **Menus are frosted too.** Dropdowns, mega menus and the language list open as frosted glass, a little more solid than the bar so their words stay easy to read. While one is open, the bar frosts with it, even at the top of the page. They take their colors from **Header colors** (the dropdown's background) and your mega menu's own settings.
 - **Glass changes only how the header looks.** Its width and the place of the logo and the menu stay the same with Glass on or off. To line them up with your page, use **Content width** (below).
 - **On phones**, the menu, the second menu and the button move into the menu, as without Glass.
 
@@ -353,7 +354,7 @@ A **Divider** is a simple horizontal line that separates content visually. Use d
 
 Sections, blank boxes and Elements have a **Spacing** panel in **Settings**.
 
-- **Space between rows** sets the space between the rows inside the block, such as between a heading and a grid of photos under it. Choose **Small**, **Medium**, **Large** or **X-large**. Each size is smaller on a phone and larger on a wide screen. **Default** keeps the block's own spacing. It does not change the space between columns that sit side by side.
+- **Space between rows** sets the space between the rows inside the block, such as between a heading and a grid of photos under it. Choose **None**, **X-small**, **Small**, **Medium**, **Large**, **X-large** or **XX-large**. Each size is smaller on a phone and larger on a wide screen. **Default** keeps the block's own spacing. **Space between columns** sets the space between columns that sit side by side, with the same sizes. If both are set to the same size, the block keeps one setting for both. Changing either one splits them again.
 - **Space between rows on a phone** sets a different space for a phone only, where the columns stack. **Same** keeps **Space between rows**. Use it when cards look too close or too far apart on a phone.
 - **Space only by the gap** is a switch, off by default. When it is on, the things inside the block lose their own top and bottom space, and so does the text inside its text blocks. The space between them then comes only from the block's gap. Cards and accordions keep their own inner space.
 - **Line above** draws a thin line across the top of the block, with space between the line and the content. Use it for a row of facts under a photo. Your theme sets the line's color. It replaces a Divider when you want the space under the line to stay even.
@@ -369,7 +370,7 @@ A blank box or Section also has a **Text width** setting in **Container**, next 
 
 A Section also has a **Section style** panel. **Background** sets the look of the section's background: **Plain** (the default) keeps the page's own background, **Page heading** adds a soft glow and faint dots behind the title with extra space above (it works anywhere on the page, and the glow stays inside the section), **Tinted** gives a light tinted background with a thin line at the top and bottom, and **Photo** fills the section with its first picture, under a dark wash, with light words on top. For **Photo**, put a Picture first in the section; to change the photo, select it and choose another. Pick one at a time. Your theme chooses the colors, so each style fits every theme, in light and dark mode.
 
-A Section also has a **Band spacing** panel. **Space above and below** sets the space between the section's edges and its content: **Small**, **Medium**, **Large** or **X-large**. Each size looks the same in every theme. It is smaller on a phone. **Theme default** keeps your theme's space.
+A Section also has a **Band spacing** panel. **Space above and below** sets the space between the section's edges and its content: **Small**, **Medium**, **Large** or **X-large**. Each size looks the same in every theme. It is smaller on a phone. **Theme default** keeps your theme's space. **Height** set to **Fill the screen** makes the section as tall as the window under the header, with its content in the middle, for a page such as "Coming soon". **Fit the content**, the default, makes it only as tall as its content.
 
 ![A section's Settings with the Space between rows menu ringed, above Space between rows on a phone](../images/website-builder/layouts-section-settings.png)
 
@@ -446,6 +447,16 @@ For a zigzag, where every second column sits lower than its neighbor.
 
 With two columns, the second column of each pair sits lower. With three columns, the middle one sits lower. **Even** puts every column at the same height again. On a phone, the columns stack in one even column, so nothing is offset.
 
+#### Show a Column Last
+
+Use this when a column should come first on a phone but last on a computer, such as a picture that sits above its text on a phone.
+
+1. Select the column inside the row.
+2. Open **Settings** and find **When side by side**.
+3. Choose **Show this column last**.
+
+Where the columns sit side by side, the column moves to the end. Where the row stacks, it goes back to its own place. **Normal** keeps the order you built.
+
 #### Docs Columns
 
 For a help center or a manual: a menu of pages on the left, the text in the middle and a list of the page's headings on the right.
@@ -462,14 +473,22 @@ On a computer, both side columns stay on screen while a visitor scrolls the text
 
 #### Space Between and Before Columns
 
-The **Columns layout** panel has four more settings. The part after this one explains **Last row**.
+The **Columns layout** panel has more settings. The part after the next one explains **Last row**.
 
 - **Columns stack**, on the Element that holds your columns, sets where the columns stack in one column, one under the other. **On phones**, the default, stacks them on a screen narrower than 768px. A tablet then shows them side by side. **On phones and tablets** stacks them on a screen narrower than 1024px, so a tablet shows one column, as a phone does. A laptop or a wider screen shows them side by side. With **On phones and tablets**, the **Space between rows on a phone** of that Element shows on a tablet too.
+- **Space between columns**, on the Element that holds your columns, sets the space between the columns. Choose **None**, **Small**, **Medium**, **Large**, **X-large** or **XX-large**. **Default** keeps the space the layout already has. Your theme can change each size, under **Exact sizes** in the theme editor.
 
-- **Space between columns**, on the Element that holds your columns, sets the space between the columns. Choose **Small**, **Medium**, **Large** or **X-large**. **Default** keeps the space the layout already has. Your theme can change each size, under **Exact sizes** in the theme editor.
-- **Space before this column**, on a column, moves the column 1, 2 or 3 columns to the right. A row has 12 columns. For example, a 5-column heading and a 6-column list with 1 column before it fill the row, with a gap in the middle.
+#### Place a Block in a Row
 
-The column's width plus the space before it must be 12 columns or less, or the column moves to a new line. Where the columns stack, each one is full width, so the space before a column is not used.
+Any block inside an Element set to **Set widths** gets an **In a row** panel in its settings: a Box, an Image, a Counter, an Icon or any other block. The panel shows only inside such a row.
+
+- **Column width** sets how many of the row's 12 columns the block takes on a tablet or a computer.
+- **Width on a phone** lets the block take half, a third, a quarter or two thirds of the row on a phone, instead of the whole row. Use **Two thirds** beside a block a third wide, such as a name beside a small portrait.
+- **Space before this column** moves the block 1, 2 or 3 columns to the right. For example, a 5-column heading and a 6-column list with 1 column before it fill the row, with a gap in the middle.
+
+The block's width plus the space before it must be 12 columns or less, or the block moves to a new line. Where the columns stack, each one is full width, so the space before a block is not used.
+
+To center an **Icon** over a centered name, such as in a row of client logos, set the icon's **Position** to **Center**.
 
 > **Tip:** When you stack columns on tablets, open **Site design**, then **Sizes and shapes**, and set **Text size on a tablet** to **Phone size**. The theme editor's **Sizes and shapes** tab has the same slider. Headings and text then keep their phone size until the screen is 1024px wide, so a stacked tablet page does not get oversized headings.
 
