@@ -1,6 +1,6 @@
 # Saving and Publishing Your Site
 
-**Last verified:** 2026-11-12 2:08am
+**Last verified:** 2026-11-14 11:15am
 
 All your hard work designing and building your site leads to this: getting it live for the world to see. This guide explains the difference between saving and publishing, how to use undo and redo, and all the keyboard shortcuts that make your workflow faster.
 
@@ -40,7 +40,7 @@ Your work saves instantly without needing to click anything.
 
 ### Option 3: Auto-Save
 
-WebNesting automatically saves your work as you go. About two and a half seconds after you stop editing, the builder saves your progress in the background. If you keep editing without pausing, it saves anyway at least every ten seconds. The save pill in the top toolbar shows the current state: **Unsaved**, **Saving…**, **Saved** or **Save failed**.
+WebNesting automatically saves your work as you go. About two and a half seconds after you stop editing, the builder saves your progress in the background. If you keep editing without pausing, it saves anyway at least every ten seconds. The save pill in the top toolbar shows the current state: **Unsaved**, **Saving…**, **Saved** or **Save failed**. If a change takes a moment to appear on the page, the pill says **Updating…** and your mouse pointer shows that the builder is working. You can keep editing while it finishes.
 
 Auto-save is a safety net. It protects you from losing work if your internet connection drops or if you accidentally close the browser. But you should still save manually before important milestones, just to be safe.
 
