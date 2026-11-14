@@ -1,6 +1,6 @@
 # SEO Best Practices for Your Website
 
-**Last verified:** 2026-11-07 11:07am
+**Last verified:** 2026-11-14 5:31pm
 
 Search engine optimization (SEO) is one of the most powerful ways to bring visitors to your website. This guide covers practical, easy-to-follow steps you can take right inside WebNesting to help your site show up in Google and other search engines. No technical background required -- just a willingness to put in a little effort on each page you create.
 
@@ -196,6 +196,8 @@ WebNesting automatically generates Open Graph tags for social media sharing base
 WebNesting automatically generates a sitemap for your site, which helps search engines discover all your pages. You do not need to create or submit one manually. The sitemap updates whenever you publish new pages or remove existing ones.
 
 While your site is in **Coming soon** mode, the sitemap lists only your home address. If you turn on **Hide site from search engines**, the sitemap is empty.
+
+You can also publish an `llms.txt` file, a plain list of the same pages for AI assistants. Turn on **Publish an llms.txt file** under **AI search** on the **SEO Defaults** page. [Site Settings](../dashboard/site-settings.md) explains what it lists.
 
 ---
 

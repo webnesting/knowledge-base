@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-11-12 8:21pm
+**Last verified:** 2026-11-14 5:31pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -175,6 +175,20 @@ Two on/off switches control how the addresses inside it are written:
 - **Start sitemap links with "www."** -- turn this on only if your site's address includes `www.`
 
 Pick the form that matches how visitors reach your site so search engines see one consistent address for every page. These two switches only apply while **Always use a secure (https://) address?** or **Should your address start with "www."?** on the **Site Configuration** page is set to **Either works**. Otherwise the sitemap follows that choice.
+
+### Publishing a List of Your Pages for AI Assistants (llms.txt)
+
+AI assistants such as ChatGPT, Claude and Gemini can read a short, plain list of your pages. The file is called `llms.txt` and lives at `yoursite.com/llms.txt`. It is off until you turn it on.
+
+1. On the **SEO Defaults** page, find **Publish an llms.txt file**, under **AI search**.
+2. Turn it on.
+3. Save your changes.
+
+The file holds your site name and description, then one line for each page with its title, its address and the description you wrote for search engines. Pages that belong to a collection, such as blog posts, sit under the collection's name. It lists the same pages as your sitemap, so a page you left out of the sitemap or locked behind a login is not listed. It follows your changes as you publish them.
+
+Visitors see "not found" at that address while the setting is off, while **Hide site from search engines** is on, and while a Coming soon page replaces your site.
+
+> **Tip:** Open `yoursite.com/llms.txt` in your browser to see what AI assistants read.
 
 ### Keywords
 
