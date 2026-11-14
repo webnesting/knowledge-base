@@ -1,6 +1,6 @@
 # Analytics and Reports
 
-**Last verified:** 2026-11-10 9:52am
+**Last verified:** 2026-11-14 1:22pm
 
 Analytics help you understand how people find and use your website. WebNesting includes built-in analytics so you can see how many visitors your site gets, which pages are most popular, and where your traffic comes from -- all from your dashboard.
 
@@ -114,11 +114,12 @@ Many apps hide where a click came from. A link in an Instagram story or an email
 2. Add `?utm_source=` and the name of the place you post the link, for example `facebook`, `reddit` or `newsletter`.
 3. Add `&utm_medium=` and the kind of place: `social` for social media, `paid` for an ad, or `email` for an email.
 4. Add `&utm_campaign=` and a short name for this campaign, for example `spring_sale`.
-5. Share the full link.
+5. If the campaign has more than one ad, add `&utm_content=` and a short name for each ad, for example `ad_1`.
+6. Share the full link.
 
 The finished link looks like this:
 
-`https://yoursite.com/offer?utm_source=facebook&utm_medium=social&utm_campaign=spring_sale`
+`https://yoursite.com/offer?utm_source=facebook&utm_medium=social&utm_campaign=spring_sale&utm_content=ad_1`
 
 **Tips:**
 - Use small letters and no spaces. Use `_` between words.
@@ -129,14 +130,14 @@ WebNesting keeps a visitor's tags for the whole visit, without cookies. If someo
 
 ### See Where Your Signups Come From
 
-Each form shows which sources and campaigns bring you signups.
+Each form shows which sources, campaigns and ads bring you signups.
 
 1. In the site menu, open **Forms** and click your form.
 2. Open the **Submissions** tab.
 3. Click **Analytics**.
 4. Pick the dates at the top right (last 7, 30 or 90 days, or all time).
 
-**Signups by source** lists each source with its kind, for example **facebook · social**, and its number of signups and share. **Signups by campaign** lists each campaign name from your links.
+**Signups by source** lists each source with its kind, for example **facebook · social**, and its number of signups and share. **Signups by campaign** lists each campaign name from your links. **Signups by ad** lists each ad name from your links with the source and campaign it came with, for example **ad_1 · facebook · spring_sale**. The same ad name on two sites is two lines, so you can compare the sites. The **Form Analytics** dashboard widget has the same three lists.
 
 A submission marked as spam is not a signup. WebNesting marks a post as spam by itself when it comes from a script that never opened your page, so a bot cannot add signups. To mark one yourself, open it from the **Submissions** tab, set its **Status** to **Spam** and save. It stays in the list, and the **Status Breakdown** still counts it, but every signup number and the conversion rate leave it out. This includes the **Form Analytics** widget, **Conversions** and **Traffic Sources**.
 
@@ -232,6 +233,19 @@ To disconnect Google Analytics:
 3. The connection will be removed.
 
 Only the person who connected the account can disconnect it, and their role must still be allowed to remove integrations.
+
+### Count Signups in Google Analytics or Google Tag Manager
+
+Each time a visitor sends one of your forms, your site tells your tracking code about it. Nothing you type is shared, only which form was sent.
+
+- **Google Analytics:** if you added your Google Analytics ID in your site's Google Settings, each send shows up in Google Analytics as a `generate_lead` event. You can mark that event as a key event to count signups.
+- **Google Tag Manager:** each send adds a `wn_form_submit` event to the data layer, with the form's short name in `wn_form_slug`. To fire a tag on a signup:
+  1. In Tag Manager, open **Triggers** and select **New**.
+  2. Choose **Custom Event** and enter `wn_form_submit` as the event name.
+  3. To count one form only, choose **Some Custom Events** and set `wn_form_slug` equals that form's short name.
+  4. Attach the trigger to your tag and publish the container.
+
+This also works when a form sends visitors to a thank-you page. A form with a follow-up question counts as two forms, so pick the one you want by its short name.
 
 ---
 
