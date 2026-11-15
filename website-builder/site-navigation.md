@@ -1,6 +1,6 @@
-# Setting Up Site Navigation
+# Site navigation
 
-**Last verified:** 2026-11-14 2:53pm
+**Last verified:** 2026-11-15 11:36am
 
 Navigation is how visitors find their way around your website. Good navigation helps people quickly get to the pages they need, whether they are browsing on a desktop or a phone. This guide covers how navigation works in WebNesting, how to control which pages appear in your menus, and tips for creating a clear, easy-to-use navigation structure.
 
@@ -12,7 +12,7 @@ Your site's navigation menus are built automatically from your pages. You do not
 
 Every page has checkboxes that control which menus it appears in. When you check a box, that page shows up in that menu. When you uncheck it, the page is hidden from that menu. The order pages appear in your navigation follows the same order they are listed in the **Pages** list in your site menu.
 
-For full details on how to find and change menu visibility settings for a page, see **[Managing Pages in the Builder](page-management.md)** -- specifically the Menu Visibility section.
+For full details on how to find and change menu visibility settings for a page, see **[Managing pages in the builder](page-management.md)**: specifically the Menu Visibility section.
 
 ---
 
@@ -145,7 +145,7 @@ To create a child page:
 
 ![The Pages panel with the New sub-page arrow ringed on the Services row](../images/website-builder/site-navigation-new-sub-page.png)
 
-For a full walkthrough, see **[Managing Pages in the Builder](page-management.md)** -- the section on creating child pages.
+For a full walkthrough, see **[Managing pages in the builder](page-management.md)**: the section on creating child pages.
 
 ### Best Practices for Dropdown Menus
 
@@ -219,7 +219,7 @@ To add breadcrumbs to a page:
 2. Open the **Add** panel and drag a **Breadcrumbs** component from the **Site modules** group onto the page.
 3. Place it near the top of the content area, below the header.
 
-The breadcrumbs will automatically generate based on the page's position in your site hierarchy. For details on adding components, see **[Adding Components to Your Page](adding-components.md)**.
+The breadcrumbs will automatically generate based on the page's position in your site hierarchy. For details on adding components, see **[Adding components](adding-components.md)**.
 
 ### Sitemap Component
 
@@ -283,7 +283,7 @@ For search engine visibility, make sure your important pages have the **Include 
 
 ## Next Steps
 
-- **[Managing Pages in the Builder](page-management.md)** -- Learn how to create pages, set properties, and control menu visibility
-- **[Adding Components to Your Page](adding-components.md)** -- Add breadcrumbs, sitemaps, and other navigation components
-- **[Layouts and Structure](layouts-and-structure.md)** -- Understand how layouts define your header and footer areas
-- **[Responsive Design](responsive-design.md)** -- Make sure your navigation works well on all screen sizes
+- **[Managing pages in the builder](page-management.md)**: Learn how to create pages, set properties, and control menu visibility
+- **[Adding components](adding-components.md)**: Add breadcrumbs, sitemaps, and other navigation components
+- **[Layouts and structure](layouts-and-structure.md)**: Understand how layouts define your header and footer areas
+- **[Responsive design](responsive-design.md)**: Make sure your navigation works well on all screen sizes

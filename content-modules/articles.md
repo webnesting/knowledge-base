@@ -1,6 +1,6 @@
-# Articles and Blog Posts
+# Articles and blog posts
 
-**Last verified:** 2026-11-12 2:05am
+**Last verified:** 2026-11-15 11:36am
 
 The Articles module gives your website a full blog and news section. Use it to share company updates, how-to guides, industry news, or anything else you want to write about. Articles are one of the best ways to keep your website fresh and attract new visitors.
 

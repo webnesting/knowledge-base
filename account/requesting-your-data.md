@@ -1,6 +1,6 @@
-# Requesting a Copy of Your Data
+# Requesting a copy of your data
 
-**Last verified:** 2026-11-07 10:12am
+**Last verified:** 2026-11-15 11:36am
 
 This guide shows how to get a copy of your data, either yourself or by asking Support. It also covers a person on your contact list who asks you for their data.
 
@@ -14,7 +14,7 @@ You can download most of what your workspace holds without asking anyone.
 - **One person's data.** Open the contact and select **Download Their Data**. It gathers everything your workspace holds about that person.
 - **Form submissions.** Open the form's **Submissions** tab and export the list.
 - **Files.** Open **Files** in the top bar and download what you need.
-- **A product's data.** Turn the product off, then select **Download a copy** on its card. WebNesting emails you a link that works for 7 days. Your contacts are not in it; they stay in **Contacts**. Turning a product off ends it and its data is deleted after 30 days, so read [Workspace Products](../dashboard/workspace-products.md#disabling-a-product) first.
+- **A product's data.** Turn the product off, then select **Download a copy** on its card. WebNesting emails you a link that works for 7 days. Your contacts are not in it; they stay in **Contacts**. Turning a product off ends it and its data is deleted after 30 days, so read [Workspace products](../dashboard/workspace-products.md#disabling-a-product) first.
 - **Invoices.** Open an invoice under **Plans & Billing** > **Invoice History** and select **Download PDF**.
 
 ![The Contacts page with the Export CSV button highlighted](../images/account/account-closing-contacts-export-csv.png)
@@ -60,5 +60,5 @@ If they ask you to remove them, select **Delete Contact** on the same page and c
 
 ## Where to go next
 
-- [Contacts Management](../dashboard/contacts-management.md)
-- [Closing Your Workspace or Account](account-closing-your-account.md)
+- [Contacts management](../dashboard/contacts-management.md)
+- [Closing your workspace or account](account-closing-your-account.md)

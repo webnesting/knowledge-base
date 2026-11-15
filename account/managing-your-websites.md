@@ -1,6 +1,6 @@
-# Managing Your Websites
+# Managing your websites
 
-**Last verified:** 2026-11-12 10:46am
+**Last verified:** 2026-11-15 11:36am
 
 The **Sites** page inside a workspace is where you manage all your sites. This guide covers everything you need to know about viewing, opening, editing, and deleting your websites.
 
@@ -61,7 +61,7 @@ This is exactly what your visitors see when they come to your site.
 
 ## Editing Site Details
 
-Open the site with **Manage Site**, then open **Settings** > **Site Settings**. **Site Configuration** holds the site's name, web address, visibility and timezone. **SEO Defaults** holds the title and description search engines show. See [Site Settings](../dashboard/site-settings.md).
+Open the site with **Manage Site**, then open **Settings** > **Site Settings**. **Site Configuration** holds the site's name, web address, visibility and timezone. **SEO Defaults** holds the title and description search engines show. See [Site settings](../dashboard/site-settings.md).
 
 ---
 
@@ -71,7 +71,7 @@ You can't delete a site yourself yet: the **Sites** page has no delete button. T
 
 **Warning:** Deleting a website removes all of its content, pages, images, and settings permanently. This action cannot be undone. Free stock photos the website added stay in your Media library, because your other websites can show them too. Download anything you want to keep first. For form submissions, use the CSV export on each form's **Submissions** tab. For a module's content, use **Download a copy** on its card under **Settings** > **Modules**.
 
-> **Tip:** If you're unsure, keep the site. You can ask Support to remove it later. To give a site to someone else, see [Moving a Site to Someone Else](moving-a-site-to-someone-else.md). To close a whole workspace, see [Closing Your Workspace or Account](account-closing-your-account.md).
+> **Tip:** If you're unsure, keep the site. You can ask Support to remove it later. To give a site to someone else, see [Moving a site to someone else](moving-a-site-to-someone-else.md). To close a whole workspace, see [Closing your workspace or account](account-closing-your-account.md).
 
 ---
 

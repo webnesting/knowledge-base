@@ -1,6 +1,6 @@
-# Workspace Data Tables
+# Workspace data tables
 
-**Last verified:** 2026-11-07 10:23am
+**Last verified:** 2026-11-15 11:36am
 
 Your workspace keeps its own set of tables, separate from the ones inside each website. They hold the information your products share -- your contacts, your support tickets, your tasks and projects, your marketing campaigns. You will find them under **Settings → Database**. The page is titled **Database Tables**.
 
@@ -9,7 +9,7 @@ Two things happen on this page:
 - **Add your own fields** to the tables that came with your workspace, so they hold the information *your* business needs.
 - **Create your own tables**, for information that does not fit anywhere else, and put related ones into groups.
 
-This is different from the [Database Tables](database-management.md) page inside a website. That one belongs to a single site and holds that site's content. This one belongs to your whole workspace and is shared by Marketing, Helpdesk and Tasks.
+This is different from the [Database tables](database-management.md) page inside a website. That one belongs to a single site and holds that site's content. This one belongs to your whole workspace and is shared by Marketing, Helpdesk and Tasks.
 
 ---
 
@@ -111,4 +111,4 @@ Make a new group with the same name and the old group comes back, with the name 
 Those tables came with your workspace and other parts of the product read from them. You can add your own fields to them, but not remove the tables themselves.
 
 **Is this the same as the Database Tables inside my website?**
-No. Those belong to one website and hold that site's content -- see [Database Tables](database-management.md). The tables here belong to your workspace and are shared across your products.
+No. Those belong to one website and hold that site's content, see [Database tables](database-management.md). The tables here belong to your workspace and are shared across your products.

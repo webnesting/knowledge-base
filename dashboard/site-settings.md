@@ -1,6 +1,6 @@
-# Site Settings
+# Site settings
 
-**Last verified:** 2026-11-14 10:44pm
+**Last verified:** 2026-11-15 11:36am
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -204,7 +204,7 @@ Services such as Google Search Console, Pinterest and Bing give you a verificati
 
 WebNesting adds this code to every page exactly as typed. It runs on your published pages only, never while you edit your site.
 
-Only people with the **Custom Code** permission can change this field, because its code runs for every visitor. Site owners and Admins have it. Other people see the field read-only, with the line "Only people with the Custom Code permission can change this code. Ask your site owner." They can still change and save the other SEO settings. To give the permission, see [Team and Permissions](team-and-permissions.md#builder-access).
+Only people with the **Custom Code** permission can change this field, because its code runs for every visitor. Site owners and Admins have it. Other people see the field read-only, with the line "Only people with the Custom Code permission can change this code. Ask your site owner." They can still change and save the other SEO settings. To give the permission, see [Team and permissions](team-and-permissions.md#builder-access).
 
 ---
 
@@ -354,11 +354,11 @@ If you have typed changes in a place that you did not publish, publish them or u
 
 ### Code for one page only
 
-A page can have its own code too. Open the page in **Pages**, scroll to its **Custom Code** group after **SEO**, then click **Edit Custom Code**. Your site's code runs first, then the page's own code. See [Managing Pages](managing-pages.md#custom-code-for-one-page).
+A page can have its own code too. Open the page in **Pages**, scroll to its **Custom Code** group after **SEO**, then click **Edit Custom Code**. Your site's code runs first, then the page's own code. See [Managing pages](managing-pages.md#custom-code-for-one-page).
 
 ### Who can change this code
 
-Only people with the **Custom Code** permission can add or change this code. Site owners and Admins have it. People who may only view it see the code and can preview it, but cannot change it. The page says: "Only people with the Custom Code permission can change this code. Ask your site owner." People without the permission do not see **Code from Other Services** in Site Settings. To give the permission, see [Team and Permissions](team-and-permissions.md#builder-access).
+Only people with the **Custom Code** permission can add or change this code. Site owners and Admins have it. People who may only view it see the code and can preview it, but cannot change it. The page says: "Only people with the Custom Code permission can change this code. Ask your site owner." People without the permission do not see **Code from Other Services** in Site Settings. To give the permission, see [Team and permissions](team-and-permissions.md#builder-access).
 
 ---
 
@@ -520,7 +520,7 @@ While your site is in **Coming soon** mode, only your home address shows the Com
 
 ### Choosing a Theme
 
-Your theme has its own page now. The **Design** section of Site Configuration links to it: click **Change your theme in Appearance → Theme**. You can also open it from Site Settings: under **Appearance**, click **Theme**. There you can switch themes and make a theme's colors your own (see [Themes and Customization](themes-and-customization.md)). Under **Appearance**, **Color Mode** picks light or dark mode for your site and turns on a light / dark switch for your visitors (see [Light and Dark Mode](themes-and-customization.md#light-and-dark-mode)).
+Your theme has its own page now. The **Design** section of Site Configuration links to it: click **Change your theme in Appearance → Theme**. You can also open it from Site Settings: under **Appearance**, click **Theme**. There you can switch themes and make a theme's colors your own (see [Themes and customization](themes-and-customization.md)). Under **Appearance**, **Color Mode** picks light or dark mode for your site and turns on a light / dark switch for your visitors (see [Light and Dark Mode](themes-and-customization.md#light-and-dark-mode)).
 
 ### Secure (HTTPS) Addresses
 
@@ -571,7 +571,7 @@ Code does not run there. If you paste a script, or a tag with code inside it, We
 
 When you go live, your website is available on a WebNesting address. A custom domain is a web address you own, like `www.yourcompany.com`.
 
-Site Settings has no screen to connect a domain yet. You can enter a domain in the **Custom Domain (optional)** box when you create a site, and **Site Configuration** decides how the address is written (see **Secure (HTTPS) Addresses** and **WWW Preferences** above). To connect or change a domain later, email Support. The steps, and what to expect at your domain registrar, are in [Connecting a Custom Domain](../getting-started/custom-domains.md).
+Site Settings has no screen to connect a domain yet. You can enter a domain in the **Custom Domain (optional)** box when you create a site, and **Site Configuration** decides how the address is written (see **Secure (HTTPS) Addresses** and **WWW Preferences** above). To connect or change a domain later, email Support. The steps, and what to expect at your domain registrar, are in [Connecting a custom domain](../getting-started/custom-domains.md).
 
 ## Sites Overview
 

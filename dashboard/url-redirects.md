@@ -1,6 +1,6 @@
-# URL Redirects
+# URL redirects
 
-**Last verified:** 2026-11-07 11:21am
+**Last verified:** 2026-11-15 11:36am
 
 Sometimes you need to change a page's web address, or you want to point an old address to a new one. Redirects make sure that anyone who visits the old address is automatically sent to the right place -- no dead ends, no error pages.
 

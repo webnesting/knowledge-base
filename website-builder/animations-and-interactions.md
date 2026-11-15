@@ -1,6 +1,6 @@
-# Animations and Interactions
+# Animations and interactions
 
-**Last verified:** 2026-11-12 7:52pm
+**Last verified:** 2026-11-15 11:36am
 
 Make your page feel alive when someone scrolls, without writing any code. This guide covers the animations you can add to any block in the Website Builder. Every effect on a block lives in one place: **Motion**, in the Styler.
 

@@ -1,6 +1,6 @@
-# Asking for a Refund
+# Asking for a refund
 
-**Last verified:** 2026-11-07 10:37am
+**Last verified:** 2026-11-15 11:36am
 
 This guide shows how to ask Support for a refund of a charge that was billed in error, and what happens next.
 
@@ -13,7 +13,7 @@ This guide shows how to ask Support for a refund of a charge that was billed in 
 - **How long you have.** Ask within 30 days of the invoice date.
 - **Who can ask.** You need permission to manage billing in the workspace.
 
-The full policy is in [Billing and Usage](../dashboard/billing-and-usage.md#refund-policy).
+The full policy is in [Billing and usage](../dashboard/billing-and-usage.md#refund-policy).
 
 ---
 
@@ -67,11 +67,11 @@ Open the invoice again. Its summary shows the amount under **Refunded**. When th
 
 - **You have no reply.** Send your message again and mention the invoice number.
 - **The 30 days have passed.** Still write to Support and give the dates. Support tells you what is possible.
-- **The charge was billed correctly.** Use [Usage and Billing](usage-and-billing.md) to see how plans and credits are charged.
+- **The charge was billed correctly.** Use [Usage and billing](usage-and-billing.md) to see how plans and credits are charged.
 
 ---
 
 ## Where to go next
 
-- [Billing and Usage](../dashboard/billing-and-usage.md#how-a-refund-reaches-you)
-- [Usage and Billing](usage-and-billing.md)
+- [Billing and usage](../dashboard/billing-and-usage.md#how-a-refund-reaches-you)
+- [Usage and billing](usage-and-billing.md)

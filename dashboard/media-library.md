@@ -1,6 +1,6 @@
-# Files (File Manager)
+# Files
 
-**Last verified:** 2026-11-08 10:15pm
+**Last verified:** 2026-11-15 11:36am
 
 The File Manager is where every file in your workspace lives — images, videos, documents, helpdesk email attachments, and files visitors upload through your forms. Think of it as your workspace's file cabinet: one place, organized in folders, just like the files on your computer.
 
@@ -96,7 +96,7 @@ At the bottom of the panel are four buttons: **Open** shows the file in a new ta
 
 > **Tip:** Always add alt text to your images. It makes your site more accessible to people using screen readers, and it can improve your search engine ranking. To find the pictures that still need it, choose **Missing Alt Text** in the file type list above your files. A picture leaves that list when you give it alt text or mark it decorative, and you move on to another file.
 
-When you choose a picture with no alt text for a page, the File Manager asks for its alt text once, above **Select**. You can type it there, mark the picture decorative, or skip it. See **[Making Your Site Accessible](../website-builder/accessibility-guide.md)**.
+When you choose a picture with no alt text for a page, the File Manager asks for its alt text once, above **Select**. You can type it there, mark the picture decorative, or skip it. See **[Accessibility guide](../website-builder/accessibility-guide.md)**.
 
 On a tablet or phone, the detail panel shows under your files: choose a file, then scroll down to edit it.
 

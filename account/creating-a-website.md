@@ -1,6 +1,6 @@
-# Creating a Website
+# Creating a website
 
-**Last verified:** 2026-11-12 2:07am
+**Last verified:** 2026-11-15 11:36am
 
 Ready to build your first site? This guide walks you through creating a new website on WebNesting.
 
@@ -50,11 +50,11 @@ You can change the address before creating the site; if you do and want it to fo
 
 ### Connecting a custom domain (optional)
 
-If you already own a domain name (like mybakery.com), you can type it in **Custom Domain (optional)** during setup. This is completely optional. To connect one later, see [Connecting a Custom Domain](../getting-started/custom-domains.md).
+If you already own a domain name (like mybakery.com), you can type it in **Custom Domain (optional)** during setup. This is completely optional. To connect one later, see [Connecting a custom domain](../getting-started/custom-domains.md).
 
 ### How you want to start, and the look
 
-Under **How do you want to start?** you pick **Start from a theme**, **Bring over an existing page** (marked **Coming soon**) or **Build it with your AI**. If you start from a theme, **Pick a look** shows each theme drawn with your site name. [Setting Up Your Site](../getting-started/setting-up-your-site.md) explains each choice.
+Under **How do you want to start?** you pick **Start from a theme**, **Bring over an existing page** (marked **Coming soon**) or **Build it with your AI**. If you start from a theme, **Pick a look** shows each theme drawn with your site name. [Setting up your site](../getting-started/setting-up-your-site.md) explains each choice.
 
 ---
 
@@ -90,7 +90,7 @@ Select **Go to Sites**. Your new site is on the **Sites** page, which shows one 
 
 ## Setting Up Your Site for the First Time
 
-See [Setting Up Your Site](../getting-started/setting-up-your-site.md) for each choice in the form and what to do after your site is ready: your logo, your favicon, your site name and your theme.
+See [Setting up your site](../getting-started/setting-up-your-site.md) for each choice in the form and what to do after your site is ready: your logo, your favicon, your site name and your theme.
 
 ---
 
@@ -104,4 +104,4 @@ To create another site, select **+ New Site** on the **Sites** page and follow t
 
 ## Deleting a Site
 
-You can't delete a site yourself yet. To remove one, email Support at support@webnesting.com and name the site. See [Managing Your Websites](managing-your-websites.md#deleting-a-website).
+You can't delete a site yourself yet. To remove one, email Support at support@webnesting.com and name the site. See [Managing your websites](managing-your-websites.md#deleting-a-website).

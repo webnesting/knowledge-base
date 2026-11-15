@@ -1,6 +1,6 @@
-# Workspace Products
+# Workspace products
 
-**Last verified:** 2026-11-13 10:21am
+**Last verified:** 2026-11-15 11:36am
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -18,7 +18,7 @@ Every workspace includes your contact list, media and team collaboration. When y
 
 ### Websites
 
-Build websites and put them on the web. **Websites is always on** and has no on/off switch. Each website you create is free to build and has no plan. You pick a paid Websites plan for each site when you use **Go Live** ($6, $12 or $22 a month; see [Usage and Billing](../account/usage-and-billing.md#plans)). Each site has its own included bandwidth, set by its plan (see [Billing and Usage](billing-and-usage.md#website-bandwidth)). Use **Create Site** on the Websites card to create a website, your first one included. Once you have a website, the **Sites** section appears in your sidebar, where your websites live.
+Build websites and put them on the web. **Websites is always on** and has no on/off switch. Each website you create is free to build and has no plan. You pick a paid Websites plan for each site when you use **Go Live** ($6, $12 or $22 a month; see [Usage and billing](../account/usage-and-billing.md#plans)). Each site has its own included bandwidth, set by its plan (see [Billing and usage](billing-and-usage.md#website-bandwidth)). Use **Create Site** on the Websites card to create a website, your first one included. Once you have a website, the **Sites** section appears in your sidebar, where your websites live.
 
 ### Marketing
 
@@ -110,7 +110,7 @@ Each product is a plan with a flat monthly price and an included amount that sta
 | Tasks | $5: 500 active tasks | $12: 5,000 active tasks | $25: unlimited active tasks |
 | API | $10: 100,000 requests, 10 GB data | $29: 300,000 requests, 30 GB data, longer audit history | $89: 1,000,000 requests, 100 GB data, longer audit history, a higher rate limit |
 
-With two or more paid plans, your highest-priced plan is full price and every other plan is 5% off with two plans, up to 20% off with five or more. The details, what happens at a limit, and how credits work: [Usage and Billing](../account/usage-and-billing.md).
+With two or more paid plans, your highest-priced plan is full price and every other plan is 5% off with two plans, up to 20% off with five or more. The details, what happens at a limit, and how credits work: [Usage and billing](../account/usage-and-billing.md).
 
 Your first plan, or a change, is charged for the days left in the month. Every plan renews on the 1st. A bigger plan starts at once. A smaller plan starts on the next 1st.
 
@@ -150,7 +150,7 @@ If you no longer need a product:
 
 When a plan is set to end, the product's card shows a banner naming the date, with a **Keep it on** button to cancel it any time before then. The card has no **Turn off** button until then, because the turn-off is already set.
 
-A site add-on works differently -- turning one off always takes effect right away (see [Modules and Features](modules-and-features.md#how-to-disable-a-module)).
+A site add-on works differently, turning one off always takes effect right away (see [Modules and features](modules-and-features.md#how-to-disable-a-module)).
 
 Once a product is off, its card shows a banner with:
 
@@ -190,6 +190,6 @@ Every charge a workspace agreed to is listed under **Approved charges** on the *
 
 ## Where to Go Next
 
-- **[Modules and Features](modules-and-features.md)** -- Learn about site-level modules like Articles, Events, and E-Commerce.
-- **[Billing and Usage](billing-and-usage.md)** -- Understand how billing works and how to manage your costs.
-- **[Team and Permissions](team-and-permissions.md)** -- Learn how to manage team access and permissions.
+- **[Modules and features](modules-and-features.md)**: Learn about site-level modules like Articles, Events, and E-Commerce.
+- **[Billing and usage](billing-and-usage.md)**: Understand how billing works and how to manage your costs.
+- **[Team and permissions](team-and-permissions.md)**: Learn how to manage team access and permissions.

@@ -1,6 +1,6 @@
-# Your Account and Security
+# Account security
 
-**Last verified:** 2026-11-12 12:57pm
+**Last verified:** 2026-11-15 11:36am
 
 Your WebNesting account is the key to everything you build. This guide walks you through signing in, protecting your account, and what to do if something goes wrong.
 

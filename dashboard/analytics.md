@@ -1,6 +1,6 @@
-# Analytics and Reports
+# Analytics and reports
 
-**Last verified:** 2026-11-15 3:19am
+**Last verified:** 2026-11-15 11:36am
 
 Analytics help you understand how people find and use your website. WebNesting includes built-in analytics so you can see how many visitors your site gets, which pages are most popular, and where your traffic comes from -- all from your dashboard.
 

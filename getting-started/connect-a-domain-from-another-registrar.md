@@ -1,10 +1,10 @@
-# Connect a Domain From Another Registrar
+# Connect a domain from another registrar
 
-**Last verified:** 2026-11-07 9:55am
+**Last verified:** 2026-11-15 11:36am
 
 You bought your domain from a registrar such as GoDaddy, Namecheap, Cloudflare or Squarespace Domains, and you want your WebNesting site to open at that address. This guide shows what to do at the registrar. The domain stays registered where you bought it. You only change its DNS records.
 
-For what the app offers today, read [Connecting a Custom Domain](custom-domains.md) first.
+For what the app offers today, read [Connecting a custom domain](custom-domains.md) first.
 
 ---
 
@@ -70,6 +70,6 @@ Still stuck after 48 hours? Email Support at support@webnesting.com. Include you
 
 ## Where to go next
 
-- [Connecting a Custom Domain](custom-domains.md)
-- [Site Settings](../dashboard/site-settings.md)
+- [Connecting a custom domain](custom-domains.md)
+- [Site settings](../dashboard/site-settings.md)
 - [Troubleshooting](troubleshooting.md)

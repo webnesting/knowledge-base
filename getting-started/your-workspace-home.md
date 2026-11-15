@@ -1,6 +1,6 @@
-# Your Workspace Home: A Quick Daily Check-In
+# Your workspace home
 
-**Last verified:** 2026-11-07 9:40am
+**Last verified:** 2026-11-15 11:36am
 
 Your workspace home shows the numbers you check most, on one screen. If your workspace has Marketing, Helpdesk and Tasks turned on, you can see your email results, your open tickets and your own tasks without opening each area. This guide shows a short daily routine that stays inside WebNesting.
 
@@ -79,5 +79,5 @@ Each campaign shows its status, how many people received it, and how many opened
 
 ## Next Steps
 
-- Read [Navigating the Dashboard](navigating-the-dashboard.md) to learn how the left bar works.
-- Open [Workspace Products](../dashboard/workspace-products.md) to turn on Marketing, Helpdesk or Tasks.
+- Read [Navigating the dashboard](navigating-the-dashboard.md) to learn how the left bar works.
+- Open [Workspace products](../dashboard/workspace-products.md) to turn on Marketing, Helpdesk or Tasks.

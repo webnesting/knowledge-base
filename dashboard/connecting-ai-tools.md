@@ -1,6 +1,6 @@
-# Connecting an AI Tool
+# Connecting an AI tool
 
-**Last verified:** 2026-11-12 6:11pm
+**Last verified:** 2026-11-15 11:36am
 
 You can connect an AI assistant — like Claude Desktop, Claude Code, or Cursor — directly to your WebNesting workspace. Once connected, you can ask the AI to look things up and make changes for you in plain language: "list my draft articles," "create a new event for next Friday," "what's my current usage this month." The AI works **as you**, with **your** permissions, and never sees your password.
 
@@ -83,7 +83,7 @@ The AI is signed in as **your** WebNesting account, so:
 - Add a picture to your **Files** from its web address. Ask for this only for a picture you have the right to use. The AI can give it alt text and put it in one of your folders or in one site's files. The same picture added twice is kept once.
 - Find the pictures in your **Files** that still need alt text, and change a picture: its alt text, title, description (the caption shown with it on your site), whether it is decorative (screen readers skip it) and where it crops from. The change shows on your site within a few seconds. It needs your permission to edit files, the same as changing them yourself.
 - Turn on a workspace product, such as Help Desk or Tasks — but only after it shows you the monthly price and you say yes.
-- Tell WebNesting when the Builder could not do what you asked. When your AI adds its own style rules, a Style or an HTML component, or cannot do something at all, it sends us a short report and tells you it did. The report names you, your site and your AI app, and goes only to WebNesting's help desk. See [How to Tell Us What the Builder Can't Do](../website-builder/telling-us-what-the-builder-cannot-do.md).
+- Tell WebNesting when the Builder could not do what you asked. When your AI adds its own style rules, a Style or an HTML component, or cannot do something at all, it sends us a short report and tells you it did. The report names you, your site and your AI app, and goes only to WebNesting's help desk. See [Telling us what the builder can't do](../website-builder/telling-us-what-the-builder-cannot-do.md).
 
 **It can't** (these always stay in your hands):
 

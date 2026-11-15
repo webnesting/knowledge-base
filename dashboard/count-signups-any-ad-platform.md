@@ -1,6 +1,6 @@
 # Count signups from any other ad platform
 
-**Last verified:** 2026-11-14 10:44pm
+**Last verified:** 2026-11-15 11:36am
 
 You run ads on a platform and you want it to count each signup your ads bring in. WebNesting has a built-in setting for seven platforms: Meta, Reddit, Google Ads, TikTok, LinkedIn, Pinterest and Microsoft Ads. If your platform is on that list, use the built-in setting. It needs no code. See "Track signups from your ads".
 
@@ -105,4 +105,4 @@ Yes. The announcement is made before the visitor leaves the page.
 No. The builder and previews do not announce signups, so your tests there never reach an ad platform.
 
 **Can I see which ad brought a signup without any tag?**
-Yes. WebNesting counts signups by source, campaign and ad on its own. See [Analytics and Reports](analytics.md).
+Yes. WebNesting counts signups by source, campaign and ad on its own. See [Analytics and reports](analytics.md).

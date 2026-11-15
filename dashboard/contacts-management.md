@@ -1,6 +1,6 @@
-# Contacts Management
+# Contacts management
 
-**Last verified:** 2026-11-12 4:08pm
+**Last verified:** 2026-11-15 11:36am
 
 Contacts are your audience database in WebNesting. Every person who submits a form on your website, signs up for your newsletter, or is imported from a spreadsheet becomes a contact. Use the Contacts system to keep track of who your audience is, organize them into lists, and connect them to your marketing, forms, and support tools.
 
@@ -390,6 +390,6 @@ Click **Contacts** in the left bar, then **Overview**. You see your total contac
 
 ## Where to Go Next
 
-- **[Email Marketing](../content-modules/email-marketing.md)** -- Learn how to send email campaigns to your contacts.
-- **[Workspace Products](workspace-products.md)** -- Learn about enabling the Marketing, Helpdesk, and Tasks products.
-- **[Team and Permissions](team-and-permissions.md)** -- Control who on your team can view and manage contacts.
+- **[Email marketing](../content-modules/email-marketing.md)**: Learn how to send email campaigns to your contacts.
+- **[Workspace products](workspace-products.md)**: Learn about enabling the Marketing, Helpdesk, and Tasks products.
+- **[Team and permissions](team-and-permissions.md)**: Control who on your team can view and manage contacts.

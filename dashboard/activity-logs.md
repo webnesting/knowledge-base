@@ -1,6 +1,6 @@
-# Activity Logs
+# Activity logs
 
-**Last verified:** 2026-11-07 10:25am
+**Last verified:** 2026-11-15 11:36am
 
 Activity logs keep a record of everything that happens on your site. Every time someone makes a change -- whether it is editing a page, updating settings, or managing team members -- it is recorded in the activity log.
 

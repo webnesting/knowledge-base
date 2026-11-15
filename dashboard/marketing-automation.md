@@ -1,6 +1,6 @@
-# Marketing Automations
+# Marketing automations
 
-**Last verified:** 2026-11-09 12:14am
+**Last verified:** 2026-11-15 11:36am
 
 Marketing automations let you create set-it-and-forget-it workflows that send emails, update contacts, and perform actions automatically when something happens. Instead of manually sending a welcome email every time someone signs up, or remembering to tag contacts after an event, you build the workflow once and let it run on its own.
 
@@ -14,7 +14,7 @@ For example, you could create a welcome series that sends a thank-you email imme
 
 Automations are part of the Marketing product in your workspace. You will find them under **Automations** in the **Marketing** menu of your workspace sidebar.
 
-**What automation emails cost.** Each email an automation sends counts as a marketing email, with the same monthly allowance as campaign emails. When the allowance is used up, automation emails wait until you add credits or the month starts over. The **Usage** page counts them in **Marketing Emails Sent**. An email that fails to send is not counted. See [Usage and Billing](../account/usage-and-billing.md#what-happens-at-a-limit).
+**What automation emails cost.** Each email an automation sends counts as a marketing email, with the same monthly allowance as campaign emails. When the allowance is used up, automation emails wait until you add credits or the month starts over. The **Usage** page counts them in **Marketing Emails Sent**. An email that fails to send is not counted. See [Usage and billing](../account/usage-and-billing.md#what-happens-at-a-limit).
 
 ---
 
@@ -299,7 +299,7 @@ Turning Marketing off from **Settings → Products** pauses everything it does i
 - **A campaign that was mid-send stops sending.** It's marked **Missed**, and the emails it already sent still count.
 - **Scheduled campaigns don't send while Marketing is off.** When you turn Marketing back on, any campaign whose send time already passed is marked **Missed while Marketing was off** instead of going out all at once at a surprise time -- open it to **send it now** or **reschedule** it for later.
 
-Your contacts, lists, tags, and templates are all kept -- see [Workspace Products](workspace-products.md#disabling-a-product) for the full 30-day turn-off flow, including **Delete now** and **Download a copy**.
+Your contacts, lists, tags, and templates are all kept, see [Workspace products](workspace-products.md#disabling-a-product) for the full 30-day turn-off flow, including **Delete now** and **Download a copy**.
 
 ---
 
@@ -318,6 +318,6 @@ Your contacts, lists, tags, and templates are all kept -- see [Workspace Product
 
 ## Where to Go Next
 
-- **[Email Marketing](../content-modules/email-marketing.md)** -- Learn how to manage contacts, mailing lists, tags, and email campaigns.
-- **[Workspace Products](workspace-products.md)** -- Enable and manage workspace products like Marketing, Helpdesk, and Tasks.
-- **[Modules and Features](modules-and-features.md)** -- Explore other modules you can add to your website.
+- **[Email marketing](../content-modules/email-marketing.md)**: Learn how to manage contacts, mailing lists, tags, and email campaigns.
+- **[Workspace products](workspace-products.md)**: Enable and manage workspace products like Marketing, Helpdesk, and Tasks.
+- **[Modules and features](modules-and-features.md)**: Explore other modules you can add to your website.

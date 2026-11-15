@@ -1,6 +1,6 @@
-# Managing Pages in the Builder
+# Managing pages in the builder
 
-**Last verified:** 2026-11-12 2:04am
+**Last verified:** 2026-11-15 11:36am
 
 The Website Builder is where you design and edit your pages visually. But it is also where you can switch between pages, create new ones, and manage how they are organized -- all without leaving the builder. This guide covers everything you need to know about working with pages inside the builder.
 
@@ -307,7 +307,7 @@ When you edit a page in the builder, you are mainly working in the content area.
 
 ## The Top Toolbar
 
-The top toolbar runs across the top of the builder. The full tour of it is in the [Website Builder Overview](builder-overview.md#the-top-toolbar). The parts that matter for pages:
+The top toolbar runs across the top of the builder. The full tour of it is in the [Builder overview](builder-overview.md#the-top-toolbar). The parts that matter for pages:
 
 - **Page**, **Layout** and **Unlocked** -- Choose whether you edit the page, its shared layout (the header and footer), or everything at once.
 - **Undo** and **Redo**.

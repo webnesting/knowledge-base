@@ -1,6 +1,6 @@
-# Team and Permissions
+# Team and permissions
 
-**Last verified:** 2026-11-13 1:31am
+**Last verified:** 2026-11-15 11:36am
 
 WebNesting lets you invite other people to help manage your website. You control exactly what each person can see and do by assigning them roles with specific permissions.
 
@@ -272,7 +272,7 @@ So the role you give someone is also the limit on what their AI assistant can re
 
 It also means your changes take effect straight away. If you untick a permission, or remove the person from the workspace entirely, their assistant loses that access on its very next request. There is no separate list of AI connections to find and clean up.
 
-> **Tip:** See [Connecting an AI Tool](connecting-ai-tools.md) for how someone connects one, and what it can and cannot do.
+> **Tip:** See [Connecting an AI tool](connecting-ai-tools.md) for how someone connects one, and what it can and cannot do.
 
 ---
 
@@ -310,4 +310,4 @@ Here are some best practices for keeping your site safe when working with a team
 
 - **Use overrides sparingly.** Permission overrides are powerful but can make it harder to understand who has access to what. Prefer creating a role when multiple people need the same access.
 
-> **Tip:** The activity log in your dashboard shows what changes each team member makes. This can help you keep track of who did what and when. See the [Activity Logs](activity-logs.md) guide for more details.
+> **Tip:** The activity log in your dashboard shows what changes each team member makes. This can help you keep track of who did what and when. See the [Activity logs](activity-logs.md) guide for more details.

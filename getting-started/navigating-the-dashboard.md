@@ -1,6 +1,6 @@
-# Navigating the Dashboard
+# Navigating the dashboard
 
-**Last verified:** 2026-11-12 2:07am
+**Last verified:** 2026-11-15 11:36am
 
 The Dashboard is your home base for managing one site in WebNesting. It is where you handle that site's pages, settings, content, and analytics. (Workspace-level features like billing, team members, helpdesk, marketing, and tasks live in your workspace -- see the **Workspaces** card in your account portal.)
 
@@ -23,7 +23,7 @@ Here are the types of widgets you may see on your home screen:
 - **Site Health** -- A checkup on your site's status (homepage, published content, site title, meta description, favicon, SSL certificate and analytics), with a link to fix each thing that needs attention
 - **Recent Pages** -- A list of pages you have recently created or edited, with quick links to open them
 - **Activity Log** -- The latest changes made on your site
-- **Analytics** -- Pageviews, visitors, average duration and bounce rate. See [Analytics and Reports](../dashboard/analytics.md).
+- **Analytics**: Pageviews, visitors, average duration and bounce rate. See [Analytics and reports](../dashboard/analytics.md).
 
 ### Customizing Your Dashboard
 

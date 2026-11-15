@@ -1,6 +1,6 @@
-# SEO Best Practices for Your Website
+# SEO best practices
 
-**Last verified:** 2026-11-14 5:31pm
+**Last verified:** 2026-11-15 11:36am
 
 Search engine optimization (SEO) is one of the most powerful ways to bring visitors to your website. This guide covers practical, easy-to-follow steps you can take right inside WebNesting to help your site show up in Google and other search engines. No technical background required -- just a willingness to put in a little effort on each page you create.
 
@@ -46,7 +46,7 @@ The page title is one of the most important things search engines look at. It ap
 3. Make it descriptive and compelling. Your title should make someone want to click on it.
 4. Give every page a unique title. Do not use the same title for multiple pages -- each page should clearly describe its own content.
 
-You can set the title for each page in the page properties panel. See **[Managing Pages in the Builder](page-management.md)** for step-by-step instructions. You can also set a default title for your entire site in **[Site Settings](../dashboard/site-settings.md)**.
+You can set the title for each page in the page properties panel. See **[Managing pages in the builder](page-management.md)** for step-by-step instructions. You can also set a default title for your entire site in **[Site settings](../dashboard/site-settings.md)**.
 
 > **Tip:** Read your title out loud. If it sounds natural and clearly describes the page, you are on the right track.
 
@@ -63,7 +63,7 @@ The meta description is the short summary that appears below your page title in 
 3. Include a call to action when it makes sense. Phrases like "Learn more," "Get started today," or "See our full menu" encourage clicks.
 4. Write a unique description for every page. Duplicate descriptions make it harder for search engines to tell your pages apart.
 
-You can set meta descriptions in the page properties panel (see **[Managing Pages in the Builder](page-management.md)**) or as a site-wide default in **[Site Settings](../dashboard/site-settings.md)**.
+You can set meta descriptions in the page properties panel (see **[Managing pages in the builder](page-management.md)**) or as a site-wide default in **[Site settings](../dashboard/site-settings.md)**.
 
 > **Tip:** Imagine you are writing a one-sentence pitch for your page. What would make someone want to visit?
 
@@ -82,7 +82,7 @@ Headings are the titles and subtitles you add to your page content. They do more
 
 Think of headings like an outline. If someone only read your headings, they should get a clear sense of what the page covers.
 
-> **Tip:** You can change heading levels in the text editor toolbar using the **Block** dropdown. See **[Editing Content](editing-content.md)** for details on formatting text.
+> **Tip:** You can change heading levels in the text editor toolbar using the **Block** dropdown. See **[Editing content](editing-content.md)** for details on formatting text.
 
 ---
 
@@ -99,7 +99,7 @@ First, alt text makes your site accessible. Visitors who use screen readers (ass
 3. Type a short, descriptive phrase that explains what the image shows.
 4. Save your changes.
 
-For detailed instructions, see **[Editing Content](editing-content.md)**.
+For detailed instructions, see **[Editing content](editing-content.md)**.
 
 ### Tips for Writing Good Alt Text
 
@@ -123,7 +123,7 @@ The URL slug is the part of your web address that comes after your domain name. 
 3. Avoid special characters, numbers, and random strings. A slug like `services` is far better than `page-2?id=47`.
 4. Use lowercase letters only.
 
-You can set the URL slug for each page in the page properties panel. See **[Managing Pages in the Builder](page-management.md)** for instructions.
+You can set the URL slug for each page in the page properties panel. See **[Managing pages in the builder](page-management.md)** for instructions.
 
 > **Tip:** Once a page is published and indexed by search engines, avoid changing the URL slug. If you do need to change it, set up a redirect from the old URL to the new one so visitors and search engines can still find the page.
 
@@ -185,7 +185,7 @@ For example, if you run a bakery in Seattle, you might naturally use phrases lik
 
 ## Open Graph Tags for Social Media
 
-WebNesting automatically generates Open Graph tags for social media sharing based on your page title, description, and featured image. To set the default sharing image, go to **Site Settings**, select **SEO Defaults** and use the **Image** field. A page can set its own **Share Image** in its page settings (see [Managing Pages in the Builder](page-management.md)). Open Graph tags control how your pages look when someone shares a link to your site on Facebook, LinkedIn, or other social platforms.
+WebNesting automatically generates Open Graph tags for social media sharing based on your page title, description, and featured image. To set the default sharing image, go to **Site Settings**, select **SEO Defaults** and use the **Image** field. A page can set its own **Share Image** in its page settings (see [Managing pages in the builder](page-management.md)). Open Graph tags control how your pages look when someone shares a link to your site on Facebook, LinkedIn, or other social platforms.
 
 ![The SEO Defaults page with the Image field ringed under the Title and Description](../images/website-builder/seo-defaults-search-and-sharing.png)
 
@@ -197,7 +197,7 @@ WebNesting automatically generates a sitemap for your site, which helps search e
 
 While your site is in **Coming soon** mode, the sitemap lists only your home address. If you turn on **Hide site from search engines**, the sitemap is empty.
 
-You can also publish an `llms.txt` file, a plain list of the same pages for AI assistants. Turn on **Publish an llms.txt file** under **AI search** on the **SEO Defaults** page. [Site Settings](../dashboard/site-settings.md) explains what it lists.
+You can also publish an `llms.txt` file, a plain list of the same pages for AI assistants. Turn on **Publish an llms.txt file** under **AI search** on the **SEO Defaults** page. [Site settings](../dashboard/site-settings.md) explains what it lists.
 
 ---
 
@@ -207,7 +207,7 @@ Understanding how visitors find and use your site is an important part of improv
 
 ### Google Analytics
 
-Google Analytics shows you how many people visit your site, which pages they view, how long they stay, and where they come from. You can connect it to your WebNesting site through **[Site Settings](../dashboard/site-settings.md)**.
+Google Analytics shows you how many people visit your site, which pages they view, how long they stay, and where they come from. You can connect it to your WebNesting site through **[Site settings](../dashboard/site-settings.md)**.
 
 Once connected, you can learn things like:
 
@@ -219,7 +219,7 @@ Once connected, you can learn things like:
 
 Google Search Console shows you how your site appears in Google search results. You can see which search terms bring people to your site, how often your pages appear in results, and whether Google has any trouble accessing your pages.
 
-You set up Search Console on Google's website. To prove the site is yours, Google gives you a verification tag. Paste it in **SEO Defaults**, under **Advanced**, in **Extra code for every page's `<head>`**, then click **Save Changes** (see [Site Settings](../dashboard/site-settings.md#extra-code-for-every-pages-head)). Pinterest and Bing verification tags work the same way. Only people with the Custom Code permission can change this field.
+You set up Search Console on Google's website. To prove the site is yours, Google gives you a verification tag. Paste it in **SEO Defaults**, under **Advanced**, in **Extra code for every page's `<head>`**, then click **Save Changes** (see [Site settings](../dashboard/site-settings.md#extra-code-for-every-pages-head)). Pinterest and Bing verification tags work the same way. Only people with the Custom Code permission can change this field.
 
 ![The SEO Defaults page scrolled to Advanced, with the Extra code for every page's head box ringed](../images/website-builder/seo-defaults-advanced.png)
 
@@ -233,7 +233,7 @@ Even with the best intentions, it is easy to make mistakes that hurt your search
 
 ### Accidentally Blocking Search Engines
 
-WebNesting has a setting that tells search engines not to index your site. This is useful while you are building, but if you forget to turn it off after launch, your site will not appear in search results at all. Check the search engine visibility setting in **[Site Settings](../dashboard/site-settings.md)** to make sure your site is visible.
+WebNesting has a setting that tells search engines not to index your site. This is useful while you are building, but if you forget to turn it off after launch, your site will not appear in search results at all. Check the search engine visibility setting in **[Site settings](../dashboard/site-settings.md)** to make sure your site is visible.
 
 ### Duplicate Content
 
@@ -249,7 +249,7 @@ Repeating the same keyword over and over does not help your ranking -- it hurts 
 
 ### Ignoring Mobile Visitors
 
-More than half of all web traffic comes from phones and tablets. If your site is hard to use on a small screen, visitors will leave quickly -- and search engines will notice. Make sure your site looks and works great on all devices. See **[Making Your Site Look Great on All Devices](responsive-design.md)** for help with this.
+More than half of all web traffic comes from phones and tablets. If your site is hard to use on a small screen, visitors will leave quickly, and search engines will notice. Make sure your site looks and works great on all devices. See **[Responsive design](responsive-design.md)** for help with this.
 
 > **Tip:** After publishing any new page, open it on your phone and check that everything reads well and is easy to tap and scroll through.
 
@@ -257,7 +257,7 @@ More than half of all web traffic comes from phones and tablets. If your site is
 
 ## Next Steps
 
-- **[Site Settings](../dashboard/site-settings.md)** -- Configure your site-wide SEO defaults, connect analytics, and check your search engine visibility
-- **[Managing Pages in the Builder](page-management.md)** -- Set page titles, meta descriptions, and URL slugs for individual pages
-- **[Editing Content](editing-content.md)** -- Learn how to format text, add headings, set alt text on images, and create links
-- **[Making Your Site Look Great on All Devices](responsive-design.md)** -- Ensure your site is mobile-friendly for better SEO and a better visitor experience
+- **[Site settings](../dashboard/site-settings.md)**: Configure your site-wide SEO defaults, connect analytics, and check your search engine visibility
+- **[Managing pages in the builder](page-management.md)**: Set page titles, meta descriptions, and URL slugs for individual pages
+- **[Editing content](editing-content.md)**: Learn how to format text, add headings, set alt text on images, and create links
+- **[Responsive design](responsive-design.md)**: Ensure your site is mobile-friendly for better SEO and a better visitor experience

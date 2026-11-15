@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-11-08 11:05pm
+**Last verified:** 2026-11-15 11:36am
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -14,7 +14,7 @@ The Helpdesk is a workspace product, which means it works across all your sites 
 
 Beyond ticket management, the Helpdesk includes a knowledge base where you can publish help articles so customers can find answers on their own, SLA policies to set response time goals, canned responses for common questions, and satisfaction ratings so you know how your team is doing.
 
-> **Tip:** The Helpdesk is a workspace-level product. To enable it, see the [Workspace Products](workspace-products.md) guide.
+> **Tip:** The Helpdesk is a workspace-level product. To enable it, see the [Workspace products](workspace-products.md) guide.
 
 ---
 
@@ -213,7 +213,7 @@ The ticket sidebar has a **Time Tracked** section, so you can record how long a 
 - Click **Log Time**, enter the hours and the day, optionally a note, tick **Billable** if it should be billed, and click **Log Time**.
 - Or click **Start Timer**, work the ticket, then click **Stop** -- the Log Time form opens with the time filled in for you to save.
 
-You can change or delete only your own time; workspace admins can change anyone's. If your workspace also has **Tasks**, ticket time appears in its **Time Report** as its own **Helpdesk tickets** group, and you can filter the report to tickets only. See [Tasks and Projects](tasks-and-projects.md) for more on the timer and the report.
+You can change or delete only your own time; workspace admins can change anyone's. If your workspace also has **Tasks**, ticket time appears in its **Time Report** as its own **Helpdesk tickets** group, and you can filter the report to tickets only. See [Tasks and projects](tasks-and-projects.md) for more on the timer and the report.
 
 ---
 

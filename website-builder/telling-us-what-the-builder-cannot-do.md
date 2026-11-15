@@ -1,6 +1,6 @@
-# How to Tell Us What the Builder Can't Do
+# Telling us what the builder can't do
 
-**Last verified:** 2026-11-07 11:02am
+**Last verified:** 2026-11-15 11:36am
 
 Sometimes the Builder has no block, setting or theme option for what you want. Then you, or the AI app you connected, may add your own code to get it: your own style rules, a Style, or an HTML component. That works, but your page now depends on code you have to look after yourself.
 

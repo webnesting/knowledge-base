@@ -1,6 +1,6 @@
-# Saving and Publishing Your Site
+# Saving and publishing
 
-**Last verified:** 2026-11-14 11:15am
+**Last verified:** 2026-11-15 11:36am
 
 All your hard work designing and building your site leads to this: getting it live for the world to see. This guide explains the difference between saving and publishing, how to use undo and redo, and all the keyboard shortcuts that make your workflow faster.
 

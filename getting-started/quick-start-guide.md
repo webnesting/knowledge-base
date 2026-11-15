@@ -1,6 +1,6 @@
-# Quick Start Guide
+# Quick start guide
 
-**Last verified:** 2026-11-07 9:36am
+**Last verified:** 2026-11-15 11:36am
 
 Welcome to WebNesting! This guide will get you up and running in about 10 minutes. Follow these steps to set up your site, make your first edits, and publish your changes.
 
@@ -10,7 +10,7 @@ Welcome to WebNesting! This guide will get you up and running in about 10 minute
 
 1. Sign in to the WebNesting app with your email and password, and open your **workspace**.
 2. If you have two-factor authentication turned on, enter your verification code when prompted.
-3. If you have not created a site yet, see [Setting Up Your Site](setting-up-your-site.md). You name the site, pick how it starts and pick a look when you create it.
+3. If you have not created a site yet, see [Setting up your site](setting-up-your-site.md). You name the site, pick how it starts and pick a look when you create it.
 4. Select **Sites** in the left icon rail, then **Overview**.
 5. Select **Manage Site** on your site's card. You land on your site's dashboard, the home base for managing your site.
 

@@ -1,6 +1,6 @@
 # Track signups from your ads
 
-**Last verified:** 2026-11-15 9:50am
+**Last verified:** 2026-11-15 11:36am
 
 Paste one ID per ad platform, and each platform learns which of its ad clicks became signups. The built-in page covers Meta, Reddit, Google Ads, TikTok, LinkedIn, Pinterest and Microsoft Advertising. For another platform, see [Count signups from any other ad platform](count-signups-any-ad-platform.md).
 
@@ -74,4 +74,4 @@ When an ID is saved, a ready-made paragraph appears under that platform's fields
 ## Related
 
 - [Count signups from any other ad platform](count-signups-any-ad-platform.md)
-- [Site Settings](site-settings.md)
+- [Site settings](site-settings.md)

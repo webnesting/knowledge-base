@@ -1,6 +1,6 @@
-# Editing Content
+# Editing content
 
-**Last verified:** 2026-11-14 1:09pm
+**Last verified:** 2026-11-15 11:36am
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -461,7 +461,7 @@ Select the component and click **?** on its toolbar to see:
 
 #### Who can change the code
 
-Code in an HTML component runs for every visitor to your site, so only team members with the **Custom Code** permission can add or change it. Site owners and Admins have it. Members do not, until you give it to them in **Settings → Members & Permissions**, under **Builder Access** (see [Team and Permissions](../dashboard/team-and-permissions.md#builder-access)).
+Code in an HTML component runs for every visitor to your site, so only team members with the **Custom Code** permission can add or change it. Site owners and Admins have it. Members do not, until you give it to them in **Settings → Members & Permissions**, under **Builder Access** (see [Team and permissions](../dashboard/team-and-permissions.md#builder-access)).
 
 - Without the permission, you can still add, move and style an HTML component, and you see its code run. There is no **Edit Code** button, and a double-click says: "Only people with the Custom Code permission can change this code."
 - In the code editor, the **Tab** key adds an indent. To leave the editor with the keyboard, press **Esc**, then **Tab**. Press **Esc** twice to close the editor.
@@ -596,5 +596,5 @@ Click **Reset** to go back to a plain preview.
 
 ## Next Steps
 
-- **[Adding Components to Your Page](adding-components.md)** -- Review the full list of components you can add to your pages
-- **[Website Builder Overview](builder-overview.md)** -- Go back to the interface overview to review the Builder layout and tools
+- **[Adding components](adding-components.md)**: Review the full list of components you can add to your pages
+- **[Builder overview](builder-overview.md)**: Go back to the interface overview to review the Builder layout and tools

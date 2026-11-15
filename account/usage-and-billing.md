@@ -1,6 +1,6 @@
-# Usage and Billing
+# Usage and billing
 
-**Last verified:** 2026-11-13 9:58am
+**Last verified:** 2026-11-15 11:36am
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -265,7 +265,7 @@ Anything still outstanding appears in a banner at the top of the Billing page.
 
 If you have a promotion code from WebNesting, enter it in one of three places. Each place has **Have a code?**: select it, enter the code and select **Check code** to see what it gives you.
 
-- **When you sign up** -- the code is kept for the first workspace you create. See [Creating Your Account](creating-your-account.md).
+- **When you sign up**: the code is kept for the first workspace you create. See [Creating your account](creating-your-account.md).
 - **When you create a workspace** -- it is applied when you create the workspace.
 - **On the Billing page** -- under **Promotion code**. Select **Apply to this workspace**.
 

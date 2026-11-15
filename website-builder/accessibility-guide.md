@@ -1,6 +1,6 @@
-# Making Your Site Accessible
+# Accessibility guide
 
-**Last verified:** 2026-11-12 6:51pm
+**Last verified:** 2026-11-15 11:36am
 
 Accessibility means making sure everyone can use your website, regardless of how they browse the web. Some visitors use screen readers, some navigate with a keyboard instead of a mouse, and some have difficulty seeing certain colors. This guide explains what accessibility is, why it matters, and how you can make your WebNesting site welcoming to all visitors.
 
@@ -51,7 +51,7 @@ Alt text (short for "alternative text") is a written description of an image. It
 4. Type a clear, brief description of what the image shows.
 5. Save your changes.
 
-For a detailed walkthrough of image settings, see **[Editing Content](editing-content.md)** -- the Working with Images section.
+For a detailed walkthrough of image settings, see **[Editing content](editing-content.md)**: the Working with Images section.
 
 ### When You Choose a Picture
 
@@ -102,7 +102,7 @@ Headings come in four levels, from Heading 1 (the largest and most important) to
 3. Open the **Block** dropdown in the text toolbar.
 4. Choose the heading level you want (Heading 1, Heading 2, and so on).
 
-For a full guide to the text toolbar, see **[Editing Content](editing-content.md)** -- the Block Type section.
+For a full guide to the text toolbar, see **[Editing content](editing-content.md)**: the Block Type section.
 
 ### Common Mistakes to Avoid
 
@@ -132,7 +132,7 @@ About one in twelve men and one in two hundred women have some form of color bli
 
 Use the responsive preview in the builder to view your site on different screen sizes and at different zoom levels. This can help you spot areas where text might be hard to read.
 
-For details on changing colors and backgrounds, see **[Styling Your Page Elements](styling-elements.md)**.
+For details on changing colors and backgrounds, see **[Styling elements](styling-elements.md)**.
 
 > **Tip:** When choosing colors for your site, try squinting at the screen. If you cannot read the text while squinting, the contrast may be too low for some of your visitors.
 
@@ -185,7 +185,7 @@ Not every visitor uses a mouse. Some people navigate websites entirely with thei
 
 ## Labels for Screen Readers (Advanced)
 
-Most blocks need nothing extra. When a block needs a label that only screen readers hear, use an **Element** block (see [Adding Components](adding-components.md#layout)):
+Most blocks need nothing extra. When a block needs a label that only screen readers hear, use an **Element** block (see [Adding components](adding-components.md#layout)):
 
 1. Add an **Element** from the Add panel and put your blocks inside it.
 2. In its settings, pick the right **Element type**, for example **Navigation** for a group of links or **Quote** for a quotation.
@@ -238,7 +238,7 @@ Going through this checklist each time you publish an update will help you catch
 
 ## Next Steps
 
-- **[Editing Content](editing-content.md)** -- Learn how to add alt text to images and set heading levels
-- **[Styling Your Page Elements](styling-elements.md)** -- Adjust colors and contrast for better readability
-- **[Making Your Site Look Great on All Devices](responsive-design.md)** -- Ensure your site is usable on every screen size
-- **[Site Settings](../dashboard/site-settings.md)** -- Configure SEO settings that overlap with accessibility best practices
+- **[Editing content](editing-content.md)**: Learn how to add alt text to images and set heading levels
+- **[Styling elements](styling-elements.md)**: Adjust colors and contrast for better readability
+- **[Responsive design](responsive-design.md)**: Ensure your site is usable on every screen size
+- **[Site settings](../dashboard/site-settings.md)**: Configure SEO settings that overlap with accessibility best practices

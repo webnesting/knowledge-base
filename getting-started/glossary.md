@@ -1,6 +1,6 @@
-# Glossary of Terms
+# Glossary of terms
 
-**Last verified:** 2026-11-12 2:07am
+**Last verified:** 2026-11-15 11:36am
 
 This glossary explains common terms you will encounter while using WebNesting. If you come across a word you do not recognize, check here for a quick explanation.
 
@@ -73,5 +73,5 @@ This glossary explains common terms you will encounter while using WebNesting. I
 ## Related Guides
 
 - **[Welcome to WebNesting](welcome.md)** -- An introduction to the platform
-- **[Builder Overview](../website-builder/builder-overview.md)** -- Learn about the Canvas, the Add panel, and the Styles panel
-- **[Navigating the Dashboard](navigating-the-dashboard.md)** -- Tour of the Dashboard and where to find everything
+- **[Builder overview](../website-builder/builder-overview.md)**: Learn about the Canvas, the Add panel, and the Styles panel
+- **[Navigating the dashboard](navigating-the-dashboard.md)**: Tour of the Dashboard and where to find everything

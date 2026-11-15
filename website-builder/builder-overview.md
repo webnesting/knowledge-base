@@ -1,6 +1,6 @@
-# Website Builder Overview
+# Builder overview
 
-**Last verified:** 2026-11-13 3:39pm
+**Last verified:** 2026-11-15 11:36am
 
 The Website Builder is where you design and create your web pages. It is a visual editor -- meaning you can see exactly how your page will look as you build it. No coding required.
 
@@ -177,5 +177,5 @@ To revert or pause, you need permission to edit the page. If you can only view i
 
 Now that you know your way around the Builder, here are some good places to go next:
 
-- **[Adding Components to Your Page](adding-components.md)** -- Learn about all the different building blocks you can add to your pages
-- **[Editing Content](editing-content.md)** -- Learn how to edit text, images, buttons, and other content on your page
+- **[Adding components](adding-components.md)**: Learn about all the different building blocks you can add to your pages
+- **[Editing content](editing-content.md)**: Learn how to edit text, images, buttons, and other content on your page

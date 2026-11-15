@@ -1,6 +1,6 @@
 # Welcome to WebNesting
 
-**Last verified:** 2026-11-12 2:07am
+**Last verified:** 2026-11-15 11:36am
 
 Thanks for choosing WebNesting! This guide will help you get comfortable with the platform and show you everything you need to know to start building your website.
 
@@ -109,8 +109,8 @@ Then select **Go to Sites** and **Manage Site** on your new site's card to open 
 
 Now that you know the basics, here are some great next steps:
 
-- **[Setting Up Your Site](setting-up-your-site.md)** -- A detailed walkthrough of the site form and your first site configuration
-- **[Navigating the Dashboard](navigating-the-dashboard.md)** -- Learn your way around the Dashboard and what each section does
+- **[Setting up your site](setting-up-your-site.md)**: A detailed walkthrough of the site form and your first site configuration
+- **[Navigating the dashboard](navigating-the-dashboard.md)**: Tour the dashboard and see what each section does
 
 You can create multiple websites from a single WebNesting account, so if you ever need another site, you are already set up.
 

@@ -1,6 +1,6 @@
-# Tasks and Projects
+# Tasks and projects
 
-**Last verified:** 2026-11-07 10:27am
+**Last verified:** 2026-11-15 11:36am
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -12,9 +12,9 @@ Tasks is a workspace product that adds project management tools to your workspac
 
 You do not need a project for every task. Tasks can also stand on their own as personal items -- quick to-dos or one-off items that do not belong to a larger effort.
 
-> **Tip:** Tasks is a workspace product, which means it is available across your entire workspace and all team members with the right permissions can use it. See [Workspace Products](workspace-products.md) for how to enable it.
+> **Tip:** Tasks is a workspace product, which means it is available across your entire workspace and all team members with the right permissions can use it. See [Workspace products](workspace-products.md) for how to enable it.
 
-> **Free plan:** Tasks starts on a Free plan with 10 active tasks. It needs no card. When you reach 10, finish a task or upgrade to Starter to add more. See [Usage and Billing](../account/usage-and-billing.md).
+> **Free plan:** Tasks starts on a Free plan with 10 active tasks. It needs no card. When you reach 10, finish a task or upgrade to Starter to add more. See [Usage and billing](../account/usage-and-billing.md).
 
 ---
 
@@ -410,7 +410,7 @@ To clone a project:
 
 ## Turning Tasks Off
 
-If you turn Tasks off from **Settings → Products**, nobody on your team can open it any more, and your projects, tasks, comments and time entries are **permanently deleted after 30 days** -- or right away if you choose **Delete now**. Turn Tasks back on before then to keep them. See [Workspace Products](workspace-products.md#disabling-a-product) for the full turn-off flow, including **Download a copy**.
+If you turn Tasks off from **Settings → Products**, nobody on your team can open it any more, and your projects, tasks, comments and time entries are **permanently deleted after 30 days**: or right away if you choose **Delete now**. Turn Tasks back on before then to keep them. See [Workspace products](workspace-products.md#disabling-a-product) for the full turn-off flow, including **Download a copy**.
 
 ---
 
@@ -429,6 +429,6 @@ If you turn Tasks off from **Settings → Products**, nobody on your team can op
 
 ## Where to Go Next
 
-- **[Workspace Products](workspace-products.md)** -- Learn how to enable Tasks and other workspace products, and understand pricing.
-- **[Team and Permissions](team-and-permissions.md)** -- Set up your team and control who can access and manage tasks.
-- **[Activity Logs](activity-logs.md)** -- See how task activity appears in your workspace activity log.
+- **[Workspace products](workspace-products.md)**: Learn how to enable Tasks and other workspace products, and understand pricing.
+- **[Team and permissions](team-and-permissions.md)**: Set up your team and control who can access and manage tasks.
+- **[Activity logs](activity-logs.md)**: See how task activity appears in your workspace activity log.

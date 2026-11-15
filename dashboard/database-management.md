@@ -1,6 +1,6 @@
-# Database Tables
+# Database tables
 
-**Last verified:** 2026-11-07 10:23am
+**Last verified:** 2026-11-15 11:36am
 
 The **Database Tables** section (in your site menu, under **Settings**) is where you define the structure of your own custom content types. Think of it as creating a spreadsheet -- you choose what columns it has, what kind of information each column holds, and how different tables relate to each other.
 
@@ -251,6 +251,6 @@ Database tables and content modules work together. When you create a new table, 
 - **You can display table data on your pages** -- Use the Website Builder to add components that pull in and display data from your custom tables.
 - **Relationships link everything together** -- By connecting tables to each other (and to built-in modules), you create a web of related content that keeps your site organized and flexible.
 
-An AI tool you connect to WebNesting can also create tables, add and change columns, and add entries for you. See [Connecting an AI Tool](connecting-ai-tools.md).
+An AI tool you connect to WebNesting can also create tables, add and change columns, and add entries for you. See [Connecting an AI tool](connecting-ai-tools.md).
 
 In other words, the Database section is where you design the structure. The content modules are where you fill in the actual content. And the Website Builder is where you display that content to your visitors.

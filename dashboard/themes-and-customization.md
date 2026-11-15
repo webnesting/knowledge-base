@@ -1,6 +1,6 @@
-# Themes and Customization
+# Themes and customization
 
-**Last verified:** 2026-11-13 12:20am
+**Last verified:** 2026-11-15 11:36am
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -342,7 +342,7 @@ The copy is separate: changing one doesn't change the other. Its fonts come alon
 
 ## Header and Footer Layouts
 
-Pick the type of header at the top of every page, and the type of footer at the bottom. Your pages and menus stay the same; only their arrangement changes. Everything else about your header and footer is in the Website Builder: click the header or footer on a page and open **Settings**. See [Layouts and Structure](../website-builder/layouts-and-structure.md#choosing-what-your-header-and-footer-show).
+Pick the type of header at the top of every page, and the type of footer at the bottom. Your pages and menus stay the same; only their arrangement changes. Everything else about your header and footer is in the Website Builder: click the header or footer on a page and open **Settings**. See [Layouts and structure](../website-builder/layouts-and-structure.md#choosing-what-your-header-and-footer-show).
 
 1. In the site menu, open **Settings** and click **Site Settings**.
 2. Under **Appearance**, click **Header & Footer**.
@@ -388,7 +388,7 @@ Some themes come with extra page backgrounds. Each one is a made design or pictu
 
 The preview shows the background you click before you save. **Page background** does not appear for a theme that has no extra backgrounds. A moving background shows a pause button on your site. By default it sits at the end of each page, after the footer, and reads "Pause the moving background". To float a small round button in the corner of the screen instead, pick **Floating corner** under **Pause button**. That field shows only when the background you picked moves. Visitors who asked their device for less motion never see it move. On webnesting.com, each theme page lists its backgrounds, and the full screen preview has a **Page background** list to switch between them.
 
-A page layout can have its own header or footer. This page then names those layouts and links to the Website Builder, where you change them. To give one layout its own header, see [Layouts and Structure](../website-builder/layouts-and-structure.md#a-different-header-for-some-pages).
+A page layout can have its own header or footer. This page then names those layouts and links to the Website Builder, where you change them. To give one layout its own header, see [Layouts and structure](../website-builder/layouts-and-structure.md#a-different-header-for-some-pages).
 
 > **Tip:** If your header menu has no pages yet, the page says so and links to **Pages**, where you add pages to the header menu.
 
@@ -525,6 +525,6 @@ There is no risk to experimenting. You can change your theme and colors as many 
 
 ## Where to Go Next
 
-- **[Site Settings](site-settings.md)** -- Learn how to update your site name, logo, favicon, and other settings.
-- **[Styling Elements](../website-builder/styling-elements.md)** -- Learn how to customize individual elements on your pages beyond the theme defaults.
-- **[Setting Up Your Site](../getting-started/setting-up-your-site.md)** -- Revisit the full setup process if you need a refresher.
+- **[Site settings](site-settings.md)**: Learn how to update your site name, logo, favicon, and other settings.
+- **[Styling elements](../website-builder/styling-elements.md)**: Learn how to customize individual elements on your pages beyond the theme defaults.
+- **[Setting up your site](../getting-started/setting-up-your-site.md)**: Revisit the full setup process if you need a refresher.

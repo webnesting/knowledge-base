@@ -1,8 +1,8 @@
-# Billing and Usage
+# Billing and usage
 
-**Last verified:** 2026-11-13 9:58am
+**Last verified:** 2026-11-15 11:36am
 
-WebNesting bills with plans and prepaid credits. You pick a plan for each part of WebNesting you use and pay for it on the 1st of the month. If you use more than a plan includes, prepaid credits pay for the extra. This page explains the details: what is included, what happens at a limit, and how to see and pay your bills. For the plan prices, how credits work and how a failed payment is handled, see [Usage and Billing](../account/usage-and-billing.md).
+WebNesting bills with plans and prepaid credits. You pick a plan for each part of WebNesting you use and pay for it on the 1st of the month. If you use more than a plan includes, prepaid credits pay for the extra. This page explains the details: what is included, what happens at a limit, and how to see and pay your bills. For the plan prices, how credits work and how a failed payment is handled, see [Usage and billing](../account/usage-and-billing.md).
 
 ---
 
@@ -21,7 +21,7 @@ You pay in advance. Nothing is billed after the month, unless your workspace has
 
 Each plan includes an amount that starts over on the 1st of every month. It is your **included amount**. The **Usage** page shows it as **Included This Month**: what you used, what is left, and **Past included amount** when you are past it. When nothing is left, the line says **Used up**. Credits you bought never add to "what is left". They only pay once the included amount is gone.
 
-A new site has no plan while you build it, and that costs $0. It has unlimited pages, 500 MB of storage and 500 MB of bandwidth each month, used only by **Preview** and **Share** links. You pick a plan when you use **Go Live**. Contacts, team members and API tokens are unlimited on every plan. The full table of plans and prices: [Usage and Billing](../account/usage-and-billing.md#plans).
+A new site has no plan while you build it, and that costs $0. It has unlimited pages, 500 MB of storage and 500 MB of bandwidth each month, used only by **Preview** and **Share** links. You pick a plan when you use **Go Live**. Contacts, team members and API tokens are unlimited on every plan. The full table of plans and prices: [Usage and billing](../account/usage-and-billing.md#plans).
 
 A member who cannot manage billing can ask to use **Go Live**. The people who manage billing get a bell notification and an email. A window opens over the page they are on and shows who asked, what for, the site and the price. **Approve** lets the member go ahead. **Decline** turns the request down and charges nothing. **Not now** hides the window until another request comes. The member sees the answer in their bell and by email, with a link to try again.
 
@@ -79,7 +79,7 @@ When you upload a video over 50 MB in **Files**, a note reminds you that videos 
 
 ### Emails, tickets, active tasks and API
 
-Each of these has an included amount in its plan, and credits pay for more. What happens when both are used up is in [Usage and Billing](../account/usage-and-billing.md#what-happens-at-a-limit). In short:
+Each of these has an included amount in its plan, and credits pay for more. What happens when both are used up is in [Usage and billing](../account/usage-and-billing.md#what-happens-at-a-limit). In short:
 
 - **Marketing emails.** A new campaign does not start. Automation emails wait.
 - **Helpdesk tickets.** Tickets keep arriving. Up to 25% above your limit works as normal. Past that, new tickets are marked as over the limit and replies to them are locked.
@@ -108,7 +108,7 @@ Site modules are add-ons with a flat monthly price for each site. Any site can t
 | Widget builder | $5 a month | Lets you create custom interactive elements |
 | **All add-ons together** | **$15 a month** | Every add-on above |
 
-Marketing, Helpdesk, Tasks and API are workspace plans, not site add-ons. See [Workspace Products](workspace-products.md) and the [plan table](../account/usage-and-billing.md#plans).
+Marketing, Helpdesk, Tasks and API are workspace plans, not site add-ons. See [Workspace products](workspace-products.md) and the [plan table](../account/usage-and-billing.md#plans).
 
 > **Tip:** An add-on costs the same every month, however much you use it. Blog costs $3 a month whether you have 2 articles or 200. A site on a paid plan has unlimited pages, so articles, events and products never cost extra.
 
@@ -130,7 +130,7 @@ You are never charged for time you did not use. A new plan or add-on is charged 
 - **A smaller plan** starts on the next 1st. You keep the bigger plan until then.
 - **A part-month charge under $0.50** is not sent to your card. It is added to your next renewal.
 
-If you turn a site add-on off, its content is **permanently deleted after 30 days** unless you turn it back on before then. A workspace product gives you a choice when you turn it off: see [Workspace Products](workspace-products.md#disabling-a-product).
+If you turn a site add-on off, its content is **permanently deleted after 30 days** unless you turn it back on before then. A workspace product gives you a choice when you turn it off: see [Workspace products](workspace-products.md#disabling-a-product).
 
 ### Payment Processing
 
@@ -138,7 +138,7 @@ The card fee is part of the price, so new invoices have no separate processing f
 
 ### Late Payments
 
-If your card does not pay on the 1st, everything keeps working for 7 days. We try the card again on days 1, 3, 5 and 7 and email you each time. You can pay the invoice yourself at any time. After day 7, your paid plans go on hold, your site shows a "not available" page and nothing is deleted. Paying the invoice brings everything back at once. An unpaid renewal invoice is cancelled on the next 1st, and picking a plan again on the site's plan card brings the site back. The details, and what a lapsed site shows, are in [Usage and Billing](../account/usage-and-billing.md#if-a-renewal-payment-fails).
+If your card does not pay on the 1st, everything keeps working for 7 days. We try the card again on days 1, 3, 5 and 7 and email you each time. You can pay the invoice yourself at any time. After day 7, your paid plans go on hold, your site shows a "not available" page and nothing is deleted. Paying the invoice brings everything back at once. An unpaid renewal invoice is cancelled on the next 1st, and picking a plan again on the site's plan card brings the site back. The details, and what a lapsed site shows, are in [Usage and billing](../account/usage-and-billing.md#if-a-renewal-payment-fails).
 
 ### Paused sites and videos
 
@@ -156,7 +156,7 @@ To see your current and past bills:
 
 1. Open the workspace you want to look at.
 2. Select **Settings** at the bottom of the left icon rail, then **Plans & Billing** under **Billing**. (You can also reach it from the **⋮** menu in the top bar → **Billing**.)
-3. The **Billing** page has five tabs: **Current Period**, **Invoice History**, **Payment Methods**, **Settings** and **Cost Calculator**. Each tab is described in [Usage and Billing](../account/usage-and-billing.md#viewing-your-bills). The **Settings** tab also lists your **Approved charges**.
+3. The **Billing** page has five tabs: **Current Period**, **Invoice History**, **Payment Methods**, **Settings** and **Cost Calculator**. Each tab is described in [Usage and billing](../account/usage-and-billing.md#viewing-your-bills). The **Settings** tab also lists your **Approved charges**.
 
 ![The Billing page, Current Period tab, with Credits, Your Plans and Current Billing Period](../images/dashboard/billing-and-usage-billing-page.png)
 
@@ -172,7 +172,7 @@ When you use more than your plan includes and your credits did not pay for it, t
 
 ### What WebNesting gives you
 
-Sometimes WebNesting gives your workspace something extra. It is never mixed silently into your plan prices: your plans cost the same, and what you are given is a separate thing you can see. Prepaid credits you buy yourself are in [Usage and Billing](../account/usage-and-billing.md#credits).
+Sometimes WebNesting gives your workspace something extra. It is never mixed silently into your plan prices: your plans cost the same, and what you are given is a separate thing you can see. Prepaid credits you buy yourself are in [Usage and billing](../account/usage-and-billing.md#credits).
 
 **Bonus units.** Extra units on top of your plan's included amount, for example 5,000 bonus emails a month. They are added to what your plan includes, so you reach a limit later. They are used after the plan's own amount and before credits.
 
@@ -248,7 +248,7 @@ To use a code on a workspace you already have:
 
 After you apply it, bonus units show on your **Usage** page. If the offer is a discount, it shows as its own line on your next plan invoice, after any discount from WebNesting. If the offer is account credit, it is added to your credit balance at once. When two offers apply to the same plan, you get the better one, unless the offer says it adds to others.
 
-You can also enter a code when you sign up or when you create a workspace. See [Creating Your Account](../account/creating-your-account.md).
+You can also enter a code when you sign up or when you create a workspace. See [Creating your account](../account/creating-your-account.md).
 
 If a code is refused, the page says why:
 
@@ -273,7 +273,7 @@ Your included amounts start over on the 1st, and unused included amounts do not 
 
 Each add-on adds to your monthly bill. If you are not using one, turn it off.
 
-> **Important:** Turning off a module permanently deletes its content (blog posts, events, products) after 30 days, or right away if you choose **Delete now**. Turn the module back on before then to keep it. See [Modules and Features](modules-and-features.md#how-to-disable-a-module).
+> **Important:** Turning off a module permanently deletes its content (blog posts, events, products) after 30 days, or right away if you choose **Delete now**. Turn the module back on before then to keep it. See [Modules and features](modules-and-features.md#how-to-disable-a-module).
 
 ### Keep Website Bandwidth Low
 
@@ -295,7 +295,7 @@ With auto top-up, a site that uses all its bandwidth or a campaign that uses all
 
 ## Where to Go Next
 
-- **[Modules and Features](modules-and-features.md)**: Learn more about each module and how to enable or disable them.
-- **[Files (File Manager)](media-library.md)**: Learn how to manage your uploaded files and keep storage under control.
-- **[Managing Pages](managing-pages.md)**: Learn how to create, edit, and organize your site's pages.
-- **[Team and Permissions](team-and-permissions.md)**: Learn how to manage admin users and team access.
+- **[Modules and features](modules-and-features.md)**: Learn more about each module and how to enable or disable them.
+- **[Files](media-library.md)**: Learn how to manage your uploaded files and keep storage under control.
+- **[Managing pages](managing-pages.md)**: Learn how to create, edit, and organize your site's pages.
+- **[Team and permissions](team-and-permissions.md)**: Learn how to manage admin users and team access.

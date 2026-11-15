@@ -1,6 +1,6 @@
-# Managing Pages
+# Managing pages
 
-**Last verified:** 2026-11-11 9:19pm
+**Last verified:** 2026-11-15 11:36am
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 
@@ -142,7 +142,7 @@ Child pages appear beneath their parent page in your site's navigation and in th
 2. Point at the parent page's row and click **New sub-page under** that page (the arrow at the end of the row).
 3. Fill in the form and create the page.
 
-The new page appears indented under its parent. See [Managing Pages in the Builder](../website-builder/page-management.md#creating-a-child-page-sub-page) for the full steps.
+The new page appears indented under its parent. See [Managing pages in the builder](../website-builder/page-management.md#creating-a-child-page-sub-page) for the full steps.
 
 The child page's URL will update to reflect the hierarchy. For example, the "Web Design" page might have the address `yoursite.com/services/web-design`.
 
@@ -170,7 +170,7 @@ A few things to know:
 
 ## Making a Page a Menu Link
 
-A page can link your menus to another address, such as your shop or a booking page. Open the page and type the address in **Menu Link**, under **Navigation**. Menus then link straight there, and a visitor who opens the page goes there too. For the steps, see [Setting Up Site Navigation](../website-builder/site-navigation.md#linking-a-menu-item-to-another-address).
+A page can link your menus to another address, such as your shop or a booking page. Open the page and type the address in **Menu Link**, under **Navigation**. Menus then link straight there, and a visitor who opens the page goes there too. For the steps, see [Site navigation](../website-builder/site-navigation.md#linking-a-menu-item-to-another-address).
 
 ---
 
@@ -240,7 +240,7 @@ The language menu in the builder's top bar shows which language you are editing.
 
 ### Translate with Your Own AI Assistant
 
-You can connect your own AI assistant to WebNesting and ask it to translate a page. See [Connecting an AI Tool](connecting-ai-tools.md) for how to connect it.
+You can connect your own AI assistant to WebNesting and ask it to translate a page. See [Connecting an AI tool](connecting-ai-tools.md) for how to connect it.
 
 1. Turn on the language in **Site Settings**, then **Languages**.
 2. Ask your assistant to translate the page into that language.

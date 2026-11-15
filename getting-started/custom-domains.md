@@ -1,6 +1,6 @@
-# Connecting a Custom Domain
+# Connecting a custom domain
 
-**Last verified:** 2026-11-12 2:06am
+**Last verified:** 2026-11-15 11:36am
 
 A custom domain gives your website its own professional web address, like `www.yourcompany.com`, instead of the WebNesting address. This guide explains what you can do today, and where to go for the steps at your domain registrar.
 
@@ -66,5 +66,5 @@ Still not working after 48 hours? Email Support at support@webnesting.com. Inclu
 ## Related Guides
 
 - **[Connect a domain from another registrar](connect-a-domain-from-another-registrar.md)** -- Where to find DNS settings, what to add and what to leave alone
-- **[Site Settings](../dashboard/site-settings.md)** -- Full overview of all site settings
+- **[Site settings](../dashboard/site-settings.md)**: Full overview of all site settings
 - **[Troubleshooting](troubleshooting.md)** -- Solutions for other common issues

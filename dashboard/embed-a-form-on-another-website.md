@@ -1,12 +1,12 @@
-# How to put a form on another website
+# Put a form on another website
 
-**Last verified:** 2026-11-08 9:13pm
+**Last verified:** 2026-11-15 11:36am
 
 You can show a form from your WebNesting site on any other website, such as your blog or a partner's page. The form keeps your site's look. Every answer arrives on the form's **Submissions** tab, the same as an answer sent on your own site.
 
 ## Before you start
 
-- You need the **Forms** module on your site. See [Modules and Features](modules-and-features.md#forms).
+- You need the **Forms** module on your site. See [Modules and features](modules-and-features.md#forms).
 - The form must be published, and its **Status** must be **Active**. A draft, **Paused** or **Closed** form does not show on another website.
 - You need a way to add HTML to the other website's page. Most site builders call this an "HTML", "Embed" or "Custom code" block.
 

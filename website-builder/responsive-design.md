@@ -1,6 +1,6 @@
-# Making Your Site Look Great on All Devices
+# Responsive design
 
-**Last verified:** 2026-11-10 9:52am
+**Last verified:** 2026-11-15 11:36am
 
 Your visitors will view your website on all kinds of screens -- large desktop monitors, tablets, and small phone screens. Responsive design means your site automatically adjusts to look good on every device. This guide explains how WebNesting helps you create a site that works everywhere.
 

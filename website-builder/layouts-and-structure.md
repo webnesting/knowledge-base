@@ -1,6 +1,6 @@
-# Page Layouts and Structure
+# Layouts and structure
 
-**Last verified:** 2026-11-14 2:53pm
+**Last verified:** 2026-11-15 11:36am
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 

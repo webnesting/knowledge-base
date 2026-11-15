@@ -1,6 +1,6 @@
-# Troubleshooting and Common Issues
+# Troubleshooting
 
-**Last verified:** 2026-11-13 2:43pm
+**Last verified:** 2026-11-15 11:36am
 
 Every website owner runs into the occasional hiccup. The good news is that most issues have simple fixes. This guide walks you through the most common problems you might encounter and how to solve them quickly.
 
@@ -57,7 +57,7 @@ In WebNesting, **saving** and **publishing** are two different things. Saving st
 1. Open the page in the **Website Builder**.
 2. Click the **Publish** button at the top right of the toolbar. There is no extra confirmation step.
 
-Your changes should now be live. For more details, see [Saving and Publishing Your Site](../website-builder/saving-and-publishing.md).
+Your changes should now be live. For more details, see [Saving and publishing](../website-builder/saving-and-publishing.md).
 
 ### Your Browser Is Showing a Cached Version
 
@@ -83,7 +83,7 @@ If a page still looks out of date after a minute, you can clear it yourself. A n
 1. To clear one page, open **Pages**, click the three dots on its row and choose **Clear Page Cache**.
 2. To clear the whole site, open **Site Settings**, scroll to **Clear Cache** and click **Clear Cache**.
 
-[Site Settings](../dashboard/site-settings.md#clear-cache) has more about both.
+[Site settings](../dashboard/site-settings.md#clear-cache) has more about both.
 
 > **Tip:** If changes still are not showing, try the hard refresh method described above, or open the page in a private browsing window.
 
@@ -117,7 +117,7 @@ If you (or a team member) deleted an image from the File Manager, any page that 
 3. Open the affected page in the **Website Builder**.
 4. Select the broken image element and replace it with the newly uploaded file.
 
-> **Tip:** Before deleting files from the File Manager, check if they are being used on any pages. Deleting a file that is in use will break those pages. For more on managing your files, see [Files (File Manager)](../dashboard/media-library.md).
+> **Tip:** Before deleting files from the File Manager, check if they are being used on any pages. Deleting a file that is in use will break those pages. For more on managing your files, see [Files](../dashboard/media-library.md).
 
 ---
 
@@ -134,7 +134,7 @@ If you designed your page on a desktop view and did not check how it looks on sm
 3. At each size, look for elements that are too wide, overlapping, or hard to read.
 4. Adjust the styles for each breakpoint until the page looks right at every size.
 
-For a full walkthrough, see [Making Your Site Look Great on All Devices](../website-builder/responsive-design.md).
+For a full walkthrough, see [Responsive design](../website-builder/responsive-design.md).
 
 ### Content Is Too Wide for the Screen
 
@@ -170,7 +170,7 @@ Many features in WebNesting are provided by modules that you need to turn on.
 2. Browse the list of available modules.
 3. Find the one you need and select **Turn on**, then **Enable**.
 4. Once enabled, the module's item will appear in your site menu, and its blocks will become available in the builder.
-For more details, see [Modules and Features](../dashboard/modules-and-features.md).
+For more details, see [Modules and features](../dashboard/modules-and-features.md).
 
 ### Feature Requires a Different Module
 
@@ -199,7 +199,7 @@ When you update your domain's DNS records, the changes can take time to spread a
 If your domain is still not working after 48 hours, double-check that your DNS records are set up correctly.
 
 1. Log in to your domain registrar (the company where you purchased your domain).
-2. Compare the DNS records you entered with the values Support gave you. See [Connect a Domain From Another Registrar](connect-a-domain-from-another-registrar.md).
+2. Compare the DNS records you entered with the values Support gave you. See [Connect a domain from another registrar](connect-a-domain-from-another-registrar.md).
 3. Make sure the **A record** or **CNAME record** matches exactly.
 4. Save any corrections and allow time for the changes to take effect.
 
@@ -263,7 +263,7 @@ Pages with many large images take longer to load in the builder.
 2. Use compressed image formats like JPG or WebP for photographs.
 3. Use PNG only when you need transparency.
 
-For more on managing images, see [Files (File Manager)](../dashboard/media-library.md).
+For more on managing images, see [Files](../dashboard/media-library.md).
 
 ### Clear Your Browser Cache
 
@@ -310,7 +310,7 @@ Send an email to our support team with the details listed above. We aim to respo
 
 Now that you know how to handle the most common issues, here are some guides that can help you avoid problems in the first place:
 
-- [Saving and Publishing Your Site](../website-builder/saving-and-publishing.md) -- Understand the difference between saving and publishing so your changes always go live when you want them to.
-- [Making Your Site Look Great on All Devices](../website-builder/responsive-design.md) -- Learn how to design for every screen size so your pages never look broken on mobile.
-- [Files (File Manager)](../dashboard/media-library.md) -- Manage your images and files effectively to avoid broken images and slow load times.
-- [Modules and Features](../dashboard/modules-and-features.md) -- Explore all the features available for your site and learn how to enable them.
+- [Saving and publishing](../website-builder/saving-and-publishing.md): Understand the difference between saving and publishing so your changes always go live when you want them to.
+- [Responsive design](../website-builder/responsive-design.md): Learn how to design for every screen size so your pages never look broken on mobile.
+- [Files](../dashboard/media-library.md): Manage your images and files effectively to avoid broken images and slow load times.
+- [Modules and features](../dashboard/modules-and-features.md): Explore all the features available for your site and learn how to enable them.

@@ -1,6 +1,6 @@
-# How to make, share and organize dashboards
+# Dashboards
 
-**Last verified:** 2026-11-07 11:21am
+**Last verified:** 2026-11-15 11:36am
 
 A dashboard is a page of widgets: your numbers from Sites, Marketing, Helpdesk, Tasks, billing and more, in one place. You can make as many as you like, keep them to yourself or share them with a team or the whole workspace.
 

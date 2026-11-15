@@ -1,6 +1,6 @@
-# Styling Your Page Elements
+# Styling elements
 
-**Last verified:** 2026-11-10 2:05pm
+**Last verified:** 2026-11-15 11:36am
 
 Every element on your page -- text, images, buttons, sections -- can be customized to look exactly the way you want. This guide walks you through the styling tools in WebNesting's Website Builder.
 
@@ -513,7 +513,7 @@ The **Motion** section holds every effect on the element, such as a fade-in, one
 4. Under **When it plays**, choose **Always**, **When it scrolls into view** or **On hover**.
 5. For **Always** and **On hover**, set **Takes**, **Curve** and **Delay** as for a change. Under **Plays**, choose **Once**, **Twice** or **Forever**, or type a number.
 
-**More ways it plays** has the rest. **Direction** plays it **Forward**, **Backward**, **Back and forth**, or **Back and forth, starting backward**. **Look** sets how the element looks before and after it plays: for a fade-in, **First look before, end look after** keeps it hidden until it starts and shown after it ends. **State** pauses it. For the scroll and hover effects, see [Animations and Interactions](animations-and-interactions.md).
+**More ways it plays** has the rest. **Direction** plays it **Forward**, **Backward**, **Back and forth**, or **Back and forth, starting backward**. **Look** sets how the element looks before and after it plays: for a fade-in, **First look before, end look after** keeps it hidden until it starts and shown after it ends. **State** pauses it. For the scroll and hover effects, see [Animations and interactions](animations-and-interactions.md).
 
 > **Tip:** A visitor who asks their device for less motion sees no animations and no animated changes: each one jumps to its end at once.
 
@@ -825,7 +825,7 @@ Click **History** under the editor to see earlier versions of that place's CSS, 
 
 ### Who Can Change It
 
-Only people with the **Custom Code** permission can change your CSS or publish it. Site owners and Admins have it. People who may only view it see the CSS read-only, with the line "Only people with the Custom Code permission can change this CSS. Ask your site owner." When they publish a page, their page changes go live, and your CSS drafts stay as they are. People without the permission see "Only people with the Custom Code permission can see your site's CSS." See [Team and Permissions](../dashboard/team-and-permissions.md#builder-access).
+Only people with the **Custom Code** permission can change your CSS or publish it. Site owners and Admins have it. People who may only view it see the CSS read-only, with the line "Only people with the Custom Code permission can change this CSS. Ask your site owner." When they publish a page, their page changes go live, and your CSS drafts stay as they are. People without the permission see "Only people with the Custom Code permission can see your site's CSS." See [Team and permissions](../dashboard/team-and-permissions.md#builder-access).
 
 ### Code That Also Runs on the Page
 

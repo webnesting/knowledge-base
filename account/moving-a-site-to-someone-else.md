@@ -1,6 +1,6 @@
-# Moving a Site to Someone Else
+# Moving a site to someone else
 
-**Last verified:** 2026-11-07 10:12am
+**Last verified:** 2026-11-15 11:36am
 
 This guide shows the ways to hand a site to another person or business. A site stays in the workspace where you created it. The app has no button that moves one site to a different workspace.
 
@@ -34,7 +34,7 @@ The **Roles** section of the same page lists the three built-in roles and how ma
 
 ![The Roles section with the Admin, Member and Viewer roles](../images/account/moving-a-site-roles.png)
 
-See [Team and Permissions](../dashboard/team-and-permissions.md).
+See [Team and permissions](../dashboard/team-and-permissions.md).
 
 > **Important:** Everyone in the workspace sees all of its sites. If the person must see only one site, ask Support first.
 
@@ -72,5 +72,5 @@ The workspace owner pays the workspace's bill. After a transfer, the new owner s
 
 ## Where to go next
 
-- [Team and Permissions](../dashboard/team-and-permissions.md)
-- [Closing Your Workspace or Account](account-closing-your-account.md)
+- [Team and permissions](../dashboard/team-and-permissions.md)
+- [Closing your workspace or account](account-closing-your-account.md)

@@ -1,6 +1,6 @@
-# Modules and Features
+# Modules and features
 
-**Last verified:** 2026-11-13 12:31am
+**Last verified:** 2026-11-15 11:36am
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -159,9 +159,9 @@ What you get when you enable it:
 - Contact import from CSV files
 - Automatic unsubscribe handling
 
-**Starter includes 10,000 emails a month, Growth 50,000 and Pro 125,000.** The emails start over on the 1st. When they are used up, prepaid credits pay for more, at $0.90 per 1,000 emails. Contacts are unlimited on every plan. See [Usage and Billing](../account/usage-and-billing.md).
+**Starter includes 10,000 emails a month, Growth 50,000 and Pro 125,000.** The emails start over on the 1st. When they are used up, prepaid credits pay for more, at $0.90 per 1,000 emails. Contacts are unlimited on every plan. See [Usage and billing](../account/usage-and-billing.md).
 
-> **Tip:** If you also have the Forms module enabled on your site, a form can add everyone who fills it in to your workspace contacts once you turn on **Create Contact** for that form -- no manual data entry needed. See the [Email Marketing guide](../content-modules/email-marketing.md) and [Workspace Products](workspace-products.md) for details.
+> **Tip:** If you also have the Forms module enabled on your site, a form can add everyone who fills it in to your workspace contacts once you turn on **Create Contact** for that form, no manual data entry needed. See the [Email marketing](../content-modules/email-marketing.md) and [Workspace products](workspace-products.md) for details.
 
 ### Forms
 
@@ -175,7 +175,7 @@ What you get when you enable it:
 - Submission tracking with filtering and status management. On a form's **Submissions** tab, click **Export CSV** to download the answers (newest first, with the labels your visitors saw) for Excel or Google Sheets
 - Email notifications when forms are submitted, and an automatic reply to the person who filled in the form (up to 100 automatic replies a day per site; over that, the submission is still saved and you still get your own email)
 - Built-in form templates to get started quickly
-- **Embed Externally** in a form's **More actions** menu, with code that puts the form on another website ([how to put a form on another website](embed-a-form-on-another-website.md))
+- **Embed Externally** in a form's **More actions** menu, with code that puts the form on another website ([Put a form on another website](embed-a-form-on-another-website.md))
 - An **Analytics** page for each form (the **Analytics** button on the form's **Submissions** tab) that shows which sources and campaigns bring you signups, such as "facebook · social" ([how to tag your links](analytics.md#tag-your-links-to-see-where-visitors-come-from))
 
 > **Tip:** When both Forms and Email Marketing are enabled, form submissions automatically flow into your marketing contacts. This is one of the easiest ways to grow your email list.
@@ -200,7 +200,7 @@ Common use cases:
 
 Any workspace with a paid plan can make 25,000 API requests a month with no API plan. Starter includes 100,000 requests and 10 GB of data a month, Growth 300,000 requests and 30 GB, and Pro 1,000,000 requests and 100 GB. Growth and Pro keep your audit log longer, and Pro has a higher rate limit. Past the included amount, prepaid credits pay for more. Active API tokens are unlimited.
 
-> **Tip:** Connecting an AI assistant (Claude, ChatGPT, Cursor, and similar) is a **separate, free** feature -- it does not need this product and is not metered. See [Connecting an AI Tool](connecting-ai-tools.md).
+> **Tip:** Connecting an AI assistant (Claude, ChatGPT, Cursor, and similar) is a **separate, free** feature, it does not need this product and is not metered. See [Connecting an AI tool](connecting-ai-tools.md).
 
 ### Widget Builder
 

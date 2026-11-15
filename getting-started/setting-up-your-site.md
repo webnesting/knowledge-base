@@ -1,6 +1,6 @@
-# Setting Up Your Site
+# Setting up your site
 
-**Last verified:** 2026-11-12 2:07am
+**Last verified:** 2026-11-15 11:36am
 
 When you create a new WebNesting site, you give it a name and pick how it starts. This page walks you through each choice so you know exactly what to expect.
 
@@ -146,7 +146,7 @@ You are not locked into your initial theme choice. To change your theme or color
 2. Under **Appearance**, click **Theme**.
 3. Find the theme you want and click **Use This Theme**.
 
-Your site shows the new look right away. To change colors and fonts, see [Themes and Customization](../dashboard/themes-and-customization.md).
+Your site shows the new look right away. To change colors and fonts, see [Themes and customization](../dashboard/themes-and-customization.md).
 
 ---
 
@@ -154,7 +154,7 @@ Your site shows the new look right away. To change colors and fonts, see [Themes
 
 Your site is set up. Here are your next steps:
 
-- **[Navigating the Dashboard](navigating-the-dashboard.md)** -- Learn your way around the Dashboard and discover all the tools at your disposal.
+- **[Navigating the dashboard](navigating-the-dashboard.md)**: Tour the dashboard and find each tool.
 - **Edit your pages** -- Open the Website Builder to start replacing the sample content with your own text, images, and layout.
 - **Upload files** -- Click **Files** in the top bar and add your photos, graphics, and documents so they are ready to use on your pages.
 
