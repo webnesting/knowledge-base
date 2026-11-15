@@ -1,6 +1,6 @@
 # WebNesting User Documentation
 
-**Last verified:** 2026-11-08 9:13pm
+**Last verified:** 2026-11-14 8:06pm
 
 Welcome to the WebNesting help center. These guides will help you build and manage your website.
 
@@ -45,6 +45,7 @@ Welcome to the WebNesting help center. These guides will help you build and mana
 | [Put a Form on Another Website](dashboard/embed-a-form-on-another-website.md) | Show a form from your site on your blog or a partner's page, in the page or behind a button |
 | [Team and Permissions](dashboard/team-and-permissions.md) | Invite team members, set roles, and manage access |
 | [Analytics and Reports](dashboard/analytics.md) | Track visitors, pageviews, traffic sources, and more |
+| [Count Signups From Any Other Ad Platform](dashboard/count-signups-any-ad-platform.md) | Count signups in an ad platform with no built-in setting, using Tag Manager or pasted code |
 | [Dashboards](dashboard/dashboards-and-reports.md) | Put your numbers from every product on one page and share it with your team |
 | [Themes and Customization](dashboard/themes-and-customization.md) | Change your theme, customize colors, and choose the right look |
 | [Billing and Usage](dashboard/billing-and-usage.md) | Understand your bill, pricing, usage tracking, and manage costs |
