@@ -1,6 +1,6 @@
 # Layouts and structure
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-15 1:51pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -467,7 +467,7 @@ For a help center or a manual: a menu of pages on the left, the text in the midd
 
 The first column is the menu, the second is the text and the third is the contents list. Put a **Page navigation** block in the first column and a **Table of contents** block in the third.
 
-On a computer, both side columns stay on screen while a visitor scrolls the text, and a long menu scrolls inside itself. A side column with nothing in it closes, and the text takes its space. The contents list also closes when the text has no heading for it to list. On a phone or a tablet, the text comes first and the menu comes after it, and the contents list is not shown.
+On a computer, both side columns stay on screen while a visitor scrolls the text, and a long menu scrolls inside itself. The text stays in the middle of the page. A side column with nothing in it is not shown, and its space stays empty, so the text sits in the same place on every page. The contents list also closes when the text has no heading for it to list. On a phone or a tablet, the text comes first and the menu comes after it, and the contents list is not shown.
 
 > **Tip:** To start with every block in place, add the **Docs page, side menu and contents list** section. See [Add a Section](adding-components.md#add-a-section).
 
