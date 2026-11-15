@@ -57,17 +57,17 @@ The platform can take a few minutes to show the test. Look on its events or diag
 
 ## What visitors see
 
-Your tags start after a visitor allows marketing cookies in your cookie banner. A visitor who says no is never sent to an ad platform. **Signups by ad** still counts their signup, because that count stays inside WebNesting.
+Your tags start when advertising cookies are on for the visitor. Outside the EU, EEA and UK they are on when the visitor arrives, and the cookie banner offers a Reject button. In the EU, EEA and UK, and for a site set to ask every visitor, the tags start after the visitor allows marketing cookies. A visitor who says no is never sent to an ad platform. **Signups by ad** still counts their signup, because that count stays inside WebNesting.
 
 When you save your first ID, WebNesting turns your cookie banner on, because a site with no banner never asks and the tags would never start. A line at the top of the page tells you, with a link to the banner settings. If you turn the banner off later, it stays off.
 
 The tag in the browser tells the platform that a signup happened. It never sends what the visitor typed, such as a name or an email address.
 
-When you save a server token, your server also sends that platform a scrambled (hashed) copy of the visitor's email address, so the platform can match the signup to an ad click. It sends it only for a visitor who allowed marketing cookies, and never for a browser with Global Privacy Control turned on. The plain email address stays in WebNesting.
+When you save a server token, your server also sends that platform a scrambled (hashed) copy of the visitor's email address, so the platform can match the signup to an ad click. It sends it only when advertising cookies are on for that visitor, and never for a browser with Global Privacy Control turned on. The plain email address stays in WebNesting.
 
 ## Add the privacy paragraph to your site
 
-When an ID is saved, a ready-made paragraph appears under that platform's fields. It names your business and says what that platform does with a visit. When you also save a server token, one more sentence appears that tells visitors about the hashed email address. Select **Copy**, then paste the text into your privacy page. Read it first and change anything that does not match how you run your business.
+When an ID is saved, a ready-made paragraph appears under that platform's fields. It names your business and says what that platform does with a visit. Its last lines say who your site asks before using these cookies: visitors in the EU, EEA and UK only, or every visitor, whichever your cookie banner is set to. Elsewhere the cookies are on unless the visitor turns them off. When you also save a server token, one more sentence appears that tells visitors about the hashed email address. Select **Copy**, then paste the text into your privacy page. Read it first and change anything that does not match how you run your business.
 
 ## Related
 
