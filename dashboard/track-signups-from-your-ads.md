@@ -1,6 +1,6 @@
 # Track signups from your ads
 
-**Last verified:** 2026-11-14 10:44pm
+**Last verified:** 2026-11-14 11:45pm
 
 Paste one ID per ad platform, and each platform learns which of its ad clicks became signups. The built-in page covers Meta, Reddit, Google Ads, TikTok, LinkedIn, Pinterest and Microsoft Advertising. For another platform, see [Count signups from any other ad platform](count-signups-any-ad-platform.md).
 
@@ -33,9 +33,9 @@ The platform can take a few minutes to show the test. Look on its events or diag
 
 ## What visitors see
 
-Your tags start after a visitor allows marketing cookies in your cookie banner. A visitor who says no is never sent to an ad platform.
+Your tags start after a visitor allows marketing cookies in your cookie banner. A visitor who says no is never sent to an ad platform. **Signups by ad** still counts their signup, because that count stays inside WebNesting.
 
-When you save your first ID, WebNesting turns your cookie banner on, because a site with no banner never asks and the tags would never start. A line at the top of the page tells you, with a link to the banner settings. If you turn the banner off later, it stays off. **Signups by ad** still counts their signup, because that count stays inside WebNesting.
+When you save your first ID, WebNesting turns your cookie banner on, because a site with no banner never asks and the tags would never start. A line at the top of the page tells you, with a link to the banner settings. If you turn the banner off later, it stays off.
 
 The platform learns that a signup happened. It never gets what the visitor typed, such as a name or an email address.
 
