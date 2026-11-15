@@ -1,6 +1,6 @@
 # Analytics and Reports
 
-**Last verified:** 2026-11-14 1:22pm
+**Last verified:** 2026-11-15 3:19am
 
 Analytics help you understand how people find and use your website. WebNesting includes built-in analytics so you can see how many visitors your site gets, which pages are most popular, and where your traffic comes from -- all from your dashboard.
 
@@ -244,6 +244,8 @@ Each time a visitor sends one of your forms, your site tells your tracking code 
   2. Choose **Custom Event** and enter `wn_form_submit` as the event name.
   3. To count one form only, choose **Some Custom Events** and set `wn_form_slug` equals that form's short name.
   4. Attach the trigger to your tag and publish the container.
+
+  Each send also has `wn_event_id`, a random ID for that one signup. If you saved a server token on the **Ad tracking** page, your server reports the same signup with this ID. When your Tag Manager tag sends Meta, Reddit, Google Ads or TikTok the signup itself, put `wn_event_id` in the tag's event ID field so the platform counts the signup once. See [Track signups from your ads](track-signups-from-your-ads.md).
 
 This also works when a form sends visitors to a thank-you page. A form with a follow-up question counts as two forms, so pick the one you want by its short name.
 
