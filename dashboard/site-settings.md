@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-11-14 5:31pm
+**Last verified:** 2026-11-14 8:24pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -205,6 +205,60 @@ Services such as Google Search Console, Pinterest and Bing give you a verificati
 WebNesting adds this code to every page exactly as typed. It runs on your published pages only, never while you edit your site.
 
 Only people with the **Custom Code** permission can change this field, because its code runs for every visitor. Site owners and Admins have it. Other people see the field read-only, with the line "Only people with the Custom Code permission can change this code. Ask your site owner." They can still change and save the other SEO settings. To give the permission, see [Team and Permissions](team-and-permissions.md#builder-access).
+
+---
+
+## Cookie Banner
+
+The **Cookie banner** page asks visitors before your site uses cookies for tracking. Until a visitor chooses, tracking stays off. Open it from the **Your site** card on the Site Settings page.
+
+1. Turn on **Show a cookie banner on this site**.
+2. Under **Who do you ask before using cookies?**, pick one:
+   - **Visitors in the EU and UK.** These visitors must say yes first. Everyone else is told about cookies and can say no. This is the default.
+   - **Every visitor.** Every visitor must say yes first, wherever they are.
+3. Click **Save Changes**.
+
+The defaults work as they are, so for most sites the switch is the only step.
+
+### See the banner before you publish
+
+Under **How it looks to visitors**, the page shows the banner your visitors see, with your words. It changes as you type. Choose **EU and UK visitors** or **Everyone else** to see what each group sees. Click **Manage preferences** in the preview to see the choices behind it. To see the banner on your real site as a first-time visitor, click **Open my site and see the banner**. Save first, so your site has your latest changes.
+
+### Customize the banner
+
+Click **Customize the banner** to change the banner message, the button words, the privacy page link and the banner position. The message can include a link. The Reject button always looks the same as the Accept button. The privacy link defaults to `/privacy`. The banner sits as a bar along the bottom or as a card in the corner. Your theme sets its colors and fonts.
+
+### What your visitors see
+
+A visitor who has not chosen yet sees the banner at the bottom of the page. It sits on top of the page, so nothing on the page moves.
+
+- A visitor in the EU or UK gets a question. Tracking stays off until they click **Accept all**, **Reject non-essential** or **Manage preferences**. The same applies when WebNesting cannot tell the visitor's country, or when the visitor's browser sends the Global Privacy Control signal.
+- A visitor anywhere else gets a notice. Analytics and Marketing run, and the visitor can click **Reject non-essential** to stop them.
+- **Manage preferences** opens one switch for Analytics and one for Marketing, each with a sentence about what it does. Necessary cookies stay on because the site needs them.
+- The banner stays away on later visits. It comes back after you click **Ask everyone again**, or after the visitor clears their browser data.
+- Every page has a **Cookie settings** link in the footer. It opens the choices so a visitor can change their mind. A page with no footer gets a small **Cookie settings** button in the bottom corner.
+- A visitor using the keyboard stays inside the choices until they close them. The **Escape** key closes them.
+
+### Your privacy choices
+
+California law asks a site that shares visits with ad platforms for a **Your privacy choices** link. Once you add an ad tag on the **Ad tracking** page, your footer shows this link next to **Cookie settings**. It opens the choices with the keyboard focus on the **Marketing** switch.
+
+- A visitor who turns Marketing off sees "Your opt-out is on." If your ad tags already started, the page reloads once to stop them. They stay off on later visits.
+- Some browsers send a Global Privacy Control signal. For those visitors, Marketing stays off with no click, even after **Accept all**, and the banner says why.
+
+A site with no ad tag shows only the **Cookie settings** link.
+
+### Ask everyone again
+
+After you change what your site does with cookies, click **Ask everyone again** and confirm. Everyone who already chose sees the banner on their next visit.
+
+If you use Google Analytics or Tag Manager, your cookie banner decides when that tracking starts. [Google Settings](#google-settings) links to this page.
+
+### What waits for the visitor's choice
+
+With the banner on, WebNesting's built-in analytics starts after a visitor accepts **Analytics**. Maps, YouTube and Vimeo videos, booking forms, social posts, Disqus comments and your ad tags start after a visitor accepts **Marketing**. Until then, a card tells the visitor what will load.
+
+Your own pasted code can wait too. Change its opening tag to `<script type="text/plain" data-consent-category="marketing">`. Use `analytics` for visitor counting. The code starts after the visitor agrees. With the banner off, everything loads at once.
 
 ---
 
