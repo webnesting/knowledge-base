@@ -1,6 +1,6 @@
 # Count signups from any other ad platform
 
-**Last verified:** 2026-11-14 8:04pm
+**Last verified:** 2026-11-14 10:44pm
 
 You run ads on a platform and you want it to count each signup your ads bring in. WebNesting has a built-in setting for seven platforms: Meta, Reddit, Google Ads, TikTok, LinkedIn, Pinterest and Microsoft Ads. If your platform is on that list, use the built-in setting. It needs no code. See "Track signups from your ads".
 
@@ -21,6 +21,8 @@ Your site adds an event called `wn_form_submit` to Tag Manager each time a form 
 2. Create a trigger of type **Custom Event** with the event name `wn_form_submit`.
 3. Attach the trigger to the tag.
 4. Publish the container.
+
+With your cookie banner on, the whole container waits until a visitor allows **Analytics**. A visitor who says no loads none of its tags.
 
 The trigger steps, and how to count one form only, are in [Count Signups in Google Analytics or Google Tag Manager](analytics.md#count-signups-in-google-analytics-or-google-tag-manager). That section also says where to enter your Tag Manager ID.
 

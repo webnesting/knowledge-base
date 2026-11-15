@@ -1,6 +1,6 @@
 # Site Settings
 
-**Last verified:** 2026-11-14 8:24pm
+**Last verified:** 2026-11-14 10:44pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -256,7 +256,7 @@ If you use Google Analytics or Tag Manager, your cookie banner decides when that
 
 ### What waits for the visitor's choice
 
-With the banner on, WebNesting's built-in analytics starts after a visitor accepts **Analytics**. Maps, YouTube and Vimeo videos, booking forms, social posts, Disqus comments and your ad tags start after a visitor accepts **Marketing**. Until then, a card tells the visitor what will load.
+With the banner on, WebNesting's built-in analytics and your Google Tag Manager container start after a visitor accepts **Analytics**. Google Analytics on its own starts at once, but saves no cookie until the visitor agrees. Maps, YouTube and Vimeo videos, booking forms, social posts, Disqus comments and your ad tags start after a visitor accepts **Marketing**. Until then, a card tells the visitor what will load.
 
 Your own pasted code can wait too. Change its opening tag to `<script type="text/plain" data-consent-category="marketing">`. Use `analytics` for visitor counting. The code starts after the visitor agrees. With the banner off, everything loads at once.
 
