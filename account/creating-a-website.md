@@ -1,6 +1,6 @@
 # Creating a website
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-16 4:25pm
 
 Ready to build your first site? This guide walks you through creating a new website on WebNesting.
 
@@ -25,6 +25,12 @@ You can also start from **Settings** > **Products**: find the **Websites** card 
 The page that lists your workspaces has a **Websites** banner under your workspaces. It reads **Launch your next site in about a minute**. Select the banner and a short popup walks you through the same steps without leaving the page: pick which workspace the site belongs to (it asks only if you have more than one), fill in the details below, choose how to start, and watch it set up. When it's ready, an **Open Site Admin** button takes you straight into your new site.
 
 ![The workspace list with the Websites banner highlighted](../images/account/creating-a-website-workspace-list-banner.png)
+
+### How many sites you can create
+
+Until you save a payment method, each workspace can have 10 sites and you can have 3 workspaces. At a limit, the **Create Workspace** window, the **Create Site** page or the **Create Website** popup tells you so and shows an **Add a Payment Method** button. Select it to open the **Payment methods** tab on your Billing page. When a payment method is saved, the limits go away.
+
+If you cannot change billing in the workspace, the message asks you to get the workspace owner to add a payment method on the Billing page.
 
 ---
 

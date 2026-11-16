@@ -1,6 +1,6 @@
 # Creating your account
 
-**Last verified:** 2026-11-16 5:41am
+**Last verified:** 2026-11-16 4:25pm
 
 Welcome to WebNesting! Getting started takes just a few minutes. This guide walks you through creating your account and getting ready to build your first website.
 
@@ -88,3 +88,5 @@ When you create a workspace, the **Create Workspace** page has a **Promotion cod
 - To add a code for this workspace, select **Have a code?** (or **Have another code?**), type the code and select **Check code**. You see what it gives you. The code is applied when you select **Create Workspace**.
 
 After the workspace is ready, a message names each code that was applied.
+
+Until you save a payment method, you can have 3 workspaces. If you already have 3, **Create Workspace** tells you so and shows an **Add a Payment Method** button that opens the **Payment methods** tab on your Billing page. When a payment method is saved, you can create more.
