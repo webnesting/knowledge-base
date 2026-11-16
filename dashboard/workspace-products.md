@@ -1,6 +1,6 @@
 # Workspace products
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-16 4:38pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -18,7 +18,7 @@ Every workspace includes your contact list, media and team collaboration. When y
 
 ### Websites
 
-Build websites and put them on the web. **Websites is always on** and has no on/off switch. Each website you create is free to build and has no plan. You pick a paid Websites plan for each site when you use **Go Live** ($6, $12 or $22 a month; see [Usage and billing](../account/usage-and-billing.md#plans)). Each site has its own included bandwidth, set by its plan (see [Billing and usage](billing-and-usage.md#website-bandwidth)). Use **Create Site** on the Websites card to create a website, your first one included. Once you have a website, the **Sites** section appears in your sidebar, where your websites live.
+Build websites and put them on the web. **Websites is always on** and has no on/off switch. Each website you create is free to build and has no plan. You pick a paid Websites plan for each site when you use **Go Live** (Starter $9, Growth $19, Pro $39 or Business $69 a month; see [Usage and billing](../account/usage-and-billing.md#plans)). Each site has its own included bandwidth, set by its plan (see [Billing and usage](billing-and-usage.md#website-bandwidth)). Use **Create Site** on the Websites card to create a website, your first one included. Once you have a website, the **Sites** section appears in your sidebar, where your websites live.
 
 ### Marketing
 
@@ -105,9 +105,9 @@ Each product is a plan with a flat monthly price and an included amount that sta
 
 | Product | Starter | Growth | Pro |
 |---|---|---|---|
-| Marketing | $8: 10,000 emails | $29: 50,000 emails | $59: 125,000 emails |
-| Helpdesk | $7: 100 tickets | $19: 500 tickets | $34: 2,000 tickets |
-| Tasks | $5: 500 active tasks | $12: 5,000 active tasks | $25: unlimited active tasks |
+| Marketing | $15: 10,000 emails | $59: 50,000 emails | $99: 125,000 emails |
+| Helpdesk | $10: 500 tickets | $49: 4,000 tickets | $99: 8,000 tickets |
+| Tasks | $5: 5,000 open tasks | $19: 20,000 open tasks | $49: 50,000 open tasks |
 | API | $10: 100,000 requests, 10 GB data | $29: 300,000 requests, 30 GB data, longer audit history | $89: 1,000,000 requests, 100 GB data, longer audit history, a higher rate limit |
 
 With two or more paid plans, your highest-priced plan is full price and every other plan is 5% off with two plans, up to 20% off with five or more. The details, what happens at a limit, and how credits work: [Usage and billing](../account/usage-and-billing.md).
@@ -124,11 +124,11 @@ Starter, Growth or Pro, by the emails you send each month. Emails sent by your a
 
 ### Helpdesk
 
-Starter, Growth or Pro, by the tickets you receive each month. Your per-site knowledge base is included, with no per-article charge. (Internal Docs is a separate, always-free product.)
+Starter, Growth or Pro, by the tickets your team answers each month. A ticket counts once, when a reply from your team or an automatic reply goes out. Extra tickets cost $0.02 each, paid from your credits and then on your next bill. Helpdesk never stops and replies never lock. Your per-site knowledge base is included, with no per-article charge. (Internal Docs is a separate, always-free product.)
 
 ### Tasks
 
-Free, Starter, Growth or Pro, by the active tasks you have. **Free** costs $0, needs no card and includes 10 active tasks. Turn on Tasks and you start on Free, unless you pick a paid plan. At 10 active tasks, a new task is refused with a message that points to Starter. If you move from a paid plan to Free with more than 10 active tasks, you keep them all, and you cannot add more until you are under 10. Projects are free. Their tasks count as active tasks.
+Free, Starter, Growth or Pro, by the open tasks you have. **Free** costs $0, needs no card and has 1 project and 20 open tasks at once. Turn on Tasks and you start on Free, unless you pick a paid plan. At 20 open tasks, a new task is refused with a message that points to Starter. A second project is refused with a message that points to Starter too. An archived project still counts as your 1 project, and a deleted one does not. If you move from a paid plan to Free with more than 20 open tasks or more than 1 project, you keep them all, and you cannot add more until you are under the limit. Paid plans have unlimited projects. The tasks in a project count as open tasks.
 
 ### API Access
 

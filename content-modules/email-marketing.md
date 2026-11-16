@@ -1,6 +1,6 @@
 # Email marketing
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-16 4:38pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -20,9 +20,9 @@ Pricing: Marketing is a monthly plan for the whole workspace, in three sizes.
 
 | Plan | Price | Emails each month |
 |---|---|---|
-| Starter | $8 | 10,000 |
-| Growth | $29 | 50,000 |
-| Pro | $59 | 125,000 |
+| Starter | $15 | 10,000 |
+| Growth | $59 | 50,000 |
+| Pro | $99 | 125,000 |
 
 The emails reset on the 1st. If you buy a plan mid-month, you pay for the days left and get the matching share of the emails. Emails sent by your [automations](../dashboard/marketing-automation.md) count with campaign emails, from the same allowance. Contacts are unlimited on every plan.
 

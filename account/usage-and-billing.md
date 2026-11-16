@@ -1,6 +1,6 @@
 # Usage and billing
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-16 4:38pm
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -12,25 +12,36 @@ WebNesting works with plans. You pick a plan for each part of WebNesting you use
 
 A plan is one part of WebNesting at one size. Each plan has a flat price per month and a set amount included. The amount starts over on the 1st of every month.
 
+Websites have four plans. You pick one for each site.
+
+| Websites plan | Price for each site | Storage | Website bandwidth | About this many visits a month |
+|---|---|---|---|---|
+| **Starter** | $9 a month | 2 GB | 5 GB | 4,000 |
+| **Growth** | $19 | 5 GB | 15 GB | 12,000 |
+| **Pro** | $39 | 20 GB | 40 GB | 35,000 |
+| **Business** | $69 | 50 GB | 120 GB | 115,000 |
+
+Marketing, Helpdesk, Tasks and the API have three paid plans each.
+
 | Plan | Starter | Growth | Pro |
 |---|---|---|---|
-| **Websites** (price for each site) | $6 a month: 2 GB storage, 5 GB website bandwidth | $12: 5 GB storage, 15 GB bandwidth | $22: 20 GB storage, 40 GB bandwidth |
-| **Marketing** | $8: 10,000 emails | $29: 50,000 emails | $59: 125,000 emails |
-| **Helpdesk** | $7: 100 tickets | $19: 500 tickets | $34: 2,000 tickets |
-| **Tasks** | $5: 500 active tasks | $12: 5,000 active tasks | $25: unlimited active tasks |
+| **Marketing** | $15: 10,000 emails | $59: 50,000 emails | $99: 125,000 emails |
+| **Helpdesk** | $10: 500 tickets | $49: 4,000 tickets | $99: 8,000 tickets |
+| **Tasks** | $5: 5,000 open tasks | $19: 20,000 open tasks | $49: 50,000 open tasks |
 | **API** | $10: 100,000 requests, 10 GB data | $29: 300,000 requests, 30 GB data, longer audit history | $89: 1,000,000 requests, 100 GB data, longer audit history, a higher rate limit |
 
 - **Contacts, team members and API tokens are unlimited** on every plan.
 - **Every site has unlimited pages**, one you are still building free too.
-- **Active tasks** are the tasks that are not done. "Unlimited" on Tasks Pro is for normal use.
-- **Tasks has a Free plan.** It costs $0, needs no card and includes 10 active tasks. When you turn on Tasks, you start on Free unless you pick a paid plan. Free never uses credits: at 10 active tasks, a new task is refused until you finish a task or upgrade to Starter.
+- **Open tasks** are the tasks that are not done. A paid Tasks plan counts each task once a month, so a task you finish this month still counts until the 1st. Every paid Tasks plan has a set number of open tasks. Tasks Pro has 50,000.
+- **A Helpdesk ticket counts once, when it is answered.** That is when a reply from your team goes out, or when an automatic reply is delivered. A ticket nobody answers, such as spam, does not count. A "resolved" notice does not count it, and neither does imported email history. A ticket you delete stops counting. Replies never lock.
+- **Tasks has a Free plan.** It costs $0, needs no card and has 1 project and 20 open tasks at once. When you turn on Tasks, you start on Free unless you pick a paid plan. Free never uses credits. At 20 open tasks, a new task is refused until you finish a task or upgrade to Starter. A second project is refused too. An archived project still counts as your 1 project, and a deleted one does not. Every paid Tasks plan has unlimited projects.
 - Prices are in US dollars. Plans are billed monthly.
 
 ### Building a site free, then going live
 
 A new site has no plan, and its plan costs $0 while you build. It has unlimited pages, 500 MB of storage and 500 MB of bandwidth each month. Only your **Preview** and **Share** links use that bandwidth. Past 500 MB, a share link shows the "temporarily unavailable" page until the 1st or until the site goes live. The site has no public address yet. The usage page calls it "Not published: building free".
 
-Pick a plan when the site is ready. **Go Live** on the Sites page lists Starter, Growth and Pro. It shows the exact price first: the amount you pay now for the rest of this month, then the monthly price on the 1st. Choose **Next**, tick two boxes to agree, then choose **Pay** to charge your card. Then WebNesting sets up the site on its `webnesting.site` address. If your bank asks you to confirm the payment, the site goes live as soon as the payment goes through. A member who cannot manage billing sees "Ask a workspace owner to put this site live." After an owner approves, the window says so, and **Go Live** puts the site live and charges the card on file.
+Pick a plan when the site is ready. **Go Live** on the Sites page lists Starter, Growth, Pro and Business. It shows the exact price first: the amount you pay now for the rest of this month, then the monthly price on the 1st. Choose **Next**, tick two boxes to agree, then choose **Pay** to charge your card. Then WebNesting sets up the site on its `webnesting.site` address. If your bank asks you to confirm the payment, the site goes live as soon as the payment goes through. A member who cannot manage billing sees "Ask a workspace owner to put this site live." After an owner approves, the window says so, and **Go Live** puts the site live and charges the card on file.
 
 **Take Offline** works on the monthly cycle. The site stays live, and its plan stays billed, until the end of the current month. Then the site goes offline and its plan ends. Add-ons keep billing until you turn them off. Until the end of the month you can choose **Keep It Live**. To put the site live again afterwards, use **Go Live** and agree to a new price summary.
 
@@ -74,7 +85,17 @@ With two or more paid plans, your highest-priced plan is full price. Every other
 
 - A new plan can move your other plans to a bigger discount. Sometimes your monthly total then goes down. In that case you pay nothing for the new plan this month, and your next bill on the 1st is lower.
 
-For example, a Starter site ($6) and Marketing Pro ($59) are $65 at full price. Marketing Pro is the highest-priced plan, so it stays at $59. With two plans, the site is 5% off, at $5.70. You pay $64.70 a month. Add Helpdesk Starter ($7): with three plans, the site and Helpdesk are 10% off, at $5.40 and $6.30. You pay $70.70 a month.
+For example, a Starter site ($9) and Marketing Pro ($99) are $108 at full price. Marketing Pro is the highest-priced plan, so it stays at $99. With two plans, the site is 5% off, at $8.55. You pay $107.55 a month. Add Helpdesk Starter ($10): with three plans, the site and Helpdesk are 10% off, at $8.10 and $9.00. You pay $116.10 a month.
+
+### Save 5% with a "Powered by WebNesting" link
+
+A site on a paid plan can show a small "Powered by WebNesting" link at the bottom of its footer. In return, that site's plan costs 5% less. This 5% adds to the multi-product discount, so one site plan can be up to 25% off.
+
+- **Turn it on** with the checkbox under the plan cards on the site's **Modules** page, or in the **Go Live** window. It is off until you choose it.
+- **The link shows at once.** Your 5% starts with your next bill. When you turn it on in **Go Live**, the 5% starts with your first bill.
+- **The 5% comes off the site's plan only.** Add-ons and credits stay at full price. A site on a special price gets 5% of that price.
+- **Turn it off** with the same checkbox. The link and the 5% both end with your next bill.
+- **Keep the link visible.** We check it on the last day of each month. If visitors cannot see it, that month's bill has no 5% off for that site, and we email you the reason. Fix the link and we check again the next month.
 
 ### Storage is shared
 
@@ -113,11 +134,11 @@ What a credit pays for:
 | Use past your plan | Credit price |
 |---|---|
 | Marketing emails | $0.90 per 1,000 emails |
-| Helpdesk tickets | $0.06 for each ticket |
-| Active tasks | $0.01 for each active task, each month |
+| Helpdesk tickets | $0.02 for each ticket |
+| Open tasks | $0.01 for each open task, each month |
 | API requests | $0.08 per 1,000 requests |
-| API data | $0.35 per GB |
-| Website bandwidth | $0.35 per GB |
+| API data | $0.39 per GB |
+| Website bandwidth | $0.39 per GB |
 | Storage | $0.25 per GB, each month |
 
 ---
@@ -129,8 +150,8 @@ You always see your numbers on the **Usage** page, under **Included This Month**
 | Part | At the limit |
 |---|---|
 | **Marketing emails** | A new campaign does not start. The message tells you how many emails you used. Emails from automations wait and go out when you add credits, move to a bigger plan, or the month starts over. |
-| **Helpdesk tickets** | Tickets keep arriving. Up to 25% above your limit works as normal. Past that, new tickets are marked as over the limit and replies to them are locked. |
-| **Active tasks** | You cannot create, reopen or restore a task. On the Free plan, the message points you to Starter, and credits are not used. |
+| **Helpdesk tickets** | Nothing stops. Tickets keep arriving, your team can always reply, and no customer email is refused. Past your plan, credits pay $0.02 for each extra ticket. When the credits are gone, the extra tickets go on your next bill (see [Extra usage on your next bill](#extra-usage-on-your-next-bill)). |
+| **Open tasks** | You cannot create, reopen or restore a task. On the Free plan, credits are not used. You can have 20 open tasks at once and 1 project. The message points you to Starter. |
 | **API** | Requests are refused with a "usage limit" message. This also happens when the API data of the month is past your plan and credits did not pay for it. |
 | **Storage** | Uploads, imports and site publishing that add files are refused. Helpdesk attachments and form uploads are still stored and paid with credits. |
 | **Pages** | No limit. If a site's paid plan is not renewed, you cannot make a new page until you renew it. |
@@ -154,13 +175,14 @@ While a site is held, its pages do not open. The pictures and videos in **Files*
 
 ### Extra usage on your next bill
 
-Some use is counted only after it happens, so a limit cannot stop it in time:
+Some use is counted only after it happens, and some use never stops, so a limit cannot hold it back:
 
 - the website bandwidth of each site, the 15% extra of a paid site included;
 - files sent from your workspace media library (not from a site), which keep loading at a limit;
 - the data your API calls send;
 - helpdesk attachments and form uploads;
-- storage and active tasks you still have above your plan on the 1st.
+- helpdesk tickets past your plan, because Helpdesk never stops;
+- storage and open tasks you still have above your plan on the 1st.
 
 Credits pay for this use first. What credits did not pay for is extra usage, and you pay it on your next bill:
 
@@ -209,19 +231,19 @@ The **Usage** page shows how much you use over time. It shows counts only, no pr
 ![The Usage page with the date ranges, the Show and Where lists, the chart and the Usage This Period table](../images/account/usage-and-billing-usage-page.png)
  (Everything to do with money, including your plans, credits and what you have left, is on the **Billing** page.)
 
-- **Show** picks one thing to chart at a time -- for example emails sent, tickets created, contacts or pages.
+- **Show** picks one thing to chart at a time, for example emails sent, tickets created, contacts or pages.
 - The chart covers every day of the range you picked, up to today, including days with nothing on them, so you can see exactly when things happened. Switch between **Bar** and **Line** to change how it is drawn.
 - **Export CSV** saves what you are looking at as a spreadsheet file.
 
 ### Choosing date ranges
 
-Pick **This Month**, **Last 3 Months** or **Last 12 Months**, or **Custom** to choose a From and To month. Ranges are always whole months. In the current month, the chart stops at today -- days that haven't happened yet are never drawn as zero -- and for emails, tickets and API calls a lighter bar estimates the rest of the month.
+Pick **This Month**, **Last 3 Months** or **Last 12 Months**, or **Custom** to choose a From and To month. Ranges are always whole months. In the current month, the chart stops at today (days that have not happened yet are never drawn as zero), and for emails, tickets and API calls a lighter bar estimates the rest of the month.
 
 ### How things are counted
 
 - **Emails, tickets, API calls and website bandwidth** add up: the number is everything that happened in the range. Website bandwidth shows in GB and is counted within a few minutes of each visit. Click its **Website Bandwidth** row to see one month: the last month of the range you picked. It shows that month's total, the GB each website sent that month and the 5 files that sent the most. If you picked more than one month, the number on the row adds all of them, so it can be larger than the total inside.
 - **Automation emails** count with your marketing emails, in **Marketing Emails Sent**, and cost the same.
-- **Contacts, active tasks, pages, storage and API tokens** are what you have right now (or, for a past range, what you had at its end) -- they don't add up day after day.
+- **Contacts, open tasks, pages, storage and API tokens** are what you have right now (or, for a past range, what you had at its end). They do not add up day after day.
 
 ### Usage by where it's used
 
@@ -266,8 +288,8 @@ Anything still outstanding appears in a banner at the top of the Billing page.
 If you have a promotion code from WebNesting, enter it in one of three places. Each place has **Have a code?**: select it, enter the code and select **Check code** to see what it gives you.
 
 - **When you sign up**: the code is kept for the first workspace you create. See [Creating your account](creating-your-account.md).
-- **When you create a workspace** -- it is applied when you create the workspace.
-- **On the Billing page** -- under **Promotion code**. Select **Apply to this workspace**.
+- **When you create a workspace**: it is applied when you create the workspace.
+- **On the Billing page**: under **Promotion code**. Select **Apply to this workspace**.
 
 Details and the messages a refused code shows: [Promotion codes](../dashboard/billing-and-usage.md#promotion-codes).
 

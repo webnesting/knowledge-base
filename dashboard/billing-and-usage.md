@@ -1,6 +1,6 @@
 # Billing and usage
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-16 4:38pm
 
 WebNesting bills with plans and prepaid credits. You pick a plan for each part of WebNesting you use and pay for it on the 1st of the month. If you use more than a plan includes, prepaid credits pay for the extra. This page explains the details: what is included, what happens at a limit, and how to see and pay your bills. For the plan prices, how credits work and how a failed payment is handled, see [Usage and billing](../account/usage-and-billing.md).
 
@@ -21,7 +21,7 @@ You pay in advance. Nothing is billed after the month, unless your workspace has
 
 Each plan includes an amount that starts over on the 1st of every month. It is your **included amount**. The **Usage** page shows it as **Included This Month**: what you used, what is left, and **Past included amount** when you are past it. When nothing is left, the line says **Used up**. Credits you bought never add to "what is left". They only pay once the included amount is gone.
 
-A new site has no plan while you build it, and that costs $0. It has unlimited pages, 500 MB of storage and 500 MB of bandwidth each month, used only by **Preview** and **Share** links. You pick a plan when you use **Go Live**. Contacts, team members and API tokens are unlimited on every plan. The full table of plans and prices: [Usage and billing](../account/usage-and-billing.md#plans).
+A new site has no plan while you build it, and that costs $0. It has unlimited pages, 500 MB of storage and 500 MB of bandwidth each month, used only by **Preview** and **Share** links. You pick a plan when you use **Go Live**. Contacts, team members and API tokens are unlimited on every plan. The full table of plans and prices: [Usage and billing](../account/usage-and-billing.md#plans). A paid site can save 5% on its plan by showing a "Powered by WebNesting" link in its footer: [Save 5% with a "Powered by WebNesting" link](../account/usage-and-billing.md#save-5-with-a-powered-by-webnesting-link).
 
 A member who cannot manage billing can ask to use **Go Live**. The people who manage billing get a bell notification and an email. A window opens over the page they are on and shows who asked, what for, the site and the price. **Approve** lets the member go ahead. **Decline** turns the request down and charges nothing. **Not now** hides the window until another request comes. The member sees the answer in their bell and by email, with a link to try again.
 
@@ -77,13 +77,13 @@ While a site is held, its pages do not open. Its pictures, videos and other file
 
 When you upload a video over 50 MB in **Files**, a note reminds you that videos use website bandwidth.
 
-### Emails, tickets, active tasks and API
+### Emails, tickets, open tasks and API
 
 Each of these has an included amount in its plan, and credits pay for more. What happens when both are used up is in [Usage and billing](../account/usage-and-billing.md#what-happens-at-a-limit). In short:
 
 - **Marketing emails.** A new campaign does not start. Automation emails wait.
-- **Helpdesk tickets.** Tickets keep arriving. Up to 25% above your limit works as normal. Past that, new tickets are marked as over the limit and replies to them are locked.
-- **Active tasks.** You cannot create, reopen or restore a task.
+- **Helpdesk tickets.** Nothing stops. Tickets keep arriving and replies never lock. A ticket counts once, when it is answered. Past your plan, credits pay for each extra ticket, and then the extra tickets go on your next bill.
+- **Open tasks.** You cannot create, reopen or restore a task. On the Free plan, you can have 20 open tasks at once and 1 project.
 - **API requests.** They are refused with a "usage limit" message.
 - **API data.** When your API data goes past your plan and your credits cannot pay for the extra, API calls stop with the same message. Buying credits lets them work again.
 
@@ -178,14 +178,14 @@ Sometimes WebNesting gives your workspace something extra. It is never mixed sil
 
 - **Every month.** A monthly bonus is given again each month. Unused units either end with the month or carry over until the bonus ends; the email you get says which.
 - **All at once.** A one-time bonus is given in full the day it starts. It is used month by month until it runs out or ends.
-- **Things you have a number of.** A bonus on pages, storage, active tasks or API tokens is a fixed extra amount every month. It always ends with the month.
+- **Things you have a number of.** A bonus on pages, storage, open tasks or API tokens is a fixed extra amount every month. It always ends with the month.
 - **Waiting.** If a bonus is for a product you do not have a plan for, nothing is used.
 
 ### Your price
 
 WebNesting can set a lower credit price for your workspace, for one meter or one site. Where a message names the price of one more unit, such as the message when a limit is reached, it shows your price. A price can have an end date. After it, the list price applies again.
 
-WebNesting can also set your own price for one plan, such as Marketing Growth, or for an add-on, on every site or on one site. Your plan invoice then lists the plan at its normal price and a separate **Your price** line under it, for example "Your price: Marketing Growth plan" with "$19.00 / month in place of $29.00 / month". You pay the difference less. If your price starts or ends during a month, that month's line takes off only its part of the month. On the **Billing** page, **Your Plans** shows your price beside the list price, which is struck out. The **Next Renewal** shows your price too, and so does the amount charged when you change a plan. When you choose a plan, the plan picker shows the price the 1st renews at, beside the list price.
+WebNesting can also set your own price for one plan, such as Marketing Growth, or for an add-on, on every site or on one site. Your plan invoice then lists the plan at its normal price and a separate **Your price** line under it, for example "Your price: Marketing Growth plan" with "$49.00 / month in place of $59.00 / month". You pay the difference less. If your price starts or ends during a month, that month's line takes off only its part of the month. On the **Billing** page, **Your Plans** shows your price beside the list price, which is struck out. The **Next Renewal** shows your price too, and so does the amount charged when you change a plan. When you choose a plan, the plan picker shows the price the 1st renews at, beside the list price.
 
 **A later end date.** If WebNesting moves the end of your price to a later date, and you already paid a plan invoice for those days, the difference is added to your credit balance as prepaid credits. If that plan invoice is not paid yet, its total goes down instead. If the end then moves earlier again, only the credits for the days it no longer covers come off.
 

@@ -1,6 +1,6 @@
 # Modules and features
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-16 4:38pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -28,7 +28,7 @@ To see all the modules you can add to your site:
 
 ![The Modules page with Your Site Plan at the top, then a card for each module with its On or Off state, its price and a Turn on or Turn off button](../images/dashboard/modules.png)
 
-At the top, **Your Site Plan** shows the plan this site is on and how many visits it holds each month. **All add-ons together** under it is what the site's add-ons cost a month. To change the plan, pick another plan card. The button under the cards says what will happen before you confirm. Prices in the picture read $0.00 because the Example workspace has its add-ons included. Your page shows your own prices.
+At the top, **Your Site Plan** shows the plan this site is on and how many visits it holds each month. **All add-ons together** under it is what the site's add-ons cost a month. To change the plan, pick another plan card. The button under the cards says what will happen before you confirm. On a paid plan, a checkbox under the cards shows a "Powered by WebNesting" link in your site's footer and takes 5% off the site's plan. The link shows at once, and the 5% starts with your next bill. More: [Save 5% with a "Powered by WebNesting" link](../account/usage-and-billing.md#save-5-with-a-powered-by-webnesting-link). Prices in the picture read $0.00 because the Example workspace has its add-ons included. Your page shows your own prices.
 
 Each module is shown as a card with its name, a short description of what it does, its **Off** or **On** state, and its price. The cards are **Form**, **API** (Site API Access), **Widget Builder**, **Article**, **Event**, **Store** and **Accounts**. A **Filters** button lets you narrow the list by status.
 
@@ -149,7 +149,7 @@ Events are laid out the way concert halls and venues show them, in your theme's 
 
 ### Email Marketing (Workspace Product)
 
-**Monthly cost:** $8, $29 or $59 a month, by the emails you send
+**Monthly cost:** $15, $59 or $99 a month, by the emails you send
 
 Email marketing is a **workspace product**, not a site module. You enable it at the workspace level and it works across every site in the workspace.
 

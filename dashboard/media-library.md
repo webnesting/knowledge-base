@@ -1,6 +1,6 @@
 # Files
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-16 4:38pm
 
 The File Manager is where every file in your workspace lives — images, videos, documents, helpdesk email attachments, and files visitors upload through your forms. Think of it as your workspace's file cabinet: one place, organized in folders, just like the files on your computer.
 
@@ -50,7 +50,7 @@ Each file can be up to 100 MB. A larger file is stopped before it uploads, and a
 
 > **Tip:** Files you upload into the Helpdesk or Form Uploads folders are automatically kept private, since those folders usually hold customer information.
 
-**A video over 50 MB shows a note.** When an upload has a video over 50 MB (up to the 100 MB limit), a strip above the file list names the video and says: "Videos use your site's included bandwidth each time they're watched, and then credits ($0.35 per GB). For long videos, embedding from YouTube or Vimeo costs nothing." The credit price in the strip is the price on your [credit price list](../account/usage-and-billing.md#credits). The strip shows once for each upload. It stays until you click **Got it** or start another upload. It does not stop the upload. See [Website bandwidth](billing-and-usage.md#website-bandwidth) for what is counted.
+**A video over 50 MB shows a note.** When an upload has a video over 50 MB (up to the 100 MB limit), a strip above the file list names the video and says: "Videos use your site's included bandwidth each time they're watched, and then credits ($0.39 per GB). For long videos, embedding from YouTube or Vimeo costs nothing." The credit price in the strip is the price on your [credit price list](../account/usage-and-billing.md#credits). The strip shows once for each upload. It stays until you click **Got it** or start another upload. It does not stop the upload. See [Website bandwidth](billing-and-usage.md#website-bandwidth) for what is counted.
 
 ---
 

@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-16 4:38pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -613,7 +613,7 @@ When a ticket does not belong in your list, open it and click **Filter Sender**.
 
 If the sender has other open tickets, a checkbox offers to move those too, and says how many it moves. It stays off until you tick it.
 
-> **Tip:** An email that a filter moves to Filtered or closes still counts as a ticket on your plan. A deleted email does not.
+> **Tip:** A ticket counts on your plan once a reply goes out for it. An email that a filter moves to Filtered, and that nobody answers, does not count. A ticket you delete stops counting.
 
 ---
 
@@ -637,7 +637,7 @@ Besides the replies your team writes, the Helpdesk sends a few emails on its own
 
 Your team is also notified inside the app either way, so turning a team email off doesn't mean anyone misses anything.
 
-**Up to 100 automatic replies a day per workspace.** After the 100th "Confirm we got their email" of the day, new tickets still open and your team still gets its emails, but customers get no automatic reply until the next day. The day follows your workspace's time zone. A real business rarely gets near 100; the limit stops a flood of spam emails from sending replies without end.
+**Up to 100 automatic replies a day per workspace.** After the 100th "Confirm we got their email" of the day, new tickets still open and your team still gets its emails, but customers get no automatic reply until the next day. The day follows your workspace's time zone. A real business rarely gets near 100; the limit stops a flood of spam emails from sending replies without end. An automatic reply that is delivered counts its ticket on your plan, the same as a reply from your team. See [Usage and billing](../account/usage-and-billing.md#plans).
 
 **Replies your team writes always go out.** Someone chose to send those, so no switch stops them.
 
