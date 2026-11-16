@@ -1,6 +1,6 @@
 # Creating your account
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-16 5:41am
 
 Welcome to WebNesting! Getting started takes just a few minutes. This guide walks you through creating your account and getting ready to build your first website.
 
@@ -26,7 +26,16 @@ Welcome to WebNesting! Getting started takes just a few minutes. This guide walk
 4. Check **I agree to the Terms and Conditions and the Privacy Policy**. You can't create an account without it. Select **Terms and Conditions** or **Privacy Policy** to read either one in a new tab. When you agree, you accept that our prices can change. We email you at least 30 days before a price goes up. If you leave the box empty, the form says "Please agree to the Terms and Conditions to create your account."
 5. Optionally, check **Send me product updates and tips** if you'd like occasional emails about new features. It's unchecked by default, and you can change your mind anytime from your account portal.
 6. If you have a promotion code for new accounts, select **Have a code?** under **Promotion code**. Type the code and select **Check code**. You see what the code gives you. To use another code, select **Use a different code**.
-7. Select **Create Account**.
+7. Wait for the security check above **Create Account** to show a tick. It usually finishes by itself. Sometimes it asks you to select a box.
+8. Select **Create Account**.
+
+> **If the security check shows a message:** the check keeps bots from making fake accounts. Your typed details stay in the form while you sort it out.
+>
+> - "Please complete the security check before you create your account": wait for the tick, then select **Create Account** again.
+> - "The security check did not load": turn off any ad or script blocker for this page, then reload it.
+> - "The security check did not pass" or "The security check timed out": do the check again.
+> - "We could not finish the security check just now": wait a minute, then select **Create Account** again.
+> - "This browser cannot run the security check": update your browser or use another one.
 
 > **Note:** If the email address you entered is already registered, you will see a message letting you know an account already exists. You can sign in instead or use a different email.
 
