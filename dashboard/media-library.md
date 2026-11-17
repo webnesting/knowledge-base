@@ -1,6 +1,6 @@
 # Files
 
-**Last verified:** 2026-11-16 4:38pm
+**Last verified:** 2026-11-17 9:19am
 
 The File Manager is where every file in your workspace lives — images, videos, documents, helpdesk email attachments, and files visitors upload through your forms. Think of it as your workspace's file cabinet: one place, organized in folders, just like the files on your computer.
 
@@ -21,7 +21,13 @@ Both show the same files and folders.
 
 ![The File Manager showing a grid of pictures, with search, a file type filter, sorting, and the storage total on the right](../images/dashboard/media-manager.png)
 
-Above your files, **Search files…** finds a file by name. The first list narrows the view to one kind of file: **Images**, **Missing Alt Text**, **Videos**, **Documents**, **Audio**, **Archives** or **Animations**. The second list sorts by **Date**, **Name**, **Size** or **Type**, and the two buttons after it switch between a grid and a list. When no file is selected, the panel on the right shows how many files you have and how much storage they use.
+Above your files, **Search files…** finds a file by name.
+
+A search also finds free photos, shown after your own files in the same list. WebNesting photos come first: these are photos we already keep, ready to use. Unsplash photos come after them. Under each photo you see where it is from and who took it, for example **WebNesting · Clay Banks**. Click a photo to see its details: what it shows, who took it, its size and its license. Nothing is added yet. To keep it, click **Add to my files**. Scroll down to load more photos.
+
+To look through every WebNesting photo without typing a search, click **WebNesting photos** beside the search box. The search box then searches only those photos. Click the button again, or click any folder, to go back to your files.
+
+The first list narrows the view to one kind of file: **Images**, **Missing Alt Text**, **Videos**, **Documents**, **Audio**, **Archives** or **Animations**. The second list sorts by **Date**, **Name**, **Size** or **Type**, and the two buttons after it switch between a grid and a list. When no file is selected, the panel on the right shows how many files you have and how much storage they use.
 
 ---
 
