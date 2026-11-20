@@ -1,6 +1,6 @@
 # Saving and publishing
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-19 10:19pm
 
 All your hard work designing and building your site leads to this: getting it live for the world to see. This guide explains the difference between saving and publishing, how to use undo and redo, and all the keyboard shortcuts that make your workflow faster.
 
@@ -203,6 +203,18 @@ No. Saving only stores your draft. Your live site is not affected until you clic
 ### What if my internet goes out while I am working?
 
 The auto-save feature saves your work periodically, so you should not lose much progress. When your internet returns, your saved work will be waiting for you. If the builder is still open, you can continue working and save again once your connection is back.
+
+### What does "Your site is being updated" mean?
+
+WebNesting sometimes updates the content of your site while you work, for example when a new version of the builder needs your pages in a new shape. Your changes stay in the builder the whole time, and you can keep working.
+
+If the message says "Your site is being updated. Your changes are kept and saved in a moment.", the update is running now. The builder saves your changes a few seconds after it ends.
+
+If the message says "Your site was updated. The editor reloads the updated page and keeps your changes.", the update changed the page you have open. The builder loads the updated page, puts your changes back on it, and saves them.
+
+The email designer does the same for email templates and campaigns. The builder on a content item's edit page (for example a blog post) does the same too.
+
+An import or a change to the code of an HTML component waits for the update. If you start one during the update, the message says "Your site is being updated, so nothing was changed. Try again in a minute." Nothing is lost: do it again after a minute.
 
 ### Can other people see my draft changes?
 
