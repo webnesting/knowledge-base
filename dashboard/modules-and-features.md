@@ -1,6 +1,6 @@
 # Modules and features
 
-**Last verified:** 2026-11-20 7:30pm
+**Last verified:** 2026-11-21 11:40am
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -35,7 +35,7 @@ Each module is shown as a card with its name, a short description of what it doe
 
 ## The Language Module
 
-**Language** lets your site be in more than one language. It is off by default. It takes no module slot, and your plan sets how many extra languages a site can have. Turn it on in **Settings**, then **Modules**. Then add languages in **Languages** in the site menu. See [Site settings](site-settings.md#languages).
+**Language** lets your site be in more than one language. It is off by default. It takes no module slot, and your plan sets how many extra languages a site can have. Turn it on in **Settings**, then **Modules**. Then add languages in **Languages** in the site menu. Any language can be the main language: click **Make Main Language** on the list to change it. See [Site settings](site-settings.md#languages).
 
 When you turn it off, your site shows one language. Addresses such as `/fr/about` show "page not found". Your text in the other languages stays stored, and comes back when you turn the module on again.
 

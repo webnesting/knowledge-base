@@ -1,6 +1,6 @@
 # Site settings
 
-**Last verified:** 2026-11-20 7:30pm
+**Last verified:** 2026-11-21 11:40am
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -52,7 +52,7 @@ Your site can be written in one language or in several. Any language can be the 
 
 **Site language**
 
-The **Site language** is the language your site is written in. You choose it when you create the site. Open **Site Settings**, then **General**, to see it. Browsers, screen readers and search engines read your pages in this language.
+The **Site language** is the language your site is written in. You choose it when you create the site. Open **Site Settings**, then **General**, to see it. Browsers, screen readers and search engines read your pages in this language. While your site has one language, you can change it there. With more languages, use **Make Main Language** on the Languages list (see below).
 
 **More languages**
 
@@ -64,7 +64,7 @@ Then open **Languages** in the site menu. The list shows each language, with a *
 
 If the module is off, your site has one language. Adding a language then says **Turn on Languages to add more languages.**
 
-Each language you add gets its own address. Your main language stays at the root (`/about`), and a second language sits under its code (`/fr/about` for French). Your existing addresses never change.
+Each language you add gets its own address. Your main language stays at the root (`/about`), and a second language sits under its code (`/fr/about` for French). Adding a language never changes your existing addresses.
 
 **What visitors see in a language**
 
@@ -72,6 +72,16 @@ Each language you add gets its own address. Your main language stays at the root
 - A page with no text in that language shows your main language text at the language address, so a visitor never lands on "page not found". The header, menus and footer are in the visitor's language. Search engines are told that the main language page is the one to list.
 - Your menus, breadcrumbs and lists of articles show each page in the visitor's language where text exists. Where it does not, they show the main language text.
 - When you are signed in and open a page that has no text in that language, a small bar at the top says so. Visitors never see it.
+
+**Change the main language**
+
+1. Open **Languages** in the site menu.
+2. On the language you want, click **Make Main Language**.
+3. Read the count. If texts are missing, click **Show what is missing** to see the pages that miss them.
+4. Write the missing texts in that language, then click **Make Main Language** again.
+5. Read the question, then click **Make Main Language** to confirm.
+
+Every page, article, setting and piece of code keeps its text in each language. Only which language is the main one changes. The layout stays the same. The main language moves to the root address (`/about`), and the old main language moves under its code (`/en/about`). Each old address sends visitors to its new one, so links and search results keep working. Your redirects to a page that moved point at its new address. While the change runs, the Website Builder closes and opens again with the new text. If the change fails, your site stays as it was.
 
 **Things to know**
 
