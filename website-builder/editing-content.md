@@ -1,6 +1,6 @@
 # Editing content
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-20 7:30pm
 
 Once you have added components to your page, the next step is to fill them with your own content. This guide covers how to edit text, images, buttons, and every other type of content in the Website Builder.
 
@@ -436,6 +436,8 @@ The HTML component is a powerful tool for adding third-party content to your pag
 1. Add an **HTML** component from the **Text** group in the **Add** panel.
 2. Double-click the component on the page. A code editor opens over it.
 3. Paste the embed code provided by the third-party service, then click **Save**.
+
+When your site has more than one language, pick a language in the language menu in the top bar. The editor then says, for example on a German site with French open, **Runs the German code. Type here to use other code in French.** Type code there to run other code in that language, such as a booking widget in that language. Click **Use the German code** to go back to the main language code.
 
 Common uses for the HTML component include:
 

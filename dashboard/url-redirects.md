@@ -1,6 +1,6 @@
 # URL redirects
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-20 7:30pm
 
 Sometimes you need to change a page's web address, or you want to point an old address to a new one. Redirects make sure that anyone who visits the old address is automatically sent to the right place -- no dead ends, no error pages.
 
@@ -69,6 +69,7 @@ This is where visitors will be sent when they visit the old address.
 1. Open the **Output** menu. You can pick:
    - **A page on your site:** Choose it from the list -- your Homepage and every other page appears there by name.
    - **An external website:** Choose **External URL**, then enter the full web address, like `https://www.example.com/page`.
+   - **An address on this site:** Choose **An address on this site**, then type the path, like `/fr/menu`. Use it to send visitors to a page in one language, or to an address that is not a page. The path starts with `/` and keeps its own language prefix. This target needs a 301 or 302 redirect. WebNesting refuses a target that would loop back to the old address and asks you to choose another.
 
 ### Choosing the Redirect Type
 

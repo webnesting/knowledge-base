@@ -1,6 +1,6 @@
 # Managing pages
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-20 7:30pm
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 
@@ -24,7 +24,7 @@ Each page in the list shows:
 - **Updated** -- When the page was last changed.
 - **Status** -- **Draft** or **Published**.
 
-Each row also has a ⋮ menu with **Edit**, **Duplicate**, **Publish** or **Unpublish**, and **Delete**. When your site has more than one language, the menu also has **Translate into…**, and the list has a **Language** column. The gear at the end of the header row lets you choose which columns show.
+Each row also has a ⋮ menu with **Edit**, **Duplicate**, **Publish** or **Unpublish**, and **Delete**. The gear at the end of the header row lets you choose which columns show. When your site has more than one language, a **Language** switch appears above the page title. See [Publishing Your Site in More Than One Language](#publishing-your-site-in-more-than-one-language).
 
 ![A page's ⋮ menu open, with Publish ringed](../images/dashboard/managing-pages-row-menu.png)
 
@@ -222,39 +222,68 @@ The copy has the same sections, look, search settings and custom code as the pag
 
 ## Publishing Your Site in More Than One Language
 
-When your site has more than one language, each language has its own copy of a page. You turn languages on in **Site Settings**, then **Languages**.
+A page is one page in every language. It has one layout, and each language has its own text. You turn on more languages with the **Language** module and add them in **Languages** in the site menu. See [Site settings](site-settings.md#languages).
 
-### Copy a Page Into a New Language
+### Choose the language you work in
 
-1. In the **Pages** list, open the ⋮ menu on the page's row and choose **Translate into…**.
-2. Pick the language. Only languages the page does not have yet are listed.
-3. Choose **Create copy**.
+When your site has more than one language, a **Language** switch sits above the page title in the **Pages** list. Pick a language to see your pages in that language.
 
-The copy appears under the original page in the list, with its language shown in the **Language** column. It is a draft at the same address under the language, for example **/fr/about**. Open it in the Website Builder and translate the text. Then publish it. WebNesting never publishes a translation for you.
+> **Tip:** Examples in this guide use German as the main language, with English and French added. Your languages can be any you choose.
 
-You can do the same in the Website Builder: use the language menu in the top bar, then **Translate into…**.
+In a language that is not your main language, each page can show a badge:
 
-### Move Between a Page's Languages in the Builder
+- **No French version yet** means nobody has written this page in French.
+- **Out of date: the German changed** means the German text changed after the French version was saved.
 
-The language menu in the builder's top bar shows which language you are editing. Pick another language to open that version of the page. Each language shows whether it is published or still a draft.
+The **Filters** panel has a **Translation** group. Choose **Missing in French** or **Out of date** to list only those pages.
 
-### Translate with Your Own AI Assistant
+### Write a page in another language
 
-You can connect your own AI assistant to WebNesting and ask it to translate a page. See [Connecting an AI tool](connecting-ai-tools.md) for how to connect it.
+1. Pick the language in the **Language** switch.
+2. Open the page.
+3. Type your text in the page settings.
+4. Save the page.
 
-1. Turn on the language in **Site Settings**, then **Languages**.
-2. Ask your assistant to translate the page into that language.
-3. The assistant makes a copy of the page in that language and writes the translated text into it.
-4. Open the copy in the **Pages** list or the Website Builder. Check the text.
-5. Publish it when you are happy with it.
+Each empty box shows the main language text in grey. The grey text is a hint. It is not saved. The page keeps showing the main language text in that language until you type your own.
 
-The assistant never publishes the copy. It stays a draft until you publish it.
+The first save makes the language version. If you typed no text, the save makes nothing. The page then has an address in that language, for example **/fr/about**. The save line says **Saving in French**.
 
-### When the Original Changes
+### Move between languages in the builder
 
-If you change the original page after you made a copy, the copy shows **Original Changed**. Check the copy. If it is already right, open the ⋮ menu on its row and choose **Mark As Up To Date**. The notice stays away until the original is saved again.
+The language menu in the builder top bar has the heading **This page in**. Each row shows the language and its state: **Main language**, **No version yet**, **Up to date** or, for example, **2 out of date**. Pick a row to open that version.
 
-> **Tip:** A translation can only be published after the original page is published. Deleting the original also deletes its translations, and the confirmation lists them.
+In another language, the layout is locked. A note says **Layout changes are made in German and show in every language.** You cannot add, remove or move components there.
+
+The settings panel shows that language's text. A box that has no text yet shows **Shown from German**. A setting that is the same in every language, such as a size, is read only and says **Same in every language**. Each row of a list shows its own text.
+
+In another language you can also:
+
+- Choose **Hide in French** to hide a component in that language only.
+- Choose **Use a different image in French**, and choose **Use the German image** to go back.
+- Choose **Use a different link in French** to point a link elsewhere.
+- Fill in **Image text in French** for the image description.
+
+To change the layout, switch to your main language.
+
+### Publish all languages
+
+A publish sends every language of the page live. The publish warning says **This publishes all languages.** A language that has no version yet shows the main language text.
+
+### Write a page in another language with your own AI assistant
+
+You can connect your own AI assistant to WebNesting and ask it to write a page in another language. See [Connecting an AI tool](connecting-ai-tools.md).
+
+1. Add the language in **Languages** in the site menu.
+2. Ask your assistant to write the page in that language.
+3. The assistant saves the text in the same page, in that language. It makes no copy.
+4. Open the page in that language. Check the text.
+5. Publish when you are happy with it.
+
+### When the main language text changes
+
+When you change the main language text of a page, its other versions show, for example, **Out of date: the German changed**. Check each version and save it again. The badge then goes away. Your AI assistant can also mark a version as up to date when you ask it to.
+
+> **Tip:** A language version has no page of its own to publish. It goes live with the page.
 
 ---
 
@@ -268,6 +297,8 @@ If you no longer need a page, you can delete it.
 4. Confirm that you want to delete the page.
 
 The page will be removed from your page list and will no longer be visible on your site.
+
+When your site has more than one language, the confirmation has two choices, for example **French version** and **All versions**. **French version** removes only the French text. The page then shows the main language text in that language. **All versions** deletes the page. In your main language, only **All versions** is offered.
 
 ### Pages That Cannot Be Deleted or Moved
 

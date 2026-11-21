@@ -1,6 +1,6 @@
 # Database tables
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-20 7:30pm
 
 The **Database Tables** section (in your site menu, under **Settings**) is where you define the structure of your own custom content types. Think of it as creating a spreadsheet -- you choose what columns it has, what kind of information each column holds, and how different tables relate to each other.
 
@@ -85,7 +85,7 @@ Each column has several settings you can configure:
 - **Required** -- Check this box if every entry must have a value for this column. If checked, you will not be able to save an entry without filling in this field.
 - **Unique** -- Check this box if no two entries can have the same value in this column. Useful for things like email addresses or employee IDs. If you mark a column as Unique, the system will prevent you from saving an entry with a duplicate value in that column.
 - **Show in List** -- Check this box if you want this column's value to appear when browsing entries in a list view.
-- **Per Language**: Check this box if each of your site's languages should get its own text for this column. It only shows for text-type columns.
+- A text, text area, rich text or markdown column can hold text in each of your site's languages. You do not turn this on. Pick a language in the **Language** switch to write that language's text.
 
 ### Column Types Explained
 

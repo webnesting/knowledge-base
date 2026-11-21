@@ -1,6 +1,6 @@
 # Setting up your site
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-20 7:30pm
 
 When you create a new WebNesting site, you give it a name and pick how it starts. This page walks you through each choice so you know exactly what to expect.
 
@@ -22,6 +22,7 @@ You can create a site from two places. Both ask the same questions:
 1. In **Site Name**, type the name you want (for example, "Sunny Day Bakery" or "Alex's Portfolio").
 2. Check **Site address**. WebNesting fills it in from the name, and it becomes your site's web address when you go live. You can change it before you create the site.
 3. If you already own a domain, you can type it in **Custom Domain (optional)**. You can also connect one later.
+4. Check **Site language**. It is the language your site is written in. WebNesting picks it from your browser. Choose another language if your site uses one. You can change it later in **Settings → General**.
 
 ![The Create Site page with the Site Name filled in, the Site address and Custom Domain fields, and the three ways to start](../images/getting-started/setting-up-your-site-name.png)
 
