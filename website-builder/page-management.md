@@ -1,6 +1,6 @@
 # Managing pages in the builder
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-21 2:29pm
 
 The Website Builder is where you design and edit your pages visually. But it is also where you can switch between pages, create new ones, and manage how they are organized -- all without leaving the builder. This guide covers everything you need to know about working with pages inside the builder.
 

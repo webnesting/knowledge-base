@@ -1,6 +1,6 @@
 # Adding components
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-21 2:29pm
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 

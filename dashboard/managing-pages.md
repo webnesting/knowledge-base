@@ -1,6 +1,6 @@
 # Managing pages
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-21 2:29pm
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 

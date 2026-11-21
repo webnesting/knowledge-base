@@ -1,6 +1,6 @@
 # Modules and features
 
-**Last verified:** 2026-11-16 4:38pm
+**Last verified:** 2026-11-21 2:29pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
