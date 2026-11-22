@@ -1,6 +1,6 @@
 # Quick start guide
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-22 3:12pm
 
 Welcome to WebNesting! This guide will get you up and running in about 10 minutes. Follow these steps to set up your site, make your first edits, and publish your changes.
 
@@ -65,7 +65,7 @@ The form also lets you choose which menus show the page, such as **Header** and 
 
 1. In the site menu on the left, open **Settings**, then **Site Settings**.
 2. Under **Content**, select **Site Images**.
-3. Upload your **Logo** and **Favicon** (the small icon that appears in browser tabs) by selecting each image area and choosing a file.
+3. Upload your **Logo** and **Favicon** (the small icon that appears in browser tabs) by selecting each image area and choosing a file. To change one later, click the picture and choose a new file.
 4. Select **Save Changes**.
 
 ![The Site Images page with a Logo, a Favicon and the Save Changes button](../images/getting-started/quick-start-site-images.png)
