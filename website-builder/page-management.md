@@ -1,6 +1,6 @@
 # Managing pages in the builder
 
-**Last verified:** 2026-11-21 2:29pm
+**Last verified:** 2026-11-20 7:30pm
 
 The Website Builder is where you design and edit your pages visually. But it is also where you can switch between pages, create new ones, and manage how they are organized -- all without leaving the builder. This guide covers everything you need to know about working with pages inside the builder.
 
@@ -27,7 +27,7 @@ The panel shows your pages organized into groups. Your main site pages are under
 
 Every site has unlimited pages, including a site you are still building and have not put live.
 
-If the site's paid plan is not renewed, you cannot make a new page until you renew it. WebNesting says "The site plan is not paid, so you cannot add new pages. Renew it to add more." This holds for every way of making a page: **New page**, **Duplicate**, and bringing back a page you deleted. Your existing pages stay, and you can still edit them. Translations of a page and the sign-in pages that site accounts make are still made.
+If the site's paid plan is not renewed, you cannot make a new page until you renew it. WebNesting says "The site plan is not paid, so you cannot add new pages. Renew it to add more." This holds for every way of making a page: **New page**, **Duplicate**, and bringing back a page you deleted. Your existing pages stay, and you can still edit them. The sign-in pages that site accounts make are still made. A page written in another language is part of its page, so it needs no new page.
 
 ---
 

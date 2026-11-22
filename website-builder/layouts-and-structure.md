@@ -1,6 +1,6 @@
 # Layouts and structure
 
-**Last verified:** 2026-11-15 1:51pm
+**Last verified:** 2026-11-20 7:30pm
 
 A great website is built on a solid structure. Before you add text, images, and buttons, you need to set up the framework that holds everything in place. This guide explains how pages are organized in WebNesting and how to build clean, well-structured layouts.
 
@@ -112,7 +112,7 @@ The boxes for the top bar's message, the text under the logo, your footer detail
 
 The words you type here replace the header and footer text that used to be in **Site Settings → Content → Site Messages**. Your old words were moved here for you.
 
-**More than one language.** If your site has more than one language, each box for words (the logo's text, the button's words, the top bar, the footer text and details, and the announcement bar) has a row of your languages above it. Pick a language and type the words for it. A hollow mark beside a language means it has no words yet. Visitors then read your main language's words. **Start from the English text** copies your main language's words into the box so you can translate them. Pick a language once and every box shows it. With one language, you see the plain box.
+**More than one language.** If your site has more than one language, pick the language in the language menu in the builder's top bar. Each box for words (the logo's text, the button's words, the top bar, the footer text and details, and the announcement bar) then shows that language's words. A box with no words yet shows your main language's words in grey. Type your own words to replace them. Visitors read your main language's words until you do. Every box shows the language you picked. With one language, you see the plain box.
 
 ### Your header's and footer's colors and sizes
 
@@ -247,7 +247,7 @@ The bar shows on the page in the builder as you type. Click the bar to open the 
 
 **Turning it off.** Turn off **Show an announcement bar** and publish. Your message, link and link text stay saved for the next time you turn it on.
 
-**More than one language.** If your site has more than one language, write the message in each language with the language row above the box, as for the header's other words. A language you leave empty shows your main language's message. Empty link text reads **Learn more** in each visitor's language, such as "En savoir plus" in French.
+**More than one language.** If your site has more than one language, pick the language in the language menu in the builder's top bar and write the message in the box, as for the header's other words. A language you leave empty shows your main language's message. Empty link text reads **Learn more** in each visitor's language, such as "En savoir plus" in French.
 
 The bar used to be in **Site Settings → Appearance → Header & Footer**. Your bar was moved onto your header for you. The bar never shows on your Coming Soon page.
 

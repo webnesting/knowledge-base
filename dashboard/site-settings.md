@@ -1,6 +1,6 @@
 # Site settings
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-21 8:40pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -48,26 +48,45 @@ You can clear the whole site once a minute. If you try again sooner, WebNesting 
 
 ## Languages
 
-Your site can be written in one language or in several. Open **Site Settings** and click **Languages** under **Your site**.
+Your site can be written in one language or in several. Any language can be the main language, and you can add as many other languages as you want.
 
-![The Languages page with the Site language list and Add a Language](../images/dashboard/site-settings-languages.png)
+**Site language**
 
-- **Site language** -- the language your pages are written in. Browsers, screen readers and search engines read your pages in it. Search for a language by its name in English or in the language itself.
-- **More languages** -- click **+ Add a Language** to publish your pages in another one. The language list then shows each language with its address.
+The **Site language** is the language your site is written in. You choose it when you create the site. Open **Site Settings**, then **General**, to see it. Browsers, screen readers and search engines read your pages in this language. While your site has one language, you can change it there. With more languages, use **Make Main Language** on the Languages list (see below).
 
-Each language you add gets its own address. Your main language stays at the root (`/about`), and a second language sits under its code (`/fr/about` for French). Your existing addresses never change.
+**More languages**
+
+To add more languages, turn on the **Language** module. It is off by default. It takes no module slot. Your plan sets how many extra languages a site can have; see [What each plan includes](../account/usage-and-billing.md#what-each-plan-includes). Open **Settings**, then **Modules**, and turn on **Language**.
+
+Then open **Languages** in the site menu. The list shows each language, with a **Main language** column. Click **+ New Language**, pick a language, and click **Create**. Each language other than the main one gets its own address, like `/fr`. The **Language** switch at the top then lists every language.
+
+![The Languages list with English as the main language, and German and French added](../images/dashboard/site-settings-languages.png)
+
+If the module is off, your site has one language. Adding a language then says **Turn on Languages to add more languages.**
+
+Each language you add gets its own address. Your main language stays at the root (`/about`), and a second language sits under its code (`/fr/about` for French). Adding a language never changes your existing addresses.
 
 **What visitors see in a language**
 
-- A page you have translated shows its translation at the language address.
-- A page you have not translated yet shows your main language's page at the language address, so a visitor never lands on "page not found". The header, menus and footer are in the visitor's language. Search engines are told that the original page is the one to list.
-- Your menus, breadcrumbs and lists of articles show each page in the visitor's language where a translation exists. Where it does not, they show the original page.
-- When you are signed in and open a page that has no translation yet, a small bar at the top says so: "This page has no French version yet". Visitors never see it.
+- A page you have written in that language shows that text at the language address.
+- A page with no text in that language shows your main language text at the language address, so a visitor never lands on "page not found". The header, menus and footer are in the visitor's language. Search engines are told that the main language page is the one to list.
+- Your menus, breadcrumbs and lists of articles show each page in the visitor's language where text exists. Where it does not, they show the main language text.
+- When you are signed in and open a page that has no text in that language, a small bar at the top says so. Visitors never see it.
+
+**Change the main language**
+
+1. Open **Languages** in the site menu.
+2. On the language you want, click **Make Main Language**.
+3. Read the count. If texts are missing, click **Show what is missing** to see the pages that miss them, or click **Close**.
+4. Write the missing texts in that language, then click **Make Main Language** again.
+5. Read what changes, then click **Make Main Language** to confirm.
+
+Every page, article, setting and piece of code keeps its text in each language. Only which language is the main one changes. The layout stays the same. The main language moves to the root address (`/about`), and the old main language moves under its code (`/en/about`). Each old address sends visitors to its new one, so links and search results keep working. Your redirects to a page that moved point at its new address. While the change runs, the Website Builder closes and opens again with the new text. If the change fails, your site stays as it was.
 
 **Things to know**
 
-- You can change the site language only while your site has one language. To change it later, remove the other languages first.
-- Removing a language keeps its pages. They stop showing, and their addresses show "page not found", until you add the language back.
+- Removing a language keeps its text. The language stops showing, and its addresses show "page not found", until you add the language back.
+- Turning the **Languages** module off gives your site one language. Addresses such as `/fr/about` show "page not found". Your text stays stored. Turn the module on again to get it back.
 - Your site does not switch language by itself from the visitor's browser. Visitors choose their language, or search engines send them to it.
 
 **Multiple languages in your settings**
@@ -79,6 +98,8 @@ With more than one language, a row of language names sits under these settings. 
 - **SEO Settings:** the title and description search engines show.
 
 A language you leave empty shows your main language's words. A hollow circle next to a language name means it has no words of its own yet. Empty link words show "Learn more" in the visitor's language. Removing a language keeps what you wrote for it.
+
+To write pages in another language, see [Publishing Your Site in More Than One Language](managing-pages.md#publishing-your-site-in-more-than-one-language).
 
 ---
 
@@ -174,7 +195,7 @@ Two on/off switches control how the addresses inside it are written:
 - **Use secure (https) links in your sitemap** -- leave this on if your site uses a secure `https://` address (almost all do).
 - **Start sitemap links with "www."** -- turn this on only if your site's address includes `www.`
 
-Pick the form that matches how visitors reach your site so search engines see one consistent address for every page. These two switches only apply while **Always use a secure (https://) address?** or **Should your address start with "www."?** on the **Site Configuration** page is set to **Either works**. Otherwise the sitemap follows that choice.
+Pick the form that matches how visitors reach your site so search engines see one consistent address for every page. These two switches only apply while **Always use a secure address?** or **Should your address start with "www."?** on the **Site Configuration** page is set to **Either works**. Otherwise the sitemap follows that choice.
 
 ### Publishing a List of Your Pages for AI Assistants (llms.txt)
 
@@ -322,6 +343,8 @@ The page has two places:
 The code has no draft: **Publish** puts it on your live site at once. Each place then shows when, and by whom, it was published. A place that you changed and did not publish yet says **Not published yet**. Each place can hold up to 256 KB of code.
 
 To remove code, delete it from the box, then click **Publish**.
+
+When your site has more than one language, pick a language in the **Language** switch. Each place then says, for example on a German site with French open, **Runs the German code. Type here to use other code in French.** Type code to use other code in that language. Click **Use the German code** to go back. The style code and the security setting are the same in every language.
 
 A verification tag at the bottom is refused when you publish, because services look for it at the top. Put it in **Top of every page**.
 
@@ -527,7 +550,7 @@ Your theme has its own page now. The **Design** section of Site Configuration li
 A secure address starts with `https://` instead of `http://`, and visitors see a lock icon in their browser.
 
 1. Go to **Site Settings**, open **Your site**, and click **Site Configuration**.
-2. Find **Always use a secure (https://) address?**
+2. Find **Always use a secure address?**
 3. Click the **Always secure** card once your domain's certificate is active -- anyone who types `http://` is sent to `https://`. **Either works** leaves both forms reachable.
 4. Save your changes.
 

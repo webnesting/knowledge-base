@@ -1,6 +1,6 @@
 # Connecting an AI tool
 
-**Last verified:** 2026-11-21 2:29pm
+**Last verified:** 2026-11-20 7:30pm
 
 You can connect an AI assistant — like Claude Desktop, Claude Code, or Cursor — directly to your WebNesting workspace. Once connected, you can ask the AI to look things up and make changes for you in plain language: "list my draft articles," "create a new event for next Friday," "what's my current usage this month." The AI works **as you**, with **your** permissions, and never sees your password.
 
@@ -104,7 +104,7 @@ WebNesting gives your AI app a few ready-made requests. Each one tells your AI, 
 - **Add a section to a page.** Say what the section is for and where it goes. If a ready-made section fits, your AI starts from it; else it builds the section. Either way it matches the rest of the page.
 - **Fill in missing alt text.** Your AI finds every picture in your **Files** with no alt text, looks at each one and writes its alt text. A picture that only adds looks, such as a texture or a divider, it marks decorative instead, and it tells you which ones. Name a folder to do only that folder.
 - **Restyle a page.** Say how you want it to look, for example "warmer and more rustic". Your AI changes only the look, never your words or the page's layout. A new theme changes every page of your site, so your AI tells you first.
-- **Translate a page.** Name the page and the language, for example French. Your AI makes a translated copy of the page as an unpublished draft, with the same sections and look. It tells you which phrases a native speaker should check. It publishes nothing: you review and publish the translation.
+- **Write a page in another language.** Name the page and the language, for example French. Your AI saves the translated text in the same page, in that language. The page keeps its sections and look. It tells you which phrases a native speaker should check. It publishes nothing: you review the text and publish the page. You can also ask it to mark a language version as up to date after the main text changed.
 
 **Where to find them:** in your AI app's list of commands or prompts. In Claude Code they are slash commands, such as `/mcp__webnesting__build_site` (the middle part is the name you gave the connection). If your app takes one word for each box, type your full description anyway: your AI reads everything you typed.
 

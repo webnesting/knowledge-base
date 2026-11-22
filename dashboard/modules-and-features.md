@@ -1,6 +1,6 @@
 # Modules and features
 
-**Last verified:** 2026-11-21 2:29pm
+**Last verified:** 2026-11-21 11:40am
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -31,6 +31,13 @@ To see all the modules you can add to your site:
 At the top, **Your Site Plan** shows the plan this site is on and how many visits it holds each month. **All add-ons together** under it is what the site's add-ons cost a month. To change the plan, pick another plan card. The button under the cards says what will happen before you confirm. On a paid plan, a checkbox under the cards shows a "Powered by WebNesting" link in your site's footer and takes 5% off the site's plan. The link shows at once, and the 5% starts with your next bill. More: [Save 5% with a "Powered by WebNesting" link](../account/usage-and-billing.md#save-5-with-a-powered-by-webnesting-link). Prices in the picture read $0.00 because the Example workspace has its add-ons included. Your page shows your own prices.
 
 Each module is shown as a card with its name, a short description of what it does, its **Off** or **On** state, and its price. The cards are **Form**, **API** (Site API Access), **Widget Builder**, **Article**, **Event**, **Store** and **Accounts**. A **Filters** button lets you narrow the list by status.
+---
+
+## The Language Module
+
+**Language** lets your site be in more than one language. It is off by default. It takes no module slot, and your plan sets how many extra languages a site can have. Turn it on in **Settings**, then **Modules**. Then add languages in **Languages** in the site menu. Any language can be the main language: click **Make Main Language** on the list to change it. See [Site settings](site-settings.md#languages).
+
+When you turn it off, your site shows one language. Addresses such as `/fr/about` show "page not found". Your text in the other languages stays stored, and comes back when you turn the module on again.
 
 ---
 
