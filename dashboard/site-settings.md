@@ -1,6 +1,6 @@
 # Site settings
 
-**Last verified:** 2026-11-21 11:40am
+**Last verified:** 2026-11-21 8:40pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -77,9 +77,9 @@ Each language you add gets its own address. Your main language stays at the root
 
 1. Open **Languages** in the site menu.
 2. On the language you want, click **Make Main Language**.
-3. Read the count. If texts are missing, click **Show what is missing** to see the pages that miss them.
+3. Read the count. If texts are missing, click **Show what is missing** to see the pages that miss them, or click **Close**.
 4. Write the missing texts in that language, then click **Make Main Language** again.
-5. Read the question, then click **Make Main Language** to confirm.
+5. Read what changes, then click **Make Main Language** to confirm.
 
 Every page, article, setting and piece of code keeps its text in each language. Only which language is the main one changes. The layout stays the same. The main language moves to the root address (`/about`), and the old main language moves under its code (`/en/about`). Each old address sends visitors to its new one, so links and search results keep working. Your redirects to a page that moved point at its new address. While the change runs, the Website Builder closes and opens again with the new text. If the change fails, your site stays as it was.
 
@@ -195,7 +195,7 @@ Two on/off switches control how the addresses inside it are written:
 - **Use secure (https) links in your sitemap** -- leave this on if your site uses a secure `https://` address (almost all do).
 - **Start sitemap links with "www."** -- turn this on only if your site's address includes `www.`
 
-Pick the form that matches how visitors reach your site so search engines see one consistent address for every page. These two switches only apply while **Always use a secure (https://) address?** or **Should your address start with "www."?** on the **Site Configuration** page is set to **Either works**. Otherwise the sitemap follows that choice.
+Pick the form that matches how visitors reach your site so search engines see one consistent address for every page. These two switches only apply while **Always use a secure address?** or **Should your address start with "www."?** on the **Site Configuration** page is set to **Either works**. Otherwise the sitemap follows that choice.
 
 ### Publishing a List of Your Pages for AI Assistants (llms.txt)
 
@@ -550,7 +550,7 @@ Your theme has its own page now. The **Design** section of Site Configuration li
 A secure address starts with `https://` instead of `http://`, and visitors see a lock icon in their browser.
 
 1. Go to **Site Settings**, open **Your site**, and click **Site Configuration**.
-2. Find **Always use a secure (https://) address?**
+2. Find **Always use a secure address?**
 3. Click the **Always secure** card once your domain's certificate is active -- anyone who types `http://` is sent to `https://`. **Either works** leaves both forms reachable.
 4. Save your changes.
 
