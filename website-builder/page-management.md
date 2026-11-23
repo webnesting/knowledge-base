@@ -1,6 +1,6 @@
 # Managing pages in the builder
 
-**Last verified:** 2026-11-22 9:40pm
+**Last verified:** 2026-11-23 10:01am
 
 The Website Builder is where you design and edit your pages visually. But it is also where you can switch between pages, create new ones, and manage how they are organized -- all without leaving the builder. This guide covers everything you need to know about working with pages inside the builder.
 
@@ -236,12 +236,15 @@ Each page has its own SEO settings that help search engines understand and displ
 
 ### Available SEO Fields
 
-- **Show on search engines**: Choose **Yes** to let search engines find and list this page, or **No** to hide it. A new page starts on **No**, so change it to **Yes** when the page is ready for visitors.
+- **Show on search engines**: Choose **Yes** to let search engines find and list this page, or **No** to hide it. A new page starts on **Yes**. A hidden page, or a page with a password, stays out of your sitemap and asks search engines not to list it. Visitors can still open it with its link.
 - **SEO Title**: The title that appears in search engine results. If left blank, your page title is used.
 - **SEO Author**: The author name shown in search results for this page.
 - **SEO Description**: A short summary of the page that appears below the title in search results. Keep it under 160 characters for best results. Leave it empty to use the **Description** from your site's SEO defaults. A new site's homepage starts empty.
 - **SEO Keywords**: Words and phrases related to the page's content that help search engines categorize it.
-- **Share Image**: The picture shown when someone shares this page on social media. Leave it empty to use the image from your site's SEO defaults.
+- **Share Image**: The picture shown when someone shares this page on social media. Leave it empty and links use the image from your site's SEO defaults. If you have no default image either, a shared link shows text only.
+- **Search result link (canonical)**: Leave it empty for most pages. When this page repeats another page, add that page's full address and search engines list that page instead. See [Setting a canonical link](seo-best-practices.md#setting-a-canonical-link).
+
+Under these fields, the page editor shows **How it looks in Google** and **How it looks when shared**. Both update as you type.
 
 ![The SEO group in Page settings with the Show on search engines choice ringed](../images/website-builder/page-management-seo-fields.png)
 

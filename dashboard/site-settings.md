@@ -1,6 +1,6 @@
 # Site settings
 
-**Last verified:** 2026-11-22 9:40pm
+**Last verified:** 2026-11-23 9:35am
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -155,7 +155,7 @@ When someone shares a link to your site on social media (Facebook, LinkedIn, X, 
 2. Click to choose an image from your File Manager, or upload a new one.
 3. Save your changes.
 
-To use a different picture for one page, open that page and choose a **Share Image** in its **SEO** group.
+To use a different picture for one page, open that page and choose a **Share Image** in its **SEO** group. A page with no Share Image shows the default image above. If you set no default image, a shared link shows text only.
 
 > **Tip:** Use an image that is at least 1200 x 630 pixels for the best results across all platforms.
 
@@ -164,11 +164,12 @@ To use a different picture for one page, open that page and choose a **Share Ima
 Your homepage can tell search engines who you are, so Google can show your business name, logo and contact details beside your result. WebNesting builds this from settings you already have and the few fields below.
 
 1. On the **SEO Defaults** page, find the **Your business in search results** section.
-2. Under **Kind of business**, choose **Company or organization**, or **Local business** if customers visit you or you serve your area.
-3. Add your **Logo**. Without one, search engines use your site logo, then your site icon. A square picture at least 112 pixels wide works best.
-4. Fill in your **Phone number**, **Email address** and address. Leave a field blank to share nothing for it.
-5. Under **Link your social profiles**, choose **Yes, link them** to share the profiles from **Social**, or **No, keep them out**.
-6. Save your changes.
+2. Leave **Show my business details in Google search** on. Turn it off to share nothing from this section with search engines.
+3. Under **Kind of business**, choose the kind that fits you: **Company or organization**, **Local business**, **Restaurant, cafe or bar**, **Hair or beauty salon**, **Medical or dental clinic**, **Plumber**, **Hotel, inn or rental stay**, **Place of worship**, **School or training provider** or **Nonprofit or charity**. Choose **Local business** if customers visit you or you serve your area and no other kind fits.
+4. Add your **Logo**. Without one, search engines use your site logo, then your site icon. A square picture at least 112 pixels wide works best.
+5. Fill in your **Phone number**, **Email address** and address. Leave a field blank to share nothing for it.
+6. Under **Link your social profiles**, choose **Yes, link them** to share the profiles from **Social**, or **No, keep them out**.
+7. Save your changes.
 
 Your business name is your **Site name** from Site Configuration. This information appears on your homepage only. Search engines decide whether and when to show it.
 

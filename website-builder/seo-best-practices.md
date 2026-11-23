@@ -1,6 +1,6 @@
 # SEO best practices
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-23 10:01am
 
 Search engine optimization (SEO) is one of the most powerful ways to bring visitors to your website. This guide covers practical, easy-to-follow steps you can take right inside WebNesting to help your site show up in Google and other search engines. No technical background required -- just a willingness to put in a little effort on each page you create.
 
@@ -185,9 +185,65 @@ For example, if you run a bakery in Seattle, you might naturally use phrases lik
 
 ## Open Graph Tags for Social Media
 
-WebNesting automatically generates Open Graph tags for social media sharing based on your page title, description, and featured image. To set the default sharing image, go to **Site Settings**, select **SEO Defaults** and use the **Image** field. A page can set its own **Share Image** in its page settings (see [Managing pages in the builder](page-management.md)). Open Graph tags control how your pages look when someone shares a link to your site on Facebook, LinkedIn, or other social platforms.
+WebNesting automatically generates Open Graph tags for social media sharing based on your page title, description, and featured image. To set the default sharing image, go to **Site Settings**, select **SEO Defaults** and use the **Image** field. A page can set its own **Share Image** in its page settings (see [Managing pages in the builder](page-management.md)). A page with no Share Image uses your default sharing image. If you have no default image either, a shared link shows text only. Open Graph tags control how your pages look when someone shares a link to your site on Facebook, LinkedIn, or other social platforms.
 
 ![The SEO Defaults page with the Image field ringed under the Title and Description](../images/website-builder/seo-defaults-search-and-sharing.png)
+
+### Choosing a page's share image
+
+A shared link shows one picture. WebNesting picks it in this order and uses the first one it finds:
+
+1. The page's own **Share Image**, set in the **SEO** group of the page settings.
+2. For an article, the article's own picture.
+3. A picture made for the page, if your site makes share pictures.
+4. The **Image** from **SEO Defaults**.
+
+If none of these has a picture, the shared link shows text only.
+
+Under the SEO fields, the page editor shows **How it looks when shared**. A label under the card names where the picture comes from, so you can see why a page shows the picture it does.
+
+---
+
+## Setting a canonical link
+
+Sometimes two pages show almost the same content. A search engine then has to pick one to list. A canonical link tells it which one.
+
+1. Open the settings of the page that repeats the other one.
+2. In the **SEO** group, find **Search result link (canonical)**.
+3. Type the full address of the page you want listed, such as `https://example.com/guide`.
+4. Save the page.
+
+Leave the field empty for most pages. Every page then names its own address. The preview under the SEO fields, **How it looks in Google**, tells you when a page points at another address.
+
+> **Tip:** Use the full address, starting with `https://`. Search engines read a full address most reliably.
+
+---
+
+## Hiding one page from search
+
+Some pages should stay out of search results, such as a thank-you page or a draft you are still writing.
+
+1. Open the settings of the page.
+2. In the **SEO** group, set **Show on search engines** to **No**.
+3. Save the page.
+
+The page then stays out of your sitemap and asks search engines not to list it. Visitors can still open it if they have the link. A page with a password does the same. A new page starts on **Yes**.
+
+> **Tip:** This hides one page. To hide your whole site while you build it, use **Hide site from search engines** in **SEO Defaults**.
+
+---
+
+## Google can show your address and hours directly in search results
+
+Your home page can tell Google your business name, logo, phone number, email and address. Google may then show these details beside your result, so people can reach you without opening your site.
+
+1. Go to **Site Settings** and select **SEO Defaults**.
+2. Find the **Your business in search results** section.
+3. Choose your **Kind of business**, such as **Restaurant, cafe or bar** or **Hair or beauty salon**.
+4. Fill in your **Phone number**, **Email address** and address.
+5. Save your changes.
+
+The **Show my business details in Google search** switch is on by default. Turn it off to share none of these details. Google decides whether and when to show them. **[Site settings](../dashboard/site-settings.md)** lists every field.
 
 ---
 
