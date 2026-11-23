@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-11-16 4:38pm
+**Last verified:** 2026-11-23 10:31am
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -37,6 +37,8 @@ The columns are:
 - **Received** -- When the ticket was submitted
 
 ![The Tickets list with the Open, Unclaimed, Closed and All tabs above it](../images/dashboard/helpdesk-ticket-list.png)
+
+Under each ticket title, small grey text shows the first lines of the customer's email. A ticket that did not come from email has no text there.
 
 The gear at the right end of the header row opens **Customize columns**. There you can remove a column, add others such as **Tags**, **Teams**, **Updated** or **Channel**, and use **Reset to Default** to go back.
 
@@ -154,6 +156,23 @@ Tags make it easy to filter your inbox and spot patterns. If you notice many tic
 If you want to follow a ticket without being assigned to it, you can add yourself as a watcher with the **Watch** button on the ticket. It then reads **Watching**, and the ticket is listed under **Watching** in the Helpdesk menu. Watchers receive updates when the ticket changes -- new comments, status changes, or reassignments -- so they can stay informed without being responsible for resolving the ticket.
 
 > **Tip:** Use watchers when a manager wants to keep an eye on a high-priority ticket, or when a team member from another department has related context.
+
+### Checking Who Sent an Email
+
+Each customer email in a ticket has a small mark after the sender's name. It shows whether the sender's email server proved that the email came from the address it shows. Point at the mark, or move to it with the Tab key, to read the details.
+
+| Mark | What it means |
+|---|---|
+| Green check | Every check passed. The note reads **Verified sender**. |
+| Red triangle | A check failed, so the email may not come from the address it shows. The note names the failed check. |
+| Yellow mark | Some checks passed and the others gave no clear result. The note lists each check and its result. |
+| Grey question mark | The email server ran no checks, so the Helpdesk cannot tell. |
+
+The checks are SPF, DKIM and DMARC, the usual ways an email server proves who sent a message.
+
+> **Warning:** Confirm a red-triangle request another way before you act on it. A fake sender often asks for a refund or for private account details.
+
+Your team's replies and internal notes have no mark.
 
 ---
 
