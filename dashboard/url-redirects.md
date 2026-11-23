@@ -1,6 +1,6 @@
 # URL redirects
 
-**Last verified:** 2026-11-20 7:30pm
+**Last verified:** 2026-11-22 9:40pm
 
 Sometimes you need to change a page's web address, or you want to point an old address to a new one. Redirects make sure that anyone who visits the old address is automatically sent to the right place -- no dead ends, no error pages.
 
@@ -22,7 +22,7 @@ Here are some common reasons to use redirects:
 
 ## Viewing Existing Redirects
 
-You can see all the redirects currently set up on your site.
+You can see all the redirects currently set up on your site. On a free site that is not live yet, the page says "Works once your site is live." You can add and save redirects now, and they start working when you go live.
 
 1. Open your WebNesting dashboard.
 2. In the site menu, open **Settings** and click **URLs and Redirects**. The page is titled **URL Redirects**. You can narrow the list with **Filters**, for **Type** and **Target**.

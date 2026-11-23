@@ -1,6 +1,6 @@
 # Usage and billing
 
-**Last verified:** 2026-11-23 2:15pm
+**Last verified:** 2026-11-23 5:12pm
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -131,19 +131,70 @@ Try Helpdesk or Marketing free for 14 days, on the Starter plan. You pay nothing
 1. Open **Settings**, then **Products**.
 2. Select the Helpdesk or Marketing row to open it, then select **Start 14-Day Trial**.
 3. Read the window that opens. It shows the price and the date and time we charge your card, with the time zone. It also shows how to cancel.
-4. If you have no saved card, select **Add a Card** and add one. The window then shows the terms again, with your card named.
+4. If you have no saved card, select **Add a Card** and add one. Choose the country of your billing address in the card form. The window then shows the terms again, with your card named.
 5. Tick **I accept these terms**. The button below stays off until you tick it.
 6. Select **Subscribe With Obligation to Pay**. This accepts the terms in the window.
 
 The row then shows a chip with the days left, such as "Trial · 9 days left".
 
 - **When the card is charged:** On the day the trial ends, we charge your saved card for the rest of that month. After that, the plan is billed on the 1st of each month, until you cancel. The window shows the exact date, time and amount before you start.
-- **How to cancel:** Open **Billing**, find the trial under **Free trials** and select **Cancel Trial**. Any member with billing rights can do this. Cancel before the first charge and you pay nothing. The product turns off at once. Your data stays saved for 30 days, then we delete it.
+- **How to cancel:** Open **Billing**, find the trial under **Free trials** and select **Cancel Trial**. Any member with billing rights can do this. Cancel before the first charge and you pay nothing. The window asks when the trial ends:
+  - **End the trial now:** The product turns off at once. Your data stays saved for 30 days, then we delete it.
+  - **End the trial on** the last day: The product stays on until the time shown, then turns off. We do not charge your card. The trial row then reads "Cancelled. Ends on" that day. To end it sooner, select **End Trial Now**.
+
+  We email you to confirm the cancel, the day the trial ends and the time it ends. The window names the address we send it to.
 - **If the charge fails:** The product turns off the same day. There is no grace period, and we do not try the charge again. You owe nothing for the trial. Your data stays saved for 30 days, then we delete it. Buy the product within that time to get it back.
-- **Upgrade any time:** Choose a paid plan or add a feature, and the trial ends that day. We then charge the plan you choose for the days left in that month. You see and confirm that charge first.
+- **If your billing address is in Spain:** The trial never turns into a paid plan by itself. On its last day we charge nothing, and only that product turns off. The rest of your workspace stays as it is. The window says this, and its last button reads **Start Free Trial**. To keep the product, open **Billing** and select **Start Paying** on the trial, at any time. You see the price, including VAT, and confirm it before you pay. Your data stays saved for 30 days after the trial ends. If you start paying in that time, you get it back. A card issued in Spain gets the same trial. The trial keeps this way to the end, even if you later save a card from another country.
+- **Upgrade any time:** Choose a paid plan or add a feature, and the trial ends that day. The free days you have left are lost. We then charge the plan you choose for the days left in that month. You see and confirm that charge first, and the window says how many free days you lose.
 - **Limits:** A Helpdesk trial includes 93 answered tickets. A ticket counts once, when you first answer it. A Marketing trial sends at most 500 emails in total. At a limit, that part of the product stops until you upgrade. A trial never charges extra usage. Reaching a limit does not end the trial or stop the charge on its last day. To stop the charge, cancel the trial.
 - **One trial for each product and person:** Trials are for new customers of a product. We check the saved card and the workspace owner's email address. If either was used for a trial of that product in any workspace, there is no second trial. We keep this check for 3 years after the trial ends, then delete it. A workspace that paid for the product before gets no trial. A workspace that already gets everything free has no trial.
 - **The record of your yes:** When you start a trial, we keep a copy of the terms you accepted, in the language you read them in. The copy also holds the amount, the date and time, and the member who accepted. We delete it 3 years after the trial ends. If you keep the paid plan, we keep the copy until 1 year after the plan ends, when that is later.
+
+### Withdraw within 14 days (EU and UK)
+
+If your billing address is in the European Union, you can withdraw from a trial or a paid plan within 14 days of its start. You do not need to give a reason. In the UK, from 1 January 2027, you can cancel a paid plan within 14 days of its first charge and get a refund. Customers in other countries do not see this option.
+
+1. Open **Billing**.
+2. Find the trial under **Free trials**, or the plan under **Your Plans**.
+3. Select **Withdraw From Contract Here**. In the UK, the button reads **Cancel and Get a Refund**.
+4. Read the window. It names the refund and where it goes.
+5. Select **Confirm Withdrawal** to withdraw. Select **Go Back** to keep the plan.
+
+- **How long you have:** Until the end of the 14th day after the start. The row shows the last day.
+- **A trial:** It ends at once, and we charge nothing.
+- **A paid plan:** It ends at once, with its add-ons. If you did not tick the early-start box when you paid, we refund the full amount. If you ticked it, we refund what you paid minus the days you used. In the UK, we always keep back the days you used.
+- **Where the refund goes:** Back to the card you paid with, within 14 days. A charge you did not pay by card comes back as account credit.
+- **The product:** It turns off, and its data stays saved for 30 days, then we delete it. Tasks goes back to its Free plan.
+- **The early-start box:** When you pay for a plan from the EU, the payment window shows a box that asks for the plan to start now, during your 14 days. You do not have to tick it to pay. We keep a copy of the box's words if you tick it.
+- **Use past the allowance:** Use above a plan's allowance is not refunded.
+
+We email you to confirm the withdrawal and the refund. The email that confirms an EU trial, and the receipt for a trial's first charge, name the last day you can withdraw.
+
+### Cancel a plan
+
+You can cancel a paid Marketing, Helpdesk, Tasks or API plan on the **Billing** page. It ends at the end of the month or year you paid for, and we charge nothing more.
+
+1. Open **Billing**. On **Current Period**, find the plan under **Your Plans**.
+2. Select **Cancel Plan**.
+3. Read the window. It names the last day you paid for, with the time zone, and the day the plan ends.
+4. With a billing address in Germany, choose the type of cancellation. **Ordinary** is picked first. For **For an important reason**, type the reason.
+5. Select **Cancel Plan** in the window to confirm. Select **Go Back** to keep the plan.
+
+- **Until the end of the month:** The product and its add-ons keep working as before.
+- **On the 1st:** The plan and its add-ons end. Your renewal has no charge for them. The product turns off, and its data stays saved for 30 days, then we delete it. Tasks moves to its Free plan and stays on.
+- **Cancel on the 1st:** If you cancel on the 1st before that day's renewal, the plan ends that day and we do not charge a new month. If the renewal already charged that month, the plan runs through it and ends on the next 1st. The window names the right day.
+- **Tasks on the Free plan:** We delete nothing. Free has 1 project and 20 active tasks. Over those limits, you keep everything but cannot add more. The paid features turn off, and some saved items are hidden, such as the activity log, dependencies and milestones.
+- **Use past the allowance:** For a product that charges for use past its allowance, use before the end day can still be on a later bill. The window and the email say so.
+- **A yearly plan:** You can cancel it at any time. It ends at the end of the year you paid for, and **Cancel Plan** refunds nothing for the rest of that year.
+- **A plan with a failed payment:** If the renewal payment failed, the plan ends at once and the product turns off then. You owe nothing for that unpaid month, and we do not try the card again for it.
+- **After you cancel:** The plan's row reads "Ends on" with the day and the last day you paid for. The next renewal shown leaves it out.
+- **Changed your mind:** Until the end day, select **Keep Plan** on the plan's row. We charge nothing now. The plan renews on the 1st as before, and we email everyone with billing rights to confirm it.
+- **The type of cancellation (Germany):** Both types end the plan on the same day. For an important reason, Support reads your reason and answers within 2 working days. The email names the type you chose.
+- **The email:** We email everyone with billing rights at once. It names when we received the cancel, the last day you paid for, and the day the plan ends.
+- **Who can cancel:** Any member with billing rights.
+- **Within 14 days of the start (EU and UK):** **Cancel Plan** refunds nothing. The window and the email say so, and name the last day to withdraw instead. To get a refund, use **Withdraw From Contract Here** (UK: **Cancel and Get a Refund**). See [Withdraw within 14 days](#withdraw-within-14-days-eu-and-uk).
+
+Some plans have no **Cancel Plan** button. A website plan ends when you take the site offline. An add-on ends with its plan. A trial has its own **Cancel Trial** button.
 
 ### The multi-product discount
 
@@ -196,6 +247,20 @@ All your storage is one pool for the whole workspace. It is the storage of each 
 - **The card fee is in the price.** New invoices have no separate processing fee. An older invoice sent with one still shows it, and you pay the total it was sent with.
 
 You need a saved card to buy a plan or credits. Open the **Payment Methods** tab on the **Billing** page to add one.
+
+### VAT in the EU and the UK
+
+If your card's billing address is in an EU country or the UK, you pay VAT at your country's rate. Before you save a card, prices use the country you connect from.
+
+- **The price you see is the price you pay.** Every price in your workspace includes the VAT. A note beside the price says the rate, for example "Prices include 19% VAT."
+- **Prices are in US dollars.** Your bank may add a fee to convert them.
+- **Credits:** You get the amount you buy in credits. Your card is charged that amount plus the VAT. The note under **Buy** shows both.
+- **Invoices** show the net amount, the VAT rate, the VAT and the total incl. VAT. The PDF shows the same lines. A Spanish invoice also shows the VAT in euros, at the latest European Central Bank rate on the invoice day. The invoice names the rate and its date.
+- **Canary Islands, Ceuta and Melilla:** prices read "Final price" and have no VAT. We use your postcode to know where you are. If your card did not give one, the **Payment Methods** tab asks for it. Enter the 5-digit postcode and select **Save Postcode**.
+- **Outside the EU and the UK:** we add no VAT. Customers in the US see the same prices as before.
+- **Business VAT numbers:** we do not take them yet, so business customers also pay VAT.
+
+The **Pricing** page on webnesting.com and the calculator you use before you sign in show prices without VAT.
 
 ---
 
@@ -285,7 +350,7 @@ If the invoice is still unpaid after day 7, your paid plans go on hold. **Nothin
 - Marketing, Helpdesk and API turn off, as when you turn a product off yourself. Their data stays saved. Tasks moves to its Free plan and stays on.
 - **Paying the invoice brings everything back at once,** and turns those products back on.
 
-When you cancel a product's plan, or it is fully refunded, the product stays on through the month you paid for. It turns off on the 1st, and its data stays saved.
+When you cancel a product's plan, or it is fully refunded, the product stays on through the month you paid for. It turns off on the 1st, and its data stays saved. See [Cancel a plan](#cancel-a-plan).
 
 An unpaid renewal invoice is cancelled on the next 1st. After that, open **Settings** > **Products**, pick a plan for the site and select **Review and Turn On**. The site comes back at once.
 
@@ -390,6 +455,6 @@ When an invoice is outstanding, a banner at the top of the **Billing** page name
 3. Select the **Pay** button that shows the amount. Your payment is processed securely through Stripe.
 4. You'll see a confirmation once your payment goes through.
 
-To save a card without paying, open the **Payment Methods** tab and select **Add Payment Method**.
+To save a card without paying, open the **Payment Methods** tab and select **Add Payment Method**. Choose the country where you live or are billed in the card form. We need it for tax and for how a free trial ends. If the card has no country, we do not save it, and the form asks you to add it again with the country.
 
 > **Tip:** Your payment information is handled by Stripe, a trusted payment processor. WebNesting never sees or stores your full card number.
