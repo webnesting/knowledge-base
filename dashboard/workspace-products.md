@@ -1,6 +1,6 @@
 # Workspace products
 
-**Last verified:** 2026-11-23 9:26am
+**Last verified:** 2026-11-23 12:21pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -84,15 +84,15 @@ Programmatic REST API access to your workspace for developers. When you enable A
 6. Select **Review and Turn On**. A window shows what you pay now and what you pay each month.
 7. Agree to pay. The product appears in your workspace sidebar right away.
 
-**Internal Docs** is free and has a **Turn on** button in its row.
+A closed row also shows a one-line description under the name and a status label such as **On**. A product is never on without a plan, so turning one on always starts with picking a plan. **Internal Docs** is free and has a **Turn on** button in its row.
 
 ![The Products tab in workspace Settings, with a row for each website and product](../images/dashboard/workspace-products-settings-tab.png)
 
-If you cannot see **Billing**, **Products** shows each product as a card, without its plans. Select **Turn on** on a card. If the product costs money, a window called **Check the price** opens. It shows what you pay now, what you pay each month and the day the plan renews. Select **Agree**, or **Cancel** to stop. If the price changes while the window is open, it shows the new price and asks you to check it again.
+If you cannot see **Billing**, **Products** shows each product without its plans. A product that costs money and has no plan yet has no **Turn on** for you: ask a member who can see **Billing** to pick its plan. Where **Turn on** shows and the product costs money, a window called **Check the price** opens. It shows what you pay now, what you pay each month and the day the plan renews. Select **Agree**, or **Cancel** to stop. If the price changes while the window is open, it shows the new price and asks you to check it again.
 
 Once a product is enabled, new menu items will appear in your workspace sidebar. For example, enabling Marketing adds sections for contacts, campaigns, and email templates.
 
-> **Tip:** Each product shows its plans and prices before you turn it on. Review them so there are no surprises.
+> **Tip:** Each product's row shows its plans and prices before you turn it on. Review them so there are no surprises.
 
 ### Add a product from your home page
 
@@ -120,6 +120,8 @@ Plans also list items we plan to launch, marked **Coming soon**. This includes A
 The **Cost Calculator** on the **Billing** page only works out a price. Nothing you pick there changes your plans or charges you. Select **Change your plans in Products** to go to **Settings** > **Products**.
 
 Helpdesk and Marketing offer a free trial. Open the product's row in **Settings** > **Products** and select **Start 14-Day Trial**. A window shows the date your card is charged, the price and how to cancel. Select **Start My Free Trial** to agree. Until then you pay nothing. While the trial runs, the product shows a chip such as "Trial · 9 days left". Full terms: [Free trial of Helpdesk and Marketing](../account/usage-and-billing.md#free-trial-of-helpdesk-and-marketing).
+
+If a plan ends or goes unpaid, the product turns off and keeps its data. It turns back on when you pay the unpaid plan. See [If a renewal payment fails](../account/usage-and-billing.md#if-a-renewal-payment-fails).
 
 Your first plan, or a change, is charged for the days left in the month. Every plan renews on the 1st. A bigger plan starts at once. A smaller plan starts on the next 1st.
 

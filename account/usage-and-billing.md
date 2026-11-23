@@ -1,6 +1,6 @@
 # Usage and billing
 
-**Last verified:** 2026-11-23 11:20am
+**Last verified:** 2026-11-23 12:21pm
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -128,12 +128,12 @@ Only members who can manage websites see **Delete Website**. A website you added
 
 Try Helpdesk or Marketing free for 14 days, on the Starter plan. You pay nothing on the day you start.
 
-1. Open **Products** in your workspace.
-2. On the Helpdesk or Marketing card, select **Start 14-Day Trial**.
+1. Open **Settings**, then **Products**.
+2. Select the Helpdesk or Marketing row to open it, then select **Start 14-Day Trial**.
 3. Read the window that opens. It shows the date your card is charged and the price. It also shows how to cancel.
 4. Select **Start My Free Trial**.
 
-The card then shows a chip with the days left, such as "Trial · 9 days left".
+The row then shows a chip with the days left, such as "Trial · 9 days left".
 
 - **When the card is charged:** On the day the trial ends, we charge your saved card for the rest of that month. After that, the plan renews on the 1st like any other. The window shows the exact date and amount before you start.
 - **How to cancel:** Open **Billing**, find the trial under **Free trials** and select **Cancel Trial**. Any member with billing rights can do this. Cancel before the first charge and you pay nothing. The product turns off at once, and your data stays saved for a while.
@@ -159,7 +159,7 @@ With two or more paid plans, your highest-priced plan is full price. Every other
 - Feature add-ons, extra module slots and credits are always full price.
 - The discount is taken from your plans on each renewal, on the 1st. The invoice shows it as one line, for example "10% off every plan but your highest", with the plans it is for.
 - When you add a plan or move to a bigger one during the month, you pay the change in your monthly total, for the rest of the month. The invoice shows the new plan at its full price and one discount line under it.
-- The plan picker, the cost calculator and the **Your Plans** list on the **Billing** page show each discounted plan's full price struck through, its new price, and "You save $X a month".
+- The calculator in **Settings** > **Products**, the **Cost Calculator** tab and the **Your Plans** list on the **Billing** page show each discounted plan's full price struck through, its new price, and "You save $X a month".
 
 - A new plan can move your other plans to a bigger discount. Sometimes your monthly total then goes down. In that case you pay nothing for the new plan this month, and your next bill on the 1st is lower.
 
@@ -284,7 +284,7 @@ If the invoice is still unpaid after day 7, your paid plans go on hold. **Nothin
 
 When you cancel a product's plan, or it is fully refunded, the product stays on through the month you paid for. It turns off on the 1st, and its data stays saved.
 
-An unpaid renewal invoice is cancelled on the next 1st. After that, pick a plan again on the site's plan card and the site comes back at once.
+An unpaid renewal invoice is cancelled on the next 1st. After that, open **Settings** > **Products**, pick a plan for the site and select **Review and Turn On**. The site comes back at once.
 
 ---
 
@@ -356,7 +356,7 @@ The **Billing** page has five tabs: **Current Period**, **Invoice History**, **P
 
 **Cost Calculator** shows what a set of plans costs. Pick a plan for **Marketing**, **Helpdesk**, **Tasks** and **API**, and select **+ Add a Website** at the top right for each extra site. **Your Monthly Total** updates as you pick. To see the price without one of your websites, open its row and select **Remove Website**. This only takes it out of the estimate. **Start Over from My Account** brings it back. Picking plans here changes nothing on your account. To change your plans, select **Change your plans in Products**.
 
-**Settings** > **Products** shows the same plans, and there **Review and Turn On** changes your account. Each product also has **No plan**. Set a product you pay for to **No plan** and select **Review and Turn On**: the window shows the last day you paid for and the 1st, when the plan stops billing and the product turns off. The product then turns off as **Turn off** does (see [Disabling a Product](../dashboard/workspace-products.md#disabling-a-product)). Each website also has **Live** or **Building**. Set a live website to **Building** and choose what visitors see until it comes off the web on the 1st. **Stay live until** the 1st is the default. **Show your Coming Soon page until** the 1st shows visitors your Coming Soon page from the moment you confirm, and you still see your real website while you are signed in. A website with no Coming Soon page gets the standard one first. Either way the website stays billed through the month you paid for, and you are not charged next month. Select **Keep It Live** before the 1st to stay live on your plan, at no charge: visitors then see your website as before. Select **Start Over from My Account** to go back to the plans you have. A website that is not live also has a **Delete Website** button: see [Deleting a website that is not live yet](#deleting-a-website-that-is-not-live-yet).
+To change your plans, use **Settings** > **Products**. It shows the same plans, and there **Review and Turn On** changes your account. Each product also has **No plan**. Set a product you pay for to **No plan** and select **Review and Turn On**: the window shows the last day you paid for and the 1st, when the plan stops billing and the product turns off. The product then turns off as **Turn off** does (see [Disabling a Product](../dashboard/workspace-products.md#disabling-a-product)). Each website also has **Live** or **Building**. Set a live website to **Building** and choose what visitors see until it comes off the web on the 1st. **Stay live until** the 1st is the default. **Show your Coming Soon page until** the 1st shows visitors your Coming Soon page from the moment you confirm, and you still see your real website while you are signed in. A website with no Coming Soon page gets the standard one first. Either way the website stays billed through the month you paid for, and you are not charged next month. Select **Keep It Live** before the 1st to stay live on your plan, at no charge: visitors then see your website as before. Select **Start Over from My Account** to go back to the plans you have. A website that is not live also has a **Delete Website** button: see [Deleting a website that is not live yet](#deleting-a-website-that-is-not-live-yet).
 
 ![The Cost Calculator tab with a plan list on the left and Your Monthly Total on the right](../images/account/usage-and-billing-cost-calculator.png)
 
