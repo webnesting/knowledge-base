@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-11-23 10:31am
+**Last verified:** 2026-11-23 1:04pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -163,16 +163,30 @@ Each customer email in a ticket has a small mark after the sender's name. It sho
 
 | Mark | What it means |
 |---|---|
-| Green check | Every check passed. The note reads **Verified sender**. |
-| Red triangle | A check failed, so the email may not come from the address it shows. The note names the failed check. |
+| Green check | The DMARC check passed, or every check passed. The note reads **Verified sender** and lists the other checks. |
+| Red triangle | The DMARC check failed, or a check failed and DMARC gave no result. The email may not come from the address it shows. The note names the failed check. |
 | Yellow mark | Some checks passed and the others gave no clear result. The note lists each check and its result. |
-| Grey question mark | The email server ran no checks, so the Helpdesk cannot tell. |
+| Grey question mark | No trusted email server checked the email, so the Helpdesk cannot tell. |
 
-The checks are SPF, DKIM and DMARC, the usual ways an email server proves who sent a message.
+The checks are SPF, DKIM and DMARC, the usual ways an email server proves who sent a message. DMARC decides when it has a result, because it checks the address you see. An email forwarded by the sender's own company can fail SPF and still pass DMARC.
+
+The Helpdesk reads only the checks of the server that received the email for you: the WebNesting email service for your Helpdesk address, or the provider of your connected Gmail, Outlook or IMAP inbox. A sender can write fake check results into an email, so the Helpdesk ignores all other results. An email from an IMAP server the Helpdesk does not know, or from a mailbox import, gets the grey mark.
 
 > **Warning:** Confirm a red-triangle request another way before you act on it. A fake sender often asks for a refund or for private account details.
 
 Your team's replies and internal notes have no mark.
+
+### Reading a Customer's Email
+
+A customer's email shows in the ticket with the layout and pictures the sender gave it.
+
+Pictures stored on the sender's server wait until you ask for them. A note above the email says how many there are, and **Load Images** shows them. Senders often hide a tiny tracking picture in an email to learn when you open it, so the Helpdesk waits for you. The next time you open the ticket, the pictures wait again. Pictures sent inside the email itself show at once.
+
+When the customer's email program quoted earlier messages below the reply, the Helpdesk folds them away. Click **Show Quoted Text** to read them and **Hide Quoted Text** to fold them again. An email over 5 MB shows its size and a **Load Email** button, so the ticket opens quickly.
+
+Every email and attachment gets a virus check when it arrives. While the check runs, you see the start of the email's text and a note, and the full email appears when the check is done. An email with a threat is quarantined. You can read the start of its text, but you cannot open or download it. A picture in the email that is quarantined or still being checked is listed by name above the email.
+
+If an email cannot be shown, you still see the start of its text and a **Download Original** link, so you can open it in your own email program.
 
 ---
 
