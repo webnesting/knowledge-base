@@ -1,6 +1,6 @@
 # Usage and billing
 
-**Last verified:** 2026-11-23 1:09pm
+**Last verified:** 2026-11-23 1:31pm
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -140,7 +140,7 @@ The row then shows a chip with the days left, such as "Trial · 9 days left".
 - **If the charge fails:** The product turns off the same day. There is no grace period, and we do not try the charge again. You owe nothing for the trial. Your data stays saved for 30 days, then we delete it. Buy the product within that time to get it back.
 - **Upgrade any time:** Choose a paid plan or add a feature, and the trial ends that day. We then charge the plan you choose for the days left in that month. You see and confirm that charge first.
 - **Limits:** A Helpdesk trial includes 93 answered tickets. A ticket counts once, when you first answer it. A Marketing trial sends at most 500 emails in total. At a limit, that part of the product stops until you upgrade. A trial never charges extra usage. Reaching a limit does not end the trial or stop the charge on its last day. To stop the charge, cancel the trial.
-- **One trial for each product and person:** Trials are for new customers of a product. We check the saved card and the workspace owner's email address. If either was used for a trial of that product in any workspace, there is no second trial. A workspace that paid for the product before gets no trial. A workspace that already gets everything free has no trial.
+- **One trial for each product and person:** Trials are for new customers of a product. We check the saved card and the workspace owner's email address. If either was used for a trial of that product in any workspace, there is no second trial. We keep this check for 3 years after the trial ends, then delete it. A workspace that paid for the product before gets no trial. A workspace that already gets everything free has no trial.
 
 ### The multi-product discount
 
