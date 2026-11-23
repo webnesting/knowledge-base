@@ -1,6 +1,6 @@
 # Usage and billing
 
-**Last verified:** 2026-11-23 1:46pm
+**Last verified:** 2026-11-23 2:15pm
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -130,17 +130,20 @@ Try Helpdesk or Marketing free for 14 days, on the Starter plan. You pay nothing
 
 1. Open **Settings**, then **Products**.
 2. Select the Helpdesk or Marketing row to open it, then select **Start 14-Day Trial**.
-3. Read the window that opens. It shows the date your card is charged and the price. It also shows how to cancel.
-4. Select **Subscribe With Obligation to Pay**. This accepts the terms in the window.
+3. Read the window that opens. It shows the price and the date and time we charge your card, with the time zone. It also shows how to cancel.
+4. If you have no saved card, select **Add a Card** and add one. The window then shows the terms again, with your card named.
+5. Tick **I accept these terms**. The button below stays off until you tick it.
+6. Select **Subscribe With Obligation to Pay**. This accepts the terms in the window.
 
 The row then shows a chip with the days left, such as "Trial · 9 days left".
 
-- **When the card is charged:** On the day the trial ends, we charge your saved card for the rest of that month. After that, the plan is billed on the 1st of each month, until you cancel. The window shows the exact date and amount before you start.
+- **When the card is charged:** On the day the trial ends, we charge your saved card for the rest of that month. After that, the plan is billed on the 1st of each month, until you cancel. The window shows the exact date, time and amount before you start.
 - **How to cancel:** Open **Billing**, find the trial under **Free trials** and select **Cancel Trial**. Any member with billing rights can do this. Cancel before the first charge and you pay nothing. The product turns off at once. Your data stays saved for 30 days, then we delete it.
 - **If the charge fails:** The product turns off the same day. There is no grace period, and we do not try the charge again. You owe nothing for the trial. Your data stays saved for 30 days, then we delete it. Buy the product within that time to get it back.
 - **Upgrade any time:** Choose a paid plan or add a feature, and the trial ends that day. We then charge the plan you choose for the days left in that month. You see and confirm that charge first.
 - **Limits:** A Helpdesk trial includes 93 answered tickets. A ticket counts once, when you first answer it. A Marketing trial sends at most 500 emails in total. At a limit, that part of the product stops until you upgrade. A trial never charges extra usage. Reaching a limit does not end the trial or stop the charge on its last day. To stop the charge, cancel the trial.
 - **One trial for each product and person:** Trials are for new customers of a product. We check the saved card and the workspace owner's email address. If either was used for a trial of that product in any workspace, there is no second trial. We keep this check for 3 years after the trial ends, then delete it. A workspace that paid for the product before gets no trial. A workspace that already gets everything free has no trial.
+- **The record of your yes:** When you start a trial, we keep a copy of the terms you accepted, in the language you read them in. The copy also holds the amount, the date and time, and the member who accepted. We delete it 3 years after the trial ends. If you keep the paid plan, we keep the copy until 1 year after the plan ends, when that is later.
 
 ### The multi-product discount
 
