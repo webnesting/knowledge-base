@@ -309,7 +309,7 @@ The **Usage** page shows how much you use over time. It shows counts only, no pr
 ![The Usage page with the date ranges, the Show and Where lists, the chart and the Usage This Period table](../images/account/usage-and-billing-usage-page.png)
  (Everything to do with money, including your plans, credits and what you have left, is on the **Billing** page.)
 
-- **Show** picks one thing to chart at a time, for example emails sent, tickets created, contacts or pages.
+- **Show** picks one thing to chart at a time, for example emails sent, tickets created, open tasks or storage.
 - The chart covers every day of the range you picked, up to today, including days with nothing on them, so you can see exactly when things happened. Switch between **Bar** and **Line** to change how it is drawn.
 - **Export CSV** saves what you are looking at as a spreadsheet file.
 
@@ -321,11 +321,12 @@ Pick **This Month**, **Last 3 Months** or **Last 12 Months**, or **Custom** to c
 
 - **Emails, tickets, API calls and website bandwidth** add up: the number is everything that happened in the range. Website bandwidth shows in GB and is counted within a few minutes of each visit. Click its **Website Bandwidth** row to see one month: the last month of the range you picked. It shows that month's total, the GB each website sent that month and the 5 files that sent the most. If you picked more than one month, the number on the row adds all of them, so it can be larger than the total inside.
 - **Automation emails** count with your marketing emails, in **Marketing Emails Sent**, and cost the same.
-- **Contacts, open tasks, pages, storage and API tokens** are what you have right now (or, for a past range, what you had at its end). They do not add up day after day.
+- **Open tasks and storage** are what you have right now (or, for a past range, what you had at its end). They do not add up day after day.
+- **Contacts, pages and API tokens** are unlimited on every plan, and the Usage page does not count them. The **API Usage** card on your workspace home shows how many of your API tokens are active right now.
 
 ### Usage by where it's used
 
-The **Usage This Period** table lists your workspace first, then each of your websites, so you can see which site is driving your usage. Use **Where** to narrow it to one website or your workspace.
+The **Usage This Period** table lists your workspace first, then any website with its own usage in the range. Use **Where** to narrow it to one website or your workspace. To see which site sends the most data, click the **Website Bandwidth** row.
 
 ### From WebNesting
 
