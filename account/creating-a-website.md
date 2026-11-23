@@ -18,7 +18,7 @@ You can also start from **Settings** > **Products**: select **Create Site** at t
 
 > **New workspace?** Until a workspace has its first site, **Create Site** under **Settings** > **Products** is the place to start. Once your first site is ready, the **Sites** button in the rail is there for everything after that.
 
-![The Settings Products page with the Create Site button on the Websites card](../images/account/creating-a-website-products-websites-card.png)
+![The Settings Products page with the Create Site button beside the Workspace Products heading](../images/account/creating-a-website-products-websites-card.png)
 
 ### The quick way from your workspace list
 
