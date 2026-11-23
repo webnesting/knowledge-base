@@ -15,6 +15,8 @@ The builder has a built-in **Audit** panel that checks the page you are working 
 3. Select **Quick check**. It tests the page as it is in the builder, including changes you have not saved.
 4. Read the four scores, then open a category to see its findings. Each finding points at the element it is about, so you can jump straight to the problem and fix it.
 
+The **SEO** check also looks for the page's search result link (canonical) and its search data (JSON-LD). A page with no share picture gets a note that does not lower its score, because shared links to it show text only.
+
 ![The Audit panel with the Quick check button ringed](../images/website-builder/seo-audit-panel.png)
 
 ![The four scores after a quick check, with a finding listed under Accessibility](../images/website-builder/seo-audit-results.png)
