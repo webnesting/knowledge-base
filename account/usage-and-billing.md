@@ -1,6 +1,6 @@
 # Usage and billing
 
-**Last verified:** 2026-11-23 9:26am
+**Last verified:** 2026-11-23 11:20am
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -279,8 +279,10 @@ If your card does not pay on the 1st, **everything keeps working for 7 days.** W
 If the invoice is still unpaid after day 7, your paid plans go on hold. **Nothing is deleted.**
 
 - Your site shows a "not available" page to visitors until the plan is paid. This holds for its `webnesting.site` address and for a custom domain. You can still open and edit the site in your dashboard.
-- You can still see your paid products and add-ons, but you cannot change them.
-- **Paying the invoice brings everything back at once.**
+- Marketing, Helpdesk and API turn off, as when you turn a product off yourself. Their data stays saved. Tasks moves to its Free plan and stays on.
+- **Paying the invoice brings everything back at once,** and turns those products back on.
+
+When you cancel a product's plan, or it is fully refunded, the product stays on through the month you paid for. It turns off on the 1st, and its data stays saved.
 
 An unpaid renewal invoice is cancelled on the next 1st. After that, pick a plan again on the site's plan card and the site comes back at once.
 
