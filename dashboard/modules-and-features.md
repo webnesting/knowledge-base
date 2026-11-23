@@ -1,6 +1,6 @@
 # Modules and features
 
-**Last verified:** 2026-11-23 9:26am
+**Last verified:** 2026-11-23 10:29am
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -22,21 +22,23 @@ To see all the modules you can add to your site:
 
 1. Log in to your dashboard.
 2. In the site menu on the left, open **Settings** and select **Modules**.
-3. You will see a list of all available modules, showing which ones are currently turned on and which are off.
+3. The page shows **This Site's Plan and Modules**: the same plan and module choices as **Settings** > **Products**, for this site only.
 
 ![The site menu with Settings open and Modules ringed](../images/dashboard/modules-site-menu.png)
 
-![The Modules page with Your Site Plan at the top, then a card for each module with its On or Off state, its price and a Turn on or Turn off button](../images/dashboard/modules.png)
+On the left you pick this site's plan and its modules. The module list is searchable, and each module shows how many slots it takes. The list holds every module your site can use, free ones included, such as **Language** and **Accounts**. **Module slots** shows how many slots the plan includes and how many your picked modules use.
 
-At the top, **Your Site Plan** shows the plan this site is on and how many visits it holds each month. **Module slots** under it shows how many slots the plan includes and how many your modules use. To change the plan, pick another plan card. The button under the cards says what will happen before you confirm. On a paid plan, a checkbox under the cards shows a "Powered by WebNesting" link in your site's footer and takes 5% off the site's plan. The link shows at once, and the 5% starts with your next bill. More: [Save 5% with a "Powered by WebNesting" link](../account/usage-and-billing.md#save-5-with-a-powered-by-webnesting-link).
+On the right is your whole bill for the month: every site and product in your workspace, with this site's changes included. Your changes here touch only this site.
 
-Each module is shown as a card with its name, a short description of what it does, its **Off** or **On** state, and how many slots it takes. The cards are **Form**, **API** (Site API Access), **Article**, **Event**, **Store** and **Accounts**. A **Filters** button lets you narrow the list by status.
+On a paid plan, a checkbox in the site's section shows a "Powered by WebNesting" link in your site's footer and takes 5% off the site's plan. The link shows at once, and the 5% starts with your next bill. More: [Save 5% with a "Powered by WebNesting" link](../account/usage-and-billing.md#save-5-with-a-powered-by-webnesting-link).
+
+If you cannot see your workspace's billing, the page shows a card for each module instead, with its **Off** or **On** state, how many slots it takes and a switch.
 
 ---
 
 ## The Language Module
 
-**Language** lets your site be in more than one language. It is off by default. It takes no module slot, and your plan sets how many extra languages a site can have. Turn it on in **Settings**, then **Modules**. Then add languages in **Languages** in the site menu. Any language can be the main language: click **Make Main Language** on the list to change it. See [Site settings](site-settings.md#languages).
+**Language** lets your site be in more than one language. It is off by default. It takes no module slot, and your plan sets how many extra languages a site can have. Pick it in the module list in **Settings**, then **Modules**, and select **Review and Turn On**. Then add languages in **Languages** in the site menu. Any language can be the main language: click **Make Main Language** on the list to change it. See [Site settings](site-settings.md#languages).
 
 When you turn it off, your site shows one language. Addresses such as `/fr/about` show "page not found". Your text in the other languages stays stored, and comes back when you turn the module on again.
 
@@ -44,13 +46,12 @@ When you turn it off, your site shows one language. Addresses such as `/fr/about
 
 ## How to Enable a Module
 
-Turning on a module that fits your plan's free slots costs nothing and needs no payment window:
-
 1. Go to **Settings** > **Modules** in your site menu.
-2. Find the module and turn on **Use on this site**.
-3. The module turns on right away and takes its slots.
+2. Pick the module in the module list.
+3. Select **Review and Turn On**.
+4. Check the price in the window, then confirm.
 
-When no slot is free, the switch says **No free slot. Turning it on opens Settings → Products.** The module stays off and **Settings** > **Products** opens at the website. There you pick a bigger plan or extra slots, which cost $8 each a month. Select **Review and Turn On** to see the price before anything is charged. See [Choosing plans, modules and add-ons](../account/usage-and-billing.md#choosing-plans-modules-and-add-ons-in-the-calculator).
+A module that fits your plan's free slots costs nothing. A free module, such as Language or Accounts, also costs nothing. When your picked modules need more slots than the plan has, the calculator adds extra slots at $8 each a month, or you can pick a bigger plan. Nothing is charged before you confirm. See [Choosing plans, modules and add-ons](../account/usage-and-billing.md#choosing-plans-modules-and-add-ons-in-the-calculator).
 
 If you cannot manage billing, **Review and Turn On** asks a workspace owner to approve the change. Nothing is charged until an owner does.
 
@@ -65,12 +66,12 @@ Once a module is enabled, new menu items will appear in your dashboard. For exam
 If you no longer need a module:
 
 1. Go to **Settings → Modules** in your site menu.
-2. Find the module you want to turn off and click **Turn off**.
-3. Confirm in the window that opens.
+2. Remove the module from the module list.
+3. Select **Review and Turn On**, then confirm in the window that opens.
 
 A module that is off is **read-only**. Its records stay, and nothing deletes them on a timer. The module's list shows **Turned off: read-only**. You can still read every entry, here and on your published site. You cannot add, edit or delete entries. A form and a store checkout on your site stop taking new entries.
 
-The module frees its slots at once. The list offers three actions:
+The module frees its slots at once. It moves to **Turned-Off Modules**, under the calculator on the Modules page, which offers three actions:
 
 - **Turn back on** makes the module work again, with everything where you left it. It needs free slots, as it did the first time.
 - **Download a copy** emails you a link to a copy of the module's content and its pages. The link works for 7 days.

@@ -169,7 +169,7 @@ For example, a Starter site ($15) and Marketing Pro ($99) are $114 at full price
 
 A site on a paid plan can show a small "Powered by WebNesting" link at the bottom of its footer. In return, that site's plan costs 5% less. This 5% adds to the multi-product discount, so one site plan can be up to 25% off.
 
-- **Turn it on** with the checkbox under the plan cards on the site's **Modules** page, or in the **Go Live** window. It is off until you choose it.
+- **Turn it on** with the checkbox in the site's section, on its **Modules** page or in **Settings** > **Products**, or in the **Go Live** window. It is off until you choose it.
 - **The link shows at once.** Your 5% starts with your next bill. When you turn it on in **Go Live**, the 5% starts with your first bill.
 - **The 5% comes off the site's plan only.** Add-ons and credits stay at full price. A site on a special price gets 5% of that price.
 - **Turn it off** with the same checkbox. The link and the 5% both end with your next bill.
