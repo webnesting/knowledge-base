@@ -1,6 +1,6 @@
 # Workspace products
 
-**Last verified:** 2026-11-22 9:40pm
+**Last verified:** 2026-11-23 9:26am
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -18,7 +18,7 @@ Every workspace includes your contact list, media and team collaboration. When y
 
 ### Websites
 
-Build websites and put them on the web. **Websites is always on** and has no on/off switch. Each website you create is free to build and has no plan. You pick a paid Websites plan for each site when you use **Go Live** (Starter $15, Growth $25, Pro $49 or Business $99 a month; see [Usage and billing](../account/usage-and-billing.md#plans)). Each site has its own included bandwidth, set by its plan (see [Billing and usage](billing-and-usage.md#website-bandwidth)). Use **Create Site** on the Websites card to create a website, your first one included. Once you have a website, the **Sites** section appears in your sidebar, where your websites live.
+Build websites and put them on the web. **Websites is always on** and has no on/off switch. Each website you create is free to build and has no plan. You pick a paid Websites plan for each site when you use **Go Live** (Starter $15, Growth $25, Pro $49 or Business $99 a month; see [Usage and billing](../account/usage-and-billing.md#plans)). Each site has its own included bandwidth, set by its plan (see [Billing and usage](billing-and-usage.md#website-bandwidth)). Use **Create Site** at the top right of **Settings** > **Products** to create a website, your first one included. Once you have a website, the **Sites** section appears in your sidebar, where your websites live.
 
 ### Marketing
 
@@ -74,18 +74,21 @@ Programmatic REST API access to your workspace for developers. When you enable A
 
 ## Enabling a Product
 
-Turning on a product takes just a few seconds:
+**Settings** > **Products** is where you pick a plan for each website and product. Nothing changes on your account until you select **Review and Turn On**.
 
 1. Go to your workspace and select **Settings** at the bottom of the left icon rail.
 2. Select **Products** (in the side menu, or the **Products** tab at the top of the page).
-3. You will see all available products with their pricing.
-4. Select **Turn on** on the product you want to activate.
-5. If the product costs money, a window called **Check the price** opens. It shows what you pay now, what you pay each month and the day the plan renews. Select **Agree** in that window, or **Cancel** to stop. The button reads **Agree and pay $X** when a payment is due now.
-6. The product appears in your workspace sidebar right away.
+3. Each website and product shows as one row: its name on the left, and its plan and monthly price on the right.
+4. Select the product's row to open it.
+5. Pick a plan. **Your Monthly Total** changes as you pick.
+6. Select **Review and Turn On**. A window shows what you pay now and what you pay each month.
+7. Agree to pay. The product appears in your workspace sidebar right away.
 
-The window opens only for products that cost money. If the price changes while the window is open, it shows the new price and asks you to check it again. Turning a product back on at the same price needs no window.
+**Internal Docs** is free and has a **Turn on** button in its row.
 
-![The Products tab in workspace Settings, with a card for each product](../images/dashboard/workspace-products-settings-tab.png)
+![The Products tab in workspace Settings, with a row for each website and product](../images/dashboard/workspace-products-settings-tab.png)
+
+If you cannot see **Billing**, **Products** shows each product as a card, without its plans. Select **Turn on** on a card. If the product costs money, a window called **Check the price** opens. It shows what you pay now, what you pay each month and the day the plan renews. Select **Agree**, or **Cancel** to stop. If the price changes while the window is open, it shows the new price and asks you to check it again.
 
 Once a product is enabled, new menu items will appear in your workspace sidebar. For example, enabling Marketing adds sections for contacts, campaigns, and email templates.
 
@@ -114,11 +117,13 @@ With two or more paid plans, your highest-priced plan is full price and every ot
 
 Plans also list items we plan to launch, marked **Coming soon**. This includes AI search optimization on every Websites plan and the Payments, Memberships, Bookings, Restaurant ordering and Online courses modules. A coming soon item shows no price and no switch. You cannot buy or turn it on yet, and it never changes your monthly total. You see these items in the **Cost Calculator** on the **Billing** page and in **Settings**, **Products**.
 
-Helpdesk and Marketing offer a free trial. On their cards, select **Start 14-Day Trial**. A window shows the date your card is charged, the price and how to cancel. Select **Start My Free Trial** to agree. Until then you pay nothing. While the trial runs, the card shows a chip such as "Trial · 9 days left". Full terms: [Free trial of Helpdesk and Marketing](../account/usage-and-billing.md#free-trial-of-helpdesk-and-marketing).
+The **Cost Calculator** on the **Billing** page only works out a price. Nothing you pick there changes your plans or charges you. Select **Change your plans in Products** to go to **Settings** > **Products**.
+
+Helpdesk and Marketing offer a free trial. Open the product's row in **Settings** > **Products** and select **Start 14-Day Trial**. A window shows the date your card is charged, the price and how to cancel. Select **Start My Free Trial** to agree. Until then you pay nothing. While the trial runs, the product shows a chip such as "Trial · 9 days left". Full terms: [Free trial of Helpdesk and Marketing](../account/usage-and-billing.md#free-trial-of-helpdesk-and-marketing).
 
 Your first plan, or a change, is charged for the days left in the month. Every plan renews on the 1st. A bigger plan starts at once. A smaller plan starts on the next 1st.
 
-A product's card shows the price you pay at your next renewal. If that price is going up, the card also shows the new price and the date of your first bill at it, at least 30 days after we tell you. See [If a price goes up](../account/usage-and-billing.md#when-you-pay).
+An open product row shows the day your plan renews. If its price is going up, the row also shows the new price and the date of your first bill at it, at least 30 days after we tell you. See [If a price goes up](../account/usage-and-billing.md#when-you-pay).
 
 If WebNesting has set a lower credit price for your workspace, see [Your price](billing-and-usage.md#your-price).
 
@@ -144,21 +149,24 @@ API calls stop when your API data goes past your plan and your credits cannot pa
 
 ## Disabling a Product
 
-If you no longer need a product:
+If you no longer need a product with a paid plan:
 
 1. Go to **Settings** > **Products** in your workspace.
-2. Find the product you want to turn off.
-3. Select **Turn off**.
-4. A confirmation window states what happens up front: the plan ends, you have paid for it until the date it names, and its data is **permanently deleted 30 days after it turns off** unless you turn it back on before then. Below that it lists how many of your tickets, campaigns or projects are kept.
-5. Confirm. **Keep it on** cancels and leaves everything as it was.
+2. Select the product's row to open it.
+3. Pick **No plan**.
+4. Select **Review and Turn On**. The window shows the last day you paid for and the 1st, when the plan stops billing and the product turns off.
 
-You can also end a product's plan in the **Cost Calculator** on the **Billing** page: set the product to **No plan**, then select **Review and Turn On**. The plan stops billing, and the product turns off, on the 1st.
+A product that is on with no paid plan (such as Tasks Free or Internal Docs) has a **Turn off** button in its row:
 
-When a plan is set to end, the product's card shows a banner naming the date, with a **Keep it on** button to cancel it any time before then. The card has no **Turn off** button until then, because the turn-off is already set.
+1. Select **Turn off**.
+2. A confirmation window states what happens up front: the plan ends, you have paid for it until the date it names, and its data is **permanently deleted 30 days after it turns off** unless you turn it back on before then. Below that it lists how many of your tickets, campaigns or projects are kept.
+3. Confirm. **Keep it on** cancels and leaves everything as it was.
+
+When a product is set to turn off, its row shows a banner naming the date, with a **Keep it on** button to cancel it any time before then. The row has no **Turn off** button until then, because the turn-off is already set.
 
 A site add-on works differently, turning one off always takes effect right away (see [Modules and features](modules-and-features.md#how-to-disable-a-module)).
 
-Once a product is off, its card shows a banner with:
+Once a product is off, its row shows a banner with:
 
 - **Turn back on** -- turns the product back on with its data, as long as it's before the deletion date.
 - **Delete now** -- permanently deletes the product's data right away instead of waiting. You'll be asked to type your workspace name to confirm, because this can't be undone.
@@ -176,7 +184,7 @@ Once a product is off, its card shows a banner with:
 
 ## Who Can Manage Products?
 
-Only workspace members with **Settings** edit permission can turn products on or off. If you do not see the buttons, ask your workspace owner or an admin with settings access to make the change for you.
+Only workspace members with **Settings** edit permission can turn products on or off. If you do not see the buttons, ask your workspace owner or an admin with settings access to make the change for you. Plans and prices show only to members who can see **Billing**.
 
 Agreeing to a charge also needs the right to manage billing. Workspace owners have it, and so do members whose role allows it. If you can turn on products but cannot manage billing, the button in the plan window reads **Ask a Workspace Owner**. It sends a request to the owners. A window called **Approval needed** says **Request sent**. A window called **A charge needs your OK** opens for the owners, and you get a notice when they answer. Nothing is charged until an owner selects **Approve**. After that, open the same plan again. The button then names the payment, and selecting it charges the card on file.
 

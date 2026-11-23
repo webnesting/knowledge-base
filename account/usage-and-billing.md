@@ -1,6 +1,6 @@
 # Usage and billing
 
-**Last verified:** 2026-11-22 9:40pm
+**Last verified:** 2026-11-23 9:26am
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -86,10 +86,10 @@ Marketing automation webhooks need Marketing automations to be on. Tasks timelin
 
 ### Choosing plans, modules and add-ons in the calculator
 
-The **Cost Calculator** tab on the **Billing** page is where you pick plans, modules and add-ons, and see the price before you pay.
+**Settings** > **Products** is where you pick plans, modules and add-ons, and see the price before you pay. Each website and product shows as one row, with its plan and monthly price on the right.
 
-1. Open **Billing**, then **Cost Calculator**.
-2. Under **Pick Your Plans**, choose a plan for each product. Choose a plan for each site too.
+1. Open **Settings**, then **Products**.
+2. Select a product's row to open it, and choose a plan. Open each website's row and choose its plan too.
 3. Under **Modules**, turn on the modules a site uses. A module past the plan's slots shows the extra slots it adds.
 4. Under the plan, tick the features you want to add alone. A plan that already includes a feature does not list it.
 5. Read the price lines. Each shows the change from today and the multi-product discount.
@@ -99,15 +99,17 @@ When a different plan would cost less for the features you picked, the calculato
 
 A member who cannot manage billing sees the same screens. The change then goes to a workspace owner to approve. Nothing is charged until an owner does.
 
+The **Cost Calculator** tab on the **Billing** page has the same plans and modules, and it only works out a price. Nothing you pick there changes your plans or charges you. Select **Change your plans in Products** to go to **Settings** > **Products**.
+
 ### Deleting a website that is not live yet
 
 You can delete a website that is not live, such as one you are still building. A live website has no **Delete Website** button. Take it offline first.
 
 > **Warning:** Deleting a website deletes everything in it: its pages, modules, media and records. You cannot undo this. Its address stops working, and no one in your workspace can open it again.
 
-1. Open **Billing**, then **Cost Calculator**.
-2. Under **Pick Your Plans**, find the website.
-3. Select **Delete Website** on its row.
+1. Open **Settings**, then **Products**.
+2. Select the website's row to open it.
+3. Select **Delete Website**.
 4. Read the warning in the window that opens.
 5. Type the website's name exactly as the window shows it.
 6. Select the red **Delete Website** button. It works only after the name matches.
@@ -120,7 +122,7 @@ The window refuses the delete in these cases, and says why:
 - If the website is going offline, delete it after it is offline.
 - If the website is still being set up, try again in a few minutes.
 
-Only members who can manage websites see **Delete Website**. A website you added only in the calculator shows **Remove** instead. **Remove** takes it out of the estimate and deletes nothing.
+Only members who can manage websites see **Delete Website**. A website you added only in the **Cost Calculator** on the **Billing** page shows **Remove**. **Remove** takes it out of the estimate and deletes nothing.
 
 ### Free trial of Helpdesk and Marketing
 
@@ -349,7 +351,9 @@ The **Billing** page has five tabs: **Current Period**, **Invoice History**, **P
 
 **Payment Methods** holds your saved cards. **Settings** holds **Billing email** and **Billing name**, which print on each invoice, and the **Pay automatically each period** choice. Below them, **Approved charges** lists every charge your workspace agreed to in a **Check the price** window. Each row shows what the charge was for, where it applies, who agreed and when. The list is a record. To stop a charge, follow the link in its row. A site's plan stops with **Take Offline** on the **Sites** page, and a product or add-on stops where you turned it on. When a member who cannot manage billing asks for a charge, a window called **A charge needs your OK** opens for the owners. They select **Approve**, **Decline** or **Not now**, and the member gets a notice.
 
-**Cost Calculator** shows what a set of plans costs. Pick a plan for **Marketing**, **Helpdesk**, **Tasks** and **API**, and select **+ Add a Website** for each site. **Your Monthly Total** updates as you pick. Picking plans changes nothing on your account. Each product also has **No plan**. Set a product you pay for to **No plan** and select **Review and Turn On**: the window shows the last day you paid for and the 1st, when the plan stops billing and the product turns off. The product then turns off as **Turn off** on its product card does (see [Disabling a Product](../dashboard/workspace-products.md#disabling-a-product)). Each website also has **Live** or **Building**. Set a live website to **Building** and choose what visitors see until it comes off the web on the 1st. **Stay live until** the 1st is the default. **Show your Coming Soon page until** the 1st shows visitors your Coming Soon page from the moment you confirm, and you still see your real website while you are signed in. A website with no Coming Soon page gets the standard one first. Either way the website stays billed through the month you paid for, and you are not charged next month. Select **Keep It Live** before the 1st to stay live on your plan, at no charge: visitors then see your website as before. Select **Start Over from My Account** to go back to the plans you have. A website that is not live also has a **Delete Website** button: see [Deleting a website that is not live yet](#deleting-a-website-that-is-not-live-yet).
+**Cost Calculator** shows what a set of plans costs. Pick a plan for **Marketing**, **Helpdesk**, **Tasks** and **API**, and select **+ Add a Website** at the top right for each extra site. **Your Monthly Total** updates as you pick. To see the price without one of your websites, open its row and select **Remove Website**. This only takes it out of the estimate. **Start Over from My Account** brings it back. Picking plans here changes nothing on your account. To change your plans, select **Change your plans in Products**.
+
+**Settings** > **Products** shows the same plans, and there **Review and Turn On** changes your account. Each product also has **No plan**. Set a product you pay for to **No plan** and select **Review and Turn On**: the window shows the last day you paid for and the 1st, when the plan stops billing and the product turns off. The product then turns off as **Turn off** does (see [Disabling a Product](../dashboard/workspace-products.md#disabling-a-product)). Each website also has **Live** or **Building**. Set a live website to **Building** and choose what visitors see until it comes off the web on the 1st. **Stay live until** the 1st is the default. **Show your Coming Soon page until** the 1st shows visitors your Coming Soon page from the moment you confirm, and you still see your real website while you are signed in. A website with no Coming Soon page gets the standard one first. Either way the website stays billed through the month you paid for, and you are not charged next month. Select **Keep It Live** before the 1st to stay live on your plan, at no charge: visitors then see your website as before. Select **Start Over from My Account** to go back to the plans you have. A website that is not live also has a **Delete Website** button: see [Deleting a website that is not live yet](#deleting-a-website-that-is-not-live-yet).
 
 ![The Cost Calculator tab with a plan list on the left and Your Monthly Total on the right](../images/account/usage-and-billing-cost-calculator.png)
 

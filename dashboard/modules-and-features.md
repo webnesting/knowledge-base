@@ -1,6 +1,6 @@
 # Modules and features
 
-**Last verified:** 2026-11-22 9:40pm
+**Last verified:** 2026-11-23 9:26am
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -50,9 +50,9 @@ Turning on a module that fits your plan's free slots costs nothing and needs no 
 2. Find the module and turn on **Use on this site**.
 3. The module turns on right away and takes its slots.
 
-When no slot is free, the switch says **No free slot. Turning it on opens the calculator.** The module stays off and the **Cost Calculator** on the **Billing** page opens. There you pick a bigger plan or extra slots, which cost $8 each a month. Select **Review and Turn On** to see the price before anything is charged. See [Choosing plans, modules and add-ons](../account/usage-and-billing.md#choosing-plans-modules-and-add-ons-in-the-calculator).
+When no slot is free, the switch says **No free slot. Turning it on opens Settings → Products.** The module stays off and **Settings** > **Products** opens at the website. There you pick a bigger plan or extra slots, which cost $8 each a month. Select **Review and Turn On** to see the price before anything is charged. See [Choosing plans, modules and add-ons](../account/usage-and-billing.md#choosing-plans-modules-and-add-ons-in-the-calculator).
 
-If you cannot manage billing, the calculator asks a workspace owner to approve the change. Nothing is charged until an owner does.
+If you cannot manage billing, **Review and Turn On** asks a workspace owner to approve the change. Nothing is charged until an owner does.
 
 Once a module is enabled, new menu items will appear in your dashboard. For example, enabling the Articles module adds an "Articles" section where you can create and manage blog posts.
 
@@ -238,7 +238,7 @@ When you turn on a module, a few things happen right away:
 
 1. **New menu items appear.** You will see new items in your site menu for managing the module's content.
 2. **New page types become available.** In the website builder, you can create pages that use the module's features (like product pages or blog post pages).
-3. **The module takes its slots.** A module uses 1 slot and a store uses 4. If your plan has the slots free, nothing is charged. If it does not, the calculator shows the price of the extra slots before you confirm.
+3. **The module takes its slots.** A module uses 1 slot and a store uses 4. If your plan has the slots free, nothing is charged. If it does not, **Settings** > **Products** shows the price of the extra slots before you confirm.
 
 There is no setup process or waiting time. Modules are ready to use the instant you enable them.
 
