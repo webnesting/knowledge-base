@@ -1,6 +1,6 @@
 # Usage and billing
 
-**Last verified:** 2026-11-23 1:31pm
+**Last verified:** 2026-11-23 1:46pm
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -93,7 +93,7 @@ Marketing automation webhooks need Marketing automations to be on. Tasks timelin
 3. Under **Modules**, turn on the modules a site uses. A module past the plan's slots shows the extra slots it adds.
 4. Under the plan, tick the features you want to add alone. A plan that already includes a feature does not list it.
 5. Read the price lines. Each shows the change from today and the multi-product discount.
-6. Select **Review and Turn On**. A window shows what you pay now and what you pay each month. Agree to it to pay.
+6. Select **Review and Turn On**. A window shows what you pay now and what you pay each month. Select **Subscribe With Obligation to Pay** to agree and pay.
 
 When a different plan would cost less for the features you picked, the calculator says so, in a line such as "Move to Growth and save" with the amount. Select the **Move to** button and everything you picked stays.
 

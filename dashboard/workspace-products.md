@@ -1,6 +1,6 @@
 # Workspace products
 
-**Last verified:** 2026-11-23 1:09pm
+**Last verified:** 2026-11-23 1:46pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -82,7 +82,7 @@ Programmatic REST API access to your workspace for developers. When you enable A
 4. Select the product's row to open it.
 5. Pick a plan. **Your Monthly Total** changes as you pick.
 6. Select **Review and Turn On**. A window shows what you pay now and what you pay each month.
-7. Agree to pay. The product appears in your workspace sidebar right away.
+7. Select **Subscribe With Obligation to Pay** to agree. The product appears in your workspace sidebar right away.
 
 A closed row also shows a one-line description under the name and a status label such as **On**. A product is never on without a plan, so turning one on always starts with picking a plan. **Internal Docs** is free and has a **Turn on** button in its row.
 
@@ -98,7 +98,7 @@ Once a product is enabled, new menu items will appear in your workspace sidebar.
 
 ![The home page with a card for each product and where it is active](../images/dashboard/workspace-products-home-page.png)
 
-The page that lists your workspaces, headed **Grow your workspace**, also shows every product available to your workspaces, each with its pricing and where it is already active (for example, **Active on 3 of 8 workspaces**). Select **Enable** on a product to turn it on. If you have more than one workspace, you can choose which workspaces to enable it on (one, several, or all) in a single step, and you will see the estimated added cost before you confirm. Then a **Check the price** window lists each workspace with what you pay now and each month, and you select **Agree**. When every workspace pays now, the button shows the total, for example **Agree and pay $7.98**. Workspaces where you already have the product, or where you do not have permission to manage products, are shown but cannot be changed from here. Once a product is active on every workspace, its card says so (for example, **Active on all 2 workspaces**), and clicking it shows where it is active with a **View products** link for each workspace.
+The page that lists your workspaces, headed **Grow your workspace**, also shows every product available to your workspaces, each with its pricing and where it is already active (for example, **Active on 3 of 8 workspaces**). Select **Enable** on a product to turn it on. If you have more than one workspace, you can choose which workspaces to enable it on (one, several, or all) in a single step, and you will see the estimated added cost before you confirm. Then a **Check the price** window lists each workspace with what you pay now and each month, and you select **Subscribe With Obligation to Pay**. Workspaces where you already have the product, or where you do not have permission to manage products, are shown but cannot be changed from here. Once a product is active on every workspace, its card says so (for example, **Active on all 2 workspaces**), and clicking it shows where it is active with a **View products** link for each workspace.
 
 ---
 
