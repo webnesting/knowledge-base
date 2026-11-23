@@ -1,6 +1,6 @@
 # Themes and customization
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-22 9:40pm
 
 Your site's theme controls its overall look and feel -- the colors, fonts, spacing, and visual style that make your site uniquely yours. Changing your theme can completely transform how your website looks without affecting any of your content.
 
@@ -392,7 +392,7 @@ A page layout can have its own header or footer. This page then names those layo
 
 > **Tip:** If your header menu has no pages yet, the page says so and links to **Pages**, where you add pages to the header menu.
 
-You can also show one of your own widgets as your header or footer. While it is in use, this page shows **Your own header** in place of the layout choices, with **Edit Header** and **Go Back to a Standard Layout**. See [Using a Widget as Your Header or Footer](../website-builder/widgets.md#using-a-widget-as-your-header-or-footer).
+You can also make your own header or footer. While it is in use, this page shows **Your own header** in place of the layout choices, with **Edit Header** and **Go Back to a Standard Layout**. See [Your own header and footer](../website-builder/your-own-header-and-footer.md).
 
 The announcement bar is a part of your header. See [Announcement Bar](../website-builder/layouts-and-structure.md#announcement-bar).
 

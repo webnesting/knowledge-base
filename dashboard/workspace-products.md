@@ -1,6 +1,6 @@
 # Workspace products
 
-**Last verified:** 2026-11-16 4:38pm
+**Last verified:** 2026-11-22 9:40pm
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -18,7 +18,7 @@ Every workspace includes your contact list, media and team collaboration. When y
 
 ### Websites
 
-Build websites and put them on the web. **Websites is always on** and has no on/off switch. Each website you create is free to build and has no plan. You pick a paid Websites plan for each site when you use **Go Live** (Starter $9, Growth $19, Pro $39 or Business $69 a month; see [Usage and billing](../account/usage-and-billing.md#plans)). Each site has its own included bandwidth, set by its plan (see [Billing and usage](billing-and-usage.md#website-bandwidth)). Use **Create Site** on the Websites card to create a website, your first one included. Once you have a website, the **Sites** section appears in your sidebar, where your websites live.
+Build websites and put them on the web. **Websites is always on** and has no on/off switch. Each website you create is free to build and has no plan. You pick a paid Websites plan for each site when you use **Go Live** (Starter $15, Growth $25, Pro $49 or Business $99 a month; see [Usage and billing](../account/usage-and-billing.md#plans)). Each site has its own included bandwidth, set by its plan (see [Billing and usage](billing-and-usage.md#website-bandwidth)). Use **Create Site** on the Websites card to create a website, your first one included. Once you have a website, the **Sites** section appears in your sidebar, where your websites live.
 
 ### Marketing
 
@@ -105,12 +105,16 @@ Each product is a plan with a flat monthly price and an included amount that sta
 
 | Product | Starter | Growth | Pro |
 |---|---|---|---|
-| Marketing | $15: 10,000 emails | $59: 50,000 emails | $99: 125,000 emails |
-| Helpdesk | $10: 500 tickets | $49: 4,000 tickets | $99: 8,000 tickets |
-| Tasks | $5: 5,000 open tasks | $19: 20,000 open tasks | $49: 50,000 open tasks |
-| API | $10: 100,000 requests, 10 GB data | $29: 300,000 requests, 30 GB data, longer audit history | $89: 1,000,000 requests, 100 GB data, longer audit history, a higher rate limit |
+| Marketing | $19: 6,000 emails | $59: 35,000 emails | $99: 65,000 emails |
+| Helpdesk | $15: 200 tickets | $49: 1,750 tickets | $99: 4,000 tickets |
+| Tasks | $10: 5,000 open tasks | $19: 40,000 open tasks | $49: 150,000 open tasks |
+| API | $19: 25,000 requests, 3 GB data | $49: 110,000 requests, 11 GB data | $129: 340,000 requests, 34 GB data |
 
-With two or more paid plans, your highest-priced plan is full price and every other plan is 5% off with two plans, up to 20% off with five or more. The details, what happens at a limit, and how credits work: [Usage and billing](../account/usage-and-billing.md).
+With two or more paid plans, your highest-priced plan is full price and every other plan is 5% off with two plans and 10% off with three or more. The details, what happens at a limit, and how credits work: [Usage and billing](../account/usage-and-billing.md).
+
+Plans also list items we plan to launch, marked **Coming soon**. This includes AI search optimization on every Websites plan and the Payments, Memberships, Bookings, Restaurant ordering and Online courses modules. A coming soon item shows no price and no switch. You cannot buy or turn it on yet, and it never changes your monthly total. You see these items in the **Cost Calculator** on the **Billing** page and in **Settings**, **Products**.
+
+Helpdesk and Marketing offer a free trial. On their cards, select **Start 14-Day Trial**. A window shows the date your card is charged, the price and how to cancel. Select **Start My Free Trial** to agree. Until then you pay nothing. While the trial runs, the card shows a chip such as "Trial · 9 days left". Full terms: [Free trial of Helpdesk and Marketing](../account/usage-and-billing.md#free-trial-of-helpdesk-and-marketing).
 
 Your first plan, or a change, is charged for the days left in the month. Every plan renews on the 1st. A bigger plan starts at once. A smaller plan starts on the next 1st.
 
@@ -124,7 +128,7 @@ Starter, Growth or Pro, by the emails you send each month. Emails sent by your a
 
 ### Helpdesk
 
-Starter, Growth or Pro, by the tickets your team answers each month. A ticket counts once, when a reply from your team or an automatic reply goes out. Extra tickets cost $0.02 each, paid from your credits and then on your next bill. Helpdesk never stops and replies never lock. Your per-site knowledge base is included, with no per-article charge. (Internal Docs is a separate, always-free product.)
+Starter, Growth or Pro, by the tickets your team answers each month. A ticket counts once, when a reply from your team or an automatic reply goes out. Extra tickets cost $0.04 each, paid from your credits and then on your next bill. Helpdesk never stops and replies never lock. Your per-site knowledge base is included, with no per-article charge. (Internal Docs is a separate, always-free product.)
 
 ### Tasks
 
@@ -147,6 +151,8 @@ If you no longer need a product:
 3. Select **Turn off**.
 4. A confirmation window states what happens up front: the plan ends, you have paid for it until the date it names, and its data is **permanently deleted 30 days after it turns off** unless you turn it back on before then. Below that it lists how many of your tickets, campaigns or projects are kept.
 5. Confirm. **Keep it on** cancels and leaves everything as it was.
+
+You can also end a product's plan in the **Cost Calculator** on the **Billing** page: set the product to **No plan**, then select **Review and Turn On**. The plan stops billing, and the product turns off, on the 1st.
 
 When a plan is set to end, the product's card shows a banner naming the date, with a **Keep it on** button to cancel it any time before then. The card has no **Turn off** button until then, because the turn-off is already set.
 

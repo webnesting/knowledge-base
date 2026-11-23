@@ -1,6 +1,6 @@
 # Events
 
-**Last verified:** 2026-11-13 11:35am
+**Last verified:** 2026-11-22 9:40pm
 
 The Events module lets you create and manage event listings on your website. Whether you host workshops, classes, concerts, conferences, or community meetups, this module gives you the tools to promote your events and share all the important details with your visitors.
 
@@ -12,7 +12,7 @@ The Events module is an event management system built right into your website. W
 
 Events appear on your website just like any other page, but with all the extra details that make event pages useful: dates, times, and links to tickets. Past events are automatically sorted below upcoming events in your event listings. Visitors will see upcoming events first.
 
-The Events add-on costs **$3 a month** for each site. Every site has unlimited pages, so event pages never cost extra. The add-on is for one site. Any site can turn it on, one you are still building free too. The add-on charges at once, even before the site has a plan. Turn it on mid-month and you pay only for the days left in that month. After that it renews on the 1st with your other plans. The [All add-ons pack](../account/usage-and-billing.md#add-ons-for-a-site) is $15 a month for Blog, Events, Forms, Widget builder and Stores together.
+The Events module takes **1 module slot** in the site's plan. Each paid Websites plan includes slots: 2 on Starter, 5 on Growth, 10 on Pro and 15 on Business. An extra slot costs $8 a month. Every site has unlimited pages, so event pages never cost extra. See [Module slots and feature add-ons](../account/usage-and-billing.md#module-slots-and-feature-add-ons).
 
 ---
 

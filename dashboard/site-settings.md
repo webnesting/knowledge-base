@@ -1,6 +1,6 @@
 # Site settings
 
-**Last verified:** 2026-11-21 8:40pm
+**Last verified:** 2026-11-22 9:40pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -108,6 +108,8 @@ To write pages in another language, see [Publishing Your Site in More Than One L
 SEO stands for Search Engine Optimization. These settings help search engines like Google understand your site and display it correctly in search results.
 
 All of these live on the **SEO Defaults** page: go to **Site Settings** and click **SEO Defaults**.
+
+On a free site that is not live yet, this page says "Works once your site is live." You can fill it in and save it now. It starts working when you go live.
 
 ![The SEO Defaults page with the Title, Description and Image fields and a preview of the search result](../images/dashboard/site-settings-seo-defaults.png)
 
@@ -231,7 +233,7 @@ Only people with the **Custom Code** permission can change this field, because i
 
 ## Cookie Banner
 
-The **Cookie banner** page asks visitors before your site uses cookies for tracking. Until a visitor chooses, tracking stays off. Open it from the **Your site** card on the Site Settings page.
+The **Cookie banner** page asks visitors before your site uses cookies for tracking. Until a visitor chooses, tracking stays off. Open it from the **Your site** card on the Site Settings page. On a free site that is not live yet, the page says "Works once your site is live." Set it up and save it now, and it starts working when you go live.
 
 1. Turn on **Show a cookie banner on this site**.
 2. Under **Who do you ask before using cookies?**, pick one:
@@ -290,6 +292,8 @@ Your own pasted code can wait too. Change its opening tag to `<script type="text
 ![The Google Settings page with Visitor tracking and Spam protection](../images/dashboard/site-settings-google.png)
 
 ### Google Analytics and Tag Manager (Visitor tracking)
+
+On a free site that is not live yet, this section says "Works once your site is live." Save your IDs now, and tracking starts when you go live.
 
 - **Google Analytics ID** -- your GA4 measurement ID, from Google Analytics → **Admin** → **Data streams**. Type the part after `G-`; the box already shows the `G-`. WebNesting adds Google's tracking code to every page.
 - **Google Tag Manager container** -- your container ID, shown next to the container's name in Tag Manager. Type the part after `GTM-`. Click **Check** to ask Google whether that container exists and is published -- an unpublished container does nothing on your site.

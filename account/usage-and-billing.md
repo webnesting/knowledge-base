@@ -1,6 +1,6 @@
 # Usage and billing
 
-**Last verified:** 2026-11-16 4:38pm
+**Last verified:** 2026-11-22 9:40pm
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -16,23 +16,23 @@ Websites have four plans. You pick one for each site.
 
 | Websites plan | Price for each site | Storage | Website bandwidth | About this many visits a month |
 |---|---|---|---|---|
-| **Starter** | $9 a month | 2 GB | 5 GB | 4,000 |
-| **Growth** | $19 | 5 GB | 15 GB | 12,000 |
-| **Pro** | $39 | 20 GB | 40 GB | 35,000 |
-| **Business** | $69 | 50 GB | 120 GB | 115,000 |
+| **Starter** | $15 a month | 2 GB | 2 GB | 1,900 |
+| **Growth** | $25 | 10 GB | 15 GB | 14,000 |
+| **Pro** | $49 | 25 GB | 38 GB | 37,000 |
+| **Business** | $99 | 50 GB | 85 GB | 83,000 |
 
 Marketing, Helpdesk, Tasks and the API have three paid plans each.
 
 | Plan | Starter | Growth | Pro |
 |---|---|---|---|
-| **Marketing** | $15: 10,000 emails | $59: 50,000 emails | $99: 125,000 emails |
-| **Helpdesk** | $10: 500 tickets | $49: 4,000 tickets | $99: 8,000 tickets |
-| **Tasks** | $5: 5,000 open tasks | $19: 20,000 open tasks | $49: 50,000 open tasks |
-| **API** | $10: 100,000 requests, 10 GB data | $29: 300,000 requests, 30 GB data, longer audit history | $89: 1,000,000 requests, 100 GB data, longer audit history, a higher rate limit |
+| **Marketing** | $19: 6,000 emails | $59: 35,000 emails | $99: 65,000 emails |
+| **Helpdesk** | $15: 200 tickets | $49: 1,750 tickets | $99: 4,000 tickets |
+| **Tasks** | $10: 5,000 open tasks | $19: 40,000 open tasks | $49: 150,000 open tasks |
+| **API** | $19: 25,000 requests, 3 GB data | $49: 110,000 requests, 11 GB data | $129: 340,000 requests, 34 GB data |
 
 - **Contacts, team members and API tokens are unlimited** on every plan.
 - **Every site has unlimited pages**, one you are still building free too.
-- **Open tasks** are the tasks that are not done. A paid Tasks plan counts each task once a month, so a task you finish this month still counts until the 1st. Every paid Tasks plan has a set number of open tasks. Tasks Pro has 50,000.
+- **Open tasks** are the tasks that are not done. A paid Tasks plan counts each task once a month, so a task you finish this month still counts until the 1st. Every paid Tasks plan has a set number of open tasks. Tasks Pro has 150,000.
 - **A Helpdesk ticket counts once, when it is answered.** That is when a reply from your team goes out, or when an automatic reply is delivered. A ticket nobody answers, such as spam, does not count. A "resolved" notice does not count it, and neither does imported email history. A ticket you delete stops counting. Replies never lock.
 - **Tasks has a Free plan.** It costs $0, needs no card and has 1 project and 20 open tasks at once. When you turn on Tasks, you start on Free unless you pick a paid plan. Free never uses credits. At 20 open tasks, a new task is refused until you finish a task or upgrade to Starter. A second project is refused too. An archived project still counts as your 1 project, and a deleted one does not. Every paid Tasks plan has unlimited projects.
 - Prices are in US dollars. Plans are billed monthly.
@@ -43,49 +43,125 @@ A new site has no plan, and its plan costs $0 while you build. It has unlimited 
 
 Pick a plan when the site is ready. **Go Live** on the Sites page lists Starter, Growth, Pro and Business. It shows the exact price first: the amount you pay now for the rest of this month, then the monthly price on the 1st. Choose **Next**, tick two boxes to agree, then choose **Pay** to charge your card. Then WebNesting sets up the site on its `webnesting.site` address. If your bank asks you to confirm the payment, the site goes live as soon as the payment goes through. A member who cannot manage billing sees "Ask a workspace owner to put this site live." After an owner approves, the window says so, and **Go Live** puts the site live and charges the card on file.
 
-**Take Offline** works on the monthly cycle. The site stays live, and its plan stays billed, until the end of the current month. Then the site goes offline and its plan ends. Add-ons keep billing until you turn them off. Until the end of the month you can choose **Keep It Live**. To put the site live again afterwards, use **Go Live** and agree to a new price summary.
+**Take Offline** works on the monthly cycle. The site stays live, and its plan stays billed, until the end of the current month. Then the site goes offline and its plan ends. Its extra module slots stop billing then too. Until the end of the month you can choose **Keep It Live**. To put the site live again afterwards, use **Go Live** and agree to a new price summary.
 
 The builder's **Publish** button is a different step. It publishes a page. It does not put the site on the web.
 
 Any workspace with a paid plan can make 25,000 API requests a month at no charge, even with no API plan.
 
-### Add-ons for a site
+### Module slots and feature add-ons
 
-Add-ons turn on extra features for one site. Any site can have them, one you are still building free too. Add-ons charge at once, even before the site has a plan.
+Each paid Websites plan includes module slots for the Blog, Events, Forms and Store modules: 2 on Starter, 5 on Growth, 10 on Pro and 15 on Business. Blog, Events and Forms take 1 slot each. A Store takes 4. An extra slot costs $8 a month.
 
-| Add-on | Price for each site |
-|---|---|
-| Blog (the Articles module) | $3 a month |
-| Events | $3 a month |
-| Forms | $3 a month |
-| Widget builder | $5 a month |
-| Store | $10 a month |
-| **All add-ons together** | **$15 a month** |
+A module turned on inside your free slots adds nothing to your bill. A module past your free slots adds the extra slots it needs, at $8 each a month. For example, a Store on Starter (2 slots) needs 4, so it adds 2 extra slots, $16 a month.
+
+A module that is turned off is **read-only**. It frees its slots at once. Your records stay, and nothing deletes them on a timer. You can read them in your dashboard and on your published site, but you cannot add, edit or delete them. A form on your site stops taking new entries. To work in the module again, select **Turn back on**. It needs free slots, as it did the first time. **Download a copy** emails you a copy of its content. **Delete records** deletes the content for good, after you type the site's name.
+
+A feature that your plan does not include has its own monthly add-on price. Open the **Cost Calculator** on the **Billing** page to see the price of each. A feature add-on is only a price. It adds no tickets, emails, tasks or requests. The plan sets those amounts.
+
+### What each plan includes
+
+A plan can include features that a smaller plan does not. A feature you add alone costs the add-on price. It stops costing anything once your plan includes it.
+
+| Feature | Add-on price a month | Included from |
+|---|---|---|
+| Extra site languages (Websites) | Not sold alone | 2 on Growth, 5 on Pro, no limit on Business |
+| Marketing automations | $21 | Growth |
+| Marketing conditional content | $21 | Growth |
+| Marketing A/B testing | $21 | Pro |
+| Marketing automation webhooks | $21 | Pro |
+| Marketing best send time | Not on sale now | Pro |
+| Helpdesk email inboxes | $9 for each extra inbox | 5 on Growth, no limit on Pro (Starter has 1) |
+| Helpdesk teams | $18 | Growth |
+| Helpdesk SLA targets and business hours | $18 | Growth |
+| Helpdesk time tracking and linked tasks | $18 | Growth |
+| Helpdesk satisfaction surveys | $26 | Pro |
+| Tasks dependencies and milestones | $5 | Growth |
+| Tasks custom fields and templates | $5 | Growth |
+| Tasks time report | $5 | Growth |
+| API 365-day log history | $22 | Growth |
+| API high speed limit | $69 | Pro |
+
+Marketing automation webhooks need Marketing automations to be on. Tasks timeline and calendar views, time tracking, watchers and the activity log come with every paid Tasks plan. The Tasks Free plan has none of them.
+
+### Choosing plans, modules and add-ons in the calculator
+
+The **Cost Calculator** tab on the **Billing** page is where you pick plans, modules and add-ons, and see the price before you pay.
+
+1. Open **Billing**, then **Cost Calculator**.
+2. Under **Pick Your Plans**, choose a plan for each product. Choose a plan for each site too.
+3. Under **Modules**, turn on the modules a site uses. A module past the plan's slots shows the extra slots it adds.
+4. Under the plan, tick the features you want to add alone. A plan that already includes a feature does not list it.
+5. Read the price lines. Each shows the change from today and the multi-product discount.
+6. Select **Review and Turn On**. A window shows what you pay now and what you pay each month. Agree to it to pay.
+
+When a different plan would cost less for the features you picked, the calculator says so, in a line such as "Move to Growth and save" with the amount. Select the **Move to** button and everything you picked stays.
+
+A member who cannot manage billing sees the same screens. The change then goes to a workspace owner to approve. Nothing is charged until an owner does.
+
+### Deleting a website that is not live yet
+
+You can delete a website that is not live, such as one you are still building. A live website has no **Delete Website** button. Take it offline first.
+
+> **Warning:** Deleting a website deletes everything in it: its pages, modules, media and records. You cannot undo this. Its address stops working, and no one in your workspace can open it again.
+
+1. Open **Billing**, then **Cost Calculator**.
+2. Under **Pick Your Plans**, find the website.
+3. Select **Delete Website** on its row.
+4. Read the warning in the window that opens.
+5. Type the website's name exactly as the window shows it.
+6. Select the red **Delete Website** button. It works only after the name matches.
+
+The website leaves your workspace at once, and its files are deleted in the background. To keep the website, select **Cancel** instead.
+
+The window refuses the delete in these cases, and says why:
+
+- If the website has a plan or add-on, cancel the plan or add-on first.
+- If the website is going offline, delete it after it is offline.
+- If the website is still being set up, try again in a few minutes.
+
+Only members who can manage websites see **Delete Website**. A website you added only in the calculator shows **Remove** instead. **Remove** takes it out of the estimate and deletes nothing.
+
+### Free trial of Helpdesk and Marketing
+
+Try Helpdesk or Marketing free for 14 days, on the Starter plan. You pay nothing on the day you start.
+
+1. Open **Products** in your workspace.
+2. On the Helpdesk or Marketing card, select **Start 14-Day Trial**.
+3. Read the window that opens. It shows the date your card is charged and the price. It also shows how to cancel.
+4. Select **Start My Free Trial**.
+
+The card then shows a chip with the days left, such as "Trial · 9 days left".
+
+- **When the card is charged:** On the day the trial ends, we charge your saved card for the rest of that month. After that, the plan renews on the 1st like any other. The window shows the exact date and amount before you start.
+- **How to cancel:** Open **Billing**, find the trial under **Free trials** and select **Cancel Trial**. Any member with billing rights can do this. Cancel before the first charge and you pay nothing. The product turns off at once, and your data stays saved for a while.
+- **If the charge fails:** The product turns off the same day, with no grace period. Your data stays saved for a set number of days, and you can buy the product again to get it back.
+- **Upgrade any time:** Choose a paid plan or add a feature, and the trial ends that day. We charge the full price of the plan you choose, from that day to the end of the month.
+- **Limits:** A Helpdesk trial includes 93 answered tickets. A Marketing trial sends at most 500 emails in total. At a limit, that part of the product stops until you upgrade. A trial never charges extra usage.
+- **One trial for each product and person:** We check your card and your email address. If either was used for a trial of that product in any workspace, there is no second trial. A workspace that already gets everything free has no trial.
 
 ### The multi-product discount
 
-**Your highest plan is full price. Every other plan is 5% off with two plans, 10% with three, 15% with four and 20% with five or more.**
+**Your highest plan is full price. Every other plan is 5% off with two plans and 10% with three or more.**
 
 With two or more paid plans, your highest-priced plan is full price. Every other plan gets a discount, on any tier. The more paid plans you have, the bigger the discount:
 
 | Paid plans | Discount on every plan but your highest |
 |---|---|
 | 2 | 5% |
-| 3 | 10% |
-| 4 | 15% |
-| 5 or more | 20% |
+| 3 or more | 10% |
 
 - Every paid plan counts: Websites, Marketing, Helpdesk, Tasks and the API. Two paid sites count as two plans.
 - A site with no plan (still building free) and the Tasks Free plan do not count, and they have no discount.
 - When two plans have the same highest price, the one you had first is the full-price plan.
-- Add-ons and credits are always full price.
+- Feature add-ons, extra module slots and credits are always full price.
 - The discount is taken from your plans on each renewal, on the 1st. The invoice shows it as one line, for example "10% off every plan but your highest", with the plans it is for.
 - When you add a plan or move to a bigger one during the month, you pay the change in your monthly total, for the rest of the month. The invoice shows the new plan at its full price and one discount line under it.
 - The plan picker, the cost calculator and the **Your Plans** list on the **Billing** page show each discounted plan's full price struck through, its new price, and "You save $X a month".
 
 - A new plan can move your other plans to a bigger discount. Sometimes your monthly total then goes down. In that case you pay nothing for the new plan this month, and your next bill on the 1st is lower.
 
-For example, a Starter site ($9) and Marketing Pro ($99) are $108 at full price. Marketing Pro is the highest-priced plan, so it stays at $99. With two plans, the site is 5% off, at $8.55. You pay $107.55 a month. Add Helpdesk Starter ($10): with three plans, the site and Helpdesk are 10% off, at $8.10 and $9.00. You pay $116.10 a month.
+For example, a Starter site ($15) and Marketing Pro ($99) are $114 at full price. Marketing Pro is the highest-priced plan, so it stays at $99. With two plans, the site is 5% off, at $14.25. You pay $113.25 a month. Add Helpdesk Starter ($15): with three plans, the site and Helpdesk are 10% off, at $13.50 each. You pay $126.00 a month.
 
 ### Save 5% with a "Powered by WebNesting" link
 
@@ -99,7 +175,7 @@ A site on a paid plan can show a small "Powered by WebNesting" link at the botto
 
 ### Storage is shared
 
-All your storage is one pool for the whole workspace. It is the storage of each Websites plan, plus 2 GB for each paid Marketing, Helpdesk, Tasks or API plan. Your site files, helpdesk attachments and form uploads all use the same pool. A workspace with no paid plan has 500 MB.
+All your storage is one pool for the whole workspace. It is the storage of each Websites plan, plus 2 GB for each paid Marketing, Helpdesk, Tasks or API plan. Your site files, helpdesk attachments and form uploads all use the same pool. A workspace with no paid plan has 500 MB for each site you are still building. Credits do not pay for more: go live to get more storage.
 
 ---
 
@@ -133,10 +209,10 @@ What a credit pays for:
 
 | Use past your plan | Credit price |
 |---|---|
-| Marketing emails | $0.90 per 1,000 emails |
-| Helpdesk tickets | $0.02 for each ticket |
+| Marketing emails | $1.50 per 1,000 emails |
+| Helpdesk tickets | $0.04 for each ticket |
 | Open tasks | $0.01 for each open task, each month |
-| API requests | $0.08 per 1,000 requests |
+| API requests | $0.10 per 1,000 requests |
 | API data | $0.39 per GB |
 | Website bandwidth | $0.39 per GB |
 | Storage | $0.25 per GB, each month |
@@ -150,7 +226,7 @@ You always see your numbers on the **Usage** page, under **Included This Month**
 | Part | At the limit |
 |---|---|
 | **Marketing emails** | A new campaign does not start. The message tells you how many emails you used. Emails from automations wait and go out when you add credits, move to a bigger plan, or the month starts over. |
-| **Helpdesk tickets** | Nothing stops. Tickets keep arriving, your team can always reply, and no customer email is refused. Past your plan, credits pay $0.02 for each extra ticket. When the credits are gone, the extra tickets go on your next bill (see [Extra usage on your next bill](#extra-usage-on-your-next-bill)). |
+| **Helpdesk tickets** | Nothing stops. Tickets keep arriving, your team can always reply, and no customer email is refused. Past your plan, credits pay $0.04 for each extra ticket. When the credits are gone, the extra tickets go on your next bill (see [Extra usage on your next bill](#extra-usage-on-your-next-bill)). |
 | **Open tasks** | You cannot create, reopen or restore a task. On the Free plan, credits are not used. You can have 20 open tasks at once and 1 project. The message points you to Starter. |
 | **API** | Requests are refused with a "usage limit" message. This also happens when the API data of the month is past your plan and credits did not pay for it. |
 | **Storage** | Uploads, imports and site publishing that add files are refused. Helpdesk attachments and form uploads are still stored and paid with credits. |
@@ -273,7 +349,7 @@ The **Billing** page has five tabs: **Current Period**, **Invoice History**, **P
 
 **Payment Methods** holds your saved cards. **Settings** holds **Billing email** and **Billing name**, which print on each invoice, and the **Pay automatically each period** choice. Below them, **Approved charges** lists every charge your workspace agreed to in a **Check the price** window. Each row shows what the charge was for, where it applies, who agreed and when. The list is a record. To stop a charge, follow the link in its row. A site's plan stops with **Take Offline** on the **Sites** page, and a product or add-on stops where you turned it on. When a member who cannot manage billing asks for a charge, a window called **A charge needs your OK** opens for the owners. They select **Approve**, **Decline** or **Not now**, and the member gets a notice.
 
-**Cost Calculator** shows what a set of plans costs. Pick a plan for **Marketing**, **Helpdesk**, **Tasks** and **API**, and select **+ Add a Website** for each site. **Your Monthly Total** updates as you pick. It changes nothing on your account. Select **Start Over from My Account** to go back to the plans you have.
+**Cost Calculator** shows what a set of plans costs. Pick a plan for **Marketing**, **Helpdesk**, **Tasks** and **API**, and select **+ Add a Website** for each site. **Your Monthly Total** updates as you pick. Picking plans changes nothing on your account. Each product also has **No plan**. Set a product you pay for to **No plan** and select **Review and Turn On**: the window shows the last day you paid for and the 1st, when the plan stops billing and the product turns off. The product then turns off as **Turn off** on its product card does (see [Disabling a Product](../dashboard/workspace-products.md#disabling-a-product)). Each website also has **Live** or **Building**. Set a live website to **Building** and choose what visitors see until it comes off the web on the 1st. **Stay live until** the 1st is the default. **Show your Coming Soon page until** the 1st shows visitors your Coming Soon page from the moment you confirm, and you still see your real website while you are signed in. A website with no Coming Soon page gets the standard one first. Either way the website stays billed through the month you paid for, and you are not charged next month. Select **Keep It Live** before the 1st to stay live on your plan, at no charge: visitors then see your website as before. Select **Start Over from My Account** to go back to the plans you have. A website that is not live also has a **Delete Website** button: see [Deleting a website that is not live yet](#deleting-a-website-that-is-not-live-yet).
 
 ![The Cost Calculator tab with a plan list on the left and Your Monthly Total on the right](../images/account/usage-and-billing-cost-calculator.png)
 

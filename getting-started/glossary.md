@@ -1,6 +1,6 @@
 # Glossary of terms
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-22 9:40pm
 
 This glossary explains common terms you will encounter while using WebNesting. If you come across a word you do not recognize, check here for a quick explanation.
 
@@ -60,9 +60,9 @@ This glossary explains common terms you will encounter while using WebNesting. I
 
 **Styler** -- The **Styles** panel in the Website Builder, which controls how elements look. Use it to change colors, spacing, fonts, borders, shadows, and other visual properties of a selected component. Open it from the icon rail on the right.
 
-**Theme** -- A set of colors, fonts, and design choices that define your site's overall visual style. Changing your theme updates the look of your entire site at once.
+**Synced section**: a section you save once and add to many pages. When you change it with **Edit everywhere**, every page that uses it changes too. Use **Stop syncing** on one page to give that page its own copy. See [Synced sections](../website-builder/synced-sections.md).
 
-**Widget** -- A custom, reusable component you create and can place on multiple pages. Widgets are handy for content that appears in several places, like a call-to-action banner or a contact form.
+**Theme**: a set of colors, fonts, and design choices that define your site's overall visual style. Changing your theme updates the look of your entire site at once.
 
 **Workspace** -- A container that groups one or more websites with a shared team, billing, and usage. Workspaces also hold optional workspace-level products like Marketing, Helpdesk, Tasks, and Contacts. You can belong to more than one workspace.
 

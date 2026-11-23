@@ -1,6 +1,6 @@
 # Managing pages
 
-**Last verified:** 2026-11-20 7:30pm
+**Last verified:** 2026-11-22 9:40pm
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 
@@ -329,7 +329,7 @@ To remove a page from the Trash for good, choose **Permanently Delete** in the s
 
 The Website Builder is where you design and edit the actual content of your pages -- adding text, images, buttons, sections, and more.
 
-1. In the site menu on the left, click **Website Builder** (at the bottom of the panel, below **Widgets**).
+1. In the site menu on the left, click **Website Builder** (at the bottom of the panel).
 2. Once the builder opens, click **Pages** in the icon rail on the right.
 3. Click the page you want to design.
 4. The page loads on the canvas, ready to edit.

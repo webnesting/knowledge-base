@@ -1,6 +1,6 @@
 # Adding components
 
-**Last verified:** 2026-11-20 7:30pm
+**Last verified:** 2026-11-22 9:40pm
 
 Components are the building blocks of your website. Every piece of content on your page -- text, images, buttons, sections, and more -- is a component. This guide shows you how to find, add, arrange, and manage components in the Website Builder.
 
@@ -85,9 +85,9 @@ The section goes in, the window closes, and the page scrolls to the new section.
 
 To take a section back, press the **Undo** arrow at the top of the builder. One press removes the whole section.
 
-You can add sections only on a page, and only if you may edit the website builder. In a layout or a widget, the **Add section** button and the **+** do not show.
+You can add sections only on a page, and only if you may edit the website builder. In a layout or a synced section, the **Add section** button and the **+** do not show.
 
-The **Ready-made** source holds 24 sections: five heroes (**Hero with photo**, **Hero, centered**, **Hero, words over a photo**, **Hero, centered over a wide photo** and **Hero with photo collage**), two that describe what you do (**Three reasons** and **Services, three cards with tags**), **How we work, four numbered steps**, two call-to-action bands (**Call to action band** and **Closing call to action**), three that show proof (**Customer reviews**, **Customer quote** and **Case study**), **Results, two stories with photos**, two with numbers (**Facts strip, three short lines** and **Numbers that count**), **Pricing, three plans**, **Questions and answers**, **Contact details**, **Meet the team**, **Logos of clients**, **Portfolio gallery**, **Book a time** and **Docs page, side menu and contents list** (a help article with a menu of pages and a list of its headings, see [Docs Columns](layouts-and-structure.md#docs-columns)). With the Forms add-on, the list has two more: **Hero with contact form** and **Contact with form**. Each one takes its colors, fonts and corners from your theme, so it looks right in light and dark mode on every built-in theme. Search finds them by the words you would use, for example "restaurant" finds **Book a time**.
+The **Ready-made** source holds 24 sections: five heroes (**Hero with photo**, **Hero, centered**, **Hero, words over a photo**, **Hero, centered over a wide photo** and **Hero with photo collage**), two that describe what you do (**Three reasons** and **Services, three cards with tags**), **How we work, four numbered steps**, two call-to-action bands (**Call to action band** and **Closing call to action**), three that show proof (**Customer reviews**, **Customer quote** and **Case study**), **Results, two stories with photos**, two with numbers (**Facts strip, three short lines** and **Numbers that count**), **Pricing, three plans**, **Questions and answers**, **Contact details**, **Meet the team**, **Logos of clients**, **Portfolio gallery**, **Book a time** and **Docs page, side menu and contents list** (a help article with a menu of pages and a list of its headings, see [Docs Columns](layouts-and-structure.md#docs-columns)). With the Forms module on, the list has two more: **Hero with contact form** and **Contact with form**. Each one takes its colors, fonts and corners from your theme, so it looks right in light and dark mode on every built-in theme. Search finds them by the words you would use, for example "restaurant" finds **Book a time**.
 
 The heroes with photos, **Results**, **Meet the team** and **Portfolio gallery** have example photos. When you add one, its photos go into your media library under **Files**. To use your own picture, select the photo on your page and choose another from your media library. The words, prices and names are examples. Change them to yours. **Contact details** has your phone number and email as links. **Contact with form** puts a contact form beside them, and **Hero with contact form** puts one beside your headline. When you add either, it uses your form made from the **Contact Form** template, or makes that form for you. To change the questions, open the form under **Forms**. In **Book a time**, open the booking block and enter your booking address.
 
@@ -111,7 +111,7 @@ A picture of the top of the section shows above the name, so you can check what 
 
 ![The message after a save, with its Show it button ringed](../images/website-builder/save-as-section-toast.png)
 
-A saved section is a copy. Changing it on one page never changes the other pages, and never changes the saved section. For one block that stays the same everywhere you use it, make a [widget](widgets.md) instead.
+A saved section is a copy. Changing it on one page never changes the other pages, and never changes the saved section. To keep one section the same everywhere you use it, choose **Keep in sync everywhere** in the **Save as section** window. That makes a [synced section](synced-sections.md). Its card says "Edits show on every page that uses it." The **Copy** card, which is the default, says "Each insert is its own copy. Changing one never changes the others."
 
 You cannot save the page content area itself, or a part of the page that holds it: the menu item is off and says "Pick a section on your page. The page content area cannot be saved." A section with an **HTML** block in it cannot be saved either, because an HTML block holds code.
 
@@ -122,11 +122,11 @@ You cannot save the page content area itself, or a part of the page that holds i
 - **Rename** gives it a new name.
 - **Delete** asks first. It removes the section from your saved sections for good. Pages that already use it keep their copy.
 
-Saving, renaming and deleting a section needs permission to edit the website builder.
+Saving, renaming and deleting a section needs permission to edit the website builder. A synced section also needs the **Synced sections** permission, and it wears a **Synced** badge. See [Synced sections](synced-sections.md#rename-or-delete-a-synced-section).
 
 ## Component Categories
 
-The **Add** panel groups blocks by what you want to do: Layout, Text, Media, Interactive, Marketing and Site modules. **Header & Footer Widgets**, at the end, holds your own header and footer widgets. Sections are not in this panel. Add them from the **Add section** window, described above.
+The **Add** panel groups blocks by what you want to do: Layout, Text, Media, Interactive, Marketing and Site modules. **Synced sections** holds the sections you keep in sync across pages, and **Header & Footer Widgets**, at the end, holds your own header and footer. Other sections are not in this panel. Add them from the **Add section** window, described above.
 
 ![The Add panel showing component categories](../images/website-builder/component-palette.png)
 
@@ -203,7 +203,7 @@ Blocks a visitor can click or open.
 The parts that frame every page, and blocks that show content from your site's modules. Blocks from a module only appear when that module is enabled.
 
 - **Site logo** -- Your logo and site name, linking to your home page. In its settings, **Show** picks the logo and name, only the logo, or only the name. Change the logo itself in **Site Settings**.
-- **Site menu** -- One of your site's menus. In its settings, **Which menu** picks the menu and **Levels shown** says how many levels of pages show (1 shows only the top items). Click the menu on your page and its toolbar sets the **Submenu style**: **Flat** shows only the top items, **Dropdown** opens the pages under an item in a short list below it, and **Mega menu** opens a wide panel below your header with the item's pages in columns, or a widget you pick (see [Mega Menus](site-navigation.md#mega-menus)). **Open on the page** opens one item's list or panel in the builder so you can see it. Edit the pages of a menu in **Pages**.
+- **Site menu**: one of your site's menus. In its settings, **Which menu** picks the menu and **Levels shown** says how many levels of pages show (1 shows only the top items). Click the menu on your page and its toolbar sets the **Submenu style**: **Flat** shows only the top items, **Dropdown** opens the pages under an item in a short list below it, and **Mega menu** opens a wide panel below your header with the item's pages in columns, or a menu panel you pick (see [Mega Menus](site-navigation.md#mega-menus)). **Open on the page** opens one item's list or panel in the builder so you can see it. Edit the pages of a menu in **Pages**.
 - **Language switcher**: Links from a page to the same page in your other languages. It only appears in the **Add** panel once your site has two or more languages (add them in **Languages** in the site menu). Each language shows in its own name, such as "Français" or "العربية", with no flags. The language the visitor is reading is underlined. Under **Show as**, pick **Dropdown** (one button that opens the list) or **List** (every language side by side; on phones and tablets it shows as the dropdown, so your header keeps one row). Under **When a page has no translation**, pick **Hide it** or **Link to that language's home page**. A language counts only once its page has text in that language and is published. A site with one language, or a page with no other language to go to, shows nothing. Put it in your header to make it part of your menu, or anywhere else on the page.
 - **Menu button**: the button that opens your menu on smaller screens. Drop a **Site menu** (or a button, or some text) into it. In its settings, **Show it on** picks the screens that show the button (phones, tablets and phones, laptops, tablets and phones, or every screen); wider screens show the menu itself. **Menu slides in from** picks the side. Leave it on **Header side** to use the side your header's phone menu uses. **Button shows** picks three lines or the word Menu. While you work on it, the builder shows your page at phone width with the menu open, so you can drop blocks into it.
 - **Site details** -- One of your site's details: your social links, your footer details, your copyright line (with this year and your business name), your extra footer text, the text under your logo or your footer's button. In its settings, **Show** picks which one. Your social links come from **Site Settings**. The footer details, extra text, text under the logo and button are the words you typed in your footer's **Settings**. If the detail is empty, your page shows nothing there, and the builder shows a note that says where to add it.
@@ -218,9 +218,9 @@ The parts that frame every page, and blocks that show content from your site's m
 
 > **Tip:** If you do not see the module blocks, the related module is not enabled. You can enable modules from the **Modules** section of your site menu.
 
-### My Widgets
+### Synced sections
 
-Your own custom, reusable components. Build something once and use it across multiple pages. If you have not created any widgets yet, this group will be empty -- use the **+** on the group header to create one without leaving the builder.
+Your own synced sections. Build something once and use it across many pages. Drag one onto your canvas to place it, including inside a column or inside another synced section. If you have not made any yet, this group is empty. To make one, select a section on your page and choose **Save as section** with **Keep in sync everywhere**. See [Synced sections](synced-sections.md).
 
 ---
 

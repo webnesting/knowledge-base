@@ -1,6 +1,6 @@
 # Managing your websites
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-22 9:40pm
 
 The **Sites** page inside a workspace is where you manage all your sites. This guide covers everything you need to know about viewing, opening, editing, and deleting your websites.
 
@@ -23,7 +23,7 @@ A site that is built but not live yet sits in its own **Building free** group. I
 
 A building-free site also has a **Share** button. It makes a link, good for 30 days, that lets anyone see the site before it is live. Choose **Copy Link** when the link appears, because the page shows it only once. A site can have 5 links at a time, and **Turn Off** ends a link at once. Anyone who opens a link that is turned off or past its 30 days sees a page that says so and asks them to get a new link from you.
 
-To take a live site offline, choose **Take Offline** on its card. The site stays live, and you pay for its plan, to the end of the month. It comes off the web on the 1st. Until then the card says "Live until" with the date, and **Keep It Live** undoes the change. Add-ons keep billing until you turn them off. Nothing is deleted.
+To take a live site offline, choose **Take Offline** on its card. The site stays live, and you pay for its plan, to the end of the month. It comes off the web on the 1st. Until then the card says "Live until" with the date, and **Keep It Live** undoes the change. Its extra module slots stop billing on the 1st too. Nothing is deleted.
 
 ![The Sites page with a card for each site and the Manage Site button highlighted](../images/getting-started/sites-list-manage-site.png)
 

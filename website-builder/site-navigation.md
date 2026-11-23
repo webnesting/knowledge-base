@@ -1,6 +1,6 @@
 # Site navigation
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-22 9:40pm
 
 Navigation is how visitors find their way around your website. Good navigation helps people quickly get to the pages they need, whether they are browsing on a desktop or a phone. This guide covers how navigation works in WebNesting, how to control which pages appear in your menus, and tips for creating a clear, easy-to-use navigation structure.
 
@@ -157,11 +157,11 @@ For a full walkthrough, see **[Managing pages in the builder](page-management.md
 
 ## Mega Menus
 
-A mega menu opens a wide panel below your header instead of a short list. It suits a site with many pages: the panel shows an item's pages side by side in columns, with the pages under each one listed below it. You can also fill a panel with your own blocks, such as a picture, a short text and a button.
+A mega menu opens a wide panel below your header instead of a short list. It suits a site with many pages: the panel shows an item's pages side by side in columns, with the pages under each one listed below it. You can also fill a panel with your own components, such as a picture, a short text and a button.
 
 ### Turn On a Mega Menu
 
-A mega menu is a style of the **Site menu** block, the menu in your own header (see [Widgets](widgets.md) for how to make your own header).
+A mega menu is a style of the **Site menu** component, the menu in your own header (see [Your own header and footer](your-own-header-and-footer.md) for how to make your own header).
 
 1. Open your header in the **Website Builder**.
 2. Click your **Site menu**.
@@ -176,20 +176,20 @@ Each top item that has pages under it now opens a panel. An item with no pages u
 On the menu's bar, click an item under **Open on the page**. The builder opens that item's panel, and **What opens** shows what the panel holds:
 
 - **Its pages**: the item's pages, in columns. This is where every item starts. A page whose **Menu look** is **Promo card in a mega menu** shows as a card beside the columns ([Layouts and structure](layouts-and-structure.md)).
-- **A widget** -- One of your widgets. Pick it in **What opens**, and the panel shows that widget instead of the pages.
-- **+ New Panel** -- Makes a new widget named after the item (for example "Services menu panel") with three columns, and picks it for the item, and opens it on your page. In the panel widget's **Settings**, **Columns** picks two, three or four columns.
+- **A menu panel**: one of your menu panels. Pick it in **What opens**, and the menu shows that panel instead of the pages. Only menu panels are listed here. A synced section is not.
+- **+ New Panel**: makes a new menu panel named after the item (for example "Services menu panel") with three columns, picks it for the item, and opens it on your page. In the menu panel's **Settings**, **Columns** picks two, three or four columns.
 
 ### Change a Panel on Your Page
 
 Click **Edit Panel** on the menu's bar. The panel opens under its item. The rest of the page is dimmed and locked while you work on it.
 
-1. Drag blocks from the **Add** panel into the panel's columns. Each column is a drop area.
-2. Click a block in the panel to change it.
+1. Drag components from the **Add** panel into the panel's columns. Each column is a drop area.
+2. Click a component in the panel to change it.
 3. Click **Done** to keep your changes as a draft, or **Publish** to show them to visitors.
 
-A panel widget shows on your site once you publish it. Until then, the panel shows the item's pages.
+A menu panel shows on your site once you publish it. Until then, the menu shows the item's pages.
 
-If you are already changing your header on the page, **Edit Panel** opens the panel widget on its own page in the builder instead. To change it on the page, click **Close** on your header's bar first.
+If you are already changing your header on the page, **Edit Panel** opens the menu panel on its own page in the builder instead. To change it on the page, click **Close** on your header's bar first.
 
 ### How Visitors Use It
 

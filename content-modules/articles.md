@@ -1,6 +1,6 @@
 # Articles and blog posts
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-22 9:40pm
 
 The Articles module gives your website a full blog and news section. Use it to share company updates, how-to guides, industry news, or anything else you want to write about. Articles are one of the best ways to keep your website fresh and attract new visitors.
 
@@ -12,7 +12,7 @@ Think of the Articles module as your own built-in blogging tool. Once you turn i
 
 Each article you create gets its own page on your website, complete with a title, featured image, and the full article text. Each article automatically gets a URL based on its title. You can customize the URL slug when creating or editing the article. Your visitors can browse all your articles in one place, or you can display them on any page of your site.
 
-The Articles module is the **Blog** add-on. It costs **$3 a month** for each site. Every site has unlimited pages, so articles never cost extra. The add-on is for one site. Any site can turn it on, one you are still building free too. The add-on charges at once, even before the site has a plan. Turn it on mid-month and you pay only for the days left in that month. After that it renews on the 1st with your other plans. The [All add-ons pack](../account/usage-and-billing.md#add-ons-for-a-site) is $15 a month for Blog, Events, Forms, Widget builder and Stores together.
+The Articles module is the **Blog** module. It takes **1 module slot** in the site's plan. Each paid Websites plan includes slots: 2 on Starter, 5 on Growth, 10 on Pro and 15 on Business. An extra slot costs $8 a month. Every site has unlimited pages, so articles never cost extra. See [Module slots and feature add-ons](../account/usage-and-billing.md#module-slots-and-feature-add-ons).
 
 ---
 

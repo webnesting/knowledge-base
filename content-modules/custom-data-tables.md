@@ -1,6 +1,6 @@
 # Custom data tables
 
-**Last verified:** 2026-11-20 7:30pm
+**Last verified:** 2026-11-22 9:40pm
 
 Custom data tables let you store and organize any kind of information on your website. Think of them like spreadsheets -- you create a table, set up columns for the information you want to track, and then add rows of data. That data can then be displayed on your website however you like.
 
@@ -218,7 +218,7 @@ Links each entry to one person from your Contacts, for example the member who ow
 - If you merge two contacts, the entries move to the contact you keep. The merge window counts them before you confirm.
 - Turn on **Unique** to allow one entry per person, for example one member profile each. Entries with no contact are always allowed. If you pick a person who already has an entry, the field says so and WebNesting does not save the entry. When you merge two contacts who each have an entry in a Unique column, the kept contact keeps its own entry. The other entry stays, and its field shows "Deleted contact".
 - A team member who cannot see Contacts sees a contact number in place of the name, and cannot change the field.
-- To show each signed-in visitor only their own entries on a page, use the data source condition **Belongs to this visitor** on this column. See [Showing each visitor only their own entries](../website-builder/widgets.md#showing-each-visitor-only-their-own-entries).
+- To show each signed-in visitor only their own entries on a page, use the data source condition **Belongs to this visitor** on this column. See [Show each visitor only their own entries](../website-builder/synced-sections.md#show-each-visitor-only-their-own-entries).
 
 You can add an Owner Contact column to a site's custom tables. Workspace tables do not have it.
 
@@ -279,14 +279,17 @@ Repeat this for each item you want to add. The entries list shows the columns yo
 After you have added entries to your table, you can display them on any page of your website using the Website Builder.
 
 1. Open the page where you want to show your custom data in the **Website Builder**.
-2. Create a **Widget** that connects to your custom data table. Widgets let you design how your data is displayed (as cards, lists, grids, etc.).
-3. In the Widget settings, connect it to your custom data table by selecting the **Module**, **Type**, and configuring the **Limit** and **Pagination** options.
-4. Add the widget to your page from the **My Widgets** section in the component palette.
-5. Save your page.
+2. Add or select the list or group of cards that should show your entries.
+3. Select **Data source** in its small toolbar.
+4. Under **Where does this content come from?**, choose **Module**, then pick your custom data table under **Module**.
+5. Under **How many records?**, choose **First (one record)**, **All (a list)** or **Paginated**, and set **Limit**.
+6. Save your page.
 
-The widget will automatically display the entries from your table on the page, using the layout and design you configured.
+The list shows the entries from your table and updates when you add or change entries.
 
-> **Tip:** See the [Widgets guide](../website-builder/widgets.md) for detailed instructions on creating widgets that display your custom data.
+To show the same list on many pages, save it as a synced section with **Keep in sync everywhere**.
+
+> **Tip:** See [Synced sections](../website-builder/synced-sections.md#show-your-own-data) for the full steps.
 
 ---
 

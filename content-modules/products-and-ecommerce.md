@@ -1,6 +1,6 @@
 # Products and e-commerce
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-22 9:40pm
 
 The E-Commerce module turns your WebNesting website into an online store. You can list products, manage orders, and give your customers a place to browse and buy -- all from the same dashboard you use to manage the rest of your site.
 
@@ -31,7 +31,7 @@ Once enabled, **Store** appears in your site menu, below **Pages**, with links t
 
 > **Tip:** Online checkout on product pages is not available yet, so visitors cannot pay through your site today. See "Taking Payments" below for what you can do now.
 
-The Store add-on costs **$10 a month** for each site. Every site has unlimited pages, so product pages never cost extra. The add-on is for one site. Any site can turn it on, one you are still building free too. The add-on charges at once, even before the site has a plan. Turn it on mid-month and you pay only for the days left in that month. After that it renews on the 1st with your other plans. The [All add-ons pack](../account/usage-and-billing.md#add-ons-for-a-site) is $15 a month for Blog, Events, Forms, Widget builder and Stores together.
+The Store module takes **4 module slots** in the site's plan. Each paid Websites plan includes slots: 2 on Starter, 5 on Growth, 10 on Pro and 15 on Business. An extra slot costs $8 a month. Every site has unlimited pages, so product pages never cost extra. See [Module slots and feature add-ons](../account/usage-and-billing.md#module-slots-and-feature-add-ons).
 
 ---
 

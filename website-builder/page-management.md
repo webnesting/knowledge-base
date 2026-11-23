@@ -1,6 +1,6 @@
 # Managing pages in the builder
 
-**Last verified:** 2026-11-20 7:30pm
+**Last verified:** 2026-11-22 9:40pm
 
 The Website Builder is where you design and edit your pages visually. But it is also where you can switch between pages, create new ones, and manage how they are organized -- all without leaving the builder. This guide covers everything you need to know about working with pages inside the builder.
 
@@ -249,21 +249,21 @@ Each page has its own SEO settings that help search engines understand and displ
 
 ---
 
-## Page vs. Widget Editing Mode
+## Page vs. synced section editing
 
-The builder supports two different editing modes. Most of the time you will be working in page mode, but it is good to know the difference.
+The builder has two editing modes. Most of the time you work in page mode, but it helps to know the difference.
 
 ### Page Mode
 
 This is the standard editing mode. When you open the builder or click on a page in the pages panel, you are in page mode. You see the full page with its layout, header, content area, and footer. You can add components, edit text, and style elements.
 
-### Widget Mode
+### Synced section mode
 
-Widgets are reusable content blocks that can appear on multiple pages. When you edit a widget, you are working on that block in isolation -- separate from any specific page. Changes to a widget will update everywhere that widget is used.
+A synced section is one section that shows on many pages. When you edit one, you work on that section on its own, apart from any page. Changes to it update every page that shows it.
 
-If the Widget Builder module is enabled on your site, open **Widgets** in the site menu on the left (next to **Website Builder**), then pick a widget to edit it.
+To open one, select the synced section on a page and select **Edit everywhere**. See [Synced sections](synced-sections.md#change-a-synced-section-everywhere).
 
-To return to page editing, open **Website Builder** and click a page in the **Pages** panel.
+To return to page editing, select the link at the top left of the editor. It reads **Page** or **Home page**.
 
 ---
 

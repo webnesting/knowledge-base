@@ -1,6 +1,6 @@
 # Navigating the dashboard
 
-**Last verified:** 2026-11-20 7:30pm
+**Last verified:** 2026-11-22 9:40pm
 
 The Dashboard is your home base for managing one site in WebNesting. It is where you handle that site's pages, settings, content, and analytics. (Workspace-level features like billing, team members, helpdesk, marketing, and tasks live in your workspace -- see the **Workspaces** card in your account portal.)
 
@@ -91,7 +91,7 @@ On phones and tablets, tap a rail icon to open its panel, then tap a link or tap
 
 ![The Settings panel open beside the icon rail, with the Settings button ringed](../images/getting-started/navigating-settings-panel.png)
 
-When you open a site from **Sites**, the panel changes to that site's own menu. It holds **Pages** and **Settings**, with **Widgets** and **Website Builder** at the bottom.
+When you open a site from **Sites**, the panel changes to that site's own menu. It holds **Pages** and **Settings**, with **Website Builder** at the bottom.
 
 ![A site's menu with Pages and Settings, and Website Builder ringed at the bottom](../images/getting-started/navigating-site-menu.png)
 
@@ -268,7 +268,7 @@ You can also navigate using any links within the page content. For example, clic
 | See my site stats | Dashboard home screen |
 | Create or edit a page | Pages |
 | Design my page visually | Website Builder |
-| Build a reusable content block | Widgets |
+| Use the same section on many pages | Website Builder > **Add section** > **Saved by you** ([Synced sections](../website-builder/synced-sections.md)) |
 | Upload or organize files | **Files** in the top bar |
 | Change my site name or logo | Settings > Site Settings > Site Configuration / Site Images |
 | Change my theme or colors | Settings > Site Settings > Theme |

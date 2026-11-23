@@ -1,6 +1,6 @@
 # WebNesting user documentation
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-22 9:40pm
 
 Welcome to the WebNesting help center. These guides will help you build and manage your website.
 
@@ -73,7 +73,8 @@ Welcome to the WebNesting help center. These guides will help you build and mana
 | [Layouts and structure](website-builder/layouts-and-structure.md) | Build page structure with sections, columns, and grids |
 | [Responsive design](website-builder/responsive-design.md) | Make your site look great on phones, tablets, and computers |
 | [Saving and publishing](website-builder/saving-and-publishing.md) | Save drafts, publish changes, undo mistakes, and keyboard shortcuts |
-| [Custom widgets](website-builder/widgets.md) | Create reusable content blocks to use across multiple pages |
+| [Synced sections](website-builder/synced-sections.md) | Reuse one section on many pages and change it everywhere at once |
+| [Your own header and footer](website-builder/your-own-header-and-footer.md) | Build your own header or footer and show it on every page |
 | [Managing pages in the builder](website-builder/page-management.md) | Switch pages, create new pages, edit properties, and work with layouts |
 | [SEO best practices](website-builder/seo-best-practices.md) | Practical tips for improving your site's search engine visibility |
 | [Site navigation](website-builder/site-navigation.md) | Set up header menus, footer links, dropdowns, and breadcrumbs |

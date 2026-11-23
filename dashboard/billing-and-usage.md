@@ -1,6 +1,6 @@
 # Billing and usage
 
-**Last verified:** 2026-11-16 4:38pm
+**Last verified:** 2026-11-22 9:40pm
 
 WebNesting bills with plans and prepaid credits. You pick a plan for each part of WebNesting you use and pay for it on the 1st of the month. If you use more than a plan includes, prepaid credits pay for the extra. This page explains the details: what is included, what happens at a limit, and how to see and pay your bills. For the plan prices, how credits work and how a failed payment is handled, see [Usage and billing](../account/usage-and-billing.md).
 
@@ -10,7 +10,7 @@ WebNesting bills with plans and prepaid credits. You pick a plan for each part o
 
 Your bill has two kinds of charges:
 
-1. **Plans and add-ons.** A flat monthly price for each plan you have (Websites for each site, Marketing, Helpdesk, Tasks, API) and each site add-on. They are all charged together on the 1st.
+1. **Plans and add-ons.** A flat monthly price for each plan you have (Websites for each site, Marketing, Helpdesk, Tasks, API) and each feature add-on or extra module slot. They are all charged together on the 1st. A free trial of Helpdesk or Marketing charges nothing until its last day: see [Free trial of Helpdesk and Marketing](../account/usage-and-billing.md#free-trial-of-helpdesk-and-marketing).
 2. **Credits.** Money you add to your workspace to pay for use past your plans. You buy credits when you choose, or with auto top-up. Each purchase has its own invoice.
 
 You pay in advance. Nothing is billed after the month, unless your workspace has an Enterprise contract.
@@ -37,9 +37,9 @@ If a site's paid Websites plan is not renewed, a new page, a duplicate or a dele
 
 ### Storage
 
-All your storage is one pool for the whole workspace. It is the storage of each Websites plan, plus 2 GB for each paid Marketing, Helpdesk, Tasks or API plan. It covers your own uploads (images, videos, documents), helpdesk ticket attachments, and files visitors upload through your forms. A workspace with no paid plan has 500 MB.
+All your storage is one pool for the whole workspace. It is the storage of each Websites plan, plus 2 GB for each paid Marketing, Helpdesk, Tasks or API plan. It covers your own uploads (images, videos, documents), helpdesk ticket attachments, and files visitors upload through your forms. A workspace with no paid plan has 500 MB for each site you are still building.
 
-When the pool is full, credits pay for more storage. When the credits are gone too, uploads, imports and site publishing that add files are refused, and the message tells you what is used. Helpdesk attachments and form uploads are still stored and paid with credits.
+A workspace with no paid plan cannot use credits for storage. When its pool is full, uploads are refused, and the Usage page says "Your free storage is full. Go live to get more storage." With a paid plan, credits pay for more storage when the pool is full. When the credits are gone too, uploads, imports and site publishing that add files are refused, and the message tells you what is used. Helpdesk attachments and form uploads are still stored and paid with credits.
 
 Files belonging to a product you have turned off still count while they are kept, and stop counting once they are deleted.
 
@@ -69,6 +69,8 @@ While a site is held, its pages do not open. Its pictures, videos and other file
 
 **See where it went.** On the **Usage** page, click the **Website Bandwidth** row. It shows the GB each website sent (bytes that belong to no site show as **Workspace media library**), and **Files that sent the most**: your top 5 files, each with a small picture, its type and where it is.
 
+**Moving a live site to a smaller plan.** When you choose a plan for a live site that includes less bandwidth than the site uses, **Review and Turn On** warns you before you agree. It says how much the site uses in an average month, how much the new plan includes, the amount after which the site goes offline until you buy extra usage, and about what that extra usage costs each month. The average comes from the last 3 full months, or from the full months the site has been live if fewer. A site with no full month yet shows no warning. The warning never stops you from saving. It also shows when a live site moves to Free.
+
 **Ways to lower it:**
 
 - **Put long videos on YouTube or Vimeo** and paste the link into the **Video** block. An embedded video costs nothing in website bandwidth.
@@ -97,20 +99,18 @@ Buying credits, moving to a bigger plan, or the 1st of the month lifts each limi
 
 ## Module Pricing
 
-Site modules are add-ons with a flat monthly price for each site. Any site can turn an add-on on, one you are still building free too. Add-ons charge at once, even before the site has a plan.
+Each paid Websites plan includes module slots: 2 on Starter, 5 on Growth, 10 on Pro and 15 on Business. A module takes slots on the site that uses it. An extra slot costs $8 a month.
 
-| Add-on | Price for each site | What it does |
-|--------|---------------------|--------------|
-| Blog (the Articles module) | $3 a month | Adds a blog/news section to your site |
-| Events | $3 a month | Adds event listings with dates and details |
-| Forms | $3 a month | Build custom forms for contact, surveys, and registrations |
-| Store | $10 a month | Adds an online store with products and orders |
-| Widget builder | $5 a month | Lets you create custom interactive elements |
-| **All add-ons together** | **$15 a month** | Every add-on above |
+| Module | Slots it takes | What it does |
+|--------|----------------|--------------|
+| Blog (the Articles module) | 1 | Adds a blog/news section to your site |
+| Events | 1 | Adds event listings with dates and details |
+| Forms | 1 | Build custom forms for contact, surveys, and registrations |
+| Store | 4 | Adds an online store with products and orders |
 
-Marketing, Helpdesk, Tasks and API are workspace plans, not site add-ons. See [Workspace products](workspace-products.md) and the [plan table](../account/usage-and-billing.md#plans).
+Marketing, Helpdesk, Tasks and API are workspace plans, not site modules. See [Workspace products](workspace-products.md) and the [plan table](../account/usage-and-billing.md#plans).
 
-> **Tip:** An add-on costs the same every month, however much you use it. Blog costs $3 a month whether you have 2 articles or 200. A site on a paid plan has unlimited pages, so articles, events and products never cost extra.
+> **Tip:** Slots cost the same every month, however much you use a module. A Blog takes 1 slot whether you have 2 articles or 200. A site on a paid plan has unlimited pages, so articles, events and products never cost extra.
 
 ---
 
@@ -124,13 +124,13 @@ Your billing month is the calendar month. Every plan and add-on renews in one ch
 
 You are never charged for time you did not use. A new plan or add-on is charged for the time left in the month, down to the second, and you get the matching share of what it includes.
 
-**Example:** If you turn on the Blog add-on halfway through a 30-day month, you pay about $1.50 instead of the full $3.
+**Example:** If you add an extra module slot halfway through a 30-day month, you pay about $4 instead of the full $8.
 
 - **A bigger plan** starts right away. You pay the difference for the rest of the month.
 - **A smaller plan** starts on the next 1st. You keep the bigger plan until then.
 - **A part-month charge under $0.50** is not sent to your card. It is added to your next renewal.
 
-If you turn a site add-on off, its content is **permanently deleted after 30 days** unless you turn it back on before then. A workspace product gives you a choice when you turn it off: see [Workspace products](workspace-products.md#disabling-a-product).
+If you turn a site module off, it becomes read-only and frees its slots. Nothing deletes its records on a timer. See [Modules and features](modules-and-features.md#how-to-disable-a-module). A workspace product gives you a choice when you turn it off: see [Workspace products](workspace-products.md#disabling-a-product).
 
 ### Payment Processing
 
@@ -199,7 +199,7 @@ WebNesting can also make one product complimentary, such as Marketing, from a da
 
 WebNesting can give your workspace a discount, as a percent or a fixed amount, for a set time. It can be for one product, for one product's monthly plan price only, for one site, or for the whole bill. On a plan invoice, the discount is its own line under the plans it is for. A discount comes off before a promotion and before product credit.
 
-With two or more paid plans, you also get the multi-product discount: your highest-priced plan is full price, and every other plan is 5% off with two plans, 10% with three, 15% with four and 20% with five or more. It comes off after your price and before any other discount. See [The multi-product discount](../account/usage-and-billing.md#the-multi-product-discount).
+With two or more paid plans, you also get the multi-product discount: your highest-priced plan is full price, and every other plan is 5% off with two plans and 10% off with three or more. It comes off after your price and before any other discount. See [The multi-product discount](../account/usage-and-billing.md#the-multi-product-discount).
 
 ### Credits from WebNesting
 
@@ -271,9 +271,9 @@ Your included amounts start over on the 1st, and unused included amounts do not 
 
 ### Only Turn On Add-ons You Need
 
-Each add-on adds to your monthly bill. If you are not using one, turn it off.
+Each feature add-on and each extra module slot adds to your monthly bill. If you are not using one, turn it off.
 
-> **Important:** Turning off a module permanently deletes its content (blog posts, events, products) after 30 days, or right away if you choose **Delete now**. Turn the module back on before then to keep it. See [Modules and features](modules-and-features.md#how-to-disable-a-module).
+> **Note:** Turning off a module makes it read-only and frees its slots. Its records stay until you choose **Delete records**. Turn the module back on to work in it again. See [Modules and features](modules-and-features.md#how-to-disable-a-module).
 
 ### Keep Website Bandwidth Low
 

@@ -1,6 +1,6 @@
 # Track signups from your ads
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-22 9:40pm
 
 Paste one ID per ad platform, and each platform learns which of its ad clicks became signups. The built-in page covers Meta, Reddit, Google Ads, TikTok, LinkedIn, Pinterest and Microsoft Advertising. For another platform, see [Count signups from any other ad platform](count-signups-any-ad-platform.md).
 
@@ -11,7 +11,7 @@ Paste one ID per ad platform, and each platform learns which of its ad clicks be
 3. Paste its ID in the field. The table below says where to find it.
 4. Select **Save Changes**.
 
-WebNesting refuses an ID in the wrong format. A short message under the field says what the ID should look like. To turn a platform off, clear its field and save.
+On a free site that is not live yet, the page says "Works once your site is live." Save your IDs now, and counting starts when you go live. WebNesting refuses an ID in the wrong format. A short message under the field says what the ID should look like. To turn a platform off, clear its field and save.
 
 | Platform | What to paste | Where to find it |
 |---|---|---|

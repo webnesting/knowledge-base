@@ -1,6 +1,6 @@
 # Team and permissions
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-22 9:40pm
 
 WebNesting lets you invite other people to help manage your website. You control exactly what each person can see and do by assigning them roles with specific permissions.
 
@@ -224,7 +224,7 @@ When you pick a site, the matrix has a **Builder Access** group. It sets what a 
 | Row | What it controls |
 |-----|------------------|
 | Page Editor | Edit pages and layouts in the Web Builder. |
-| Widget Editor | Create and edit widgets in the Widget Builder. |
+| Synced sections | Make and edit synced sections. |
 | Custom Code | Add or change code in an HTML component, in **Site Settings → Code from Other Services** and **Security Policy**, in a page's **Custom Code** group (**Edit Custom Code**), in **SEO Defaults → Extra code for every page's `<head>`**, and your own CSS in the builder (**Styles → Site stylesheet**), and publish that CSS. This code runs for every visitor to your site, so give it only to people you trust. With **Read** only, a person sees that code but cannot change it. |
 
 ![The Builder Access group with the Custom Code row ringed and unticked](../images/dashboard/team-and-permissions-builder-access.png)

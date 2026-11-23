@@ -1,6 +1,6 @@
 # Modules and features
 
-**Last verified:** 2026-11-21 11:40am
+**Last verified:** 2026-11-22 9:40pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -12,7 +12,7 @@ Your site starts with the basics: pages, media uploads, and user management. Whe
 
 A module is a feature pack that adds a whole new section to your website. For example, the Articles module gives you everything you need to run a blog. The E-Commerce module lets you sell products online.
 
-You only pay for the modules you actually use. If you do not need a blog, do not enable the Articles module -- and you will not be charged for it.
+Your site plan includes module slots, and each module you turn on takes some of them. A Blog, Events or Forms module takes 1 slot. A Store takes 4. A module you leave off keeps its slots free. See [Module pricing](#module-pricing).
 
 ---
 
@@ -28,9 +28,10 @@ To see all the modules you can add to your site:
 
 ![The Modules page with Your Site Plan at the top, then a card for each module with its On or Off state, its price and a Turn on or Turn off button](../images/dashboard/modules.png)
 
-At the top, **Your Site Plan** shows the plan this site is on and how many visits it holds each month. **All add-ons together** under it is what the site's add-ons cost a month. To change the plan, pick another plan card. The button under the cards says what will happen before you confirm. On a paid plan, a checkbox under the cards shows a "Powered by WebNesting" link in your site's footer and takes 5% off the site's plan. The link shows at once, and the 5% starts with your next bill. More: [Save 5% with a "Powered by WebNesting" link](../account/usage-and-billing.md#save-5-with-a-powered-by-webnesting-link). Prices in the picture read $0.00 because the Example workspace has its add-ons included. Your page shows your own prices.
+At the top, **Your Site Plan** shows the plan this site is on and how many visits it holds each month. **Module slots** under it shows how many slots the plan includes and how many your modules use. To change the plan, pick another plan card. The button under the cards says what will happen before you confirm. On a paid plan, a checkbox under the cards shows a "Powered by WebNesting" link in your site's footer and takes 5% off the site's plan. The link shows at once, and the 5% starts with your next bill. More: [Save 5% with a "Powered by WebNesting" link](../account/usage-and-billing.md#save-5-with-a-powered-by-webnesting-link).
 
-Each module is shown as a card with its name, a short description of what it does, its **Off** or **On** state, and its price. The cards are **Form**, **API** (Site API Access), **Widget Builder**, **Article**, **Event**, **Store** and **Accounts**. A **Filters** button lets you narrow the list by status.
+Each module is shown as a card with its name, a short description of what it does, its **Off** or **On** state, and how many slots it takes. The cards are **Form**, **API** (Site API Access), **Article**, **Event**, **Store** and **Accounts**. A **Filters** button lets you narrow the list by status.
+
 ---
 
 ## The Language Module
@@ -43,18 +44,15 @@ When you turn it off, your site shows one language. Addresses such as `/fr/about
 
 ## How to Enable a Module
 
-Turning on a module is a short confirmation. You see what it costs and agree to it before anything is charged:
+Turning on a module that fits your plan's free slots costs nothing and needs no payment window:
 
 1. Go to **Settings** > **Modules** in your site menu.
-2. Find the module you want to enable and select **Turn on**.
-3. A window shows **What it costs** before anything happens.
+2. Find the module and turn on **Use on this site**.
+3. The module turns on right away and takes its slots.
 
-![The window for turning on Widget Builder, with the What it costs table and the Cancel and Enable buttons](../images/dashboard/modules-turn-on-cost.png)
+When no slot is free, the switch says **No free slot. Turning it on opens the calculator.** The module stays off and the **Cost Calculator** on the **Billing** page opens. There you pick a bigger plan or extra slots, which cost $8 each a month. Select **Review and Turn On** to see the price before anything is charged. See [Choosing plans, modules and add-ons](../account/usage-and-billing.md#choosing-plans-modules-and-add-ons-in-the-calculator).
 
-4. Select **Enable** to confirm, or **Cancel** to back out.
-5. If the module costs money, a second window called **Check the price** shows what you pay now and each month. Select **Agree** (or **Agree and pay $X** when a payment is due now). The module activates right away.
-
-A module that costs nothing, and a module you turn back on at the same price, skip the second window. If the price changes while the window is open, you see the new price and agree again. The same window opens when you move your site to another plan. If you cannot manage billing, the button reads **Ask a Workspace Owner**. It shows **Request sent** and asks a workspace owner to approve the charge. Nothing is charged until an owner does. After an owner approves, the button reads **Enable** again, and selecting it charges the card on file.
+If you cannot manage billing, the calculator asks a workspace owner to approve the change. Nothing is charged until an owner does.
 
 Once a module is enabled, new menu items will appear in your dashboard. For example, enabling the Articles module adds an "Articles" section where you can create and manage blog posts.
 
@@ -68,25 +66,31 @@ If you no longer need a module:
 
 1. Go to **Settings → Modules** in your site menu.
 2. Find the module you want to turn off and click **Turn off**.
-3. A confirmation window explains exactly what will happen: how many entries are kept, the date they would be deleted, and that its pages come off your public site while it's off.
-4. Click **Turn off** again to proceed, or **Keep it on** to change your mind.
+3. Confirm in the window that opens.
 
-The module's card then shows a banner counting down the days until its content is deleted, with **Turn back on** (restores the module and its content, as long as it's before the deletion date), **Download a copy** (we email you a link to a copy of the module's content and its pages, valid for 7 days) and **Delete now** (deletes the content right away -- you'll be asked to type your site's name, because this can't be undone). The card's own **Turn on** button does the same thing as **Turn back on**.
+A module that is off is **read-only**. Its records stay, and nothing deletes them on a timer. The module's list shows **Turned off: read-only**. You can still read every entry, here and on your published site. You cannot add, edit or delete entries. A form and a store checkout on your site stop taking new entries.
 
-> **Important:** Disabling a module removes it from your site menu. Its content is **permanently deleted after 30 days** -- turn the module back on before then to keep it; turning it on after that starts it empty. (A capability like Accounts stores no content, so there is nothing to keep or delete.)
+The module frees its slots at once. The list offers three actions:
+
+- **Turn back on** makes the module work again, with everything where you left it. It needs free slots, as it did the first time.
+- **Download a copy** emails you a link to a copy of the module's content and its pages. The link works for 7 days.
+- **Delete records** deletes the content for good. You type your site's name first, because this cannot be undone.
+
+> **Note:** A capability like Accounts stores no content, so it has nothing to keep or delete.
 
 ---
 
 ## Module Pricing
 
-Site modules are add-ons with a flat monthly price for each site, the same however much you use them. Any site can turn an add-on on, one you are still building free too. Add-ons charge at once, even before the site has a plan.
+Each paid Websites plan includes module slots: 2 on Starter, 5 on Growth, 10 on Pro and 15 on Business. A module takes slots on the site that uses it. An extra slot costs $8 a month.
 
 Here is how it works:
 
-- **You are only charged for modules you have enabled.**
-- **Turn one on partway through the month** and you pay only for the days left. After that it renews on the 1st with your other plans.
-- **All add-ons together** cost $15 a month for each site. If a site has the pack, turning on another add-on costs nothing more.
-- **Add-on prices appear on your plan invoice.**
+- **A module takes slots only while it is on.** Blog, Events and Forms take 1 slot each. A Store takes 4.
+- **Add a slot partway through the month** and you pay only for the days left. After that it renews on the 1st with your other plans.
+- **Move a site to a lower plan that needs extra slots** and you pay nothing now. Your current plan's slots stay until the 1st, when the lower plan and its extra slots start.
+- **Extra slot prices appear on your plan invoice.**
+- **Coming soon modules take no slots.** Payments, Memberships, Bookings, Restaurant ordering and Online courses are planned. At the end of the Modules list, each shows a grey **Coming soon** label, with no switch and no slot count. You cannot turn them on yet, and they never change your slot count or your price.
 
 > **Tip:** Visit the **Billing** section of your account to see exactly what you are being charged for each month.
 
@@ -100,7 +104,7 @@ Here is a summary of each module you can add to your site.
 
 ### Articles
 
-**Monthly cost:** $3/month for each site (the Blog add-on)
+**Cost:** 1 module slot (the Blog)
 
 The Articles module adds a full blogging and news section to your site. Use it to publish blog posts, company news, updates, or any written content you want to share with your visitors.
 
@@ -111,7 +115,7 @@ What you get when you enable it:
 
 ### E-Commerce (Store)
 
-**Monthly cost:** $10/month for each site
+**Cost:** 4 module slots
 
 The E-Commerce module turns your website into an online store. Sell physical or digital products, manage orders, and track your sales.
 
@@ -123,7 +127,7 @@ What you get when you enable it:
 
 ### Events
 
-**Monthly cost:** $3/month for each site
+**Cost:** 1 module slot
 
 The Events module lets you create and manage event listings on your site. Perfect for businesses that host classes, workshops, meetups, or any kind of gathering.
 
@@ -156,7 +160,7 @@ Events are laid out the way concert halls and venues show them, in your theme's 
 
 ### Email Marketing (Workspace Product)
 
-**Monthly cost:** $15, $59 or $99 a month, by the emails you send
+**Monthly cost:** $19, $59 or $99 a month, by the emails you send
 
 Email marketing is a **workspace product**, not a site module. You enable it at the workspace level and it works across every site in the workspace.
 
@@ -166,13 +170,13 @@ What you get when you enable it:
 - Contact import from CSV files
 - Automatic unsubscribe handling
 
-**Starter includes 10,000 emails a month, Growth 50,000 and Pro 125,000.** The emails start over on the 1st. When they are used up, prepaid credits pay for more, at $0.90 per 1,000 emails. Contacts are unlimited on every plan. See [Usage and billing](../account/usage-and-billing.md).
+**Starter includes 6,000 emails a month, Growth 35,000 and Pro 65,000.** The emails start over on the 1st. When they are used up, prepaid credits pay for more, at $1.50 per 1,000 emails. Contacts are unlimited on every plan. See [Usage and billing](../account/usage-and-billing.md).
 
 > **Tip:** If you also have the Forms module enabled on your site, a form can add everyone who fills it in to your workspace contacts once you turn on **Create Contact** for that form, no manual data entry needed. See the [Email marketing](../content-modules/email-marketing.md) and [Workspace products](workspace-products.md) for details.
 
 ### Forms
 
-**Monthly cost:** $3/month for each site
+**Cost:** 1 module slot
 
 The Forms module lets you build custom forms for your website -- contact forms, surveys, registration forms, feedback forms, and more. Includes conditional logic, multi-page forms, file uploads, reCAPTCHA, webhooks, and submission management.
 
@@ -189,7 +193,7 @@ What you get when you enable it:
 
 ### API Access (Workspace Product)
 
-**Monthly cost:** Free, or $10, $29 or $89 a month by the requests and data you need
+**Monthly cost:** Free, or $19, $49 or $129 a month by the requests and data you need
 
 API Access is a **workspace product**, not a site module -- you enable it once at the workspace level and it covers every site in the workspace. It gives you access tokens for the REST API, so your own code and other systems can read and write your content programmatically.
 
@@ -208,17 +212,6 @@ Common use cases:
 Any workspace with a paid plan can make 25,000 API requests a month with no API plan. Starter includes 100,000 requests and 10 GB of data a month, Growth 300,000 requests and 30 GB, and Pro 1,000,000 requests and 100 GB. Growth and Pro keep your audit log longer, and Pro has a higher rate limit. Past the included amount, prepaid credits pay for more. Active API tokens are unlimited.
 
 > **Tip:** Connecting an AI assistant (Claude, ChatGPT, Cursor, and similar) is a **separate, free** feature, it does not need this product and is not metered. See [Connecting an AI tool](connecting-ai-tools.md).
-
-### Widget Builder
-
-**Monthly cost:** $5/month for each site
-
-The Widget Builder lets you create custom, reusable components in the Website Builder. Once created, widgets can be dragged onto any page, making it easy to maintain consistent elements like call-to-action sections, testimonial blocks, or pricing cards across your site.
-
-What you get when you enable it:
-- **Widgets** at the bottom of your site menu, where you design and manage custom widgets
-- Tools for designing and configuring custom widgets
-- The ability to place widgets on any page of your site
 
 ### Accounts
 
@@ -245,8 +238,8 @@ When you turn on a module, a few things happen right away:
 
 1. **New menu items appear.** You will see new items in your site menu for managing the module's content.
 2. **New page types become available.** In the website builder, you can create pages that use the module's features (like product pages or blog post pages).
-3. **Your billing is updated.** The add-on's price is charged for the days left in the month, then renews on the 1st.
+3. **The module takes its slots.** A module uses 1 slot and a store uses 4. If your plan has the slots free, nothing is charged. If it does not, the calculator shows the price of the extra slots before you confirm.
 
 There is no setup process or waiting time. Modules are ready to use the instant you enable them.
 
-> **Tip:** If you are not sure whether a module is right for you, enable it and try it out. If it's not a fit, disable it -- just remember its content is permanently deleted after 30 days unless you turn it back on.
+> **Tip:** If you are not sure whether a module is right for you, turn it on and try it out. If it is not a fit, turn it off. Your records stay and nothing deletes them, so you can turn the module back on later.
