@@ -1,6 +1,6 @@
 # Connecting an AI tool
 
-**Last verified:** 2026-11-22 9:40pm
+**Last verified:** 2026-11-23 7:58pm
 
 You can connect an AI assistant — like Claude Desktop, Claude Code, or Cursor — directly to your WebNesting workspace. Once connected, you can ask the AI to look things up and make changes for you in plain language: "list my draft articles," "create a new event for next Friday," "what's my current usage this month." The AI works **as you**, with **your** permissions, and never sees your password.
 
@@ -43,6 +43,7 @@ Changed your mind, or don't recognise the app asking? Click **Cancel** instead. 
 The AI is signed in as **your** WebNesting account, so:
 
 - **It can only do what you can do.** If you can't edit a site, neither can the AI. If your access changes later, the AI's access changes with it — instantly.
+- **It meets the same account and billing checks as you.** Your email address must be verified, as it must be for the dashboard. If you change your email, the AI stops working until you verify the new address. If a product's plan goes on hold for an unpaid invoice, the AI can still read that product but cannot change it, and it gives you the link to the **Billing** page.
 - **It only touches the workspaces you picked** when connecting. It can never reach a workspace you didn't select, and never one you're not a member of.
 - **Your changes are labelled.** Anything the AI does shows up in your **Activity Log** marked with the app that made it — for example "via Claude Desktop" — right next to changes you made yourself in the browser.
 - **Teammates in the Builder see the AI work.** When the AI changes a page someone has open in the Builder, they see the change live, with a chip that names the AI. They can revert its last change or pause AI edits on that page. See [When an AI Tool Edits the Page](../website-builder/builder-overview.md#when-an-ai-tool-edits-the-page).
