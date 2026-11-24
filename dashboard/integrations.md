@@ -1,6 +1,6 @@
 # Integrations
 
-**Last verified:** 2026-11-07 10:25am
+**Last verified:** 2026-11-23 8:20pm
 
 Integrations connect WebNesting to the other tools you already use — your Google or Microsoft account for email and analytics, and GitHub for content. Everything lives on one page: **Settings** > **Integrations** in your workspace (the **⋮** menu in the top bar also opens **Workspace Settings**). You can also reach the same page from a site's settings, where it shows just the connections that power that site.
 
@@ -43,7 +43,10 @@ GitHub works a little differently from Google and Microsoft — instead of signi
    ![The GitHub panel before connecting, with Content Sync and the access it asks for](../images/dashboard/integrations-connect-github.png)
 
 2. GitHub asks where to install the WebNesting app and which repositories to grant. Pick only the repositories you want WebNesting to use — you can change this any time from your GitHub settings.
-3. Approve. You're back in WebNesting with the connection set up.
+3. Approve.
+4. GitHub may ask you to sign in or to authorize the WebNesting app. GitHub uses this to show WebNesting that your account manages the place where you installed the app. Approve, and you're back in WebNesting with the connection set up.
+
+If WebNesting says it could not confirm your GitHub account, nothing was connected. Sign in to GitHub as an owner of the organization or personal account where you installed the app, then click **Connect GitHub** again.
 
 Once connected, open the connection's **Content Sync** feature to choose what each repository powers:
 
