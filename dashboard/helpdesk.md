@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-11-23 1:04pm
+**Last verified:** 2026-11-23 6:39pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -15,6 +15,8 @@ The Helpdesk is a workspace product, which means it works across all your sites 
 Beyond ticket management, the Helpdesk includes a knowledge base where you can publish help articles so customers can find answers on their own, SLA policies to set response time goals, canned responses for common questions, and satisfaction ratings so you know how your team is doing.
 
 > **Tip:** The Helpdesk is a workspace-level product. To enable it, see the [Workspace products](workspace-products.md) guide.
+
+**Which plan has what.** Starter has 1 email inbox. Growth has 5 inboxes, teams, SLA policies and time tracking. Pro has unlimited inboxes and satisfaction surveys too. On a smaller plan you can add an extra inbox for $9 a month, or a feature alone for $18 a month ($26 for satisfaction surveys). An add-on adds no tickets: the plan sets those. See [What each plan includes](../account/usage-and-billing.md#what-each-plan-includes). You can try Helpdesk free for 14 days, and cancel a plan any time: see [Usage and billing](../account/usage-and-billing.md#free-trial-of-helpdesk-and-marketing).
 
 ---
 

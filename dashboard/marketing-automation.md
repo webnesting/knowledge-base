@@ -1,6 +1,6 @@
 # Marketing automations
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-23 6:39pm
 
 Marketing automations let you create set-it-and-forget-it workflows that send emails, update contacts, and perform actions automatically when something happens. Instead of manually sending a welcome email every time someone signs up, or remembering to tag contacts after an event, you build the workflow once and let it run on its own.
 
@@ -15,6 +15,8 @@ For example, you could create a welcome series that sends a thank-you email imme
 Automations are part of the Marketing product in your workspace. You will find them under **Automations** in the **Marketing** menu of your workspace sidebar.
 
 **What automation emails cost.** Each email an automation sends counts as a marketing email, with the same monthly allowance as campaign emails. When the allowance is used up, automation emails wait until you add credits or the month starts over. The **Usage** page counts them in **Marketing Emails Sent**. An email that fails to send is not counted. See [Usage and billing](../account/usage-and-billing.md#what-happens-at-a-limit).
+
+**Which plan has automations.** Automations come with the Marketing Growth plan and the Pro plan. On Starter you can add them alone for $21 a month. Webhook steps come with Pro. On a smaller plan they cost $21 a month and need automations to be on. An add-on adds no emails. See [What each plan includes](../account/usage-and-billing.md#what-each-plan-includes).
 
 ---
 

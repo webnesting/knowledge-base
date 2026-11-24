@@ -1,6 +1,6 @@
 # Modules and features
 
-**Last verified:** 2026-11-23 10:29am
+**Last verified:** 2026-11-23 6:39pm
 
 Modules are add-on features you can turn on for your website. Think of them like apps you install on your phone -- each one adds new abilities to your site.
 
@@ -210,7 +210,7 @@ Common use cases:
 - Syncing product data between your online store and a point-of-sale system
 - Automatically creating articles or events from an external content workflow
 
-Any workspace with a paid plan can make 25,000 API requests a month with no API plan. Starter includes 100,000 requests and 10 GB of data a month, Growth 300,000 requests and 30 GB, and Pro 1,000,000 requests and 100 GB. Growth and Pro keep your audit log longer, and Pro has a higher rate limit. Past the included amount, prepaid credits pay for more. Active API tokens are unlimited.
+Any workspace with a paid plan can make 5,000 API requests a month with no API plan. Starter includes 25,000 requests and 3 GB of data a month, Growth 110,000 requests and 11 GB, and Pro 340,000 requests and 34 GB. Growth and Pro keep your audit log longer, and Pro has a higher rate limit. Past the included amount, prepaid credits pay for more. Active API tokens are unlimited.
 
 > **Tip:** Connecting an AI assistant (Claude, ChatGPT, Cursor, and similar) is a **separate, free** feature, it does not need this product and is not metered. See [Connecting an AI tool](connecting-ai-tools.md).
 

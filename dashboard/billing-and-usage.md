@@ -1,6 +1,6 @@
 # Billing and usage
 
-**Last verified:** 2026-11-22 9:40pm
+**Last verified:** 2026-11-23 6:39pm
 
 WebNesting bills with plans and prepaid credits. You pick a plan for each part of WebNesting you use and pay for it on the 1st of the month. If you use more than a plan includes, prepaid credits pay for the extra. This page explains the details: what is included, what happens at a limit, and how to see and pay your bills. For the plan prices, how credits work and how a failed payment is handled, see [Usage and billing](../account/usage-and-billing.md).
 
@@ -131,6 +131,12 @@ You are never charged for time you did not use. A new plan or add-on is charged 
 - **A part-month charge under $0.50** is not sent to your card. It is added to your next renewal.
 
 If you turn a site module off, it becomes read-only and frees its slots. Nothing deletes its records on a timer. See [Modules and features](modules-and-features.md#how-to-disable-a-module). A workspace product gives you a choice when you turn it off: see [Workspace products](workspace-products.md#disabling-a-product).
+
+### Cancel a Plan and Where We Sell
+
+To stop a Marketing, Helpdesk, Tasks or API plan, select **Cancel Plan** on its row under **Your Plans** on the **Billing** page. The plan runs to the end of the month you paid for. Until then, select **Keep Plan** to undo the cancel. See [Cancel a plan](../account/usage-and-billing.md#cancel-a-plan).
+
+Paid plans, free trials and credits are for billing addresses in the United States for now. See [Where paid plans are available](../account/usage-and-billing.md#where-paid-plans-are-available).
 
 ### Payment Processing
 

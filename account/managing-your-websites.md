@@ -1,6 +1,6 @@
 # Managing your websites
 
-**Last verified:** 2026-11-22 9:40pm
+**Last verified:** 2026-11-23 6:39pm
 
 The **Sites** page inside a workspace is where you manage all your sites. This guide covers everything you need to know about viewing, opening, editing, and deleting your websites.
 
@@ -19,7 +19,7 @@ You'll see one card for every website in that workspace. Each card shows:
 - **When it was last updated**: for example, "Updated Oct 27, 2026".
 - **View Site** and **Manage Site** buttons for a live site.
 
-A site that is built but not live yet sits in its own **Building free** group. Its card has **Preview**, **Manage Site** and **Go Live**. **Preview** shows the whole site to you only, under a bar that says the site is not live yet. **Go Live** asks you to pick a plan and confirm the price. **Active Sites** lists the sites that are live now.
+A site that is built but not live yet sits in its own **Building free** group. Its card has **Preview**, **Manage Site** and **Go Live**. **Preview** shows the whole site to you only, under a bar that says the site is not live yet. **Go Live** asks you to pick a plan and confirm the price. A site goes live only with a billing address in the United States for now: see [Where paid plans are available](usage-and-billing.md#where-paid-plans-are-available). **Active Sites** lists the sites that are live now.
 
 A building-free site also has a **Share** button. It makes a link, good for 30 days, that lets anyone see the site before it is live. Choose **Copy Link** when the link appears, because the page shows it only once. A site can have 5 links at a time, and **Turn Off** ends a link at once. Anyone who opens a link that is turned off or past its 30 days sees a page that says so and asks them to get a new link from you.
 

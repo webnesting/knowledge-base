@@ -1,6 +1,6 @@
 # Tasks and projects
 
-**Last verified:** 2026-11-16 4:38pm
+**Last verified:** 2026-11-23 6:39pm
 
 WebNesting Tasks helps you and your team organize work, track progress, and stay on top of deadlines -- all from within your workspace. Create projects, break work into tasks, assign team members, and see everything come together across multiple views.
 
@@ -15,6 +15,8 @@ You do not need a project for every task. Tasks can also stand on their own as p
 > **Tip:** Tasks is a workspace product, which means it is available across your entire workspace and all team members with the right permissions can use it. See [Workspace products](workspace-products.md) for how to enable it.
 
 > **Free plan:** Tasks starts on a Free plan with 1 project and 20 open tasks at once. It needs no card. When you reach 20 open tasks, finish a task or upgrade to Starter to add more. A second project needs Starter too. See [Usage and billing](../account/usage-and-billing.md).
+
+**Which plan has what.** Every paid plan has the timeline and calendar views, time tracking, watchers and the activity log. Growth adds dependencies and milestones, custom fields and templates, and the time report. On Starter you can add each of those for $5 a month. An add-on adds no tasks: the plan sets those. See [What each plan includes](../account/usage-and-billing.md#what-each-plan-includes). When you cancel a paid plan, Tasks goes back to Free and stays on: see [Cancel a plan](../account/usage-and-billing.md#cancel-a-plan).
 
 ---
 

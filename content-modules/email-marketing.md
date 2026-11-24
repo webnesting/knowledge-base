@@ -1,6 +1,6 @@
 # Email marketing
 
-**Last verified:** 2026-11-22 9:40pm
+**Last verified:** 2026-11-23 6:39pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -27,6 +27,8 @@ Pricing: Marketing is a monthly plan for the whole workspace, in three sizes.
 The emails reset on the 1st. If you buy a plan mid-month, you pay for the days left and get the matching share of the emails. Emails sent by your [automations](../dashboard/marketing-automation.md) count with campaign emails, from the same allowance. Contacts are unlimited on every plan.
 
 When the month's emails are used up, WebNesting pays for more from your prepaid credits, at $1.50 per 1,000 emails. With no credits left, a new campaign does not start and the screen tells you how many emails you have used and what to do: buy credits or upgrade. Automation emails wait and go out once you add credits, upgrade, or the next month starts. See [Usage and billing](../account/usage-and-billing.md) for credits and what happens at a limit.
+
+Some features need a bigger plan, or their own add-on for $21 a month. Conditional content comes with Growth. A/B testing comes with Pro. An add-on adds no emails: the plan sets those. The full list of what each plan includes: [What each plan includes](../account/usage-and-billing.md#what-each-plan-includes). To cancel a plan, or to try Marketing free for 14 days, see [Usage and billing](../account/usage-and-billing.md#free-trial-of-helpdesk-and-marketing).
 
 ---
 
