@@ -1,6 +1,6 @@
 # Email marketing
 
-**Last verified:** 2026-11-23 6:39pm
+**Last verified:** 2026-11-24 5:00pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -264,17 +264,18 @@ Someone who unsubscribes stops getting email either way -- unsubscribing always 
 
 ![The Send tab with Test Send and the Schedule for Later and Send Now buttons](../images/content-modules/email-marketing-campaign-send-tab.png)
 
-A campaign needs three things before it can go out. The **Setup Checklist** on the **Details** tab shows each one:
+A campaign needs these things before it can go out. The **Setup Checklist** on the **Details** tab shows the first three:
 
-1. **Recipients** -- tick at least one list on the **Details** tab. Each list saves as soon as you tick it.
-2. **Subject and design** -- on the **Email Content** tab, type a subject and press Enter, then build the email with **Edit Email Design**. If you have saved templates, you can pick one under **Email Design** instead. A template with no design yet shows **No design yet**; design it on **Email Templates** first, or pick another. The email arrives the way the builder shows it: a white 600-pixel column on a light grey background.
-3. **Sender (optional)** -- leave it empty to send from your default address.
+1. **Recipients**: tick at least one list on the **Details** tab. Each list saves as soon as you tick it.
+2. **Subject and design**: on the **Email Content** tab, type a subject and press Enter, then build the email with **Edit Email Design**. If you have saved templates, you can pick one under **Email Design** instead. A template with no design yet shows **No design yet**; design it on **Email Templates** first, or pick another. The email arrives the way the builder shows it: a white 600-pixel column on a light grey background.
+3. **Sender**: your subscribers must see who the email is from. Type a **From Name** on the **Details** tab, or leave it empty to use the **Company Name** from **Marketing > Settings > Email Footer**.
+4. **Postal address**: anti-spam law requires a postal address in every marketing email. Add your **Company Address** on the **Email Footer** tab of **Marketing > Settings**.
 
-Then open the **Send** tab and click **Send Now**. WebNesting asks you to confirm, and names the lists the campaign goes to. For an A/B test, it also says that each version goes to its share of the test group first, and after the wait the winning version goes to the people not in the test. On a list too small to split, everyone is in the test and no winner is sent. A sent campaign cannot be undone. **Schedule for Later** sends it at the date and time you pick. Pick both: until then **Schedule Campaign** is greyed out, and its tip says "Pick the date and time to send." If no one on its lists can get it at that time, the campaign goes back to a draft and you get a notification that says why. Fix the lists or the contacts' **Email Status**, then send or schedule it again.
+Then open the **Send** tab and click **Send Now**. WebNesting asks you to confirm, and names the lists the campaign goes to. For an A/B test, it also says that each version goes to its share of the test group first, and after the wait the winning version goes to the people not in the test. On a list too small to split, everyone is in the test and no winner is sent. A sent campaign cannot be undone. **Schedule for Later** sends it at the date and time you pick. Pick both: until then **Schedule Campaign** is greyed out, and its tip says "Pick the date and time to send." WebNesting checks the campaign again at that time. If it is no longer ready (for example, its subject was cleared) or no one on its lists can get it, it does not go out. It goes back to a draft, and you get a notification that says why. Fix the lists or the contacts' **Email Status**, then send or schedule it again.
 
 If no one on the lists can get the campaign, **Send Now** says why: the lists are empty, or no one on them is **Subscribed** (for a single-site campaign, no one opted in on that site). Change a contact's Email Status on their page, then send again.
 
-If something is missing, **Send Now** stays greyed out, and the **Send** tab lists what to do first, for example "Design the email on the Email Content tab." A campaign with no design cannot be sent or scheduled.
+If something is missing, **Send Now** stays greyed out, and the **Send** tab lists what to do first, for example "Design the email on the Email Content tab." A campaign with no design cannot be sent or scheduled. A missing sender name or address shows an **Open Marketing settings** link. A scheduled campaign that still has no sender name or address at its time does not go out. Your notification about it links to **Marketing > Settings**.
 
 In an A/B test campaign, click **+ Add Version** on the **Email Content** tab to add another version of the email. Each version needs its own subject and design. The versions share the test send evenly. To remove the version you are looking at, click **Delete Version** and confirm.
 
@@ -415,6 +416,7 @@ When a contact unsubscribes:
 2. They are removed from all mailing lists.
 3. The date and time of their unsubscription is recorded.
 4. If they provided a reason, that is saved too.
+5. A campaign that is still sending skips them, so they get no more of it.
 
 ### The Unsubscribe Page
 
@@ -438,10 +440,10 @@ Every campaign, A/B test and automation email also tells the reader's email app 
 
 Click **Settings** under the Marketing section. The page has four tabs:
 
-- **Senders** -- The addresses your campaigns and automations are sent from. Click **+ Add Sender** to set one up. It's the same setup as **Workspace Settings > Email**, so a sender you add in either place shows up in both. See [Setting Up Your Sending Domain](#setting-up-your-sending-domain) below.
-- **Email Footer** -- Your **Company Name** and **Company Address**. Anti-spam laws (like CAN-SPAM in the United States) require every marketing email to say who sent it and give a physical mailing address, so we add these to the bottom of every campaign and automation email, followed by **Unsubscribe** and **Manage Preferences** links. If your email design already shows your company name and address, or already has your working unsubscribe link, we don't add that part a second time. The tab shows a preview of that footer as you type, and a warning while either field is empty. Click **Save Settings** when you're done.
-- **Custom Fields** -- **Campaign Fields** are extra details you can fill in on every campaign. **Per-Recipient Fields** are details recorded for each person a campaign goes to. Click **Add Field** to create one; fields save as soon as you create them.
-- **Signups & Sending** -- Tick **Ask new subscribers to confirm by email** to turn on "double opt-in." When a form or an **Email Signup** component on one of your sites adds someone to Marketing, they get a "Confirm your subscription" email first, and they receive your marketing emails only after clicking **Yes, Subscribe Me** in it — so nobody can sign up someone else, and your list stays clean. The tab shows the exact email they'll get. People who already confirmed, or who created an account on your site, aren't asked again.
+- **Senders**: the addresses your campaigns and automations are sent from. Click **+ Add Sender** to set one up. It's the same setup as **Workspace Settings > Email**, so a sender you add in either place shows up in both. See [Setting Up Your Sending Domain](#setting-up-your-sending-domain) below.
+- **Email Footer**: your **Company Name** and **Company Address**. Anti-spam laws (like CAN-SPAM in the United States) require every marketing email to say who sent it and give a physical mailing address, so we add these to the bottom of every campaign and automation email, followed by **Unsubscribe** and **Manage Preferences** links. If your email design already shows your company name and address, or already has your working unsubscribe link, we don't add that part a second time. The tab shows a preview of that footer as you type, and a warning while either field is empty. Click **Save Settings** when you're done. Until you add a **Company Address**, no campaign or automation email goes out. The same holds for a **Company Name** when the campaign has no **From Name** of its own. Automation emails wait and go out once you save both.
+- **Custom Fields**: **Campaign Fields** are extra details you can fill in on every campaign. **Per-Recipient Fields** are details recorded for each person a campaign goes to. Click **Add Field** to create one; fields save as soon as you create them.
+- **Signups & Sending**: tick **Ask new subscribers to confirm by email** to turn on "double opt-in." When a form or an **Email Signup** component on one of your sites adds someone to Marketing, they get a "Confirm your subscription" email first, and they receive your marketing emails only after clicking **Yes, Subscribe Me** in it. Then nobody can sign up someone else, and your list stays clean. The tab shows the exact email they'll get. People who already confirmed, or who created an account on your site, aren't asked again.
 
   The same tab has a **Daily Sending Limit**: enter the most marketing emails to send per day (campaigns and automations together), or leave it empty for no limit. It's handy while a new sending domain builds its reputation, or to spread a big campaign over several days. Anything over the limit isn't lost — it waits and goes out the next day, starting at midnight in your workspace's timezone. The tab shows how many emails went out today, and a campaign that's waiting says on its **Performance** tab when it will pick up again. Click **Save Settings** when you're done.
 
@@ -517,7 +519,7 @@ The CAN-SPAM Act requires that marketing emails include:
 - A working unsubscribe link.
 - Accurate "From" and "Subject" information.
 
-The Email Marketing module adds a working unsubscribe link to every email automatically, so your design does not need one. Make sure to fill in your company name and address in the Marketing Settings.
+The Email Marketing module adds a working unsubscribe link to every email automatically, so your design does not need one. Fill in your company name and address in the Marketing Settings: until you do, campaigns and automation emails do not go out.
 
 ### GDPR Compliance
 

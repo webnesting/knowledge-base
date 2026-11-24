@@ -1,6 +1,6 @@
 # Dashboards
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-24 9:40am
 
 A dashboard is a page of widgets: your numbers from Sites, Marketing, Helpdesk, Tasks, billing and more, in one place. You can make as many as you like, keep them to yourself or share them with a team or the whole workspace.
 
@@ -67,7 +67,7 @@ A template is a dashboard with its widgets already chosen. The templates are **W
 1. Open the dashboard.
 2. Click the **⋯** menu at the top right, then **Rename and Share**.
 3. Under **Who can see it**, choose who sees it:
-   - **A team**: pick the team. Members of that team, and of every team under it, see it. You can pick a team you belong to; the workspace owner can pick any team.
+   - **A team**: pick the team. Members of that team, and of every team under it, see it. A team head also sees it when the team is under a team they lead. The workspace owner sees every team's dashboards. You can pick a team you belong to or a team under a team you lead; the workspace owner can pick any team.
    - **Everyone in the workspace**: every member sees it. You need permission to change each product whose widgets are on it.
 4. Click **Save Changes**.
 

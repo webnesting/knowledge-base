@@ -99,6 +99,8 @@ Marketing automation webhooks need Marketing automations to be on. Tasks timelin
 
 When a different plan would cost less for the features you picked, the calculator says so, in a line such as "Move to Growth and save" with the amount. Select the **Move to** button and everything you picked stays.
 
+The total on the right is the amount your card is charged each month. If your workspace has a special, held or free price, the total shows that price and the change from today, and the rows show no list prices. When we cannot work out your price yet, the total reads **Estimated Monthly Price** and says your special or held prices apply at checkout, where you see the exact amount before you pay.
+
 A member who cannot manage billing sees the same screens. The change then goes to a workspace owner to approve. Nothing is charged until an owner does.
 
 The **Cost Calculator** tab on the **Billing** page has the same plans and modules, and it only works out a price. Nothing you pick there changes your plans or charges you. Select **Change your plans in Products** to go to **Settings** > **Products**.

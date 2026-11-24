@@ -1,6 +1,6 @@
 # Marketing automations
 
-**Last verified:** 2026-11-23 6:39pm
+**Last verified:** 2026-11-24 5:00pm
 
 Marketing automations let you create set-it-and-forget-it workflows that send emails, update contacts, and perform actions automatically when something happens. Instead of manually sending a welcome email every time someone signs up, or remembering to tag contacts after an event, you build the workflow once and let it run on its own.
 
@@ -97,6 +97,9 @@ Sends an email to the contact using one of your saved email templates.
 - Choose which email template to send.
 - The email goes to the contact who is currently in the automation.
 - Make sure you have created the email template before adding this step.
+- Add your **Company Name** and **Company Address** in **Marketing > Settings > Email Footer** first. Anti-spam law requires them in every marketing email.
+
+If either one is missing, automation emails are on hold. The automation page says "Automation emails are on hold. Add your Company Name and Company Address in Marketing settings." with an **Open Marketing settings** link. You also get one notification a day about it. A contact on a **Send Email** step waits on that step; the email is never skipped. It goes out a few minutes after you save both settings, and the automation goes on from there.
 
 ### Wait
 
@@ -218,6 +221,8 @@ When you are ready for an automation to start running:
 3. The automation will start processing new trigger events immediately.
 
 Contacts who triggered the event before the automation was activated will not be enrolled retroactively -- only new trigger events are processed.
+
+An automation with a **Send Email** step sends nothing until you save your **Company Name** and **Company Address** in **Marketing > Settings** (see [Send Email](#send-email)).
 
 ### Starting an Automation by Hand
 
