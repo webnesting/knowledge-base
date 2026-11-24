@@ -1,6 +1,6 @@
 # Workspace products
 
-**Last verified:** 2026-11-23 6:39pm
+**Last verified:** 2026-11-24 9:22am
 
 WebNesting's workspace includes optional products you can enable to add powerful features to your team's workflow. Six products are available. Most are paid -- you only pay for the ones you use. Two are switched on by default: **Websites**, for building your sites, and **Internal Docs**, which is completely free.
 
@@ -119,7 +119,7 @@ Plans also list items we plan to launch, marked **Coming soon**. This includes A
 
 The **Cost Calculator** on the **Billing** page only works out a price. Nothing you pick there changes your plans or charges you. Select **Change your plans in Products** to go to **Settings** > **Products**.
 
-Helpdesk and Marketing offer a free trial. Open the product's row in **Settings** > **Products** and select **Start 14-Day Trial**. A window shows the date your card is charged, the price and how to cancel. Select **Subscribe With Obligation to Pay** to agree. You pay nothing until the trial ends, and nothing at all if you cancel before then. While the trial runs, the product shows a chip such as "Trial · 9 days left". Full terms: [Free trial of Helpdesk and Marketing](../account/usage-and-billing.md#free-trial-of-helpdesk-and-marketing). To cancel a trial, open **Billing** and select **Cancel Trial**. To stop a paid plan, select **Cancel Plan** on **Billing**, and **Keep Plan** to undo it before it ends: see [Cancel a plan](../account/usage-and-billing.md#cancel-a-plan). Trials and paid plans are for billing addresses in the United States for now: see [Where paid plans are available](../account/usage-and-billing.md#where-paid-plans-are-available).
+Helpdesk and Marketing offer a free trial. Open the product's row in **Settings** > **Products** and select **Start 14-Day Trial**. A window shows the date your card is charged, the price and how to cancel. Select **Subscribe With Obligation to Pay** to agree. You pay nothing until the trial ends, and nothing at all if you cancel before then. While the trial runs, the product shows a chip such as "Trial · 9 days left", and its first choice reads **Keep the free trial** and says what happens when the trial ends. Full terms: [Free trial of Helpdesk and Marketing](../account/usage-and-billing.md#free-trial-of-helpdesk-and-marketing). To cancel a trial, open **Billing** and select **Cancel Trial**. To stop a paid plan, select **Cancel Plan** on **Billing**, and **Keep Plan** to undo it before it ends: see [Cancel a plan](../account/usage-and-billing.md#cancel-a-plan). Trials and paid plans are for billing addresses in the United States for now: see [Where paid plans are available](../account/usage-and-billing.md#where-paid-plans-are-available).
 
 If a plan ends or goes unpaid, the product turns off and keeps its data. It turns back on when you pay the unpaid plan. See [If a renewal payment fails](../account/usage-and-billing.md#if-a-renewal-payment-fails).
 
