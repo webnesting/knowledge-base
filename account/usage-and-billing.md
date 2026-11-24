@@ -1,6 +1,6 @@
 # Usage and billing
 
-**Last verified:** 2026-11-24 12:47am
+**Last verified:** 2026-11-24 2:28am
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -44,6 +44,8 @@ A new site has no plan, and its plan costs $0 while you build. It has unlimited 
 Pick a plan when the site is ready. **Go Live** on the Sites page lists Starter, Growth, Pro and Business. It shows the exact price first: the amount you pay now for the rest of this month, then the monthly price on the 1st. With no card saved yet, the window says so instead and has **Open Billing**, where you add one. Choose **Next**, tick two boxes to agree, then choose **Subscribe With Obligation to Pay** to charge your card. Then WebNesting sets up the site on its `webnesting.site` address. If your bank asks you to confirm the payment, the site goes live as soon as the payment goes through. A member who cannot manage billing sees "Ask a workspace owner to put this site live." After an owner approves, the window says so, and **Go Live** puts the site live and charges the card on file.
 
 **Take Offline** works on the monthly cycle. The site stays live, and its plan stays billed, until the end of the current month. Then the site goes offline and its plan ends. Its extra module slots stop billing then too. Until the end of the month you can choose **Keep It Live**. To put the site live again afterwards, use **Go Live** and agree to a new price summary.
+
+Within 14 days after the first charge at a new, higher price, **Take Offline** works differently. The site goes offline at once, and its plan and module slots end. We refund the unused part of the period you paid for, counted from the moment you confirm. The window shows the amount before you confirm. See [Cancel a plan](#cancel-a-plan).
 
 The builder's **Publish** button is a different step. It publishes a page. It does not put the site on the web.
 
@@ -163,7 +165,7 @@ Prices are in US dollars. Paid plans, free trials and credits are available to c
 
 ### Cancel a plan
 
-You can cancel a paid Marketing, Helpdesk, Tasks or API plan on the **Billing** page. It ends at the end of the month or year you paid for, and we charge nothing more. Soon after a price rise, a cancel ends the plan at once and refunds the unused days, as described below.
+You can cancel a paid Marketing, Helpdesk, Tasks or API plan on the **Billing** page. It ends at the end of the month or year you paid for, and we charge nothing more. Soon after a price rise, a cancel ends the plan at once and refunds the unused part of the period, as described below.
 
 1. Open **Billing**. On **Current Period**, find the plan under **Your Plans**.
 2. Select **Cancel Plan**.
@@ -177,13 +179,13 @@ You can cancel a paid Marketing, Helpdesk, Tasks or API plan on the **Billing** 
 - **Use past the allowance:** For a product that charges for use past its allowance, use before the end day can still be on a later bill. The window and the email say so.
 - **A yearly plan:** You can cancel it at any time. It ends at the end of the year you paid for, and **Cancel Plan** refunds nothing for the rest of that year. The one exception is a cancel after a price rise, below.
 - **A plan with a failed payment:** If the renewal payment failed, the plan ends at once and the product turns off then. You owe nothing for that unpaid month, and we do not try the card again for it.
-- **A cancel after a price rise:** If you cancel within 14 days after the first charge at a new, higher price, the plan and its add-ons end at once and the product turns off. We refund the part of that period you did not use, counted by day, and you do not need to ask for it. The day you cancel counts as a day used. The window names the amount and the last day you can get it. The email names the amount too. The money goes back to the card that paid, or to your account as credit if that charge was paid another way. A renewal paid fully with prepaid credits gets no refund this way. After the 14 days, or after a renewal with no price rise, the plan ends at the end of the period as usual, with no refund.
+- **A cancel after a price rise:** If you cancel within 14 days after the first charge at a new, higher price, the plan and its add-ons end at once and the product turns off. We refund the part of that period you did not use, counted from the moment you cancel, and you do not need to ask for it. The window names the amount and the last day you can get it. The email names the amount too. We send the refund back the way you paid. A card payment goes back to that card. If product credit or a promotion paid all or part of the charge, that part comes back to your credit balance. A payment made another way also comes back to your credit balance; ask Support if you want it back as money. **Take Offline** on a website inside the 14 days also counts as a cancel, with the same refund. Setting a product to **No plan**, or a website to **Building**, in **Settings** > **Products** ends the plan on the 1st and does not send this refund, so use **Cancel Plan** or **Take Offline**. If you already ended a plan another way inside the 14 days, ask Support. We end it at once and send the same refund, counted from the moment you chose to end it. After the 14 days, or after a renewal with no price rise, the plan ends at the end of the period as usual, with no refund.
 - **After you cancel:** The plan's row reads "Ends on" with the day and the last day you paid for. The next renewal shown leaves it out.
 - **Changed your mind:** Until the end day, select **Keep Plan** on the plan's row. We charge nothing now. The plan renews on the 1st as before, and we email everyone with billing rights to confirm it.
 - **The email:** We email everyone with billing rights at once. It names when we received the cancel, the last day you paid for, and the day the plan ends.
 - **Who can cancel:** Any member with billing rights.
 
-Some plans have no **Cancel Plan** button. A website plan ends when you take the site offline. An add-on ends with its plan. A trial has its own **Cancel Trial** button.
+Some plans have no **Cancel Plan** button. A website plan ends when you take the site offline. Taking a site offline with **Take Offline** within 14 days after a price rise also refunds the unused part of the period. An add-on ends with its plan. A trial has its own **Cancel Trial** button.
 
 ### The multi-product discount
 
@@ -229,7 +231,7 @@ All your storage is one pool for the whole workspace. It is the storage of each 
 - **Buying a plan:** You pay for the time left in the month, down to the second, and you get the matching share of what the plan includes. The charge goes to your saved card.
 - **Renewing:** Every plan and add-on renews in one charge on the 1st of the month. You get an invoice and an email.
 - **The price you renew at:** A plan or add-on renews at the price you agreed to when you turned it on. If its price goes down, you pay the lower price from the next 1st.
-- **If a price goes up:** Everyone who can manage billing gets a bell entry, an email and a phone or browser push. The message names the old and new price and the date of your first bill at the new price, at least 30 days away. A second email comes about 28 days before the new price starts, and at least 10 days before it (15 for a yearly plan). If you cancel within 14 days after the first charge at the new price, we refund the unused days. See [Cancel a plan](#cancel-a-plan). It gives the last day to cancel, a **Review or Turn Off** link and our support address. If that email cannot reach you in time, the new price starts one renewal later. You pay the old price until then. To stop the item first, follow the link in the message. Losing the multi-product discount, when you turn a product off, changes your total on the next 1st with no 30-day wait.
+- **If a price goes up:** Everyone who can manage billing gets a bell entry, an email and a phone or browser push. The message names the old and new price and the date of your first bill at the new price, at least 30 days away. A second email comes about 28 days before the new price starts, and at least 10 days before it (15 for a yearly plan). If you cancel within 14 days after the first charge at the new price, we refund the unused part of the period, counted from the moment you confirm. See [Cancel a plan](#cancel-a-plan). It gives the last day to cancel, a **Review or Turn Off** link and our support address. If that email cannot reach you in time, the new price starts one renewal later. You pay the old price until then. To stop the item first, follow the link in the message. Losing the multi-product discount, when you turn a product off, changes your total on the next 1st with no 30-day wait.
 - **If a usage price goes up, or a plan loses something:** The same two emails come when the price of a usage charge goes up, or when a plan or add-on loses a feature, a module slot or part of its allowance. A usage price email reaches every workspace whose plan or add-on can use that charge, even one that has not used it yet. An email about a loss says what goes and what stays the same. Each email says how to avoid the change and has a **Review or Turn Off** link. If the second email cannot reach you in time, the change starts one billing month or renewal later.
 - **Moving to a bigger plan:** It starts right away. You pay the difference for the rest of the month.
 - **Moving to a smaller plan:** It starts on the next 1st. You keep the bigger plan until then.
