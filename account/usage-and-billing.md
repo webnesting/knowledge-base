@@ -1,6 +1,6 @@
 # Usage and billing
 
-**Last verified:** 2026-11-26 2:33pm
+**Last verified:** 2026-11-26 3:54pm
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -436,6 +436,8 @@ When an invoice is outstanding, a banner at the top of the **Billing** page name
 2. Enter your payment details in the window that opens. WebNesting accepts credit and debit cards. The window shows the **Amount Due**.
 3. Select the **Pay** button that shows the amount. Your payment is processed securely through Stripe.
 4. You'll see a confirmation once your payment goes through.
+
+Sometimes your bank asks you to confirm a payment from your saved card. Then the window says so and does not ask for your card again. Select **Pay**, and confirm the payment in your bank's window. If your bank does not confirm it, the window asks for a card instead.
 
 To save a card without paying, open the **Payment Methods** tab and select **Add Payment Method**. Choose the country where you live or are billed in the card form. We need it for tax and for how a free trial ends. If the card has no country, we do not save it, and the form asks you to add it again with the country.
 
