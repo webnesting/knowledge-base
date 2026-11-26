@@ -1,6 +1,6 @@
 # Troubleshooting
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-24 4:52pm
 
 Every website owner runs into the occasional hiccup. The good news is that most issues have simple fixes. This guide walks you through the most common problems you might encounter and how to solve them quickly.
 
@@ -237,6 +237,17 @@ If you saved or published after deleting something and can no longer undo it:
 4. We can check our backups and help you restore the content.
 
 > **Tip:** Save your work frequently while you are building. The more often you save, the more checkpoints you create. This makes it much easier to recover if something goes wrong.
+
+---
+
+## "This Is Being Updated Right Now" Message
+
+We are restoring your site or workspace data from a backup, for example after you asked support to bring back deleted content. A restore takes a few minutes, and the message names the seconds left.
+
+1. Wait the number of seconds the message names.
+2. Save, send or reload the page again.
+
+What you tried during the restore was not saved, so do it again after the wait. A link in one of your emails opens by itself when the wait ends. Emails and form entries sent to your site during the restore are kept, and they arrive after it ends.
 
 ---
 
