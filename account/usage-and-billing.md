@@ -1,6 +1,6 @@
 # Usage and billing
 
-**Last verified:** 2026-11-25 10:22pm
+**Last verified:** 2026-11-26 2:33pm
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -235,7 +235,7 @@ All your storage is one pool for the whole workspace. It is the storage of each 
 - **The price you renew at:** A plan or add-on renews at the price you agreed to when you turned it on. If its price goes down, you pay the lower price from the next 1st.
 - **If a price goes up:** Everyone who can manage billing gets a bell entry, an email and a phone or browser push. The message names the old and new price and the date of your first bill at the new price, at least 30 days away. A second email comes about 28 days before the new price starts, and at least 10 days before it (15 for a yearly plan). If you cancel within 14 days after the first charge at the new price, we refund the unused part of the period, counted from the moment you confirm. See [Cancel a plan](#cancel-a-plan). It gives the last day to cancel, a **Review or Turn Off** link and our support address. If that email cannot reach you in time, the new price starts one renewal later. You pay the old price until then. To stop the item first, follow the link in the message. Losing the multi-product discount, when you turn a product off, changes your total on the next 1st with no 30-day wait.
 - **If a usage price goes up, or a plan loses something:** The same two emails come when the price of a usage charge goes up, or when a plan or add-on loses a feature, a module slot or part of its allowance. A usage price email reaches every workspace whose plan or add-on can use that charge, even one that has not used it yet. An email about a loss says what goes and what stays the same. Each email says how to avoid the change and has a **Review or Turn Off** link. If the second email cannot reach you in time, the change starts one billing month or renewal later.
-- **Moving to a bigger plan:** It starts right away. You pay the difference for the rest of the month.
+- **Moving to a bigger plan:** It starts right away. You pay the difference for the rest of the month. If the bigger plan includes an add-on or extra module slots you pay for, we end them at once and take their unused days off the bill. Before you confirm, the review window lists each one with "Ends today".
 - **Moving to a smaller plan:** It starts on the next 1st. You keep the bigger plan until then.
 - **Small charges:** A part-month charge under $0.50 is not sent to your card. It is added to your next renewal.
 - **The card fee is in the price.** New invoices have no separate processing fee. An older invoice sent with one still shows it, and you pay the total it was sent with.
