@@ -1,6 +1,6 @@
 # Usage and billing
 
-**Last verified:** 2026-11-24 5:25am
+**Last verified:** 2026-11-25 10:22pm
 
 WebNesting works with plans. You pick a plan for each part of WebNesting you use, and you pay for it on the 1st of the month. If you use more than a plan includes, you pay for the extra with prepaid credits. This guide explains the plans, the credits, what happens at a limit, and how to see your usage and pay.
 
@@ -99,7 +99,7 @@ Marketing automation webhooks need Marketing automations to be on. Tasks timelin
 
 When a different plan would cost less for the features you picked, the calculator says so, in a line such as "Move to Growth and save" with the amount. Select the **Move to** button and everything you picked stays.
 
-The total on the right is the amount your card is charged each month. If your workspace has a special, held or free price, the total shows that price and the change from today, and the rows show no list prices. When we cannot work out your price yet, the total reads **Estimated Monthly Price** and says your special or held prices apply at checkout, where you see the exact amount before you pay.
+The total on the right is the amount your card is charged each month. If your workspace has a special, held or free price, the total shows that price and the change from today, and the rows show no list prices. When we cannot work out your price yet, the total reads **Estimated Monthly Price** (on a phone, the bar at the bottom reads **Estimated per month**) and says your special or held prices apply at checkout, where you see the exact amount before you pay.
 
 A member who cannot manage billing sees the same screens. The change then goes to a workspace owner to approve. Nothing is charged until an owner does.
 
