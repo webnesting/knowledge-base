@@ -1,6 +1,6 @@
 # Helpdesk
 
-**Last verified:** 2026-11-23 6:39pm
+**Last verified:** 2026-11-27 1:29pm
 
 The Helpdesk gives your workspace a complete customer support system. Use it to manage support tickets, organize your team, build a knowledge base for self-service, and track how quickly your team responds to customers -- all from your WebNesting workspace.
 
@@ -435,9 +435,9 @@ Use this table to match your situation to a setup option. You can always change 
 | Your situation | Recommended option | Why |
 |---|---|---|
 | **I just want to try Helpdesk in 30 seconds** | Option 0 — WebNesting-hosted | No DNS, no accounts. Customers email a `@webnesting.email` address we provide. Easy to switch later. |
-| **I already use Gmail / Google Workspace for support** | Option 1 — Gmail OAuth | Connect with one click. Existing `support@yourcompany.com` keeps working unchanged; tickets are read from your inbox and replies thread cleanly. |
-| **I already use Microsoft 365 / Outlook for support** | Option 2 — Outlook OAuth (when available) | Same as Gmail but for Microsoft. |
-| **I'm setting up a brand-new branded support address and I don't want to give a third-party OAuth access** | Option 3 — Your own subdomain | Publish one MX record on a subdomain like `help.yourcompany.com`. Multiple addresses (`support@`, `billing@`, `careers@`) work automatically. No mailbox accounts to create. |
+| **I already use Gmail / Google Workspace for support** | Option 1: Gmail OAuth | Connect with one click. Existing `support@example.com` keeps working unchanged; tickets are read from your inbox and replies thread cleanly. |
+| **I already use Microsoft 365 / Outlook for support** | Option 2: Outlook OAuth (when available) | Same as Gmail but for Microsoft. |
+| **I'm setting up a brand-new branded support address and I don't want to give a third-party OAuth access** | Option 3: Your own subdomain | Publish one MX record on a subdomain like `help.example.com`. Multiple addresses (`support@`, `billing@`, `careers@`) work automatically. No mailbox accounts to create. |
 | **I want to send marketing emails from my own domain** | Option 4 — Verified domain (DKIM-signed outbound) | The setup our **deliverability** rests on. Required for marketing campaigns. Works alongside any of the inbound options above. |
 | **I use a niche email provider (Zoho, FastMail, my own server)** | Option 5 — IMAP / SMTP | Works with any provider that supports IMAP + an app password. |
 
@@ -451,11 +451,11 @@ Trade-off: the address shows our brand (`@webnesting.email`) rather than yours. 
 
 ### Option 1: Connect Gmail (OAuth)
 
-Best for teams already running on Google Workspace or personal Gmail with a `support@yourcompany.com` address you've been using for a while.
+Best for teams already running on Google Workspace or personal Gmail with a `support@example.com` address you've been using for a while.
 
 1. Go to **Settings → Email** → click **+ Add Inbox**.
 2. Pick **Helpdesk** (or **Both** if you also want to send marketing from the same address).
-3. Enter the email address customers send to (e.g. `support@yourcompany.com`).
+3. Enter the email address customers send to (e.g. `support@example.com`).
 4. Choose **Gmail** as the inbound source (it covers Google Workspace too). Save → we'll open Google's OAuth consent screen.
 5. Authorize WebNesting to read + send. Helpdesk now receives every email that reaches the inbox of that address as a ticket. Mail your Gmail filters archive or send to spam, and drafts, do not become tickets. Replies go out through your existing Gmail account.
 
@@ -471,18 +471,18 @@ When available, the flow is identical to Gmail OAuth — pick **Outlook** as the
 
 ### Option 3: Your Own Subdomain
 
-Best for: **you're setting up a brand-new branded support address, you don't want to give us OAuth into your main mailbox, and you want your apex domain (`yourcompany.com`) email completely untouched.**
+Best for: **you're setting up a brand-new branded support address, you don't want to give us OAuth into your main mailbox, and you want your apex domain (`example.com`) email completely untouched.**
 
-Example: keep your existing Gmail at `you@yourcompany.com` for personal mail, but route support emails through `support@help.yourcompany.com` directly into Helpdesk.
+Example: keep your existing Gmail at `you@example.com` for personal mail, but route support emails through `support@help.example.com` directly into Helpdesk.
 
 1. Go to **Settings → Email → + Add Inbox**.
 2. Pick **Your own subdomain** as the inbound source.
 3. The wizard suggests `help.<yourdomain>` — accept it or pick `support`, `tickets`, `desk`, whatever you want.
 4. Save → the wizard shows you one MX record to publish at your DNS provider:
    ```
-   help.yourcompany.com   MX 10 inbound-smtp.us-east-1.amazonaws.com
+   help.example.com   MX 10 inbound-smtp.us-east-1.amazonaws.com
    ```
-5. Click **Verify** on the records list. When DNS has updated (usually 5-15 minutes), we find the record and switch on incoming mail for you. If we cannot switch it on, the page says why and you can click **Verify** again. Then **every address at `*@help.yourcompany.com` works automatically**, including `support@`, `billing@`, `careers@` and any other name you want. We catch them all and route by recipient prefix to the right team.
+5. Click **Verify** on the records list. When DNS has updated (usually 5-15 minutes), we find the record and switch on incoming mail for you. If we cannot switch it on, the page says why and you can click **Verify** again. Then **every address at `*@help.example.com` works automatically**, including `support@`, `billing@`, `careers@` and any other name you want. We catch them all and route by recipient prefix to the right team.
 
 **Why this is different from Option 4 (verified domain):**
 - Option 4 sets up *outbound* signing on your apex domain. It doesn't change where mail arrives.
@@ -500,7 +500,7 @@ Best for: **branded outbound replies + required for marketing campaigns from you
 3. We register the domain with our email provider and show you the DNS records to publish:
    - **Domain ownership proof** (1 TXT record) — proves to us that YOU control this domain, even if it's already set up for sending somewhere else
    - **DKIM signing keys** (3 CNAME records)
-   - **MAIL FROM subdomain** (1 MX + 1 TXT on `bounces.<yourdomain>`) — so recipients see `mailed-by: bounces.yourcompany.com` instead of `amazonses.com`
+   - **MAIL FROM subdomain** (1 MX + 1 TXT on `bounces.<yourdomain>`), so recipients see `mailed-by: bounces.example.com` instead of `amazonses.com`
    - **SPF** (1 TXT on apex)
    - **DMARC** (1 TXT on `_dmarc.<yourdomain>`)
 4. Publish at your DNS provider. Click **Verify now** in the wizard until everything resolves (typically 5-15 minutes).

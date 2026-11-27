@@ -1,6 +1,6 @@
 # Site settings
 
-**Last verified:** 2026-11-23 9:35am
+**Last verified:** 2026-11-27 1:29pm
 
 Site Settings is where you control the behind-the-scenes details of your website -- things like your logo, search engine preferences, analytics, and social media links. Most of these are "set it and forget it" options that you configure once when you build your site.
 
@@ -191,7 +191,7 @@ While it is on, the setting shows a warning reminding you that the site is hidde
 
 ### Sitemap Address Preferences
 
-A sitemap is a file that lists all the pages on your site (at `yoursite.com/sitemap.xml`). Search engines use it to find and index your content more efficiently. WebNesting generates it for you automatically and keeps it up to date whenever you add, change, or remove pages.
+A sitemap is a file that lists all the pages on your site (at `example.com/sitemap.xml`). Search engines use it to find and index your content more efficiently. WebNesting generates it for you automatically and keeps it up to date whenever you add, change, or remove pages.
 
 Two on/off switches control how the addresses inside it are written:
 
@@ -202,7 +202,7 @@ Pick the form that matches how visitors reach your site so search engines see on
 
 ### Publishing a List of Your Pages for AI Assistants (llms.txt)
 
-AI assistants such as ChatGPT, Claude and Gemini can read a short, plain list of your pages. The file is called `llms.txt` and lives at `yoursite.com/llms.txt`. It is off until you turn it on.
+AI assistants such as ChatGPT, Claude and Gemini can read a short, plain list of your pages. The file is called `llms.txt` and lives at `example.com/llms.txt`. It is off until you turn it on.
 
 1. On the **SEO Defaults** page, find **Publish an llms.txt file**, under **AI search**.
 2. Turn it on.
@@ -212,7 +212,7 @@ The file holds your site name and description, then one line for each page with 
 
 Visitors see "not found" at that address while the setting is off, while **Hide site from search engines** is on, and while a Coming soon page replaces your site.
 
-> **Tip:** Open `yoursite.com/llms.txt` in your browser to see what AI assistants read.
+> **Tip:** Open `example.com/llms.txt` in your browser to see what AI assistants read.
 
 ### Keywords
 
@@ -565,8 +565,8 @@ A secure address starts with `https://` instead of `http://`, and visitors see a
 
 You can choose whether your site address starts with "www." or not.
 
-- **With "www.":** `www.yoursite.com`
-- **Without "www.":** `yoursite.com`
+- **With "www.":** `www.example.com`
+- **Without "www.":** `example.com`
 - **Either works:** both versions work as typed
 
 Most modern sites use the non-www version. Choose whichever you prefer and stick with it, so search engines do not see them as two different sites.
@@ -597,7 +597,7 @@ Code does not run there. If you paste a script, or a tag with code inside it, We
 
 ## Custom Domain
 
-When you go live, your website is available on a WebNesting address. A custom domain is a web address you own, like `www.yourcompany.com`.
+When you go live, your website is available on a WebNesting address. A custom domain is a web address you own, like `www.example.com`.
 
 Site Settings has no screen to connect a domain yet. You can enter a domain in the **Custom Domain (optional)** box when you create a site, and **Site Configuration** decides how the address is written (see **Secure (HTTPS) Addresses** and **WWW Preferences** above). To connect or change a domain later, email Support. The steps, and what to expect at your domain registrar, are in [Connecting a custom domain](../getting-started/custom-domains.md).
 

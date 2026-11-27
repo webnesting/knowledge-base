@@ -1,6 +1,6 @@
 # URL redirects
 
-**Last verified:** 2026-11-22 9:40pm
+**Last verified:** 2026-11-27 1:29pm
 
 Sometimes you need to change a page's web address, or you want to point an old address to a new one. Redirects make sure that anyone who visits the old address is automatically sent to the right place -- no dead ends, no error pages.
 
@@ -12,7 +12,7 @@ A redirect is like a forwarding address for a web page. When someone visits the 
 
 Here are some common reasons to use redirects:
 
-- **You renamed or moved a page.** If you changed a page's URL from `yoursite.com/services` to `yoursite.com/what-we-do`, a redirect ensures visitors and search engines can still find it.
+- **You renamed or moved a page.** If you changed a page's URL from `example.com/services` to `example.com/what-we-do`, a redirect ensures visitors and search engines can still find it.
 - **You deleted a page but want to send visitors somewhere useful.** Instead of showing an error page, send them to a related page or your homepage.
 - **You changed your site structure.** If you reorganized your pages, redirects keep all your old links working.
 - **Someone linked to your site with the wrong URL.** If another website linked to a page that does not exist, you can redirect that address to the correct page.
@@ -52,7 +52,7 @@ Setting up a new redirect takes just a minute.
 
 This is the address you want to redirect away from -- the old or incorrect URL.
 
-1. In the **Input Path** field, enter the path of the old page. You only need the part after your domain name. For example, if the full address was `yoursite.com/old-page`, just enter `/old-page`.
+1. In the **Input Path** field, enter the path of the old page. You only need the part after your domain name. For example, if the full address was `example.com/old-page`, just enter `/old-page`.
 
 > **Tip:** Always start the input path with a forward slash (`/`). For example: `/about-us`, `/services/consulting`, `/blog/old-post-title`.
 
@@ -148,9 +148,9 @@ Once deleted, visitors who go to the old source URL will no longer be redirected
 
 ### Moved Content to a Different Website
 
-**Situation:** Your blog now lives on a separate site at `https://blog.yoursite.com`.
+**Situation:** Your blog now lives on a separate site at `https://blog.example.com`.
 
-**What to do:** Create a permanent (301) redirect from `/blog` to `https://blog.yoursite.com`.
+**What to do:** Create a permanent (301) redirect from `/blog` to `https://blog.example.com`.
 
 ---
 

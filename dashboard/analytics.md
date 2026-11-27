@@ -1,6 +1,6 @@
 # Analytics and reports
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-27 1:29pm
 
 Analytics help you understand how people find and use your website. WebNesting includes built-in analytics so you can see how many visitors your site gets, which pages are most popular, and where your traffic comes from -- all from your dashboard.
 
@@ -110,7 +110,7 @@ If your site has a form, each channel, source and campaign also shows its **Sign
 
 Many apps hide where a click came from. A link in an Instagram story or an email often arrives as "Direct". To know for sure, add tags to the end of the links you share. These are called UTM tags.
 
-1. Start with the address of the page you want people to open, for example `https://yoursite.com/offer`.
+1. Start with the address of the page you want people to open, for example `https://example.com/offer`.
 2. Add `?utm_source=` and the name of the place you post the link, for example `facebook`, `reddit` or `newsletter`.
 3. Add `&utm_medium=` and the kind of place: `social` for social media, `paid` for an ad, or `email` for an email.
 4. Add `&utm_campaign=` and a short name for this campaign, for example `spring_sale`.
@@ -119,7 +119,7 @@ Many apps hide where a click came from. A link in an Instagram story or an email
 
 The finished link looks like this:
 
-`https://yoursite.com/offer?utm_source=facebook&utm_medium=social&utm_campaign=spring_sale&utm_content=ad_1`
+`https://example.com/offer?utm_source=facebook&utm_medium=social&utm_campaign=spring_sale&utm_content=ad_1`
 
 **Tips:**
 - Use small letters and no spaces. Use `_` between words.

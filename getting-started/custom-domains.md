@@ -1,16 +1,16 @@
 # Connecting a custom domain
 
-**Last verified:** 2026-11-21 8:40pm
+**Last verified:** 2026-11-27 1:29pm
 
-A custom domain gives your website its own professional web address, like `www.yourcompany.com`, instead of the WebNesting address. This guide explains what you can do today, and where to go for the steps at your domain registrar.
+A custom domain gives your website its own professional web address, like `www.example.com`, instead of the WebNesting address. This guide explains what you can do today, and where to go for the steps at your domain registrar.
 
-> **This guide is for your WEBSITE domain only** — the address visitors type to reach your site. Setting up your domain for **email** (so support tickets arrive at `support@yourcompany.com` or marketing campaigns send from your domain) is a separate flow with different DNS records. See the [Email Setup section in the Helpdesk guide](../dashboard/helpdesk.md#connecting-your-email) for the email side. You can use the same domain for both — they don't conflict with each other.
+> **This guide is for your WEBSITE domain only**: the address visitors type to reach your site. Setting up your domain for **email** (so support tickets arrive at `support@example.com` or marketing campaigns send from your domain) is a separate flow with different DNS records. See the [Email Setup section in the Helpdesk guide](../dashboard/helpdesk.md#connecting-your-email) for the email side. You can use the same domain for both. They don't conflict with each other.
 
 ---
 
 ## What Is a Custom Domain?
 
-When you put a site on the web with **Go Live**, it gets an address like `yoursite.webnesting.site`. A custom domain replaces that with a web address you own, such as `www.yourcompany.com` or `mybusiness.com`.
+When you put a site on the web with **Go Live**, it gets an address like `yoursite.webnesting.site`. A custom domain replaces that with a web address you own, such as `www.example.com` or `example.org`.
 
 Using your own domain makes your site look more professional, builds trust with visitors, and is easier for people to remember.
 
@@ -57,7 +57,7 @@ The steps at the registrar are in [Connect a domain from another registrar](conn
 - **Try a private window.** Your browser may remember the old address. Open your domain in a private or incognito window.
 - **Security warning in the browser.** The certificate may still be on its way. Wait and try again. It can only be issued once your domain points to WebNesting.
 - **Wrong site appears.** The record may point to another host. Check the value against what Support gave you.
-- **Works without "www." but not with it, or the other way round.** Add a record for both versions, then check **Should your address start with "www."?** in **Site Configuration**. A subdomain such as `help.yourcompany.com` needs only its own record, with no "www." version.
+- **Works without "www." but not with it, or the other way round.** Add a record for both versions, then check **Should your address start with "www."?** in **Site Configuration**. A subdomain such as `help.example.com` needs only its own record, with no "www." version.
 
 Still not working after 48 hours? Email Support at support@webnesting.com. Include your domain name and a screenshot of your DNS settings so Support can help you quickly.
 

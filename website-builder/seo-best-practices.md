@@ -1,6 +1,6 @@
 # SEO best practices
 
-**Last verified:** 2026-11-23 10:01am
+**Last verified:** 2026-11-27 1:29pm
 
 Search engine optimization (SEO) is one of the most powerful ways to bring visitors to your website. This guide covers practical, easy-to-follow steps you can take right inside WebNesting to help your site show up in Google and other search engines. No technical background required -- just a willingness to put in a little effort on each page you create.
 
@@ -116,7 +116,7 @@ For detailed instructions, see **[Editing content](editing-content.md)**.
 
 ## Creating Clean URL Slugs
 
-The URL slug is the part of your web address that comes after your domain name. For example, in `yoursite.com/about-us`, the slug is `about-us`. Clean, descriptive URLs help search engines understand what a page is about and make your links easier for visitors to read and share.
+The URL slug is the part of your web address that comes after your domain name. For example, in `example.com/about-us`, the slug is `about-us`. Clean, descriptive URLs help search engines understand what a page is about and make your links easier for visitors to read and share.
 
 ### Tips for Good URL Slugs
 

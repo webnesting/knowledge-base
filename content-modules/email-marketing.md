@@ -1,6 +1,6 @@
 # Email marketing
 
-**Last verified:** 2026-11-24 5:00pm
+**Last verified:** 2026-11-27 1:29pm
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -472,7 +472,7 @@ Marketing's sending domain uses the same domain-verification flow as Helpdesk's 
 
 1. Go to **Workspace Settings → Email**.
 2. Click **+ Add Inbox** → pick **Marketing** as the product.
-3. Type the marketing sender address customers see (e.g. `campaigns@yourcompany.com` or `news@yourcompany.com`).
+3. Type the marketing sender address customers see (e.g. `campaigns@example.com` or `news@example.com`).
 4. Check the **I control DNS for this domain** confirmation box.
 5. We register your domain with our email provider and show you DNS records to publish — a domain-ownership proof record, DKIM signing keys, a bounce subdomain (MAIL FROM), SPF, and DMARC. The ownership record proves the domain is really yours, even if it's already sending from somewhere else.
 6. Publish at your DNS provider. Click **Verify now** until everything resolves (typically 5-15 minutes).

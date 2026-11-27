@@ -1,6 +1,6 @@
 # Managing pages in the builder
 
-**Last verified:** 2026-11-23 1:22pm
+**Last verified:** 2026-11-27 1:29pm
 
 The Website Builder is where you design and edit your pages visually. But it is also where you can switch between pages, create new ones, and manage how they are organized -- all without leaving the builder. This guide covers everything you need to know about working with pages inside the builder.
 
@@ -114,7 +114,7 @@ The page title is the name that appears in browser tabs, search results, and you
 
 ### Page URL (Slug)
 
-The URL slug is the part of the web address that comes after your domain. For example, if your site is `yoursite.com` and the slug is `about-us`, the full address will be `yoursite.com/about-us`.
+The URL slug is the part of the web address that comes after your domain. For example, if your site is `example.com` and the slug is `about-us`, the full address will be `example.com/about-us`.
 
 1. Open the page properties.
 2. Find the **Page URI** field.

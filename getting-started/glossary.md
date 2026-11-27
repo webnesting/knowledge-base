@@ -1,6 +1,6 @@
 # Glossary of terms
 
-**Last verified:** 2026-11-22 9:40pm
+**Last verified:** 2026-11-27 1:29pm
 
 This glossary explains common terms you will encounter while using WebNesting. If you come across a word you do not recognize, check here for a quick explanation.
 
@@ -56,7 +56,7 @@ This glossary explains common terms you will encounter while using WebNesting. I
 
 **Session** -- A single visit to your website, from the moment a visitor arrives to the moment they leave. One person can have multiple sessions over time.
 
-**Slug** (the **Page URI** field) -- The part of a URL that identifies a specific page. For example, in `yoursite.com/about-us`, the slug is `about-us`. Slugs should be short, descriptive, and use hyphens between words.
+**Slug** (the **Page URI** field): the part of a URL that identifies a specific page. For example, in `example.com/about-us`, the slug is `about-us`. Slugs should be short, descriptive, and use hyphens between words.
 
 **Styler** -- The **Styles** panel in the Website Builder, which controls how elements look. Use it to change colors, spacing, fonts, borders, shadows, and other visual properties of a selected component. Open it from the icon rail on the right.
 

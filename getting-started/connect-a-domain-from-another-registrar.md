@@ -1,6 +1,6 @@
 # Connect a domain from another registrar
 
-**Last verified:** 2026-11-15 11:36am
+**Last verified:** 2026-11-27 1:29pm
 
 You bought your domain from a registrar such as GoDaddy, Namecheap, Cloudflare or Squarespace Domains, and you want your WebNesting site to open at that address. This guide shows what to do at the registrar. The domain stays registered where you bought it. You only change its DNS records.
 
@@ -21,7 +21,7 @@ For what the app offers today, read [Connecting a custom domain](custom-domains.
 
 ## What a DNS record is
 
-DNS is the internet's address book. A DNS record is one line in that book. It says where a name, such as `www.yourcompany.com`, should send visitors. Your registrar keeps the address book for your domain. You add a line that sends visitors to your WebNesting site.
+DNS is the internet's address book. A DNS record is one line in that book. It says where a name, such as `www.example.com`, should send visitors. Your registrar keeps the address book for your domain. You add a line that sends visitors to your WebNesting site.
 
 A **CNAME** record points one name at another name. A **TXT** record holds a short piece of text, for example to prove that you own a domain. Support tells you which records your site needs.
 
@@ -34,7 +34,7 @@ A **CNAME** record points one name at another name. A **TXT** record holds a sho
 3. Open your domain's DNS settings. Registrars name this page **DNS**, **DNS management**, **DNS records** or **Advanced DNS**. It is usually inside the domain's settings.
 4. Select the button that adds a record. Its name is often **Add record** or **Add new record**.
 5. Choose the record **Type** Support gave you, for example **CNAME**.
-6. Enter the **Name** (some registrars say **Host**) exactly as Support wrote it. Enter `www` for `www.yourcompany.com`. Enter `@` for the root address, `yourcompany.com`.
+6. Enter the **Name** (some registrars say **Host**) exactly as Support wrote it. Enter `www` for `www.example.com`. Enter `@` for the root address, `example.com`.
 7. Enter the **Value** (some registrars say **Points to** or **Target**) exactly as Support wrote it.
 8. Leave **TTL** on its default, or choose **Auto**.
 9. Save the record.

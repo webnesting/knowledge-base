@@ -1,6 +1,6 @@
 # Managing pages
 
-**Last verified:** 2026-11-22 9:40pm
+**Last verified:** 2026-11-27 1:29pm
 
 Pages are the foundation of your website. Each page on your site has its own web address (URL) and contains the content your visitors see. This guide walks you through everything you need to know about creating, organizing, and managing your pages in WebNesting.
 
@@ -39,7 +39,7 @@ Adding a new page to your site takes just a few steps.
 1. In the site menu, open **Pages**, then select **Pages**.
 2. Click **+ New Page**.
 3. Enter a **Title**. This is the name visitors will see at the top of the page and in their browser tab.
-4. Set the **Page URI**. This is the part of the web address that comes after your domain name. For example, if your domain is `yoursite.com` and the **Page URI** is `about`, the page address will be `yoursite.com/about`. It fills in from the title, and you can change it.
+4. Set the **Page URI**. This is the part of the web address that comes after your domain name. For example, if your domain is `example.com` and the **Page URI** is `about`, the page address will be `example.com/about`. It fills in from the title, and you can change it.
 5. Choose a **Layout**. Layouts control the overall structure of your page, such as whether it has a sidebar, a full-width design, or a specific header and footer style.
 6. Click **Create**.
 
@@ -144,7 +144,7 @@ Child pages appear beneath their parent page in your site's navigation and in th
 
 The new page appears indented under its parent. See [Managing pages in the builder](../website-builder/page-management.md#creating-a-child-page-sub-page) for the full steps.
 
-The child page's URL will update to reflect the hierarchy. For example, the "Web Design" page might have the address `yoursite.com/services/web-design`.
+The child page's URL will update to reflect the hierarchy. For example, the "Web Design" page might have the address `example.com/services/web-design`.
 
 ### Giving a Section Its Own Header Menu
 
