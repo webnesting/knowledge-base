@@ -1,6 +1,6 @@
 # Site navigation
 
-**Last verified:** 2026-11-22 9:40pm
+**Last verified:** 2026-11-27 2:48pm
 
 Navigation is how visitors find their way around your website. Good navigation helps people quickly get to the pages they need, whether they are browsing on a desktop or a phone. This guide covers how navigation works in WebNesting, how to control which pages appear in your menus, and tips for creating a clear, easy-to-use navigation structure.
 
@@ -72,6 +72,17 @@ To make a column with a heading, such as **Company**:
 4. Save and publish.
 
 A footer menu with no headings spreads its links into even columns. The second footer menu and the **Simple** footer show only your top pages, in one row.
+
+### Starting a Menu at One Page
+
+Your header and footer menus start at your top pages. To show only the pages under one page, such as the groups under **Products**:
+
+1. Click your header or footer and open **Settings**.
+2. Under **Menu starts at**, pick the page.
+3. In the footer, set **Levels shown** to **2** so each page under it heads a column.
+4. Save and publish.
+
+To go back, pick **Top pages**. A section of your site with its own menu still shows its own pages.
 
 ### Adding a Page to the Footer
 
