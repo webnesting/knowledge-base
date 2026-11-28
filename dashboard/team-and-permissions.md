@@ -1,6 +1,6 @@
 # Team and permissions
 
-**Last verified:** 2026-11-28 5:47am
+**Last verified:** 2026-11-28 11:11am
 
 WebNesting lets you invite other people to help manage your website. You control exactly what each person can see and do by assigning them roles with specific permissions.
 
@@ -215,7 +215,7 @@ Permissions can be set at two levels:
 - **Workspace-wide** — Applies across all sites in your workspace (default)
 - **Per-site** — Applies only to a specific site
 
-When editing permissions for a role, use the **Site** list at the top right to switch between workspace-wide permissions and site-specific permissions. Workspace-wide, the grid groups rows as **Workspace**, **Workspace Modules** and **Workspace Data**. For one site, it groups them as **Admin Sections**, **Content Modules** and **Builder Access**. This is useful when you want a team member to have full access to one site but limited access to another.
+When editing permissions for a role, use the **Site** list at the top right to switch between workspace-wide permissions and site-specific permissions. Workspace-wide, the grid groups rows as **Workspace**, **Workspace Modules** and **Workspace Data**. For one site, it groups them as **Admin Sections**, **Content Modules**, **Builder Access** and **Reports**. This is useful when you want a team member to have full access to one site but limited access to another.
 
 ### Builder Access
 
@@ -230,6 +230,18 @@ When you pick a site, the matrix has a **Builder Access** group. It sets what a 
 ![The Builder Access group with the Custom Code row ringed and unticked](../images/dashboard/team-and-permissions-builder-access.png)
 
 Admins have **Custom Code** on every site. Members and new roles you create do not, until you check **Edit** on the **Custom Code** row. Site owners always have it. To give one person Custom Code without changing their role, use a member override (below).
+
+### Reports
+
+When you pick a site, the matrix also has a **Reports** group. It sets who can see that site's analytics on the dashboard:
+
+| Row | What it controls |
+|-----|------------------|
+| Analytics | See the site's visitor and traffic figures, Google Analytics ones included. Store sales and top products also need **Browse** on the **Order** row, and form conversions also need **Browse** on the **Submission** row. |
+
+The built-in Admin, Member and Viewer roles have **Analytics** on every site. A role you create gets it when you check **Browse** on the **Analytics** row. Every role you already had when this row arrived kept Analytics on each site it could open, so uncheck it on any role that should not see the figures.
+
+The list of Google Analytics properties on a connected Google account is not part of Analytics. To see it, a person needs **Read** on the **Integrations** row of the workspace-wide permissions.
 
 A change to a permission takes effect the next time the person does something on the site.
 
