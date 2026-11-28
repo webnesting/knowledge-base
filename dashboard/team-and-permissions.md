@@ -1,6 +1,6 @@
 # Team and permissions
 
-**Last verified:** 2026-11-22 9:40pm
+**Last verified:** 2026-11-28 5:47am
 
 WebNesting lets you invite other people to help manage your website. You control exactly what each person can see and do by assigning them roles with specific permissions.
 
@@ -246,6 +246,8 @@ Each permission for a member can be set to one of three states:
 - **Inherit** — Use the permission from their assigned roles (default)
 - **Allow** — Explicitly grant this permission, even if their roles do not include it
 - **Deny** — Explicitly block this permission, even if their roles include it
+
+A member can open a site while at least one of their permissions on it is allowed. If you deny every permission their roles give on a site, the site drops off their Sites list and they cannot open it.
 
 ### Setting Overrides for a Member
 
