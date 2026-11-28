@@ -1,6 +1,6 @@
 # Team and permissions
 
-**Last verified:** 2026-11-28 11:11am
+**Last verified:** 2026-11-28 12:08pm
 
 WebNesting lets you invite other people to help manage your website. You control exactly what each person can see and do by assigning them roles with specific permissions.
 
@@ -240,6 +240,8 @@ When you pick a site, the matrix also has a **Reports** group. It sets who can s
 | Analytics | See the site's visitor and traffic figures, Google Analytics ones included. Store sales and top products also need **Browse** on the **Order** row, and form conversions also need **Browse** on the **Submission** row. |
 
 The built-in Admin, Member and Viewer roles have **Analytics** on every site. A role you create gets it when you check **Browse** on the **Analytics** row. Every role you already had when this row arrived kept Analytics on each site it could open, so uncheck it on any role that should not see the figures.
+
+When a role leaves out a figure, the dashboard widget for it shows a lock and a line such as "Your role doesn't include this site's analytics." It also says that a workspace admin can turn it on under Roles.
 
 The list of Google Analytics properties on a connected Google account is not part of Analytics. To see it, a person needs **Read** on the **Integrations** row of the workspace-wide permissions.
 
