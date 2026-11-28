@@ -1,6 +1,6 @@
 # Email marketing
 
-**Last verified:** 2026-11-27 1:29pm
+**Last verified:** 2026-11-28 10:42am
 
 Email Marketing is a complete contact management and email marketing system. Use it to collect newsletter signups, manage mailing lists, organize contacts with tags, send email campaigns, and run automations -- all from your workspace.
 
@@ -320,6 +320,12 @@ A small list with one bad address never pauses. A temporary bounce, such as a fu
 **How it ends.** The pause ends by itself when enough of the bad sends are older than 7 days. You do not need to contact us. The addresses that bounced or marked your email as spam no longer get your campaigns, so your next send goes to a cleaner list. When the pause ends, open the paused campaign and click **Send Now**. It goes only to the people who did not get it yet. You can also click **Schedule for Later** now and pick a time after the pause ends.
 
 > **Tip:** Most pauses come from an old or bought list. Send only to people who asked for your email, and remove contacts that have not opened anything in a long time.
+
+### Who gets campaign notices
+
+WebNesting emails you when a campaign is paused, when a campaign did not send, and when automation emails are waiting for allowance. You always get these emails.
+
+To send them to your team as well, open the Marketing settings page and find **Campaign Notices**. Pick one or more Teams in **Also send them to these Teams**. Everyone in a chosen Team gets the same notices. If you pick no Team, only you get them.
 
 ---
 
